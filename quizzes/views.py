@@ -309,15 +309,16 @@ def claim_attempt(request, attempt_id):
     
     # Verificar se é uma tentativa anônima
     if attempt.user is not None:
-        messages.info(request, 'Esta tentativa já está associada a um usuário.')
+        # Já está associada a um usuário, apenas mostrar o resultado
+        if attempt.user == request.user:
+            messages.info(request, 'Este resultado já está salvo na sua conta.')
+        else:
+            messages.error(request, 'Esta tentativa pertence a outro usuário.')
         return redirect('quizzes:quiz_result', attempt_id=attempt.id)
     
-    # Verificar se é da mesma sessão (apenas aviso, não bloqueio)
-    # Se o usuário fez login depois, a sessão pode ter mudado
-    if attempt.session_key and attempt.session_key != request.session.session_key:
-        messages.warning(request, 'Não foi possível verificar a sessão. Se este quiz não é seu, por favor, não reivindique.')
-    
     # Associar ao usuário
+    # A sessão muda quando o usuário faz login por segurança,
+    # então não podemos verificar session_key aqui
     attempt.user = request.user
     attempt.save()
     
