@@ -354,12 +354,26 @@ def quiz_result(request, attempt_id):
     # Gerar breadcrumb
     breadcrumb = attempt.quiz.theme.get_breadcrumb()
     
+    # Determinar categoria de performance
+    percentage = attempt.get_score_percentage()
+    if percentage >= 80:
+        performance_level = 'excellent'
+        performance_message = 'Excelente! 🎉'
+    elif percentage >= 50:
+        performance_level = 'good'
+        performance_message = 'Bom trabalho! 👍'
+    else:
+        performance_level = 'needs-improvement'
+        performance_message = 'Continue praticando! 💪'
+    
     context = {
         'attempt': attempt,
         'quiz': attempt.quiz,
         'theme': attempt.quiz.theme,
         'results': results,
-        'percentage': attempt.get_score_percentage(),
+        'percentage': percentage,
+        'performance_level': performance_level,
+        'performance_message': performance_message,
         'show_login_prompt': not request.user.is_authenticated and not attempt.user,
         'products': products,
         'breadcrumb': breadcrumb,
