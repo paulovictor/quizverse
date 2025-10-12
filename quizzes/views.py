@@ -303,23 +303,23 @@ def quiz_result(request, attempt_id):
 
 
 @login_required
-@require_POST
 def claim_attempt(request, attempt_id):
     """Associa uma tentativa anônima ao usuário logado"""
     attempt = get_object_or_404(QuizAttempt, id=attempt_id)
     
-    # Verificar se é uma tentativa anônima da mesma sessão
+    # Verificar se é uma tentativa anônima
     if attempt.user is not None:
-        messages.error(request, 'Esta tentativa já está associada a um usuário.')
+        messages.info(request, 'Esta tentativa já está associada a um usuário.')
         return redirect('quizzes:quiz_result', attempt_id=attempt.id)
     
-    if attempt.session_key != request.session.session_key:
-        messages.error(request, 'Você não tem permissão para reivindicar esta tentativa.')
-        return redirect('quizzes:quiz_result', attempt_id=attempt.id)
+    # Verificar se é da mesma sessão (apenas aviso, não bloqueio)
+    # Se o usuário fez login depois, a sessão pode ter mudado
+    if attempt.session_key and attempt.session_key != request.session.session_key:
+        messages.warning(request, 'Não foi possível verificar a sessão. Se este quiz não é seu, por favor, não reivindique.')
     
     # Associar ao usuário
     attempt.user = request.user
     attempt.save()
     
-    messages.success(request, 'Tentativa registrada com sucesso na sua conta!')
+    messages.success(request, '🎉 Resultado salvo com sucesso na sua conta!')
     return redirect('quizzes:quiz_result', attempt_id=attempt.id)

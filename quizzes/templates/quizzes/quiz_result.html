@@ -392,13 +392,13 @@
         {% if show_login_prompt %}
         <div class="login-prompt">
             <h3>💾 Salve seu resultado!</h3>
-            <p>Faça login para registrar este resultado na sua conta e acompanhar seu progresso.</p>
-            <form method="post" action="{% url 'quizzes:claim_attempt' attempt_id=attempt.id %}" style="display: inline;">
-                {% csrf_token %}
-                <button type="submit" class="btn btn-primary" onclick="alert('Por favor, faça login primeiro. Esta funcionalidade será implementada em breve!')">
-                    🔐 Fazer Login e Salvar
-                </button>
-            </form>
+            <p>Faça login ou cadastre-se para registrar este resultado na sua conta e acompanhar seu progresso.</p>
+            <a href="{% url 'account_login' %}?next={% url 'quizzes:claim_attempt' attempt_id=attempt.id %}" class="btn btn-primary">
+                🔐 Fazer Login e Salvar
+            </a>
+            <a href="{% url 'account_signup' %}?next={% url 'quizzes:claim_attempt' attempt_id=attempt.id %}" class="btn btn-primary" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                ✨ Criar Conta e Salvar
+            </a>
             <a href="{% url 'quizzes:theme_detail' theme_slug=theme.slug %}" class="btn btn-secondary">
                 Continuar sem Login
             </a>
