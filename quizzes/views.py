@@ -21,12 +21,20 @@ def get_client_ip(request):
 
 def home(request):
     """Página inicial com todos os temas"""
-    themes = Theme.objects.filter(active=True).order_by('title')
+    # Se for superuser, mostrar todos os temas (incluindo inativos)
+    if request.user.is_authenticated and request.user.is_superuser:
+        themes = Theme.objects.all().order_by('title')
+    else:
+        themes = Theme.objects.filter(active=True).order_by('title')
     
     # Adicionar contagem de quizzes para cada tema
     themes_with_count = []
     for theme in themes:
-        quiz_count = theme.quizzes.filter(active=True).count()
+        # Superuser vê todos os quizzes, outros só os ativos
+        if request.user.is_authenticated and request.user.is_superuser:
+            quiz_count = theme.quizzes.all().count()
+        else:
+            quiz_count = theme.quizzes.filter(active=True).count()
         themes_with_count.append({
             'theme': theme,
             'quiz_count': quiz_count
@@ -40,8 +48,13 @@ def home(request):
 
 def theme_detail(request, theme_slug):
     """Lista todos os quizzes de um tema"""
-    theme = get_object_or_404(Theme, slug=theme_slug, active=True)
-    quizzes = theme.quizzes.filter(active=True).order_by('order', 'title')
+    # Superuser pode acessar temas inativos
+    if request.user.is_authenticated and request.user.is_superuser:
+        theme = get_object_or_404(Theme, slug=theme_slug)
+        quizzes = theme.quizzes.all().order_by('order', 'title')
+    else:
+        theme = get_object_or_404(Theme, slug=theme_slug, active=True)
+        quizzes = theme.quizzes.filter(active=True).order_by('order', 'title')
     
     # Buscar produtos relacionados ao tema
     products = Product.objects.filter(
@@ -59,8 +72,13 @@ def theme_detail(request, theme_slug):
 
 def quiz_detail(request, theme_slug, quiz_slug):
     """Página de detalhes do quiz antes de iniciar"""
-    theme = get_object_or_404(Theme, slug=theme_slug, active=True)
-    quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug, active=True)
+    # Superuser pode acessar temas e quizzes inativos
+    if request.user.is_authenticated and request.user.is_superuser:
+        theme = get_object_or_404(Theme, slug=theme_slug)
+        quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug)
+    else:
+        theme = get_object_or_404(Theme, slug=theme_slug, active=True)
+        quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug, active=True)
     
     # Buscar tentativas anteriores do usuário
     previous_attempts = None
@@ -84,8 +102,13 @@ def quiz_detail(request, theme_slug, quiz_slug):
 @require_POST
 def quiz_start(request, theme_slug, quiz_slug):
     """Inicia uma nova tentativa de quiz"""
-    theme = get_object_or_404(Theme, slug=theme_slug, active=True)
-    quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug, active=True)
+    # Superuser pode iniciar quizzes inativos
+    if request.user.is_authenticated and request.user.is_superuser:
+        theme = get_object_or_404(Theme, slug=theme_slug)
+        quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug)
+    else:
+        theme = get_object_or_404(Theme, slug=theme_slug, active=True)
+        quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug, active=True)
     
     # Verificar se há perguntas
     if quiz.get_total_questions() == 0:

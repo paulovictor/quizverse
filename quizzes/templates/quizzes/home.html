@@ -79,6 +79,16 @@
             overflow: hidden;
         }
         
+        .theme-card.inactive {
+            background: #f8f9fa;
+            opacity: 0.8;
+            border: 3px dashed #dc3545;
+        }
+        
+        .theme-card.inactive::before {
+            background: linear-gradient(90deg, #dc3545 0%, #f39c12 100%);
+        }
+        
         .theme-card::before {
             content: '';
             position: absolute;
@@ -127,6 +137,17 @@
         
         .stat-item .icon {
             font-size: 1.3rem;
+        }
+        
+        .inactive-badge {
+            display: inline-block;
+            background: #dc3545;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 10px;
         }
         
         .cta-section {
@@ -297,7 +318,10 @@
         {% if themes_with_count %}
             <div class="themes-grid">
                 {% for item in themes_with_count %}
-                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="theme-card">
+                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="theme-card{% if not item.theme.active %} inactive{% endif %}">
+                        {% if not item.theme.active %}
+                        <span class="inactive-badge">🔒 INATIVO</span>
+                        {% endif %}
                         <h2>{{ item.theme.title }}</h2>
                         <p class="description">{{ item.theme.description }}</p>
                         <div class="stats">
