@@ -20,41 +20,66 @@ def get_client_ip(request):
 
 
 def home(request):
-    """Página inicial com todos os temas"""
+    """Página inicial com categorias principais (temas sem parent)"""
     # Se for superuser, mostrar todos os temas (incluindo inativos)
     if request.user.is_authenticated and request.user.is_superuser:
-        themes = Theme.objects.all().order_by('title')
+        themes = Theme.objects.filter(parent__isnull=True).order_by('order', 'title')
     else:
-        themes = Theme.objects.filter(active=True).order_by('title')
+        themes = Theme.objects.filter(parent__isnull=True, active=True).order_by('order', 'title')
     
-    # Adicionar contagem de quizzes para cada tema
-    themes_with_count = []
+    # Adicionar contagens para cada tema
+    themes_with_info = []
     for theme in themes:
-        # Superuser vê todos os quizzes, outros só os ativos
+        # Superuser vê tudo, outros só os ativos
         if request.user.is_authenticated and request.user.is_superuser:
-            quiz_count = theme.quizzes.all().count()
+            subcategories_count = theme.subcategories.count()
+            quiz_count = theme.quizzes.count()
         else:
+            subcategories_count = theme.subcategories.filter(active=True).count()
             quiz_count = theme.quizzes.filter(active=True).count()
-        themes_with_count.append({
+        
+        themes_with_info.append({
             'theme': theme,
-            'quiz_count': quiz_count
+            'subcategories_count': subcategories_count,
+            'quiz_count': quiz_count,
+            'total_count': subcategories_count + quiz_count
         })
     
     context = {
-        'themes_with_count': themes_with_count,
+        'themes_with_info': themes_with_info,
+        'is_root': True,
     }
     return render(request, 'quizzes/home.html', context)
 
 
 def theme_detail(request, theme_slug):
-    """Lista todos os quizzes de um tema"""
+    """Lista subcategorias e quizzes de um tema"""
     # Superuser pode acessar temas inativos
     if request.user.is_authenticated and request.user.is_superuser:
         theme = get_object_or_404(Theme, slug=theme_slug)
+        subcategories = theme.subcategories.all().order_by('order', 'title')
         quizzes = theme.quizzes.all().order_by('order', 'title')
     else:
         theme = get_object_or_404(Theme, slug=theme_slug, active=True)
+        subcategories = theme.subcategories.filter(active=True).order_by('order', 'title')
         quizzes = theme.quizzes.filter(active=True).order_by('order', 'title')
+    
+    # Adicionar contagens para subcategorias
+    subcategories_with_info = []
+    for subcat in subcategories:
+        if request.user.is_authenticated and request.user.is_superuser:
+            sub_count = subcat.subcategories.count()
+            quiz_count = subcat.quizzes.count()
+        else:
+            sub_count = subcat.subcategories.filter(active=True).count()
+            quiz_count = subcat.quizzes.filter(active=True).count()
+        
+        subcategories_with_info.append({
+            'theme': subcat,
+            'subcategories_count': sub_count,
+            'quiz_count': quiz_count,
+            'total_count': sub_count + quiz_count
+        })
     
     # Buscar produtos relacionados ao tema
     products = Product.objects.filter(
@@ -62,10 +87,15 @@ def theme_detail(request, theme_slug):
         active=True
     ).order_by('order', 'title')[:3]  # Máximo 3 produtos
     
+    # Gerar breadcrumb
+    breadcrumb = theme.get_breadcrumb()
+    
     context = {
         'theme': theme,
+        'subcategories': subcategories_with_info,
         'quizzes': quizzes,
         'products': products,
+        'breadcrumb': breadcrumb,
     }
     return render(request, 'quizzes/theme_detail.html', context)
 
@@ -89,12 +119,16 @@ def quiz_detail(request, theme_slug, quiz_slug):
             completed_at__isnull=False
         ).order_by('-completed_at')[:5]
     
+    # Gerar breadcrumb
+    breadcrumb = theme.get_breadcrumb()
+    
     context = {
         'theme': theme,
         'quiz': quiz,
         'total_questions': quiz.get_total_questions(),
         'total_points': quiz.get_total_points(),
         'previous_attempts': previous_attempts,
+        'breadcrumb': breadcrumb,
     }
     return render(request, 'quizzes/quiz_detail.html', context)
 
@@ -179,6 +213,9 @@ def quiz_play(request, attempt_id):
     answers = list(current_question.answers.all())
     random.shuffle(answers)
     
+    # Gerar breadcrumb
+    breadcrumb = attempt.quiz.theme.get_breadcrumb()
+    
     context = {
         'attempt': attempt,
         'quiz': attempt.quiz,
@@ -188,6 +225,7 @@ def quiz_play(request, attempt_id):
         'current_index': current_index + 1,
         'total_questions': len(questions),
         'progress_percentage': (current_index / len(questions)) * 100,
+        'breadcrumb': breadcrumb,
     }
     return render(request, 'quizzes/quiz_play.html', context)
 
@@ -313,6 +351,9 @@ def quiz_result(request, attempt_id):
         active=True
     ).order_by('order', 'title')[:3]  # Máximo 3 produtos
     
+    # Gerar breadcrumb
+    breadcrumb = attempt.quiz.theme.get_breadcrumb()
+    
     context = {
         'attempt': attempt,
         'quiz': attempt.quiz,
@@ -321,6 +362,7 @@ def quiz_result(request, attempt_id):
         'percentage': attempt.get_score_percentage(),
         'show_login_prompt': not request.user.is_authenticated and not attempt.user,
         'products': products,
+        'breadcrumb': breadcrumb,
     }
     return render(request, 'quizzes/quiz_result.html', context)
 

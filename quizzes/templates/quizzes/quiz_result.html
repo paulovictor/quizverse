@@ -14,10 +14,78 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
             min-height: 100vh;
             padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb-nav {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .breadcrumb-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            color: #3b82f6;
+            text-decoration: none;
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .breadcrumb-item:hover {
+            background: #dbeafe;
+        }
+
+        .breadcrumb-item.active {
+            color: #1a1a2e;
+            font-weight: 600;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .breadcrumb-separator {
+            color: #cbd5e0;
+            font-size: 1rem;
         }
         
         .container {
@@ -27,7 +95,6 @@
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             padding: 40px;
-            margin-top: 30px;
             margin-bottom: 30px;
         }
         
@@ -188,33 +255,6 @@
             flex-wrap: wrap;
         }
         
-        .messages {
-            margin-bottom: 20px;
-        }
-        
-        .message {
-            padding: 15px 20px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-        }
-        
-        .message-success {
-            background: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-        
-        .message-error {
-            background: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-        
-        .message-warning {
-            background: #fff3cd;
-            color: #856404;
-            border: 1px solid #ffeeba;
-        }
         
         .products-section {
             margin: 30px 0;
@@ -346,21 +386,48 @@
             .products-section h2 {
                 font-size: 1.3rem;
             }
+            
+            .header {
+                padding: 1rem;
+            }
+
+            .breadcrumb-nav {
+                padding: 0.75rem 1rem;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Header -->
+    <div class="header">
+        <a href="{% url 'quizzes:home' %}" class="logo">
+            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App" class="logo-icon">
+            <span>Quiz App</span>
+        </a>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-nav">
+        <a href="{% url 'quizzes:home' %}" class="breadcrumb-item">
+            🏠 Início
+        </a>
+        {% for item in breadcrumb %}
+            <span class="breadcrumb-separator">›</span>
+            <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-item">
+                {{ item.icon }} {{ item.title }}
+            </a>
+        {% endfor %}
+        <span class="breadcrumb-separator">›</span>
+        <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}" class="breadcrumb-item">
+            📚 {{ quiz.title }}
+        </a>
+        <span class="breadcrumb-separator">›</span>
+        <span class="breadcrumb-item active">
+            🎉 Resultado
+        </span>
+    </div>
+
     <div class="container">
-        {% if messages %}
-        <div class="messages">
-            {% for message in messages %}
-            <div class="message message-{{ message.tags }}">
-                {{ message }}
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-        
         <div class="result-header">
             <h1>🎉 Quiz Finalizado!</h1>
             <div class="score-display">{{ percentage }}%</div>

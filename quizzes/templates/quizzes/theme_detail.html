@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ theme.title }} - Quiz</title>
+    <title>{{ theme.title }} - Quiz App</title>
     <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
     <style>
         * {
@@ -12,184 +12,340 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
             min-height: 100vh;
             padding: 20px;
         }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+
+        /* Header */
+        .header {
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            padding: 40px;
-            margin-top: 50px;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        
-        h1 {
-            color: #333;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .breadcrumb-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+            color: #3b82f6;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .breadcrumb-item:hover {
+            background: #f0f4ff;
+            transform: translateY(-2px);
+        }
+
+        .breadcrumb-item.active {
+            color: #1a1a2e;
+            font-weight: 600;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .breadcrumb-separator {
+            color: #cbd5e0;
+            font-size: 1.2rem;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Page Header */
+        .page-header {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .page-header.inactive {
+            border: 3px solid #dc3545;
+            background: #f8f9fa;
+        }
+
+        .page-icon {
+            font-size: 4rem;
+            filter: drop-shadow(0 2px 4px rgba(59, 130, 246, 0.2));
+        }
+
+        .page-info h1 {
+            color: #1a1a2e;
             font-size: 2.5rem;
-            margin-bottom: 20px;
-            text-align: center;
+            margin-bottom: 0.5rem;
         }
-        
-        .description {
-            color: #666;
+
+        .page-info p {
+            color: #64748b;
             font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 30px;
-            text-align: center;
+            line-height: 1.5;
         }
-        
-        .slug-info {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 10px;
-            margin-top: 30px;
-            text-align: center;
-            color: #666;
-            font-size: 0.9rem;
+
+        .inactive-badge {
+            background: #dc3545;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 0.5rem;
         }
-        
-        .quizzes-section {
-            margin-top: 40px;
-            padding-top: 40px;
-            border-top: 2px solid #eee;
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
         }
-        
-        .quizzes-section h2 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        
-        .empty-message {
-            text-align: center;
-            color: #999;
-            padding: 40px;
-            font-style: italic;
-        }
-        
-        .quiz-card {
-            background: #fff;
-            border: 2px solid #eee;
-            border-radius: 15px;
-            padding: 25px;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
+
+        /* Category Card */
+        .category-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
             cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            display: block;
         }
-        
-        .quiz-card.inactive {
-            background: #f8f9fa;
-            opacity: 0.8;
+
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6, #06b6d4);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .category-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .category-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        .category-card.inactive {
+            opacity: 0.7;
             border: 3px dashed #dc3545;
         }
-        
-        .quiz-card:hover {
-            border-color: #3b82f6;
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+
+        .category-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
         }
-        
-        .quiz-card h3 {
-            color: #333;
-            margin-bottom: 10px;
+
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
         }
-        
-        .quiz-card .description {
-            text-align: left;
-            font-size: 1rem;
-            margin-bottom: 15px;
+
+        .category-description {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            line-height: 1.5;
         }
-        
-        .quiz-meta {
+
+        .category-meta {
             display: flex;
-            gap: 15px;
             flex-wrap: wrap;
-            color: #666;
-            font-size: 0.9rem;
+            gap: 0.75rem;
         }
-        
-        .quiz-meta span {
-            display: inline-flex;
+
+        .meta-badge {
+            display: flex;
             align-items: center;
-            gap: 5px;
-        }
-        
-        .difficulty-badge {
-            padding: 5px 12px;
+            gap: 0.35rem;
+            background: #dbeafe;
+            color: #3b82f6;
+            padding: 0.4rem 0.8rem;
             border-radius: 20px;
             font-size: 0.85rem;
             font-weight: 600;
         }
-        
+
+        /* Quiz Card */
+        .quiz-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
+            text-decoration: none;
+            display: block;
+        }
+
+        .quiz-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
+            border-color: #3b82f6;
+        }
+
+        .quiz-card.inactive {
+            opacity: 0.7;
+            border: 3px dashed #dc3545;
+        }
+
+        .quiz-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .quiz-icon {
+            font-size: 2.5rem;
+        }
+
+        .quiz-info h3 {
+            font-size: 1.25rem;
+            color: #1a1a2e;
+            margin-bottom: 0.25rem;
+        }
+
+        .quiz-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.85rem;
+            color: #64748b;
+            flex-wrap: wrap;
+        }
+
+        .quiz-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .quiz-description {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+
         .difficulty-easy {
             background: #d4edda;
             color: #155724;
+            padding: 0.3rem 0.7rem;
+            border-radius: 15px;
+            font-weight: 600;
         }
-        
+
         .difficulty-medium {
             background: #fff3cd;
             color: #856404;
+            padding: 0.3rem 0.7rem;
+            border-radius: 15px;
+            font-weight: 600;
         }
-        
+
         .difficulty-hard {
             background: #f8d7da;
             color: #721c24;
+            padding: 0.3rem 0.7rem;
+            border-radius: 15px;
+            font-weight: 600;
         }
-        
-        .inactive-badge {
-            display: inline-block;
-            background: #dc3545;
+
+        /* Section Title */
+        .section-title {
             color: white;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-right: 10px;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
         }
-        
-        .back-link {
-            display: inline-block;
-            color: #3b82f6;
-            text-decoration: none;
-            margin-bottom: 20px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-        
-        .back-link:hover {
-            transform: translateX(-5px);
-        }
-        
+
+        /* Products Preview */
         .products-preview {
-            margin-top: 50px;
-            padding-top: 40px;
-            border-top: 2px solid #eee;
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            margin-top: 3rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        
+
         .products-preview h2 {
-            color: #333;
+            color: #1a1a2e;
             font-size: 1.5rem;
-            margin-bottom: 10px;
+            margin-bottom: 0.5rem;
         }
-        
+
         .products-preview p {
-            color: #666;
-            font-size: 0.9rem;
-            margin-bottom: 25px;
+            color: #64748b;
+            margin-bottom: 1.5rem;
         }
-        
+
         .products-horizontal {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
+            gap: 1.5rem;
         }
-        
+
         .product-mini-card {
             background: #f8f9fa;
             border-radius: 12px;
@@ -200,105 +356,217 @@
             flex-direction: column;
             border: 2px solid transparent;
         }
-        
+
         .product-mini-card:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
             border-color: #3b82f6;
         }
-        
+
         .product-mini-image {
             width: 100%;
-            height: 120px;
+            height: 150px;
             object-fit: contain;
             background: white;
-            padding: 12px;
+            padding: 1rem;
         }
-        
+
         .product-mini-info {
-            padding: 12px;
+            padding: 1rem;
             background: white;
         }
-        
+
         .product-mini-title {
-            color: #333;
-            font-size: 0.85rem;
+            color: #1a1a2e;
+            font-size: 0.9rem;
             font-weight: 600;
-            margin-bottom: 6px;
-            line-height: 1.2;
-            height: 32px;
-            overflow: hidden;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
         }
-        
+
         .product-mini-price {
             color: #10b981;
             font-size: 1.1rem;
             font-weight: 700;
-            margin-bottom: 8px;
+            margin-bottom: 0.5rem;
         }
-        
+
         .product-mini-button {
             background: #3b82f6;
             color: white;
-            padding: 6px 12px;
+            padding: 0.5rem;
             border-radius: 6px;
             text-align: center;
             font-weight: 600;
-            font-size: 0.8rem;
-            transition: all 0.3s ease;
+            font-size: 0.85rem;
         }
-        
-        .product-mini-card:hover .product-mini-button {
-            background: #2563eb;
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 16px;
+            margin: 2rem 0;
         }
-        
+
+        .empty-state-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        .empty-state h3 {
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+        }
+
+        .empty-state p {
+            color: #64748b;
+        }
+
         @media (max-width: 768px) {
+            .page-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .page-info h1 {
+                font-size: 2rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
             .products-horizontal {
                 grid-template-columns: 1fr;
+            }
+
+            .breadcrumb {
+                padding: 0.75rem 1rem;
             }
         }
     </style>
 </head>
 <body>
+    <!-- Header -->
+    <div class="header">
+        <a href="{% url 'quizzes:home' %}" class="logo">
+            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App" class="logo-icon">
+            <span>Quiz App</span>
+        </a>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="{% url 'quizzes:home' %}" class="breadcrumb-item">
+            🏠 Início
+        </a>
+        {% for item in breadcrumb %}
+            <span class="breadcrumb-separator">›</span>
+            {% if forloop.last %}
+                <span class="breadcrumb-item active">
+                    {{ item.icon }} {{ item.title }}
+                </span>
+            {% else %}
+                <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-item">
+                    {{ item.icon }} {{ item.title }}
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+
     <div class="container">
-        <a href="{% url 'quizzes:home' %}" class="back-link">← Voltar aos Temas</a>
-        <h1>{{ theme.title }}</h1>
-        <p class="description">{{ theme.description }}</p>
-        
-        <div class="quizzes-section">
-            <h2>Quizzes Disponíveis</h2>
-            
-            {% if quizzes %}
-                {% for quiz in quizzes %}
-                    <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}" style="text-decoration: none;">
-                        <div class="quiz-card{% if not quiz.active %} inactive{% endif %}">
-                            <h3>
-                                {% if not quiz.active %}<span class="inactive-badge">🔒 INATIVO</span>{% endif %}
-                                {{ quiz.title }}
-                            </h3>
-                            <p class="description">{{ quiz.description }}</p>
+        <!-- Page Header -->
+        <div class="page-header{% if not theme.active %} inactive{% endif %}">
+            <div class="page-icon">{{ theme.icon }}</div>
+            <div class="page-info">
+                {% if not theme.active %}
+                <span class="inactive-badge">🔒 TEMA INATIVO</span>
+                {% endif %}
+                <h1>{{ theme.title }}</h1>
+                <p>{{ theme.description }}</p>
+            </div>
+        </div>
+
+        <!-- Subcategories -->
+        {% if subcategories %}
+        <h2 class="section-title">📂 Subcategorias</h2>
+        <div class="cards-grid">
+            {% for item in subcategories %}
+                <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card{% if not item.theme.active %} inactive{% endif %}">
+                    {% if not item.theme.active %}
+                    <span class="inactive-badge">🔒 INATIVO</span>
+                    {% endif %}
+                    
+                    <div class="category-icon">{{ item.theme.icon }}</div>
+                    <div class="category-title">{{ item.theme.title }}</div>
+                    <div class="category-description">{{ item.theme.description }}</div>
+                    
+                    <div class="category-meta">
+                        {% if item.subcategories_count > 0 %}
+                        <span class="meta-badge">
+                            📂 {{ item.subcategories_count }} subcategoria{{ item.subcategories_count|pluralize }}
+                        </span>
+                        {% endif %}
+                        {% if item.quiz_count > 0 %}
+                        <span class="meta-badge">
+                            📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}
+                        </span>
+                        {% endif %}
+                        {% if item.total_count > 0 %}
+                        <span class="meta-badge">
+                            🚀 Explorar
+                        </span>
+                        {% endif %}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Quizzes -->
+        {% if quizzes %}
+        <h2 class="section-title">📝 Quizzes Disponíveis</h2>
+        <div class="cards-grid">
+            {% for quiz in quizzes %}
+                <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}" class="quiz-card{% if not quiz.active %} inactive{% endif %}">
+                    {% if not quiz.active %}
+                    <span class="inactive-badge">🔒 INATIVO</span>
+                    {% endif %}
+                    
+                    <div class="quiz-header">
+                        <div class="quiz-icon">📚</div>
+                        <div class="quiz-info">
+                            <h3>{{ quiz.title }}</h3>
                             <div class="quiz-meta">
-                                <span class="difficulty-badge difficulty-{{ quiz.difficulty }}">
+                                <span class="difficulty-{{ quiz.difficulty }}">
                                     {% if quiz.difficulty == 'easy' %}Fácil
                                     {% elif quiz.difficulty == 'medium' %}Médio
                                     {% else %}Difícil{% endif %}
                                 </span>
                                 <span>📝 {{ quiz.get_total_questions }} pergunta{{ quiz.get_total_questions|pluralize }}</span>
                                 <span>⭐ {{ quiz.get_total_points }} ponto{{ quiz.get_total_points|pluralize }}</span>
-                                {% if quiz.time_limit > 0 %}
-                                    <span>⏱️ {{ quiz.time_limit }} segundo{{ quiz.time_limit|pluralize }}</span>
-                                {% endif %}
                             </div>
                         </div>
-                    </a>
-                {% endfor %}
-            {% else %}
-                <div class="empty-message">
-                    Em breve, quizzes sobre {{ theme.title }} estarão disponíveis aqui!
-                </div>
-            {% endif %}
+                    </div>
+                    <div class="quiz-description">{{ quiz.description }}</div>
+                </a>
+            {% endfor %}
         </div>
-        
+        {% endif %}
+
+        <!-- Empty State -->
+        {% if not subcategories and not quizzes %}
+        <div class="empty-state">
+            <div class="empty-state-icon">📝</div>
+            <h3>Nenhum conteúdo disponível ainda</h3>
+            <p>Em breve, novos quizzes e subcategorias estarão disponíveis aqui!</p>
+        </div>
+        {% endif %}
+
+        <!-- Products -->
         {% if products %}
         <div class="products-preview">
             <h2>Você também pode gostar</h2>
@@ -321,4 +589,3 @@
     </div>
 </body>
 </html>
-

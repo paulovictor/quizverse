@@ -10,6 +10,9 @@ class Theme(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
     slug = models.SlugField(unique=True, max_length=255)
+    icon = models.CharField(max_length=10, default='📚', help_text='Emoji do tema')
+    parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='subcategories', help_text='Tema pai (deixe vazio para categoria principal)')
+    order = models.IntegerField(default=0, help_text='Ordem de exibição')
     active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -17,13 +20,36 @@ class Theme(models.Model):
     class Meta:
         verbose_name = "Theme"
         verbose_name_plural = "Themes"
-        ordering = ['title']
+        ordering = ['order', 'title']
 
     def __str__(self):
+        if self.parent:
+            return f"{self.parent.title} > {self.title}"
         return self.title
 
     def get_absolute_url(self):
         return reverse('quizzes:theme_detail', kwargs={'theme_slug': self.slug})
+    
+    def get_breadcrumb(self):
+        """Retorna a lista de temas para o breadcrumb"""
+        breadcrumb = [self]
+        current = self.parent
+        while current:
+            breadcrumb.insert(0, current)
+            current = current.parent
+        return breadcrumb
+    
+    def is_root(self):
+        """Verifica se é uma categoria principal"""
+        return self.parent is None
+    
+    def get_children_count(self):
+        """Retorna o número de subcategorias"""
+        return self.subcategories.filter(active=True).count()
+    
+    def get_quizzes_count(self):
+        """Retorna o número de quizzes ativos"""
+        return self.quizzes.filter(active=True).count()
 
 
 class Quiz(models.Model):

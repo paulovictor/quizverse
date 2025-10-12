@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App - Teste seus Conhecimentos</title>
+    <title>Quiz App - Explore os Temas</title>
     <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
     <style>
         * {
@@ -12,346 +12,363 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
             min-height: 100vh;
             padding: 20px;
         }
-        
+
+        /* Header */
         .header {
-            text-align: center;
-            color: white;
-            margin-bottom: 60px;
-            padding: 40px 20px;
-        }
-        
-        .header-content {
+            background: white;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
             display: flex;
-            flex-direction: column;
+            justify-content: space-between;
             align-items: center;
-            gap: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        
-        .header-content img {
-            width: 100px;
-            height: 100px;
-            filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2));
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+            text-decoration: none;
         }
-        
-        .header h1 {
-            font-size: 3.5rem;
-            font-weight: 800;
-            margin-bottom: 15px;
-            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
         }
-        
-        .header p {
-            font-size: 1.3rem;
-            opacity: 0.95;
-            max-width: 600px;
-            margin: 0 auto;
+
+        .user-menu {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
         }
-        
+
+        .user-info {
+            color: #3b82f6;
+            font-weight: 600;
+        }
+
+        .nav-link {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background: #f0f4ff;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #3b82f6, #06b6d4);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+        }
+
+        /* Main Container */
         .container {
             max-width: 1200px;
             margin: 0 auto;
         }
-        
-        .themes-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 30px;
-            padding: 20px;
+
+        .page-title {
+            text-align: center;
+            color: white;
+            margin-bottom: 2rem;
         }
-        
-        .theme-card {
+
+        .page-title h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .page-title p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Category Card */
+        .category-card {
             background: white;
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
-            transition: all 0.3s ease;
+            border-radius: 16px;
+            padding: 2rem;
             cursor: pointer;
-            text-decoration: none;
-            display: block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             position: relative;
             overflow: hidden;
+            text-decoration: none;
+            display: block;
         }
-        
-        .theme-card.inactive {
-            background: #f8f9fa;
-            opacity: 0.8;
-            border: 3px dashed #dc3545;
-        }
-        
-        .theme-card.inactive::before {
-            background: linear-gradient(90deg, #dc3545 0%, #f39c12 100%);
-        }
-        
-        .theme-card::before {
+
+        .category-card::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
-            height: 6px;
-            background: linear-gradient(90deg, #3b82f6 0%, #06b6d4 100%);
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6, #06b6d4);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
         }
-        
-        .theme-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 60px rgba(59, 130, 246, 0.3);
+
+        .category-card:hover::before {
+            transform: scaleX(1);
         }
-        
-        .theme-card h2 {
-            color: #1f2937;
-            font-size: 2rem;
-            margin-bottom: 15px;
+
+        .category-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        .category-card.inactive {
+            opacity: 0.7;
+            border: 3px dashed #dc3545;
+        }
+
+        .category-card.inactive::before {
+            background: linear-gradient(90deg, #dc3545, #f39c12);
+        }
+
+        .category-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 2px 4px rgba(59, 130, 246, 0.2));
+        }
+
+        .category-title {
+            font-size: 1.5rem;
             font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
         }
-        
-        .theme-card .description {
-            color: #6b7280;
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 25px;
+
+        .category-description {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            line-height: 1.5;
         }
-        
-        .theme-card .stats {
+
+        .category-meta {
             display: flex;
-            gap: 20px;
-            align-items: center;
-            padding-top: 20px;
-            border-top: 2px solid #f3f4f6;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1rem;
         }
-        
-        .stat-item {
+
+        .meta-badge {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 0.35rem;
+            background: #dbeafe;
             color: #3b82f6;
-            font-weight: 600;
-            font-size: 1rem;
-        }
-        
-        .stat-item .icon {
-            font-size: 1.3rem;
-        }
-        
-        .inactive-badge {
-            display: inline-block;
-            background: #dc3545;
-            color: white;
-            padding: 5px 12px;
+            padding: 0.4rem 0.8rem;
             border-radius: 20px;
             font-size: 0.85rem;
             font-weight: 600;
-            margin-bottom: 10px;
         }
-        
-        .cta-section {
-            text-align: center;
-            margin-top: 60px;
-            padding: 40px;
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
+
+        .inactive-badge {
+            background: #dc3545;
             color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 0.5rem;
         }
-        
-        .cta-section h3 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-        }
-        
-        .cta-section p {
-            font-size: 1.1rem;
-            opacity: 0.95;
-        }
-        
+
+        /* Empty State */
         .empty-state {
             text-align: center;
-            padding: 80px 20px;
-            color: white;
-        }
-        
-        .empty-state h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        
-        .empty-state p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            max-width: 500px;
-            margin: 0 auto 30px;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 15px 35px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            border: 2px solid white;
-            border-radius: 50px;
-            color: white;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-        
-        .btn:hover {
+            padding: 4rem 2rem;
             background: white;
-            color: #3b82f6;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2.5rem;
-            }
-            
-            .header p {
-                font-size: 1.1rem;
-            }
-            
-            .themes-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            
-            .theme-card {
-                padding: 30px;
-            }
+
+        .empty-state-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
         }
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            background: rgba(255, 255, 255, 0.95);
+
+        .empty-state h3 {
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .empty-state p {
+            color: #64748b;
+            font-size: 1rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.15);
             backdrop-filter: blur(10px);
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
-        }
-        
-        .navbar-brand {
-            font-size: 1.3rem;
-            font-weight: 800;
-            color: #3b82f6;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .navbar-brand img {
-            width: 40px;
-            height: 40px;
-        }
-        
-        .navbar-menu {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-        }
-        
-        .nav-link {
-            color: #3b82f6;
-            text-decoration: none;
-            font-weight: 600;
-            padding: 8px 16px;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-        
-        .nav-link:hover {
-            background: rgba(59, 130, 246, 0.1);
-        }
-        
-        .nav-link.btn {
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+            border-radius: 16px;
+            text-align: center;
             color: white;
         }
-        
-        .nav-link.btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+
+        .cta-section h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
         }
-        
-        body {
-            padding-top: 70px;
+
+        .cta-section p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .page-title h1 {
+                font-size: 2rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .user-menu {
+                flex-direction: column;
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="{% url 'quizzes:home' %}" class="navbar-brand">
-            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App Logo">
-            Quiz App
+    <!-- Header -->
+    <div class="header">
+        <a href="{% url 'quizzes:home' %}" class="logo">
+            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App" class="logo-icon">
+            <span>Quiz App</span>
         </a>
-        <div class="navbar-menu">
+        <div class="user-menu">
             {% if user.is_authenticated %}
-                <span class="nav-link">Olá, {{ user.email|truncatechars:20 }}</span>
+                <span class="user-info">Olá, {{ user.email|truncatechars:20 }} 👋</span>
                 <a href="{% url 'account_logout' %}" class="nav-link">Sair</a>
             {% else %}
                 <a href="{% url 'account_login' %}" class="nav-link">Entrar</a>
-                <a href="{% url 'account_signup' %}" class="nav-link btn">Cadastrar</a>
+                <a href="{% url 'account_signup' %}" class="btn-primary">Cadastrar</a>
             {% endif %}
         </div>
-    </nav>
-    
-    <div class="header">
-        <div class="header-content">
-            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App Logo">
-            <h1>Quiz App</h1>
-        </div>
-        <p>Desafie seus conhecimentos e aprenda se divertindo!</p>
     </div>
-    
+
+    <!-- Main Container -->
     <div class="container">
-        {% if themes_with_count %}
-            <div class="themes-grid">
-                {% for item in themes_with_count %}
-                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="theme-card{% if not item.theme.active %} inactive{% endif %}">
+        <!-- Page Title -->
+        <div class="page-title">
+            <h1>Explore os Temas</h1>
+            <p>Escolha uma categoria para começar sua jornada de aprendizado</p>
+        </div>
+
+        <!-- Cards Grid -->
+        {% if themes_with_info %}
+            <div class="cards-grid">
+                {% for item in themes_with_info %}
+                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card{% if not item.theme.active %} inactive{% endif %}">
                         {% if not item.theme.active %}
                         <span class="inactive-badge">🔒 INATIVO</span>
                         {% endif %}
-                        <h2>{{ item.theme.title }}</h2>
-                        <p class="description">{{ item.theme.description }}</p>
-                        <div class="stats">
-                            <div class="stat-item">
-                                <span class="icon">📝</span>
-                                <span>{{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}</span>
-                            </div>
+                        
+                        <div class="category-icon">{{ item.theme.icon }}</div>
+                        <div class="category-title">{{ item.theme.title }}</div>
+                        <div class="category-description">{{ item.theme.description }}</div>
+                        
+                        <div class="category-meta">
+                            {% if item.subcategories_count > 0 %}
+                            <span class="meta-badge">
+                                📂 {{ item.subcategories_count }} subcategoria{{ item.subcategories_count|pluralize }}
+                            </span>
+                            {% endif %}
                             {% if item.quiz_count > 0 %}
-                            <div class="stat-item">
-                                <span class="icon">🚀</span>
-                                <span>Começar agora</span>
-                            </div>
+                            <span class="meta-badge">
+                                📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}
+                            </span>
+                            {% endif %}
+                            {% if item.total_count > 0 %}
+                            <span class="meta-badge">
+                                🚀 Explorar agora
+                            </span>
                             {% endif %}
                         </div>
                     </a>
                 {% endfor %}
             </div>
-            
+
             <div class="cta-section">
                 <h3>✨ Comece sua jornada de aprendizado</h3>
                 <p>Escolha um tema acima e teste seus conhecimentos com quizzes interativos!</p>
             </div>
         {% else %}
             <div class="empty-state">
-                <h2>🎨 Nenhum tema disponível ainda</h2>
+                <div class="empty-state-icon">🎨</div>
+                <h3>Nenhum tema disponível ainda</h3>
                 <p>Os temas de quiz ainda estão sendo criados. Volte em breve para testar seus conhecimentos!</p>
-                <a href="/admin/" class="btn">Acessar Admin</a>
+                {% if user.is_superuser %}
+                <br>
+                <a href="/admin/" class="btn-primary" style="display: inline-block; margin-top: 1rem;">Acessar Admin</a>
+                {% endif %}
             </div>
         {% endif %}
     </div>
 </body>
 </html>
-
