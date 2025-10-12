@@ -166,6 +166,7 @@ SOCIALACCOUNT_AUTO_SIGNUP = True
 SOCIALACCOUNT_LOGIN_ON_GET = True  # Pula página de confirmação
 
 # Social account settings
+
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'SCOPE': [
@@ -175,11 +176,6 @@ SOCIALACCOUNT_PROVIDERS = {
         'AUTH_PARAMS': {
             'access_type': 'online',
         },
-        'APP': {
-            'client_id': 'seu-client-id-google-aqui',
-            'secret': 'sua-secret-key-google-aqui',
-            'key': ''
-        }
     },
     'facebook': {
         'METHOD': 'oauth2',
@@ -196,10 +192,5 @@ SOCIALACCOUNT_PROVIDERS = {
         'EXCHANGE_TOKEN': True,
         'VERIFIED_EMAIL': False,
         'VERSION': 'v13.0',
-        'APP': {
-            'client_id': 'seu-app-id-facebook-aqui',
-            'secret': 'sua-secret-key-facebook-aqui',
-            'key': ''
-        }
     },
 }
