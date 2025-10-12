@@ -5,7 +5,7 @@ from django.utils import timezone
 from django.http import JsonResponse, HttpResponseBadRequest
 from django.views.decorators.http import require_POST
 from django.db.models import Sum
-from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer
+from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Product
 import random
 
 
@@ -19,14 +19,40 @@ def get_client_ip(request):
     return ip
 
 
+def home(request):
+    """Página inicial com todos os temas"""
+    themes = Theme.objects.filter(active=True).order_by('title')
+    
+    # Adicionar contagem de quizzes para cada tema
+    themes_with_count = []
+    for theme in themes:
+        quiz_count = theme.quizzes.filter(active=True).count()
+        themes_with_count.append({
+            'theme': theme,
+            'quiz_count': quiz_count
+        })
+    
+    context = {
+        'themes_with_count': themes_with_count,
+    }
+    return render(request, 'quizzes/home.html', context)
+
+
 def theme_detail(request, theme_slug):
     """Lista todos os quizzes de um tema"""
     theme = get_object_or_404(Theme, slug=theme_slug, active=True)
     quizzes = theme.quizzes.filter(active=True).order_by('order', 'title')
     
+    # Buscar produtos relacionados ao tema
+    products = Product.objects.filter(
+        theme=theme,
+        active=True
+    ).order_by('order', 'title')[:3]  # Máximo 3 produtos
+    
     context = {
         'theme': theme,
         'quizzes': quizzes,
+        'products': products,
     }
     return render(request, 'quizzes/theme_detail.html', context)
 
@@ -110,7 +136,7 @@ def quiz_play(request, attempt_id):
     
     # Pegar respostas já dadas
     answered_question_ids = set(
-        attempt.user_answers.values_list('question_id', dtype=str).all()
+        str(qid) for qid in attempt.user_answers.values_list('question_id', flat=True)
     )
     
     # Encontrar próxima pergunta não respondida
@@ -258,6 +284,12 @@ def quiz_result(request, attempt_id):
             'all_answers': question.answers.all(),
         })
     
+    # Buscar produtos relacionados ao tema
+    products = Product.objects.filter(
+        theme=attempt.quiz.theme,
+        active=True
+    ).order_by('order', 'title')[:3]  # Máximo 3 produtos
+    
     context = {
         'attempt': attempt,
         'quiz': attempt.quiz,
@@ -265,6 +297,7 @@ def quiz_result(request, attempt_id):
         'results': results,
         'percentage': attempt.get_score_percentage(),
         'show_login_prompt': not request.user.is_authenticated and not attempt.user,
+        'products': products,
     }
     return render(request, 'quizzes/quiz_result.html', context)
 

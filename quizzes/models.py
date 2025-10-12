@@ -176,3 +176,24 @@ class UserAnswer(models.Model):
         self.is_correct = self.selected_answer.is_correct
         self.points_earned = self.question.points if self.is_correct else 0
         super().save(*args, **kwargs)
+
+
+class Product(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    theme = models.ForeignKey(Theme, on_delete=models.CASCADE, related_name='products')
+    title = models.CharField(max_length=255, verbose_name='Título do Produto')
+    price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name='Preço')
+    image_url = models.URLField(max_length=500, verbose_name='URL da Imagem')
+    product_url = models.URLField(max_length=500, verbose_name='Link do Produto')
+    active = models.BooleanField(default=True)
+    order = models.IntegerField(default=0, help_text='Ordem de exibição')
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        verbose_name = "Product"
+        verbose_name_plural = "Products"
+        ordering = ['theme', 'order', 'title']
+
+    def __str__(self):
+        return f"{self.theme.title} - {self.title} (R$ {self.price})"

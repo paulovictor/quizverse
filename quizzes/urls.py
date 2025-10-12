@@ -4,6 +4,9 @@ from . import views
 app_name = 'quizzes'
 
 urlpatterns = [
+    # Home
+    path('', views.home, name='home'),
+    
     # Theme
     path('<slug:theme_slug>/', views.theme_detail, name='theme_detail'),
     

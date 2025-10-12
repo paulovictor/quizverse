@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer
+from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Product
 
 
 @admin.register(Theme)
@@ -106,3 +106,12 @@ class UserAnswerAdmin(admin.ModelAdmin):
     def question_display(self, obj):
         return obj.question.text[:40] + '...' if len(obj.question.text) > 40 else obj.question.text
     question_display.short_description = 'Pergunta'
+
+
+@admin.register(Product)
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ['title', 'theme', 'price', 'active', 'order', 'created_at']
+    list_filter = ['active', 'theme', 'created_at']
+    search_fields = ['title', 'theme__title']
+    list_editable = ['active', 'order']
+    readonly_fields = ['created_at', 'updated_at']

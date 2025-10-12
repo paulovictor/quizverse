@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App - Teste seus Conhecimentos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 60px;
+            padding: 40px 20px;
+        }
+        
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header p {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .themes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+        
+        .theme-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .theme-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, #3b82f6 0%, #06b6d4 100%);
+        }
+        
+        .theme-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(59, 130, 246, 0.3);
+        }
+        
+        .theme-card h2 {
+            color: #1f2937;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .theme-card .description {
+            color: #6b7280;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        
+        .theme-card .stats {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            padding-top: 20px;
+            border-top: 2px solid #f3f4f6;
+        }
+        
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #3b82f6;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .stat-item .icon {
+            font-size: 1.3rem;
+        }
+        
+        .cta-section {
+            text-align: center;
+            margin-top: 60px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            color: white;
+        }
+        
+        .cta-section h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        
+        .cta-section p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+            color: white;
+        }
+        
+        .empty-state h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .empty-state p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 500px;
+            margin: 0 auto 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: 2px solid white;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: white;
+            color: #3b82f6;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .header p {
+                font-size: 1.1rem;
+            }
+            
+            .themes-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .theme-card {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎯 Quiz App</h1>
+        <p>Desafie seus conhecimentos e aprenda se divertindo!</p>
+    </div>
+    
+    <div class="container">
+        {% if themes_with_count %}
+            <div class="themes-grid">
+                {% for item in themes_with_count %}
+                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="theme-card">
+                        <h2>{{ item.theme.title }}</h2>
+                        <p class="description">{{ item.theme.description }}</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="icon">📝</span>
+                                <span>{{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}</span>
+                            </div>
+                            {% if item.quiz_count > 0 %}
+                            <div class="stat-item">
+                                <span class="icon">🚀</span>
+                                <span>Começar agora</span>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+            
+            <div class="cta-section">
+                <h3>✨ Comece sua jornada de aprendizado</h3>
+                <p>Escolha um tema acima e teste seus conhecimentos com quizzes interativos!</p>
+            </div>
+        {% else %}
+            <div class="empty-state">
+                <h2>🎨 Nenhum tema disponível ainda</h2>
+                <p>Os temas de quiz ainda estão sendo criados. Volte em breve para testar seus conhecimentos!</p>
+                <a href="/admin/" class="btn">Acessar Admin</a>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+
