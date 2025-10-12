@@ -110,17 +110,6 @@
         line-height: 1.6;
     }
 
-    .inactive-badge {
-        background: #dc3545;
-        color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 8px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        display: inline-block;
-        margin-bottom: 0.75rem;
-    }
-
     /* Content Wrapper */
     .content-wrapper {
         max-width: 1200px;
@@ -175,6 +164,15 @@
         transform: translateY(-8px);
         box-shadow: 0 12px 30px rgba(59, 130, 246, 0.15);
         border-color: #3b82f6;
+    }
+
+    .subcategory-card.inactive {
+        background: #fee2e2;
+        border: 2px solid #fca5a5;
+    }
+
+    .subcategory-card.inactive .subcategory-banner {
+        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
     }
 
     .subcategory-banner {
@@ -239,7 +237,12 @@
     }
 
     .quiz-card.inactive {
-        opacity: 0.6;
+        background: #fee2e2;
+        border: 2px solid #fca5a5;
+    }
+
+    .quiz-card.inactive .quiz-header {
+        background: #fecaca;
     }
 
     .quiz-header {
@@ -343,6 +346,18 @@
         background: #2563eb;
         transform: translateY(-2px);
         box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+    }
+
+    .inactive-badge-card {
+        padding: 0.5rem 1rem;
+        background: #ef4444;
+        color: white;
+        border-radius: 8px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
     }
 
     /* Products Section */
@@ -575,9 +590,6 @@
         <div class="hero-content">
             <div class="hero-icon">{{ theme.icon }}</div>
             <div class="hero-text">
-                {% if not theme.active %}
-                <span class="inactive-badge">🔒 TEMA INATIVO</span>
-                {% endif %}
                 <h1>{{ theme.title }}</h1>
                 <p>{{ theme.description }}</p>
             </div>
@@ -608,9 +620,6 @@
                                 </div>
                             </div>
                             <div class="subcategory-content">
-                                {% if not item.theme.active %}
-                                <span class="inactive-badge">🔒 INATIVO</span>
-                                {% endif %}
                                 <h3 class="subcategory-title">{{ item.theme.title }}</h3>
                             </div>
                         {% else %}
@@ -618,9 +627,6 @@
                                 {{ item.theme.icon }}
                             </div>
                             <div class="subcategory-content">
-                                {% if not item.theme.active %}
-                                <span class="inactive-badge">🔒 INATIVO</span>
-                                {% endif %}
                                 <h3 class="subcategory-title">{{ item.theme.title }}</h3>
                                 <span class="subcategory-count">
                                     {% if item.quiz_count > 0 %}
@@ -669,16 +675,17 @@
                                     {% elif quiz.difficulty == 'medium' %}Médio
                                     {% else %}Difícil{% endif %}
                                 </span>
-                                <span class="btn-play">
-                                    Jogar agora →
-                                </span>
+                                {% if quiz.active %}
+                                    <span class="btn-play">
+                                        Jogar agora →
+                                    </span>
+                                {% else %}
+                                    <span class="inactive-badge-card">
+                                        🔒 INATIVO
+                                    </span>
+                                {% endif %}
                             </div>
                         </div>
-                        {% if not quiz.active %}
-                        <div style="position: absolute; top: 1rem; right: 1rem;">
-                            <span class="inactive-badge">🔒 INATIVO</span>
-                        </div>
-                        {% endif %}
                     </a>
                 {% endfor %}
             </div>
@@ -722,3 +729,4 @@
         {% endif %}
     </div>
 {% endblock %}
+
