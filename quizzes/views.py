@@ -23,11 +23,15 @@ def home(request):
     # Se for superuser, mostrar todos os temas (incluindo inativos)
     if request.user.is_authenticated and request.user.is_superuser:
         themes = Theme.objects.filter(parent__isnull=True).order_by('order', 'title')
+        all_quizzes = Quiz.objects.all()
+        all_themes = Theme.objects.all()
     else:
         themes = Theme.objects.filter(parent__isnull=True, active=True).order_by('order', 'title')
+        all_quizzes = Quiz.objects.filter(active=True)
+        all_themes = Theme.objects.filter(active=True)
     
     # Adicionar contagens para cada tema
-    themes_with_info = []
+    categories = []
     for theme in themes:
         # Superuser vê tudo, outros só os ativos
         if request.user.is_authenticated and request.user.is_superuser:
@@ -37,15 +41,23 @@ def home(request):
             subcategories_count = theme.subcategories.filter(active=True).count()
             quiz_count = theme.quizzes.filter(active=True).count()
         
-        themes_with_info.append({
+        categories.append({
             'theme': theme,
             'subcategories_count': subcategories_count,
             'quiz_count': quiz_count,
             'total_count': subcategories_count + quiz_count
         })
     
+    # Estatísticas globais
+    total_themes = all_themes.count()
+    total_quizzes = all_quizzes.count()
+    total_questions = Question.objects.filter(quiz__in=all_quizzes).count()
+    
     context = {
-        'themes_with_info': themes_with_info,
+        'categories': categories,
+        'total_themes': total_themes,
+        'total_quizzes': total_quizzes,
+        'total_questions': total_questions,
         'is_root': True,
     }
     return render(request, 'quizzes/home.html', context)

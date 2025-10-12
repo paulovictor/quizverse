@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App - Explore os Temas</title>
+    <title>QuizVerse - Desafie seus conhecimentos e divirta-se!</title>
     <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
     <style>
         * {
@@ -14,22 +14,29 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-            min-height: 100vh;
-            padding: 20px;
+            color: #1a1a2e;
         }
 
         /* Header */
         .header {
-            background: white;
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
         .logo {
@@ -37,90 +44,93 @@
             align-items: center;
             gap: 0.75rem;
             font-size: 1.5rem;
-            font-weight: 700;
+            font-weight: 800;
             color: #3b82f6;
             text-decoration: none;
         }
 
         .logo-icon {
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
         }
 
-        .user-menu {
+        .user-section {
             display: flex;
             align-items: center;
             gap: 1rem;
         }
 
         .user-info {
+            color: #64748b;
+            font-weight: 600;
+        }
+
+        .btn-secondary {
+            padding: 0.625rem 1.25rem;
+            background: transparent;
+            border: 2px solid #3b82f6;
+            border-radius: 8px;
             color: #3b82f6;
             font-weight: 600;
-        }
-
-        .nav-link {
-            color: #3b82f6;
-            text-decoration: none;
-            font-weight: 600;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-        }
-
-        .nav-link:hover {
-            background: #f0f4ff;
-        }
-
-        .btn-primary {
-            background: linear-gradient(135deg, #3b82f6, #06b6d4);
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.2s ease;
-            border: none;
             cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
         }
 
-        .btn-primary:hover {
+        .btn-secondary:hover {
+            background: #3b82f6;
+            color: white;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
         }
 
-        /* Main Container */
-        .container {
+        /* Hero Section */
+        .hero {
             max-width: 1200px;
             margin: 0 auto;
-        }
-
-        .page-title {
+            padding: 4rem 2rem 3rem;
             text-align: center;
-            color: white;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 0.5rem 1.25rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #3b82f6;
             margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeInDown 0.6s ease;
         }
 
-        .page-title h1 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            margin-bottom: 0.5rem;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
-        .page-title p {
-            font-size: 1.1rem;
-            opacity: 0.9;
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1.2;
+            color: white;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 0.6s ease 0.2s backwards;
         }
 
-        /* Cards Grid */
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            animation: fadeIn 0.5s ease;
-        }
-
-        @keyframes fadeIn {
+        @keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(20px);
@@ -131,14 +141,160 @@
             }
         }
 
-        /* Category Card */
-        .category-card {
+        .hero h1 .highlight {
+            background: linear-gradient(135deg, #fff 0%, #e0f2fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 2.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+            animation: fadeInUp 0.6s ease 0.4s backwards;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.6s ease 0.6s backwards;
+        }
+
+        .btn-primary {
+            padding: 1rem 2.5rem;
             background: white;
-            border-radius: 16px;
-            padding: 2rem;
+            color: #3b82f6;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.125rem;
+            font-weight: 700;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+        }
+
+        .btn-outline {
+            padding: 1rem 2.5rem;
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 12px;
+            font-size: 1.125rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: #3b82f6;
+            transform: translateY(-3px);
+        }
+
+        /* Stats Section */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+            animation: fadeInUp 0.6s ease 0.8s backwards;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: white;
+            display: block;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .stat-label {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+        }
+
+        /* Categories Section */
+        .categories-section {
+            background: #f0f9ff;
+            padding: 5rem 2rem;
+        }
+
+        .section-header {
+            max-width: 1200px;
+            margin: 0 auto 3rem;
+            text-align: center;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: #dbeafe;
+            color: #3b82f6;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1e3a8a;
+            margin-bottom: 0.75rem;
+        }
+
+        .section-header p {
+            font-size: 1.125rem;
+            color: #64748b;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .category-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            border: 2px solid transparent;
             position: relative;
             overflow: hidden;
             text-decoration: none;
@@ -151,225 +307,398 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 4px;
+            height: 6px;
             background: linear-gradient(90deg, #3b82f6, #06b6d4);
             transform: scaleX(0);
+            transform-origin: left;
             transition: transform 0.3s ease;
+        }
+
+        .category-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+            border-color: #dbeafe;
         }
 
         .category-card:hover::before {
             transform: scaleX(1);
         }
 
-        .category-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
         }
 
-        .category-card.inactive {
-            opacity: 0.7;
-            border: 3px dashed #dc3545;
-        }
-
-        .category-card.inactive::before {
-            background: linear-gradient(90deg, #dc3545, #f39c12);
-        }
-
-        .category-icon {
+        .card-icon {
             font-size: 3rem;
-            margin-bottom: 1rem;
-            filter: drop-shadow(0 2px 4px rgba(59, 130, 246, 0.2));
+            filter: drop-shadow(0 2px 8px rgba(59, 130, 246, 0.3));
         }
 
-        .category-title {
+        .card-content h3 {
             font-size: 1.5rem;
             font-weight: 700;
-            color: #1a1a2e;
+            color: #1e3a8a;
             margin-bottom: 0.5rem;
         }
 
-        .category-description {
+        .card-description {
             color: #64748b;
             font-size: 0.95rem;
-            margin-bottom: 1rem;
-            line-height: 1.5;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
         }
 
-        .category-meta {
+        .card-meta {
             display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-            margin-top: 1rem;
-        }
-
-        .meta-badge {
-            display: inline-flex;
             align-items: center;
-            gap: 3px;
-            background: #dbeafe;
+            justify-content: space-between;
+            padding-top: 1.25rem;
+            border-top: 1px solid #f1f5f9;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .quiz-count {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
             color: #3b82f6;
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 0.8rem;
             font-weight: 600;
-        }
-        
-        /* Badge para categorias com estilo minimalista */
-        .category-card .meta-badge {
-            background: rgba(59, 130, 246, 0.1) !important;
-            color: #0f172a !important;
+            font-size: 0.9rem;
         }
 
-        .inactive-badge {
-            background: #dc3545;
+        .btn-card {
+            padding: 0.625rem 1.25rem;
+            background: #eff6ff;
+            color: #3b82f6;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+        }
+
+        .btn-card:hover {
+            background: #3b82f6;
             color: white;
-            padding: 0.4rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            display: inline-block;
-            margin-bottom: 0.5rem;
         }
 
-        /* Empty State */
-        .empty-state {
-            text-align: center;
-            padding: 4rem 2rem;
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .empty-state-icon {
-            font-size: 4rem;
-            margin-bottom: 1rem;
-            opacity: 0.5;
-        }
-
-        .empty-state h3 {
-            color: #1a1a2e;
-            margin-bottom: 0.5rem;
-            font-size: 1.5rem;
-        }
-
-        .empty-state p {
-            color: #64748b;
-            font-size: 1rem;
+        /* Popular Badge */
+        .popular-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: linear-gradient(135deg, #f59e0b, #f97316);
+            color: white;
+            padding: 0.375rem 0.875rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            box-shadow: 0 2px 10px rgba(245, 158, 11, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
         }
 
         /* CTA Section */
         .cta-section {
-            margin-top: 3rem;
-            padding: 2rem;
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(10px);
-            border-radius: 16px;
+            background: #1e3a8a;
+            padding: 5rem 2rem;
             text-align: center;
+        }
+
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
             color: white;
+            margin-bottom: 1rem;
         }
 
-        .cta-section h3 {
+        .cta-content p {
+            font-size: 1.125rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 2.5rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: #0f172a;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 3rem 2rem 2rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-brand h4 {
+            color: white;
             font-size: 1.5rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
         }
 
-        .cta-section p {
+        .footer-brand p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .footer-links h5 {
+            color: white;
             font-size: 1rem;
-            opacity: 0.9;
+            margin-bottom: 1rem;
+            font-weight: 600;
         }
 
-        @media (max-width: 768px) {
-            .page-title h1 {
-                font-size: 2rem;
+        .footer-links a {
+            display: block;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            margin-bottom: 0.75rem;
+            transition: color 0.2s ease;
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: #3b82f6;
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.125rem;
+            }
+
+            .stats {
+                gap: 2rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
             }
 
             .cards-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+            }
+
+            .btn-primary, .btn-outline {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .footer-content {
                 grid-template-columns: 1fr;
             }
 
-            .header {
-                flex-direction: column;
-                gap: 1rem;
-                text-align: center;
+            .section-header h2 {
+                font-size: 2rem;
             }
 
-            .user-menu {
-                flex-direction: column;
-                width: 100%;
+            .header-content {
+                padding: 0 1rem;
+            }
+
+            .user-info {
+                display: none;
             }
         }
     </style>
 </head>
 <body>
     <!-- Header -->
-    <div class="header">
-        <a href="{% url 'quizzes:home' %}" class="logo">
-            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App" class="logo-icon">
-            <span>Quiz App</span>
-        </a>
-        <div class="user-menu">
-            {% if user.is_authenticated %}
-                <span class="user-info">Olá, {{ user.email|truncatechars:20 }} 👋</span>
-                <a href="{% url 'account_logout' %}" class="nav-link">Sair</a>
-            {% else %}
-                <a href="{% url 'account_login' %}" class="nav-link">Entrar</a>
-                <a href="{% url 'account_signup' %}" class="btn-primary">Cadastrar</a>
-            {% endif %}
-        </div>
-    </div>
-
-    <!-- Main Container -->
-    <div class="container">
-        <!-- Page Title -->
-        <div class="page-title">
-            <h1>Explore os Temas</h1>
-            <p>Escolha uma categoria para começar sua jornada de aprendizado</p>
-        </div>
-
-        <!-- Cards Grid -->
-        {% if themes_with_info %}
-            <div class="cards-grid">
-                {% for item in themes_with_info %}
-                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card{% if not item.theme.active %} inactive{% endif %}">
-                        {% if not item.theme.active %}
-                        <span class="inactive-badge">🔒 INATIVO</span>
-                        {% endif %}
-                        
-                        <div class="category-icon">{{ item.theme.icon }}</div>
-                        <div class="category-title">{{ item.theme.title }}</div>
-                        <div class="category-description">{{ item.theme.description }}</div>
-                        
-                        <div class="category-meta">
-                            {% if item.subcategories_count > 0 %}
-                            <span class="meta-badge">
-                                📂 {{ item.subcategories_count }} subcategoria{{ item.subcategories_count|pluralize }}
-                            </span>
-                            {% endif %}
-                            {% if item.quiz_count > 0 %}
-                            <span class="meta-badge">
-                                📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}
-                            </span>
-                            {% endif %}
-                        </div>
-                    </a>
-                {% endfor %}
-            </div>
-
-            <div class="cta-section">
-                <h3>✨ Comece sua jornada de aprendizado</h3>
-                <p>Escolha um tema acima e teste seus conhecimentos com quizzes interativos!</p>
-            </div>
-        {% else %}
-            <div class="empty-state">
-                <div class="empty-state-icon">🎨</div>
-                <h3>Nenhum tema disponível ainda</h3>
-                <p>Os temas de quiz ainda estão sendo criados. Volte em breve para testar seus conhecimentos!</p>
-                {% if user.is_superuser %}
-                <br>
-                <a href="/admin/" class="btn-primary" style="display: inline-block; margin-top: 1rem;">Acessar Admin</a>
+    <header class="header">
+        <div class="header-content">
+            <a href="{% url 'quizzes:home' %}" class="logo">
+                <img src="{% static 'images/quizverse_icon.png' %}" alt="QuizVerse" class="logo-icon">
+                <span>QuizVerse</span>
+            </a>
+            <div class="user-section">
+                {% if user.is_authenticated %}
+                    <span class="user-info">Olá, {{ user.email|truncatechars:20 }}! 👋</span>
+                    <a href="{% url 'account_logout' %}" class="btn-secondary">Sair</a>
+                {% else %}
+                    <a href="{% url 'account_login' %}" class="btn-secondary">Entrar</a>
+                    <a href="{% url 'account_signup' %}" class="btn-primary" style="padding: 0.625rem 1.25rem; font-size: 0.95rem;">Criar conta</a>
                 {% endif %}
             </div>
-        {% endif %}
-    </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-badge">
+            ✨ Plataforma gratuita e divertida!
+        </div>
+        <h1>
+            Desafie seus conhecimentos.<br>
+            <span class="highlight">Aprenda se divertindo.</span>
+        </h1>
+        <p>
+            Teste seus conhecimentos sobre esportes, entretenimento e muito mais. 
+            Milhares de perguntas, resultados instantâneos e diversão garantida!
+        </p>
+        <div class="hero-cta">
+            <a href="#categories" class="btn-primary">
+                🚀 Começar agora
+            </a>
+            <a href="#categories" class="btn-outline">
+                📚 Explorar temas
+            </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number">{{ total_themes }}+</span>
+                <span class="stat-label">Categorias</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{{ total_quizzes }}+</span>
+                <span class="stat-label">Quizzes disponíveis</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{{ total_questions }}+</span>
+                <span class="stat-label">Perguntas</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section" id="categories">
+        <div class="section-header">
+            <div class="section-badge">✨ Explore</div>
+            <h2>Escolha sua categoria favorita</h2>
+            <p>De esportes a entretenimento, temos quizzes para todos os gostos</p>
+        </div>
+
+        <div class="cards-grid">
+            {% for item in categories %}
+                <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card">
+                    {% if item.total_count > 5 %}
+                    <span class="popular-badge">🔥 Popular</span>
+                    {% endif %}
+                    
+                    <div class="card-header">
+                        <div class="card-icon">{{ item.theme.icon }}</div>
+                        <div class="card-content">
+                            <h3>{{ item.theme.title }}</h3>
+                        </div>
+                    </div>
+                    <p class="card-description">
+                        {{ item.theme.description|truncatechars:120 }}
+                    </p>
+                    <div class="card-meta">
+                        <div class="quiz-count">
+                            {% if item.subcategories_count > 0 %}
+                                📂 {{ item.subcategories_count }} subcategoria{{ item.subcategories_count|pluralize }}
+                            {% endif %}
+                            {% if item.quiz_count > 0 %}
+                                📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}
+                            {% endif %}
+                        </div>
+                        <div class="btn-card">Explorar →</div>
+                    </div>
+                </a>
+            {% empty %}
+                <p style="grid-column: 1 / -1; text-align: center; color: #64748b; padding: 2rem;">
+                    Nenhuma categoria disponível no momento.
+                </p>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Pronto para testar seus conhecimentos?</h2>
+            <p>
+                Junte-se a milhares de usuários e descubra o quanto você realmente sabe. 
+                É grátis, divertido e viciante!
+            </p>
+            {% if not user.is_authenticated %}
+                <a href="{% url 'account_signup' %}" class="btn-primary" style="font-size: 1.125rem;">
+                    🎯 Começar minha jornada
+                </a>
+            {% else %}
+                <a href="#categories" class="btn-primary" style="font-size: 1.125rem;">
+                    🎯 Explorar quizzes
+                </a>
+            {% endif %}
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h4>QuizVerse</h4>
+                <p>A melhor plataforma de quizzes do Brasil. Aprenda, desafie e divirta-se com nossos quizzes interativos!</p>
+            </div>
+            <div class="footer-links">
+                <h5>Categorias</h5>
+                {% for item in categories|slice:":4" %}
+                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}">{{ item.theme.title }}</a>
+                {% endfor %}
+            </div>
+            <div class="footer-links">
+                <h5>Conta</h5>
+                {% if user.is_authenticated %}
+                    <a href="#">Meu perfil</a>
+                    <a href="#">Meus resultados</a>
+                    <a href="{% url 'account_logout' %}">Sair</a>
+                {% else %}
+                    <a href="{% url 'account_login' %}">Entrar</a>
+                    <a href="{% url 'account_signup' %}">Criar conta</a>
+                {% endif %}
+            </div>
+            <div class="footer-links">
+                <h5>Legal</h5>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Privacidade</a>
+                <a href="#">Sobre nós</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 QuizVerse. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
