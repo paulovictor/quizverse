@@ -361,6 +361,29 @@ def quiz_result(request, attempt_id):
         performance_level = 'needs-improvement'
         performance_message = 'Continue praticando! 💪'
     
+    # Calcular ranking do usuário neste quiz
+    # Buscar todas as tentativas completas deste quiz
+    completed_attempts = QuizAttempt.objects.filter(
+        quiz=attempt.quiz,
+        completed_at__isnull=False
+    ).exclude(id=attempt.id)
+    
+    total_attempts = completed_attempts.count() + 1  # +1 para incluir a tentativa atual
+    
+    # Contar quantas tentativas têm pontuação maior (melhor posição = menor número)
+    better_attempts = completed_attempts.filter(
+        score__gt=attempt.score
+    ).count()
+    
+    # Posição do usuário (1 = primeiro lugar)
+    user_rank = better_attempts + 1
+    
+    # Calcular percentual de usuários que ele superou
+    if total_attempts > 1:
+        users_beaten_percentage = round(((total_attempts - user_rank) / (total_attempts - 1)) * 100, 1)
+    else:
+        users_beaten_percentage = 0
+    
     context = {
         'attempt': attempt,
         'quiz': attempt.quiz,
@@ -372,6 +395,9 @@ def quiz_result(request, attempt_id):
         'show_login_prompt': not request.user.is_authenticated and not attempt.user,
         'products': products,
         'breadcrumb': breadcrumb,
+        'user_rank': user_rank,
+        'total_attempts': total_attempts,
+        'users_beaten_percentage': users_beaten_percentage,
     }
     return render(request, 'quizzes/quiz_result.html', context)
 
