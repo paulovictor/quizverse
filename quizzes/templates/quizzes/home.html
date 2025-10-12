@@ -5,12 +5,18 @@
 
 {% block extra_styles %}
 <style>
+    /* Remove any padding from main content for home */
+    .main-content {
+        padding: 0;
+    }
+
     /* Hero Section */
     .hero {
         max-width: 1200px;
         margin: 0 auto;
         padding: 4rem 2rem 3rem;
         text-align: center;
+        width: 100%;
     }
 
     .hero-badge {
@@ -162,6 +168,8 @@
     .categories-section {
         background: #f0f9ff;
         padding: 5rem 2rem;
+        width: 100%;
+        overflow-x: hidden;
     }
 
     .section-header {
@@ -202,7 +210,7 @@
         max-width: 1200px;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
         gap: 2rem;
     }
 
@@ -328,6 +336,7 @@
         background: #1e3a8a;
         padding: 5rem 2rem;
         text-align: center;
+        width: 100%;
     }
 
     .cta-content {
