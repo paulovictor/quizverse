@@ -55,7 +55,6 @@ def create_pokemon_quiz():
             'text': 'Qual é este Pokémon?',
             'image': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
             'order': 1,
-            'points': 10,
             'explanation': 'Este é o Pikachu, o Pokémon elétrico mais famoso e mascote da franquia Pokémon!',
             'answers': [
                 {'text': 'Pikachu', 'is_correct': True},
@@ -68,7 +67,6 @@ def create_pokemon_quiz():
             'text': 'Qual é este Pokémon?',
             'image': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png',
             'order': 2,
-            'points': 10,
             'explanation': 'Este é o Charizard, um Pokémon do tipo Fogo/Voador, evolução final do Charmander!',
             'answers': [
                 {'text': 'Moltres', 'is_correct': False},
@@ -81,7 +79,6 @@ def create_pokemon_quiz():
             'text': 'Qual é este Pokémon?',
             'image': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png',
             'order': 3,
-            'points': 10,
             'explanation': 'Este é o Snorlax, um Pokémon Normal conhecido por dormir muito e bloquear caminhos!',
             'answers': [
                 {'text': 'Munchlax', 'is_correct': False},
@@ -94,7 +91,6 @@ def create_pokemon_quiz():
             'text': 'Qual é este Pokémon lendário?',
             'image': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png',
             'order': 4,
-            'points': 15,
             'explanation': 'Este é o Mewtwo, um dos Pokémon lendários mais poderosos, criado geneticamente!',
             'answers': [
                 {'text': 'Mew', 'is_correct': False},
@@ -107,7 +103,6 @@ def create_pokemon_quiz():
             'text': 'Qual é este Pokémon aquático?',
             'image': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png',
             'order': 5,
-            'points': 10,
             'explanation': 'Este é o Blastoise, um Pokémon do tipo Água, evolução final do Squirtle!',
             'answers': [
                 {'text': 'Wartortle', 'is_correct': False},
@@ -125,8 +120,7 @@ def create_pokemon_quiz():
             text=q_data['text'],
             image=q_data['image'],
             explanation=q_data['explanation'],
-            order=q_data['order'],
-            points=q_data['points']
+            order=q_data['order']
         )
         print(f"   ✅ Pergunta {q_data['order']}: {q_data['text'][:50]}...")
         
@@ -143,7 +137,6 @@ def create_pokemon_quiz():
     
     print(f"\n🎉 Quiz de Pokémon criado com sucesso!")
     print(f"📊 Total de perguntas: {quiz.get_total_questions()}")
-    print(f"🏆 Total de pontos: {quiz.get_total_points()}")
     print(f"\n🔗 Acesse em: /pokemon/adivinhe-o-pokemon/")
 
 

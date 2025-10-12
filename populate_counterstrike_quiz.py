@@ -55,7 +55,6 @@ def create_counterstrike_quiz():
             'text': 'Qual é esta arma icônica do Counter-Strike?',
             'image': 'https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png',
             'order': 1,
-            'points': 10,
             'explanation': 'Esta é a AK-47, uma das armas mais icônicas e poderosas do Counter-Strike. É a rifle de assalto preferida dos Terroristas!',
             'answers': [
                 {'text': 'AK-47', 'is_correct': True},
@@ -68,7 +67,6 @@ def create_counterstrike_quiz():
             'text': 'Qual é esta arma de precisão?',
             'image': 'https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png',
             'order': 2,
-            'points': 10,
             'explanation': 'Esta é a AWP (Arctic Warfare Police), o sniper rifle mais poderoso do jogo, capaz de eliminar com um único tiro!',
             'answers': [
                 {'text': 'Scout', 'is_correct': False},
@@ -81,7 +79,6 @@ def create_counterstrike_quiz():
             'text': 'Qual é esta pistola icônica?',
             'image': 'https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_deagle_png.png',
             'order': 3,
-            'points': 10,
             'explanation': 'Esta é a Desert Eagle, a pistola mais poderosa do Counter-Strike, capaz de dar headshot de um tiro!',
             'answers': [
                 {'text': 'USP-S', 'is_correct': False},
@@ -94,7 +91,6 @@ def create_counterstrike_quiz():
             'text': 'Qual é esta rifle de assalto dos CT?',
             'image': 'https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_png.png',
             'order': 4,
-            'points': 10,
             'explanation': 'Esta é a M4A4, a rifle de assalto principal dos Counter-Terrorists, conhecida por sua precisão e baixo recuo!',
             'answers': [
                 {'text': 'AK-47', 'is_correct': False},
@@ -107,7 +103,6 @@ def create_counterstrike_quiz():
             'text': 'Qual é esta submetralhadora popular?',
             'image': 'https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp9_png.png',
             'order': 5,
-            'points': 10,
             'explanation': 'Esta é a MP9, uma submetralhadora rápida e eficiente, muito usada pelos CT nos rounds de eco!',
             'answers': [
                 {'text': 'MAC-10', 'is_correct': False},
@@ -125,8 +120,7 @@ def create_counterstrike_quiz():
             text=q_data['text'],
             image=q_data['image'],
             explanation=q_data['explanation'],
-            order=q_data['order'],
-            points=q_data['points']
+            order=q_data['order']
         )
         print(f"   ✅ Pergunta {q_data['order']}: {q_data['text'][:50]}...")
         
@@ -143,7 +137,6 @@ def create_counterstrike_quiz():
     
     print(f"\n🎉 Quiz de Counter-Strike criado com sucesso!")
     print(f"📊 Total de perguntas: {quiz.get_total_questions()}")
-    print(f"🏆 Total de pontos: {quiz.get_total_points()}")
     print(f"\n🔗 Acesse em: /counter-strike/adivinhe-a-arma-cs/")
 
 

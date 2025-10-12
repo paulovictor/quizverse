@@ -89,9 +89,6 @@ class Quiz(models.Model):
     def get_total_questions(self):
         return self.questions.count()
 
-    def get_total_points(self):
-        return self.questions.aggregate(total=models.Sum('points'))['total'] or 0
-
 
 class Question(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -100,7 +97,6 @@ class Question(models.Model):
     image = models.URLField(blank=True, null=True, help_text='URL da imagem da pergunta (opcional)')
     explanation = models.TextField(blank=True, help_text='Explicação da resposta correta')
     order = models.IntegerField(default=0)
-    points = models.IntegerField(default=1, help_text='Pontos por acertar essa questão')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -175,7 +171,7 @@ class QuizAttempt(models.Model):
         questions = list(self.quiz.questions.all())
         random.shuffle(questions)
         self.question_order = [str(q.id) for q in questions]
-        self.max_score = sum(q.points for q in questions)
+        self.max_score = len(questions)
         self.save()
 
 
@@ -185,7 +181,6 @@ class UserAnswer(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     selected_answer = models.ForeignKey(Answer, on_delete=models.CASCADE)
     is_correct = models.BooleanField(default=False)
-    points_earned = models.IntegerField(default=0)
     answered_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
@@ -199,9 +194,8 @@ class UserAnswer(models.Model):
         return f"{correct} {self.attempt} - {self.question.text[:30]}"
 
     def save(self, *args, **kwargs):
-        # Auto-calcular se está correto e os pontos
+        # Auto-calcular se está correto
         self.is_correct = self.selected_answer.is_correct
-        self.points_earned = self.question.points if self.is_correct else 0
         super().save(*args, **kwargs)
 
 

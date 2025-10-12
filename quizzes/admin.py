@@ -19,7 +19,7 @@ class AnswerInline(admin.TabularInline):
 class QuestionInline(admin.StackedInline):
     model = Question
     extra = 1
-    fields = ['text', 'explanation', 'order', 'points']
+    fields = ['text', 'explanation', 'order']
     show_change_link = True
 
 
@@ -38,7 +38,7 @@ class QuizAdmin(admin.ModelAdmin):
 
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
-    list_display = ['short_text', 'quiz', 'order', 'points', 'created_at']
+    list_display = ['short_text', 'quiz', 'order', 'created_at']
     list_filter = ['quiz__theme', 'quiz', 'created_at']
     search_fields = ['text', 'explanation']
     inlines = [AnswerInline]
@@ -64,7 +64,7 @@ class AnswerAdmin(admin.ModelAdmin):
 class UserAnswerInline(admin.TabularInline):
     model = UserAnswer
     extra = 0
-    readonly_fields = ['question', 'selected_answer', 'is_correct', 'points_earned', 'answered_at']
+    readonly_fields = ['question', 'selected_answer', 'is_correct', 'answered_at']
     can_delete = False
 
 
@@ -94,10 +94,10 @@ class QuizAttemptAdmin(admin.ModelAdmin):
 
 @admin.register(UserAnswer)
 class UserAnswerAdmin(admin.ModelAdmin):
-    list_display = ['attempt_display', 'question_display', 'is_correct', 'points_earned', 'answered_at']
+    list_display = ['attempt_display', 'question_display', 'is_correct', 'answered_at']
     list_filter = ['is_correct', 'attempt__quiz', 'answered_at']
     search_fields = ['attempt__user__username', 'question__text']
-    readonly_fields = ['attempt', 'question', 'selected_answer', 'is_correct', 'points_earned', 'answered_at']
+    readonly_fields = ['attempt', 'question', 'selected_answer', 'is_correct', 'answered_at']
     
     def attempt_display(self, obj):
         return str(obj.attempt)[:50]

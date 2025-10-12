@@ -280,8 +280,7 @@ def create_champions_league_quiz():
             text=f"Qual time é representado por este escudo?",
             image=q_data['url'],
             explanation=f"Este é o escudo do {q_data['question']}, um dos 36 times participantes da UEFA Champions League 2024/25.",
-            order=idx,
-            points=1
+            order=idx
         )
         
         # Criar as 4 alternativas
@@ -335,7 +334,6 @@ def create_champions_league_quiz():
     print('\n' + '='*60)
     print(f'✨ Quiz "{quiz.title}" criado com sucesso!')
     print(f'📊 Total de perguntas: {quiz.questions.count()}')
-    print(f'🎯 Total de pontos: {quiz.get_total_points()}')
     print(f'🛍️  Total de produtos: {Product.objects.filter(theme=theme).count()}')
     print('='*60)
 

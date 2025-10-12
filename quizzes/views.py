@@ -4,7 +4,6 @@ from django.contrib import messages
 from django.utils import timezone
 from django.http import JsonResponse, HttpResponseBadRequest
 from django.views.decorators.http import require_POST
-from django.db.models import Sum
 from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Product
 import random
 
@@ -126,7 +125,6 @@ def quiz_detail(request, theme_slug, quiz_slug):
         'theme': theme,
         'quiz': quiz,
         'total_questions': quiz.get_total_questions(),
-        'total_points': quiz.get_total_points(),
         'previous_attempts': previous_attempts,
         'breadcrumb': breadcrumb,
     }
@@ -273,7 +271,6 @@ def quiz_answer(request, attempt_id):
     return JsonResponse({
         'success': True,
         'is_correct': user_answer.is_correct,
-        'points_earned': user_answer.points_earned,
     })
 
 
@@ -300,9 +297,7 @@ def quiz_finish(request, attempt_id):
     
     # Calcular pontuação se ainda não foi finalizado
     if not attempt.is_completed():
-        total_score = attempt.user_answers.aggregate(
-            total=Sum('points_earned')
-        )['total'] or 0
+        total_score = attempt.user_answers.filter(is_correct=True).count()
         
         attempt.score = total_score
         attempt.completed_at = timezone.now()
