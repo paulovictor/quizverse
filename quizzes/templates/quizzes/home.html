@@ -203,15 +203,21 @@
         }
 
         .meta-badge {
-            display: flex;
+            display: inline-flex;
             align-items: center;
-            gap: 0.35rem;
+            gap: 3px;
             background: #dbeafe;
             color: #3b82f6;
-            padding: 0.4rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
             font-weight: 600;
+        }
+        
+        /* Badge para categorias com estilo minimalista */
+        .category-card .meta-badge {
+            background: rgba(59, 130, 246, 0.1) !important;
+            color: #0f172a !important;
         }
 
         .inactive-badge {
@@ -342,11 +348,6 @@
                             {% if item.quiz_count > 0 %}
                             <span class="meta-badge">
                                 📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}
-                            </span>
-                            {% endif %}
-                            {% if item.total_count > 0 %}
-                            <span class="meta-badge">
-                                🚀 Explorar agora
                             </span>
                             {% endif %}
                         </div>

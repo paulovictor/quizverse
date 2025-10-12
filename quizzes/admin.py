@@ -12,9 +12,10 @@ class ThemeAdmin(admin.ModelAdmin):
         ('Informações Básicas', {
             'fields': ('title', 'slug', 'description', 'icon', 'parent', 'order', 'active')
         }),
-        ('Personalização Visual', {
-            'fields': ('background_image', 'background_color'),
-            'classes': ('collapse',)
+        ('Personalização Visual do Card', {
+            'fields': ('card_background_image', 'card_background_color'),
+            'classes': ('collapse',),
+            'description': 'Personaliza a aparência do card. Se adicionar imagem, os textos serão ocultados automaticamente.'
         }),
     )
 
