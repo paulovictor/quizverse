@@ -130,6 +130,19 @@
             font-size: 0.9rem;
             margin-top: 20px;
         }
+        
+        .question-image {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .question-image img {
+            max-width: 100%;
+            max-height: 400px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            object-fit: contain;
+        }
     </style>
 </head>
 <body>
@@ -141,6 +154,12 @@
         <div class="question-number">
             Pergunta {{ current_index }} de {{ total_questions }}
         </div>
+        
+        {% if question.image %}
+        <div class="question-image">
+            <img src="{{ question.image }}" alt="Imagem da pergunta" loading="lazy">
+        </div>
+        {% endif %}
         
         <div class="question-text">
             {{ question.text }}

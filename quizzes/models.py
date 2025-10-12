@@ -71,6 +71,7 @@ class Question(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='questions')
     text = models.TextField(verbose_name='Pergunta')
+    image = models.URLField(blank=True, null=True, help_text='URL da imagem da pergunta (opcional)')
     explanation = models.TextField(blank=True, help_text='Explicação da resposta correta')
     order = models.IntegerField(default=0)
     points = models.IntegerField(default=1, help_text='Pontos por acertar essa questão')
