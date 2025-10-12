@@ -8,6 +8,15 @@ class ThemeAdmin(admin.ModelAdmin):
     list_filter = ['active', 'created_at']
     search_fields = ['title', 'description', 'slug']
     prepopulated_fields = {'slug': ('title',)}
+    fieldsets = (
+        ('Informações Básicas', {
+            'fields': ('title', 'slug', 'description', 'icon', 'parent', 'order', 'active')
+        }),
+        ('Personalização Visual', {
+            'fields': ('background_image', 'background_color'),
+            'classes': ('collapse',)
+        }),
+    )
 
 
 class AnswerInline(admin.TabularInline):

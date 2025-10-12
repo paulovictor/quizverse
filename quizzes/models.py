@@ -14,6 +14,8 @@ class Theme(models.Model):
     parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='subcategories', help_text='Tema pai (deixe vazio para categoria principal)')
     order = models.IntegerField(default=0, help_text='Ordem de exibição')
     active = models.BooleanField(default=True)
+    background_image = models.URLField(max_length=250, blank=True, null=True, help_text='URL da imagem de background do tema')
+    background_color = models.CharField(max_length=250, blank=True, null=True, help_text='Cor de fundo (ex: #FF0000 ou linear-gradient(...))')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

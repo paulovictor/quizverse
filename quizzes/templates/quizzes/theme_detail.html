@@ -18,6 +18,30 @@
             background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
             min-height: 100vh;
             padding: 20px;
+            position: relative;
+        }
+        
+        body.custom-background {
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        body.custom-background::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: 0;
+            pointer-events: none;
+        }
+        
+        body.custom-background > * {
+            position: relative;
+            z-index: 1;
         }
 
         /* Header */
@@ -45,6 +69,30 @@
         .logo-icon {
             width: 40px;
             height: 40px;
+        }
+        
+        .user-menu {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .user-info {
+            color: #3b82f6;
+            font-weight: 600;
+        }
+
+        .nav-link {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background: #f0f4ff;
         }
 
         /* Breadcrumb */
@@ -449,13 +497,24 @@
         }
     </style>
 </head>
-<body>
+<body {% if theme.background_image or theme.background_color %}class="custom-background"{% endif %} 
+      {% if theme.background_image %}style="background-image: url('{{ theme.background_image }}');{% if theme.background_color %} background-color: {{ theme.background_color }};{% endif %}"
+      {% elif theme.background_color %}style="background: {{ theme.background_color }};"{% endif %}>
     <!-- Header -->
     <div class="header">
         <a href="{% url 'quizzes:home' %}" class="logo">
             <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App" class="logo-icon">
             <span>Quiz App</span>
         </a>
+        <div class="user-menu">
+            {% if user.is_authenticated %}
+                <span class="user-info">Olá, {{ user.email|truncatechars:20 }} 👋</span>
+                <a href="{% url 'account_logout' %}" class="nav-link">Sair</a>
+            {% else %}
+                <a href="{% url 'account_login' %}" class="nav-link">Entrar</a>
+                <a href="{% url 'account_signup' %}" class="btn-primary">Cadastrar</a>
+            {% endif %}
+        </div>
     </div>
 
     <!-- Breadcrumb -->
