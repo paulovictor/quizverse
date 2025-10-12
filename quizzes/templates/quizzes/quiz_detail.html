@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ quiz.title }} - {{ theme.title }}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            margin-top: 30px;
+        }
+        
+        .breadcrumb {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .breadcrumb a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .description {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .quiz-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .info-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .info-card .label {
+            color: #666;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .info-card .value {
+            color: #333;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .previous-attempts {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 2px solid #eee;
+        }
+        
+        .previous-attempts h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .attempt-item {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .attempt-item:hover {
+            background: #e9ecef;
+        }
+        
+        .attempt-score {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #667eea;
+        }
+        
+        .attempt-date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="{% url 'quizzes:theme_detail' theme_slug=theme.slug %}">{{ theme.title }}</a> / {{ quiz.title }}
+        </div>
+        
+        <h1>{{ quiz.title }}</h1>
+        <p class="description">{{ quiz.description }}</p>
+        
+        <div class="quiz-info">
+            <div class="info-card">
+                <div class="label">Perguntas</div>
+                <div class="value">{{ total_questions }}</div>
+            </div>
+            <div class="info-card">
+                <div class="label">Pontos</div>
+                <div class="value">{{ total_points }}</div>
+            </div>
+            <div class="info-card">
+                <div class="label">Dificuldade</div>
+                <div class="value">
+                    {% if quiz.difficulty == 'easy' %}Fácil
+                    {% elif quiz.difficulty == 'medium' %}Médio
+                    {% else %}Difícil{% endif %}
+                </div>
+            </div>
+            {% if quiz.time_limit > 0 %}
+            <div class="info-card">
+                <div class="label">Tempo Limite</div>
+                <div class="value">{{ quiz.time_limit }}s</div>
+            </div>
+            {% endif %}
+        </div>
+        
+        <form method="post" action="{% url 'quizzes:quiz_start' theme_slug=theme.slug quiz_slug=quiz.slug %}">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary">🎯 Iniciar Quiz</button>
+        </form>
+        
+        {% if previous_attempts %}
+        <div class="previous-attempts">
+            <h2>Suas Tentativas Anteriores</h2>
+            {% for attempt in previous_attempts %}
+            <div class="attempt-item">
+                <div>
+                    <div class="attempt-date">{{ attempt.completed_at|date:"d/m/Y H:i" }}</div>
+                </div>
+                <div class="attempt-score">
+                    {{ attempt.score }}/{{ attempt.max_score }} ({{ attempt.get_score_percentage }}%)
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+

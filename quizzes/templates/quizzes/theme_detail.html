@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ theme.title }} - Quiz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            margin-top: 50px;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .description {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .slug-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .quizzes-section {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 2px solid #eee;
+        }
+        
+        .quizzes-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .empty-message {
+            text-align: center;
+            color: #999;
+            padding: 40px;
+            font-style: italic;
+        }
+        
+        .quiz-card {
+            background: #fff;
+            border: 2px solid #eee;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .quiz-card:hover {
+            border-color: #667eea;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+        }
+        
+        .quiz-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .quiz-card .description {
+            text-align: left;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        
+        .quiz-meta {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .quiz-meta span {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .difficulty-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .difficulty-easy {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .difficulty-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .difficulty-hard {
+            background: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ theme.title }}</h1>
+        <p class="description">{{ theme.description }}</p>
+        
+        <div class="quizzes-section">
+            <h2>Quizzes Disponíveis</h2>
+            
+            {% if quizzes %}
+                {% for quiz in quizzes %}
+                    <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}" style="text-decoration: none;">
+                        <div class="quiz-card">
+                            <h3>{{ quiz.title }}</h3>
+                            <p class="description">{{ quiz.description }}</p>
+                            <div class="quiz-meta">
+                                <span class="difficulty-badge difficulty-{{ quiz.difficulty }}">
+                                    {% if quiz.difficulty == 'easy' %}Fácil
+                                    {% elif quiz.difficulty == 'medium' %}Médio
+                                    {% else %}Difícil{% endif %}
+                                </span>
+                                <span>📝 {{ quiz.get_total_questions }} pergunta{{ quiz.get_total_questions|pluralize }}</span>
+                                <span>⭐ {{ quiz.get_total_points }} ponto{{ quiz.get_total_points|pluralize }}</span>
+                                {% if quiz.time_limit > 0 %}
+                                    <span>⏱️ {{ quiz.time_limit }} segundo{{ quiz.time_limit|pluralize }}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+            {% else %}
+                <div class="empty-message">
+                    Em breve, quizzes sobre {{ theme.title }} estarão disponíveis aqui!
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
+
