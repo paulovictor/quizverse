@@ -1,10 +1,12 @@
 {% load socialaccount %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Quiz App</title>
+    <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
     <style>
         * {
             margin: 0;
@@ -34,6 +36,12 @@
         .logo {
             text-align: center;
             margin-bottom: 30px;
+        }
+        
+        .logo img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
         }
         
         .logo h1 {
@@ -206,7 +214,8 @@
 <body>
     <div class="auth-container">
         <div class="logo">
-            <h1>🎯 Quiz App</h1>
+            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App Logo">
+            <h1>Quiz App</h1>
             <p>Entre para continuar</p>
         </div>
         

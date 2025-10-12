@@ -1,11 +1,12 @@
 {% load socialaccount %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Quiz App</title>
-    <link rel="stylesheet" href="{% url 'account_login' %}">
+    <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
     <style>
         * {margin:0; padding:0; box-sizing: border-box;}
         body {font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:linear-gradient(135deg,#3b82f6 0%,#06b6d4 100%); min-height:100vh; display:flex; align-items:center; justify-content:center; padding:20px;}

@@ -1,9 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App - Teste seus Conhecimentos</title>
+    <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
     <style>
         * {
             margin: 0;
@@ -23,6 +25,19 @@
             color: white;
             margin-bottom: 60px;
             padding: 40px 20px;
+        }
+        
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .header-content img {
+            width: 100px;
+            height: 100px;
+            filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2));
         }
         
         .header h1 {
@@ -209,6 +224,14 @@
             font-weight: 800;
             color: #3b82f6;
             text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .navbar-brand img {
+            width: 40px;
+            height: 40px;
         }
         
         .navbar-menu {
@@ -247,7 +270,10 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="{% url 'quizzes:home' %}" class="navbar-brand">🎯 Quiz App</a>
+        <a href="{% url 'quizzes:home' %}" class="navbar-brand">
+            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App Logo">
+            Quiz App
+        </a>
         <div class="navbar-menu">
             {% if user.is_authenticated %}
                 <span class="nav-link">Olá, {{ user.email|truncatechars:20 }}</span>
@@ -260,7 +286,10 @@
     </nav>
     
     <div class="header">
-        <h1>🎯 Quiz App</h1>
+        <div class="header-content">
+            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App Logo">
+            <h1>Quiz App</h1>
+        </div>
         <p>Desafie seus conhecimentos e aprenda se divertindo!</p>
     </div>
     
