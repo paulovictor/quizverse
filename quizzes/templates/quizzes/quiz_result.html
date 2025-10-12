@@ -1,895 +1,998 @@
+{% extends "quizzes/base_quiz.html" %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado - {{ quiz.title }}</title>
-    <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-            min-height: 100vh;
-            padding: 20px;
+
+{% block title %}Resultado - {{ quiz.title }}{% endblock %}
+
+{% block extra_styles %}
+<style>
+    /* Force main content to be full width without default padding */
+    body > .main-content {
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: none !important;
+    }
+
+    /* Breadcrumb - Full Width */
+    .breadcrumb {
+        background: white;
+        padding: 1rem 0;
+        border-bottom: 1px solid #e5e7eb;
+        margin: 0;
+        width: 100%;
+    }
+
+    .breadcrumb-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        font-size: 0.875rem;
+    }
+
+    .breadcrumb-link {
+        color: #3b82f6;
+        text-decoration: none;
+        transition: color 0.2s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .breadcrumb-link:hover {
+        color: #2563eb;
+    }
+
+    .breadcrumb-separator {
+        color: #9ca3af;
+        user-select: none;
+    }
+
+    .breadcrumb-current {
+        color: #6b7280;
+    }
+
+    /* Result Hero Section - Full Width */
+    .result-hero {
+        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        padding: 4rem 2rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+    }
+
+    .result-hero.excellent {
+        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    }
+
+    .result-hero.good {
+        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    }
+
+    .result-hero.poor {
+        background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    }
+
+    .result-hero.very-poor {
+        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    }
+
+    .result-hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        opacity: 0.3;
+    }
+
+    .result-hero-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .result-icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        animation: bounce 1s ease-in-out;
+    }
+
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+    }
+
+    .result-title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 0.5rem;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .result-subtitle {
+        font-size: 1.125rem;
+        color: rgba(255, 255, 255, 0.95);
+        margin-bottom: 2rem;
+    }
+
+    .score-display {
+        display: inline-block;
+        background: white;
+        color: #1f2937;
+        padding: 1.5rem 3rem;
+        border-radius: 20px;
+        font-size: 4rem;
+        font-weight: 800;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        margin-bottom: 1rem;
+    }
+
+    .score-label {
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        opacity: 0.95;
+    }
+
+    /* Content Wrapper */
+    .content-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+    }
+
+    /* Stats Grid */
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .stat-card {
+        background: white;
+        border-radius: 16px;
+        padding: 2rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+    }
+
+    .stat-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        border-color: #e5e7eb;
+    }
+
+    .stat-card-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .stat-icon {
+        width: 56px;
+        height: 56px;
+        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.75rem;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    }
+
+    .stat-icon.rank {
+        background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+    }
+
+    .stat-icon.users {
+        background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+        box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+    }
+
+    .stat-icon.beat {
+        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+    }
+
+    .stat-content {
+        flex: 1;
+    }
+
+    .stat-label {
+        font-size: 0.875rem;
+        color: #6b7280;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.25rem;
+    }
+
+    .stat-value {
+        font-size: 2rem;
+        font-weight: 800;
+        color: #1f2937;
+        line-height: 1;
+    }
+
+    .stat-badge {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+        border-radius: 8px;
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: #92400e;
+        margin-top: 0.75rem;
+    }
+
+    .stat-badge.top3 {
+        background: linear-gradient(135deg, #fef3c7 0%, #fcd34d 100%);
+        color: #92400e;
+    }
+
+    .stat-badge.top10 {
+        background: linear-gradient(135deg, #dbeafe 0%, #93c5fd 100%);
+        color: #1e40af;
+    }
+
+    .stat-badge.average {
+        background: linear-gradient(135deg, #d1fae5 0%, #6ee7b7 100%);
+        color: #065f46;
+    }
+
+    /* Review Section */
+    .review-section {
+        background: white;
+        border-radius: 20px;
+        padding: 2.5rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .review-header {
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .review-title {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #1f2937;
+        margin-bottom: 0.5rem;
+    }
+
+    .review-description {
+        color: #6b7280;
+        font-size: 1rem;
+    }
+
+    .question-card {
+        background: #f9fafb;
+        border: 2px solid #e5e7eb;
+        border-radius: 16px;
+        margin-bottom: 1rem;
+        transition: all 0.3s ease;
+        overflow: hidden;
+    }
+
+    .question-card:hover {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    }
+
+    .question-card.correct {
+        border-color: #10b981;
+        background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    }
+
+    .question-card.incorrect {
+        border-color: #ef4444;
+        background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    }
+
+    .question-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.5rem 2rem;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .question-header:hover {
+        background: rgba(0, 0, 0, 0.02);
+    }
+
+    .question-number {
+        flex-shrink: 0;
+        width: 48px;
+        height: 48px;
+        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 800;
+        font-size: 1.125rem;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    }
+
+    .question-text {
+        flex: 1;
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: #1f2937;
+        line-height: 1.5;
+    }
+
+    .question-status {
+        flex-shrink: 0;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 0.875rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .question-status.correct {
+        background: #10b981;
+        color: white;
+    }
+
+    .question-status.incorrect {
+        background: #ef4444;
+        color: white;
+    }
+
+    .question-toggle {
+        flex-shrink: 0;
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        background: rgba(59, 130, 246, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        transition: all 0.3s ease;
+        color: #3b82f6;
+    }
+
+    .question-card.expanded .question-toggle {
+        transform: rotate(180deg);
+    }
+
+    .question-content {
+        display: grid;
+        grid-template-rows: 0fr;
+        overflow: hidden;
+        transition: grid-template-rows 0.3s ease, padding 0.3s ease;
+        padding: 0 2rem;
+    }
+
+    .question-content-inner {
+        min-height: 0;
+    }
+
+    .question-card.expanded .question-content {
+        grid-template-rows: 1fr;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .answer-option {
+        padding: 1rem 1.5rem;
+        border: 2px solid #e5e7eb;
+        border-radius: 12px;
+        margin-bottom: 0.75rem;
+        background: white;
+        transition: all 0.2s ease;
+    }
+
+    .answer-option.user-answer {
+        border-color: #3b82f6;
+        background: #dbeafe;
+        font-weight: 600;
+    }
+
+    .answer-option.user-answer.incorrect {
+        border-color: #ef4444;
+        background: #fee2e2;
+    }
+
+    .answer-option.correct-answer {
+        border-color: #10b981;
+        background: #d1fae5;
+        font-weight: 600;
+    }
+
+    .answer-label {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        color: #1f2937;
+    }
+
+    .answer-icon {
+        font-size: 1.25rem;
+    }
+
+    /* Share Section */
+    .share-section {
+        background: white;
+        border-radius: 20px;
+        padding: 2.5rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .share-title {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #1f2937;
+        margin-bottom: 0.5rem;
+    }
+
+    .share-description {
+        color: #6b7280;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .share-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .share-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1rem 2rem;
+        border-radius: 12px;
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .share-btn-whatsapp {
+        background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        color: white;
+    }
+
+    .share-btn-whatsapp:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+    }
+
+    .share-btn-twitter {
+        background: linear-gradient(135deg, #1DA1F2 0%, #0d8bd9 100%);
+        color: white;
+    }
+
+    .share-btn-twitter:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(29, 161, 242, 0.4);
+    }
+
+    .share-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Products Section */
+    .products-section {
+        background: white;
+        border-radius: 20px;
+        padding: 2.5rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .products-header {
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .products-title {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #1f2937;
+        margin-bottom: 0.5rem;
+    }
+
+    .products-description {
+        color: #6b7280;
+        font-size: 1rem;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .product-card {
+        background: white;
+        border: 2px solid #e5e7eb;
+        border-radius: 16px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: block;
+    }
+
+    .product-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        border-color: #3b82f6;
+    }
+
+    .product-image-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 75%;
+        background: #f9fafb;
+        overflow: hidden;
+    }
+
+    .product-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .product-info {
+        padding: 1.5rem;
+    }
+
+    .product-title {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #1f2937;
+        margin-bottom: 0.75rem;
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .product-price {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #10b981;
+        margin-bottom: 1rem;
+    }
+
+    .product-button {
+        width: 100%;
+        padding: 0.75rem;
+        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+        color: white;
+        border-radius: 8px;
+        font-weight: 700;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .product-card:hover .product-button {
+        background: linear-gradient(135deg, #2563eb 0%, #0891b2 100%);
+    }
+
+    /* Action Buttons */
+    .action-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1rem 2rem;
+        border-radius: 12px;
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+        color: white;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+    }
+
+    .btn-secondary {
+        background: white;
+        color: #3b82f6;
+        border: 2px solid #3b82f6;
+    }
+
+    .btn-secondary:hover {
+        background: #f0f4ff;
+        transform: translateY(-2px);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .result-title {
+            font-size: 1.75rem;
         }
 
-        /* Header */
-        .header {
-            background: white;
+        .score-display {
+            font-size: 3rem;
             padding: 1rem 2rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #3b82f6;
-            text-decoration: none;
+        .stats-grid {
+            grid-template-columns: 1fr;
         }
 
-        .logo-icon {
+        .content-wrapper {
+            padding: 2rem 1rem;
+        }
+
+        .breadcrumb-content {
+            padding: 0 1rem;
+        }
+
+        .result-hero {
+            padding: 3rem 1rem;
+        }
+
+        .review-section {
+            padding: 1.5rem;
+        }
+
+        .question-header {
+            flex-wrap: wrap;
+            padding: 1.25rem 1.5rem;
+        }
+
+        .question-number {
             width: 40px;
             height: 40px;
-        }
-        
-        .user-menu {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .user-info {
-            color: #3b82f6;
-            font-weight: 600;
-        }
-
-        .nav-link {
-            color: #3b82f6;
-            text-decoration: none;
-            font-weight: 600;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-        }
-
-        .nav-link:hover {
-            background: #f0f4ff;
-        }
-
-        /* Breadcrumb */
-        .breadcrumb-nav {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .breadcrumb-item {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.85rem;
-            color: #3b82f6;
-            text-decoration: none;
-            padding: 0.4rem 0.8rem;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-        }
-
-        .breadcrumb-item:hover {
-            background: #dbeafe;
-        }
-
-        .breadcrumb-item.active {
-            color: #1a1a2e;
-            font-weight: 600;
-            cursor: default;
-            pointer-events: none;
-        }
-
-        .breadcrumb-separator {
-            color: #cbd5e0;
             font-size: 1rem;
         }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            padding: 40px;
-            margin-bottom: 30px;
-        }
-        
-        .result-header {
-            text-align: center;
-            padding: 30px;
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-            border-radius: 15px;
-            color: white;
-            margin-bottom: 30px;
-        }
-        
-        .result-header.excellent {
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            box-shadow: 0 10px 40px rgba(16, 185, 129, 0.4);
-        }
-        
-        .result-header.good {
-            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-            box-shadow: 0 10px 40px rgba(245, 158, 11, 0.4);
-        }
-        
-        .result-header.needs-improvement {
-            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-            box-shadow: 0 10px 40px rgba(239, 68, 68, 0.4);
-        }
-        
-        .result-header h1 {
-            font-size: 2rem;
-            margin-bottom: 15px;
-        }
-        
-        .score-display {
-            font-size: 4rem;
-            font-weight: 700;
-            margin: 20px 0;
-            animation: popIn 0.5s ease-out;
-        }
-        
-        @keyframes popIn {
-            0% {
-                transform: scale(0);
-                opacity: 0;
-            }
-            50% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
-        
-        .score-details {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-        
-        .login-prompt {
-            background: #fff3cd;
-            border: 2px solid #ffc107;
-            border-radius: 15px;
-            padding: 25px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-        .login-prompt h3 {
-            color: #856404;
-            margin-bottom: 15px;
-        }
-        
-        .login-prompt p {
-            color: #856404;
-            margin-bottom: 20px;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 12px 30px;
+
+        .question-text {
             font-size: 1rem;
-            font-weight: 600;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            margin: 5px;
-        }
-        
-        .btn-primary {
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-            color: white;
-        }
-        
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
-        }
-        
-        .btn-secondary {
-            background: white;
-            color: #3b82f6;
-            border: 2px solid #3b82f6;
-        }
-        
-        .btn-secondary:hover {
-            background: #3b82f6;
-            color: white;
-        }
-        
-        .results-list {
-            margin-top: 30px;
-        }
-        
-        .results-list h2 {
-            color: #333;
-            margin-bottom: 20px;
-            padding-bottom: 15px;
-            border-bottom: 2px solid #eee;
-        }
-        
-        .result-item {
-            background: #f8f9fa;
-            border-radius: 15px;
-            padding: 25px;
-            margin-bottom: 20px;
-        }
-        
-        .result-item.correct {
-            border-left: 5px solid #28a745;
-        }
-        
-        .result-item.incorrect {
-            border-left: 5px solid #dc3545;
-        }
-        
-        .question-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 15px;
-        }
-        
-        .answer-option {
-            padding: 12px 15px;
-            margin: 8px 0;
-            border-radius: 10px;
-            font-size: 1rem;
-        }
-        
-        .answer-correct {
-            background: #d4edda;
-            color: #155724;
-            font-weight: 600;
-        }
-        
-        .answer-incorrect {
-            background: #f8d7da;
-            color: #721c24;
-            font-weight: 600;
-        }
-        
-        .answer-normal {
-            background: white;
-            color: #666;
-        }
-        
-        .explanation {
-            background: #e7f3ff;
-            border-left: 4px solid #0066cc;
-            padding: 15px;
-            margin-top: 15px;
-            border-radius: 5px;
-        }
-        
-        .explanation-title {
-            font-weight: 600;
-            color: #0066cc;
-            margin-bottom: 8px;
-        }
-        
-        .actions {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-        
-        /* Ranking Section */
-        .ranking-section {
-            margin: 30px 0;
-            padding: 30px;
-            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(147, 51, 234, 0.1) 100%);
-            border-radius: 15px;
-            border: 2px solid rgba(147, 51, 234, 0.3);
-            text-align: center;
-        }
-        
-        .ranking-section h3 {
-            color: #1f2937;
-            font-size: 1.3rem;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-        
-        .ranking-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 40px;
-            flex-wrap: wrap;
-        }
-        
-        .ranking-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .ranking-value {
-            font-size: 3rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1;
-        }
-        
-        .ranking-label {
-            color: #4b5563;
-            font-size: 0.95rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        
-        .ranking-icon {
-            font-size: 2rem;
-            margin-bottom: 5px;
-        }
-        
-        .ranking-medal {
-            font-size: 3.5rem;
-            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
-        }
-        
-        .ranking-description {
-            margin-top: 20px;
-            color: #6b7280;
-            font-size: 1rem;
-            font-weight: 500;
-        }
-        
-        .ranking-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 16px;
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            color: white;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            margin-top: 15px;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
-        }
-        
-        .ranking-badge.top10 {
-            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
-        }
-        
-        .ranking-badge.top3 {
-            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
-        }
-        
-        /* Share Section */
-        .share-section {
-            margin: 30px 0;
-            padding: 25px;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
-            border-radius: 15px;
-            border: 2px solid rgba(139, 92, 246, 0.2);
-            text-align: center;
-        }
-        
-        .share-section h3 {
-            color: #1f2937;
-            font-size: 1.3rem;
-            margin-bottom: 8px;
-            font-weight: 700;
-        }
-        
-        .share-section p {
-            color: #4b5563;
-            margin-bottom: 20px;
-            font-size: 0.95rem;
-        }
-        
-        .share-buttons {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .share-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 12px 24px;
-            font-size: 1rem;
-            font-weight: 600;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            color: white;
-        }
-        
-        .share-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-        }
-        
-        .share-btn-whatsapp {
-            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
-        }
-        
-        .share-btn-whatsapp:hover {
-            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
-        }
-        
-        .share-btn-twitter {
-            background: linear-gradient(135deg, #1DA1F2 0%, #0d8bd9 100%);
-        }
-        
-        .share-btn-twitter:hover {
-            box-shadow: 0 8px 20px rgba(29, 161, 242, 0.4);
-        }
-        
-        .share-icon {
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-        }
-        
-        .products-section {
-            margin: 30px 0;
-            padding: 30px;
-            background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(6, 182, 212, 0.05) 100%);
-            border-radius: 15px;
-            border: 2px solid rgba(59, 130, 246, 0.2);
-        }
-        
-        .products-section h2 {
-            color: #1f2937;
-            text-align: center;
-            margin-bottom: 8px;
-            font-size: 1.5rem;
-            font-weight: 700;
-        }
-        
-        .products-section p {
-            text-align: center;
-            color: #4b5563;
-            margin-bottom: 25px;
-            font-size: 0.95rem;
-            font-weight: 500;
-        }
-        
-        .products-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-        
-        .product-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            border: 2px solid #e5e7eb;
-            position: relative;
-        }
-        
-        .product-card::before {
-            content: '🔥';
-            position: absolute;
-            top: 8px;
-            right: 8px;
-            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-            color: white;
-            padding: 4px 8px;
-            border-radius: 15px;
-            font-size: 0.7rem;
-            font-weight: 700;
-            z-index: 1;
-        }
-        
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
-            border-color: #3b82f6;
-        }
-        
-        .product-image {
-            width: 100%;
-            height: 140px;
-            object-fit: contain;
-            background: white;
-            padding: 15px;
-        }
-        
-        .product-info {
-            padding: 15px;
             flex: 1;
-            display: flex;
+            min-width: 0;
+        }
+
+        .question-status {
+            order: 4;
+            width: 100%;
+            margin-top: 0.75rem;
+        }
+
+        .question-toggle {
+            order: 3;
+        }
+
+        .question-content {
+            padding: 0 1.5rem;
+        }
+
+        .question-card.expanded .question-content {
+            padding: 0 1.5rem 1.5rem 1.5rem;
+        }
+
+        .answer-option {
+            padding: 0.75rem 1rem;
+        }
+
+        .share-buttons {
             flex-direction: column;
         }
-        
-        .product-title {
-            color: #1f2937;
-            font-weight: 600;
-            font-size: 0.95rem;
-            margin-bottom: 8px;
-            line-height: 1.3;
-            min-height: 38px;
-        }
-        
-        .product-price {
-            color: #10b981;
-            font-size: 1.4rem;
-            font-weight: 800;
-            margin-bottom: 12px;
-        }
-        
-        .product-button {
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-            color: white;
-            padding: 10px 16px;
-            border-radius: 8px;
-            text-align: center;
-            font-weight: 600;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-            box-shadow: 0 3px 8px rgba(59, 130, 246, 0.3);
-        }
-        
-        .product-button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 12px rgba(59, 130, 246, 0.4);
-        }
-        
-        @media (max-width: 992px) {
-            .products-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-        
-        @media (max-width: 640px) {
-            .products-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .products-section {
-                padding: 20px 15px;
-            }
-            
-            .products-section h2 {
-                font-size: 1.3rem;
-            }
-            
-            .header {
-                padding: 1rem;
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .user-menu {
-                flex-direction: column;
-                width: 100%;
-                gap: 0.5rem;
-            }
 
-            .breadcrumb-nav {
-                padding: 0.75rem 1rem;
-            }
-            
-            .share-section {
-                padding: 20px 15px;
-            }
-            
-            .share-section h3 {
-                font-size: 1.2rem;
-            }
-            
-            .share-buttons {
-                flex-direction: column;
-            }
-            
-            .share-btn {
-                width: 100%;
-                justify-content: center;
-            }
-            
-            
-            .ranking-section {
-                padding: 20px 15px;
-            }
-            
-            .ranking-section h3 {
-                font-size: 1.2rem;
-            }
-            
-            .ranking-content {
-                gap: 25px;
-            }
-            
-            .ranking-value {
-                font-size: 2.5rem;
-            }
-            
-            .ranking-medal {
-                font-size: 3rem;
-            }
+        .share-btn {
+            width: 100%;
+            justify-content: center;
         }
-    </style>
-</head>
-<body>
-    <!-- Header -->
-    <div class="header">
-        <a href="{% url 'quizzes:home' %}" class="logo">
-            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App" class="logo-icon">
-            <span>Quiz App</span>
-        </a>
-        <div class="user-menu">
-            {% if user.is_authenticated %}
-                <span class="user-info">Olá, {{ user.email|truncatechars:20 }} 👋</span>
-                <a href="{% url 'account_logout' %}" class="nav-link">Sair</a>
-            {% else %}
-                <a href="{% url 'account_login' %}" class="nav-link">Entrar</a>
-                <a href="{% url 'account_signup' %}" class="btn-primary">Cadastrar</a>
-            {% endif %}
-        </div>
-    </div>
 
-    <!-- Breadcrumb -->
-    <div class="breadcrumb-nav">
-        <a href="{% url 'quizzes:home' %}" class="breadcrumb-item">
+        .action-buttons {
+            flex-direction: column;
+        }
+
+        .btn {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .products-section {
+            padding: 1.5rem;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+    <div class="breadcrumb-content">
+        <a href="{% url 'quizzes:home' %}" class="breadcrumb-link">
             🏠 Início
         </a>
-        {% for item in breadcrumb %}
-            <span class="breadcrumb-separator">›</span>
-            <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-item">
-                {{ item.icon }} {{ item.title }}
-            </a>
-        {% endfor %}
         <span class="breadcrumb-separator">›</span>
-        <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}" class="breadcrumb-item">
-            📚 {{ quiz.title }}
+        {% for item in breadcrumb %}
+            <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-link">
+                {{ item.title }}
+            </a>
+            <span class="breadcrumb-separator">›</span>
+        {% endfor %}
+        <a href="{% url 'quizzes:quiz_detail' theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}" class="breadcrumb-link">
+            {{ quiz.title }}
         </a>
         <span class="breadcrumb-separator">›</span>
-        <span class="breadcrumb-item active">
-            🎉 Resultado
-        </span>
+        <span class="breadcrumb-current">Resultado</span>
+    </div>
+</div>
+
+<!-- Result Hero -->
+<div class="result-hero {{ performance_level }}">
+    <div class="result-hero-content">
+        <div class="result-icon">{{ performance_icon }}</div>
+        <h1 class="result-title">{{ performance_message }}</h1>
+        <p class="result-subtitle">{{ quiz.title }}</p>
+        <div class="score-display">{{ percentage }}%</div>
+        <div class="score-label">{{ total_score }} de {{ total_questions }} questões corretas</div>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="content-wrapper">
+    <!-- Stats Grid -->
+    <div class="stats-grid">
+        <!-- Ranking Position -->
+        <div class="stat-card">
+            <div class="stat-card-header">
+                <div class="stat-icon rank">
+                    {% if user_rank == 1 %}🥇
+                    {% elif user_rank == 2 %}🥈
+                    {% elif user_rank == 3 %}🥉
+                    {% else %}🏆{% endif %}
+                </div>
+                <div class="stat-content">
+                    <div class="stat-label">Sua Posição</div>
+                    <div class="stat-value">{{ user_rank }}º</div>
+                </div>
+            </div>
+            {% if user_rank == 1 %}
+                <div class="stat-badge top3">⭐ Você está em 1º lugar!</div>
+            {% elif user_rank <= 3 %}
+                <div class="stat-badge top3">🔥 Top 3!</div>
+            {% elif user_rank <= 10 %}
+                <div class="stat-badge top10">⚡ Top 10!</div>
+            {% elif users_beaten_percentage >= 50 %}
+                <div class="stat-badge average">💪 Acima da média!</div>
+            {% endif %}
+        </div>
+
+        <!-- Total Participants -->
+        <div class="stat-card">
+            <div class="stat-card-header">
+                <div class="stat-icon users">👥</div>
+                <div class="stat-content">
+                    <div class="stat-label">Participantes</div>
+                    <div class="stat-value">{{ total_attempts }}</div>
+                </div>
+            </div>
+            <p style="color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem;">
+                Total de pessoas que fizeram este quiz
+            </p>
+        </div>
+
+        <!-- Users Beaten -->
+        {% if users_beaten_percentage > 0 %}
+        <div class="stat-card">
+            <div class="stat-card-header">
+                <div class="stat-icon beat">📈</div>
+                <div class="stat-content">
+                    <div class="stat-label">Superados</div>
+                    <div class="stat-value">{{ users_beaten_percentage }}%</div>
+                </div>
+            </div>
+            <p style="color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem;">
+                Você está melhor que {{ users_beaten_percentage }}% dos participantes
+            </p>
+        </div>
+        {% endif %}
     </div>
 
-    <div class="container">
-        <div class="result-header {{ performance_level }}">
-            <h1>{{ performance_message }}</h1>
-            <div class="score-display">{{ percentage }}%</div>
+    <!-- Action Buttons -->
+    <div class="action-buttons">
+        <form method="POST" action="{% url 'quizzes:quiz_start' theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}" style="margin: 0;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary">
+                🔄 Jogar novamente
+            </button>
+        </form>
+        <a href="{% url 'quizzes:theme_detail' theme_slug=quiz.theme.slug %}" class="btn btn-secondary">
+            📚 Mais quizzes
+        </a>
+    </div>
+
+    <!-- Share Section -->
+    <div class="share-section">
+        <h2 class="share-title">🎉 Compartilhe seu resultado!</h2>
+        <p class="share-description">Mostre para seus amigos como você se saiu</p>
+        <div class="share-buttons">
+            <a href="#" class="share-btn share-btn-whatsapp" id="shareWhatsApp">
+                <svg class="share-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                <span>WhatsApp</span>
+            </a>
+            <a href="#" class="share-btn share-btn-twitter" id="shareTwitter" target="_blank">
+                <svg class="share-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span>Twitter</span>
+            </a>
         </div>
-        
-        <!-- Seção de Ranking -->
-        <div class="ranking-section">
-            <h3>📊 Seu Desempenho no Ranking</h3>
-            <div class="ranking-content">
-                <div class="ranking-item">
-                    {% if user_rank == 1 %}
-                        <div class="ranking-medal">🥇</div>
-                    {% elif user_rank == 2 %}
-                        <div class="ranking-medal">🥈</div>
-                    {% elif user_rank == 3 %}
-                        <div class="ranking-medal">🥉</div>
-                    {% else %}
-                        <div class="ranking-icon">🏆</div>
-                    {% endif %}
-                    <div class="ranking-value">{{ user_rank }}º</div>
-                    <div class="ranking-label">Posição</div>
-                </div>
-                
-                <div class="ranking-item">
-                    <div class="ranking-icon">👥</div>
-                    <div class="ranking-value">{{ total_attempts }}</div>
-                    <div class="ranking-label">Participantes</div>
-                </div>
-                
-                {% if users_beaten_percentage > 0 %}
-                <div class="ranking-item">
-                    <div class="ranking-icon">📈</div>
-                    <div class="ranking-value">{{ users_beaten_percentage }}%</div>
-                    <div class="ranking-label">Superados</div>
-                </div>
-                {% endif %}
-            </div>
-            
-            {% if user_rank == 1 %}
-                <div class="ranking-badge top3">
-                    ⭐ Você está em 1º lugar!
-                </div>
-            {% elif user_rank <= 3 %}
-                <div class="ranking-badge top3">
-                    🔥 Top 3!
-                </div>
-            {% elif user_rank <= 10 %}
-                <div class="ranking-badge top10">
-                    ⚡ Top 10!
-                </div>
-            {% elif users_beaten_percentage >= 50 %}
-                <div class="ranking-badge">
-                    💪 Acima da média!
-                </div>
-            {% endif %}
-            
-            <div class="ranking-description">
-                Você está entre os {{ user_rank }}º de {{ total_attempts }} participante{{ total_attempts|pluralize }} neste quiz
-            </div>
+    </div>
+
+    <!-- Products Section -->
+    {% if products %}
+    <div class="products-section">
+        <div class="products-header">
+            <h2 class="products-title">🛍️ Você também pode gostar</h2>
+            <p class="products-description">Produtos selecionados especialmente para você</p>
         </div>
-        
-        <!-- Seção de Compartilhamento -->
-        <div class="share-section">
-            <h3>🎉 Compartilhe seu resultado!</h3>
-            <p>Mostre para seus amigos como você se saiu</p>
-            <div class="share-buttons">
-                <a href="#" class="share-btn share-btn-whatsapp" id="shareWhatsApp">
-                    <svg class="share-icon" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                    </svg>
-                    <span>WhatsApp</span>
-                </a>
-                <a href="#" class="share-btn share-btn-twitter" id="shareTwitter" target="_blank">
-                    <svg class="share-icon" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                    </svg>
-                    <span>Twitter</span>
-                </a>
-            </div>
-        </div>
-        
-        {% if products %}
-        <div class="products-section">
-            <h2>Você também pode gostar</h2>
-            <p>Produtos selecionados para você</p>
-            
-            <div class="products-grid">
-                {% for product in products %}
-                <a href="{{ product.product_url }}" target="_blank" class="product-card">
+        <div class="products-grid">
+            {% for product in products %}
+            <a href="{{ product.product_url }}" target="_blank" class="product-card">
+                <div class="product-image-wrapper">
                     <img src="{{ product.image_url }}" alt="{{ product.title }}" class="product-image">
-                    <div class="product-info">
-                        <div class="product-title">{{ product.title }}</div>
-                        <div class="product-price">R$ {{ product.price }}</div>
-                        <div class="product-button">Ver mais</div>
-                    </div>
-                </a>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-        
-        {% if show_login_prompt %}
-        <div class="login-prompt">
-            <h3>💾 Salve seu resultado!</h3>
-            <p>Faça login ou cadastre-se para registrar este resultado na sua conta e acompanhar seu progresso.</p>
-            <a href="{% url 'account_login' %}?next={% url 'quizzes:claim_attempt' attempt_id=attempt.id %}" class="btn btn-primary">
-                🔐 Fazer Login e Salvar
-            </a>
-            <a href="{% url 'account_signup' %}?next={% url 'quizzes:claim_attempt' attempt_id=attempt.id %}" class="btn btn-primary" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
-                ✨ Criar Conta e Salvar
-            </a>
-            <a href="{% url 'quizzes:theme_detail' theme_slug=theme.slug %}" class="btn btn-secondary">
-                Continuar sem Login
-            </a>
-        </div>
-        {% endif %}
-        
-        <div class="results-list">
-            <h2>📝 Revisão das Respostas</h2>
-            
-            {% for result in results %}
-            <div class="result-item {% if result.user_answer.is_correct %}correct{% else %}incorrect{% endif %}">
-                <div class="question-title">
-                    {% if result.user_answer.is_correct %}✅{% else %}❌{% endif %}
-                    {{ result.question.text }}
                 </div>
-                
-                {% for answer in result.all_answers %}
-                    {% if answer.is_correct %}
-                        <div class="answer-option answer-correct">
-                            ✓ {{ answer.text }} (Resposta Correta)
-                        </div>
-                    {% elif result.user_answer and answer.id == result.user_answer.selected_answer.id and not answer.is_correct %}
-                        <div class="answer-option answer-incorrect">
-                            ✗ {{ answer.text }} (Sua Resposta)
-                        </div>
-                    {% endif %}
-                {% endfor %}
-                
-                {% if result.question.explanation %}
-                <div class="explanation">
-                    <div class="explanation-title">💡 Explicação:</div>
-                    {{ result.question.explanation }}
+                <div class="product-info">
+                    <div class="product-title">{{ product.title }}</div>
+                    <div class="product-price">R$ {{ product.price }}</div>
+                    <div class="product-button">Ver produto →</div>
                 </div>
-                {% endif %}
-            </div>
+            </a>
             {% endfor %}
         </div>
-        
-        <div class="actions">
-            <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}" class="btn btn-primary">
-                🔄 Tentar Novamente
-            </a>
-            <a href="{% url 'quizzes:theme_detail' theme_slug=theme.slug %}" class="btn btn-secondary">
-                ← Voltar aos Quizzes
-            </a>
-            <a href="{% url 'quizzes:home' %}" class="btn btn-secondary">
-                🏠 Página Inicial
-            </a>
-        </div>
     </div>
+    {% endif %}
 
-    <script>
-        // Prepara o texto para compartilhamento
-        const quizTitle = "{{ quiz.title|escapejs }}";
-        const percentage = "{{ percentage }}";
-        const userRank = "{{ user_rank }}";
-        const totalAttempts = "{{ total_attempts }}";
-        const quizUrl = window.location.origin + "{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}";
-        
-        const shareText = "Acabei de fazer o quiz \"" + quizTitle + "\" e acertei " + percentage + "%!\n\n" +
-                         "Estou em " + userRank + "º lugar entre " + totalAttempts + " participantes!\n\n" +
-                         "Faca voce tambem! " + quizUrl;
-        
-        const twitterText = "Acabei de fazer o quiz \"" + quizTitle + "\" e acertei " + percentage + "%! " +
-                           "Estou em " + userRank + "º lugar entre " + totalAttempts + " participantes!";
-        
-        // WhatsApp Share
-        document.getElementById('shareWhatsApp').addEventListener('click', function(e) {
-            e.preventDefault();
-            const whatsappUrl = "https://wa.me/?text=" + encodeURIComponent(shareText);
-            window.open(whatsappUrl, '_blank');
-        });
-        
-        // Twitter Share
-        document.getElementById('shareTwitter').addEventListener('click', function(e) {
-            e.preventDefault();
-            const twitterUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(twitterText) + "&url=" + encodeURIComponent(quizUrl);
-            window.open(twitterUrl, '_blank', 'width=550,height=420');
-        });
-    </script>
-</body>
-</html>
+    <!-- Review Section -->
+    <div class="review-section">
+        <div class="review-header">
+            <h2 class="review-title">📝 Revisão das Respostas</h2>
+            <p class="review-description">Veja as questões e confira suas respostas</p>
+        </div>
 
+        {% for result in results %}
+        <div class="question-card {% if result.user_answer.is_correct %}correct{% else %}incorrect{% endif %}" data-question="{{ forloop.counter }}">
+            <div class="question-header" onclick="toggleQuestion(this)">
+                <div class="question-number">{{ forloop.counter }}</div>
+                <div class="question-text">{{ result.question.text }}</div>
+                <div class="question-status {% if result.user_answer.is_correct %}correct{% else %}incorrect{% endif %}">
+                    {% if result.user_answer.is_correct %}
+                        ✓ Correto
+                    {% else %}
+                        ✗ Incorreto
+                    {% endif %}
+                </div>
+                <div class="question-toggle">▼</div>
+            </div>
+
+            <div class="question-content">
+                <div class="question-content-inner">
+                    {% if result.question.image %}
+                    <div style="margin-bottom: 1.5rem; text-align: center;">
+                        <img src="{{ result.question.image }}" alt="Imagem da questão" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                    </div>
+                    {% endif %}
+
+                    <div class="answers-list">
+                        {% for answer in result.all_answers %}
+                        <div class="answer-option 
+                            {% if result.user_answer.selected_answer.id == answer.id %}
+                                user-answer {% if not result.user_answer.is_correct %}incorrect{% endif %}
+                            {% endif %}
+                            {% if answer.is_correct %}
+                                correct-answer
+                            {% endif %}">
+                            <div class="answer-label">
+                                {% if result.user_answer.selected_answer.id == answer.id %}
+                                    {% if result.user_answer.is_correct %}
+                                        <span class="answer-icon">✓</span>
+                                    {% else %}
+                                        <span class="answer-icon">✗</span>
+                                    {% endif %}
+                                {% elif answer.is_correct %}
+                                    <span class="answer-icon">✓</span>
+                                {% endif %}
+                                <span>{{ answer.text }}</span>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    // Toggle Question Accordion
+    function toggleQuestion(header) {
+        const card = header.parentElement;
+        card.classList.toggle('expanded');
+    }
+
+    // Share on WhatsApp
+    document.getElementById('shareWhatsApp').addEventListener('click', function(e) {
+        e.preventDefault();
+        const quizTitle = '{{ quiz.title|escapejs }}';
+        const percentage = '{{ percentage }}';
+        const rank = '{{ user_rank }}';
+        const totalAttempts = '{{ total_attempts }}';
+        const url = window.location.origin + '{% url "quizzes:quiz_detail" theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}';
+        
+        const message = 'Acabei de fazer o quiz "' + quizTitle + '" e consegui ' + percentage + '% de acertos! Fiquei em ' + rank + 'º lugar de ' + totalAttempts + ' participantes. Faca voce tambem: ' + url;
+        
+        const whatsappUrl = 'https://wa.me/?text=' + encodeURIComponent(message);
+        window.open(whatsappUrl, '_blank');
+    });
+
+    // Share on Twitter
+    document.getElementById('shareTwitter').addEventListener('click', function(e) {
+        e.preventDefault();
+        const quizTitle = '{{ quiz.title|escapejs }}';
+        const percentage = '{{ percentage }}';
+        const rank = '{{ user_rank }}';
+        const totalAttempts = '{{ total_attempts }}';
+        const url = window.location.origin + '{% url "quizzes:quiz_detail" theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}';
+        
+        const message = 'Acabei de fazer o quiz "' + quizTitle + '" e consegui ' + percentage + '% de acertos! Fiquei em ' + rank + 'º lugar de ' + totalAttempts + ' participantes.';
+        
+        const twitterUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(message) + '&url=' + encodeURIComponent(url);
+        window.open(twitterUrl, '_blank');
+    });
+</script>
+{% endblock %}

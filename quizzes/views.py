@@ -391,15 +391,26 @@ def quiz_result(request, attempt_id):
     
     # Determinar categoria de performance
     percentage = attempt.get_score_percentage()
-    if percentage >= 80:
+    if percentage == 100:
         performance_level = 'excellent'
-        performance_message = 'Excelente! 🎉'
+        performance_message = 'Perfeito!'
+        performance_icon = '🎉'
+    elif percentage >= 80:
+        performance_level = 'excellent'
+        performance_message = 'Excelente!'
+        performance_icon = '🎉'
     elif percentage >= 50:
         performance_level = 'good'
-        performance_message = 'Bom trabalho! 👍'
+        performance_message = 'Bom trabalho!'
+        performance_icon = '👍'
+    elif percentage >= 30:
+        performance_level = 'poor'
+        performance_message = 'Continue praticando!'
+        performance_icon = '💪'
     else:
-        performance_level = 'needs-improvement'
-        performance_message = 'Continue praticando! 💪'
+        performance_level = 'very-poor'
+        performance_message = 'Tente novamente!'
+        performance_icon = '📚'
     
     # Calcular ranking do usuário neste quiz
     # Buscar todas as tentativas completas deste quiz
@@ -432,6 +443,9 @@ def quiz_result(request, attempt_id):
         'percentage': percentage,
         'performance_level': performance_level,
         'performance_message': performance_message,
+        'performance_icon': performance_icon,
+        'total_score': attempt.score,
+        'total_questions': attempt.max_score,
         'show_login_prompt': not request.user.is_authenticated and not attempt.user,
         'products': products,
         'breadcrumb': breadcrumb,
