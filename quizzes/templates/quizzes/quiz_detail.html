@@ -1,322 +1,543 @@
+{% extends "quizzes/base_quiz.html" %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ quiz.title }} - {{ theme.title }}</title>
-    <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+
+{% block title %}{{ quiz.title }} - QuizVerse{% endblock %}
+
+{% block body_background %}#f8fafc{% endblock %}
+
+{% block extra_styles %}
+<style>
+    /* Force main content to be full width without padding */
+    body > .main-content {
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: none !important;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+        margin: 0;
+        width: 100%;
+    }
+
+    .breadcrumb-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .breadcrumb-item {
+        color: #64748b;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .breadcrumb-item:hover {
+        color: #3b82f6;
+    }
+
+    .breadcrumb-separator {
+        color: #cbd5e0;
+    }
+
+    .breadcrumb-current {
+        color: #1e3a8a;
+        font-weight: 600;
+    }
+
+    /* Main Container */
+    .container {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 2rem;
+    }
+
+    /* Quiz Card */
+    .quiz-detail-card {
+        background: white;
+        border-radius: 24px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+        animation: fadeInUp 0.6s ease;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
         }
-        
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-            min-height: 100vh;
-            padding: 20px;
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Quiz Header */
+    .quiz-header {
+        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+        padding: 3rem 2.5rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .quiz-header::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    }
+
+    .quiz-icon-large {
+        width: 100px;
+        height: 100px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+        margin: 0 auto 1.5rem;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 1;
+    }
+
+    .quiz-title {
+        font-size: 2.25rem;
+        font-weight: 900;
+        color: white;
+        margin-bottom: 0.75rem;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 1;
+    }
+
+    .quiz-subtitle {
+        font-size: 1.125rem;
+        color: rgba(255, 255, 255, 0.95);
+        line-height: 1.6;
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Quiz Info */
+    .quiz-info {
+        padding: 2.5rem;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .info-item {
+        text-align: center;
+        padding: 1.5rem;
+        background: #f8fafc;
+        border-radius: 16px;
+        transition: all 0.3s ease;
+    }
+
+    .info-item:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.1);
+    }
+
+    .info-label {
+        font-size: 0.875rem;
+        color: #64748b;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-value {
+        font-size: 2rem;
+        font-weight: 800;
+        color: #1e3a8a;
+    }
+
+    .info-value.difficulty {
+        font-size: 1.5rem;
+    }
+
+    .info-value.difficulty-easy {
+        color: #10b981;
+    }
+
+    .info-value.difficulty-medium {
+        color: #f59e0b;
+    }
+
+    .info-value.difficulty-hard {
+        color: #ef4444;
+    }
+
+    /* CTA Button */
+    .cta-button {
+        width: 100%;
+        padding: 1.25rem;
+        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+        color: white;
+        border: none;
+        border-radius: 12px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
+        margin-bottom: 2.5rem;
+        text-decoration: none;
+        font-family: inherit;
+    }
+
+    .cta-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 35px rgba(59, 130, 246, 0.4);
+    }
+
+    /* History Section */
+    .history-section {
+        border-top: 2px solid #f1f5f9;
+        padding-top: 2rem;
+    }
+
+    .history-header {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .history-icon {
+        font-size: 1.5rem;
+    }
+
+    .history-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #1e3a8a;
+    }
+
+    /* Stats Summary */
+    .stats-summary {
+        background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+        border-radius: 16px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .stat-label {
+        font-size: 0.875rem;
+        color: #475569;
+        margin-bottom: 0.25rem;
+        font-weight: 500;
+    }
+
+    .stat-value {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #3b82f6;
+    }
+
+    .history-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .history-item {
+        background: #f8fafc;
+        border-radius: 12px;
+        padding: 1.25rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.2s ease;
+        border: 2px solid transparent;
+    }
+
+    .history-item:hover {
+        border-color: #dbeafe;
+        background: white;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.1);
+    }
+
+    .history-date {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #64748b;
+        font-size: 0.9rem;
+    }
+
+    .history-score {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .score-value {
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    .score-perfect {
+        color: #10b981;
+    }
+
+    .score-good {
+        color: #f59e0b;
+    }
+
+    .score-poor {
+        color: #ef4444;
+    }
+
+    .score-badge {
+        padding: 0.375rem 0.875rem;
+        border-radius: 50px;
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+
+    .badge-perfect {
+        background: #dcfce7;
+        color: #166534;
+    }
+
+    .badge-good {
+        background: #fef3c7;
+        color: #92400e;
+    }
+
+    .badge-poor {
+        background: #fee2e2;
+        color: #991b1b;
+    }
+
+    /* Empty State */
+    .empty-state {
+        text-align: center;
+        padding: 3rem 2rem;
+        background: #f8fafc;
+        border-radius: 16px;
+    }
+
+    .empty-icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        opacity: 0.5;
+    }
+
+    .empty-state h3 {
+        color: #1e3a8a;
+        margin-bottom: 0.5rem;
+        font-size: 1.25rem;
+    }
+
+    .empty-state p {
+        color: #64748b;
+        font-size: 0.95rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .quiz-title {
+            font-size: 1.75rem;
         }
 
-        /* Header */
-        .header {
-            background: white;
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        .info-grid {
+            grid-template-columns: 1fr;
+            gap: 1rem;
         }
 
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #3b82f6;
-            text-decoration: none;
+        .stats-summary {
+            grid-template-columns: 1fr;
+            gap: 1rem;
         }
 
-        .logo-icon {
-            width: 40px;
-            height: 40px;
+        .quiz-header {
+            padding: 2rem 1.5rem;
         }
 
-        /* Breadcrumb */
-        .breadcrumb-nav {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .breadcrumb-item {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.95rem;
-            color: #3b82f6;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-        }
-
-        .breadcrumb-item:hover {
-            background: #dbeafe;
-            transform: translateY(-2px);
-        }
-
-        .breadcrumb-item.active {
-            color: #1a1a2e;
-            font-weight: 600;
-            cursor: default;
-            pointer-events: none;
-        }
-
-        .breadcrumb-separator {
-            color: #cbd5e0;
-            font-size: 1.2rem;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            padding: 40px;
-        }
-        
-        .container.inactive {
-            background: #f8f9fa;
-            border: 3px solid #dc3545;
-        }
-        
-        .inactive-badge {
-            display: inline-block;
-            background: #dc3545;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-        
-        
-        h1 {
-            color: #333;
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-        }
-        
-        .description {
-            color: #666;
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 30px;
-        }
-        
         .quiz-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        
-        .info-card {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-        }
-        
-        .info-card .label {
-            color: #666;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 8px;
-        }
-        
-        .info-card .value {
-            color: #333;
-            font-size: 1.5rem;
-            font-weight: 700;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 15px 40px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            text-align: center;
-        }
-        
-        .btn-primary {
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-            color: white;
-            width: 100%;
-            margin-top: 20px;
-        }
-        
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
-        }
-        
-        .previous-attempts {
-            margin-top: 40px;
-            padding-top: 40px;
-            border-top: 2px solid #eee;
-        }
-        
-        .previous-attempts h2 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        
-        .attempt-item {
-            background: #f8f9fa;
-            padding: 15px 20px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .attempt-item:hover {
-            background: #e9ecef;
-        }
-        
-        .attempt-score {
-            font-weight: 700;
-            font-size: 1.2rem;
-            color: #3b82f6;
-        }
-        
-        .attempt-date {
-            color: #666;
-            font-size: 0.9rem;
+            padding: 1.5rem;
         }
 
-        @media (max-width: 768px) {
-            .header {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .breadcrumb-nav {
-                padding: 0.75rem 1rem;
-            }
-
-            .container {
-                padding: 30px 20px;
-            }
+        .history-item {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.75rem;
         }
-    </style>
-</head>
-<body>
-    <!-- Header -->
-    <div class="header">
-        <a href="{% url 'quizzes:home' %}" class="logo">
-            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App" class="logo-icon">
-            <span>Quiz App</span>
-        </a>
-    </div>
 
+        .cta-button {
+            font-size: 1.125rem;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .container {
+            padding: 0 1rem;
+            margin: 1rem auto;
+        }
+
+        .quiz-detail-card {
+            border-radius: 16px;
+        }
+
+        .breadcrumb-content {
+            padding: 0 1rem;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
     <!-- Breadcrumb -->
-    <div class="breadcrumb-nav">
-        <a href="{% url 'quizzes:home' %}" class="breadcrumb-item">
-            🏠 Início
-        </a>
-        {% for item in breadcrumb %}
-            <span class="breadcrumb-separator">›</span>
-            <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-item">
-                {{ item.icon }} {{ item.title }}
-            </a>
-        {% endfor %}
-        <span class="breadcrumb-separator">›</span>
-        <span class="breadcrumb-item active">
-            📚 {{ quiz.title }}
-        </span>
-    </div>
-
-    <div class="container{% if not quiz.active or not theme.active %} inactive{% endif %}">
-        
-        {% if not theme.active %}
-        <span class="inactive-badge">🔒 TEMA INATIVO</span>
-        {% endif %}
-        {% if not quiz.active %}
-        <span class="inactive-badge">🔒 QUIZ INATIVO</span>
-        {% endif %}
-        
-        <h1>{{ quiz.title }}</h1>
-        <p class="description">{{ quiz.description }}</p>
-        
-        <div class="quiz-info">
-            <div class="info-card">
-                <div class="label">Perguntas</div>
-                <div class="value">{{ total_questions }}</div>
-            </div>
-            <div class="info-card">
-                <div class="label">Pontos</div>
-                <div class="value">{{ total_points }}</div>
-            </div>
-            <div class="info-card">
-                <div class="label">Dificuldade</div>
-                <div class="value">
-                    {% if quiz.difficulty == 'easy' %}Fácil
-                    {% elif quiz.difficulty == 'medium' %}Médio
-                    {% else %}Difícil{% endif %}
-                </div>
-            </div>
-            {% if quiz.time_limit > 0 %}
-            <div class="info-card">
-                <div class="label">Tempo Limite</div>
-                <div class="value">{{ quiz.time_limit }}s</div>
-            </div>
-            {% endif %}
-        </div>
-        
-        <form method="post" action="{% url 'quizzes:quiz_start' theme_slug=theme.slug quiz_slug=quiz.slug %}">
-            {% csrf_token %}
-            <button type="submit" class="btn btn-primary">🎯 Iniciar Quiz</button>
-        </form>
-        
-        {% if previous_attempts %}
-        <div class="previous-attempts">
-            <h2>Suas Tentativas Anteriores</h2>
-            {% for attempt in previous_attempts %}
-            <div class="attempt-item">
-                <div>
-                    <div class="attempt-date">{{ attempt.completed_at|date:"d/m/Y H:i" }}</div>
-                </div>
-                <div class="attempt-score">
-                    {{ attempt.score }}/{{ attempt.max_score }} ({{ attempt.get_score_percentage }}%)
-                </div>
-            </div>
+    <nav class="breadcrumb">
+        <div class="breadcrumb-content">
+            <a href="{% url 'quizzes:home' %}" class="breadcrumb-item">🏠 Início</a>
+            {% for item in breadcrumb %}
+                <span class="breadcrumb-separator">›</span>
+                <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-item">
+                    {{ item.icon }} {{ item.title }}
+                </a>
             {% endfor %}
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-current">{{ quiz.title }}</span>
         </div>
-        {% endif %}
-    </div>
-</body>
-</html>
+    </nav>
 
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Quiz Detail Card -->
+        <div class="quiz-detail-card">
+            <!-- Quiz Header -->
+            <div class="quiz-header">
+                <div class="quiz-icon-large">{{ theme.icon }}</div>
+                <h1 class="quiz-title">{{ quiz.title }}</h1>
+                <p class="quiz-subtitle">{{ quiz.description }}</p>
+            </div>
+
+            <!-- Quiz Info -->
+            <div class="quiz-info">
+                <!-- Info Grid -->
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-label">Perguntas</div>
+                        <div class="info-value">{{ quiz.get_total_questions }}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Tempo estimado</div>
+                        <div class="info-value">~{{ quiz.get_estimated_time }} min</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Dificuldade</div>
+                        <div class="info-value difficulty difficulty-{{ quiz.difficulty }}">
+                            {% if quiz.difficulty == 'easy' %}Fácil
+                            {% elif quiz.difficulty == 'medium' %}Médio
+                            {% else %}Difícil{% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <form method="POST" action="{% url 'quizzes:quiz_start' theme_slug=theme.slug quiz_slug=quiz.slug %}" style="margin: 0;">
+                    {% csrf_token %}
+                    <button type="submit" class="cta-button">
+                        🚀 Iniciar Quiz
+                    </button>
+                </form>
+
+                <!-- History Section -->
+                {% if user_attempts %}
+                <div class="history-section">
+                    <div class="history-header">
+                        <span class="history-icon">📊</span>
+                        <h2 class="history-title">Suas Tentativas Anteriores</h2>
+                    </div>
+
+                    <!-- Stats Summary -->
+                    <div class="stats-summary">
+                        <div class="stat-item">
+                            <div class="stat-label">Tentativas</div>
+                            <div class="stat-value">{{ stats.total_attempts }}</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Melhor Score</div>
+                            <div class="stat-value">{{ stats.best_percentage|floatformat:0 }}%</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Média</div>
+                            <div class="stat-value">{{ stats.avg_percentage|floatformat:0 }}%</div>
+                        </div>
+                    </div>
+
+                    <!-- History List -->
+                    <div class="history-list">
+                        {% for attempt in user_attempts %}
+                        <div class="history-item">
+                            <div class="history-date">
+                                📅 {{ attempt.completed_at|date:"d/m/Y H:i" }}
+                            </div>
+                            <div class="history-score">
+                                <span class="score-value {% if attempt.percentage >= 80 %}score-perfect{% elif attempt.percentage >= 50 %}score-good{% else %}score-poor{% endif %}">
+                                    {{ attempt.total_score }}/{{ attempt.max_score }}
+                                </span>
+                                <span class="score-badge {% if attempt.percentage >= 80 %}badge-perfect{% elif attempt.percentage >= 50 %}badge-good{% else %}badge-poor{% endif %}">
+                                    {{ attempt.percentage|floatformat:1 }}%
+                                </span>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% else %}
+                <!-- Empty State -->
+                <div class="history-section">
+                    <div class="history-header">
+                        <span class="history-icon">📊</span>
+                        <h2 class="history-title">Suas Tentativas Anteriores</h2>
+                    </div>
+                    <div class="empty-state">
+                        <div class="empty-icon">🎯</div>
+                        <h3>Nenhuma tentativa ainda</h3>
+                        <p>Seja o primeiro a fazer este quiz! Clique em "Iniciar Quiz" acima.</p>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </main>
+{% endblock %}

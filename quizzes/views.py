@@ -122,13 +122,40 @@ def quiz_detail(request, theme_slug, quiz_slug):
         quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug, active=True)
     
     # Buscar tentativas anteriores do usuário
-    previous_attempts = None
+    user_attempts = None
+    stats = None
     if request.user.is_authenticated:
-        previous_attempts = QuizAttempt.objects.filter(
+        attempts = QuizAttempt.objects.filter(
             user=request.user,
             quiz=quiz,
             completed_at__isnull=False
-        ).order_by('-completed_at')[:5]
+        ).order_by('-completed_at')[:10]
+        
+        # Calcular porcentagem para cada tentativa e converter para lista
+        user_attempts = []
+        for attempt in attempts:
+            # Calcular porcentagem
+            if attempt.max_score > 0:
+                percentage = (attempt.score / attempt.max_score) * 100
+            else:
+                percentage = 0
+            
+            # Adicionar porcentagem e total_score como atributos temporários
+            attempt.percentage = percentage
+            attempt.total_score = attempt.score  # Alias para template
+            user_attempts.append(attempt)
+        
+        # Calcular estatísticas
+        if user_attempts:
+            total_attempts = len(user_attempts)
+            best_percentage = max(attempt.percentage for attempt in user_attempts)
+            avg_percentage = sum(attempt.percentage for attempt in user_attempts) / total_attempts
+            
+            stats = {
+                'total_attempts': total_attempts,
+                'best_percentage': best_percentage,
+                'avg_percentage': avg_percentage,
+            }
     
     # Gerar breadcrumb
     breadcrumb = theme.get_breadcrumb()
@@ -137,7 +164,8 @@ def quiz_detail(request, theme_slug, quiz_slug):
         'theme': theme,
         'quiz': quiz,
         'total_questions': quiz.get_total_questions(),
-        'previous_attempts': previous_attempts,
+        'user_attempts': user_attempts,
+        'stats': stats,
         'breadcrumb': breadcrumb,
     }
     return render(request, 'quizzes/quiz_detail.html', context)
