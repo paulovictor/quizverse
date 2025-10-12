@@ -1,531 +1,405 @@
+{% extends "quizzes/base_quiz.html" %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ theme.title }} - Quiz App</title>
-    <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+
+{% block title %}{{ theme.title }} - QuizVerse{% endblock %}
+
+{% block extra_styles %}
+<style>
+    /* Override container padding for this page */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    /* Breadcrumb styling */
+    .breadcrumb {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+    }
+
+    /* Page Header */
+    .page-header {
+        background: white;
+        padding: 2rem;
+        border-radius: 16px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        position: relative;
+    }
+
+    .page-header.inactive {
+        border: 3px solid #dc3545;
+        background: #f8f9fa;
+    }
+
+    .page-icon {
+        font-size: 4rem;
+        filter: drop-shadow(0 2px 10px rgba(59, 130, 246, 0.3));
+    }
+
+    .page-info h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1e3a8a;
+        margin-bottom: 0.5rem;
+    }
+
+    .page-info p {
+        color: #64748b;
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+
+    .inactive-badge {
+        background: #dc3545;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 0.75rem;
+    }
+
+    /* Cards Grid */
+    .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    /* Category Card */
+    .category-card {
+        background: white;
+        border-radius: 16px;
+        padding: 2rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+        display: block;
+    }
+
+    .category-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #3b82f6, #06b6d4);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+    }
+
+    .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+    }
+
+    .category-card:hover::before {
+        transform: scaleX(1);
+    }
+
+    .category-card.inactive {
+        opacity: 0.6;
+        border: 2px dashed #dc3545;
+    }
+
+    .category-icon {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        filter: drop-shadow(0 2px 5px rgba(59, 130, 246, 0.2));
+    }
+
+    .category-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #1e3a8a;
+        margin-bottom: 0.75rem;
+        text-align: center;
+    }
+
+    .category-description {
+        color: #64748b;
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 1.25rem;
+    }
+
+    .category-meta {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    .meta-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+        background: #dbeafe;
+        color: #3b82f6;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    /* Badge para subcategorias com estilo minimalista */
+    .category-card .meta-badge {
+        background: rgba(59, 130, 246, 0.1) !important;
+        color: #0f172a !important;
+    }
+
+    /* Estilos para subcategorias com background customizado */
+    .category-card.custom-card-bg {
+        padding: 0;
+        min-height: 200px;
+    }
+
+    .theme-badge-overlay {
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+        z-index: 10;
+    }
+
+    .quiz-count-badge {
+        background: rgba(255, 255, 255, 0.95);
+        color: #0f172a;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+    }
+
+    /* Quiz Card */
+    .quiz-card {
+        background: white;
+        border-radius: 16px;
+        padding: 2rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        text-decoration: none;
+        display: block;
+        position: relative;
+    }
+
+    .quiz-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+    }
+
+    .quiz-card.inactive {
+        opacity: 0.6;
+        border: 2px dashed #dc3545;
+    }
+
+    .quiz-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .quiz-icon {
+        font-size: 2.5rem;
+        filter: drop-shadow(0 2px 5px rgba(59, 130, 246, 0.2));
+    }
+
+    .quiz-info h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1e3a8a;
+        margin-bottom: 0.5rem;
+    }
+
+    .quiz-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .quiz-meta span {
+        background: #dbeafe;
+        color: #3b82f6;
+        padding: 0.25rem 0.75rem;
+        border-radius: 6px;
+        font-weight: 600;
+    }
+
+    .difficulty-easy {
+        background: #d1fae5 !important;
+        color: #065f46 !important;
+    }
+
+    .difficulty-medium {
+        background: #fed7aa !important;
+        color: #92400e !important;
+    }
+
+    .difficulty-hard {
+        background: #fecaca !important;
+        color: #991b1b !important;
+    }
+
+    .quiz-description {
+        color: #64748b;
+        line-height: 1.6;
+    }
+
+    /* Empty State */
+    .empty-state {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .empty-state-icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        opacity: 0.3;
+    }
+
+    .empty-state h3 {
+        font-size: 1.5rem;
+        color: #1e3a8a;
+        margin-bottom: 0.5rem;
+    }
+
+    .empty-state p {
+        color: #64748b;
+    }
+
+    /* Products Preview */
+    .products-preview {
+        margin-top: 3rem;
+        padding: 2rem;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .products-preview h2 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: #1e3a8a;
+        margin-bottom: 0.5rem;
+    }
+
+    .products-preview p {
+        color: #64748b;
+        margin-bottom: 1.5rem;
+    }
+
+    .products-horizontal {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .product-mini-card {
+        background: #f8fafc;
+        border-radius: 12px;
+        overflow: hidden;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+    }
+
+    .product-mini-card:hover {
+        transform: translateY(-3px);
+        border-color: #3b82f6;
+        box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
+    }
+
+    .product-mini-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .product-mini-info {
+        padding: 1rem;
+    }
+
+    .product-mini-title {
+        font-weight: 600;
+        color: #1e3a8a;
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+    }
+
+    .product-mini-price {
+        color: #059669;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .product-mini-button {
+        background: #3b82f6;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    .product-mini-card:hover .product-mini-button {
+        background: #2563eb;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .container, .breadcrumb {
+            padding: 1rem;
         }
 
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-            min-height: 100vh;
-            padding: 20px;
-            position: relative;
-        }
-
-        /* Header */
-        .header {
-            background: white;
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #3b82f6;
-            text-decoration: none;
-        }
-
-        .logo-icon {
-            width: 40px;
-            height: 40px;
-        }
-        
-        .user-menu {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .user-info {
-            color: #3b82f6;
-            font-weight: 600;
-        }
-
-        .nav-link {
-            color: #3b82f6;
-            text-decoration: none;
-            font-weight: 600;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-        }
-
-        .nav-link:hover {
-            background: #f0f4ff;
-        }
-
-        /* Breadcrumb */
-        .breadcrumb {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .breadcrumb-item {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.95rem;
-            color: #3b82f6;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-        }
-
-        .breadcrumb-item:hover {
-            background: #f0f4ff;
-            transform: translateY(-2px);
-        }
-
-        .breadcrumb-item.active {
-            color: #1a1a2e;
-            font-weight: 600;
-            cursor: default;
-            pointer-events: none;
-        }
-
-        .breadcrumb-separator {
-            color: #cbd5e0;
-            font-size: 1.2rem;
-        }
-
-        /* Container */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        /* Page Header */
         .page-header {
-            background: white;
-            padding: 2rem;
-            border-radius: 16px;
-            margin-bottom: 2rem;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            position: relative;
-        }
-        
-        /* Estilos para subcategorias com background customizado */
-        .category-card.custom-card-bg {
-            padding: 0;
-            min-height: 200px;
-        }
-        
-        .theme-badge-overlay {
-            position: absolute;
-            bottom: 16px;
-            left: 16px;
-            z-index: 10;
-        }
-        
-        .quiz-count-badge {
-            background: rgba(255, 255, 255, 0.95);
-            color: #0f172a;
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 0.8rem;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-            backdrop-filter: blur(10px);
-            display: inline-flex;
-            align-items: center;
-            gap: 3px;
+            flex-direction: column;
+            text-align: center;
         }
 
-        .page-header.inactive {
-            border: 3px solid #dc3545;
-            background: #f8f9fa;
-        }
-
-        .page-icon {
-            font-size: 4rem;
-            filter: drop-shadow(0 2px 4px rgba(59, 130, 246, 0.2));
-        }
-
-        .page-info h1 {
-            color: #1a1a2e;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .page-info p {
-            color: #64748b;
-            font-size: 1.1rem;
-            line-height: 1.5;
-        }
-
-        .inactive-badge {
-            background: #dc3545;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            display: inline-block;
-            margin-bottom: 0.5rem;
-        }
-
-        /* Cards Grid */
         .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        /* Category Card */
-        .category-card {
-            background: white;
-            border-radius: 16px;
-            padding: 2rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            position: relative;
-            overflow: hidden;
-            text-decoration: none;
-            display: block;
-        }
-
-        .category-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, #3b82f6, #06b6d4);
-            transform: scaleX(0);
-            transition: transform 0.3s ease;
-        }
-
-        .category-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .category-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
-        }
-
-        .category-card.inactive {
-            opacity: 0.7;
-            border: 3px dashed #dc3545;
-        }
-
-        .category-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .category-title {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #1a1a2e;
-            margin-bottom: 0.5rem;
-        }
-
-        .category-description {
-            color: #64748b;
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-            line-height: 1.5;
-        }
-
-        .category-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-        }
-
-        .meta-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 3px;
-            background: #dbeafe;
-            color: #3b82f6;
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            font-weight: 600;
-        }
-        
-        /* Badge para subcategorias com estilo minimalista */
-        .category-card .meta-badge {
-            background: rgba(59, 130, 246, 0.1) !important;
-            color: #0f172a !important;
-        }
-
-        /* Quiz Card */
-        .quiz-card {
-            background: white;
-            border-radius: 16px;
-            padding: 2rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            border: 2px solid transparent;
-            text-decoration: none;
-            display: block;
-        }
-
-        .quiz-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
-            border-color: #3b82f6;
-        }
-
-        .quiz-card.inactive {
-            opacity: 0.7;
-            border: 3px dashed #dc3545;
-        }
-
-        .quiz-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .quiz-icon {
-            font-size: 2.5rem;
-        }
-
-        .quiz-info h3 {
-            font-size: 1.25rem;
-            color: #1a1a2e;
-            margin-bottom: 0.25rem;
-        }
-
-        .quiz-meta {
-            display: flex;
-            gap: 1rem;
-            font-size: 0.85rem;
-            color: #64748b;
-            flex-wrap: wrap;
-        }
-
-        .quiz-meta span {
-            display: flex;
-            align-items: center;
-            gap: 0.25rem;
-        }
-
-        .quiz-description {
-            color: #64748b;
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-            line-height: 1.5;
-        }
-
-        .difficulty-easy {
-            background: #d4edda;
-            color: #155724;
-            padding: 0.3rem 0.7rem;
-            border-radius: 15px;
-            font-weight: 600;
-        }
-
-        .difficulty-medium {
-            background: #fff3cd;
-            color: #856404;
-            padding: 0.3rem 0.7rem;
-            border-radius: 15px;
-            font-weight: 600;
-        }
-
-        .difficulty-hard {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 0.3rem 0.7rem;
-            border-radius: 15px;
-            font-weight: 600;
-        }
-
-        /* Section Title */
-        .section-title {
-            color: white;
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
-        }
-
-        /* Products Preview */
-        .products-preview {
-            background: white;
-            padding: 2rem;
-            border-radius: 16px;
-            margin-top: 3rem;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .products-preview h2 {
-            color: #1a1a2e;
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .products-preview p {
-            color: #64748b;
-            margin-bottom: 1.5rem;
+            grid-template-columns: 1fr;
         }
 
         .products-horizontal {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
+            grid-template-columns: 1fr;
         }
+    }
 
-        .product-mini-card {
-            background: #f8f9fa;
-            border-radius: 12px;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            border: 2px solid transparent;
+    @media (max-width: 640px) {
+        .container, .breadcrumb {
+            padding: 1rem 0.5rem;
         }
+    }
+</style>
+{% endblock %}
 
-        .product-mini-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
-            border-color: #3b82f6;
-        }
-
-        .product-mini-image {
-            width: 100%;
-            height: 150px;
-            object-fit: contain;
-            background: white;
-            padding: 1rem;
-        }
-
-        .product-mini-info {
-            padding: 1rem;
-            background: white;
-        }
-
-        .product-mini-title {
-            color: #1a1a2e;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            line-height: 1.3;
-        }
-
-        .product-mini-price {
-            color: #10b981;
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-        }
-
-        .product-mini-button {
-            background: #3b82f6;
-            color: white;
-            padding: 0.5rem;
-            border-radius: 6px;
-            text-align: center;
-            font-weight: 600;
-            font-size: 0.85rem;
-        }
-
-        /* Empty State */
-        .empty-state {
-            text-align: center;
-            padding: 3rem;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 16px;
-            margin: 2rem 0;
-        }
-
-        .empty-state-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            opacity: 0.5;
-        }
-
-        .empty-state h3 {
-            color: #1a1a2e;
-            margin-bottom: 0.5rem;
-        }
-
-        .empty-state p {
-            color: #64748b;
-        }
-
-        @media (max-width: 768px) {
-            .page-header {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .page-info h1 {
-                font-size: 2rem;
-            }
-
-            .cards-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .products-horizontal {
-                grid-template-columns: 1fr;
-            }
-
-            .breadcrumb {
-                padding: 0.75rem 1rem;
-            }
-        }
-    </style>
-</head>
-<body>
-    <!-- Header -->
-    <div class="header">
-        <a href="{% url 'quizzes:home' %}" class="logo">
-            <img src="{% static 'images/quizverse_icon.png' %}" alt="Quiz App" class="logo-icon">
-            <span>Quiz App</span>
-        </a>
-        <div class="user-menu">
-            {% if user.is_authenticated %}
-                <span class="user-info">Olá, {{ user.email|truncatechars:20 }} 👋</span>
-                <a href="{% url 'account_logout' %}" class="nav-link">Sair</a>
-            {% else %}
-                <a href="{% url 'account_login' %}" class="nav-link">Entrar</a>
-                <a href="{% url 'account_signup' %}" class="btn-primary">Cadastrar</a>
-            {% endif %}
-        </div>
-    </div>
-
+{% block content %}
     <!-- Breadcrumb -->
     <div class="breadcrumb">
         <a href="{% url 'quizzes:home' %}" class="breadcrumb-item">
@@ -662,5 +536,4 @@
         </div>
         {% endif %}
     </div>
-</body>
-</html>
+{% endblock %}
