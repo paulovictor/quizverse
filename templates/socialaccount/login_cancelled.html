@@ -1,0 +1,15 @@
+{% extends "account/base.html" %}
+
+{% block head_title %}Login Cancelado{% endblock %}
+
+{% block content %}
+<h2 style="color:#f59e0b;margin-bottom:20px;">⚠️ Login Cancelado</h2>
+<p style="color:#666;margin-bottom:20px;">
+    Você cancelou o login. Gostaria de tentar novamente?
+</p>
+<a href="{% url 'account_login' %}" class="btn-primary">Voltar ao Login</a>
+<div class="back-link">
+    <a href="{% url 'quizzes:home' %}">← Voltar para home</a>
+</div>
+{% endblock %}
+

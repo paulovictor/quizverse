@@ -1,0 +1,43 @@
+{% extends "account/base.html" %}
+{% load socialaccount %}
+
+{% block head_title %}Completar Cadastro{% endblock %}
+
+{% block content %}
+<h2 style="color:#333;margin-bottom:10px;">✅ Quase lá!</h2>
+<p style="color:#666;margin-bottom:25px;font-size:0.95rem;">
+    Complete seu cadastro com {% get_provider_name provider %}.
+</p>
+
+<form method="post" action="{% url 'socialaccount_signup' %}">
+    {% csrf_token %}
+    
+    {% if form.non_field_errors %}
+    <div style="background:#fee2e2;border-left:4px solid #dc2626;padding:12px;border-radius:8px;margin-bottom:20px;">
+        {{ form.non_field_errors }}
+    </div>
+    {% endif %}
+    
+    {% if form.email %}
+    <div style="margin-bottom:20px;">
+        <label style="display:block;color:#333;font-weight:600;margin-bottom:8px;font-size:0.9rem;">
+            Email
+        </label>
+        <input type="email" name="email" value="{{ form.email.value|default:'' }}" required
+               style="width:100%;padding:12px 15px;border:2px solid #e5e7eb;border-radius:10px;font-size:1rem;">
+        {% if form.email.errors %}
+        <div style="color:#dc2626;font-size:0.85rem;margin-top:5px;">{{ form.email.errors }}</div>
+        {% endif %}
+    </div>
+    {% endif %}
+    
+    {{ form.as_p }}
+    
+    <button type="submit" class="btn-primary">Continuar</button>
+</form>
+
+<div class="back-link">
+    <a href="{% url 'account_login' %}">← Voltar ao login</a>
+</div>
+{% endblock %}
+

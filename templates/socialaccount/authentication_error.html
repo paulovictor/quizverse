@@ -1,0 +1,15 @@
+{% extends "account/base.html" %}
+
+{% block head_title %}Erro de Autenticação{% endblock %}
+
+{% block content %}
+<h2 style="color:#dc2626;margin-bottom:20px;">❌ Erro de Autenticação</h2>
+<p style="color:#666;margin-bottom:20px;">
+    Ocorreu um erro ao tentar fazer login com sua conta social. Por favor, tente novamente.
+</p>
+<a href="{% url 'account_login' %}" class="btn-primary">Voltar ao Login</a>
+<div class="back-link">
+    <a href="{% url 'quizzes:home' %}">← Voltar para home</a>
+</div>
+{% endblock %}
+
