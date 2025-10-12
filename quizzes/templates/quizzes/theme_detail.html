@@ -185,6 +185,8 @@
         justify-content: center;
         font-size: 4rem;
         position: relative;
+        background-size: cover;
+        background-position: center;
     }
 
     .subcategory-content {
@@ -599,13 +601,17 @@
                         {% if item.theme.card_background_image or item.theme.card_background_color %}
                             <div class="subcategory-banner" 
                                  style="{% if item.theme.card_background_image %}background-image: url('{{ item.theme.card_background_image }}'); background-size: cover; background-position: center;{% endif %}{% if item.theme.card_background_color %} background: {{ item.theme.card_background_color }};{% endif %}">
-                            </div>
-                            <div class="subcategory-content">
                                 <div class="theme-badge-overlay">
                                     {% if item.quiz_count > 0 %}
                                     <span class="quiz-count-badge">📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}</span>
                                     {% endif %}
                                 </div>
+                            </div>
+                            <div class="subcategory-content">
+                                {% if not item.theme.active %}
+                                <span class="inactive-badge">🔒 INATIVO</span>
+                                {% endif %}
+                                <h3 class="subcategory-title">{{ item.theme.title }}</h3>
                             </div>
                         {% else %}
                             <div class="subcategory-banner">
