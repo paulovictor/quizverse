@@ -195,114 +195,73 @@
         height: 18px;
     }
 
+    /* Hero Stats */
+    .hero-stats {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .hero-stat {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        padding: 0.75rem 1.5rem;
+        border-radius: 50px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .hero-stat-icon {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+
+    .hero-stat-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-stat-label {
+        font-size: 0.75rem;
+        color: rgba(255, 255, 255, 0.85);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        line-height: 1;
+        margin-bottom: 0.25rem;
+    }
+
+    .hero-stat-value {
+        font-size: 1.25rem;
+        color: white;
+        font-weight: 800;
+        line-height: 1;
+    }
+
+    .hero-achievement {
+        margin-top: 1rem;
+        padding: 0.75rem 1.5rem;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 50px;
+        color: white;
+        font-weight: 700;
+        font-size: 0.875rem;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        display: inline-block;
+    }
+
     /* Content Wrapper */
     .content-wrapper {
         max-width: 1200px;
         margin: 0 auto;
         padding: 3rem 2rem;
-    }
-
-    /* Stats Grid */
-    .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 1.5rem;
-        margin-bottom: 2rem;
-    }
-
-    .stat-card {
-        background: white;
-        border-radius: 16px;
-        padding: 2rem;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-        transition: all 0.3s ease;
-        border: 2px solid transparent;
-    }
-
-    .stat-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-        border-color: #e5e7eb;
-    }
-
-    .stat-card-header {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .stat-icon {
-        width: 56px;
-        height: 56px;
-        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.75rem;
-        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
-    }
-
-    .stat-icon.rank {
-        background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-        box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
-    }
-
-    .stat-icon.users {
-        background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
-        box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
-    }
-
-    .stat-icon.beat {
-        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-        box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
-    }
-
-    .stat-content {
-        flex: 1;
-    }
-
-    .stat-label {
-        font-size: 0.875rem;
-        color: #6b7280;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        margin-bottom: 0.25rem;
-    }
-
-    .stat-value {
-        font-size: 2rem;
-        font-weight: 800;
-        color: #1f2937;
-        line-height: 1;
-    }
-
-    .stat-badge {
-        display: inline-block;
-        padding: 0.5rem 1rem;
-        background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
-        border-radius: 8px;
-        font-size: 0.875rem;
-        font-weight: 700;
-        color: #92400e;
-        margin-top: 0.75rem;
-    }
-
-    .stat-badge.top3 {
-        background: linear-gradient(135deg, #fef3c7 0%, #fcd34d 100%);
-        color: #92400e;
-    }
-
-    .stat-badge.top10 {
-        background: linear-gradient(135deg, #dbeafe 0%, #93c5fd 100%);
-        color: #1e40af;
-    }
-
-    .stat-badge.average {
-        background: linear-gradient(135deg, #d1fae5 0%, #6ee7b7 100%);
-        color: #065f46;
     }
 
     /* Review Section */
@@ -643,10 +602,6 @@
             padding: 1rem 2rem;
         }
 
-        .stats-grid {
-            grid-template-columns: 1fr;
-        }
-
         .content-wrapper {
             padding: 2rem 1rem;
         }
@@ -657,6 +612,35 @@
 
         .result-hero {
             padding: 3rem 1rem;
+        }
+
+        .hero-stats {
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .hero-stat {
+            padding: 0.6rem 1.25rem;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .hero-stat-icon {
+            font-size: 1.25rem;
+        }
+
+        .hero-stat-label {
+            font-size: 0.65rem;
+        }
+
+        .hero-stat-value {
+            font-size: 1.1rem;
+        }
+
+        .hero-achievement {
+            margin-top: 0.75rem;
+            padding: 0.6rem 1.25rem;
+            font-size: 0.8rem;
         }
 
         .review-section {
@@ -776,69 +760,64 @@
                 <span>Tweetar</span>
             </a>
         </div>
-    </div>
-</div>
 
-<!-- Main Content -->
-<div class="content-wrapper">
-    <!-- Stats Grid -->
-    <div class="stats-grid">
-        <!-- Ranking Position -->
-        <div class="stat-card">
-            <div class="stat-card-header">
-                <div class="stat-icon rank">
+        <!-- Hero Stats -->
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="hero-stat-icon">
                     {% if user_rank == 1 %}🥇
                     {% elif user_rank == 2 %}🥈
                     {% elif user_rank == 3 %}🥉
                     {% else %}🏆{% endif %}
                 </div>
-                <div class="stat-content">
-                    <div class="stat-label">Sua Posição</div>
-                    <div class="stat-value">{{ user_rank }}º</div>
+                <div class="hero-stat-content">
+                    <div class="hero-stat-label">Posição</div>
+                    <div class="hero-stat-value">{{ user_rank }}º</div>
                 </div>
             </div>
-            {% if user_rank == 1 %}
-                <div class="stat-badge top3">⭐ Você está em 1º lugar!</div>
-            {% elif user_rank <= 3 %}
-                <div class="stat-badge top3">🔥 Top 3!</div>
-            {% elif user_rank <= 10 %}
-                <div class="stat-badge top10">⚡ Top 10!</div>
-            {% elif users_beaten_percentage >= 50 %}
-                <div class="stat-badge average">💪 Acima da média!</div>
+
+            <div class="hero-stat">
+                <div class="hero-stat-icon">👥</div>
+                <div class="hero-stat-content">
+                    <div class="hero-stat-label">Participantes</div>
+                    <div class="hero-stat-value">{{ total_attempts }}</div>
+                </div>
+            </div>
+
+            {% if users_beaten_percentage > 0 %}
+            <div class="hero-stat">
+                <div class="hero-stat-icon">📈</div>
+                <div class="hero-stat-content">
+                    <div class="hero-stat-label">Superados</div>
+                    <div class="hero-stat-value">{{ users_beaten_percentage }}%</div>
+                </div>
+            </div>
             {% endif %}
         </div>
 
-        <!-- Total Participants -->
-        <div class="stat-card">
-            <div class="stat-card-header">
-                <div class="stat-icon users">👥</div>
-                <div class="stat-content">
-                    <div class="stat-label">Participantes</div>
-                    <div class="stat-value">{{ total_attempts }}</div>
-                </div>
+        <!-- Achievement Badge -->
+        {% if user_rank == 1 %}
+            <div class="hero-achievement">
+                ⭐ Você está em 1º lugar!
             </div>
-            <p style="color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem;">
-                Total de pessoas que fizeram este quiz
-            </p>
-        </div>
-
-        <!-- Users Beaten -->
-        {% if users_beaten_percentage > 0 %}
-        <div class="stat-card">
-            <div class="stat-card-header">
-                <div class="stat-icon beat">📈</div>
-                <div class="stat-content">
-                    <div class="stat-label">Superados</div>
-                    <div class="stat-value">{{ users_beaten_percentage }}%</div>
-                </div>
+        {% elif user_rank <= 3 %}
+            <div class="hero-achievement">
+                🔥 Top 3! Continue assim!
             </div>
-            <p style="color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem;">
-                Você está melhor que {{ users_beaten_percentage }}% dos participantes
-            </p>
-        </div>
+        {% elif user_rank <= 10 %}
+            <div class="hero-achievement">
+                ⚡ Top 10! Excelente resultado!
+            </div>
+        {% elif users_beaten_percentage >= 50 %}
+            <div class="hero-achievement">
+                💪 Acima da média!
+            </div>
         {% endif %}
     </div>
+</div>
 
+<!-- Main Content -->
+<div class="content-wrapper">
     <!-- Action Buttons -->
     <div class="action-buttons">
         <form method="POST" action="{% url 'quizzes:quiz_start' theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}" style="margin: 0;">
@@ -975,3 +954,4 @@
     });
 </script>
 {% endblock %}
+
