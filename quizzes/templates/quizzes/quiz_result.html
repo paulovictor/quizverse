@@ -128,21 +128,21 @@
         display: inline-block;
         background: white;
         color: #1f2937;
-        padding: 1.5rem 3rem;
-        border-radius: 20px;
-        font-size: 4rem;
+        padding: 1rem 2.5rem;
+        border-radius: 16px;
+        font-size: 3rem;
         font-weight: 800;
-        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-        margin-bottom: 1rem;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        margin-bottom: 0.75rem;
     }
 
     .score-label {
         color: white;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 1px;
-        opacity: 0.95;
+        opacity: 0.9;
         margin-bottom: 1.5rem;
     }
 
@@ -244,17 +244,51 @@
         line-height: 1;
     }
 
-    .hero-achievement {
-        margin-top: 1rem;
-        padding: 0.75rem 1.5rem;
-        background: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
+    /* Hero Action Buttons */
+    .hero-action-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .hero-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.875rem 2rem;
         border-radius: 50px;
-        color: white;
         font-weight: 700;
-        font-size: 0.875rem;
+        font-size: 0.95rem;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero-btn-primary {
+        background: white;
+        color: #1f2937;
+    }
+
+    .hero-btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+    }
+
+    .hero-btn-secondary {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        color: white;
         border: 2px solid rgba(255, 255, 255, 0.3);
-        display: inline-block;
+    }
+
+    .hero-btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.25);
+        border-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-2px);
     }
 
     /* Content Wrapper */
@@ -545,52 +579,6 @@
         background: linear-gradient(135deg, #2563eb 0%, #0891b2 100%);
     }
 
-    /* Action Buttons */
-    .action-buttons {
-        display: flex;
-        gap: 1rem;
-        justify-content: center;
-        margin-top: 0;
-        margin-bottom: 2rem;
-        flex-wrap: wrap;
-    }
-
-    .btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.75rem;
-        padding: 1rem 2rem;
-        border-radius: 12px;
-        font-weight: 700;
-        font-size: 1rem;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        border: none;
-        cursor: pointer;
-    }
-
-    .btn-primary {
-        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-        color: white;
-        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
-    }
-
-    .btn-primary:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
-    }
-
-    .btn-secondary {
-        background: white;
-        color: #3b82f6;
-        border: 2px solid #3b82f6;
-    }
-
-    .btn-secondary:hover {
-        background: #f0f4ff;
-        transform: translateY(-2px);
-    }
-
     /* Responsive */
     @media (max-width: 768px) {
         .result-title {
@@ -598,8 +586,25 @@
         }
 
         .score-display {
-            font-size: 3rem;
-            padding: 1rem 2rem;
+            font-size: 2.5rem;
+            padding: 0.875rem 2rem;
+        }
+
+        .score-label {
+            font-size: 0.8rem;
+        }
+
+        .hero-action-buttons {
+            flex-direction: column;
+            width: 100%;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-btn {
+            width: 100%;
+            justify-content: center;
         }
 
         .content-wrapper {
@@ -635,12 +640,6 @@
 
         .hero-stat-value {
             font-size: 1.1rem;
-        }
-
-        .hero-achievement {
-            margin-top: 0.75rem;
-            padding: 0.6rem 1.25rem;
-            font-size: 0.8rem;
         }
 
         .review-section {
@@ -694,15 +693,6 @@
         }
 
         .hero-share-btn {
-            width: 100%;
-            justify-content: center;
-        }
-
-        .action-buttons {
-            flex-direction: column;
-        }
-
-        .btn {
             width: 100%;
             justify-content: center;
         }
@@ -795,41 +785,23 @@
             {% endif %}
         </div>
 
-        <!-- Achievement Badge -->
-        {% if user_rank == 1 %}
-            <div class="hero-achievement">
-                ⭐ Você está em 1º lugar!
-            </div>
-        {% elif user_rank <= 3 %}
-            <div class="hero-achievement">
-                🔥 Top 3! Continue assim!
-            </div>
-        {% elif user_rank <= 10 %}
-            <div class="hero-achievement">
-                ⚡ Top 10! Excelente resultado!
-            </div>
-        {% elif users_beaten_percentage >= 50 %}
-            <div class="hero-achievement">
-                💪 Acima da média!
-            </div>
-        {% endif %}
+        <!-- Hero Action Buttons -->
+        <div class="hero-action-buttons">
+            <form method="POST" action="{% url 'quizzes:quiz_start' theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}" style="margin: 0;">
+                {% csrf_token %}
+                <button type="submit" class="hero-btn hero-btn-primary">
+                    🔄 Jogar novamente
+                </button>
+            </form>
+            <a href="{% url 'quizzes:theme_detail' theme_slug=quiz.theme.slug %}" class="hero-btn hero-btn-secondary">
+                📚 Mais quizzes
+            </a>
+        </div>
     </div>
 </div>
 
 <!-- Main Content -->
 <div class="content-wrapper">
-    <!-- Action Buttons -->
-    <div class="action-buttons">
-        <form method="POST" action="{% url 'quizzes:quiz_start' theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}" style="margin: 0;">
-            {% csrf_token %}
-            <button type="submit" class="btn btn-primary">
-                🔄 Jogar novamente
-            </button>
-        </form>
-        <a href="{% url 'quizzes:theme_detail' theme_slug=quiz.theme.slug %}" class="btn btn-secondary">
-            📚 Mais quizzes
-        </a>
-    </div>
 
     <!-- Products Section -->
     {% if products %}
