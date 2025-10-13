@@ -109,6 +109,62 @@
         top: 2rem;
     }
 
+    /* Back Button */
+    .sidebar-back {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 2px solid #e5e7eb;
+    }
+
+    .sidebar-back-link {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        background: #f8fafc;
+        border: 2px solid transparent;
+    }
+
+    .sidebar-back-link:hover {
+        background: #dbeafe;
+        border-color: #3b82f6;
+        transform: translateX(-4px);
+    }
+
+    .sidebar-back-icon {
+        font-size: 1.5rem;
+        color: #3b82f6;
+        font-weight: bold;
+        flex-shrink: 0;
+    }
+
+    .sidebar-back-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        min-width: 0;
+    }
+
+    .sidebar-back-label {
+        font-size: 0.75rem;
+        color: #64748b;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .sidebar-back-title {
+        font-size: 0.95rem;
+        color: #1e40af;
+        font-weight: 700;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .sidebar-section {
         margin-bottom: 2rem;
     }
@@ -604,6 +660,27 @@
     <div class="page-layout">
         <!-- Sidebar -->
         <aside class="sidebar">
+            <!-- Back Button -->
+            {% if theme.parent %}
+            <div class="sidebar-back">
+                <a href="{% url 'quizzes:theme_detail' theme_slug=theme.parent.slug %}" class="sidebar-back-link">
+                    <span class="sidebar-back-icon">←</span>
+                    <div class="sidebar-back-content">
+                        <span class="sidebar-back-title">{{ theme.parent.title }}</span>
+                    </div>
+                </a>
+            </div>
+            {% else %}
+            <div class="sidebar-back">
+                <a href="{% url 'quizzes:home' %}" class="sidebar-back-link">
+                    <span class="sidebar-back-icon">←</span>
+                    <div class="sidebar-back-content">
+                        <span class="sidebar-back-title">Início</span>
+                    </div>
+                </a>
+            </div>
+            {% endif %}
+
             <!-- General Quizzes Section -->
             {% if quizzes %}
             <div class="sidebar-section">
