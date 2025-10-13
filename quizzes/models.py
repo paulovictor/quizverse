@@ -97,6 +97,12 @@ class Quiz(models.Model):
 
     def get_total_questions(self):
         return self.questions.count()
+    
+    def get_estimated_time(self):
+        """Estima o tempo em minutos baseado no número de perguntas"""
+        # Assumindo ~30 segundos por pergunta
+        total_questions = self.get_total_questions()
+        return max(1, round(total_questions * 0.5))  # 0.5 min = 30 segundos
 
 
 class Question(models.Model):
