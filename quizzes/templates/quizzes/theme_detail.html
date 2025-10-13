@@ -187,27 +187,39 @@
         background-position: center;
     }
 
+    .subcategory-banner-icon {
+        background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    }
+
     .subcategory-content {
         padding: 1.5rem;
+        background: white;
     }
 
     .subcategory-title {
         font-size: 1.25rem;
         font-weight: 700;
         color: #1e3a8a;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.75rem;
     }
 
-    .subcategory-count {
+    .subcategory-meta {
+        display: flex;
+        align-items: center;
+    }
+
+    .quiz-count-text {
         display: inline-flex;
         align-items: center;
-        gap: 0.5rem;
-        background: #eff6ff;
-        color: #3b82f6;
-        padding: 0.375rem 0.875rem;
-        border-radius: 50px;
+        gap: 0.375rem;
+        color: #64748b;
         font-size: 0.875rem;
         font-weight: 600;
+    }
+
+    .quiz-count-text.coming-soon {
+        color: #94a3b8;
+        font-style: italic;
     }
 
     /* Quizzes Grid */
@@ -613,32 +625,24 @@
                         {% if item.theme.card_background_image or item.theme.card_background_color %}
                             <div class="subcategory-banner" 
                                  style="{% if item.theme.card_background_image %}background-image: url('{{ item.theme.card_background_image }}'); background-size: cover; background-position: center;{% endif %}{% if item.theme.card_background_color %} background: {{ item.theme.card_background_color }};{% endif %}">
-                                <div class="theme-badge-overlay">
-                                    {% if item.quiz_count > 0 %}
-                                    <span class="quiz-count-badge">📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}</span>
-                                    {% endif %}
-                                </div>
-                            </div>
-                            <div class="subcategory-content">
-                                <h3 class="subcategory-title">{{ item.theme.title }}</h3>
                             </div>
                         {% else %}
-                            <div class="subcategory-banner">
+                            <div class="subcategory-banner subcategory-banner-icon">
                                 {{ item.theme.icon }}
                             </div>
-                            <div class="subcategory-content">
-                                <h3 class="subcategory-title">{{ item.theme.title }}</h3>
-                                <span class="subcategory-count">
-                                    {% if item.quiz_count > 0 %}
-                                        📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}
-                                    {% elif item.subcategories_count > 0 %}
-                                        📂 {{ item.subcategories_count }} subcategoria{{ item.subcategories_count|pluralize }}
-                                    {% else %}
-                                        🔜 Em breve
-                                    {% endif %}
-                                </span>
-                            </div>
                         {% endif %}
+                        <div class="subcategory-content">
+                            <h3 class="subcategory-title">{{ item.theme.title }}</h3>
+                            <div class="subcategory-meta">
+                                {% if item.quiz_count > 0 %}
+                                    <span class="quiz-count-text">📝 {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}</span>
+                                {% elif item.subcategories_count > 0 %}
+                                    <span class="quiz-count-text">📂 {{ item.subcategories_count }} subcategoria{{ item.subcategories_count|pluralize }}</span>
+                                {% else %}
+                                    <span class="quiz-count-text coming-soon">🔜 Em breve</span>
+                                {% endif %}
+                            </div>
+                        </div>
                     </a>
                 {% endfor %}
             </div>
