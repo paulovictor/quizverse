@@ -1,5 +1,6 @@
 {% extends 'quizzes/base.html' %}
 {% load static %}
+{% load icon_tags %}
 
 {% block title %}Meu Perfil - Quizverso{% endblock %}
 
@@ -486,7 +487,7 @@
                 </a>
                 {% for theme in themes %}
                 <a href="?category={{ theme.slug }}" class="filter-tab {% if category_filter == theme.slug %}active{% endif %}">
-                    {{ theme.icon }} {{ theme.title }}
+                    {% render_icon theme %} {{ theme.title }}
                 </a>
                 {% endfor %}
             </div>
@@ -498,7 +499,7 @@
             <div class="result-card">
                 <div class="result-header">
                     <div class="result-icon">
-                        {{ data.attempt.quiz.theme.icon }}
+                        {% render_icon data.attempt.quiz.theme %}
                     </div>
                     <div class="result-info">
                         <div class="result-quiz-name">{{ data.attempt.quiz.title }}</div>

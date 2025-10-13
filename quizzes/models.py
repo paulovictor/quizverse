@@ -10,7 +10,14 @@ class Theme(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
     slug = models.SlugField(unique=True, max_length=255)
-    icon = models.CharField(max_length=10, default='📚', help_text='Emoji do tema')
+    icon_svg = models.CharField(max_length=50, blank=True, null=True, help_text='Nome do arquivo SVG (ex: trophy, soccer, gamepad, book, film, music)')
+    
+    # Cores personalizadas para a categoria na home
+    primary_color = models.CharField(max_length=7, blank=True, null=True, help_text='Cor principal (ex: #3b82f6)')
+    secondary_color = models.CharField(max_length=7, blank=True, null=True, help_text='Cor secundária para gradiente (ex: #8b5cf6)')
+    icon_bg_color_1 = models.CharField(max_length=7, blank=True, null=True, help_text='Cor 1 do background do ícone (ex: #dbeafe)')
+    icon_bg_color_2 = models.CharField(max_length=7, blank=True, null=True, help_text='Cor 2 do background do ícone (ex: #e0e7ff)')
+    
     parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='subcategories', help_text='Tema pai (deixe vazio para categoria principal)')
     order = models.IntegerField(default=0, help_text='Ordem de exibição')
     active = models.BooleanField(default=True)

@@ -1,5 +1,6 @@
 {% extends "quizzes/base_quiz.html" %}
 {% load static %}
+{% load icon_tags %}
 
 {% block title %}{{ quiz.title }} - Quizverso{% endblock %}
 
@@ -453,7 +454,7 @@
         <div class="quiz-detail-card">
             <!-- Quiz Header -->
             <div class="quiz-header">
-                <div class="quiz-icon-large">{{ theme.icon }}</div>
+                <div class="quiz-icon-large">{% render_icon theme %}</div>
                 <h1 class="quiz-title">{{ quiz.title }}</h1>
                 <p class="quiz-subtitle">{{ quiz.description }}</p>
             </div>

@@ -4,18 +4,23 @@ from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Prod
 
 @admin.register(Theme)
 class ThemeAdmin(admin.ModelAdmin):
-    list_display = ['title', 'slug', 'active', 'created_at']
+    list_display = ['title', 'slug', 'icon_svg', 'active', 'created_at']
     list_filter = ['active', 'created_at']
     search_fields = ['title', 'description', 'slug']
     prepopulated_fields = {'slug': ('title',)}
     fieldsets = (
         ('Informações Básicas', {
-            'fields': ('title', 'slug', 'description', 'icon', 'parent', 'order', 'active')
+            'fields': ('title', 'slug', 'description', 'icon_svg', 'parent', 'order', 'active')
+        }),
+        ('Cores da Categoria (Home)', {
+            'fields': ('primary_color', 'secondary_color', 'icon_bg_color_1', 'icon_bg_color_2'),
+            'classes': ('collapse',),
+            'description': 'Define as cores personalizadas da categoria na tela inicial. Use formato hexadecimal (#3b82f6).'
         }),
         ('Personalização Visual do Card', {
             'fields': ('card_background_image', 'card_background_color'),
             'classes': ('collapse',),
-            'description': 'Personaliza a aparência do card. Se adicionar imagem, os textos serão ocultados automaticamente.'
+            'description': 'Personaliza a aparência do card/tema com imagens e cores de fundo.'
         }),
     )
 

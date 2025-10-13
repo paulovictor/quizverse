@@ -1,5 +1,6 @@
 {% extends "quizzes/base_quiz.html" %}
 {% load static %}
+{% load icon_tags %}
 
 {% block title %}{{ theme.title }} - Quizverso{% endblock %}
 
@@ -600,7 +601,7 @@
     <!-- Category Hero -->
     <section class="category-hero">
         <div class="hero-content">
-            <div class="hero-icon">{{ theme.icon }}</div>
+            <div class="hero-icon">{% render_icon theme %}</div>
             <div class="hero-text">
                 <h1>{{ theme.title }}</h1>
                 <p>{{ theme.description }}</p>
@@ -628,7 +629,7 @@
                             </div>
                         {% else %}
                             <div class="subcategory-banner subcategory-banner-icon">
-                                {{ item.theme.icon }}
+                                {% render_icon item.theme %}
                             </div>
                         {% endif %}
                         <div class="subcategory-content">
