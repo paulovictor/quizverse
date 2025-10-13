@@ -648,7 +648,12 @@
     <!-- Category Hero -->
     <section class="category-hero" {% if theme.primary_color and theme.secondary_color %}style="background: linear-gradient(135deg, {{ theme.primary_color }} 0%, {{ theme.secondary_color }} 100%);"{% endif %}>
         <div class="hero-content">
+            {% if theme.card_background_image %}
+            <div class="hero-icon" style="background-image: url('{{ theme.card_background_image }}'); background-size: cover; background-position: center;">
+            </div>
+            {% else %}
             <div class="hero-icon">{% render_icon theme %}</div>
+            {% endif %}
             <div class="hero-text">
                 <h1>{{ theme.title }}</h1>
                 <p>{{ theme.description }}</p>
@@ -711,9 +716,14 @@
                     {% for item in subcategories %}
                     <li class="sidebar-item">
                         <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="sidebar-link" {% if item.theme.primary_color %}data-color="{{ item.theme.primary_color }}"{% endif %}>
+                            {% if item.theme.card_background_image %}
+                            <div class="sidebar-icon" style="background-image: url('{{ item.theme.card_background_image }}'); background-size: cover; background-position: center; border-radius: 8px;">
+                            </div>
+                            {% else %}
                             <div class="sidebar-icon" {% if item.theme.icon_bg_color_1 and item.theme.icon_bg_color_2 %}style="background: linear-gradient(135deg, {{ item.theme.icon_bg_color_1 }}, {{ item.theme.icon_bg_color_2 }}); border-radius: 8px; padding: 4px;"{% elif item.theme.primary_color %}style="color: {{ item.theme.primary_color }};"{% endif %}>
                                 {% render_icon item.theme %}
                             </div>
+                            {% endif %}
                             <span>{{ item.theme.title }}</span>
                             <span class="sidebar-arrow">▶</span>
                         </a>
@@ -774,9 +784,14 @@
                 <div class="category-cards-grid">
                     {% for item in subcategories %}
                     <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card" {% if item.theme.primary_color %}style="border-color: {{ item.theme.primary_color }}22;"{% endif %}>
+                        {% if item.theme.card_background_image %}
+                        <div class="category-card-icon" style="background-image: url('{{ item.theme.card_background_image }}'); background-size: cover; background-position: center;">
+                        </div>
+                        {% else %}
                         <div class="category-card-icon" {% if item.theme.primary_color and item.theme.secondary_color %}style="background: linear-gradient(135deg, {{ item.theme.primary_color }} 0%, {{ item.theme.secondary_color }} 100%);"{% endif %}>
                             {% render_icon item.theme %}
                         </div>
+                        {% endif %}
                         <div class="category-card-content">
                             <h3 class="category-card-title" {% if item.theme.primary_color %}style="color: {{ item.theme.primary_color }};"{% endif %}>{{ item.theme.title }}</h3>
                             <div class="category-card-meta">
