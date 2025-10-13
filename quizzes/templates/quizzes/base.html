@@ -133,12 +133,114 @@
             flex: 1;
         }
 
+        /* Footer Languages Section */
+        .footer-languages {
+            padding: 2.5rem 2rem 3rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-languages-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer-languages-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .footer-languages-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .footer-languages-icon {
+            font-size: 1.5rem;
+        }
+
+        .footer-languages-subtitle {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 400;
+        }
+
+        .language-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 0.875rem;
+        }
+
+        .language-card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            padding: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: 0.625rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .language-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            border-color: rgba(59, 130, 246, 0.6);
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        .language-flag {
+            font-size: 1.75rem;
+            flex-shrink: 0;
+        }
+
+        .language-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .language-name {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.125rem;
+        }
+
+        .language-subtitle {
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 0.3rem;
+        }
+
+        .language-count {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-size: 0.75rem;
+            color: #10b981;
+            font-weight: 600;
+        }
+
+        .language-count-dot {
+            width: 5px;
+            height: 5px;
+            background: #10b981;
+            border-radius: 50%;
+        }
+
         /* Footer */
         .footer {
             background: #0f172a;
             color: rgba(255, 255, 255, 0.7);
-            padding: 3rem 2rem 2rem;
-            margin-top: auto;
+            padding: 0;
+            margin-top: 0;
         }
 
         .footer-content {
@@ -148,6 +250,7 @@
             grid-template-columns: 2fr 1fr 1fr 1fr;
             gap: 3rem;
             margin-bottom: 2rem;
+            padding: 3rem 2rem 0;
         }
 
         .footer-brand h4 {
@@ -185,7 +288,7 @@
         .footer-bottom {
             max-width: 1200px;
             margin: 0 auto;
-            padding-top: 2rem;
+            padding: 2rem 2rem 1.5rem;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             text-align: center;
             font-size: 0.9rem;
@@ -193,6 +296,10 @@
 
         /* Responsive */
         @media (max-width: 968px) {
+            .language-cards {
+                grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            }
+
             .footer-content {
                 grid-template-columns: 1fr 1fr;
                 gap: 2rem;
@@ -206,6 +313,18 @@
 
             .user-info {
                 display: none;
+            }
+
+            .footer-languages {
+                padding: 2rem 1rem;
+            }
+
+            .footer-languages-header {
+                margin-bottom: 1.5rem;
+            }
+
+            .language-cards {
+                grid-template-columns: 1fr;
             }
 
             .footer-content {
@@ -244,6 +363,87 @@
 
     <!-- Footer -->
     <footer class="footer">
+        <!-- Language Section in Footer -->
+        <div class="footer-languages">
+            <div class="footer-languages-content">
+                <div class="footer-languages-header">
+                    <h3 class="footer-languages-title">
+                        <span class="footer-languages-icon">💙</span>
+                        Quizzes para Todos os Idiomas
+                    </h3>
+                    <p class="footer-languages-subtitle">Mais de 7.000 quizzes em 6 idiomas diferentes</p>
+                </div>
+                <div class="language-cards">
+                    <div class="language-card">
+                        <div class="language-flag">🇧🇷</div>
+                        <div class="language-info">
+                            <div class="language-name">Português</div>
+                            <div class="language-subtitle">Português</div>
+                            <div class="language-count">
+                                <span class="language-count-dot"></span>
+                                <span>1.240 quizzes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-card">
+                        <div class="language-flag">🇺🇸</div>
+                        <div class="language-info">
+                            <div class="language-name">English</div>
+                            <div class="language-subtitle">Inglês</div>
+                            <div class="language-count">
+                                <span class="language-count-dot"></span>
+                                <span>2.850 quizzes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-card">
+                        <div class="language-flag">🇪🇸</div>
+                        <div class="language-info">
+                            <div class="language-name">Español</div>
+                            <div class="language-subtitle">Espanhol</div>
+                            <div class="language-count">
+                                <span class="language-count-dot"></span>
+                                <span>1.680 quizzes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-card">
+                        <div class="language-flag">🇫🇷</div>
+                        <div class="language-info">
+                            <div class="language-name">Français</div>
+                            <div class="language-subtitle">Francês</div>
+                            <div class="language-count">
+                                <span class="language-count-dot"></span>
+                                <span>890 quizzes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-card">
+                        <div class="language-flag">🇩🇪</div>
+                        <div class="language-info">
+                            <div class="language-name">Deutsch</div>
+                            <div class="language-subtitle">Alemão</div>
+                            <div class="language-count">
+                                <span class="language-count-dot"></span>
+                                <span>720 quizzes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-card">
+                        <div class="language-flag">🇮🇹</div>
+                        <div class="language-info">
+                            <div class="language-name">Italiano</div>
+                            <div class="language-subtitle">Italiano</div>
+                            <div class="language-count">
+                                <span class="language-count-dot"></span>
+                                <span>560 quizzes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="footer-content">
             <div class="footer-brand">
                 <h4>Quizverso</h4>
