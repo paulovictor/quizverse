@@ -13,9 +13,18 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
+import sentry_sdk
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Sentry Configuration
+sentry_sdk.init(
+    dsn="https://5015628ffe0c58d5f96faeb1271320f2@o300765.ingest.us.sentry.io/4510184703262720",
+    # Add data like request headers and IP for users,
+    # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
+    send_default_pii=True,
+)
 
 
 # Quick-start development settings - unsuitable for production
