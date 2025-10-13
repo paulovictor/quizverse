@@ -7,6 +7,9 @@ urlpatterns = [
     # Home
     path('', views.home, name='home'),
     
+    # Language
+    path('set-language/', views.set_language, name='set_language'),
+    
     # User Profile
     path('perfil/', views.user_profile, name='user_profile'),
     

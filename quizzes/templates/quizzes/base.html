@@ -1,10 +1,11 @@
 {% load static %}
+{% load icon_tags %}
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="{{ current_language|default:'pt-BR' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Quizverso - Desafie seus conhecimentos{% endblock %}</title>
+    <title>{% block title %}{% t 'site_name' %} - {% t 'welcome_title' %}{% endblock %}</title>
     <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
     
     <style>
@@ -195,6 +196,12 @@
             border-color: rgba(59, 130, 246, 0.6);
             background: rgba(255, 255, 255, 0.12);
         }
+        
+        .language-card.active {
+            background: rgba(59, 130, 246, 0.25);
+            border: 2px solid rgba(59, 130, 246, 0.8);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+        }
 
         .language-flag {
             font-size: 1.75rem;
@@ -340,17 +347,17 @@
     <header class="header">
         <div class="header-content">
             <a href="{% url 'quizzes:home' %}" class="logo">
-                <img src="{% static 'images/quizverse_icon.png' %}" alt="Quizverso" class="logo-icon">
-                <span>Quizverso</span>
+                <img src="{% static 'images/quizverse_icon.png' %}" alt="{% t 'site_name' %}" class="logo-icon">
+                <span>{% t 'site_name' %}</span>
             </a>
             <div class="user-section">
                 {% if user.is_authenticated %}
-                    <span class="user-info">Olá, {{ user.email|truncatechars:20 }}! 👋</span>
-                    <a href="{% url 'quizzes:user_profile' %}" class="btn-secondary">Meu Perfil</a>
-                    <a href="{% url 'account_logout' %}" class="btn-secondary">Sair</a>
+                    <span class="user-info">{% t 'hello' %}, {{ user.email|truncatechars:20 }}! 👋</span>
+                    <a href="{% url 'quizzes:user_profile' %}" class="btn-secondary">{% t 'my_profile' %}</a>
+                    <a href="{% url 'account_logout' %}" class="btn-secondary">{% t 'logout' %}</a>
                 {% else %}
-                    <a href="{% url 'account_login' %}" class="btn-secondary">Entrar</a>
-                    <a href="{% url 'account_signup' %}" class="btn-primary">Criar conta</a>
+                    <a href="{% url 'account_login' %}" class="btn-secondary">{% t 'login' %}</a>
+                    <a href="{% url 'account_signup' %}" class="btn-primary">{% t 'create_account' %}</a>
                 {% endif %}
             </div>
         </div>
@@ -369,74 +376,74 @@
                 <div class="footer-languages-header">
                     <h3 class="footer-languages-title">
                         <span class="footer-languages-icon">💙</span>
-                        Quizzes para Todos os Idiomas
+                        {% t 'footer_languages_title' %}
                     </h3>
-                    <p class="footer-languages-subtitle">Mais de 7.000 quizzes em 6 idiomas diferentes</p>
+                    <p class="footer-languages-subtitle">{% t 'footer_languages_subtitle' %}</p>
                 </div>
                 <div class="language-cards">
-                    <div class="language-card">
+                    <div class="language-card {% if current_language == 'pt-BR' %}active{% endif %}" data-language="pt-BR">
                         <div class="language-flag">🇧🇷</div>
                         <div class="language-info">
                             <div class="language-name">Português</div>
-                            <div class="language-subtitle">Português</div>
+                            <div class="language-subtitle">{% t 'lang_portuguese' %}</div>
                             <div class="language-count">
                                 <span class="language-count-dot"></span>
-                                <span>1.240 quizzes</span>
+                                <span>{{ language_stats.pt_BR|default:0 }} {% t 'total_quizzes' %}</span>
                             </div>
                         </div>
                     </div>
-                    <div class="language-card">
+                    <div class="language-card {% if current_language == 'en' %}active{% endif %}" data-language="en">
                         <div class="language-flag">🇺🇸</div>
                         <div class="language-info">
                             <div class="language-name">English</div>
-                            <div class="language-subtitle">Inglês</div>
+                            <div class="language-subtitle">{% t 'lang_english' %}</div>
                             <div class="language-count">
                                 <span class="language-count-dot"></span>
-                                <span>2.850 quizzes</span>
+                                <span>{{ language_stats.en|default:0 }} {% t 'total_quizzes' %}</span>
                             </div>
                         </div>
                     </div>
-                    <div class="language-card">
+                    <div class="language-card {% if current_language == 'es' %}active{% endif %}" data-language="es">
                         <div class="language-flag">🇪🇸</div>
                         <div class="language-info">
                             <div class="language-name">Español</div>
-                            <div class="language-subtitle">Espanhol</div>
+                            <div class="language-subtitle">{% t 'lang_spanish' %}</div>
                             <div class="language-count">
                                 <span class="language-count-dot"></span>
-                                <span>1.680 quizzes</span>
+                                <span>{{ language_stats.es|default:0 }} {% t 'total_quizzes' %}</span>
                             </div>
                         </div>
                     </div>
-                    <div class="language-card">
+                    <div class="language-card {% if current_language == 'fr' %}active{% endif %}" data-language="fr">
                         <div class="language-flag">🇫🇷</div>
                         <div class="language-info">
                             <div class="language-name">Français</div>
-                            <div class="language-subtitle">Francês</div>
+                            <div class="language-subtitle">{% t 'lang_french' %}</div>
                             <div class="language-count">
                                 <span class="language-count-dot"></span>
-                                <span>890 quizzes</span>
+                                <span>{{ language_stats.fr|default:0 }} {% t 'total_quizzes' %}</span>
                             </div>
                         </div>
                     </div>
-                    <div class="language-card">
+                    <div class="language-card {% if current_language == 'de' %}active{% endif %}" data-language="de">
                         <div class="language-flag">🇩🇪</div>
                         <div class="language-info">
                             <div class="language-name">Deutsch</div>
-                            <div class="language-subtitle">Alemão</div>
+                            <div class="language-subtitle">{% t 'lang_german' %}</div>
                             <div class="language-count">
                                 <span class="language-count-dot"></span>
-                                <span>720 quizzes</span>
+                                <span>{{ language_stats.de|default:0 }} {% t 'total_quizzes' %}</span>
                             </div>
                         </div>
                     </div>
-                    <div class="language-card">
+                    <div class="language-card {% if current_language == 'it' %}active{% endif %}" data-language="it">
                         <div class="language-flag">🇮🇹</div>
                         <div class="language-info">
                             <div class="language-name">Italiano</div>
-                            <div class="language-subtitle">Italiano</div>
+                            <div class="language-subtitle">{% t 'lang_italian' %}</div>
                             <div class="language-count">
                                 <span class="language-count-dot"></span>
-                                <span>560 quizzes</span>
+                                <span>{{ language_stats.it|default:0 }} {% t 'total_quizzes' %}</span>
                             </div>
                         </div>
                     </div>
@@ -446,36 +453,90 @@
 
         <div class="footer-content">
             <div class="footer-brand">
-                <h4>Quizverso</h4>
-                <p>A melhor plataforma de quizzes do Brasil. Aprenda, desafie e divirta-se com nossos quizzes interativos!</p>
+                <h4>{% t 'site_name' %}</h4>
+                <p>{% t 'footer_description' %}</p>
             </div>
             <div class="footer-links">
-                <h5>Navegação</h5>
-                <a href="{% url 'quizzes:home' %}">Início</a>
-                <a href="{% url 'quizzes:home' %}#categories">Categorias</a>
+                <h5>{% t 'navigation' %}</h5>
+                <a href="{% url 'quizzes:home' %}">{% t 'home' %}</a>
+                <a href="{% url 'quizzes:home' %}#categories">{% t 'categories' %}</a>
             </div>
             <div class="footer-links">
-                <h5>Conta</h5>
+                <h5>{% t 'account' %}</h5>
                 {% if user.is_authenticated %}
-                    <a href="{% url 'quizzes:user_profile' %}">Meu perfil</a>
-                    <a href="{% url 'account_logout' %}">Sair</a>
+                    <a href="{% url 'quizzes:user_profile' %}">{% t 'my_profile' %}</a>
+                    <a href="{% url 'account_logout' %}">{% t 'logout' %}</a>
                 {% else %}
-                    <a href="{% url 'account_login' %}">Entrar</a>
-                    <a href="{% url 'account_signup' %}">Criar conta</a>
+                    <a href="{% url 'account_login' %}">{% t 'login' %}</a>
+                    <a href="{% url 'account_signup' %}">{% t 'create_account' %}</a>
                 {% endif %}
             </div>
             <div class="footer-links">
-                <h5>Legal</h5>
-                <a href="#">Termos de Uso</a>
-                <a href="#">Privacidade</a>
-                <a href="#">Contato</a>
+                <h5>{% t 'legal' %}</h5>
+                <a href="#">{% t 'terms_of_use' %}</a>
+                <a href="#">{% t 'privacy' %}</a>
+                <a href="#">{% t 'contact' %}</a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Quizverso. Todos os direitos reservados.</p>
+            <p>&copy; 2025 {% t 'site_name' %}. {% t 'all_rights_reserved' %}</p>
         </div>
     </footer>
 
+    <script>
+        // Language Switcher
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageCards = document.querySelectorAll('.language-card');
+            
+            languageCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const language = this.dataset.language;
+                    
+                    // Get CSRF token
+                    const csrftoken = getCookie('csrftoken');
+                    
+                    // Send POST request to change language
+                    fetch("{% url 'quizzes:set_language' %}", {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                            'X-CSRFToken': csrftoken
+                        },
+                        body: 'language=' + encodeURIComponent(language)
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            // Reload page to show content in new language
+                            window.location.reload();
+                        } else {
+                            console.error('Failed to change language:', data.error);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error changing language:', error);
+                    });
+                });
+            });
+            
+            // Helper function to get CSRF token from cookies
+            function getCookie(name) {
+                let cookieValue = null;
+                if (document.cookie && document.cookie !== '') {
+                    const cookies = document.cookie.split(';');
+                    for (let i = 0; i < cookies.length; i++) {
+                        const cookie = cookies[i].trim();
+                        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                            break;
+                        }
+                    }
+                }
+                return cookieValue;
+            }
+        });
+    </script>
+    
     {% block extra_scripts %}{% endblock %}
 </body>
 </html>

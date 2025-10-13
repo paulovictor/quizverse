@@ -6,11 +6,23 @@ from django.urls import reverse
 
 
 class Theme(models.Model):
+    LANGUAGE_CHOICES = [
+        ('pt-BR', 'Português (Brasil)'),
+        ('en', 'English'),
+        ('es', 'Español'),
+        ('fr', 'Français'),
+        ('de', 'Deutsch'),
+        ('it', 'Italiano'),
+    ]
+    
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=255)
     description = models.TextField()
     slug = models.SlugField(unique=True, max_length=255)
     icon_svg = models.CharField(max_length=50, blank=True, null=True, help_text='Nome do arquivo SVG (ex: trophy, soccer, gamepad, book, film, music)')
+    
+    # Idioma do tema
+    language = models.CharField(max_length=10, choices=LANGUAGE_CHOICES, default='pt-BR', help_text='Idioma do tema')
     
     # Cores personalizadas para a categoria na home
     primary_color = models.CharField(max_length=7, blank=True, null=True, help_text='Cor principal (ex: #3b82f6)')
@@ -67,6 +79,15 @@ class Quiz(models.Model):
         ('medium', 'Médio'),
         ('hard', 'Difícil'),
     ]
+    
+    LANGUAGE_CHOICES = [
+        ('pt-BR', 'Português (Brasil)'),
+        ('en', 'English'),
+        ('es', 'Español'),
+        ('fr', 'Français'),
+        ('de', 'Deutsch'),
+        ('it', 'Italiano'),
+    ]
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     theme = models.ForeignKey(Theme, on_delete=models.CASCADE, related_name='quizzes')
@@ -74,6 +95,7 @@ class Quiz(models.Model):
     slug = models.SlugField(max_length=255)
     description = models.TextField()
     difficulty = models.CharField(max_length=10, choices=DIFFICULTY_CHOICES, default='medium')
+    language = models.CharField(max_length=10, choices=LANGUAGE_CHOICES, default='pt-BR', help_text='Idioma do quiz')
     time_limit = models.IntegerField(help_text='Tempo limite em segundos (0 = sem limite)', default=0)
     active = models.BooleanField(default=True)
     order = models.IntegerField(default=0)

@@ -19,22 +19,25 @@ import sentry_sdk
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Sentry Configuration
-sentry_sdk.init(
-    dsn="https://5015628ffe0c58d5f96faeb1271320f2@o300765.ingest.us.sentry.io/4510184703262720",
-    # Add data like request headers and IP for users,
-    # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
-    send_default_pii=True,
-)
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--sqmt+_0tahvhi4550=++@&@djba&ycmx&jr*64vzy44fyl8#4'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure--sqmt+_0tahvhi4550=++@&@djba&ycmx&jr*64vzy44fyl8#4')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
+
+if not DEBUG:
+    sentry_sdk.init(
+        dsn="https://5015628ffe0c58d5f96faeb1271320f2@o300765.ingest.us.sentry.io/4510184703262720",
+        # Add data like request headers and IP for users,
+        # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
+        send_default_pii=True,
+)
+
 
 # ALLOWED_HOSTS: sempre configure explicitamente em produção!
 # Em desenvolvimento: localhost, 127.0.0.1

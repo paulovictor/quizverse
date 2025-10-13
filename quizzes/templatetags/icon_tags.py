@@ -1,6 +1,7 @@
 from django import template
 from django.utils.safestring import mark_safe
 from django.templatetags.static import static
+from quizzes.translations import translate as get_translation
 
 register = template.Library()
 
@@ -35,4 +36,27 @@ def has_svg_icon(theme):
     Uso: {% if theme|has_svg_icon %}
     """
     return bool(theme.icon_svg)
+
+
+@register.simple_tag(takes_context=True)
+def t(context, key, default=None):
+    """
+    Traduz uma chave usando o idioma do contexto
+    
+    Uso nos templates:
+    {% load icon_tags %}
+    {% t 'welcome_title' %}
+    """
+    language = context.get('current_language', 'pt-BR')
+    return get_translation(key, language, default)
+
+
+@register.filter
+def translate(key, language='pt-BR'):
+    """
+    Filtro para tradução de strings
+    
+    Uso: {{ 'welcome_title'|translate:current_language }}
+    """
+    return get_translation(key, language)
 

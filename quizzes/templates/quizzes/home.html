@@ -2,7 +2,7 @@
 {% load static %}
 {% load icon_tags %}
 
-{% block title %}Quizverso - Desafie seus conhecimentos e divirta-se!{% endblock %}
+{% block title %}{% t 'site_name' %} - {% t 'welcome_title' %}{% endblock %}
 
 {% block extra_styles %}
 <style>
@@ -470,27 +470,26 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>
-            Desafie seus conhecimentos.<br>
-            <span class="highlight">Aprenda se divertindo.</span>
+            {% t 'welcome_title' %}.<br>
+            <span class="highlight">{% t 'welcome_subtitle' %}</span>
         </h1>
         <p>
-            Teste seus conhecimentos sobre esportes, entretenimento e muito mais. 
-            Milhares de perguntas, resultados instantâneos e diversão garantida!
+            {% t 'welcome_subtitle' %}
         </p>
     
         <!-- Stats -->
         <div class="stats">
             <div class="stat-item">
                 <span class="stat-number">{{ total_themes }}+</span>
-                <span class="stat-label">Categorias</span>
+                <span class="stat-label">{% t 'categories' %}</span>
             </div>
             <div class="stat-item">
                 <span class="stat-number">{{ total_quizzes }}+</span>
-                <span class="stat-label">Quizzes disponíveis</span>
+                <span class="stat-label">{% t 'total_quizzes' %}</span>
             </div>
             <div class="stat-item">
                 <span class="stat-number">{{ total_questions }}+</span>
-                <span class="stat-label">Perguntas</span>
+                <span class="stat-label">{% t 'total_questions' %}</span>
             </div>
         </div>
     </section>
@@ -498,8 +497,8 @@
     <!-- Categories Section -->
     <section class="categories-section" id="categories">
         <div class="section-header">
-            <h2>Escolha sua categoria favorita</h2>
-            <p>De esportes a entretenimento, temos quizzes para todos os gostos</p>
+            <h2>{% t 'choose_category' %}</h2>
+            <p>{% t 'categories_subtitle' %}</p>
         </div>
 
         <div class="cards-grid">
@@ -531,18 +530,18 @@
                             </svg>
                             <span>
                                 {% if item.subcategories_count > 0 %}
-                                    {{ item.subcategories_count }} subcategoria{{ item.subcategories_count|pluralize }}
+                                    {{ item.subcategories_count }} {% t 'subcategories' %}
                                 {% elif item.quiz_count > 0 %}
-                                    {{ item.quiz_count }} quiz{{ item.quiz_count|pluralize:"zes" }}
+                                    {{ item.quiz_count }} {% t 'total_quizzes' %}
                                 {% else %}
-                                    Em breve
+                                    ...
                                 {% endif %}
                             </span>
                         </div>
                     </div>
                     
                     <button class="explore-btn">
-                        Explorar
+                        {{ 'explore'|translate:current_language|default:'Explore' }}
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -550,7 +549,7 @@
                 </a>
             {% empty %}
                 <p style="grid-column: 1 / -1; text-align: center; color: #64748b; padding: 2rem;">
-                    Nenhuma categoria disponível no momento.
+                    {{ 'no_categories_available'|translate:current_language|default:'No categories available at the moment.' }}
                 </p>
             {% endfor %}
         </div>
@@ -559,18 +558,17 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="cta-content">
-            <h2>Pronto para testar seus conhecimentos?</h2>
+            <h2>{% t 'cta_title' %}</h2>
             <p>
-                Junte-se a milhares de usuários e descubra o quanto você realmente sabe. 
-                É grátis, divertido e viciante!
+                {% t 'cta_description' %}
             </p>
             {% if not user.is_authenticated %}
                 <a href="{% url 'account_signup' %}" class="btn-hero-primary" style="font-size: 1.125rem;">
-                    🎯 Começar minha jornada
+                    🎯 {% t 'start_journey' %}
                 </a>
             {% else %}
                 <a href="#categories" class="btn-hero-primary" style="font-size: 1.125rem;">
-                    🎯 Explorar quizzes
+                    🎯 {% t 'explore_quizzes' %}
                 </a>
             {% endif %}
         </div>
