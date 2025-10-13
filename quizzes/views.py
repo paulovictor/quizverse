@@ -503,3 +503,96 @@ def claim_attempt(request, attempt_id):
     
     messages.success(request, '🎉 Resultado salvo com sucesso na sua conta!')
     return redirect('quizzes:quiz_result', attempt_id=attempt.id)
+
+
+@login_required
+def user_profile(request):
+    """Página de perfil do usuário com suas estatísticas e histórico de quizzes"""
+    user = request.user
+    
+    # Buscar todas as tentativas do usuário (completas)
+    attempts = QuizAttempt.objects.filter(
+        user=user, 
+        completed_at__isnull=False
+    ).select_related('quiz', 'quiz__theme').order_by('-completed_at')
+    
+    # Calcular estatísticas gerais
+    total_attempts = attempts.count()
+    
+    if total_attempts > 0:
+        # Taxa de acerto média
+        total_correct = sum(attempt.score for attempt in attempts)
+        total_possible = sum(attempt.max_score for attempt in attempts)
+        accuracy_rate = int((total_correct / total_possible * 100)) if total_possible > 0 else 0
+        
+        # Quizzes perfeitos (100% de acerto)
+        perfect_quizzes = sum(1 for attempt in attempts if attempt.score == attempt.max_score and attempt.max_score > 0)
+    else:
+        accuracy_rate = 0
+        perfect_quizzes = 0
+    
+    # Filtro por categoria
+    category_filter = request.GET.get('category', 'all')
+    
+    if category_filter != 'all':
+        # Filtrar por tema e seus sub-temas
+        try:
+            parent_theme = Theme.objects.get(slug=category_filter)
+            # Pegar o tema e todos os seus descendentes
+            theme_ids = [parent_theme.id]
+            # Adicionar todos os filhos diretos
+            children = Theme.objects.filter(parent=parent_theme)
+            theme_ids.extend(children.values_list('id', flat=True))
+            # Adicionar netos (se houver)
+            for child in children:
+                grandchildren = Theme.objects.filter(parent=child)
+                theme_ids.extend(grandchildren.values_list('id', flat=True))
+            
+            attempts = attempts.filter(quiz__theme__id__in=theme_ids)
+        except Theme.DoesNotExist:
+            pass
+    
+    # Organizar tentativas com dados adicionais
+    attempts_data = []
+    for attempt in attempts:
+        accuracy = int((attempt.score / attempt.max_score * 100)) if attempt.max_score > 0 else 0
+        
+        # Determinar o badge/mensagem baseado na performance
+        if accuracy == 100:
+            badge = 'Perfeito! 🎉'
+            badge_class = 'perfect'
+        elif accuracy >= 80:
+            badge = 'Muito Bom!'
+            badge_class = 'great'
+        elif accuracy >= 60:
+            badge = 'Bom!'
+            badge_class = 'good'
+        else:
+            badge = 'Continue Tentando!'
+            badge_class = 'try-again'
+        
+        attempts_data.append({
+            'attempt': attempt,
+            'accuracy': accuracy,
+            'badge': badge,
+            'badge_class': badge_class,
+        })
+    
+    # Buscar temas raiz (sem parent) únicos das tentativas para o filtro
+    themes = Theme.objects.filter(
+        quizzes__attempts__user=user,
+        quizzes__attempts__completed_at__isnull=False,
+        parent__isnull=True
+    ).distinct().order_by('order', 'title')
+    
+    context = {
+        'user': user,
+        'total_attempts': total_attempts,
+        'accuracy_rate': accuracy_rate,
+        'perfect_quizzes': perfect_quizzes,
+        'attempts_data': attempts_data,
+        'themes': themes,
+        'category_filter': category_filter,
+    }
+    
+    return render(request, 'quizzes/user_profile.html', context)

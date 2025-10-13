@@ -7,6 +7,9 @@ urlpatterns = [
     # Home
     path('', views.home, name='home'),
     
+    # User Profile
+    path('perfil/', views.user_profile, name='user_profile'),
+    
     # Theme
     path('<slug:theme_slug>/', views.theme_detail, name='theme_detail'),
     

@@ -208,6 +208,7 @@
             <div class="user-section">
                 {% if user.is_authenticated %}
                     <span class="user-info">Olá, {{ user.email|truncatechars:20 }}! 👋</span>
+                    <a href="{% url 'quizzes:user_profile' %}" class="btn-secondary">Meu Perfil</a>
                     <a href="{% url 'account_logout' %}" class="btn-secondary">Sair</a>
                 {% else %}
                     <a href="{% url 'account_login' %}" class="btn-secondary">Entrar</a>
@@ -238,8 +239,8 @@
             <div class="footer-links">
                 <h5>Conta</h5>
                 {% if user.is_authenticated %}
-                    <a href="#">Meu perfil</a>
-                    <a href="#">Meus resultados</a>
+                    <a href="{% url 'quizzes:user_profile' %}">Meu perfil</a>
+                    <a href="{% url 'quizzes:user_profile' %}">Meus resultados</a>
                     <a href="{% url 'account_logout' %}">Sair</a>
                 {% else %}
                     <a href="{% url 'account_login' %}">Entrar</a>

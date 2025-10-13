@@ -1,0 +1,550 @@
+{% extends 'quizzes/base.html' %}
+{% load static %}
+
+{% block title %}Meu Perfil - Quizverso{% endblock %}
+
+{% block body_background %}#f8f9fa{% endblock %}
+
+{% block extra_styles %}
+/* Profile Header Hero - Full Width */
+.profile-hero {
+    background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    padding: 3rem 0;
+    margin: 0;
+    width: 100%;
+}
+
+.profile-hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.profile-user {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-shrink: 0;
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+
+.profile-greeting {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    white-space: nowrap;
+}
+
+/* Stats inline - all in one row */
+.stats-inline {
+    display: flex;
+    gap: 5rem;
+    flex: 1;
+    justify-content: center;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 0.25rem;
+    line-height: 1;
+}
+
+.stat-label {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Results Container - With white/ice background */
+.profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Results Section */
+.results-section {
+    padding: 3rem 0;
+}
+
+.results-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.results-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 1.5rem;
+}
+
+.filter-tabs {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 16px;
+    width: fit-content;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.filter-tab {
+    padding: 0.75rem 1.5rem;
+    background: #f1f5f9;
+    border: none;
+    border-radius: 12px;
+    color: #6b7280;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+.filter-tab:hover {
+    background: #e5e7eb;
+}
+
+.filter-tab.active {
+    background: #5b8def;
+    color: white;
+    box-shadow: 0 2px 8px rgba(91, 141, 239, 0.3);
+}
+
+/* Results Grid */
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.result-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.result-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.result-icon {
+    width: 50px;
+    height: 50px;
+    background: #fef3c7;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.result-icon.trophy {
+    background: #fef3c7;
+}
+
+.result-icon.lightning {
+    background: #fef3c7;
+}
+
+.result-icon.flame {
+    background: #fee2e2;
+}
+
+.result-icon.flag {
+    background: #dbeafe;
+}
+
+.result-icon.person {
+    background: #fee2e2;
+}
+
+.result-icon.soccer {
+    background: #e0e7ff;
+}
+
+.result-info {
+    flex: 1;
+}
+
+.result-quiz-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 0.25rem;
+}
+
+.result-meta {
+    color: #64748b;
+    font-size: 0.8rem;
+}
+
+.result-stats {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.result-stat {
+    text-align: center;
+    flex: 1;
+}
+
+.result-stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+.result-stat-label {
+    font-size: 0.7rem;
+    color: #64748b;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0.25rem;
+}
+
+.result-actions {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.result-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    flex: 1;
+    text-align: center;
+}
+
+.result-badge.perfect {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.result-badge.great {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.result-badge.good {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.result-badge.try-again {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.retry-button {
+    padding: 0.625rem 1.25rem;
+    background: transparent;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    color: #3b82f6;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 0.85rem;
+}
+
+.retry-button:hover {
+    background: #3b82f6;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #64748b;
+}
+
+.empty-state-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.empty-state-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+}
+
+.empty-state-text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.empty-state-button {
+    padding: 0.875rem 2rem;
+    background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.empty-state-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .results-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .profile-hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .profile-user {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .profile-greeting {
+        font-size: 2.5rem;
+    }
+
+    .profile-avatar {
+        width: 100px;
+        height: 100px;
+        font-size: 3rem;
+    }
+
+    .stats-inline {
+        gap: 3rem;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-hero {
+        padding: 2rem 0;
+    }
+
+    .profile-hero-content {
+        padding: 0 1rem;
+        gap: 1.5rem;
+    }
+
+    .profile-greeting {
+        font-size: 2rem;
+    }
+
+    .profile-avatar {
+        width: 80px;
+        height: 80px;
+        font-size: 2.5rem;
+    }
+
+    .profile-container {
+        padding: 0 1rem;
+    }
+
+    .results-section {
+        padding: 2rem 0;
+    }
+
+    .stats-inline {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+    }
+
+    .filter-tabs {
+        width: 100%;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 0.5rem;
+    }
+
+    .result-stats {
+        gap: 1rem;
+    }
+
+    .result-actions {
+        flex-direction: column;
+    }
+
+    .retry-button {
+        width: 100%;
+    }
+}
+{% endblock %}
+
+{% block content %}
+<!-- Profile Hero - Full Width -->
+<div class="profile-hero">
+    <div class="profile-hero-content">
+        <!-- User Avatar + Name -->
+        <div class="profile-user">
+            <div class="profile-avatar">
+                👋
+            </div>
+            <h1 class="profile-greeting">Olá, {{ user.first_name|default:user.username|default:"João" }}!</h1>
+        </div>
+        
+        <!-- Stats Inline - All in one row -->
+        <div class="stats-inline">
+            <div class="stat-item">
+                <div class="stat-number">{{ total_attempts }}</div>
+                <div class="stat-label">Quizzes Realizados</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ accuracy_rate }}%</div>
+                <div class="stat-label">Taxa de Acerto</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ perfect_quizzes }}</div>
+                <div class="stat-label">Quizzes Perfeitos</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Results Section - With white/ice background -->
+<div class="profile-container">
+    <div class="results-section">
+        <div class="results-header">
+            <h2 class="results-title">Meus Resultados</h2>
+            <div class="filter-tabs">
+                <a href="?category=all" class="filter-tab {% if category_filter == 'all' %}active{% endif %}">
+                    Todos
+                </a>
+                {% for theme in themes %}
+                <a href="?category={{ theme.slug }}" class="filter-tab {% if category_filter == theme.slug %}active{% endif %}">
+                    {{ theme.icon }} {{ theme.title }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% if attempts_data %}
+        <div class="results-grid">
+            {% for data in attempts_data %}
+            <div class="result-card">
+                <div class="result-header">
+                    <div class="result-icon">
+                        {{ data.attempt.quiz.theme.icon }}
+                    </div>
+                    <div class="result-info">
+                        <div class="result-quiz-name">{{ data.attempt.quiz.title }}</div>
+                        <div class="result-meta">
+                            Jogado em {{ data.attempt.completed_at|date:"d/m/Y" }} às {{ data.attempt.completed_at|date:"H:i" }}
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="result-stats">
+                    <div class="result-stat">
+                        <div class="result-stat-value">{{ data.attempt.score }}/{{ data.attempt.max_score }}</div>
+                        <div class="result-stat-label">ACERTOS</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-stat-value">{{ data.accuracy }}%</div>
+                        <div class="result-stat-label">TAXA</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-stat-value">{{ data.attempt.score|floatformat:0 }}</div>
+                        <div class="result-stat-label">PONTOS</div>
+                    </div>
+                </div>
+                
+                <div class="result-actions">
+                    <div class="result-badge {{ data.badge_class }}">
+                        {{ data.badge }}
+                    </div>
+                    <a href="{% url 'quizzes:quiz_detail' theme_slug=data.attempt.quiz.theme.slug quiz_slug=data.attempt.quiz.slug %}" class="retry-button">
+                        Tentar novamente
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <div class="empty-state-icon">🎯</div>
+            <h3 class="empty-state-title">Nenhum quiz realizado ainda</h3>
+            <p class="empty-state-text">Comece sua jornada de aprendizado agora!</p>
+            <a href="{% url 'quizzes:home' %}" class="empty-state-button">
+                Explorar Quizzes
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
