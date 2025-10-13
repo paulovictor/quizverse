@@ -413,21 +413,46 @@ def quiz_result(request, attempt_id):
         performance_icon = '📚'
     
     # Calcular ranking do usuário neste quiz
-    # Buscar todas as tentativas completas deste quiz
-    completed_attempts = QuizAttempt.objects.filter(
-        quiz=attempt.quiz,
-        completed_at__isnull=False
-    ).exclude(id=attempt.id)
+    # Para usuários autenticados: considerar apenas a melhor tentativa de cada usuário
+    # Para usuários não autenticados: considerar cada tentativa como usuário diferente
     
-    total_attempts = completed_attempts.count() + 1  # +1 para incluir a tentativa atual
+    from django.db.models import Max
     
-    # Contar quantas tentativas têm pontuação maior (melhor posição = menor número)
-    better_attempts = completed_attempts.filter(
-        score__gt=attempt.score
-    ).count()
+    if attempt.user:
+        # Usuário autenticado: pegar a melhor pontuação de cada usuário (exceto o atual)
+        best_scores_other_users = QuizAttempt.objects.filter(
+            quiz=attempt.quiz,
+            completed_at__isnull=False,
+            user__isnull=False
+        ).exclude(user=attempt.user).values('user').annotate(
+            best_score=Max('score')
+        ).values_list('best_score', flat=True)
+        
+        # Converter para lista e adicionar a pontuação atual
+        all_scores = list(best_scores_other_users) + [attempt.score]
+        
+        # Adicionar tentativas de usuários não autenticados
+        anonymous_scores = QuizAttempt.objects.filter(
+            quiz=attempt.quiz,
+            completed_at__isnull=False,
+            user__isnull=True
+        ).values_list('score', flat=True)
+        
+        all_scores.extend(anonymous_scores)
+    else:
+        # Usuário não autenticado: comparar com todas as tentativas
+        all_scores = list(QuizAttempt.objects.filter(
+            quiz=attempt.quiz,
+            completed_at__isnull=False
+        ).values_list('score', flat=True))
+    
+    total_attempts = len(all_scores)
+    
+    # Contar quantos scores são maiores que o atual
+    better_scores = sum(1 for score in all_scores if score > attempt.score)
     
     # Posição do usuário (1 = primeiro lugar)
-    user_rank = better_attempts + 1
+    user_rank = better_scores + 1
     
     # Calcular percentual de usuários que ele superou
     if total_attempts > 1:
