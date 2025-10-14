@@ -249,6 +249,15 @@
         flex-direction: column;
     }
 
+    .category-card.inactive {
+        background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+        border-color: #ef4444;
+    }
+
+    body.dark-mode .category-card.inactive {
+        background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+    }
+
     .category-card::before {
         content: '';
         position: absolute;
@@ -367,10 +376,10 @@
 
     .explore-btn {
         padding: 0.875rem 1.5rem;
-        background: transparent;
-        border: 2px solid #3b82f6;
+        background: linear-gradient(135deg, #3b82f6, #2563eb);
+        border: none;
         border-radius: 12px;
-        color: #3b82f6;
+        color: white;
         font-weight: 700;
         cursor: pointer;
         transition: all 0.3s ease;
@@ -381,12 +390,41 @@
         position: relative;
         z-index: 1;
         width: 100%;
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
     }
 
     .explore-btn:hover {
-        background: #3b82f6;
+        transform: translateX(4px) translateY(-2px);
+        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+    }
+
+    /* Inactive Badge */
+    .inactive-badge {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.5rem 0.85rem;
+        background: #ef4444;
         color: white;
-        transform: translateX(4px);
+        border-radius: 8px;
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        animation: pulse 2s ease-in-out infinite;
+        box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+        z-index: 10;
+    }
+
+    @keyframes pulse {
+        0%, 100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        50% {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
     }
 
     /* CTA Section */
@@ -479,13 +517,12 @@
     }
 
     .category-card[data-theme="{{ item.theme.slug }}"] .explore-btn {
-        border-color: {{ item.theme.primary_color }};
-        color: {{ item.theme.primary_color }};
+        background: linear-gradient(135deg, {{ item.theme.primary_color }}, {{ item.theme.secondary_color }});
+        box-shadow: 0 4px 12px {{ item.theme.primary_color }}40;
     }
 
     .category-card[data-theme="{{ item.theme.slug }}"] .explore-btn:hover {
-        background: {{ item.theme.primary_color }};
-        color: white;
+        box-shadow: 0 6px 20px {{ item.theme.primary_color }}60;
     }
     {% endif %}
     {% endfor %}
@@ -529,7 +566,10 @@
 
         <div class="cards-grid">
             {% for item in categories %}
-                <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card" data-theme="{{ item.theme.slug }}">
+                <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card {% if user.is_superuser and not item.theme.active %}inactive{% endif %}" data-theme="{{ item.theme.slug }}">
+                    {% if user.is_superuser and not item.theme.active %}
+                        <span class="inactive-badge">Inativo</span>
+                    {% endif %}
                     <div class="category-header">
                         <div class="category-icon-wrapper">
                             <div class="category-icon">{% render_icon item.theme %}</div>

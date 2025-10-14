@@ -275,12 +275,12 @@ TRANSLATIONS = {
     
     # Footer
     'footer_languages_title': {
-        'pt-BR': 'Quizzes para Todos os Idiomas',
-        'en': 'Quizzes for All Languages',
-        'es': 'Quizzes para Todos los Idiomas',
-        'fr': 'Quiz pour Toutes les Langues',
-        'de': 'Quiz für Alle Sprachen',
-        'it': 'Quiz per Tutte le Lingue',
+        'pt-BR': 'Quizzes para todos os idiomas',
+        'en': 'Quizzes for all languages',
+        'es': 'Quizzes para todos los idiomas',
+        'fr': 'Quiz pour toutes les langues',
+        'de': 'Quiz für alle sprachen',
+        'it': 'Quiz per tutte le lingue',
     },
     'footer_languages_subtitle': {
         'pt-BR': 'Mais de 7.000 quizzes em 6 idiomas diferentes',

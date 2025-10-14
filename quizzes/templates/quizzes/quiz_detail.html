@@ -387,6 +387,31 @@
         font-size: 0.95rem;
     }
 
+    /* Inactive Badge */
+    .inactive-badge {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: #ef4444;
+        color: white;
+        border-radius: 8px;
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 1rem;
+        animation: pulse 2s ease-in-out infinite;
+        box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+    }
+
+    @keyframes pulse {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.7;
+        }
+    }
+
     /* Responsive */
     @media (max-width: 768px) {
         .quiz-title {
@@ -464,6 +489,9 @@
                 <div class="quiz-icon-large">{% render_icon theme %}</div>
                 <h1 class="quiz-title">{{ quiz.title }}</h1>
                 <p class="quiz-subtitle">{{ quiz.description }}</p>
+                {% if user.is_superuser and not quiz.active %}
+                    <div class="inactive-badge">Quiz Inativo</div>
+                {% endif %}
             </div>
 
             <!-- Quiz Info -->

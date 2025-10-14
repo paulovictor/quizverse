@@ -464,6 +464,16 @@
         transition: all 0.3s ease;
         box-shadow: var(--shadow-sm);
         border: 2px solid transparent;
+        position: relative;
+    }
+
+    .category-card.inactive {
+        background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+        border-color: #ef4444;
+    }
+
+    body.dark-mode .category-card.inactive {
+        background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
     }
 
     .category-card:hover {
@@ -554,6 +564,16 @@
         transition: all 0.3s ease;
         box-shadow: var(--shadow-sm);
         border: 2px solid transparent;
+        position: relative;
+    }
+
+    .quiz-card.inactive {
+        background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+        border-color: #ef4444;
+    }
+
+    body.dark-mode .quiz-card.inactive {
+        background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
     }
 
     .quiz-card:hover {
@@ -667,6 +687,35 @@
     .difficulty-hard {
         background: #fee2e2;
         color: #991b1b;
+    }
+
+    /* Inactive Badge */
+    .inactive-badge {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.4rem 0.75rem;
+        background: #ef4444;
+        color: white;
+        border-radius: 8px;
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        animation: pulse 2s ease-in-out infinite;
+        box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+        z-index: 10;
+    }
+
+    @keyframes pulse {
+        0%, 100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        50% {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
     }
 
     .btn-play {
@@ -805,7 +854,10 @@
 
                 <div class="quiz-cards-grid">
                     {% for quiz in quizzes %}
-                    <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}" class="quiz-card">
+                    <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz.slug %}" class="quiz-card {% if user.is_superuser and not quiz.active %}inactive{% endif %}">
+                        {% if user.is_superuser and not quiz.active %}
+                            <span class="inactive-badge">Inativo</span>
+                        {% endif %}
                         <div class="quiz-card-header">
                             <div class="quiz-card-icon">⚽</div>
                             <div class="quiz-card-title-wrapper">
@@ -841,7 +893,10 @@
 
                 <div class="category-cards-grid">
                     {% for item in subcategories %}
-                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card" {% if item.theme.primary_color %}style="border-color: {{ item.theme.primary_color }}22;"{% endif %}>
+                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card {% if user.is_superuser and not item.theme.active %}inactive{% endif %}" {% if item.theme.primary_color %}style="border-color: {{ item.theme.primary_color }}22;"{% endif %}>
+                        {% if user.is_superuser and not item.theme.active %}
+                            <span class="inactive-badge">Inativo</span>
+                        {% endif %}
                         {% if item.theme.card_background_image %}
                         <div class="category-card-icon" style="background-image: url('{{ item.theme.card_background_image }}'); background-size: cover; background-position: center;">
                         </div>
