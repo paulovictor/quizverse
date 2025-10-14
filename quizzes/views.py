@@ -430,7 +430,7 @@ def quiz_result(request, attempt_id, attempt=None):
     products = Product.objects.filter(
         theme=attempt.quiz.theme,
         active=True
-    ).order_by('order', 'title')[:3]  # Máximo 3 produtos
+    ).order_by('order', 'title')[:6]  # Máximo 6 produtos
     
     # Gerar breadcrumb
     breadcrumb = attempt.quiz.theme.get_breadcrumb()
