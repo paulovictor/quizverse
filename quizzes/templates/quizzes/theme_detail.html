@@ -146,11 +146,12 @@
     }
 
     .breadcrumb-current {
-        color: #6b7280;
+        color: var(--text-primary);
+        font-weight: 600;
     }
 
     body.dark-mode .breadcrumb-current {
-        color: #9ca3af;
+        color: var(--text-primary);
     }
 
     /* Layout without Sidebar */
@@ -773,15 +774,19 @@
             <a href="{% url 'quizzes:home' %}" class="breadcrumb-link">
                 🏠 Início
             </a>
-            <span class="breadcrumb-separator">›</span>
-            {% for item in breadcrumb %}
-                <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-link">
-                    {{ item.title }}
-                </a>
-                {% if not forloop.last %}
-                    <span class="breadcrumb-separator">›</span>
-                {% endif %}
-            {% endfor %}
+            {% if breadcrumb %}
+                <span class="breadcrumb-separator">›</span>
+                {% for item in breadcrumb %}
+                    {% if forloop.last %}
+                        <span class="breadcrumb-current">{{ item.title }}</span>
+                    {% else %}
+                        <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-link">
+                            {{ item.title }}
+                        </a>
+                        <span class="breadcrumb-separator">›</span>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
 

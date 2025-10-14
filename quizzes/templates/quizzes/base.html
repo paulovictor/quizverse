@@ -690,8 +690,8 @@
                     .then(response => response.json())
                     .then(data => {
                         if (data.success) {
-                            // Reload page to show content in new language
-                            window.location.reload();
+                            // Redirect to home page to show content in new language
+                            window.location.href = "{% url 'quizzes:home' %}";
                         } else {
                             console.error('Failed to change language:', data.error);
                         }
