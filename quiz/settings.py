@@ -28,15 +28,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure--sqmt+_0tahvhi4550=++@&@djba&ycmx&jr*64vzy44fyl8#4')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'True') == 'True'
+DEBUG = os.environ.get('DEBUG', 'True') == 'True'  # Default to True for development
 
+# Sentry Configuration - Moved DSN to environment variable for security
 if not DEBUG:
-    sentry_sdk.init(
-        dsn="https://5015628ffe0c58d5f96faeb1271320f2@o300765.ingest.us.sentry.io/4510184703262720",
-        # Add data like request headers and IP for users,
-        # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
-        send_default_pii=True,
-)
+    sentry_dsn = os.environ.get('SENTRY_DSN')
+    if sentry_dsn:
+        sentry_sdk.init(
+            dsn=sentry_dsn,
+            # Add data like request headers and IP for users,
+            # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
+            send_default_pii=True,
+        )
 
 
 # ALLOWED_HOSTS: sempre configure explicitamente em produção!
@@ -59,6 +62,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',  # Required by allauth
     
+    # Third-party apps
+    'django_ratelimit',  # Rate limiting for API protection
+    
     # Allauth
     'allauth',
     'allauth.account',
@@ -77,6 +83,7 @@ SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',  # Whitenoise para servir arquivos estáticos
+    'django.middleware.gzip.GZipMiddleware',  # Compression for better performance
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -116,6 +123,24 @@ DATABASES = {
         conn_health_checks=True,
     )
 }
+
+# Cache Configuration (required for django-ratelimit)
+# https://docs.djangoproject.com/en/5.2/topics/cache/
+# Using LocMemCache - simple in-memory cache (suitable for single-server deployments)
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'unique-snowflake',
+        'OPTIONS': {
+            'MAX_ENTRIES': 1000,  # Maximum number of entries in the cache
+        }
+    }
+}
+
+# Silence django-ratelimit warnings about LocMemCache
+# Note: LocMemCache works fine for single-server/single-process deployments
+# For multi-server production, consider using Redis or Memcached
+SILENCED_SYSTEM_CHECKS = ['django_ratelimit.E003', 'django_ratelimit.W001']
 
 
 # Password validation
@@ -210,3 +235,4 @@ SOCIALACCOUNT_PROVIDERS = {
         'VERSION': 'v13.0',
     },
 }
+

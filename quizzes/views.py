@@ -4,7 +4,9 @@ from django.contrib import messages
 from django.utils import timezone
 from django.http import JsonResponse, HttpResponseBadRequest
 from django.views.decorators.http import require_POST
+from django_ratelimit.decorators import ratelimit
 from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Product
+from .decorators import validate_attempt_access
 import random
 
 
@@ -37,6 +39,7 @@ def get_language_context(request):
     }
 
 
+@ratelimit(key='ip', rate='20/h', method='POST', block=True)
 def set_language(request):
     """View para trocar o idioma do usuário"""
     if request.method == 'POST':
@@ -70,12 +73,16 @@ def home(request):
     
     # Se for superuser, mostrar todos os temas (incluindo inativos)
     if request.user.is_authenticated and request.user.is_superuser:
-        themes = Theme.objects.filter(parent__isnull=True, language=user_language).order_by('order', 'title')
-        all_quizzes = Quiz.objects.filter(language=user_language)
+        themes = Theme.objects.filter(
+            parent__isnull=True, language=user_language
+        ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
+        all_quizzes = Quiz.objects.filter(language=user_language).select_related('theme')
         all_themes = Theme.objects.filter(language=user_language)
     else:
-        themes = Theme.objects.filter(parent__isnull=True, active=True, language=user_language).order_by('order', 'title')
-        all_quizzes = Quiz.objects.filter(active=True, language=user_language)
+        themes = Theme.objects.filter(
+            parent__isnull=True, active=True, language=user_language
+        ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
+        all_quizzes = Quiz.objects.filter(active=True, language=user_language).select_related('theme')
         all_themes = Theme.objects.filter(active=True, language=user_language)
     
     # Adicionar contagens para cada tema
@@ -119,12 +126,16 @@ def theme_detail(request, theme_slug):
     
     # Superuser pode acessar temas inativos
     if request.user.is_authenticated and request.user.is_superuser:
-        theme = get_object_or_404(Theme, slug=theme_slug)
-        subcategories = theme.subcategories.filter(language=user_language).order_by('order', 'title')
+        theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug)
+        subcategories = theme.subcategories.filter(
+            language=user_language
+        ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
         quizzes = theme.quizzes.filter(language=user_language).order_by('order', 'title')
     else:
-        theme = get_object_or_404(Theme, slug=theme_slug, active=True)
-        subcategories = theme.subcategories.filter(active=True, language=user_language).order_by('order', 'title')
+        theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug, active=True)
+        subcategories = theme.subcategories.filter(
+            active=True, language=user_language
+        ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
         quizzes = theme.quizzes.filter(active=True, language=user_language).order_by('order', 'title')
     
     # Adicionar contagens para subcategorias
@@ -168,11 +179,17 @@ def quiz_detail(request, theme_slug, quiz_slug):
     """Página de detalhes do quiz antes de iniciar"""
     # Superuser pode acessar temas e quizzes inativos
     if request.user.is_authenticated and request.user.is_superuser:
-        theme = get_object_or_404(Theme, slug=theme_slug)
-        quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug)
+        theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug)
+        quiz = get_object_or_404(
+            Quiz.objects.select_related('theme').prefetch_related('questions'),
+            theme=theme, slug=quiz_slug
+        )
     else:
-        theme = get_object_or_404(Theme, slug=theme_slug, active=True)
-        quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug, active=True)
+        theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug, active=True)
+        quiz = get_object_or_404(
+            Quiz.objects.select_related('theme').prefetch_related('questions'),
+            theme=theme, slug=quiz_slug, active=True
+        )
     
     # Buscar tentativas anteriores do usuário
     user_attempts = None
@@ -226,15 +243,22 @@ def quiz_detail(request, theme_slug, quiz_slug):
 
 
 @require_POST
+@ratelimit(key='ip', rate='10/m', method='POST', block=True)
 def quiz_start(request, theme_slug, quiz_slug):
     """Inicia uma nova tentativa de quiz"""
     # Superuser pode iniciar quizzes inativos
     if request.user.is_authenticated and request.user.is_superuser:
-        theme = get_object_or_404(Theme, slug=theme_slug)
-        quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug)
+        theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug)
+        quiz = get_object_or_404(
+            Quiz.objects.select_related('theme').prefetch_related('questions'),
+            theme=theme, slug=quiz_slug
+        )
     else:
-        theme = get_object_or_404(Theme, slug=theme_slug, active=True)
-        quiz = get_object_or_404(Quiz, theme=theme, slug=quiz_slug, active=True)
+        theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug, active=True)
+        quiz = get_object_or_404(
+            Quiz.objects.select_related('theme').prefetch_related('questions'),
+            theme=theme, slug=quiz_slug, active=True
+        )
     
     # Verificar se há perguntas
     if quiz.get_total_questions() == 0:
@@ -262,19 +286,10 @@ def quiz_start(request, theme_slug, quiz_slug):
     return redirect('quizzes:quiz_play', attempt_id=attempt.id)
 
 
-def quiz_play(request, attempt_id):
+@validate_attempt_access()
+def quiz_play(request, attempt_id, attempt=None):
     """Página para jogar o quiz"""
-    attempt = get_object_or_404(QuizAttempt, id=attempt_id)
-    
-    # Verificar permissão (usuário logado ou mesma sessão)
-    if request.user.is_authenticated:
-        if attempt.user and attempt.user != request.user:
-            messages.error(request, 'Você não tem permissão para acessar esta tentativa.')
-            return redirect('quizzes:theme_detail', theme_slug=attempt.quiz.theme.slug)
-    else:
-        if attempt.session_key != request.session.session_key:
-            messages.error(request, 'Você não tem permissão para acessar esta tentativa.')
-            return redirect('quizzes:theme_detail', theme_slug=attempt.quiz.theme.slug)
+    # attempt is now passed by the decorator
     
     # Se já foi completado, redirecionar para resultado
     if attempt.is_completed():
@@ -324,17 +339,11 @@ def quiz_play(request, attempt_id):
 
 
 @require_POST
-def quiz_answer(request, attempt_id):
+@ratelimit(key='ip', rate='30/m', method='POST', block=True)
+@validate_attempt_access(redirect_on_error=False)
+def quiz_answer(request, attempt_id, attempt=None):
     """Processa a resposta de uma pergunta"""
-    attempt = get_object_or_404(QuizAttempt, id=attempt_id)
-    
-    # Verificar permissão
-    if request.user.is_authenticated:
-        if attempt.user and attempt.user != request.user:
-            return JsonResponse({'error': 'Sem permissão'}, status=403)
-    else:
-        if attempt.session_key != request.session.session_key:
-            return JsonResponse({'error': 'Sem permissão'}, status=403)
+    # attempt is now passed by the decorator
     
     # Verificar se já foi completado
     if attempt.is_completed():
@@ -369,19 +378,10 @@ def quiz_answer(request, attempt_id):
     })
 
 
-def quiz_finish(request, attempt_id):
+@validate_attempt_access()
+def quiz_finish(request, attempt_id, attempt=None):
     """Finaliza o quiz e calcula a pontuação"""
-    attempt = get_object_or_404(QuizAttempt, id=attempt_id)
-    
-    # Verificar permissão
-    if request.user.is_authenticated:
-        if attempt.user and attempt.user != request.user:
-            messages.error(request, 'Você não tem permissão para acessar esta tentativa.')
-            return redirect('quizzes:theme_detail', theme_slug=attempt.quiz.theme.slug)
-    else:
-        if attempt.session_key != request.session.session_key:
-            messages.error(request, 'Você não tem permissão para acessar esta tentativa.')
-            return redirect('quizzes:theme_detail', theme_slug=attempt.quiz.theme.slug)
+    # attempt is now passed by the decorator
     
     # Verificar se todas as perguntas foram respondidas
     questions = attempt.get_ordered_questions()
@@ -401,19 +401,10 @@ def quiz_finish(request, attempt_id):
     return redirect('quizzes:quiz_result', attempt_id=attempt.id)
 
 
-def quiz_result(request, attempt_id):
+@validate_attempt_access()
+def quiz_result(request, attempt_id, attempt=None):
     """Exibe o resultado do quiz"""
-    attempt = get_object_or_404(QuizAttempt, id=attempt_id)
-    
-    # Verificar permissão
-    if request.user.is_authenticated:
-        if attempt.user and attempt.user != request.user:
-            messages.error(request, 'Você não tem permissão para acessar esta tentativa.')
-            return redirect('quizzes:theme_detail', theme_slug=attempt.quiz.theme.slug)
-    else:
-        if attempt.session_key != request.session.session_key:
-            messages.error(request, 'Você não tem permissão para acessar esta tentativa.')
-            return redirect('quizzes:theme_detail', theme_slug=attempt.quiz.theme.slug)
+    # attempt is now passed by the decorator
     
     # Pegar todas as respostas com perguntas na ordem
     questions = attempt.get_ordered_questions()
@@ -566,11 +557,11 @@ def user_profile(request):
     """Página de perfil do usuário com suas estatísticas e histórico de quizzes"""
     user = request.user
     
-    # Buscar todas as tentativas do usuário (completas)
+    # Buscar todas as tentativas do usuário (completas) - otimizado com select_related
     attempts = QuizAttempt.objects.filter(
         user=user, 
         completed_at__isnull=False
-    ).select_related('quiz', 'quiz__theme').order_by('-completed_at')
+    ).select_related('quiz', 'quiz__theme', 'quiz__theme__parent').order_by('-completed_at')
     
     # Calcular estatísticas gerais
     total_attempts = attempts.count()
@@ -634,12 +625,12 @@ def user_profile(request):
             'badge_class': badge_class,
         })
     
-    # Buscar temas raiz (sem parent) únicos das tentativas para o filtro
+    # Buscar temas raiz (sem parent) únicos das tentativas para o filtro - otimizado
     themes = Theme.objects.filter(
         quizzes__attempts__user=user,
         quizzes__attempts__completed_at__isnull=False,
         parent__isnull=True
-    ).distinct().order_by('order', 'title')
+    ).prefetch_related('quizzes').distinct().order_by('order', 'title')
     
     context = {
         'user': user,

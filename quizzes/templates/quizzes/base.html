@@ -6,7 +6,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% t 'site_name' %} - {% t 'welcome_title' %}{% endblock %}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{% block meta_description %}{% t 'footer_description' %}{% endblock %}">
+    <meta name="keywords" content="{% block meta_keywords %}quiz, quizzes, trivia, educação, jogos, conhecimento, aprendizagem{% endblock %}">
+    <meta name="author" content="Quizverso">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta property="og:title" content="{% block og_title %}{% t 'site_name' %} - {% t 'welcome_title' %}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{% t 'footer_description' %}{% endblock %}">
+    <meta property="og:image" content="{% block og_image %}{{ request.scheme }}://{{ request.get_host }}{% static 'images/quizverse_icon.png' %}{% endblock %}">
+    <meta property="og:locale" content="{{ current_language|default:'pt_BR' }}">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ request.build_absolute_uri }}">
+    <meta property="twitter:title" content="{% block twitter_title %}{% t 'site_name' %} - {% t 'welcome_title' %}{% endblock %}">
+    <meta property="twitter:description" content="{% block twitter_description %}{% t 'footer_description' %}{% endblock %}">
+    <meta property="twitter:image" content="{% block twitter_image %}{{ request.scheme }}://{{ request.get_host }}{% static 'images/quizverse_icon.png' %}{% endblock %}">
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="{% static 'images/quizverse_icon.png' %}">
+    <link rel="apple-touch-icon" href="{% static 'images/quizverse_icon.png' %}">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#3b82f6">
     
     <style>
         * {

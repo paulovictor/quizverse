@@ -118,6 +118,15 @@
         bottom: 0;
         background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
         animation: shimmer 2s infinite;
+        /* Pause animation when page is not visible to save resources */
+        animation-play-state: running;
+    }
+
+    /* Pause animations when page is hidden */
+    @media (prefers-reduced-motion: reduce) {
+        .progress-fill::after {
+            animation: none;
+        }
     }
 
     @keyframes shimmer {
@@ -284,6 +293,15 @@
     @keyframes spinner {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
+    }
+
+    /* Respect user's motion preferences */
+    @media (prefers-reduced-motion: reduce) {
+        * {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+        }
     }
 
     /* Quiz Info */
@@ -477,6 +495,18 @@
             alert('Erro ao enviar resposta. Tente novamente.');
             submitBtn.disabled = false;
             submitBtn.classList.remove('loading');
+        }
+    });
+
+    // Pause animations when page is not visible (saves battery/CPU)
+    document.addEventListener('visibilitychange', function() {
+        const progressFill = document.querySelector('.progress-fill');
+        if (progressFill) {
+            if (document.hidden) {
+                progressFill.style.animationPlayState = 'paused';
+            } else {
+                progressFill.style.animationPlayState = 'running';
+            }
         }
     });
 </script>

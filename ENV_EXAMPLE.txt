@@ -1,0 +1,35 @@
+# Django Settings
+# IMPORTANT: Copy this file to .env and fill in the values
+# Never commit .env to version control!
+
+# Security - REQUIRED FOR PRODUCTION
+SECRET_KEY=your-secret-key-here-generate-a-strong-one
+DEBUG=False
+
+# SSL/HTTPS Settings (set to True only in production with HTTPS configured)
+# USE_SSL=True
+
+# Database
+DATABASE_URL=postgresql://user:password@localhost/dbname
+# Or for SQLite (development only):
+# DATABASE_URL=sqlite:///db.sqlite3
+
+# Allowed Hosts (comma-separated)
+ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
+
+# Sentry (optional but recommended for production)
+SENTRY_DSN=https://your-sentry-dsn-here@sentry.io/project-id
+
+# CORS Origins (if needed, comma-separated)
+# CORS_ORIGINS=https://yourdomain.com,https://www.yourdomain.com
+
+
+# HOW TO USE:
+# 1. Copy this file: cp ENV_EXAMPLE.txt .env
+# 2. Edit .env and fill in your actual values
+# 3. Make sure .env is in .gitignore (it should be)
+# 4. Restart your Django server
+
+# HOW TO GENERATE SECRET_KEY:
+# python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+
