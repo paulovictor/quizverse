@@ -71,6 +71,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        filter: saturate(1.2) contrast(1.1) brightness(1.05);
     }
 
     .hero-icon svg {
@@ -508,6 +509,12 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        filter: saturate(1.2) contrast(1.1) brightness(1.05);
+        transition: filter 0.3s ease;
+    }
+
+    .category-card:hover .category-card-icon img {
+        filter: saturate(1.3) contrast(1.15) brightness(1.1);
     }
 
     .category-card-icon svg {
@@ -818,9 +825,9 @@
     <!-- Category Hero -->
     <section class="category-hero" {% if theme.primary_color and theme.secondary_color %}style="background: linear-gradient(135deg, {{ theme.primary_color }} 0%, {{ theme.secondary_color }} 100%);"{% endif %}>
         <div class="hero-content">
-            <div class="hero-icon" {% if theme.card_background_image %}style="background: none; padding: 0; overflow: hidden;"{% else %}style="overflow: hidden;"{% endif %}>
-                {% if theme.card_background_image %}
-                    <img src="{{ theme.card_background_image }}" alt="{{ theme.title }}" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="hero-icon" style="overflow: hidden;">
+                {% if theme.icon %}
+                    <img src="{{ theme.icon }}" alt="{{ theme.title }}" style="width: 100%; height: 100%; object-fit: cover;">
                 {% else %}
                     {% render_icon theme %}
                 {% endif %}

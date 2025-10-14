@@ -227,26 +227,25 @@
 
     /* Cards Grid */
     .cards-grid {
-        max-width: 1400px;
+        max-width: 1600px;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+        align-items: stretch;
     }
 
     .category-card {
         background: var(--card-bg);
-        border-radius: 20px;
-        padding: 2rem;
-        cursor: pointer;
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        border-radius: 18px;
+        padding: 1.75rem;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow: var(--shadow-md);
         border: 2px solid transparent;
         position: relative;
-        overflow: hidden;
-        text-decoration: none;
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
     .category-card.inactive {
@@ -258,52 +257,27 @@
         background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
     }
 
-    .category-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(135deg, #3b82f6, #06b6d4);
-        opacity: 0;
-        transition: opacity 0.4s ease;
-        z-index: 0;
-    }
-
     .category-card:hover {
         transform: translateY(-8px);
         border-color: transparent;
     }
 
-    .category-card:hover::before {
-        opacity: 0.08;
-    }
-
     .category-header {
         display: flex;
-        align-items: center;
-        gap: 1.25rem;
-        margin-bottom: 1.25rem;
-        position: relative;
-        z-index: 1;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 1rem;
     }
 
     .category-icon-wrapper {
-        width: 70px;
-        height: 70px;
-        border-radius: 16px;
+        width: 60px;
+        height: 60px;
+        border-radius: 14px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-shrink: 0;
-        background: linear-gradient(135deg, #dbeafe, #e0e7ff);
-        transition: transform 0.4s ease;
         overflow: hidden;
-    }
-
-    .category-card:hover .category-icon-wrapper {
-        transform: scale(1.1) rotate(5deg);
     }
 
     .category-icon {
@@ -318,14 +292,22 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        display: block;
+        filter: saturate(1.2) contrast(1.1) brightness(1.05);
+        transition: filter 0.3s ease;
+    }
+
+    .category-card:hover .category-icon img {
+        filter: saturate(1.3) contrast(1.15) brightness(1.1);
     }
 
     .category-title {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
         font-weight: 800;
         color: #1e3a8a;
-        margin-bottom: 0.25rem;
+        margin: 0;
         transition: color 0.3s ease;
+        line-height: 1.3;
     }
 
     body.dark-mode .category-title {
@@ -334,73 +316,116 @@
 
     .category-description {
         color: var(--text-secondary);
-        font-size: 0.95rem;
-        line-height: 1.6;
-        margin-bottom: 1.5rem;
-        position: relative;
-        z-index: 1;
-        transition: color 0.3s ease;
-    }
-
-    .category-meta {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-        z-index: 1;
-        margin-bottom: 1.5rem;
-    }
-
-    .category-info {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
         font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 1.25rem;
+        transition: color 0.3s ease;
+        flex-grow: 0;
+        min-height: 2.7em;
+    }
+
+    /* Progress Section */
+    .progress-section {
+        margin-bottom: 1rem;
+        margin-top: auto;
+    }
+
+    .progress-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .progress-label {
+        font-size: 0.85rem;
         color: var(--text-secondary);
         font-weight: 600;
-        transition: color 0.3s ease;
     }
 
-    .info-icon {
-        width: 18px;
-        height: 18px;
-    }
-
-    .category-badge {
-        padding: 0.5rem 1rem;
-        border-radius: 50px;
-        color: white;
-        font-weight: 700;
+    .progress-count {
         font-size: 0.85rem;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        color: var(--text-primary);
+        font-weight: 700;
     }
 
-    .explore-btn {
+    .progress-bar {
+        height: 8px;
+        background: #e5e7eb;
+        border-radius: 50px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    body.dark-mode .progress-bar {
+        background: #374151;
+    }
+
+    .progress-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+        border-radius: 50px;
+        transition: width 0.6s ease;
+    }
+
+    .progress-fill.complete {
+        background: linear-gradient(90deg, #10b981, #059669);
+    }
+
+    /* Status Badge */
+    .status-badge {
+        background: #eff6ff;
+        color: #3b82f6;
+        padding: 0.65rem 1rem;
+        border-radius: 10px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .status-badge.complete {
+        background: #d1fae5;
+        color: #059669;
+    }
+
+    body.dark-mode .status-badge {
+        background: rgba(59, 130, 246, 0.15);
+        color: #60a5fa;
+    }
+
+    body.dark-mode .status-badge.complete {
+        background: rgba(16, 185, 129, 0.2);
+        color: #34d399;
+    }
+
+    /* Action Button */
+    .action-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
         padding: 0.875rem 1.5rem;
         background: linear-gradient(135deg, #3b82f6, #2563eb);
         border: none;
         border-radius: 12px;
         color: white;
         font-weight: 700;
+        font-size: 0.95rem;
         cursor: pointer;
         transition: all 0.3s ease;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        justify-content: center;
-        position: relative;
-        z-index: 1;
         width: 100%;
         box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        text-decoration: none;
     }
 
-    .explore-btn:hover {
-        transform: translateX(4px) translateY(-2px);
+    .action-btn:hover {
+        transform: translateY(-2px);
         box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
     }
+
 
     /* Inactive Badge */
     .inactive-badge {
@@ -458,6 +483,12 @@
     }
 
     /* Responsive */
+    @media (max-width: 1400px) {
+        .cards-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
     @media (max-width: 968px) {
         .hero h1 {
             font-size: 2.5rem;
@@ -472,7 +503,7 @@
         }
 
         .cards-grid {
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 
@@ -493,6 +524,10 @@
         .section-header h2 {
             font-size: 2rem;
         }
+
+        .cards-grid {
+            grid-template-columns: 1fr;
+        }
     }
 
     /* ============================================
@@ -501,31 +536,32 @@
     {% for item in categories %}
     {% if item.theme.primary_color and item.theme.secondary_color %}
     /* {{ item.theme.title }} */
-    .category-card[data-theme="{{ item.theme.slug }}"]::before {
-        background: linear-gradient(135deg, {{ item.theme.primary_color }}, {{ item.theme.secondary_color }});
-    }
-
     .category-card[data-theme="{{ item.theme.slug }}"]:hover {
         box-shadow: 0 20px 40px {{ item.theme.primary_color }}4D;
         transform: translateY(-8px);
     }
 
-    {% if item.theme.icon_bg_color_1 and item.theme.icon_bg_color_2 %}
-    .category-card[data-theme="{{ item.theme.slug }}"] .category-icon-wrapper {
-        background: linear-gradient(135deg, {{ item.theme.icon_bg_color_1 }}, {{ item.theme.icon_bg_color_2 }});
-    }
-    {% endif %}
-
-    .category-card[data-theme="{{ item.theme.slug }}"] .category-badge {
-        background: linear-gradient(135deg, {{ item.theme.primary_color }}, {{ item.theme.secondary_color }});
+    /* Estilos personalizados por tema */
+    .category-card[data-theme="{{ item.theme.slug }}"] .progress-fill {
+        background: linear-gradient(90deg, {{ item.theme.primary_color }}, {{ item.theme.secondary_color }});
     }
 
-    .category-card[data-theme="{{ item.theme.slug }}"] .explore-btn {
+    .category-card[data-theme="{{ item.theme.slug }}"] .status-badge {
+        background: {{ item.theme.primary_color }}15;
+        color: {{ item.theme.primary_color }};
+    }
+
+    body.dark-mode .category-card[data-theme="{{ item.theme.slug }}"] .status-badge {
+        background: {{ item.theme.primary_color }}20;
+        color: {{ item.theme.primary_color }};
+    }
+
+    .category-card[data-theme="{{ item.theme.slug }}"] .action-btn {
         background: linear-gradient(135deg, {{ item.theme.primary_color }}, {{ item.theme.secondary_color }});
         box-shadow: 0 4px 12px {{ item.theme.primary_color }}40;
     }
 
-    .category-card[data-theme="{{ item.theme.slug }}"] .explore-btn:hover {
+    .category-card[data-theme="{{ item.theme.slug }}"] .action-btn:hover {
         box-shadow: 0 6px 20px {{ item.theme.primary_color }}60;
     }
     {% endif %}
@@ -570,57 +606,68 @@
 
         <div class="cards-grid">
             {% for item in categories %}
-                <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card {% if user.is_superuser and not item.theme.active %}inactive{% endif %}" data-theme="{{ item.theme.slug }}">
+                <div class="category-card {% if user.is_superuser and not item.theme.active %}inactive{% endif %}" data-theme="{{ item.theme.slug }}">
                     {% if user.is_superuser and not item.theme.active %}
                         <span class="inactive-badge">Inativo</span>
                     {% endif %}
+                    
+                    <!-- Cabeçalho com ícone e título -->
                     <div class="category-header">
-                        <div class="category-icon-wrapper" {% if item.theme.card_background_image %}style="background: none; padding: 0;"{% endif %}>
-                            {% if item.theme.card_background_image %}
-                                <img src="{{ item.theme.card_background_image }}" alt="{{ item.theme.title }}" style="width: 100%; height: 100%; object-fit: cover;">
-                            {% else %}
-                                <div class="category-icon">{% render_icon item.theme %}</div>
-                            {% endif %}
+                        <div class="category-icon-wrapper">
+                            <div class="category-icon">{% render_icon item.theme %}</div>
                         </div>
                         <div>
                             <h3 class="category-title">{{ item.theme.title }}</h3>
                         </div>
                     </div>
                     
+                    <!-- Descrição -->
                     <p class="category-description">
-                        {{ item.theme.description|truncatechars:120 }}
+                        {{ item.theme.description|truncatechars:100 }}
                     </p>
                     
-                    <div class="category-meta">
-                        <div class="category-info">
-                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                {% if item.subcategories_count > 0 %}
-                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                {% else %}
-                                    <path d="M9 11L12 14L22 4" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M21 12V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H16" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                {% endif %}
-                            </svg>
-                            <span>
-                                {% if item.subcategories_count > 0 %}
-                                    {{ item.subcategories_count }} {% t 'subcategories' %}
-                                {% elif item.quiz_count > 0 %}
-                                    {{ item.quiz_count }} {% t 'total_quizzes' %}
-                                {% else %}
-                                    ...
-                                {% endif %}
+                    <!-- Progresso -->
+                    <div class="progress-section">
+                        <div class="progress-header">
+                            <span class="progress-label">Seu Progresso</span>
+                            <span class="progress-count">
+                                {{ item.completed_quizzes|default:0 }}/{{ item.quiz_count }} completos
                             </span>
+                        </div>
+                        <div class="progress-bar">
+                            {% if item.quiz_count > 0 %}
+                                {% widthratio item.completed_quizzes item.quiz_count 100 as progress_percent %}
+                            {% else %}
+                                {% with progress_percent=0 %}{% endwith %}
+                            {% endif %}
+                            <div class="progress-fill {% if item.completed_quizzes == item.quiz_count and item.quiz_count > 0 %}complete{% endif %}" style="width: {% if item.quiz_count > 0 %}{% widthratio item.completed_quizzes item.quiz_count 100 %}{% else %}0{% endif %}%"></div>
                         </div>
                     </div>
                     
-                    <button class="explore-btn">
-                        {{ 'explore'|translate:current_language|default:'Explore' }}
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                </a>
+                    <!-- Badge de status -->
+                    <div class="status-badge {% if item.completed_quizzes == item.quiz_count and item.quiz_count > 0 %}complete{% endif %}">
+                        {% if item.quiz_count == 0 %}
+                            🔜 Em breve!
+                        {% elif item.completed_quizzes == item.quiz_count %}
+                            ✨ Categoria 100% completa!
+                        {% elif item.completed_quizzes > 0 %}
+                            🎯 Continue sua jornada!
+                        {% else %}
+                            ⚡ Novo desafio disponível!
+                        {% endif %}
+                    </div>
+                    
+                    <!-- Botão de ação -->
+                    <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="action-btn">
+                        {% if item.completed_quizzes == item.quiz_count and item.quiz_count > 0 %}
+                            Revisar Quizzes 🔄
+                        {% elif item.completed_quizzes > 0 %}
+                            Continuar Jogando 🎮
+                        {% else %}
+                            Iniciar Jornada 🚀
+                        {% endif %}
+                    </a>
+                </div>
             {% empty %}
                 <p style="grid-column: 1 / -1; text-align: center; color: #64748b; padding: 2rem;">
                     {{ 'no_categories_available'|translate:current_language|default:'No categories available at the moment.' }}
@@ -648,3 +695,4 @@
         </div>
     </section>
 {% endblock %}
+

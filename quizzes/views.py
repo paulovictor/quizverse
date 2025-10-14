@@ -66,6 +66,30 @@ def get_client_ip(request):
     return ip
 
 
+def get_all_descendant_quizzes(theme, is_superuser=False):
+    """Retorna todos os quizzes descendentes de um tema (recursivo)"""
+    quizzes = []
+    
+    # Quizzes diretos deste tema
+    if is_superuser:
+        direct_quizzes = list(theme.quizzes.all())
+    else:
+        direct_quizzes = list(theme.quizzes.filter(active=True))
+    
+    quizzes.extend(direct_quizzes)
+    
+    # Quizzes dos filhos (recursivo)
+    if is_superuser:
+        children = theme.subcategories.all()
+    else:
+        children = theme.subcategories.filter(active=True)
+    
+    for child in children:
+        quizzes.extend(get_all_descendant_quizzes(child, is_superuser))
+    
+    return quizzes
+
+
 def home(request):
     """Página inicial com categorias principais (temas sem parent)"""
     # Obter idioma do usuário
@@ -88,19 +112,35 @@ def home(request):
     # Adicionar contagens para cada tema
     categories = []
     for theme in themes:
-        # Superuser vê tudo, outros só os ativos
-        if request.user.is_authenticated and request.user.is_superuser:
+        is_superuser = request.user.is_authenticated and request.user.is_superuser
+        
+        # Buscar todos os quizzes descendentes (recursivo)
+        all_theme_quizzes = get_all_descendant_quizzes(theme, is_superuser)
+        total_quizzes = len(all_theme_quizzes)
+        
+        # Calcular progresso do usuário
+        completed_quizzes = 0
+        if request.user.is_authenticated:
+            # Quizzes que o usuário completou (distinct)
+            quiz_ids = [q.id for q in all_theme_quizzes]
+            completed_quizzes = QuizAttempt.objects.filter(
+                user=request.user,
+                quiz_id__in=quiz_ids,
+                completed_at__isnull=False
+            ).values('quiz_id').distinct().count()
+        
+        # Contagem de subcategorias diretas (para exibição)
+        if is_superuser:
             subcategories_count = theme.subcategories.filter(language=user_language).count()
-            quiz_count = theme.quizzes.filter(language=user_language).count()
         else:
             subcategories_count = theme.subcategories.filter(active=True, language=user_language).count()
-            quiz_count = theme.quizzes.filter(active=True, language=user_language).count()
         
         categories.append({
             'theme': theme,
             'subcategories_count': subcategories_count,
-            'quiz_count': quiz_count,
-            'total_count': subcategories_count + quiz_count
+            'quiz_count': total_quizzes,
+            'completed_quizzes': completed_quizzes,
+            'total_count': subcategories_count + total_quizzes
         })
     
     # Estatísticas globais
