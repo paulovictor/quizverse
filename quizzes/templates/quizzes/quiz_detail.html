@@ -4,7 +4,7 @@
 
 {% block title %}{{ quiz.title }} - Quizverso{% endblock %}
 
-{% block body_background %}#f8fafc{% endblock %}
+{% block body_background %}var(--bg-secondary){% endblock %}
 
 {% block extra_styles %}
 <style>
@@ -17,11 +17,12 @@
 
     /* Breadcrumb */
     .breadcrumb {
-        background: rgba(255, 255, 255, 0.95);
+        background: var(--card-bg);
         padding: 1rem 0;
-        border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+        border-bottom: 1px solid var(--border-color);
         margin: 0;
         width: 100%;
+        transition: background 0.3s ease, border-color 0.3s ease;
     }
 
     .breadcrumb-content {
@@ -66,11 +67,12 @@
 
     /* Quiz Card */
     .quiz-detail-card {
-        background: white;
+        background: var(--card-bg);
         border-radius: 24px;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        box-shadow: var(--shadow-lg);
         overflow: hidden;
         animation: fadeInUp 0.6s ease;
+        transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
     @keyframes fadeInUp {
@@ -91,6 +93,11 @@
         text-align: center;
         position: relative;
         overflow: hidden;
+        transition: background 0.3s ease;
+    }
+
+    body.dark-mode .quiz-header {
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
     }
 
     .quiz-header::before {

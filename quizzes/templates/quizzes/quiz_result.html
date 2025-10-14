@@ -14,11 +14,12 @@
 
     /* Breadcrumb - Full Width */
     .breadcrumb {
-        background: white;
+        background: var(--card-bg);
         padding: 1rem 0;
-        border-bottom: 1px solid #e5e7eb;
+        border-bottom: 1px solid var(--border-color);
         margin: 0;
         width: 100%;
+        transition: background 0.3s ease, border-color 0.3s ease;
     }
 
     .breadcrumb-content {
@@ -341,12 +342,13 @@
 
     /* Review Section */
     .review-section {
-        background: white;
+        background: var(--card-bg);
         border-radius: 20px;
         padding: 2.5rem;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--shadow-md);
         margin-top: 2rem;
         margin-bottom: 2rem;
+        transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
     .review-header {
@@ -357,18 +359,20 @@
     .review-title {
         font-size: 1.75rem;
         font-weight: 800;
-        color: #1f2937;
+        color: var(--text-primary);
         margin-bottom: 0.5rem;
+        transition: color 0.3s ease;
     }
 
     .review-description {
-        color: #6b7280;
+        color: var(--text-secondary);
         font-size: 1rem;
+        transition: color 0.3s ease;
     }
 
     .question-card {
-        background: #f9fafb;
-        border: 2px solid #e5e7eb;
+        background: var(--bg-secondary);
+        border: 2px solid var(--border-color);
         border-radius: 16px;
         margin-bottom: 1rem;
         transition: all 0.3s ease;
@@ -376,7 +380,7 @@
     }
 
     .question-card:hover {
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--shadow-sm);
     }
 
     .question-card.correct {
@@ -421,8 +425,9 @@
         flex: 1;
         font-size: 1.125rem;
         font-weight: 700;
-        color: #1f2937;
+        color: var(--text-primary);
         line-height: 1.5;
+        transition: color 0.3s ease;
     }
 
     .question-status {
@@ -483,10 +488,10 @@
 
     .answer-option {
         padding: 1rem 1.5rem;
-        border: 2px solid #e5e7eb;
+        border: 2px solid var(--border-color);
         border-radius: 12px;
         margin-bottom: 0.75rem;
-        background: white;
+        background: var(--card-bg);
         transition: all 0.2s ease;
     }
 
@@ -511,7 +516,8 @@
         display: flex;
         align-items: center;
         gap: 0.75rem;
-        color: #1f2937;
+        color: var(--text-primary);
+        transition: color 0.3s ease;
     }
 
     .answer-icon {
@@ -525,11 +531,12 @@
 
     .carousel-container {
         position: relative;
-        background: white;
+        background: var(--card-bg);
         border-radius: 24px;
         padding: 40px 20px;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+        box-shadow: var(--shadow-lg);
         overflow: hidden;
+        transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
     .carousel-header {
@@ -540,13 +547,14 @@
 
     .carousel-header h1 {
         font-size: 2rem;
-        color: #1a202c;
+        color: var(--text-primary);
         margin-bottom: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 15px;
         font-weight: 800;
+        transition: color 0.3s ease;
     }
 
     .carousel-header h1::before {
@@ -555,8 +563,9 @@
     }
 
     .carousel-header p {
-        color: #718096;
+        color: var(--text-secondary);
         font-size: 1rem;
+        transition: color 0.3s ease;
     }
 
     .carousel-wrapper {
@@ -576,11 +585,11 @@
     }
 
     .product-card {
-        background: #fafafa;
+        background: var(--bg-secondary);
         border-radius: 16px;
         padding: 20px;
         text-align: center;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
         border: 2px solid transparent;
         text-decoration: none;
         display: block;
@@ -589,7 +598,7 @@
 
     .product-card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        box-shadow: var(--shadow-lg);
         border-color: #3b82f6;
     }
 
@@ -608,9 +617,10 @@
     .product-name {
         font-size: 1.2rem;
         font-weight: 600;
-        color: #1a202c;
+        color: var(--text-primary);
         margin-bottom: 15px;
         min-height: 50px;
+        transition: color 0.3s ease;
     }
 
     .product-price {
@@ -644,8 +654,8 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        background: white;
-        border: 2px solid #e2e8f0;
+        background: var(--card-bg);
+        border: 2px solid var(--border-color);
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -655,7 +665,8 @@
         justify-content: center;
         transition: all 0.3s ease;
         z-index: 10;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: var(--shadow-sm);
+        color: var(--text-primary);
     }
 
     .carousel-button:hover {
@@ -666,6 +677,11 @@
 
     .carousel-button:hover svg {
         stroke: white;
+    }
+
+    .carousel-button svg {
+        stroke: var(--text-primary);
+        transition: stroke 0.3s ease;
     }
 
     .carousel-button.prev {

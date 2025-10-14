@@ -1,6 +1,6 @@
 {% extends "quizzes/base.html" %}
 
-{% block body_background %}#f0f9ff{% endblock %}
+{% block body_background %}var(--bg-secondary){% endblock %}
 
 {% block extra_styles %}
 <style>
@@ -13,11 +13,12 @@
 
     /* Cards comuns */
     .card {
-        background: white;
+        background: var(--card-bg);
         border-radius: 16px;
         padding: 2rem;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--shadow-md);
         margin-bottom: 2rem;
+        transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
     /* Buttons comuns */

@@ -33,6 +33,12 @@
         margin-bottom: 2rem;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         animation: fadeInDown 0.6s ease;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    body.dark-mode .hero-badge {
+        background: rgba(30, 41, 59, 0.95);
+        color: #60a5fa;
     }
 
     @keyframes fadeInDown {
@@ -167,10 +173,11 @@
 
     /* Categories Section */
     .categories-section {
-        background: #f0f9ff;
+        background: var(--bg-secondary);
         padding: 5rem 2rem;
         width: 100%;
         overflow-x: hidden;
+        transition: background 0.3s ease;
     }
 
     .section-header {
@@ -190,6 +197,12 @@
         text-transform: uppercase;
         letter-spacing: 0.5px;
         margin-bottom: 1rem;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    body.dark-mode .section-badge {
+        background: rgba(96, 165, 250, 0.2);
+        color: #60a5fa;
     }
 
     .section-header h2 {
@@ -197,13 +210,19 @@
         font-weight: 800;
         color: #1e3a8a;
         margin-bottom: 0.75rem;
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .section-header h2 {
+        color: var(--text-primary);
     }
 
     .section-header p {
         font-size: 1.125rem;
-        color: #64748b;
+        color: var(--text-secondary);
         max-width: 600px;
         margin: 0 auto;
+        transition: color 0.3s ease;
     }
 
     /* Cards Grid */
@@ -216,12 +235,12 @@
     }
 
     .category-card {
-        background: white;
+        background: var(--card-bg);
         border-radius: 20px;
         padding: 2rem;
         cursor: pointer;
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        box-shadow: var(--shadow-md);
         border: 2px solid transparent;
         position: relative;
         overflow: hidden;
@@ -293,15 +312,21 @@
         font-weight: 800;
         color: #1e3a8a;
         margin-bottom: 0.25rem;
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .category-title {
+        color: var(--text-primary);
     }
 
     .category-description {
-        color: #64748b;
+        color: var(--text-secondary);
         font-size: 0.95rem;
         line-height: 1.6;
         margin-bottom: 1.5rem;
         position: relative;
         z-index: 1;
+        transition: color 0.3s ease;
     }
 
     .category-meta {
@@ -318,8 +343,9 @@
         align-items: center;
         gap: 0.5rem;
         font-size: 0.9rem;
-        color: #64748b;
+        color: var(--text-secondary);
         font-weight: 600;
+        transition: color 0.3s ease;
     }
 
     .info-icon {

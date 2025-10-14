@@ -13,6 +13,11 @@
     padding: 3rem 0;
     margin: 0;
     width: 100%;
+    position: relative;
+}
+
+body.dark-mode .profile-hero {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
 }
 
 .profile-hero-content {
@@ -23,6 +28,7 @@
     align-items: center;
     gap: 4rem;
 }
+
 
 .profile-user {
     display: flex;
@@ -101,25 +107,30 @@
     margin-bottom: 1.5rem;
 }
 
+body.dark-mode .results-title {
+    color: var(--text-primary);
+}
+
 .filter-tabs {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
     justify-content: center;
-    background: white;
+    background: var(--card-bg);
     padding: 0.5rem;
     border-radius: 16px;
     width: fit-content;
     margin: 0 auto;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-sm);
+    transition: background 0.3s ease;
 }
 
 .filter-tab {
     padding: 0.75rem 1.5rem;
-    background: #f1f5f9;
+    background: var(--bg-secondary);
     border: none;
     border-radius: 12px;
-    color: #6b7280;
+    color: var(--text-secondary);
     font-weight: 600;
     font-size: 0.95rem;
     cursor: pointer;
@@ -132,7 +143,7 @@
 }
 
 .filter-tab:hover {
-    background: #e5e7eb;
+    background: var(--bg-tertiary);
 }
 
 .filter-tab.active {
@@ -150,16 +161,16 @@
 }
 
 .result-card {
-    background: white;
+    background: var(--card-bg);
     border-radius: 16px;
     padding: 1.5rem;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: var(--shadow-sm);
 }
 
 .result-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--shadow-md);
 }
 
 .result-header {
@@ -214,11 +225,17 @@
     font-weight: 700;
     color: #1e3a8a;
     margin-bottom: 0.25rem;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .result-quiz-name {
+    color: var(--text-primary);
 }
 
 .result-meta {
-    color: #64748b;
+    color: var(--text-secondary);
     font-size: 0.8rem;
+    transition: color 0.3s ease;
 }
 
 .result-stats {
@@ -236,14 +253,20 @@
     font-size: 1.5rem;
     font-weight: 700;
     color: #1e3a8a;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .result-stat-value {
+    color: var(--text-primary);
 }
 
 .result-stat-label {
     font-size: 0.7rem;
-    color: #64748b;
+    color: var(--text-secondary);
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 0.25rem;
+    transition: color 0.3s ease;
 }
 
 .result-actions {
@@ -305,7 +328,7 @@
 .empty-state {
     text-align: center;
     padding: 4rem 2rem;
-    color: #64748b;
+    color: var(--text-secondary);
 }
 
 .empty-state-icon {
@@ -316,8 +339,9 @@
 .empty-state-title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1a1a2e;
+    color: var(--text-primary);
     margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
 }
 
 .empty-state-text {

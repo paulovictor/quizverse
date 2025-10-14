@@ -4,7 +4,7 @@
 
 {% block title %}{{ theme.title }} - Quizverso{% endblock %}
 
-{% block body_background %}#f0f9ff{% endblock %}
+{% block body_background %}var(--bg-secondary){% endblock %}
 
 {% block extra_styles %}
 <style>
@@ -23,6 +23,11 @@
         overflow: hidden;
         width: 100%;
         margin: 0;
+        transition: background 0.3s ease;
+    }
+
+    body.dark-mode .category-hero {
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
     }
 
     .category-hero::before {
@@ -88,15 +93,70 @@
         margin: 0;
     }
 
-    /* Layout with Sidebar */
+    /* Breadcrumb */
+    .breadcrumb {
+        background: var(--card-bg);
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border-color);
+        margin: 0;
+        width: 100%;
+        transition: background 0.3s ease, border-color 0.3s ease;
+    }
+
+    .breadcrumb-content {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        font-size: 0.875rem;
+    }
+
+    .breadcrumb-link {
+        color: #3b82f6;
+        text-decoration: none;
+        transition: color 0.2s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    body.dark-mode .breadcrumb-link {
+        color: #60a5fa;
+    }
+
+    .breadcrumb-link:hover {
+        color: #2563eb;
+    }
+
+    body.dark-mode .breadcrumb-link:hover {
+        color: #93c5fd;
+    }
+
+    .breadcrumb-separator {
+        color: #9ca3af;
+        user-select: none;
+    }
+
+    body.dark-mode .breadcrumb-separator {
+        color: #6b7280;
+    }
+
+    .breadcrumb-current {
+        color: #6b7280;
+    }
+
+    body.dark-mode .breadcrumb-current {
+        color: #9ca3af;
+    }
+
+    /* Layout without Sidebar */
     .page-layout {
         max-width: 1400px;
         margin: 0 auto;
-        display: grid;
-        grid-template-columns: 280px 1fr;
-        gap: 2rem;
         padding: 2rem;
-        align-items: start;
     }
 
     /* Sidebar */
@@ -356,6 +416,27 @@
         font-size: 1.35rem;
         font-weight: 700;
         color: #1e40af;
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .section-title {
+        color: var(--text-primary);
+    }
+
+    .section-intro-title {
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .section-intro-title {
+        color: var(--text-primary);
+    }
+
+    .section-intro-description {
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .section-intro-description {
+        color: var(--text-secondary);
     }
 
     /* Category Cards Grid */
@@ -366,7 +447,7 @@
     }
 
     .category-card {
-        background: white;
+        background: var(--card-bg);
         border-radius: 16px;
         padding: 1.5rem;
         text-decoration: none;
@@ -374,7 +455,7 @@
         align-items: center;
         gap: 1.25rem;
         transition: all 0.3s ease;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--shadow-sm);
         border: 2px solid transparent;
     }
 
@@ -422,21 +503,32 @@
         font-weight: 700;
         color: #1e40af;
         margin-bottom: 0.5rem;
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .category-card-title {
+        color: var(--text-primary);
     }
 
     .category-card-meta {
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        color: #64748b;
+        color: var(--text-secondary);
         font-size: 0.85rem;
         font-weight: 500;
+        transition: color 0.3s ease;
     }
 
     .category-card-arrow {
         font-size: 1.25rem;
         color: #cbd5e1;
         flex-shrink: 0;
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .category-card-arrow {
+        color: #6b7280;
     }
 
     /* Quiz Cards */
@@ -447,13 +539,13 @@
     }
 
     .quiz-card {
-        background: white;
+        background: var(--card-bg);
         border-radius: 16px;
         padding: 1.5rem;
         text-decoration: none;
         display: block;
         transition: all 0.3s ease;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--shadow-sm);
         border: 2px solid transparent;
     }
 
@@ -508,6 +600,11 @@
         color: #1e40af;
         margin-bottom: 0.5rem;
         line-height: 1.3;
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .quiz-card-title {
+        color: var(--text-primary);
     }
 
     .quiz-card-meta {
@@ -522,15 +619,17 @@
         align-items: center;
         gap: 0.35rem;
         font-size: 0.8rem;
-        color: #64748b;
+        color: var(--text-secondary);
         font-weight: 500;
+        transition: color 0.3s ease;
     }
 
     .quiz-card-description {
-        color: #64748b;
+        color: var(--text-secondary);
         font-size: 0.9rem;
         line-height: 1.5;
         margin-bottom: 1.25rem;
+        transition: color 0.3s ease;
     }
 
     .quiz-card-footer {
@@ -587,9 +686,10 @@
     .empty-state {
         text-align: center;
         padding: 4rem 2rem;
-        background: white;
+        background: var(--card-bg);
         border-radius: 16px;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--shadow-sm);
+        transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
     .empty-icon {
@@ -603,24 +703,20 @@
         margin-bottom: 0.5rem;
         font-size: 1.5rem;
         font-weight: 700;
+        transition: color 0.3s ease;
+    }
+
+    body.dark-mode .empty-state h3 {
+        color: var(--text-primary);
     }
 
     .empty-state p {
-        color: #64748b;
+        color: var(--text-secondary);
         font-size: 1rem;
+        transition: color 0.3s ease;
     }
 
     /* Responsive */
-    @media (max-width: 1024px) {
-        .page-layout {
-            grid-template-columns: 1fr;
-        }
-
-        .sidebar {
-            position: static;
-        }
-    }
-
     @media (max-width: 768px) {
         .category-hero {
             padding: 2rem 1rem;
@@ -631,9 +727,12 @@
             text-align: center;
         }
 
+        .breadcrumb-content {
+            padding: 0 1rem;
+        }
+
         .page-layout {
             padding: 1rem;
-            gap: 1.5rem;
         }
 
         .category-cards-grid,
@@ -661,79 +760,26 @@
         </div>
     </section>
 
-    <!-- Page Layout with Sidebar -->
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-content">
+            <a href="{% url 'quizzes:home' %}" class="breadcrumb-link">
+                🏠 Início
+            </a>
+            <span class="breadcrumb-separator">›</span>
+            {% for item in breadcrumb %}
+                <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-link">
+                    {{ item.title }}
+                </a>
+                {% if not forloop.last %}
+                    <span class="breadcrumb-separator">›</span>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Page Layout -->
     <div class="page-layout">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <!-- Back Button -->
-            {% if theme.parent %}
-            <div class="sidebar-back">
-                <a href="{% url 'quizzes:theme_detail' theme_slug=theme.parent.slug %}" class="sidebar-back-link">
-                    <span class="sidebar-back-icon">←</span>
-                    <div class="sidebar-back-content">
-                        <span class="sidebar-back-title">{{ theme.parent.title }}</span>
-                    </div>
-                </a>
-            </div>
-            {% else %}
-            <div class="sidebar-back">
-                <a href="{% url 'quizzes:home' %}" class="sidebar-back-link">
-                    <span class="sidebar-back-icon">←</span>
-                    <div class="sidebar-back-content">
-                        <span class="sidebar-back-title">Início</span>
-                    </div>
-                </a>
-            </div>
-            {% endif %}
-
-            <!-- General Quizzes Section -->
-            {% if quizzes %}
-            <div class="sidebar-section">
-                <h3 class="sidebar-title">
-                    <span class="sidebar-title-icon">🎮</span>
-                    Quizzes Gerais
-                </h3>
-                <ul class="sidebar-list">
-                    <li class="sidebar-item">
-                        <a href="#general-quizzes" class="sidebar-link active">
-                            <span class="sidebar-icon">⚽</span>
-                            <span>Ver Todos</span>
-                            <span class="sidebar-arrow">▶</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            {% endif %}
-
-            <!-- Categories Section -->
-            {% if subcategories %}
-            <div class="sidebar-section">
-                <h3 class="sidebar-title">
-                    <span class="sidebar-title-icon">📂</span>
-                    Categorias
-                </h3>
-                <ul class="sidebar-list">
-                    {% for item in subcategories %}
-                    <li class="sidebar-item">
-                        <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="sidebar-link" {% if item.theme.primary_color %}data-color="{{ item.theme.primary_color }}"{% endif %}>
-                            {% if item.theme.card_background_image %}
-                            <div class="sidebar-icon" style="background-image: url('{{ item.theme.card_background_image }}'); background-size: cover; background-position: center; border-radius: 8px;">
-                            </div>
-                            {% else %}
-                            <div class="sidebar-icon" {% if item.theme.icon_bg_color_1 and item.theme.icon_bg_color_2 %}style="background: linear-gradient(135deg, {{ item.theme.icon_bg_color_1 }}, {{ item.theme.icon_bg_color_2 }}); border-radius: 8px; padding: 4px;"{% elif item.theme.primary_color %}style="color: {{ item.theme.primary_color }};"{% endif %}>
-                                {% render_icon item.theme %}
-                            </div>
-                            {% endif %}
-                            <span>{{ item.theme.title }}</span>
-                            <span class="sidebar-arrow">▶</span>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endif %}
-        </aside>
-
         <!-- Main Content Area -->
         <main class="main-content-area">
             <!-- General Quizzes Introduction -->
@@ -843,26 +889,6 @@
             
             card.addEventListener('mouseleave', function() {
                 card.style.borderColor = originalBorder;
-            });
-        }
-    });
-
-    // Apply theme colors on hover for sidebar links
-    document.querySelectorAll('.sidebar-link').forEach(link => {
-        const themeColor = link.getAttribute('data-color');
-        if (themeColor) {
-            link.addEventListener('mouseenter', function() {
-                link.style.background = themeColor + '15'; // 15 = ~8% opacity
-                link.style.borderLeft = '3px solid ' + themeColor;
-                link.style.paddingLeft = 'calc(0.75rem - 3px)';
-            });
-            
-            link.addEventListener('mouseleave', function() {
-                if (!link.classList.contains('active')) {
-                    link.style.background = '';
-                    link.style.borderLeft = '';
-                    link.style.paddingLeft = '';
-                }
             });
         }
     });

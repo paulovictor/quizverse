@@ -14,11 +14,12 @@
 
     /* Breadcrumb - Full Width */
     .breadcrumb {
-        background: white;
+        background: var(--card-bg);
         padding: 1rem 0;
-        border-bottom: 1px solid #e5e7eb;
+        border-bottom: 1px solid var(--border-color);
         margin: 0;
         width: 100%;
+        transition: background 0.3s ease, border-color 0.3s ease;
     }
 
     .breadcrumb-content {
@@ -63,11 +64,12 @@
 
     /* Progress Section */
     .progress-section {
-        background: white;
+        background: var(--card-bg);
         border-radius: 20px;
         padding: 2rem;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--shadow-md);
         margin-bottom: 2rem;
+        transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
     .progress-header {
@@ -80,15 +82,17 @@
     .progress-label {
         font-size: 0.875rem;
         font-weight: 700;
-        color: #6b7280;
+        color: var(--text-secondary);
         text-transform: uppercase;
         letter-spacing: 0.5px;
+        transition: color 0.3s ease;
     }
 
     .progress-count {
         font-size: 1.125rem;
         font-weight: 800;
-        color: #1f2937;
+        color: var(--text-primary);
+        transition: color 0.3s ease;
     }
 
     .progress-bar {
@@ -136,11 +140,12 @@
 
     /* Question Card */
     .question-card {
-        background: white;
+        background: var(--card-bg);
         border-radius: 20px;
         padding: 3rem;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--shadow-md);
         margin-bottom: 2rem;
+        transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
     .question-number {
@@ -156,12 +161,18 @@
         margin-bottom: 1.5rem;
     }
 
+    body.dark-mode .question-number {
+        background: rgba(96, 165, 250, 0.2);
+        color: #60a5fa;
+    }
+
     .question-text {
         font-size: 1.75rem;
         font-weight: 800;
-        color: #1f2937;
+        color: var(--text-primary);
         line-height: 1.4;
         margin-bottom: 2rem;
+        transition: color 0.3s ease;
     }
 
     .question-image {
@@ -185,14 +196,14 @@
     }
 
     .answer-option {
-        background: #f9fafb;
-        border: 3px solid #e5e7eb;
+        background: var(--bg-secondary);
+        border: 3px solid var(--border-color);
         border-radius: 16px;
         padding: 1.5rem 2rem;
         cursor: pointer;
         transition: all 0.3s ease;
         font-size: 1.125rem;
-        color: #1f2937;
+        color: var(--text-primary);
         font-weight: 500;
         display: flex;
         align-items: center;
