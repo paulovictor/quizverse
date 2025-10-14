@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Yellow-banded",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibi3JAxl3fXJfzp969C5goWYqPjkNqnQgmJe5pQhtfnO_J_6hmuyuRw7DDuvddXOHU9rPQSPvT7imLm3wfng7d-enGxhsihxtC3alhXm1x4db-xm1_2bT1qZD_QfFaOCAXbW5ZslGn6oHk_jhSEOkRme7HFB/330x192",
+    "opcoes": [
+      "Unhinged",
+      "Jade",
+      "Needle Point"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Unhinged",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibi3JAxl3fXJfzp969C5goWYqPjkNqnQgmJe5pQhtfrP9Ifwm1-9pSw-Pzigf-nJK1FmJTeMqxPplPDpg5W7vczNmnpiuSYis3jbmkS3gUtPbeFrjPfLHQnMB6AfHvLQVHTZrtktHz00OhE8/330x192",
+    "opcoes": [
+      "Yellow-banded",
+      "Needle Point",
+      "Jade"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Needle Point",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibi3JAxl3fXJfzp969C5goWYqPjkNqnQgmJe5pQhte_N-p70hGu4ohQ0JwavdcTCJxg2ZlvYr1XtxL25gZ7t7ZzPynQy6XIqtyvUlx2_1Rweb-c50PWXHQqfGeUXS4D0SPQ1/330x192",
+    "opcoes": [
+      "Unhinged",
+      "Jade",
+      "Yellow-banded"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Jade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibi3JAxl3fXJfzp969C5goWYqPjkNqnQgmJe5pQhteTE4Y35gVeLrAE5NjeceN_CKkJRPQmSrQSgye6-jZa8752bz3piuSgmt3_fnRLjhRlOa7Y7h_TNTQmaU_NJGKaLVW2Q7s47NBNOxQ/330x192",
+    "opcoes": [
+      "Yellow-banded",
+      "Unhinged",
+      "Needle Point"
+    ]
+  }
+]

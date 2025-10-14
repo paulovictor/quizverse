@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Wicked Sick",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-PkvT4OrXUqWdY781lteXA54vwxgOy_kRtZ2z1I4LEd1M6YArTqFnrxri6gpbu6ZmfnyAxvyd3tnmLlxGpwUYbV-3wxJw/330x192",
+    "opcoes": [
+      "Red Wing",
+      "Corticera",
+      "Obsidian"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Coral Halftone",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zAZQJE7d-zgL-bxaekY4Tdn2xZ_It3jryWpo3xjgbhqEVvNmulIoWdd1U9YlGD_gXryLvqgpC06ZydnHdqpGB8skZG7v0P/330x192",
+    "opcoes": [
+      "Ivory",
+      "Panther Camo",
+      "Grassland Leaves"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Marsh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zbfjh9-Nm3mL-Mm_7gJ77DqWdY781lxOuXp92l2gC38hBrZzr6IIGTcFJrNV_R_le5x-ztgZ7qu5_AyXtquCU8pSGK_Y2LwcA/330x192",
+    "opcoes": [
+      "Gnarled",
+      "Corticera",
+      "Granite Marbleized"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Royal Baroque",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zbYTh9_9-3hoa0h-X9Pa_ummJW4NE_ibqQpdqmjFbi_UZpa2z6dYSUJg4_aAqDr1C3xL_v05Ppuc7IwHBk6z5iuyhbV9q5AQ/330x192",
+    "opcoes": [
+      "Amber Fade",
+      "Acid Etched",
+      "Wicked Sick"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sure Grip",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zYIzZ96s63l5SKm8j4OrzZgiVV65Nw2bCYpNWsilHi_Us-a273cIfGe1I7YV7X_we3x7_mjZK5u8nJ1zI97TPqOrSv/330x192",
+    "opcoes": [
+      "Pathfinder",
+      "Lifted Spirits",
+      "Red Wing"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Red Wing",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL5lYayrXIL0OL8OPQ9H_SWC3ev0-tyj-1gSCGn20RysWvczNqpeS3GOlQoXsYhTLJbuhfulIHjPurktVHfjY8Wmyuo2H5XrnE8nnCGDRE/330x192",
+    "opcoes": [
+      "Red FragCam",
+      "Turf",
+      "Panther Camo"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Handgun",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJYAJSvozmxL-JmPj5DLfYkWNFppYojLmQ99z30AK2_EppMTyiIYCWcgY6YlqGrwLok7jmhpK9uciczHp9-n51ZSRDar0/330x192",
+    "opcoes": [
+      "Wicked Sick",
+      "Scorpion",
+      "Woodsman"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Urban Hazard",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-ehfX1PYTZl3FQ-sFOhuDG_Zi72QPi_kQ_Zzz6d4WWdQ9oZ1vUqVa2lOq7hZTv7ZScwCQy6XJ37CqJzQv3309hpG0-UA/330x192",
+    "opcoes": [
+      "Pulse",
+      "Coral Halftone",
+      "Sure Grip"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Red FragCam",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zAaAJS49Cvq4OKmvjLP7LWnn8f7ZFy3LyWo4ml2Qbt_Ec-Mm_zcYDBIFU5YQ6F_wLqwL2-1sW_vJ3IyGwj5HdR2SbvVg/330x192",
+    "opcoes": [
+      "Woodsman",
+      "Handgun",
+      "Dispatch"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ivory",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-CgfjmKoTdn2xZ_Isji72W992higHtqBZram_6IYCcdw5tNFnTqQO4wejugpe4tMvOznNipGB8suknXBW9/330x192",
+    "opcoes": [
+      "Wicked Sick",
+      "Pulse",
+      "Sure Grip"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Granite Marbleized",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zAaAJF_t24nZSOqPv9NLPF2DgB7JNw3LHCoN6niVHhrxdsMD_0dYCSJwY5NAuDqFe4krjqhcS8uM7XiSw0dqnDKw8/330x192",
+    "opcoes": [
+      "Ocean Foam",
+      "Gnarled",
+      "Wicked Sick"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Fire Elemental",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbN_Iv9nBrlrkZrN22nLdCUIQM_NF7R-QK_yOzshpG77czMzCQy6CRw5S6Pnkfkn1gSOQPxEiVv/330x192",
+    "opcoes": [
+      "Space Race",
+      "Grassland",
+      "Royal Baroque"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Amber Fade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJcAJE7dizq42Og_b4P7LSqWdY781lxLHE84it2VftqBVoa2qicNSTIFJoZFDV-lm2we65g5Tov8uaznBguyA8pSGKe9WSySg/330x192",
+    "opcoes": [
+      "Oceanic",
+      "Coral Halftone",
+      "Chainmail"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Grassland",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zbfgJF_t2lh4yKmfPLP7LWnn8f65dy0urFrNWs3gSy_kQ5Yjz3cdPHcwQ4YAyGqwe9we7p0JC7vpjOzmwj5HczO4y4Hw/330x192",
+    "opcoes": [
+      "Acid Etched",
+      "Grassland Leaves",
+      "Lifted Spirits"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Woodsman",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-DgvngNqnummJW4NE_377HoYn03Vax_xVlMTygcYDEcVQ5YF3S-wC9xu67jMfq7pmYmyBi7D5iuyhbjmQOcg/330x192",
+    "opcoes": [
+      "Grassland",
+      "Lifted Spirits",
+      "Space Race"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Imperial",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJfAJSvozmxL-CmufxIbLQmlRD7cFOhuDG_Zi7iwDjrkFsZGrzI4GXd1NqYA7Zr1ntl-i7hJK7tMmbnyZgvyIhtniMmAv3308P9JxMBw/330x192",
+    "opcoes": [
+      "Grassland Leaves",
+      "Imperial Dragon",
+      "Grassland"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Grassland Leaves",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zbYQJO6d2gkZO0kOX1IKjdl2VV18l4jeHVu42i0AzhrkdoajzzLYGUelQ7YliB_we2lOq9gp_tv53AynM1uyAmti3D30vgX-J8LAE/330x192",
+    "opcoes": [
+      "Scorpion",
+      "Oceanic",
+      "Sure Grip"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Chainmail",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJfAJB5N2_mo2KnvvLP7LWnn8fupN00u2U8NykigK1rUs4MGH2dtOWdlVoYF7Y-VHrl-jtjZa9upufnWwj5HdqMVWH_w/330x192",
+    "opcoes": [
+      "Royal Baroque",
+      "Marsh",
+      "Pulse"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Pulse",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-bgvvnNoTdn2xZ_Itw3bDH9or2jAHt-UNuZ2D2IYGWI1RoNQyD-wS5x-zo18O6vs_NnHMwpGB8so7_je6r/330x192",
+    "opcoes": [
+      "Imperial Dragon",
+      "Granite Marbleized",
+      "Marsh"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Corticera",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJE7cqzmIG0h6WkY-vummJW4NE_ieqVpYj33FDh-0dkMG6ncNXDIAM8Z1zSrli7xbvmhJK8vMjMwHBquj5iuygQNvutGg/330x192",
+    "opcoes": [
+      "Gnarled",
+      "Red FragCam",
+      "Imperial"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Imperial Dragon",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zPYgJSvozmxL-CmufxIbLQmlRV-sR2hef--YXygED6qBBkYTugIoWQcVc-NFCDr1i4wrjp15buup3JwHJm7iR2tnzazUOz0AYMMLKd06oYrw/330x192",
+    "opcoes": [
+      "Granite Marbleized",
+      "Chainmail",
+      "Acid Etched"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Oceanic",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zAaAJSvozmxL-ElPL1PbLummJW4NE_0u-Xodqg3Ffh8kVoam72d46QcAY_M1mEqAPql-m9jcDq7c_Oz3ox7z5iuyh2yQpQrg/330x192",
+    "opcoes": [
+      "Imperial Dragon",
+      "Pathfinder",
+      "Panther Camo"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Obsidian",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-EleT9N7LQmFRd4cJ5nqeR9Nr0jAflrRZkNW7zIIaUJFBqNVvX_QK8yefshZ_ovJ_Mz3BruHMk-z-DyGtKnr8K/330x192",
+    "opcoes": [
+      "Scorpion",
+      "Chainmail",
+      "Grassland"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Coach Class",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJO-duxlYeOqOemY-uBqWdY781lxL_F84_wiQPnqhVkMmqgcoKXcgI8NwrX_wPrx-fsgZPv6pjMy3dgvic8pSGKGYo2X-E/330x192",
+    "opcoes": [
+      "Royal Baroque",
+      "Space Race",
+      "Wicked Sick"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Acid Etched",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJYAJSvozmxL-KlP7wDLjdmX1U-vp9g-7J4cKsigK3_BVuMGmhcIWVJlU4Z13X-gK6wO_vhJe-tcjImHRhvnFw4i3VgVXp1gW66kp5/330x192",
+    "opcoes": [
+      "Wicked Sick",
+      "Marsh",
+      "Coral Halftone"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Gnarled",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJYAJSvozmxL-HmOTgDKzehGdV18l4jeHVu93x0FbmqkJoMWuhIdSSegFsMFzV-lO-xLy9hsC9v57Pzno36HUk7X3D30vgizmm4KA/330x192",
+    "opcoes": [
+      "Imperial",
+      "Dispatch",
+      "Urban Hazard"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Dispatch",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJfAJM-dG0kZKYqOXxN4TTmn5U18l4jeHVyoD0mlOx5UNvMWH0LYLHcgdqNViBq1Trw-a5hMC5vs_ImHoyuHJx5SqOyRSwiEtSLrs4oTr1U6Q/330x192",
+    "opcoes": [
+      "Ivory",
+      "Gnarled",
+      "Acid Etched"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Panther Camo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJfAJA4N21n7-blvngO77DqWdY781lteXA54vwxgK2-hc4NW_zI4fEJldsZ17Y_wPol-3s08S57pjBz3BlvXV35SnUnxKpwUYbbzn7HnA/330x192",
+    "opcoes": [
+      "Coral Halftone",
+      "Red FragCam",
+      "Oceanic"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Space Race",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJcAJR_N21kZKKlPLLPKnQmGxU18l4jeHVyoD0mlOx5UVtYjyicYWUc1M9ZlGE-FXswu7ugZW0v87Py3Vj7iQn5X7fnxy-0BhSLrs4Sjf5900/330x192",
+    "opcoes": [
+      "Red Wing",
+      "Sure Grip",
+      "Imperial"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Lifted Spirits",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvteJkoySnvnzDL_Dk2pc18l4jeHVyoD0mlOx5Rc-YmqnIdKTcQNrZlqB_wK4leu-15G4vszPnyNg6yF3tnvcnRyzgR1SLrs4oNFBqs8/330x192",
+    "opcoes": [
+      "Wicked Sick",
+      "Marsh",
+      "Obsidian"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Scorpion",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJfAJR79OkhImEmcjkYeuBxlRd4cJ5nqeZo9-m21Xh8kY-MG-gIoeWe1c6NFDU_VK6lOi6156078nKyiZg7yEm-z-DyIv3UiOT/330x192",
+    "opcoes": [
+      "Ocean Foam",
+      "Chainmail",
+      "Amber Fade"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Pathfinder",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zbYQJO7d6vhomFg_-mDLfYkWNFppcl2uuYpIn0igGwqEE5Yz_1LIaTJlBsNVqGqVTqwu290cPu6ZjKmyB9-n51PghpXi4/330x192",
+    "opcoes": [
+      "Imperial Dragon",
+      "Lifted Spirits",
+      "Silver"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Ocean Foam",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJfAJN_8-_kpm0lfvhNoTBxDsBuPpzmOjX-rP5gVO8v11lYj_xJoOTcQNoZg3Uq1i2x7zqhMO8tc-bmHNjvHNz4y7ZzUOw1UoecKUx0rDlqGqw/330x192",
+    "opcoes": [
+      "Woodsman",
+      "Grassland Leaves",
+      "Scorpion"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Silver",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zJfwJR5dCgkZK0m_7zO6-fzj9T7sEjjLnD8Y-iiVbi-kc4ajqnI4eVcVQ5NVjX-1e-x-_ujZe6uoOJlyU5sT_JRA/330x192",
+    "opcoes": [
+      "Ivory",
+      "Amber Fade",
+      "Grassland"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Turf",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zPYgJSvozmxM2Yh_jmJ4Tdn2xZ_Iso3OjFrI6i3gXn-xA5MmD2cdWXJAdsMl7RrwS6w-a6g8e1tZWYyntrpGB8suGATXim/330x192",
+    "opcoes": [
+      "Gnarled",
+      "Chainmail",
+      "Space Race"
+    ]
+  }
+]

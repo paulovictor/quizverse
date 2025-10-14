@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "POW!",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDLjZmWhe18d-heT--YXygECLpxIuNDztJ4HEIFI5Mw3R-Fi4l7_ugp69ucvOm3Zi6yd25XneyhGy0xtIbbY-1-veFwtjkaCWKQ/330x192",
+    "opcoes": [
+      "Blood Pressure",
+      "Transport",
+      "Boom!"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Finish Line",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDLjZk2ha7ddOjOXA8rP3hEGxlBQuNjytS9rMJV56DgSBuAbr37rv1JC56snLnScw7HIgt3qJm0O_1UlIOrM80fGaSVuZBqRMHvSLUCHO8MckmTbq2rc/330x192",
+    "opcoes": [
+      "Smoke Out",
+      "Blood Pressure",
+      "3rd Commando Company"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Blood Pressure",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDLjQhGle5sN4iOzTyp7wjGu4ohQ0JwavdcTCJxg9aAmCrFS8w-3qhsLv7pjPmiQ3vnV04S3UmhS1gkxJb-VphfXMHwmfGeUXS9Kiq6d_/330x192",
+    "opcoes": [
+      "Turtle",
+      "Smoke Out",
+      "Finish Line"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Smoke Out",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDKjcmWBU18l4jeHVyoD0mlOx5UBva2ihLISUcg8-ZF6Cq1m8wr3v05a178_PyXNmuCQh7SvYyhfliBlSLrs4OJQvYKw/330x192",
+    "opcoes": [
+      "Transport",
+      "POW!",
+      "Eclipse"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Boom!",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDLbemGRu6sp-h9bN_Iv9nBqxrRVqZ2uhcNeSIVNtMFnRrlS5ye29gZ-5uJnLnyZl63UjtnzenBbjn1gSOb9Bn8c4/330x192",
+    "opcoes": [
+      "Cool Mint",
+      "Finish Line",
+      "Turtle"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "3rd Commando Company",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDLjem2ZQ5sF-teLS_rP5gVO8vywwMiukcZiVIVBqMlvRrAK-x73m1J-0tc-cyCRk7ycl5n3dykDigkxKbu0-hvWZVxzAUN37mJa3/330x192",
+    "opcoes": [
+      "Spearmint",
+      "Blood Pressure",
+      "POW!"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Cool Mint",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDK_Dn2pf78l0tevN4InKhF2zowdyYz-nJY-Veg9sMArY_1G8xbzmgZO06JrBz3c2uCEnsXiJnxSw10xEavsv26IlQaG-2Q/330x192",
+    "opcoes": [
+      "3rd Commando Company",
+      "Transport",
+      "Finish Line"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Turtle",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDLnQhWJS18Jjj-zPyoPniVqzriwwOj6rYJiWJwM2Yl3T81a6lOft18S5usvLyHox6Ckht3uLzhKw0xhKbew6gfyWVxzAUMnPdx_-/330x192",
+    "opcoes": [
+      "POW!",
+      "Cool Mint",
+      "Spearmint"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Eclipse",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDLnQhWJS18d9i-rKyoD8j1yg5Uo9a236dtWUdgM6YVzS_1ntyefphJK4tZTBySZrsyNwtHaIyUO1hk1SLrs4pKtdn7w/330x192",
+    "opcoes": [
+      "3rd Commando Company",
+      "Transport",
+      "Boom!"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Transport",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDKLUmmde__pyi-TOyoD8j1yg5UQ5N2v1JdTAcAZoZVrR_1K_yObtgJDq7czOz3Mx6CBw7X3dzRfi1xFSLrs4IbZNKyg/330x192",
+    "opcoes": [
+      "Spearmint",
+      "Eclipse",
+      "Cool Mint"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Polygon",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDK_Dn2xD4cFOiOXU8LP5gVO8v11pNmGlJ4OWIwQ8Yw7U_1W-x7-9hcS6vMjJnXRr7iYk7HbYnEO31BpMcKUx0pVNRm42/330x192",
+    "opcoes": [
+      "Turtle",
+      "3rd Commando Company",
+      "Eclipse"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Spearmint",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DeXEl7NwdOtbagFABs3OXNYgJP48i5hoOSlPvxDLbYmH9u_Nd4i-fG-YnKhF2zowdyNzvzJoXDJFc_Z1HX_lHolb2708PovZzLmyY37yMk5nnayRK0g0tNbPsv26LzvhLreA/330x192",
+    "opcoes": [
+      "Finish Line",
+      "Smoke Out",
+      "Turtle"
+    ]
+  }
+]

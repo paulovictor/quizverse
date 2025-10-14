@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Charred",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibipJAhk2_zdfzl969C5goWYqPX4PLTVnmRE5sFOiOXA9ofKm124vRYuDDWqc97RbAU4MFmG-QO_yb3tgZa4tJqYnHQy6HEl5nrZnRywhBwfaeVp1KbPTlyAR_seqlMyB4c/330x192",
+    "opcoes": [
+      "Bronzed",
+      "Snakebite",
+      "Guerrilla"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Snakebite",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibipJAhk2_zdfzl969C5goWYqPX4PLTVnmRE5sFOmefA_onmg126lBEuMiqwS9rMJV56f1-F_la2lbi808O075XAmiRn7CQk4H6IyhCzhkoeb7dv0KGeH1ybUaxXXP7VcR0sUUo/330x192",
+    "opcoes": [
+      "Guerrilla",
+      "Bronzed",
+      "Charred"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bronzed",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibipJAhk2_zdfzl969C5goWYqPX4PLTVnmRE5sFOh-zV9ID5gVeLpxo7Oy3tIdeVe1A9ZV-E8wPrwrrsgJO-7snKnSZl63JwtHfcmUCy005NPOZrjOveFwtFxVxX6g/330x192",
+    "opcoes": [
+      "Snakebite",
+      "Guerrilla",
+      "Charred"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Guerrilla",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAR0hwIQFTibipJAhk2_zdfzl969C5goWYqPX4PLTVnmRE5sFOjfzE5578hFi1lB81NDG3OoXEJFNvNAuE_1XvwubvhJXvvsifnXA17CMi7XmMzkGx0x1OP7Y61_GACQLJ73mnFtE/330x192",
+    "opcoes": [
+      "Bronzed",
+      "Charred",
+      "Snakebite"
+    ]
+  }
+]

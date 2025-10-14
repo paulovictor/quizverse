@@ -1,0 +1,772 @@
+[
+  {
+    "id": 1,
+    "name": "Lil' Teacup",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ9_927q5SEnvvxfePQl2oBvpRy0rCSpYn3igTl_EE-Zj2hJILGJAY9MguB_wW8krvq056i_MOehm57vKc/330x192",
+    "opcoes": [
+      "Lil' Sandy",
+      "Lil' Tusk",
+      "Lil' Dumplin'"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "POP Art",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibfxKlZz7PDHfDRBoo3mkIWNwKL1YuyHx2oF7ccoiejE94qliQGxqkVtZm-gINLAe1Q3aArOug_pDU67KKw/330x192",
+    "opcoes": [
+      "Lil' Goop",
+      "Biomech",
+      "Disco MAC"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hot Hands",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZia6gKF5f3vLPfDwMvo-1zIHZlqHwYuKHxz9UvJx3jLnEo9_30Qy2rhFqa27zItCQcAFsMEaQpAb0Heri0w/330x192",
+    "opcoes": [
+      "Hang Loose",
+      "Dr. Brian",
+      "Lil' Squatch"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Glamour Shot",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZia-2Ozhq1uTNfXNGu4q1xIGJx66kZ-iGkjtT6pUi0u-YrN_w3ga2-UZrZDryJdKSdABrfxiOrSca5a58/330x192",
+    "opcoes": [
+      "Lil' Vino",
+      "Piñatita",
+      "Lil' Facelift"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lil' Squatch",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ97tWxko-Eg7n3MbnUxTNV6cYmiOjC8Y6h3lfjr0ttYWHxcdSQIA88ZA7Zr1Lrlevrm9bi60fB9W3P/330x192",
+    "opcoes": [
+      "Big Brain",
+      "Lil' Sandy",
+      "Hot Howl"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Disco MAC",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibekKFYw7PTEeClW6c74xdCOxPbyN--Gl2hU65d1iO2Z9Nmk0Ve3_BJoMWv3ddOWIA47ZF_U-U_-n7l_dDqz9Q/330x192",
+    "opcoes": [
+      "Dead Weight",
+      "Lil' Boo",
+      "Lil' Eldritch"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lil' Sandy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ9792iloWKlP-6Me2Dz2kF6pB3juyQpdun3VKx-hJkMmrxJ9SSIwFvZF_W_lTql-jr04j84soS5V7AgA/330x192",
+    "opcoes": [
+      "Lil' Whiskers",
+      "Big Kev",
+      "Lil' Monster"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Titeenium AWP",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibuyOzhzw_zHf3MU6Yy1w9LSz6KhYuqElD8Bv50njL3Do4iliQPt-RdtNWmhcdKTcVM6fxiOrZx3IiXH/330x192",
+    "opcoes": [
+      "Diamond Dog",
+      "Lil' Boo",
+      "Lil' Crass"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Baby Karat T",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZia6uJQ5m1szPfjFGoti1kNbdkaLyY-iEzmgGuJAg373F8NWkige2rkNtY2vyJ9fAe1NoNQnOug_pU2_zPxk/330x192",
+    "opcoes": [
+      "Semi-Precious",
+      "Lil' Zen",
+      "That's Bananas"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Semi-Precious",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZia6uJQ5m1szLYyRR-N262tPTxvSka-mFwj1SsJcj2bmYpI32igzs-UE9Y2jzLIDGc1Q7Zg2ErlaggbC4q4_SvSA/330x192",
+    "opcoes": [
+      "Lil' Prick",
+      "Lil' Bloody",
+      "Lil' Whiskers"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Diamond Dog",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ9_927q4SClvr7Pb-fkzNQ7JElj7vHooqm3AGxqRBqMGHzcIGWJw5qM13Z8lS9w-m-jJG-u4OJlyVokOEzYA/330x192",
+    "opcoes": [
+      "Big Kev",
+      "Lil' Ava",
+      "Diner Dog"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Whittle Knife",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibmxIAlp1fb3ZjJN6JLhkYTSwKClYu_UwmkG7ZUp3LrFpNr0iw22-0RrZD-iItXDew4-NVHW5BHglnO5_XjL/330x192",
+    "opcoes": [
+      "Quick Silver",
+      "Lil' Squirt",
+      "Disco MAC"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Hot Sauce",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ9_927q4OKg_T8JqufxG4JsZEijryQo9uj2gbh_kc9YmzwIY-We1U6NFiC-1S4wu7mg8C9vYOJlyXb9EAkEg/330x192",
+    "opcoes": [
+      "Lil' Goop",
+      "Lil' Chirp",
+      "Quick Silver"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Lil' Whiskers",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ9792i2oHYkfGjMu3TlTwJvpNz3rHApYr32FLj80Y5NWHxLNOWcgNoNQzVqQKggbC4YlxHE5Q/330x192",
+    "opcoes": [
+      "Bomb Tag",
+      "Big Kev",
+      "Magmatude"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Pocket AWP",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibuyOzhw3_LbZTRBotrjkIKOwKD3NurXwWoJuJJy2LGZ84j3jA3i-BBvajihJ4CQdgQ-NVDOug_pRs5oC0Y/330x192",
+    "opcoes": [
+      "Lil' Sandy",
+      "Stitch-Loaded",
+      "Big Brain"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Chicken Lil'",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ979S_l4uOmbmgMLnQlW5XuZEj3e2XrIqniVDh-xdtMDzyIYLGegc3YArV-gDrlO28m9bi6-ZF8Nw2/330x192",
+    "opcoes": [
+      "Glitter Bomb",
+      "Lil' Curse",
+      "Lil' Squirt"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Stitch-Loaded",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZia-2Ozh50uHGP2sV6dm1zILcwPatZr2Hkz1VvpNwiL2W9o2sjg3n-RY4Y2ulLIOcIA8gIQaHL6W44wM/330x192",
+    "opcoes": [
+      "Lil' Dumplin'",
+      "Hot Hands",
+      "Lil' Sandy"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Baby's AK",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibuuFAVhwPaGImwR6tiwwNDcz_akYr_VlzsAscF12uiTodij2w2x80Y4Y2vxdoDAdhh-Pw_srEH5mQ/330x192",
+    "opcoes": [
+      "Gritty",
+      "Lil' Tusk",
+      "Big Brain"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Lil' Ava",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ97cq32obZkqbxa-3UxzII7sYg0-uY942n3wXlrRA5YDvyLYGWcgc9Zg6Br1WggbC4N7FJJLQ/330x192",
+    "opcoes": [
+      "Lil' Moments",
+      "Whittle Guy",
+      "Lil' No. 2"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Die-cast AK",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibuuFA1l3__RP2savoW0kNHZkaanYbmEzzxQvcR127rEpN6i2ASw-hU-a22mIo6dIQYgIQaH0ZmweWw/330x192",
+    "opcoes": [
+      "Lil' Crass",
+      "Lil' Goop",
+      "Lil' Ava"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Lil' SAS",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ9_92l2tmKzqH1ZO2IkjlXucQp3e2RpY6j3QbtqRE9Y2igLNKTIVQ3aAzZrACggbC43jslZJw/330x192",
+    "opcoes": [
+      "Chicken Lil'",
+      "Lil' Moments",
+      "Lil' Baller"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Big Kev",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ959mg2oLdw_KmN-3VzzkJ68Ah2O-Y8dz3ilXg-ERvazz3JYSWJlVsYAzTrlCggbC4HTVolNk/330x192",
+    "opcoes": [
+      "Lil' Smokey",
+      "Lil' Boo",
+      "Lil' Teacup"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Lil' Cap Gun",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZia6gKF5f0PLYP2wQtIzlktGNz6GnY7nUwD4FvpEo3b6ZpN6t3FewqEZoYjr2d4-VdgAgIQaH7w8lIQU/330x192",
+    "opcoes": [
+      "Lil' Baller",
+      "Diamond Dog",
+      "Whittle Knife"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Lil' Crass",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ968mzhomHm_a6a7jXlWkHv5ch3OqTp9vz2A3i-hFlZjyndY6UJgRoZVGFrAK2xue90Ij84som2UC0KQ/330x192",
+    "opcoes": [
+      "Magmatude",
+      "Lil' Hero",
+      "Hang Loose"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "That's Bananas",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ97t24lY6K2aOjZe7TxW9U68Qp3LmV8diijAbh_RFvNz_1cNDDegBrY1yB_Fm-l-fxxcjroRR2m78/330x192",
+    "opcoes": [
+      "Lil' Yeti",
+      "Chicken Lil'",
+      "Lil' Serpent"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Backsplash",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibekKFYw7OfBfTgMtdq1kYKIxaGjN-PTxWkF7ZB13L6Z9t-tjgPh8hc6MW36J9TGIwI5ZEaQpAYS66Di9g/330x192",
+    "opcoes": [
+      "Lil' Eco",
+      "Lil' Vino",
+      "Lil' Chomper"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Lil' Monster",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ94dO4h5SOhbmlNb_VlGpQuZUhi7yRpIii2VbsqEs9MGn2IdeQJwc7NFDUrFO4x-_um9bi6wVbiqWJ/330x192",
+    "opcoes": [
+      "Dr. Brian",
+      "Lil' Moments",
+      "Pocket Pop"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Hot Howl",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ95NOhmM6OlK-mNr6ClzIDuMB33bnErNWhjVW3_xZtam33JtSTIAQ9ZFmBq1Pt366x0gF3Wyzi/330x192",
+    "opcoes": [
+      "Lil' No. 2",
+      "Lil' Tusk",
+      "Pocket Pop"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Diner Dog",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ9_927q5ODlufxferXxTxUuZMmi7uSo9qh2wTi-EtlMmD1J9SWewU4ZFjR8ge_w-bphcWi_MOekIoMHCo/330x192",
+    "opcoes": [
+      "Lil' Zen",
+      "Gritty",
+      "Lil' Vino"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Hot Wurst",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSQUXDVO2j0MPaXVY7Lgdou7O2OA5u1P_BfzZ9-8mkh5TFlKanZr6CkmoGupVy27uR8Imm0FGw-0BvNmulcdScJw9vNFiDrAfqkPCv28G2cNl4_Q/330x192",
+    "opcoes": [
+      "Lil' Boo",
+      "Backsplash",
+      "Hot Sauce"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Lil' Squirt",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibfxKlZz7ODbP24X6o3lkdHSxaKkMe2CxDMHuJcljLmX9Nzz2lW1_kdtZW2mINOUIQUgIQaHwKfODuU/330x192",
+    "opcoes": [
+      "Whittle Guy",
+      "Lil' Buns",
+      "Lil' Facelift"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Baby Karat CT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXI5BVcJos7pwgSW0nRV-uj6J6cWF5LMhRZibmxIAlp1fb3djJO6JLnktOPkfagYb-BkjoIvZEiiLjFpNSk2Ffl_hY6YTv7IYGXJg9qYVjZ5BHglgjcAo2m/330x192",
+    "opcoes": [
+      "Lil' Prick",
+      "POP Art",
+      "Lil' Ava"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Bomb Tag",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYRAv4jZXl7yNP6rysP6FudaCVDzDGl-h36LA-F37glkkmtWzVyNb6eSjGagF0WZRwRLMOrFDmxQ9RjmHC/330x192",
+    "opcoes": [
+      "Pocket AWP",
+      "Gritty",
+      "Lil' Buns"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Lil' Hero",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWXCy9gRwu_WTRmN2gInOVaw5zW5IiELZfsxS-xtTlNOiz5FbZ2I9Eni6oiCgYu3x1o7FViJKqI0o/330x192",
+    "opcoes": [
+      "Biomech",
+      "Gritty",
+      "Semi-Precious"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Lil' Smokey",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWTCC0lA9p4T-Gwov_JC6eOlV1CsMiF-YOu0TrxtzvNrnrsVDd34lAz3mth34c6TErvbidFtVFLA/330x192",
+    "opcoes": [
+      "Pocket Pop",
+      "Pocket AWP",
+      "Disco MAC"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Dead Weight",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWTSa3jB8mtHPWyN_7J3-Rb1AkD5UjQOMNsxewl9fgY7_g5wDWjYlNnC72hyNK6Sxp_a9cBlxC0gfT/330x192",
+    "opcoes": [
+      "Lil' Buns",
+      "Pocket AWP",
+      "Lil' Chirp"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Lil' Curse",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWTiewnBgppz6QiJz8b3LBZldyWZpxTeAJukXpkoDnYezisw3Y2ohNyCr83S1P6H0_4OxRUKE7uvqARoy1QzA/330x192",
+    "opcoes": [
+      "Big Kev",
+      "Lil' Dumplin'",
+      "Lil' Monster"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Big Brain",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYE02hl4eu-HsM7aGvOvU_JKaWVmHExexz4LFsG36yxksj5j7VnIn8cHmVbFcpXIwwG7Cs8sAzYA/330x192",
+    "opcoes": [
+      "Pocket AWP",
+      "Whittle Guy",
+      "Fluffy"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Lil' Serpent",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWTSixjA4ioS2AlJu3dHqUOAdyApFwQ-EP4xSww9C2N-ng7wKN2IgRzyT6jXkY7HtvsLwAAr1lpPOCysF-Wg/330x192",
+    "opcoes": [
+      "Lil' Vino",
+      "Baby Karat CT",
+      "Quick Silver"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Lil' Moments",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWXSynhxIxui6MlYG3cCiTbAZyC5V4QuQOsxOwkoDuM-Pj41Pf2YNFy32oiixJ6yg5sr0FAr1lpPOteIXY7Q/330x192",
+    "opcoes": [
+      "Lil' Zen",
+      "Hungry Eyes",
+      "Lil' Serpent"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Lil' Eldritch",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWTD27gBEvpnPRydz4dX6fbAQjDMAlRLNZ4RS4ktazY7jq5lHbj9hGxH78i3xK5is4_a9cBvLjG2Ew/330x192",
+    "opcoes": [
+      "Lil' Eco",
+      "Lil' Monster",
+      "Pocket Pop"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Lil' Baller",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWTSignhgzsTyJlsH8eX6QOFcoWJRzTe8NshTpwIXkMeyztQ3eit1GzCWsj39Junw95btXT-N7rTQtXshi/330x192",
+    "opcoes": [
+      "Gritty",
+      "Lil' No. 2",
+      "Lil' Happy"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Lil' Facelift",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYQAflm5Wuq3NeuaurMaZvJfWQXz6Tle90s-RoTXm2zRx-52rRm4mrdHPBPFcgCYwwG7DquA5lNA/330x192",
+    "opcoes": [
+      "Dead Weight",
+      "Glamour Shot",
+      "Lil' SAS"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Hungry Eyes",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYRAT0nYTp6TZe_bz6MPQ1cajHWDOSkr0l57M_Fy3qlEgk5GjTyNb9JCrEb1ByWZB5E7EKrFDmxdkwt6BH/330x192",
+    "opcoes": [
+      "Lil' Ferno",
+      "Biomech",
+      "Hot Howl"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Piñatita",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWXyC9lAkm_TvSnImreCrBbgclApcmELVf4xaxkt3kYu7i4gHajIITmy3-jSxN7np1o7FVfeaxZHk/330x192",
+    "opcoes": [
+      "Glamour Shot",
+      "Baby's AK",
+      "Lil' Eldritch"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Lil' Vino",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWWCC9kBAmuDiX1IyseS6VPVUpD8d3TeIOs0HuwdXuNem2slfc2IJGzin7iClK6y9osO4cEf1yjt0gqQU/330x192",
+    "opcoes": [
+      "Pocket Pop",
+      "Gritty",
+      "Lil' Chirp"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Lil' Yeti",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYWBjll9jkriRZ6_T9bqU-cPWWCjSWlbdw4ec_HSzmlBhy62-DzN2rcnKXa1MkFNIuEhFsBJD7/330x192",
+    "opcoes": [
+      "Lil' Hero",
+      "Titeenium AWP",
+      "Pocket AWP"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Fluffy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYVBr9h9i4pSNZt6utafQ1c_HHXDDCkb0ksedoHXHmwU915WvcyYqod3rGPVAgFNIuEgyLFPIo/330x192",
+    "opcoes": [
+      "Lil' Ava",
+      "Lil' Bloody",
+      "Hot Sauce"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Lil' Goop",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWXCW6mBhp4GvRm9uod3LFbQ4hCMR5ROdctUTrmoayYrjr4lHejd8Xzn393CJNvzErvbjzLkd00g/330x192",
+    "opcoes": [
+      "Gritty",
+      "Diner Dog",
+      "Lil' Smokey"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Lil' Buns",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWTCGyhxAlpi-Cn523cCiROFVyXJd4RecM5EO8wdPjMu6z5FCPjY9AySv32HlB7i9s6r5RVL1lpPPNR0m2-A/330x192",
+    "opcoes": [
+      "Whittle Guy",
+      "Lil' Yeti",
+      "Lil' Sandy"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Lil' Boo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWQjynkBovvC6R1NatdHuTPQAiCJF1Re8KsBOwlda0M7vm7gOMj4kUnC__jysf5ytv4OccEf1yvJT6JNo/330x192",
+    "opcoes": [
+      "Baby's AK",
+      "Lil' Buns",
+      "Butane Buddy"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Magmatude",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWQyC_nRIzuziEnsGgJymSZwd0CZpyQu5buxO9wNbmPrzm5wCLg95Fmyz_3y1Nuydq4OZXT-N7raqdv_up/330x192",
+    "opcoes": [
+      "Pocket Pop",
+      "Splatter Cat",
+      "Lil' Tusk"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Lil' Dumplin'",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYRRT8jYPts3AMv6Soa_U1daGRCzTDx-0g57QxFi_glEsktTzTzdeteHKSaldxA5ZuBbldJRClM_o/330x192",
+    "opcoes": [
+      "Lil' Tusk",
+      "POP Art",
+      "Diner Dog"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Lil' No. 2",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWXyy9lhQr_W3UydqudnKeaQ90C8dzEbMCtBTrx4fuYe_q4AKPi95DnCuriy9L6id1o7FVafR7t3g/330x192",
+    "opcoes": [
+      "Lil' Cackle",
+      "Whittle Guy",
+      "Pocket Pop"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Lil' Tusk",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWXCC_mQQivziVko73NWWWPQZ1XJYjQ7ICshS5wYbvNbzm5Q3Z2d9FnC_9jihJ53pvtuZTAPIs5OSJ2HrqJ1iJ/330x192",
+    "opcoes": [
+      "Lil' Prick",
+      "Lil' Chirp",
+      "Lil' Moments"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Lil' Bloody",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYQhH-iZiurSRf6_CoO_JveaaWWGKWkrwn5bQ_HH7hxBlx5jnUzY6heHnCOFUkCowwG7B4Rw9v_g/330x192",
+    "opcoes": [
+      "Hot Hands",
+      "POP Art",
+      "Lil' Teacup"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Lil' Eco",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYRB7-0MayrHQDt_asOKVuI6DKC2HHlO0us7E7HC-ylx9wt2WAn96hcC3BP1c-SswnTJI0rrM/330x192",
+    "opcoes": [
+      "Whittle Guy",
+      "Hang Loose",
+      "Lil' Goop"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Lil' Zen",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYWBT_h5fu-mwNuPGvMfZvJqTHVzKWk7l0suNoTnC1xEt24mWHn4mpIiiTbVMnDZcjW6dU5dt_V7mT/330x192",
+    "opcoes": [
+      "Glamour Shot",
+      "Piñatita",
+      "Lil' Eco"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Lil' Prick",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWTCiwgQg0_W3Sw96sdi-eaQQpWZd0TLMLsUS9x4HmNriz5VTe2INGyC-s33kd63t1o7FVmySIAJw/330x192",
+    "opcoes": [
+      "Stitch-Loaded",
+      "Lil' Facelift",
+      "Lil' Chomper"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Lil' Chomper",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYQxL8nJfj_DYVuKr_OvA_JqTBVmGVwr516bdoSyuykBwh5WnWm46vdHOUawZ2C8NxTPlK7EfUlR4T0g/330x192",
+    "opcoes": [
+      "Hot Howl",
+      "Backsplash",
+      "Baby's AK"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Dr. Brian",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYRQ_zjJ_h82xf7qX2a_NpdPHGX2HIxbcgsrNqSXGxwE5yt2SGnI2qdi6SagAlX5AjW6dU5e3pHsJ2/330x192",
+    "opcoes": [
+      "Lil' Teacup",
+      "That's Bananas",
+      "Diner Dog"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Hang Loose",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWXDyhkw4yo3ODnIr6dn_CPFMnW5V0ROZc4BfqxIbiNuzq5wDbjN4TnH_9ii9O7So6_a9cBvkNWLss/330x192",
+    "opcoes": [
+      "Piñatita",
+      "Lil' Squatch",
+      "That's Bananas"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Splatter Cat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYSRj9kpXh6Wxd7fT2PfI6caLKCzPGlupw57M-Si3ll0915G_cnNf8IHOQaQ9xDcciW6dU5VLj8T4g/330x192",
+    "opcoes": [
+      "Lil' Eco",
+      "Diner Dog",
+      "Lil' Cap Gun"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Butane Buddy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYTRT2loLl72xZvvH2PfFuJKLLVj_Ax7d06bg4THi1wElz52iDmN6qJHmRaFVyAsBzW6dU5Yl-Omi4/330x192",
+    "opcoes": [
+      "Lil' Dumplin'",
+      "Lil' Cackle",
+      "Hot Howl"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Lil' Cackle",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWQyC_mRIr_WTQnImtIn2WaAUgC5RxFuUL4BK4ktbmP-i07waKiYNNnyuqinhIvCx1o7FVIQay8B4/330x192",
+    "opcoes": [
+      "Lil' Crass",
+      "Backsplash",
+      "Lil' Whiskers"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Gritty",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYVRjjjJnys3UCu6v9bKFsJqPGWmaTlL9w4LQwGXnjlBgl4D_Tn4z4eHPEZlQmCsZuBbld0IAavwI/330x192",
+    "opcoes": [
+      "Lil' Prick",
+      "Lil' Baller",
+      "Eye of Ball"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Glitter Bomb",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYRQ_4jpDh-ScVuKL_OfA6IqjCVmLBw-106LhtF3iwlxl25jjRnoz8J3yQaFUiW8YjQvlK7EdUhqzlag/330x192",
+    "opcoes": [
+      "Disco MAC",
+      "Fluffy",
+      "Lil' Buns"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "8 Ball IGL",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYGR_wkpqurXsIvqL9bP06IqORCjfBxL105rVoH3GxwU9y5GvTnt_9d3iTbQIjWYwwG7C_lOK34g/330x192",
+    "opcoes": [
+      "Lil' SAS",
+      "Semi-Precious",
+      "Butane Buddy"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Pocket Pop",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWXyajhhQkvzjLn9yvcCqTawQmCcNzQeMO5ES7w9fkMOi071PX3owTxHiq3SoY6HtjsPFCD_QPDFMsOw/330x192",
+    "opcoes": [
+      "Lil' Cap Gun",
+      "Lil' Hero",
+      "Lil' Crass"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Quick Silver",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWQiy_gRgj_TyGm9yrIH2Xag4jCsAmR7QIuxK6wdW1Me3isQTeg95BySWqiSoc6ip1o7FVnjjo-Cs/330x192",
+    "opcoes": [
+      "Hot Hands",
+      "Lil' Buns",
+      "Baby Karat CT"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Flash Bomb",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYRxHwjZ6urntYuvP4PPBpefHLW2WSwOwi4OU9HX3jlhlw4GvVzI6hcnPEaQIgX4wwG7A37UcOsA/330x192",
+    "opcoes": [
+      "8 Ball IGL",
+      "Gritty",
+      "Lil' Cackle"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Lil' Chirp",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWQyC_nRwzsDWJk4H-b3qSZg8hCMFzRLUD50W-moXmYenn4Q3bgtlNyi_5jXhLuihq6-dXUaY7uvqAOIvZC3w/330x192",
+    "opcoes": [
+      "Stitch-Loaded",
+      "Lil' Chomper",
+      "Lil' Tusk"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Eye of Ball",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYTh7yi5r0sycI7av2MPFvdKTAXTeUkb4n5eQ7GHqxw0l2627Xy9_8dXufb1R0DZpuBbldqSZztl4/330x192",
+    "opcoes": [
+      "Big Kev",
+      "Chicken Lil'",
+      "Stitch-Loaded"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Whittle Guy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYVhL-mtjhrXRau6T-MaU_IaDAXGTHx-sl5bg_G3DmwEoj42yDz4urdHzCZw52FNIuEguR3uat/330x192",
+    "opcoes": [
+      "Lil' Smokey",
+      "Dead Weight",
+      "Baby Karat CT"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Lil' Happy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764WbkThD8i5jp6Ttkv6PhY6dSLfmAHW6exuJ_vupWRyijhQRptz-Hm9avI3PEbQElC5Z1E-ENt0a_w4C0ZLu3swPd2YsRnyj9j3lJ6TErvbiJfX6BLQ/330x192",
+    "opcoes": [
+      "Big Brain",
+      "Dr. Brian",
+      "Hot Hands"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Biomech",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYQxT-k5Pj9WxauvSrbPE-JanDV2TIkO1y6bBoGiu1kEojtjvVzdz_ci2fbQEhCsZ2W6dU5Z-pmlUG/330x192",
+    "opcoes": [
+      "Lil' Facelift",
+      "Lil' Prick",
+      "Backsplash"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Lil' Ferno",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWlJ3mY6ls6_4TL7lvYSBPym5jk9CNJ9rz2PfI4efGVX2GSwusgsudoHX3nxUUm62rSzt2hdi_EOAcoCJQhFLZZrFDmxdLG36W1/330x192",
+    "opcoes": [
+      "Hot Hands",
+      "Glitter Bomb",
+      "Lil' Happy"
+    ]
+  }
+]

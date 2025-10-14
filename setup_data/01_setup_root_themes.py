@@ -24,7 +24,7 @@ def run():
             'title': 'Esportes',
             'slug': 'esportes',
             'description': 'Teste seus conhecimentos sobre futebol, basquete, tênis e muito mais. De regras básicas a recordes históricos!',
-            'icon_svg': 'sports',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#34d399',
             'secondary_color': '#10b981',
             'icon_bg_color_1': '#d1fae5',
@@ -35,7 +35,7 @@ def run():
             'title': 'Entretenimento & Mídia',
             'slug': 'entretenimento-midia',
             'description': 'Filmes, séries, música e tudo sobre o mundo do entretenimento. De clássicos a lançamentos recentes!',
-            'icon_svg': 'entertainment',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#a78bfa',
             'secondary_color': '#8b5cf6',
             'icon_bg_color_1': '#ede9fe',
@@ -46,7 +46,7 @@ def run():
             'title': 'Jogos',
             'slug': 'jogos',
             'description': 'Quizzes sobre videogames, jogos de tabuleiro e e-sports. De clássicos retrô a lançamentos modernos!',
-            'icon_svg': 'games',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#f472b6',
             'secondary_color': '#ec4899',
             'icon_bg_color_1': '#fce7f3',
@@ -57,7 +57,7 @@ def run():
             'title': 'Ciência & Tecnologia',
             'slug': 'ciencia-tecnologia',
             'description': 'Explore o universo da ciência, tecnologia e inovação. Física, química, biologia, astronomia e muito mais!',
-            'icon_svg': 'science',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#22d3ee',
             'secondary_color': '#06b6d4',
             'icon_bg_color_1': '#cffafe',
@@ -68,7 +68,7 @@ def run():
             'title': 'História',
             'slug': 'historia',
             'description': 'Viaje no tempo e teste seus conhecimentos sobre eventos históricos, civilizações antigas e personalidades marcantes!',
-            'icon_svg': 'history',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#fbbf24',
             'secondary_color': '#f59e0b',
             'icon_bg_color_1': '#fef3c7',
@@ -79,7 +79,7 @@ def run():
             'title': 'Geografia',
             'slug': 'geografia',
             'description': 'Descubra o mundo através de países, capitais, bandeiras, montanhas e oceanos. Teste seu conhecimento global!',
-            'icon_svg': 'geography',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#60a5fa',
             'secondary_color': '#3b82f6',
             'icon_bg_color_1': '#dbeafe',
@@ -90,7 +90,7 @@ def run():
             'title': 'Arte & Cultura',
             'slug': 'arte-cultura',
             'description': 'Mergulhe no mundo das artes visuais, literatura, música clássica e movimentos culturais ao redor do mundo!',
-            'icon_svg': 'art',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#c084fc',
             'secondary_color': '#a855f7',
             'icon_bg_color_1': '#f3e8ff',
@@ -101,7 +101,7 @@ def run():
             'title': 'Comida & Bebida',
             'slug': 'comida-bebida',
             'description': 'Explore o universo gastronômico! Culinária mundial, ingredientes, receitas e a cultura por trás dos pratos!',
-            'icon_svg': 'food',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#fbbf24',
             'secondary_color': '#f59e0b',
             'icon_bg_color_1': '#fef3c7',
@@ -112,7 +112,7 @@ def run():
             'title': 'Natureza & Animais',
             'slug': 'natureza-animais',
             'description': 'Descubra a biodiversidade do planeta! Animais selvagens, ecossistemas, conservação e curiosidades da natureza!',
-            'icon_svg': 'nature',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#4ade80',
             'secondary_color': '#22c55e',
             'icon_bg_color_1': '#dcfce7',
@@ -123,7 +123,7 @@ def run():
             'title': 'Política & Sociedade',
             'slug': 'politica-sociedade',
             'description': 'Entenda o mundo político e social. Governos, sistemas políticos, movimentos sociais e atualidades!',
-            'icon_svg': 'politics',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#94a3b8',
             'secondary_color': '#64748b',
             'icon_bg_color_1': '#f1f5f9',
@@ -134,7 +134,7 @@ def run():
             'title': 'Curiosidades Gerais',
             'slug': 'curiosidades-gerais',
             'description': 'Um pouco de tudo! Fatos curiosos, recordes mundiais, invenções e conhecimentos diversos para testar sua cultura geral!',
-            'icon_svg': 'trivia',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#fb7185',
             'secondary_color': '#f43f5e',
             'icon_bg_color_1': '#ffe4e6',
@@ -145,7 +145,7 @@ def run():
             'title': 'Celebridades & Personalidades',
             'slug': 'celebridades-personalidades',
             'description': 'Teste seus conhecimentos sobre celebridades, influenciadores, personalidades históricas e figuras públicas!',
-            'icon_svg': 'celebrity',
+            'icon': None,  # Atualize para uma URL de imagem se necessário
             'primary_color': '#fcd34d',
             'secondary_color': '#fbbf24',
             'icon_bg_color_1': '#fef9c3',
@@ -164,7 +164,7 @@ def run():
             defaults={
                 'title': theme_data['title'],
                 'description': theme_data['description'],
-                'icon_svg': theme_data['icon_svg'],
+                'icon': theme_data['icon'],
                 'primary_color': theme_data['primary_color'],
                 'secondary_color': theme_data['secondary_color'],
                 'icon_bg_color_1': theme_data['icon_bg_color_1'],

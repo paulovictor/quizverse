@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "name": "Cyberforce",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-Jl5mJkuXyPKnSk1Rd4cJ5ntbN9J7yjRri-BI9Zzz1JYeUewNqaVjRrwO5wei-1pC56J7BnSRlsnYr7SrfzRKxn1gSOb8llZjc/330x192",
+    "opcoes": [
+      "Triarch",
+      "Traveler",
+      "Atlas"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Berry Gel Coat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf1OD3eTxS_MWJhoWPqOTzZu6HqWdY781lxLmXp4nz2lay-UduMD_zJdeUcQc_YViG_Vm4x7y8hMO1tcnAzyFr7CQ8pSGKTgrYuTs/330x192",
+    "opcoes": [
+      "Basket Halftone",
+      "Triarch",
+      "Integrale"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Night Camo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwPzHTj9O-dmlq4yCkP_gfeLTzmpXsZApi-_EpNmt3FG2rUQ4Nz-mI9SWcA84NFnVrlO5xO2-1Mei_MOeuDZdE04/330x192",
+    "opcoes": [
+      "Phantom",
+      "Traveler",
+      "Berry Gel Coat"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Basket Halftone",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf2-f3fi9D4tuzq4KKhPzxJ4Tdn2xZ_Itw37CVrd6iiwftrhFoZmj3cNSccg9rZlzU_FjqkO-9gMW1uM7BzHdmpGB8snoovDEZ/330x192",
+    "opcoes": [
+      "Pulse",
+      "Traveler",
+      "Danger Close"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ultraviolet",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwPz3YShQ_NCzq4yCkP_gfe-FwjMCu5AniLqSodij3lW3qUU5ZGHyJIOSJg5oaF6B_VLtk-3og8Ci_MOeaX_CtlE/330x192",
+    "opcoes": [
+      "Danger Close",
+      "Damascus Steel",
+      "Night Camo"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Integrale",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-JhoGHm-7LP7LWnn8fsZUliL_HotzxiwO38xU5Ymn0cITGJlQ7MAuCrgW-k7vp05C0uszKn2wj5HdHhDicWw/330x192",
+    "opcoes": [
+      "Waves Perforated",
+      "Cyrex",
+      "Cyberforce"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Aloha",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwOP3YjoXv4-JlYyEn_bLP7LWnn8fuJZwi7GXptqt2FW2-UFuYGDxINfAe1VsNFCC_Ve4w7_ngcDuvZvLmmwj5Hc11_x0mg/330x192",
+    "opcoes": [
+      "Gator Mesh",
+      "Desert Blossom",
+      "Basket Halftone"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tornado",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwPz3ZTJQ4t2ym7-HnvD8J_WCxG8AvZcp2LyXpY6n2AGyqUBkZDqlLIGTJFU_aAyB-Vm_yOvujJ66ot2XnuhtLzwJ/330x192",
+    "opcoes": [
+      "Lush Ruins",
+      "Dragon Tech",
+      "Heavy Metal"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cyrex",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-Jl5mZku_LP7LWnn8f7cMjjOuQ8Njx0Ayx8xY-ZDrzcdDAcwRrY1vRq1a5wr2-hJG1vszNnWwj5HdA303JHQ/330x192",
+    "opcoes": [
+      "Atlas",
+      "Tornado",
+      "Gator Mesh"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Wave Spray",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwOP3Yi1Q7cWJg4GdkuTLManQgGRu5Mx2gv2PoIihjQSx-EprZDulLdCUJFc2NQzR_1a4k-vqgpDuuJ_AzHZl7CkqsWGdwUIsK0j3kQ/330x192",
+    "opcoes": [
+      "Bulldozer",
+      "Dragon Tech",
+      "Hazard Pay"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Fallout Warning",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwOP3fyhJ6c-ihombksj5MqnemWVu-8Ik37r--YXygED68kZlam-icdTBJgBqZVvQ8gW7xum5gZ696Z2aznFhvyB25yzVnUawhQYMMLKoKiteww/330x192",
+    "opcoes": [
+      "Army Sheen",
+      "Basket Halftone",
+      "Darkwing"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Danger Close",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf1OD3YjoXuY-Jm5aOhcj8NrrFk29u5Mx2gv2P9I702wXs80BqYzvxdY6SIA44aV-E_VLvl-i8h8O_vJ7Ny3tjviAgtmGdwUKuDFVKtQ/330x192",
+    "opcoes": [
+      "Triarch",
+      "Integrale",
+      "Dragon Tech"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tiger Moth",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf1OD3YjoXuY-JgImMkuXLPrTFnlRd4cJ5nqeQrYjw2FHhrkNuam73JdeTdQU9YVjT8gS4xei51MS9uZTPnyE17ygq-z-DyOkB2OsD/330x192",
+    "opcoes": [
+      "Aerial",
+      "Traveler",
+      "Army Sheen"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Gator Mesh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwOP3fDhR5OOmjZSDmPnLP7LWnn8f7cAmi7uSoN_z3A3trRBuYWGlLI7EI1c3aAqE_QDtxbrm08fvvZ_Mzmwj5HcvKiIfXQ/330x192",
+    "opcoes": [
+      "Traveler",
+      "Fallout Warning",
+      "Ultraviolet"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Aerial",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-JlYWZnvb4DLfYkWNFpsQg2LqZotil0QG18kU9amuiddfGJgZoZ1yB_gfrl-vr08e4uZicwXB9-n51wGEO0Qg/330x192",
+    "opcoes": [
+      "Candy Apple",
+      "Damascus Steel",
+      "Hazard Pay"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Traveler",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3fShF692xkb-YkKKhYITdn2xZ_Isi3b3DrNis2wzg-EtpYDild4-UcVc_ZlvVqFC7xbi818To7s_Pn3pqpGB8sla1raXI/330x192",
+    "opcoes": [
+      "Integrale",
+      "Wave Spray",
+      "Hypnotic"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Triarch",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuYqJgJKCluX3O4Tdn2xZ_Isij-iWoY7wiQHn-xI4NzjyJIbBcAM3YFnT_VPtkO3uhsPttZTNzHEypGB8snpeMLkS/330x192",
+    "opcoes": [
+      "Army Sheen",
+      "Berry Gel Coat",
+      "Candy Apple"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Atlas",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-JlZSHluTLP7LWnn8fvZYn2LiZ89Sk3gTg80Y6MmDxI9OUe1BvYV6GrwXvlOrs0Z_vvJmcz2wj5HeM9iqsXg/330x192",
+    "opcoes": [
+      "Hazard Pay",
+      "Tiger Moth",
+      "Desert Blossom"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Barricade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwOP3cC5F7c6yq5eKm_vLP7LWnn8fvMcg27-ZoYqn0VLm-kZvMmymddeSIAVtYF7Sr1brlejpg5PtvJnMmGwj5HdFe42kTA/330x192",
+    "opcoes": [
+      "Integrale",
+      "Darkwing",
+      "Heavy Metal"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Candy Apple",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwPz3YzhG08-xwdXYqPv9NLPF2GpQsMQgj-2Uptyn2Q3nqBVsYTrxLIeRIwE5Y13R_QTtw7-61p69vZjXiSw0AzCyfYA/330x192",
+    "opcoes": [
+      "Tiger Moth",
+      "Dragon Tech",
+      "Gator Mesh"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Colony IV",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-JhoWKlOP7IYTdn2xZ_ItwjLzCpdvx2gHm80Jla2_3JdfBJAU8Mg7T_li2kL_o0ZS0vp6byXZrpGB8ssEpFT3m/330x192",
+    "opcoes": [
+      "Cyrex",
+      "Integrale",
+      "Anodized Navy"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Darkwing",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-JkIGZnOD9PbzummJW4NE_jLDCptyn2gPtqhU5MT2nJoSUcQI6NwnV8we5wua5jJW9u8mazXNhuD5iuyiBF3ZLNA/330x192",
+    "opcoes": [
+      "Hazard Pay",
+      "Bulldozer",
+      "Berry Gel Coat"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Ol' Rusty",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf1OD3YjoXuY-JhpWYg-7LP7LWnn8f65B1jrGTpdjz3AC2rkU5ZWHzIo-TcQVrM1rW-wO4x-jrhJK4uMufz2wj5Hcv3ZcK9w/330x192",
+    "opcoes": [
+      "Tiger Moth",
+      "Hazard Pay",
+      "Barricade"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Lush Ruins",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0vL3YyhL4s-Jk5KOkvnLP7LWnn9u5MRjjeyPodvw3VXmrRc4YWD1coPBIFJtN1uF-1Xrkuy-hZ_u6ZvAwCAy6Chw7WGdwUI7bhtV4g/330x192",
+    "opcoes": [
+      "Hazard Pay",
+      "Hypnotic",
+      "Waves Perforated"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Hypnotic",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0vL3ZzhQ-NWxm7-HnvD8J4Tdl3lW7Ysk3OqW8N322wS2-EFvaj2hddfHdlBoNA7X81G7kurn0ZG77Z7MmHdjpGB8sszaPAIb/330x192",
+    "opcoes": [
+      "Waves Perforated",
+      "Triarch",
+      "Aerial"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Heavy Metal",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf1OD3YjoXuY-JkIWKg__5Nq_QmlRd4cJ5ntbN9J7yjRq3_0JsZ2inJdeTew49aQzTqFe4l-zuhZW-vpjNyXRl73F3tHeLyhG2n1gSOQK8z5S-/330x192",
+    "opcoes": [
+      "Fallout Warning",
+      "Anodized Navy",
+      "Cyrex"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Desert Blossom",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0vL3dThR6c6iq4KHmPj5DLnDn2xZ_Pp9g-7J4bP5iUazrl1sa2uidYaSJ1U3ZF3R-Vi_wOrs0Z7utJ_MnCRq7CEi432IzhCzgx9FcKUx0sd6EI91/330x192",
+    "opcoes": [
+      "Aloha",
+      "Dragon Tech",
+      "Cyrex"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Bleached",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwOP3dThR6c6iq5OAgvv4IITdn2xZ_Pp9i_vG8MKmiVfs-0NpZjv3IoeXdwc3aFqDrwC2wObs0ZG77ZScyyFnvCYgsHaJgVXp1iWyOTAi/330x192",
+    "opcoes": [
+      "Aerial",
+      "Night Camo",
+      "Triarch"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Hazard Pay",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-Jl4Geg_77PYTdn2xZ_Pp9i_vG8MKh0FKx-kM9Mjynd4LDIFRvZl-BrAW5x73shMe57c_BzyYyviIm436PgVXp1nwxV-BW/330x192",
+    "opcoes": [
+      "Wave Spray",
+      "Pulse",
+      "Atlas"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Dragon Tech",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-Jl5mJkuXLN6nQkWRf18l4jeHVyoD0mlOx5UZqYDv0JNTEIFU7Y13RrAS7lbjthJ69uJ3MwXAw7iBztHramRK3gE1SLrs4uW61-OU/330x192",
+    "opcoes": [
+      "Darkwing",
+      "Colony IV",
+      "Desert Blossom"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Phantom",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf1OD3YjoXuY-JhIiKmeP7PoTdn2xZ_Isk2-_CoduiiwXk-UdqYm2lItCQcAY2YQzTqFa8we7rhZ7vtcnLwXpipGB8snPKL3t3/330x192",
+    "opcoes": [
+      "Pulse",
+      "Cyrex",
+      "Basket Halftone"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Bulldozer",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwPz3aDhO4NOhq4yCkP_gfbrXlG4BvJQk2OvF99-l0QTi-UBlamvzJIPGcAVqYgnZ81bvlO681JWi_MOecw4mcWU/330x192",
+    "opcoes": [
+      "Hypnotic",
+      "Cyrex",
+      "Wave Spray"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Anodized Navy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0v33fzxU9eO6nYeDg7mhMO-ElTpSu5Yg2rmXrNjziwTl-xJvajuiLYTAcVdoMArRrlbtxLvom9bi65LEnjT7/330x192",
+    "opcoes": [
+      "Aloha",
+      "Hazard Pay",
+      "Integrale"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Waves Perforated",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwOP3ZTxS6eOym5SYqOD1Jb7CqWdY781lxL-Tp9n331Wx-0NvMDylddfHdVJrMgnXrwC7wOnqgpC1tZzJzHcx6HQ8pSGKCgprHXY/330x192",
+    "opcoes": [
+      "Fallout Warning",
+      "Bleached",
+      "Aloha"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Damascus Steel",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0uL3dTxP7c-1gZO0hPChZujummJW4NE_372Sptmg3gzjrUNvam-icIeVJ1I8N1rX-lTskuzrh8XpucudnyAwvz5iuygR9uL9aQ/330x192",
+    "opcoes": [
+      "Colony IV",
+      "Heavy Metal",
+      "Hypnotic"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Army Sheen",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0v73cC9P9eOlnImFksj4OrzZgiVQuJJw077FoIr3iQPnqhY5MD-gIdXGewU4ZQ3QrlW9lerojZ--v5rK1zI97cHouWKJ/330x192",
+    "opcoes": [
+      "Cyrex",
+      "Colony IV",
+      "Ol' Rusty"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Pulse",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf0Ob3YjoXuY-JhJWHhPLLP7LWnn8fvpMki72X99zx2FC3_0M-MTilIIKTclBoNA3YrFe2yb--1pe66MnBzGwj5Hfq1kZOBw/330x192",
+    "opcoes": [
+      "Ultraviolet",
+      "Integrale",
+      "Night Camo"
+    ]
+  }
+]

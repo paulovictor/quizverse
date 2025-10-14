@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Black Laminate",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Igsj5aoTTl3Ju-9F-hOzW9J_9t1i9rBsofTincNPHJlA8MFmFqFC9lOrv08C7vZ3LnHUysyEqsX7cmROyghxNardxxavJWw7Y4HY/330x192",
+    "opcoes": [
+      "Lore",
+      "Night",
+      "Scorched"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Stained",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KhsjyPKnSk29u5Mx2gv2P8Nil0Vbl80dpYWnwJNCWJ1BvZVnR_Vnsxe3mgJO66JufyXRk7HEn52GdwUL5Ndcymg/330x192",
+    "opcoes": [
+      "Forest DDPAT",
+      "Scorched",
+      "Urban Masked"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Doppler",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjwPKvBmm5D19V5i_rEpLP5gVO8v11tMmD6IobEdFRsMFmB8lPvlL-9hZbuvJ_JziBn7HYltnvfnES21xhKcKUx0sfosVEP/330x192",
+    "opcoes": [
+      "Fade",
+      "Ultraviolet",
+      "Black Laminate"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Lore",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Igsj5aoTTl3Ju5Mpjj9bN_Iv9nBq2_xE6Mmv1cIOSclI6ZViFr1XtwertgZK6vJiYwXNjuSEr5XaJzhfhn1gSOWAjuI7h/330x192",
+    "opcoes": [
+      "Forest DDPAT",
+      "Boreal Forest",
+      "Blue Steel"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Blue Steel",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Khsj2P67UklRd4cJ5nqfC893wiVHhqUM4Z2ugJNWXdANrNF_XqwXqkrruh5a76c-YziNr6yRw-z-DyPIgs_3X/330x192",
+    "opcoes": [
+      "Ultraviolet",
+      "Rust Coat",
+      "Lore"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Bright Water",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Djsj7ML7QmFRa5sx3j9aYpbP5gVO8v11rMGr3LdSRelBoZlGFqFS3wLu-1JG4vcyfn3Vr6yB35XfbyUDm0BwYcKUx0svthHBc/330x192",
+    "opcoes": [
+      "Damascus Steel",
+      "Black Laminate",
+      "Urban Masked"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Case Hardened",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Khsj7OrfUklRd4cJ5nqeWoI7zjVey8xZlY27wd4aQIFc8YFrV-1m2yLzn0ZK1tJXAn3tjvCYr-z-DyMubhSbn/330x192",
+    "opcoes": [
+      "Rust Coat",
+      "Black Laminate",
+      "Ultraviolet"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Freehand",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Kmsj5Mqnak29u_dVO07n--YXygED6-EM9YG31cYCXIQE5MFHV_1PolOm80J616c6YziFnvnUi5HeMzkPjhAYMMLJouWfHrQ/330x192",
+    "opcoes": [
+      "Slaughter",
+      "Autotronic",
+      "Ultraviolet"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Slaughter",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjuNrnDl1Rd4cJ5nqeUpoqs3gDlqUE-ZW-hIoOddVA5ZlGF_we8w-y81p-07ZnBzXpq6yF3-z-DyLqRPiTH/330x192",
+    "opcoes": [
+      "Rust Coat",
+      "Bright Water",
+      "Blue Steel"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Tiger Tooth",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmcjgOrzUhFRe-sR_jez--YXygED6_0o4ZjildoDBdVA_ZguC-gO9yeq90Je4vZuYwHdguSgm5H7am0TkhAYMMLKzxtQfiA/330x192",
+    "opcoes": [
+      "Scorched",
+      "Urban Masked",
+      "Ultraviolet"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Ultraviolet",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-YmMjkJqnBmm5u5Mx2gv2PoI_00AfnqhFpYjv0dY-ScFI3M12CqFa5yOy8jZ61uZqYz3swvnImtmGdwULofng-mA/330x192",
+    "opcoes": [
+      "Case Hardened",
+      "Stained",
+      "Damascus Steel"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Damascus Steel",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KhsjwMrbQhWhE-_oo2tbN_Iv9nBq380ZtYzr1cYaWc1U4YAzZqVDtw-rthMLqv8_AyHBiuCUn4XiJzB20n1gSOZ4sTaTJ/330x192",
+    "opcoes": [
+      "Marble Fade",
+      "Ultraviolet",
+      "Night"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Night",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-YmMj6OrzZglRd4cJ5nqeU9I_3ilG3_0c9YmuiJ9KQJwM9aVHQqVbvw7vqjcft6pXKmCdhsicj-z-DyD3aqabX/330x192",
+    "opcoes": [
+      "Marble Fade",
+      "Damascus Steel",
+      "Ultraviolet"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Urban Masked",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Yh8jgMqvUqX5D6sR_teXI8oThxlbt_0M4aj2iJY-TIw83NQ6B-1Howea-jZ_vusnLwXZg6CUq4XuLykOpwUYb1J-2l8Q/330x192",
+    "opcoes": [
+      "Marble Fade",
+      "Forest DDPAT",
+      "Safari Mesh"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Safari Mesh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Yh8j5NqjZqX9Q5vp9g-7J4cKk2Azt_RBrMGrzJo6SdQ9sZ17Y8lm7kOztjMO57szOznFluSdw43aOgVXp1oG2cQbD/330x192",
+    "opcoes": [
+      "Autotronic",
+      "Damascus Steel",
+      "Tiger Tooth"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Autotronic",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-MhMj5aoTTl3Ju6dBlhf3T-oL8i2u4ohQ0J3elLIfDdA5oZlCC-gO6wenugpC8vsuawXo1vCJw4SvazkO0hR4fauZvm7XAHkiVFsDF/330x192",
+    "opcoes": [
+      "Marble Fade",
+      "Urban Masked",
+      "Damascus Steel"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Gamma Doppler",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjzMrbcl1RV59VhhuzTypz9iUex-iwwOj6rYJiRew4-MgrSqAO-yLvujMe4tMzJzSM2uylz5SrbnBC0hRpKO-1u1qbLVxzAUNEUr2p2/330x192",
+    "opcoes": [
+      "Freehand",
+      "Safari Mesh",
+      "Boreal Forest"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Forest DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-DjsjwN6vQglRd4cJ5nqeQ89mk2VHg_UpkYjj0JdLGdAFvNAvS81G6kLjq1pHtv5SdnHdhuCYq-z-DyHWIya-0/330x192",
+    "opcoes": [
+      "Scorched",
+      "Doppler",
+      "Stained"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Boreal Forest",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-DjsjyPKnUhX9u6spjj-jNyoD8j1yg5UNrZzj0dY-TIw45ZAnV_QS4kLrug8O07ZvOwXBnv3Yg5irayxGx00pSLrs4rampmWw/330x192",
+    "opcoes": [
+      "Autotronic",
+      "Doppler",
+      "Tiger Tooth"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Scorched",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Yh8jwMqvBmm5u5Mx2gv2P99Sk2FKxrUdqZ2D6Io-SdAY4Nw7SqVa-wO3mjZa57sibznpn6SVzsGGdwULONpYoDA/330x192",
+    "opcoes": [
+      "Night",
+      "Bright Water",
+      "Safari Mesh"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Marble Fade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Kmsj5MqnTmm5u7sR1j9bN_Iv9nBrj-EE-YTrzcYXGcA85aF7YqQLtwb3o0MXo6Z3Nynoy6Ckr4CnUmBe3n1gSOfoXRhVR/330x192",
+    "opcoes": [
+      "Urban Masked",
+      "Gamma Doppler",
+      "Crimson Web"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Fade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KlsjyMr_UqWdY781lxL-Xpd6ijge1_EVvMmGhJNedew43ZA7TqAXqxOvrjZPovpydwSYw7nE8pSGKgyjY_DU/330x192",
+    "opcoes": [
+      "Freehand",
+      "Forest DDPAT",
+      "Stained"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Crimson Web",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-DjsjjNrnCqWdY781lxLzD8I6s0AK2rkE_Yz-nJdeTJlJrZwuD-Qe9x-6515ftuM_OznphuXQ8pSGKLNyhYhs/330x192",
+    "opcoes": [
+      "Case Hardened",
+      "Autotronic",
+      "Night"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Rust Coat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KhsjnJ77UmlRa5sx3j9bM8Ij8nVn6-UNrNzqhcY7EdA86N1qC_Vm4xrvo1MK1up3BynVg63R3tCuLmkbmhAYMMLKdsYxojQ/330x192",
+    "opcoes": [
+      "Safari Mesh",
+      "Black Laminate",
+      "Fade"
+    ]
+  }
+]

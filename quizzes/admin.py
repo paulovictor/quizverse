@@ -4,13 +4,13 @@ from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Prod
 
 @admin.register(Theme)
 class ThemeAdmin(admin.ModelAdmin):
-    list_display = ['title', 'slug', 'language', 'icon_svg', 'active', 'created_at']
+    list_display = ['title', 'slug', 'language', 'icon', 'active', 'created_at']
     list_filter = ['active', 'language', 'created_at']
     search_fields = ['title', 'description', 'slug']
     prepopulated_fields = {'slug': ('title',)}
     fieldsets = (
         ('Informações Básicas', {
-            'fields': ('title', 'slug', 'description', 'language', 'icon_svg', 'parent', 'order', 'active')
+            'fields': ('title', 'slug', 'description', 'language', 'icon', 'parent', 'order', 'active')
         }),
         ('Cores da Categoria (Home)', {
             'fields': ('primary_color', 'secondary_color', 'icon_bg_color_1', 'icon_bg_color_2'),

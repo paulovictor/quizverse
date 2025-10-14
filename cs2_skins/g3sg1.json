@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Green Cell",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwOP3ejVD59WJl4GGmMj4OrzZgiUA7JJ0i7uUrNqs0Q3jrktuMW6mdYWdcwdrYF3Zq1Hswrvm15C9uZ3L1zI97QdCtDNe/330x192",
+    "opcoes": [
+      "Azure Zebra",
+      "Red Jasper",
+      "The Executioner"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Red Jasper",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwPzHTjoR_9vnq5SEmvbgPITdn2xZ_IsoiLGTo9imjQK2-hJsaz33d4CdewdqMFCF-gfowu680ZC_uJ2cwSBjpGB8sgHU0v79/330x192",
+    "opcoes": [
+      "Azure Zebra",
+      "High Seas",
+      "Polar Camo"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Demeter",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3czFX6cy5mJmMmPnLManQgGRu5Mx2gv2Po9qm0ALm-BJoam76IYeXIFQ-ZVCGq1O8l-e61pa67ZiayHNkuHMlsGGdwUJ2yKCJoA/330x192",
+    "opcoes": [
+      "Jungle Dashed",
+      "Red Jasper",
+      "Scavenger"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "VariCamo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3ZzxQ5d-3mY-0m_7zO6-fwGgIvJF00ruRrdzz3gyw80Rka2igcNfHegA2ZFqF81K5xL-5jMTutYOJlyXlhr-41Q/330x192",
+    "opcoes": [
+      "Keeping Tabs",
+      "Black Sand",
+      "Stinger"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Azure Zebra",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwOP3azhA_t21lY20lfvhNoTdn2xZ_Isl2LiYrIqsiwC3-xE4Yj-lLdCQdA9qZw3X-VW2kuu80MLquJvKySRmpGB8sm7JBxX4/330x192",
+    "opcoes": [
+      "Jungle Dashed",
+      "Murky",
+      "Stinger"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Jungle Dashed",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwOP3ZTxS6eOlnI-Zg8j-JrXWmm5u5Mx2gv2Ppd7zjATirxFkNWD2JIGde1Q4MlyCrAe8x-u705a6uJ7Aynph6SUq4GGdwUKYnSlmwg/330x192",
+    "opcoes": [
+      "Green Apple",
+      "Flux",
+      "Hunter"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Safari Mesh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwOP3fDhR5OOilY60m_7zO6-fxzJQ68Z02OiQpdyl2FXmqENvNWGlLI_BIQU3Nw7Rqwe9lOa81Je1uYOJlyWUbIPIHw/330x192",
+    "opcoes": [
+      "Digital Mesh",
+      "Red Jasper",
+      "Flux"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "High Seas",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf1OD3dm5R642JlpWIlPb6Nr7DqWdY781lxL-Z9tqsjQ3s_kU6N23wcoeSIwI_Z12E-we8xu_ug5K1upvMziQ3uiA8pSGKL_pwBhg/330x192",
+    "opcoes": [
+      "Black Sand",
+      "Chronos",
+      "Hunter"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Scavenger",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf1OD3dm5R642Jh4GdlvDxDLfYkWNFpsAl37uUotjz3QzkrUZtMWindYCWcwRtYQ7Y-gC-lb3vgsO8u56dwSB9-n51rvm1CME/330x192",
+    "opcoes": [
+      "Ancient Ritual",
+      "Keeping Tabs",
+      "Dream Glade"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Orange Kimono",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3ejRP49K5q4SClvr7Pb_CqWRD6ct2j9bN_Iv9nBq2rxI-Zj33co-XJAM5YluFrlG7x7y90JS7uprPyCFgvSdw4CzemxW2n1gSObjKzSbu/330x192",
+    "opcoes": [
+      "Ventilator",
+      "Hunter",
+      "Red Jasper"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Contractor",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwPz3YTBB09C_k4if2aKiYL-IwjgAvcQki7_HoNul2w23qBc6Zjv1I4THJAA7NV7Q8gK2wOfxxcjrGqjj_1M/330x192",
+    "opcoes": [
+      "Orange Crash",
+      "Hunter",
+      "New Roots"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Murky",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73dm5R642JmZWZnO7LP7LWnn8f6sYlj7HFpYmi2FDm8kZuZm71cIPGewA7YgyB_VDow--91pa-7pXIyWwj5Hc7-sC_eg/330x192",
+    "opcoes": [
+      "Polar Camo",
+      "New Roots",
+      "Hunter"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Flux",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf1OD3dm5R642Jkoyej8jkJqnBmm5u5Mx2gv2Po4nx3ASx-kNoZWv2d4-TcgFrZgyG_wTrx-7sgpXtvZSdyiYy7yYh4WGdwUIAgFufLg/330x192",
+    "opcoes": [
+      "Chronos",
+      "Polar Camo",
+      "Black Sand"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Violet Murano",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73fChQ7dK5q5aCmPvxJ4Tdn2xZ_Ismi73E8NzzigSx-UVpa2HyJo6WJw88aVqG_wW5yLvn1sPtvpvKzCFrpGB8smVy3Vs9/330x192",
+    "opcoes": [
+      "The Executioner",
+      "Green Cell",
+      "Polar Camo"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Black Sand",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0Ob3dm5R642JloyKlPznMrXVqWdY781lxLHArI6m3gDj_EpoamqicYecIw45NArUr1a9kL_rgsC4uJ7LnXE1viE8pSGKEi1V3V4/330x192",
+    "opcoes": [
+      "Polar Camo",
+      "Flux",
+      "Orange Crash"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Arctic Camo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3cC9B-NW1q4yCkP_gfevUlD4F7cBzieyQoN2i3QXnrhA4MWr0LI6Rdw9tYVHT_1m3xu-5gpGi_MOeXMs2wjo/330x192",
+    "opcoes": [
+      "Green Apple",
+      "Jungle Dashed",
+      "Contractor"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Orange Crash",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwOP3dm5R642JmYmHnuP9MrTDl2VW7fp9g-7J4cKn2QGw_kc4Zjr7Ioedd1M4YAzW_1e3xebmjMTqvJ_An3Q2uiciti6PgVXp1gXLUlLI/330x192",
+    "opcoes": [
+      "Dream Glade",
+      "Orange Kimono",
+      "Azure Zebra"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ventilator",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf1OD3dm5R642JgoWFg_74Mq_ehFRd4cJ5nqeU9oim3gDnr0c4ajqnJIOce1M8ZAnR-VG8lOnnjZC9vc-dwCNjuiIh-z-DyLXb1QOb/330x192",
+    "opcoes": [
+      "Orange Crash",
+      "Scavenger",
+      "Stinger"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Digital Mesh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf1OD3dm5R642JkImYheLkJ4Tdn2xZ_Pp9i_vG8MKm0QewqUY_YjjyIIXEJgFoMlGF-QK6w7_o0Ze778zBz3Iw7yQr5S6PgVXp1pWKJBRH/330x192",
+    "opcoes": [
+      "Green Apple",
+      "Hunter",
+      "Jungle Dashed"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Ancient Ritual",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73cDNB5dm4gL-cnvnxDLfYkWNF18lwmO7Eu4jzjVXj-hc_aj-iItKcJ1M5MAnV-Fnowe7ng8O-vZvKynRjvydx4irD30vgik1W_Wc/330x192",
+    "opcoes": [
+      "Flux",
+      "Green Cell",
+      "Violet Murano"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "New Roots",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwOP3fDJQ4-O1lZKdnvnzDLfYkWNF6slkj9bN_Iv9nGu4qgE7Nnf3cISTclNoaVjS-1K4yO69hcK1upqfwHZrvSR0tyqJm0az0B9Pau1rm7XAHpvpKzmZ/330x192",
+    "opcoes": [
+      "Green Cell",
+      "Scavenger",
+      "Black Sand"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Keeping Tabs",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0Ob3dm5R642JgIGIg_73Mrfcl3tu5Mx2gv3--Y3nj1H6qEJvZ2mnJIKUdAdtYF-G_lntl-7vjJftuZ-fz3Zq6SF37C2Jl0GzgAYMMLJX-ZcVpA/330x192",
+    "opcoes": [
+      "Dream Glade",
+      "Murky",
+      "Digital Mesh"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Dream Glade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0Ob3dm5R642Jk4yKk_LLP7LWnn9u5MRjjeyPrN_w2QPi80ZrYmHwJYWTJAI5YwvY-wO5xO3shJ--tcnOm3di7iNzsWGdwUKZjxvmOg/330x192",
+    "opcoes": [
+      "Murky",
+      "Jungle Dashed",
+      "High Seas"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Hunter",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf1OD3dm5R642Jl4WfmvLLIb7Vg3Nu5Mx2gv2PpNT0jAW1rRc-YGuld9eXcA45aAyDrgW8w7vqgp_vucyfmCc1vHF27WGdwUL26xPDqw/330x192",
+    "opcoes": [
+      "Scavenger",
+      "Contractor",
+      "New Roots"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Stinger",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf1OD3dm5R642JgombkuXLKr7dmmRG18l4jeHVu9n03wO3_ko-azrxLYPBcFM_YQ7S_QO2wunt1Je4usjAznE37nZw53rD30vgmcE2eQU/330x192",
+    "opcoes": [
+      "Scavenger",
+      "Ventilator",
+      "Orange Crash"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Chronos",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0Ob3cjVQ49K5h7-MxOTzYoTdn2xZ_IskjuuWrN2l3Azt80I_NzjzdtfHJw86aAmD_lW9l-7m18e07czAnCBgpGB8siJJ2IeN/330x192",
+    "opcoes": [
+      "Green Apple",
+      "The Executioner",
+      "Polar Camo"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Polar Camo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3cC9B-NW1q4OEmePmMqjFqWdY781lxO2Qodih3ALjrhZlam72cIfHdlI7Y1DXq1O2wbvng5646ZrKynpnsyM8pSGKziuLMdo/330x192",
+    "opcoes": [
+      "Ancient Ritual",
+      "Orange Crash",
+      "Digital Mesh"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Desert Storm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3dThR6c6iq4yCkP_gfe_Uwz4HuZ0p3u-Q9oiijgyw_UpqZjv6d4GcewdoaVGB_VG8k-nt15Ki_MOekXjyVoE/330x192",
+    "opcoes": [
+      "Safari Mesh",
+      "Ventilator",
+      "Black Sand"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Green Apple",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwPz3di9H6dKJmImMn-O6YePSwm4GupIk3evEo9ii3wG3-kJtYjigJNOScwI8MFnU_QLvkrzm1oj84srJ8w6n6Q/330x192",
+    "opcoes": [
+      "Orange Kimono",
+      "The Executioner",
+      "Orange Crash"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "The Executioner",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0Ob3dm5R642JkZiOlOLgOrTfk3lu5Mx2gv2Pptql3wW2rkJrMmv1ItCXelI2Z1vRqFHolens1J_u6ZvOz3Uw7yMr7GGdwUKAPvlJ9A/330x192",
+    "opcoes": [
+      "Orange Kimono",
+      "Chronos",
+      "Scavenger"
+    ]
+  }
+]

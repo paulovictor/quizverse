@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "CAUTION!",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fpyi_zV_IP7t1i9rBsoDDWiZtHAbABvZF6D_QDtkOnnjMLvu53MzHFj7yEl53_bmBfi1B1FO7M7hPTNT12AR_se_AIUcFg/330x192",
+    "opcoes": [
+      "Spruce DDPAT",
+      "Overprint",
+      "Badlands"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spruce DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j3MrbeqWxD7dxOhuDG_Zi72ADh_kQ-Yjj7cICdIFVtNQzW-gO_yevthJW4up3AyHFhsicn4yuIywv330-QcVv1Ug/330x192",
+    "opcoes": [
+      "Constrictor",
+      "Overprint",
+      "Arboreal"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Leather",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fp9g-7J4cL03VLl-hBoYDvwcIDDdg87aQyD8lm-kOq5jJ-0usvJznBr6HN0sXyOgVXp1sWipDG9/330x192",
+    "opcoes": [
+      "Badlands",
+      "Slaughter",
+      "Overprint"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Slaughter",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8jmNr_uhWdQ_cJ5nuzTyoD8j1yg5UpkNWmhItDDclVsYw6B-VS4k-vo08O4vsnKyHVmvilwsC7UnRywiUpSLrs4fUssIRw/330x192",
+    "opcoes": [
+      "Cobalt Skulls",
+      "CAUTION!",
+      "Constrictor"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Badlands",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8jyMrnDn2hu59dwhO7Eyo_0hVuLpxo7Oy3tco6RdwVtZ1iG_VXvyerp18K_753MynNj7nUms3_dm0bjiB0db7Q-h-veFwtkj0BHFw/330x192",
+    "opcoes": [
+      "Overprint",
+      "Giraffe",
+      "Desert Shamagh"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Duct Tape",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fp1n-rV4Y3ljWu4ohQ0J3ehJY6cdQNtNVrYqwTrxujrgMLu6snBz3Jjsygq4XzYlxOxhU1NP7Rqm7XAHjDxuAXz/330x192",
+    "opcoes": [
+      "Slaughter",
+      "Constrictor",
+      "Arboreal"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Arboreal",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fp3i-vT_I_Kj0axrh0DMDiue-nJK1FmJUbSqFS_wb-9gsDv6snMwXFk7CIh7CnemB3lgRtOb-M81vbMGgqYUqYaAuDcUdyv0e2k/330x192",
+    "opcoes": [
+      "Duct Tape",
+      "Slaughter",
+      "Giraffe"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Giraffe",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fp3i-vT_I_Kj12mqhU6NgavfdHNNmliMBqHr0--lLi6g56-6M-fyHoy63Rw4i2IzECyiB9JP7Y5gPWdSgjIA6dOGqXTGDOO5y2RKGat/330x192",
+    "opcoes": [
+      "Desert Shamagh",
+      "CAUTION!",
+      "Slaughter"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Desert Shamagh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8jyMrnDn2hu4MpkhO3S4YP6nFyLpAE9PT6mS9rMJV56DgSBuAbr3-7nh5K0tZ7MmHVjuiMjtH7VzEe1hR4abbBs1KacGw-eU60dGqaBBXrO8Mck5vvN90I/330x192",
+    "opcoes": [
+      "Slaughter",
+      "Leather",
+      "Badlands"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Constrictor",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fpihOjK8J_-gVqLpAE9PT6mS9rMJV56DgSBuAbr37rth8S-v8_LnXpl6SRz4X7UzEC1hxgeauRng6ScHAqXAvMfHKGFDiLO8MckvMDT7VQ/330x192",
+    "opcoes": [
+      "Cobalt Skulls",
+      "Giraffe",
+      "Arboreal"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Overprint",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fp3i-vT_I_Kj1G7phYoITCgS9TJN1NRPQGHohWgkO3qhsLo6ZTKyXQ3s3J35CqMyUG_hRtPb7dv16OfS1yfA6cbGqmAUG2Q7s4Ma_K2Rg/330x192",
+    "opcoes": [
+      "Leather",
+      "Spruce DDPAT",
+      "Desert Shamagh"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Cobalt Skulls",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DfVlxgLQFFibKkJQN3wfLYYgJK7dKyg5KKh8j4NrrFnm5D8fp3i-vT_I_KilihriwvOCyveMX6Ll9pORzO_1Drw-a81pK478jOySQ3vnV24n7UnBex0BhKOOE81_XLH1-WB60bGb7CWCRHpAEwPA/330x192",
+    "opcoes": [
+      "Overprint",
+      "CAUTION!",
+      "Arboreal"
+    ]
+  }
+]

@@ -9,17 +9,16 @@ register = template.Library()
 @register.simple_tag
 def render_icon(theme, css_class=''):
     """
-    Renderiza o ícone SVG do tema
+    Renderiza o ícone do tema (PNG, SVG, etc)
     
     Uso nos templates:
     {% load icon_tags %}
     {% render_icon theme 'icon-large' %}
     """
-    if theme.icon_svg:
-        # Usa SVG
-        svg_path = static(f'icons/{theme.icon_svg}.svg')
+    if theme.icon:
+        # Usa a URL do ícone (pode ser PNG, SVG, etc) - preenche todo o container
         return mark_safe(
-            f'<img src="{svg_path}" class="theme-icon theme-icon-svg {css_class}" alt="{theme.title}" loading="lazy">'
+            f'<img src="{theme.icon}" class="theme-icon theme-icon-image {css_class}" alt="{theme.title}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;">'
         )
     else:
         # Fallback: ícone placeholder
@@ -29,13 +28,13 @@ def render_icon(theme, css_class=''):
 
 
 @register.filter
-def has_svg_icon(theme):
+def has_icon(theme):
     """
-    Verifica se o tema tem ícone SVG
+    Verifica se o tema tem ícone
     
-    Uso: {% if theme|has_svg_icon %}
+    Uso: {% if theme|has_icon %}
     """
-    return bool(theme.icon_svg)
+    return bool(theme.icon)
 
 
 @register.simple_tag(takes_context=True)

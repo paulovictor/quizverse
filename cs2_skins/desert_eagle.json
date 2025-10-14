@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "name": "Calligraffiti",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PfNcDpO6eO1lYyHnvDmMr3XqWdY781lxL2WoI6hjlWxr0U-N2HxLILBcgdrZVnY81jqkr3r15O16svMn3tq6SQ8pSGKCOzTt04/330x192",
+    "opcoes": [
+      "Starcade",
+      "Mecha Industries",
+      "Oxide Blaze"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tilted",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjJU6c6mlZOYqPblJrrukm5Q78l0teXI8oThxgXg-BdvNWylJoHBcgU7Z1DRr1i9yOi91pG_tcmbn3Jh6yEi4XnayUepwUYbGBHo8Eg/330x192",
+    "opcoes": [
+      "Golden Koi",
+      "Fennec Fox",
+      "Hand Cannon"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Heat Treated",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjlH7du6kb-IluTxDLPQhG9U5sB1tbv--YXygED6qkBsN2r7Jo6SJ1c9YVHYqFC4l-7rg56-tJnAnCBkuHUl4HyLl0e0iAYMMLKNrDxETA/330x192",
+    "opcoes": [
+      "Sunset Storm 弐",
+      "Bronze Deco",
+      "Meteorite"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Starcade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjpO5ciikZK0k_L1NLfUqWdY781lxOrDooqkjFDi-kBlaj-iJIecIQU8ZVzZqFPqyOrpjJ_v78jJzHtguiQ8pSGKta3IN2E/330x192",
+    "opcoes": [
+      "Urban Rubble",
+      "Serpent Strike",
+      "Mudder"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mulberry",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7ODHdAJS4Mm7q4yCkP_gfenSzzxXsJcjiOjHrdSlige2r0o-MTynJoaddQQ5aAvU_QW4yO_o08ei_MOe6928QZw/330x192",
+    "opcoes": [
+      "Cobalt Disruption",
+      "Trigger Discipline",
+      "Blaze"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Mint Fan",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PvcTjhD_si-q4aKmeTLP7LWnn8f68Qmie-R8Ir321Hl_hE6Mj_7IIHDcAU4MAuEqVi-yOrnjcPqu8mdn2wj5HeUPrSWdw/330x192",
+    "opcoes": [
+      "Kumicho Dragon",
+      "The Bronze",
+      "Sunset Storm 壱"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Serpent Strike",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PfNcDpO6eOlmoGAksjkMq_Fk3lf18l4jeHVu9uj3VXs-RA9YT-iI4GXJg85aFDV81nqxefqhsK-6JWdyCBhuXMi53nD30vgPDV_4x0/330x192",
+    "opcoes": [
+      "Mudder",
+      "Code Red",
+      "Ocean Drive"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Crimson Web",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PvRTipH7s-JkIGZnPLmDLfYkWNFppJz0-rDpNX3iVfh-RY-Nm6gII_AcVdsNQ6C-gK6we661JS5vsucn3p9-n51o0mKsnM/330x192",
+    "opcoes": [
+      "Sunset Storm 弐",
+      "Heat Treated",
+      "Fennec Fox"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Code Red",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PTbTjlH7du6kb-KkPDmNqjCmXlu5Mx2gv2PoN3zjlbs_BVsYDimJNKWIQI4ZgzU_lC8l-28h5K6vJvOznZr7yYjsWGdwULr5DlSTQ/330x192",
+    "opcoes": [
+      "Bronze Deco",
+      "Tilted",
+      "Hypnotic"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Naga",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjlH7du6kb-FlvD1DLfYkWNFpscl27nA8dSm3Vbl80poMm33LICSdFdrYV3Z-lS2x-zmjcfqvs6bynF9-n51bHG-s3k/330x192",
+    "opcoes": [
+      "Mudder",
+      "Meteorite",
+      "Trigger Discipline"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Golden Koi",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTi5B7dCzh7-JhfbiPITdn2xZ_IsnievAodqj0QGx_Ec9azumcY-WcFNvaFiDrwC8xbvugZDv7sifzCdkpGB8srQmEFgj/330x192",
+    "opcoes": [
+      "Kumicho Dragon",
+      "Night",
+      "Sputnik"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Corinthian",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjlH7du6kb-ImOX9Pa_Zn2pf18l4jeHVu9303g3g80puMmj6IYXEcwU_Zl_V_lS_le7qgZS5vJWbzSBg7il34njD30vgSPN-IfI/330x192",
+    "opcoes": [
+      "Urban Rubble",
+      "Midnight Storm",
+      "Heat Treated"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Kumicho Dragon",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjlH_9mkgIWKkPvxDLDEm2JS4Mp1mOjG-oLKhF2zowdyYmD7I4LAe1c8YQuGqwK6yLu518O96pzMzHUxsyknsHvYnBO0gk4aO_sv26LIOeeP5w/330x192",
+    "opcoes": [
+      "Sunset Storm 弐",
+      "Printstream",
+      "Night"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Heirloom",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjhM6863goWPqPPxMrzdk1Rd4cJ5nqeZpdj02VXk-hJuajulLIaTdQVsZlvZrFLrk-zthZS7vszPwXFruykh-z-DyCnDiqA0/330x192",
+    "opcoes": [
+      "Urban Rubble",
+      "Serpent Strike",
+      "Night Heist"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Bronze Deco",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTj9Q49Kskb-Yh_bmOLfUqWdY781lxL2T8Y-kjAa2qhZlNmz7ItCSd1I4ZVrVrFi6kO_mgJa9uJXAyHdguXI8pSGKoKTrgPA/330x192",
+    "opcoes": [
+      "Night",
+      "Blue Ply",
+      "Heat Treated"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Mecha Industries",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PTbTjlH7du6kb-GkvT8MoTdn2xZ_It02rHCpIrx0APk8hVqMWr1LI-QdFU6YAvW8gO_xr3ugMDqup7Mz3FmpGB8st6VkheS/330x192",
+    "opcoes": [
+      "Pilot",
+      "The Bronze",
+      "Mudder"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Cobalt Disruption",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTjlG_N2ikIWFhPLLI77QlWRS4_p9g-7J4cL03AzirxFvYm_zdtXBIVA4MwvVq1Dqye_ojMW4uZ2byXA1vCIi5HrcgVXp1tntQJzL/330x192",
+    "opcoes": [
+      "Light Rail",
+      "Pilot",
+      "Mudder"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Hypnotic",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLJTitH_si_k4-0m_7zO6-fzj5QuZN03uvH99T32Ve3_UBlYDqiIdKVIQBqYgnRr1frx-7thpW-v4OJlyUwDcxXZA/330x192",
+    "opcoes": [
+      "Code Red",
+      "Night",
+      "Starcade"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Night",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7ODHTjNL69Siq4yCkP_gfe2FkzgAvZAk2byWrYqmiwy2r0NkMGD1IoSXJFU8MlvUrlTvxubm18ei_MOel0hbkrY/330x192",
+    "opcoes": [
+      "Light Rail",
+      "Sunset Storm 壱",
+      "Calligraffiti"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Midnight Storm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTi5H7c-im5KGqPv9NLPF2GpU7pcgj-_E9oj02wPm-EQ4YW2ncdTAcVA6YVGG_lO3xOq71MLo6MnXiSw0xSmk0RY/330x192",
+    "opcoes": [
+      "Bronze Deco",
+      "Fennec Fox",
+      "Blue Ply"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Light Rail",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PTbTjlH7du6kb-Oj_jLP7LWnn8fsMd1ibCS89333AGxrRE9YmH0I4KdcgA7NQ2GrFi4xru6057qvsvLnWwj5HcdQQ8Quw/330x192",
+    "opcoes": [
+      "Crimson Web",
+      "The Bronze",
+      "Sunset Storm 壱"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Pilot",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTi1L4NOiq4SOlvD4NoTdn2xZ_Isn2uuR8Nug3VGy-kdvYmiiLITDd1A9ZFHS8gDqwOa718S67cjLmHplpGB8stOGlY0p/330x192",
+    "opcoes": [
+      "Fennec Fox",
+      "Ocean Drive",
+      "Blue Ply"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Directive",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjlH_9mkgL-OlvD4NoTSmWVC_MRzhuz--YXygED6rRFuNWv1I4XBJgU3aF-B-FDsl7jmhJS16Z2dyydhsyRx5XzdlhDiiQYMMLJVFcMKgw/330x192",
+    "opcoes": [
+      "Conspiracy",
+      "Serpent Strike",
+      "Hypnotic"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Hand Cannon",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjVD4ti1lY6FmPnLP7LWnn8f7ZN00r7C8I6n2wfjqkduYD3xJoPBIQc5ZlvU-ADowrq5gZa6tZjBzGwj5HfSjvrAnA/330x192",
+    "opcoes": [
+      "Naga",
+      "Urban Rubble",
+      "Blue Ply"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Emerald Jörmungandr",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTjdN_tGJk5KOkvnLP7LWnn8f7Mcg2r2U84nw2FWy-UA6YWGhdoLEJFBqYF7UrlG5lO2-1MLouJ-cmmwj5HeT0A2gTg/330x192",
+    "opcoes": [
+      "Pilot",
+      "Urban DDPAT",
+      "Mecha Industries"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Urban DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PvRTjlG_N2iq5WZlcj4OrzZgiUBvsR32urDpYml0ADt-xVtNTuiJYHEIVI_M1GD81m3xubogZPvvpzK1zI97TuZafAL/330x192",
+    "opcoes": [
+      "Code Red",
+      "Sunset Storm 弐",
+      "Fennec Fox"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Sunset Storm 弐",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTi5H7c-im5KGqOT8PLHeqWdY781lxL7F89jzjQfs_Rc9MGj7ddOXIw5tYg3V-gXoxrq515-9upidnCE2siM8pSGKLbOD2eI/330x192",
+    "opcoes": [
+      "Fennec Fox",
+      "Serpent Strike",
+      "Sunset Storm 壱"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Blue Ply",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjlH7du6kb-Zkuf4OrjQqWdY781lxLCRpY2m2APs_Bc4ZD_3coWXdgU7MgvV_wS7x7q8hpK56JrBySAy63U8pSGKvdbPjr4/330x192",
+    "opcoes": [
+      "Directive",
+      "Cobalt Disruption",
+      "Mecha Industries"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Printstream",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjlH7duJhJKCmePnJ6nUl2Zu5Mx2gv2P99ij0FHh_UVsZD2iJ4_DIARtaVCF_li9xevph5-86snMnSBivSRx7WGdwULn5_Krzg/330x192",
+    "opcoes": [
+      "Kumicho Dragon",
+      "Golden Koi",
+      "Meteorite"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "The Bronze",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTjNX4d6zhpO0leX7PaHUqWdY781lteXA54vwxg3s_UNoZWigIdeTJ1A7Y1DW8gW8lb-70ZTutcmbnXcwsiQgt3iPzRWpwUYb3Mvq8Vw/330x192",
+    "opcoes": [
+      "Kumicho Dragon",
+      "Sunset Storm 壱",
+      "Bronze Deco"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Night Heist",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTjVH5c-iq5CHlvnnDKvEhHtd7fp9g-7J4bP5iUazrl1rYG6ldoCXdgQ_aQzR_lC2xLvtgJ_ptcvJmCRhunF35HnfmUS31BgecKUx0pI1kjtX/330x192",
+    "opcoes": [
+      "Emerald Jörmungandr",
+      "Midnight Storm",
+      "Sputnik"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Trigger Discipline",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjlH7duJgJKCkPDxIYTVn3hS4dV9g-fEyoD8j1yglB89IT6mOo_BegA_ZFHU_we-xue6hsC76czBzSFmvSJ0sXzZmxW_100ZaOZrhKaACQLJyKyK7VI/330x192",
+    "opcoes": [
+      "Sputnik",
+      "Starcade",
+      "Light Rail"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Fennec Fox",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PTbTjlH7du6kb-Nkvn6NrjummJW4NFOhujT8om70QawqRc9ZGqmcNXGdFNsZ1jS-Ae_l-7tgZ7v7pzAyXRg7icj5XiMzgv3308Gn6NOEA/330x192",
+    "opcoes": [
+      "Emerald Jörmungandr",
+      "Tilted",
+      "Meteorite"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Ocean Drive",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjlH7du6kb-AnuP3O4Tdn2xZ_Pp9i_vG8MKljFLtqUZuZ2-nJoGSegBsZVnT_FW8l-u51p-5tcvKziZrsikgtnyMgVXp1v8LytPO/330x192",
+    "opcoes": [
+      "Mecha Industries",
+      "Urban DDPAT",
+      "Oxide Blaze"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Sputnik",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7ODYTi5S7d-zhoGIksj2P67UqWdY781lteXA54vwxlHt-BZlajyicNXEJwc9NFyGrFPtk7vm05-5tMnOy3IyuSQi5XiMmUGpwUYbUWGLOR8/330x192",
+    "opcoes": [
+      "Urban Rubble",
+      "Naga",
+      "Printstream"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Blaze",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLJTjtO7dGzh7-HnvD8J_XVkjoFuMYiiLqUrI-k3le3r0s5amj7d9eTI1I-M1rW-Fm_xO-50Jfvot2XnhS4_w8U/330x192",
+    "opcoes": [
+      "Serpent Strike",
+      "Directive",
+      "Ocean Drive"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Sunset Storm 壱",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTi5H7c-im5KGqPX4PLTVqWdY781lxLjErN7031Hl8hU4NmnyINOQIwE-aVvSq1i9k-rrhcO8753KzyZmsyY8pSGKb3xK3i0/330x192",
+    "opcoes": [
+      "Hypnotic",
+      "Tilted",
+      "Mulberry"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Oxide Blaze",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjlH_9mkgL-OlvD4NoTSmXlD58F0hNbN_Iv9nBrhrRc5YTqgJdWcIA48M1iF81m8wurrgMW76s_LmydguSRwtn3VmUThn1gSOZyN_0a1/330x192",
+    "opcoes": [
+      "Starcade",
+      "Heirloom",
+      "Code Red"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Conspiracy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjlH7du6kb-KguXxJqjummJW4NE_3e_Aotql3QO3qUNpNWugddSdcA9sNFzU8ge_w-6-0JO4vJrIzCZj7z5iuygmT5QrCQ/330x192",
+    "opcoes": [
+      "Corinthian",
+      "Hypnotic",
+      "Midnight Storm"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Urban Rubble",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PvRTitD_tW1lY2EqOLmMbrfqWdY781lxOiYotWkjATk_0VuY2-lLI6VegNoYwzQ8lS-lL3qgpHvusvMyncyvic8pSGK-KHzzSg/330x192",
+    "opcoes": [
+      "Bronze Deco",
+      "Starcade",
+      "Crimson Web"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Mudder",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PvRTjBN-Mi6kYS0hPb6N4Tdn2xZ_Isn27zD8Nyt3FDgqRBlNzv7d4-ddgM_N1nT-VS_kr-6hMDtvMiaz3swpGB8spRzyX72/330x192",
+    "opcoes": [
+      "Blue Ply",
+      "Heat Treated",
+      "Mecha Industries"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Meteorite",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTj5Q9c-ilYyHnu3xN4TVl3la18l4jeHVu97x31Dj_kA9a2DwcdWWJAZvZV_Qqwe3x-fv1Me6uMmanCE3vSEm4ynD30vgrmdJqGM/330x192",
+    "opcoes": [
+      "Blaze",
+      "Blue Ply",
+      "Trigger Discipline"
+    ]
+  }
+]

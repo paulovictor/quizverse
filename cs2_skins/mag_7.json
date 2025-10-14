@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "name": "Insomnia",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhjxszFcDoV09W4h4-Gmf71DLfYkWNF18lwmO7Eu9zx0QPlrRFtZDqiJNTHc1JoZgqBrwW4kO-81Me1vJ-azHQwu3Vz4C3D30vgz4Ezlms/330x192",
+    "opcoes": [
+      "Popdog",
+      "Rust Coat",
+      "Seabird"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Copper Coated",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhnwMzFcDoV09u5m4yPqPv9NLPFqWdQ-sJ0xLuYpo-l3lXnrUVuMDz6cNDHcwE5N1_Z_le8l7y9gsS_vc-dzCcxs3Y8pSGKiOfJyRU/330x192",
+    "opcoes": [
+      "Seabird",
+      "Cobalt Core",
+      "Bulldozer"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Wildwood",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhz3PDATipL4Nihm4-PqPr1NOzummJW4NE_2rCQo9WhjQfj_UVsNj-hItDBdwJqZ1-GqwS3kufuhsDuup7BnXJlsj5iuyjtpjGFXw/330x192",
+    "opcoes": [
+      "Justice",
+      "Chainmail",
+      "Storm"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Copper Oxide",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhz3MzPYzhb7tCjkb-HnvD8J_WJxW4H7MRw2buU9N-k2lW3qEdlZGr3JIWSdQQ8MA7T_1W_ye7s1JK_ot2XnoiddXa6/330x192",
+    "opcoes": [
+      "Wildwood",
+      "Cinquedea",
+      "Sonar"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Resupply",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDht0vSfTjxP4dOJlo-TqPv9NLPF2GgAu8Nwjr2Y997z2wTi8xY6Ym-iJdKccFU7aVqB_Va6l7jphZS_6cnXiSw0zZPYbok/330x192",
+    "opcoes": [
+      "Cobalt Core",
+      "Monster Call",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "MAGnitude",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5G3wi9a6KWRa61_I_yWMWSf0f5zot5lRi67gVN34z_Xwo36J32VPFclWZN3TeUJsxjukNXjYe-0tQTc3oNCyXqrjHgY8G81tEUQW-wE/330x192",
+    "opcoes": [
+      "Sand Dune",
+      "Bulldozer",
+      "Cobalt Core"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Memento",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhoyszBcjJR7dSzkJKEmcj4OrzZgiVXv8Bw0urC9Nz33Ay1-0dqYD3zLIGSI1A3MlHUr1boxOq7hcC96JrA1zI97TI-pHTn/330x192",
+    "opcoes": [
+      "Sand Dune",
+      "Irradiated Alert",
+      "Rust Coat"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Irradiated Alert",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zGZDZH_8iknZCOqPXmPKzfqWdY781lxOyQ8dug3AS2qkZtYGiiJtOXIVA9ZwnYrFbtx7u71p-06J2anXZgu3E8pSGKi53XsPg/330x192",
+    "opcoes": [
+      "Wildwood",
+      "Cobalt Core",
+      "Storm"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Firestarter",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXummJW4NE_3L2R9IqnjVC2_kE9ZD_yI4aTcAZrYF_VrgXvkOu5gMXqu5vKynBm6D5iuyjWv-u0WQ/330x192",
+    "opcoes": [
+      "Heaven Guard",
+      "Copper Oxide",
+      "Petroglyph"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Rust Coat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhhwszbZThH4OO_moaOhfn7DLfYkWNFppEi27qXrNX3jgWyqUFtYTj3LYaScgVoYFmC-FHqkLzsgZG16c-cwCF9-n51emhCfk8/330x192",
+    "opcoes": [
+      "Cinquedea",
+      "Heaven Guard",
+      "MAGnitude"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "SWAG-7",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhhwszFcDoV08-hlYfcqPv9NLPF2DkBu5Egj7qYo4j30Ay1_hY_Nzz7INCdIA4-YgnV-lHoxb-61pXuuZjXiSw0lnHrE7k/330x192",
+    "opcoes": [
+      "Heat",
+      "Seabird",
+      "Navy Sheen"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Heat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhjxszFcDoV086zkIiEg8j4OrzZgiUGvpUp3eiZptrw0Fft8xU4Ymn0IoPEdlQ7ZwyDq1i6x7y-gMfv7pmd1zI97Us53qRd/330x192",
+    "opcoes": [
+      "BI83 Spectrum",
+      "Chainmail",
+      "MAGnitude"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Core Breach",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhoyszGZD5O6d2kq4iEg_jmMrXWk1Rd4cJ5nqeSoN-j3wPj-BFkZmnycteVdgNvNVCD_1m9yem8g8C4tMuawXZruiQn-z-DyGud1qBH/330x192",
+    "opcoes": [
+      "Storm",
+      "Copper Coated",
+      "Resupply"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Heaven Guard",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhjxszFcDoV09SzlZaOmcj4OrzZgiVSuJN13ruWoYjzjA3srkVrNjqgJ4CWdQM4N1HW-Vm7lLjm1sLpv5iY1zI97WT-9f-n/330x192",
+    "opcoes": [
+      "Foresight",
+      "Storm",
+      "Core Breach"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Sand Dune",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhz3MzbcDNG09C_k4if2a7wNbiFwG1VvpVwi7CTotqtigTmr0BlYG7ycIPEI1U-ZQrY81Pol-bxxcjrdUalW9E/330x192",
+    "opcoes": [
+      "BI83 Spectrum",
+      "Monster Call",
+      "Firestarter"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Storm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhz3MzbZTJQ4dqkm46fqPv9NLPF2D8B7pIjj--XotSnjgfmrUVoMT37LIWccAVoNAyGr1HqwOvuh8K5tJ_XiSw0exkFg5I/330x192",
+    "opcoes": [
+      "Praetorian",
+      "Foresight",
+      "Counter Terrace"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Seabird",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhz3MzJYChD09C_k4if2fHxNu2Ikm1UsZF12riUrYinjQOw8xdsZ2Cid9XBIA84ZgrYq1i8xb_xxcjr8GchYyc/330x192",
+    "opcoes": [
+      "MAGnitude",
+      "Popdog",
+      "Foresight"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Cobalt Core",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhjxszFcDoV09GvhoOOmfLLP7LWnn8fv8Z12uzFrdXxigO1qBA_Z22nJ4Sde1A3N1nV-Fjrwb_ogMC4upnKnGwj5Hd-M-D3zQ/330x192",
+    "opcoes": [
+      "Praetorian",
+      "Cinquedea",
+      "Prism Terrace"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Bulldozer",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhz3MzRdDFO48uJmImMn-O6MbmDkz0DsJVy2-2Yp42g3wC38kBtYWqnI4_BdwE8ZVrX_AXsx-e5hoj84soOlvx0qw/330x192",
+    "opcoes": [
+      "BI83 Spectrum",
+      "Resupply",
+      "Chainmail"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Hard Water",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhh3szFcDoV09-3gZOfnvTLP7LWnn8fuZYiiOvH9NXz21ey80FuYz_7cdSQdwM4NVyE_1Xvxujp1sC975ScyWwj5HeAY-I7KQ/330x192",
+    "opcoes": [
+      "Heat",
+      "Sonar",
+      "Seabird"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Popdog",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhnwMzFcDoV08y5hISEkMj4OrzZgiUC65EkjO2Tpo_x2Q3g_BE-ajvyI4KSJwU4aVrT81m-kOrr08Pt6cnN1zI97cS-msk3/330x192",
+    "opcoes": [
+      "Foresight",
+      "Chainmail",
+      "Praetorian"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Cinquedea",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhnwMzFcDoV09u6lZOYqPv9NLPF2GlU6cF0jLnAo47x2gCx_BE9YDynJIOUIARsYVHSqVO5wO_m1sO8u5jXiSw0-UWPhRk/330x192",
+    "opcoes": [
+      "Prism Terrace",
+      "Rust Coat",
+      "Popdog"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Chainmail",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhh3szLeTxL4tG3nYy0m_7zO6-fkz1VvsAn3rHHoo6g0QSy_Uc9NWv7JIPDdw88ZlmB-Ve6l--9h5S0v4OJlyWY1hvH5w/330x192",
+    "opcoes": [
+      "MAGnitude",
+      "BI83 Spectrum",
+      "Memento"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Hazard",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zAcCdD_tiJlpKKgfjLP7LWnn8fvZR30r2SpY3wiQDiqks6amqmIYaRJFQ3NAnZ_1Htlenoh5-_vMnPnWwj5HeouX7iBw/330x192",
+    "opcoes": [
+      "Petroglyph",
+      "Chainmail",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Praetorian",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhnwMzFcDoV08yklYWfmOX9MrXummJW4NE_37zFrNrzilDn-0BtZmDyJdeXcQ85NA7Z_1G2yem6jcDo7ZnKmHE26T5iuyjUAkGA1A/330x192",
+    "opcoes": [
+      "Counter Terrace",
+      "Copper Oxide",
+      "Bulldozer"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Petroglyph",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhjxszFcDoV08iknYKKm8j4OrzZgiVSupcn3buZ9Iqh3AOy-0RkY2GmdYOcdwJrM1GB-FW7w-bvjJTotZrL1zI97ch2lL8S/330x192",
+    "opcoes": [
+      "Copper Coated",
+      "Irradiated Alert",
+      "Core Breach"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Justice",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhnwMzFcDoV09ajh5SClPLLP7LWnn8f7sZ1ib6S9I6i3w21qUNlYDymI9KcclI3YAvRr1Ltwujm18TvtMnPzGwj5Hdb1VS4mQ/330x192",
+    "opcoes": [
+      "Memento",
+      "Metallic DDPAT",
+      "Navy Sheen"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Monster Call",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhjxszFcDoV09G5mpOfkuXLMLrdmlRd4cJ5nqeZ94ij3gTm-RA4Mm30ddSdd1A5Yg3X_FTqku3qgJS66ZuYyyE2vXYi-z-DyADQs6hu/330x192",
+    "opcoes": [
+      "Metallic DDPAT",
+      "Irradiated Alert",
+      "Wildwood"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Carbon Fiber",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhh3szLcC9A49KJkomJkuXLP7LWnn9u5MRjjeyPp96jiVW2_0dsNm-mIoaRc1Q7M1yC-ljoyO7og5-57czBzHYx6XN35WGdwUIbo5XIWg/330x192",
+    "opcoes": [
+      "Irradiated Alert",
+      "Core Breach",
+      "Memento"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Navy Sheen",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhh3szGcCtb08--nY6OqPv9NLPFqWdQ-sJ0xO_Fp4qk2gDlqBZsMT-iJYDHIFRqaVHX-we5w-brg5K-tc6awXVn7iA8pSGKCZDD33w/330x192",
+    "opcoes": [
+      "Prism Terrace",
+      "Bulldozer",
+      "Core Breach"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "BI83 Spectrum",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhnwMzFcDoV096_h42eg__LP7LWnn9u5MRjjeyP89nxjgHtqUZsYW2hJoXEc1VvYFDX81m7k-npgJbpv57OmCY36yRw4WGdwUIvxsZ5iw/330x192",
+    "opcoes": [
+      "Silver",
+      "Cinquedea",
+      "Copper Oxide"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Prism Terrace",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhoyszPdDJP6ciknYO0hOPxI6juhm5Q-slOhuDG_ZjKhFWmrBZyNWryIoGXIVRrZ1yD-FLqxrrsgZa9tZTIzXFkvyhx7SmOmhaw104ebfsv26K9DCxizw/330x192",
+    "opcoes": [
+      "Wildwood",
+      "Insomnia",
+      "Copper Oxide"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Foresight",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhjxszFcDoV08ykkYSClOP7IYTdn2xZ_Pp9i_vG8MKh2wXj-Ec_MjzyIIfBcgBvY1iGq1K4wOu7hp7pv8_IzCFkuigk5X2MgVXp1pgXBZ4a/330x192",
+    "opcoes": [
+      "Monster Call",
+      "Memento",
+      "Wildwood"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Counter Terrace",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhoyszPdDJP6ciknYO0hOPxI6jukXlU7ctOhuDG_Zi73QDm-EdkNmqmctDAdAVvMA3X_wO-xu6815fv7ZqdyHtg7ygh4HmOyQv33084kKYM5w/330x192",
+    "opcoes": [
+      "Heaven Guard",
+      "Copper Coated",
+      "Firestarter"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Silver",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhh3czbeDFU6c6JmImMn-O6Nb3Txz9TsZZ107qR84qs3Q3m-0prZzyncIGdIVA4M1vRqFW2l7vrhoj84soh4IEyPw/330x192",
+    "opcoes": [
+      "Insomnia",
+      "Hard Water",
+      "Chainmail"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Sonar",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhh3szFcDoV09G3mIaEhfrLP7LWnn8fsMQp3eqYrNmg2FXgrUVsajz0J4OSIFQ6N17TrADtl-bph5G17cuamGwj5HefKFtC5g/330x192",
+    "opcoes": [
+      "Wildwood",
+      "Irradiated Alert",
+      "Popdog"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Metallic DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhh3szdYz9D4uO6nYeDg7mgariClDMFusQh2LiTo9nw0FCw_UU6Y2ymdtOXclBtZl6B_AXolby-m9bi6yrTVV9L/330x192",
+    "opcoes": [
+      "Chainmail",
+      "Memento",
+      "Heaven Guard"
+    ]
+  }
+]

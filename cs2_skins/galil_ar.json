@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "name": "Metallic Squeezer",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbYQJN-tmkhIGYhMjkMrLfglRB7ctOh-zV9IDKhF2zowdyNjjyLNKWcVRsNwrR_QS5yOfrhcW8vZTKwHpiuCYg5nfZmUO20EkfOPsv26KQpDttZA/330x192",
+    "opcoes": [
+      "Kami",
+      "Rainbow Spoon",
+      "Akoben"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "NV",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJS49Cvq4eZkvL6DLzQmmJd18l4jeHVu4qjiVDj-kc5Zjj2dtCWJwE-aVzZ_QfokOq-gMK9uMnPyidj7iAm5HnD30vgJMIz2RM/330x192",
+    "opcoes": [
+      "Sugar Rush",
+      "Cold Fusion",
+      "Chatterbox"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Rainbow Spoon",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczJYAJW5ci3momemsjmMrLflGRG18JwhuDN9J7KhF2zowdyMmumcYKSdwFsZwyBrFjvx7u50Z68vp2cySEy6HEntH-JlhK-hR1NZ_sv26LF_ERQbA/330x192",
+    "opcoes": [
+      "Cerberus",
+      "Grey Smoke",
+      "Cold Fusion"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Robin's Egg",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbfjh9_tO0nY6YkvDzDLfYkWNFpsF12bnE8NTx0Ffm_0RpZmqiJYaTIVM6M1DXqFi2xL26jMDo6ZnByHJ9-n519j48GTc/330x192",
+    "opcoes": [
+      "Cerberus",
+      "Cold Fusion",
+      "CAUTION!"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Grey Smoke",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbfj5K0966m5KJqPXjDLzQmmJd6ddOhuDG_Zi7jAO2_0tqZWuidYWTc1M-aFrSqVi9lLvmjMO875iYzSZluCJ05CnayQv3308a6uTYKQ/330x192",
+    "opcoes": [
+      "Signal",
+      "Dusk Ruins",
+      "Sandstorm"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "O-Ranger",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbfjh94863moeOqPH4OrjaqWdY781lxLjEod_x0AKy-hdqMDrwJYHBd1U-aV_S_FXswOy6gpa1757MzHY17ig8pSGKCxJIv1g/330x192",
+    "opcoes": [
+      "Urban Rubble",
+      "Signal",
+      "Sandstorm"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Acid Dart",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaDh99dm6mI-cqOLnMr3ummJW4NE_3e3HodrxjQPgrktqMD-id4WUIwc5Zl-C_lK4w-a9gZG478zInXA2uD5iuyjv-Cttjg/330x192",
+    "opcoes": [
+      "Blue Titanium",
+      "Rocket Pop",
+      "CAUTION!"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Control",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczPcDFL4OO1m46fhfj4DKjFhGJa7fp9g-7J4cKj3gfh_RE_Mjj6JY7GIQ8-Nw7WrgC5kubq15XtvZTBm3tj7CN043vZgVXp1i0izzaL/330x192",
+    "opcoes": [
+      "Signal",
+      "Shattered",
+      "Kami"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Green Apple",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbfgJF_tmzmr-HnvD8J_WCxjsHuZFz0rqY946h0Ae2rxBuYzr2LYPDcQ5oY1iGqFS6kObqhMS_ot2XnrGWJTew/330x192",
+    "opcoes": [
+      "Cold Fusion",
+      "Amber Fade",
+      "Crimson Tsunami"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Rocket Pop",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mIGZqOf1Ia_YlWdU-_p9g-7J4cKt3wfmrUVoN2zwcNTGe1Q-Ml_T-Fe6wOjqgMK46pTAyHBn7ihxtCyOgVXp1nGGEdIU/330x192",
+    "opcoes": [
+      "Green Apple",
+      "Winter Forest",
+      "Vandal"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Orange DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJG6My3gL-Ehfb6NL7ummJW4NE_0r2YrI2l2gex_UI6ZT3wcoHBcgU-YFrV-FC6w-y90MLt6cmdzyFh6D5iuyiP2N48lg/330x192",
+    "opcoes": [
+      "Black Sand",
+      "Connexion",
+      "Acid Dart"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Tuxedo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbfgJN_t-3q4yCkP_gfe7VlDwJv5Up3r-V8Nym2Vfi80U9NmumI4WVJw83Zg3Q-1S8x7_o0Mei_MOe7tXEvoo/330x192",
+    "opcoes": [
+      "Vandal",
+      "Stone Cold",
+      "Urban Rubble"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Hunting Blind",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbYQJP6c--q5OHluT8NqjummJW4NE_jLrCpInz0QCx_kE9Mm-gctOWIQVsMFrY81Hrwbrq1MW8u5vNwHJj6z5iuyisRUXXMw/330x192",
+    "opcoes": [
+      "Akoben",
+      "Winter Forest",
+      "Sandstorm"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Signal",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJF7dC_mL-YnvD6MrfuhG5V18l4jeHVu4iiiwbirUZoNT30JtPGdgM_YVHUrwC5xufu0J--vZ7NzydjuyMj7HjD30vgGbTJvko/330x192",
+    "opcoes": [
+      "Dusk Ruins",
+      "Connexion",
+      "CAUTION!"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Stone Cold",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczPYgJF7dC_mL-FnvD8J6zYmGxu5Mx2gv2P94-i2VK2-xFlYmnxcoSXcQI2N1vZ-lC7k-m70JPt6sudz3JruCl35WGdwUJVtppLKg/330x192",
+    "opcoes": [
+      "Chatterbox",
+      "Vandal",
+      "Crimson Tsunami"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Cold Fusion",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJM-d-6kYGZqOT_JrfdhVRQ-dBwteXI8oThxgO18hVkZ2D0dYPAcwE6aV2D-AXtle7m0MW-v8mYynJk6HMhtn_bzBapwUYblbqPB00/330x192",
+    "opcoes": [
+      "Connexion",
+      "Black Sand",
+      "Hunting Blind"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Cerberus",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJB6c60hpWYqPD1P7LdqWdY781lxL6XpN6g2FLt_kY_ZW-gdtSUcgY6YViF-AftwOrqjMXpu5nKy3JhsiI8pSGKMID8wt4/330x192",
+    "opcoes": [
+      "Kami",
+      "VariCamo",
+      "Metallic Squeezer"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Akoben",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbYQJF7dC_mL-KnPj2NrXummJW4NE_2bzArImiiQSyqkpoYDigJobBc1Q_ZV2E-Vfsl-27gcXv6p7KmiFrvj5iuyi21EXlxA/330x192",
+    "opcoes": [
+      "CAUTION!",
+      "Eco",
+      "Control"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Kami",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJF7dC_mL-Alvr9DLfYkWNFpsMg3bGSot6kigHn-ks5MmzydtXHdQ43YQqG8wLqwe7ngcfq78nKnHF9-n51KnSskEo/330x192",
+    "opcoes": [
+      "CAUTION!",
+      "Black Sand",
+      "Eco"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Winter Forest",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJE486zh5S0gP76J77DqWdY781lxLvApY723Vfj80c6MG_0LISWcgJrM1uFrFe2lOq5hZHvus7AyyZg6HY8pSGKRerlrt4/330x192",
+    "opcoes": [
+      "CAUTION!",
+      "O-Ranger",
+      "Blue Titanium"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Shattered",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJB_sm7hIyOqPXmMq3eqWdY781lxO_C896g0AbjqEM5NWH7dtfGdVM7M1jV_Fbrkrrq1JHo7sicyXNksyE8pSGKk7HxPnU/330x192",
+    "opcoes": [
+      "Sandstorm",
+      "Stone Cold",
+      "Vandal"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Firefight",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczPYgJF7dC_mIGZqP76ML7fk3lQ_MpjteXI8oThxgLi8kpsYjv7IISWdAdsZV7R-lntlLrv1JO5ucvMzHVmsiMrsX_UnECpwUYbQtacsVs/330x192",
+    "opcoes": [
+      "Blue Titanium",
+      "Rocket Pop",
+      "Kami"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Tornado",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbfgJW4864lYSEqPv9NLPF2GpX7MQg2L-Xrduj3gW2_EpsZD31LY-WcFA4ZwnU_wW9lOm8jZO5u57XiSw0hVyIK9Y/330x192",
+    "opcoes": [
+      "Amber Fade",
+      "Connexion",
+      "Phoenix Blacklight"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Connexion",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczPYgJF7dC_mL-bn_jxPbLJqWdY781lxL-TrNysiQKx_ENkMmz1cY6TdQ9saAmB81O8xLy-gZW07pzMyntmuyE8pSGKkI_dO7s/330x192",
+    "opcoes": [
+      "Sage Spray",
+      "Destroyer",
+      "Metallic Squeezer"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Vandal",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczPYgJF7dC_mL-dlvnwMrfummJW4NFOhujT8om73QXg_xBvN26nJNKUdQ43MwvVq1O7le2-g5TqvZiamiZrvSZx7HfYmgv3308glBa-KA/330x192",
+    "opcoes": [
+      "O-Ranger",
+      "Urban Rubble",
+      "Rocket Pop"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Dusk Ruins",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJQ-dW4h7-ZkvPLP7LWnn9u5MRjjeyPoNql0QzmrkNsYj_3dteTJ1U6YwmE-ljoyO_s0JW_75yfnSNruyAqs2GdwUL23BtaYw/330x192",
+    "opcoes": [
+      "Chatterbox",
+      "Hunting Blind",
+      "Phoenix Blacklight"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Phoenix Blacklight",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbYQJS5NOzmomTqOP1NKjuhn5D-Ml0teXI8oTht1i1uRQ5fW-hI4eXewRvM1rR_1m-yejv15fo6JrIzyFm6XUr4HmPzBy-gBtOO7ZxxavJgVS957U/330x192",
+    "opcoes": [
+      "Destroyer",
+      "Winter Forest",
+      "Hunting Blind"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Chromatic Aberration",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mL-In-X7PrruhmJf4_p9g-7J4bP5iUazrl05YWCgdo6WelJrYA6D_FK_ybrsg8PovsnOy3Rg6Cd0tiqLnhXmhUxEcKUx0gvh2894/330x192",
+    "opcoes": [
+      "Dusk Ruins",
+      "Robin's Egg",
+      "Aqua Terrace"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Amber Fade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczJcAJE7dizq42Og_b4P7LSqWdY781lteXA54vwxgLt-kNrYGinIdWVJg47ZljV-ADok7y-h8K-uJnIz3NmvHEktHbbzUSpwUYbYlKnFS0/330x192",
+    "opcoes": [
+      "Eco",
+      "Acid Dart",
+      "Sugar Rush"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "CAUTION!",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbYQJF7dC_mL-IluLgOrTfqWdY781lteXA54vwxlLj-0ZoZ2n2LdLBdVU9Nw7V_VG3kua-hJK1v5vNyiZi73YgtHqJy0CpwUYbP5wvhIY/330x192",
+    "opcoes": [
+      "Cerberus",
+      "Cold Fusion",
+      "Metallic Squeezer"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Destroyer",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mL-PkuTgIbTIk3lu5Mx2gv3--Y3nj1H6-0NvY2HzLYDHcQRtMFCD_FO7w7u7h5K9tJrBmiNi73MnsHjZnEa0hwYMMLIchV7usw/330x192",
+    "opcoes": [
+      "VariCamo",
+      "Grey Smoke",
+      "Tuxedo"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Sugar Rush",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mL-IlvnwKrjZl2RC18l4jeHVu9uliwWwqRJqMGuncY-cdFNtZ17Wq1O4wbzphZLvu5vJnHJi6HIg5SvD30vgL7LkLAY/330x192",
+    "opcoes": [
+      "Chatterbox",
+      "Amber Fade",
+      "Black Sand"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Urban Rubble",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJU7c6_l4GGmMjhIbnQmFRd4cJ5nqeRoY6hjAPk8hVtMmqncYeVe1U5YF_TrlTrl-vqhJ69vZ7Bm3BnvXUi-z-DyJO1o6Z1/330x192",
+    "opcoes": [
+      "Amber Fade",
+      "Cerberus",
+      "Phoenix Blacklight"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Aqua Terrace",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczJfAJF6dO7kZSZnvTLIK_Uhnhu5Mx2gv2P84ij3FDnqUFqMWD0cNeWIQY9MArQ-ljryO-7hsC5v87AzCdrvHNx5WGdwUKopTQuwQ/330x192",
+    "opcoes": [
+      "Rainbow Spoon",
+      "Akoben",
+      "Signal"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Black Sand",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mL-Khbr3MrbeqWdY781lxL-Sp9unigHgrkpvN23zIIWWJA5tNA2D_lDrl7u8h5a8uMnMyHtnu3Q8pSGK6neZ1Cc/330x192",
+    "opcoes": [
+      "Hunting Blind",
+      "Grey Smoke",
+      "Phoenix Blacklight"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Crimson Tsunami",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbYQJF7dC_mL-cluHxDLfYkWNFppVw3r6XpIn3igLi-0duazj0I9eTcAQ2aV3Q_1XrwL3rgcXqvJ7AzHt9-n51xe-nTf0/330x192",
+    "opcoes": [
+      "Sandstorm",
+      "Control",
+      "Vandal"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "VariCamo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczAaAJU7c6_l4GGmMj4OrzZgiUFsJwij-3E89qt2wzh-Us6Mj2gd4bEdQ8-MFiFrlC9w72705Tqvc_A1zI97VeOATXT/330x192",
+    "opcoes": [
+      "Eco",
+      "Robin's Egg",
+      "Blue Titanium"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Sage Spray",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczbYQJR_M63jb-PkuTxIa_uhWpW7fp9g-7J4cKm3FLl-UVkMGugcoeXJwE5aFzV-Vnsxu_rhZK5usnKznNl7igj5HvfgVXp1li1IAsv/330x192",
+    "opcoes": [
+      "Vandal",
+      "Destroyer",
+      "NV"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Blue Titanium",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczJfwJW5ci3momemqSkJYTdn2xZ_Isl2L-V8NTwiwW3rhc-YDugcYWUIw43MlHT_gK4wu690ZO66JnBySFipGB8sqXilvyj/330x192",
+    "opcoes": [
+      "Kami",
+      "Chatterbox",
+      "Green Apple"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Sandstorm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJR7dKyh5SEhfrLP7LWnn8fuJUp07qWot6ijQPhqRVkZ2mnJtSQcwdqYgzY_li9kO_t15Pp6J-Ymmwj5He-V7Mj7w/330x192",
+    "opcoes": [
+      "O-Ranger",
+      "Blue Titanium",
+      "Amber Fade"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Eco",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mL-OlPjLP7LWnn8fv8Mn3uyT8dui3AbnqUA_Z2v1J9eSdlVvNAyB-1m9ye28h8O4tJqdzGwj5HeCx7zj9Q/330x192",
+    "opcoes": [
+      "Amber Fade",
+      "Sage Spray",
+      "Metallic Squeezer"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Chatterbox",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mL-KleX1ILLemFRc7cF4n-SPodvz2gzjrUE4ZWyld4_DdlBrNAyC_ge4xr_qhZO-7s_PwXRmsnJw7GGdwUI2M1HQMQ/330x192",
+    "opcoes": [
+      "Sugar Rush",
+      "Kami",
+      "Vandal"
+    ]
+  }
+]

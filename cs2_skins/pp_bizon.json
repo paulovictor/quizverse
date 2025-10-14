@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Cold Cell",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlfwOP3Zjxa086jlr-Jnu37PYTdn2xZ_Ityj76RptysiwHh_RFqMWD6J9eWdQQ8ZFGGq1Dtxeu9jcfp6M_KziFqpGB8ste9jtqV/330x192",
+    "opcoes": [
+      "Fuel Rod",
+      "Harvester",
+      "Urban Dashed"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Wood Block Camo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3ZjJN6OOxhoGCmcj3MrbeqXlU7Pp9g-7J4cKm3wSx-xBpZWz7IdPEelRvYAyErFe4x7_rgpO1usyYzyRhuHV0tyzcgVXp1nesyq6P/330x192",
+    "opcoes": [
+      "Chemical Green",
+      "Irradiated Alert",
+      "Photic Zone"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Urban Dashed",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlfwOP3ZTxS6eOlnI-Zg8jhIbnQmFRd4cJ5nqeQod3z21blrUFoMTr1d4-Tdlc5aQuB_1nswua8hZft6JrOyiQx6SEg-z-DyOXCGwQA/330x192",
+    "opcoes": [
+      "Chemical Green",
+      "Antique",
+      "Death Rattle"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sand Dashed",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlfwOP3ZTxS6eOlnI-Zg8jnMrXVqWdY781lxO3C89Wk21Xnqkc6MD33JoeVcwQ6aVqF8gK_krzqgMK8ucnAwXBr7Ck8pSGKKT36elM/330x192",
+    "opcoes": [
+      "Modern Hunter",
+      "Brass",
+      "Cold Cell"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Carbon Fiber",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0v73cjxQ7tO4q4aClfLmDLfYkWNFpsdy3u_D8YnxjgPlqUA-amvxdYSQewBqMAvYrge9kuvvhpa66c6fzHN9-n51aYxySVE/330x192",
+    "opcoes": [
+      "Facility Sketch",
+      "Modern Hunter",
+      "Night Riot"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Candy Apple",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlfwPz3YzhG09C_k4if2afxNuLSl29QuZYkiLGWpdWjigDg_EZuYjjzIdWVIwRqZVvXqAe3l7jxxcjrxCUStXc/330x192",
+    "opcoes": [
+      "Osiris",
+      "Irradiated Alert",
+      "Modern Hunter"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Water Sigil",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3ZjxW6c6Jl5KOhOPLP7LWnn8f65F12ujA8dX2igzj80RsNWH3coWScg9oN1uC8gTtkue50JK0tcnBwGwj5Hf6zmNPeA/330x192",
+    "opcoes": [
+      "Lumen",
+      "Brass",
+      "Chemical Green"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "High Roller",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJlYyHqP76DLfYkWNFpsEi2-jErNvzjQDg8xFpZmmgctOVdFI4YF-EqwC9xOnq1pG76ZWayyN9-n51Ejfp6Vw/330x192",
+    "opcoes": [
+      "Breaker Box",
+      "Cold Cell",
+      "Lumen"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Antique",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJlY6fnubhNoTdn2xZ_Ish3L2Xot2i3QHl-kprZT2icYKXcw9raAuC-Aftyb-9h5bo6p2cz3dgpGB8sj073FQS/330x192",
+    "opcoes": [
+      "Seabird",
+      "Jungle Slipstream",
+      "Embargo"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Blue Streak",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3Yi1O7ciikZK0m_7zO6-fwWoGvJQmjrCUodSgi1G2-UJoazuncIXBcAQ2Y1nZ-VG5webt0Me07YOJlyXH5-nvZA/330x192",
+    "opcoes": [
+      "Antique",
+      "Jungle Slipstream",
+      "Forest Leaves"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Forest Leaves",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlfwOP3fThD-tmlq4yCkP_gfbjUxGoGv5Z13b3CpdmliwXsrUplNziidYWcJgJsZ1_Q8la2kLy7jJ-i_MOeb20uXFE/330x192",
+    "opcoes": [
+      "Irradiated Alert",
+      "Breaker Box",
+      "Antique"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Facility Sketch",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3czFX6cyknY6fqOD8Oq_UqWdY781lxLzArY733QPl-hU5MGj0IY6ddgJoaFqCrwDsyb_u0MXuvJjNn3ti6HQ8pSGKfPrCgp8/330x192",
+    "opcoes": [
+      "Night Ops",
+      "Seabird",
+      "Death Rattle"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Chemical Green",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlfwPz3di9H9eO4gYOHkvbmDLzDk25f18d4kObPyoD8j1yg5UNrYTzxIdSUJFc9ZQ7V-gXvwubqhZW9vJnLzSBr6Ckk7HfezEOxiRxSLrs41lh6pmw/330x192",
+    "opcoes": [
+      "Sand Dashed",
+      "Cold Cell",
+      "Osiris"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Irradiated Alert",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlfwOP3fyhJ6c-ihombksj2IbTGmFRd4cJ5nqeYrN_22VfirhdqMT_3dYSWewQ4aV7V-wS6wOvv18W47ZvIzCRhvCMg-z-DyNmR6zDS/330x192",
+    "opcoes": [
+      "Sand Dashed",
+      "Harvester",
+      "Runic"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Osiris",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49L7m5OChf7nDLfYkWNFppcn0-yRpomkiVDh8ks-ZG-icNSdegI5YVyD_ge6ybroh5Pu6c_MnyF9-n517UL6Piw/330x192",
+    "opcoes": [
+      "Judgement of Anubis",
+      "Urban Dashed",
+      "Night Riot"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Night Riot",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJhomEg8j4OrzZgiUD7pUp3rHDp9v00QXj-UtrY2_xJ4aTJAI3aV_QqQe3lL3vg8Tu7s-c1zI97Wr-owub/330x192",
+    "opcoes": [
+      "Embargo",
+      "Blue Streak",
+      "Night Ops"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Cobalt Halftone",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0v73ZShQ_dO_h4W0n_b4Na_emG5u5Mx2gv2P8N-hjFfgqRI-YT_ycNeTdFQ-ZQqE-AW9kr-715O9v57Amidru3YmsWGdwUKaHgO32A/330x192",
+    "opcoes": [
+      "Cold Cell",
+      "Modern Hunter",
+      "Breaker Box"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Bamboo Print",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3czxP7tO5q4qemfD4NoTYmGBu5Mx2gv2PpYqsjVHi-kI5ajv1IoHAewY3Y1uF8wftwbq-jZ-4v53BwXMy7ydzsGGdwUKILte3Vg/330x192",
+    "opcoes": [
+      "Space Cat",
+      "Runic",
+      "Sand Dashed"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Photic Zone",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJl4mfnu3xPYTdn2xZ_Ity2brArNXzjQPi-hU_Zmv2J4OXcAJrZluE-ADoyO-9jJTt75rOz3FkpGB8slDw9TrO/330x192",
+    "opcoes": [
+      "Runic",
+      "Death Rattle",
+      "Water Sigil"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Embargo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJho-Kk8jjMqnDn2RD18l4jeHVu9WnjFDnqhJsYG31JIeVIwBrYgnW-FTqwe--0JLqtZvMyHtm6yAnsX3D30vgNcmHgVs/330x192",
+    "opcoes": [
+      "Harvester",
+      "Judgement of Anubis",
+      "Space Cat"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Seabird",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlfwPz3cCxX7eOlgI2KhfTLP7LWnn8fuZwh2b_EoY3wiVKwqhY9MmCgJoTGJgZsaV6BrFS_xevph8W9u5vImmwj5Hc4Tmecgw/330x192",
+    "opcoes": [
+      "Bamboo Print",
+      "Night Riot",
+      "Breaker Box"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Fuel Rod",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJmo-TnvjhIITdn2xZ_It1ibrA89mijlXk-UdoZ2GhJoLAdlJqM1DY-Vnvwb_shp_v6cjNzyE2pGB8st2-4asr/330x192",
+    "opcoes": [
+      "Lumen",
+      "Breaker Box",
+      "Blue Streak"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Judgement of Anubis",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJl5WZhPLLP7LWnn8f65Qoie-Urdjx21Hm8xc-Z2DyINKUdwM3MgzT8la3yOfrgJG1uJmdwWwj5Hfykm1Yuw/330x192",
+    "opcoes": [
+      "Candy Apple",
+      "Cobalt Halftone",
+      "Cold Cell"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Harvester",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf1OD3YS197tWsm460n_bmJb7Cgm5D18l4jeHVu9qg3FDm_RdoYD30cYKQegVvYQ2Er1Trwbu-g8TuupTOwXdrvCkqsSzD30vgYAZZ8iA/330x192",
+    "opcoes": [
+      "Embargo",
+      "Chemical Green",
+      "Photic Zone"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Runic",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf1OD3czRY49KJnIWHm-X1Or_UhFRd4cJ5nqfCoo303Azj-UVkMWimLI7HcFM5NwrRrAe9kua8h8Pp6c_LzSZnvyAi-z-DyJDo--1m/330x192",
+    "opcoes": [
+      "Irradiated Alert",
+      "Photic Zone",
+      "Candy Apple"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Lumen",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf1OD3czRY49KJkoyKhP_xIYTdn2xZ_Pp9i_vG8ML02gTkr0ZuYmqnIdDAe1A8NF_UqFTtkOu9jMXptMicm3U273UmsXqLgVXp1pZUfEB1/330x192",
+    "opcoes": [
+      "Antique",
+      "Water Sigil",
+      "Sand Dashed"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Anolis",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3fTRY7c6yq5OAnvnLP7LWnn9u5MRjjeyPodum2VfjrUI4YWjyLYDGdg85YFzQ_wC5w-y8hpC1vZybyCZhuXFzsGGdwULyqHHt-w/330x192",
+    "opcoes": [
+      "Photic Zone",
+      "Urban Dashed",
+      "Judgement of Anubis"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Breaker Box",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0vL3ZjRQ5dKxq4yCkP_gDLfQhGxUppB0ib-QoYmjiwbh8xc4Ym6ndoXDdQ86aFrZ-FG-yb_t05K6usvLnSB9-n51lUAssIw/330x192",
+    "opcoes": [
+      "Bamboo Print",
+      "Night Riot",
+      "Osiris"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Space Cat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJh5CKlPL3Mq_ummJW4NFOhujT8om7iwa38hE-NWD3LdWRIFJoYwuF-VC5wr27h5K4u5jMwHNkvScj4yuJnAv330-6Hkec3g/330x192",
+    "opcoes": [
+      "Wood Block Camo",
+      "Night Ops",
+      "Breaker Box"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Jungle Slipstream",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3czRY49KJgI-ZmcjzIb7UmFRd4cJ5nqeQ9I2l3wKxrxZqMmv2JYfHJAA5Zw6GqFDtxL_s0Mfq78zOyCFmsnEk-z-DyIQLMxpA/330x192",
+    "opcoes": [
+      "Water Sigil",
+      "Antique",
+      "Fuel Rod"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Rust Coat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0uL3YilH6dCJlpKKgfjLP7LWnn8f6cZ037uY8ImjjASxrhU5amj2LdPEJAY6YQrT_FXvlebqhsXv6pXAymwj5HcaiWp-nA/330x192",
+    "opcoes": [
+      "Urban Dashed",
+      "Sand Dashed",
+      "High Roller"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Modern Hunter",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3eShM-Nmkq42Ek_LmPYTdn2xZ_Ish3rGYpN2i3lay-0FkZzuiINCdcgY8MlqD-VO6xeu818LpuZ2YwSFlpGB8sl1JW1qL/330x192",
+    "opcoes": [
+      "Runic",
+      "Night Ops",
+      "Photic Zone"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Brass",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0uL3cy9D_8-JmImMn-O6Mr3SlGlVu8Ai2-_Fptql2FCwqUdpMW2iJNWRelQ4Yl3QqwO5x--5jIj84sokv-FG1g/330x192",
+    "opcoes": [
+      "Wood Block Camo",
+      "Space Cat",
+      "Irradiated Alert"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Night Ops",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3ZzxQ5d-3mY-0mf7zO6_ummJW4NE_jLmUrN_22gCw-kdvYGqmIo7GdVNsYQ3Z-1e9yevtgpbouZvIyyBnvD5iuyhUzb9WHg/330x192",
+    "opcoes": [
+      "Forest Leaves",
+      "Embargo",
+      "Candy Apple"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Death Rattle",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3fzhQ49i_lb-HnvD8J4Tdl3lW7YsniOzHo9msjAHg-0A9Zmr1JY7HdVRoZg7V_lW2levsgpW1uZzIzSRqpGB8spmba0Iz/330x192",
+    "opcoes": [
+      "Modern Hunter",
+      "Forest Leaves",
+      "Lumen"
+    ]
+  }
+]

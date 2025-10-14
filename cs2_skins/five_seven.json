@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "name": "Hybrid",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjtL-tmlkZaOmcj8KrnDn29u5Mx2gv2P8Y-k2VDj8kRlMWmnJdOQegVtYlvWqQW-kr261sS86czOzHc2viAh52GdwUK44ejvSA/330x192",
+    "opcoes": [
+      "Scrawl",
+      "Boost Protocol",
+      "Berries And Cherries"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Midnight Paintover",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjVb09OgkZKbluTnDKvQn2VF59N0mNbV8I35t1i9rBsofTz3ctSWdVRsZQvR_VO9yLvqhZC0ucnIwHAysiYm7XnZnEC2iUpNaexxxavJXU3zafc/330x192",
+    "opcoes": [
+      "Violent Daimyo",
+      "Nightshade",
+      "Neon Kimono"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Heat Treated",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxT09-3h4W0n_bmN77fk29u7sxnj_rE44n7t1i9rBsofWz7JdLAew9oNFiB-FC3lerqgsS_usibyicyuyIk5S2Ly0a3hxpLaOJxxavJ-7yoj2I/330x192",
+    "opcoes": [
+      "Capillary",
+      "Autumn Thicket",
+      "Anodized Gunmetal"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Autumn Thicket",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5N4-O0hoGFlP_xIITdn2xZ_It3iL_HrY2i3FKwr0U_a2_3dYWXIQQ3ZFyC_1O8kOa7h5-0v5ifz3NjpGB8sno2dFyA/330x192",
+    "opcoes": [
+      "Flame Test",
+      "Silver Quartz",
+      "Forest Night"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sky Blue",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5N6eO0mJWOqPb6N4TSnnle5cBOhuDG_Zi73w3k-0I_Mm71J9WQJlA-YQmB-gftwO3n1pG07ZvPwHZg6yYqtinVnAv330--FPI2kw/330x192",
+    "opcoes": [
+      "Jungle",
+      "Anodized Gunmetal",
+      "Contractor"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Nightshade",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjVb09q6m5eOheTLP7LWnn8fvMMo3uzF89r0iwTn-RBtZj-mcNfDIwBsMFmG-FW8xL_r1se07smcnWwj5HeuoxKIvw/330x192",
+    "opcoes": [
+      "Retrobution",
+      "Forest Night",
+      "Fall Hazard"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Contractor",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5N08y7l7-HnvD8J_XUlD1QuJ113rGW89-h2gew8kZqa2D7dtfAdVQ2ZVzT-QO_l-rp0ZS5ot2Xngcmh8ed/330x192",
+    "opcoes": [
+      "Forest Night",
+      "Fowl Play",
+      "Jungle"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Jungle",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5N09ajmoeHksj4OrzZgiVVsZ102LyUp9SmiQy3rRdsajiid9SXdwI-ZAnS_AS7ye66hsK9vpSf1zI97brss9rb/330x192",
+    "opcoes": [
+      "Retrobution",
+      "Neon Kimono",
+      "Sky Blue"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Hyper Beast",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTZj3tU-sd0i_rVyoD8j1yg5RduNj_yLNSQdVQ-M1DS-1e8xbvrh56_vMiczSFnvXUg4X6IyxGzhh5SLrs4rcs7-T4/330x192",
+    "opcoes": [
+      "Retrobution",
+      "Nightshade",
+      "Midnight Paintover"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Flame Test",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjpR09q_goWYkuHxPYTZmX9u-sp1tf_I-oDwnGu4ohQ0J3f1ItXHcVI4YlvWrFXrkO7o1JHquMibmyZguykgtnrUyRXm10sdbbM8m7XAHrBtyPY3/330x192",
+    "opcoes": [
+      "Angry Mob",
+      "Triumvirate",
+      "Autumn Thicket"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Coolant",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjVb09ijl5SYqPDmNr7fqWdY781lxL-Zoo-hiVC1_BJsam37I4TAJ1Q7M1zYqQPol-2618fvupWYwSZk73Q8pSGKLd3ROFw/330x192",
+    "opcoes": [
+      "Anodized Gunmetal",
+      "Crimson Blossom",
+      "Scumbria"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Fowl Play",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxT04nhq4aOluP8NqnCqWdY781lxOjArNinjgbsr0Y6N2H1LICRcVQ7ZQqB-gK9wOnohZXotM_PyHdkvyQ8pSGKUj1ARXg/330x192",
+    "opcoes": [
+      "Boost Protocol",
+      "Monkey Business",
+      "Case Hardened"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Silver Quartz",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxP09-kjZOflvv4OqHUklRC4clnj_v--YXygED6-hBpNmuldoPEcQM6YF3S-Qe_l7js1JS06pnIyno3siN3sCvezhOw1wYMMLJHgOIdFw/330x192",
+    "opcoes": [
+      "Capillary",
+      "Nightshade",
+      "Buddy"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Hot Shot",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5N09ukkZm0meL3P77QhFRe-sR_jez-84XjjWunrgU5PQavfdHNNhg_N1HZq1W3k7_uhJG4vczKz3Frv3V05Xbem0G_gR5KaOdr0fHKS1mZGeUXSy0Rtb_k/330x192",
+    "opcoes": [
+      "Candy Apple",
+      "Silver Quartz",
+      "Orange Peel"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Urban Hazard",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTEhGlQ5vp5i_PA54jKhF2zowdyZ2z1LYCTJgQ9NwmG-1G9xb3qhMS0vZ7Jm3UyvSAg7HuMyRW_hhhOaPsv26Lv8Ntyjw/330x192",
+    "opcoes": [
+      "Scumbria",
+      "Neon Kimono",
+      "Forest Night"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Candy Apple",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5N086zkL-HnvD8J_WDz2pUv8cj2L-V94iniQft-xY_NWzydYOUcA89NVqD-FO-w7i70Me1ot2XnkOsbUS5/330x192",
+    "opcoes": [
+      "Triumvirate",
+      "Boost Protocol",
+      "Autumn Thicket"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Angry Mob",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goW0hPLiNrXul2VW-txOhuDG_Zi73QDt80U5a2_yI47AcgI4YwzT_gfrxua9g8S7vpvLwHBruyMn4X6Lmgv3309_I5Y_Wg/330x192",
+    "opcoes": [
+      "Withered Vine",
+      "Scrawl",
+      "Anodized Gunmetal"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Copper Galaxy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxP09-5hJCOhcjyP77SnXhu5Mx2gv2P8d70jgzl_xFrZW71J46dcgI5YQqD_VG9yLrqgJC16c_OzSBhvCkl7WGdwUJRJd5CYQ/330x192",
+    "opcoes": [
+      "Monkey Business",
+      "Hybrid",
+      "Flame Test"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Retrobution",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTDk39D58dknuDO-7P5gVO8v11rNj_3doSVIA5taAmFrlXqx-rphJ66vc7AnXtg6Cgj43zdyRPm0h9NcKUx0kOQhc3i/330x192",
+    "opcoes": [
+      "Capillary",
+      "Boost Protocol",
+      "Hyper Beast"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Triumvirate",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTQg2xc7ctlj-3--YXygED6rhFramH2I9TGcFM6M1DQrFXrlbjphMe875iYznA16HF37X-LnES1gQYMMLIHFR1F_Q/330x192",
+    "opcoes": [
+      "Fairy Tale",
+      "Violent Daimyo",
+      "Retrobution"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Buddy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTWhWwI18l4jeHVu9Si2FCxqEdkNWD2JdKWIwA6Y1iCrgO9wuy5hcfv6J_MnCdiuCUmt37D30vgPQNQyFk/330x192",
+    "opcoes": [
+      "Berries And Cherries",
+      "Violent Daimyo",
+      "Urban Hazard"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Violent Daimyo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goW0hPLiNrXukmpY5dx-teXI8oThxlDn8kdvamGgddOUewE5ZFzW8lm5wOrq0cXquszNwXth7iJ3sX3UzkSpwUYbP1ABv1A/330x192",
+    "opcoes": [
+      "Midnight Paintover",
+      "Nightshade",
+      "Autumn Thicket"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Anodized Gunmetal",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxM09ujmo2Og_b4DLnDl31e18l4jeHVu9r0iVLk-EVsYDj0cdCSdg5oZFvZ_wDow7_ohp7qtJTAn3ZhuSUg5y3D30vgIk2HfTE/330x192",
+    "opcoes": [
+      "Sky Blue",
+      "Case Hardened",
+      "Autumn Thicket"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Crimson Blossom",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjVb096jkL-ZkvPLP7LWnn8f7JQl0-_A9tWtjVXm-EVoamCmJtDEcwM3M1DS_lO-kOa60MLp6sydzWwj5HdUq-XHzA/330x192",
+    "opcoes": [
+      "Orange Peel",
+      "Berries And Cherries",
+      "Angry Mob"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Scumbria",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxT09q_goW0hPLiNrXuhWhE5cdjg-j--YXygED6qRBsZj-gIoKWd1Q2ZV3S_wC-kLzugZbu75rLnHJguHEr7SuMzRK2gQYMMLImO8cY6g/330x192",
+    "opcoes": [
+      "Copper Galaxy",
+      "Autumn Thicket",
+      "Case Hardened"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Fairy Tale",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goW0hPLiNrXukmJQ-txOhuDG_ZjKhFWmrBZyNmn6dYSTJlA8Yl7V8lDrwey715W878mbm3swvyVzsS3fzhHjgxpFbPsv26JFUuNUhg/330x192",
+    "opcoes": [
+      "Neon Kimono",
+      "Boost Protocol",
+      "Capillary"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Berries And Cherries",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxD09q3kIW0hfLwDLndg25u5Mx2gv3--Y3nj1H6qhdqN27zcoeRcFVtZAvT-wS7xunnjZa8tJXNznc2s3Yi4naMlhLmgAYMMLKbsU4JVA/330x192",
+    "opcoes": [
+      "Flame Test",
+      "Urban Hazard",
+      "Withered Vine"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Boost Protocol",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjpR09q_goW0hPLiNrXuk21E-8x-hNbN_Iv9nGu4qgE7Nnf0LNWRdlQ4aAmC_lG6xOi9jJa-u5SYnXJhvyIm43yIlkHiiRlKO-Jnm7XAHvwFf_gW/330x192",
+    "opcoes": [
+      "Monkey Business",
+      "Candy Apple",
+      "Retrobution"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Withered Vine",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5S09G5ho-0g_LsJ7Ldk1RB_ddhhuz-7In5hFujlB81NDG3S9rEMFFrf1zXqQK2wObrgsO46snNziBgvylws3-OyUDmgRFFb-U7hfbPSl7MU6JXXP7Vfra8XYw/330x192",
+    "opcoes": [
+      "Buddy",
+      "Fowl Play",
+      "Nightshade"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Fall Hazard",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X08qzhpSCkPjLNbLHk3hU_sB_teXI8oTht1i1uRQ5fWGnJI-QegBtNF-Eq1W3xOfmg5-7vp3Nm3YxvXZx5n3UnBXlhR9EbeNxxavJUZZT9dQ/330x192",
+    "opcoes": [
+      "Berries And Cherries",
+      "Hyper Beast",
+      "Coolant"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Scrawl",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTQmntZ6fp-h-zG9LP5gVO8vywwMiukcZiTew5qYViE_1K4w--8hMS-v5jBz3dm63F0s3uLmBe-00tMO7FphvWeVxzAUFFwYKtp/330x192",
+    "opcoes": [
+      "Anodized Gunmetal",
+      "Silver Quartz",
+      "Kami"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Capillary",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTHk2Jf18l4jeHVu9ij3FG3_UptMWqgJ9WcIQ48aQmB-wC2leq6h8S8u5udmCNn6Cdz4SnD30vgWlTck20/330x192",
+    "opcoes": [
+      "Silver Quartz",
+      "Midnight Paintover",
+      "Angry Mob"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Nitro",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5N09OklY6Mksj1MLjUmH9C18l4jeHVu46giVbnqhVtYj2mIo7HewZtMFCC-1nrwuvm1MW8v57BnXMyuHQls3vD30vg017TRpU/330x192",
+    "opcoes": [
+      "Monkey Business",
+      "Fall Hazard",
+      "Buddy"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Neon Kimono",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjVb09e_mY-FmMjwOrrcmWVV-_p9g-7J4cL20Abk_UM9YGihI9ORIAc5Ml_TrwO5x7i7jZHvvJTJynUyuXVwtHvfgVXp1nx5COAq/330x192",
+    "opcoes": [
+      "Capillary",
+      "Kami",
+      "Hyper Beast"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Case Hardened",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxT09O_mIWPqPv9NLPF2G1V6cQh07yVoN-s3gG2-RE5amqlLNfEewZvNFzW8wW3w-i51MW46ZrXiSw0Tr_CS4o/330x192",
+    "opcoes": [
+      "Midnight Paintover",
+      "Withered Vine",
+      "Flame Test"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Kami",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjVb09e3mYm0m_7zO6-flW4FsZYojOyVpI6m2Ffi-kdvNW37I46Se1c7Zg3UrFTow-zo0J69vYOJlyXxEGu1HA/330x192",
+    "opcoes": [
+      "Monkey Business",
+      "Scumbria",
+      "Hyper Beast"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Forest Night",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjVb09q5hoWYg8j6OrzZglRd4cJ5nqfH9t6h3Qzs_RE5N2CmI46ccQM-YFrXrFm6xb-50JC_6p7Nn3RnsyMk-z-DyFDWgkdW/330x192",
+    "opcoes": [
+      "Hyper Beast",
+      "Fall Hazard",
+      "Urban Hazard"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Orange Peel",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTi5S08i3hIW0mOX1PbzUqWdY781lxO2WrdjwiwS38kFtYG-mLdCWJAU9MgnQ81W6xbi5gcDpuszIn3dguiA8pSGKjf2ztEE/330x192",
+    "opcoes": [
+      "Kami",
+      "Fall Hazard",
+      "Nitro"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Monkey Business",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTTl2VQ5sROhuDG_Zi72lDj8xJqZWj3d9SWcA9vNQnY81Ltybrvh57p7piayyBnsiV053mLnwv330_hwP2Y_Q/330x192",
+    "opcoes": [
+      "Anodized Gunmetal",
+      "Fairy Tale",
+      "Angry Mob"
+    ]
+  }
+]

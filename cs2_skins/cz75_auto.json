@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "Slalom",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0Ob3cD9R-M63l5S0gP_9J77ulXFu5Mx2gv2Prdinjgy1-BVkYm3xIdLGdwY7M1vX-1jtl-npjJDvvZWdmyRkviAns2GdwUJYYFN1tQ/330x192",
+    "opcoes": [
+      "Indigo",
+      "Tuxedo",
+      "Tread Plate"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Copper Fiber",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73cjxQ7tO4q4aClfLmDLjLwT5u5Mx2gv2P9NrzjQbl-EdvYWz7INWQcwFsaFGDq1Toxbq8gZW9u5rNnXpkuiUh5mGdwULr-4jNwA/330x192",
+    "opcoes": [
+      "Tread Plate",
+      "Xiangliu",
+      "Jungle Dashed"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tuxedo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZfwPz3fi9B7eO6nYeDg7msZ-KBzj0E7cdw2b_CpdX2i1Dj_hJlMWilLYWRdgNoN1qF8we8k-a5m9bi6-1tbAt1/330x192",
+    "opcoes": [
+      "Hexane",
+      "Eco",
+      "Framework"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Twist",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73diRQ7cizq4yCkP_gfeKBkDIGu5Moi76Yo9WgiQOyrxA-ZWrwdY_Ge1c3NF3WrFO3kO7q0ZOi_MOeMT7uSi0/330x192",
+    "opcoes": [
+      "Green Plaid",
+      "Eco",
+      "The Fuschia Is Now"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Crimson Web",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf2-r3ZjhA_-O6nYeDg7mmY-KClD8C6cB3i7GT8Imj3wXnqEdrYWr7INPEcA49NwyE_lXowezsm9bi61EmokZ_/330x192",
+    "opcoes": [
+      "Circaetus",
+      "Slalom",
+      "Poison Dart"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "The Fuschia Is Now",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73dyhR79S_lb-HnvD8J_WIlWoFupQp0rqUod6jiwPt-kdkYTjwcIHGIQVsYViE-lHtyOvn0ZK8ot2Xnq5iU-8q/330x192",
+    "opcoes": [
+      "Xiangliu",
+      "Distressed",
+      "Red Astor"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Pole Position",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0Ob3cicVueOmhoWInuT9PLXummJW4NE_i7nFpYn00VDt-RU6ajr2J4PGIFJvMFGD-lbvwL_mgMe5vZXImHph6D5iuyh7hT4MJQ/330x192",
+    "opcoes": [
+      "Midnight Palm",
+      "Tread Plate",
+      "The Fuschia Is Now"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Victoria",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0uL3dClB5Nmyq4ORwKLLP7LWnn8fvcNw3eyV89mj3gTkrhU5Mjqmdo-cIw86aQvWrAC7lb3sg5K07Z6bwGwj5HdaraW_tg/330x192",
+    "opcoes": [
+      "Eco",
+      "Hexane",
+      "Distressed"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Nitro",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZfwPz3fi9D4tuzq4GIlPL6J6iDqWdY781lxLGVoY7x3lDk-hA5ZDr1LYKddAU8ZguFqFW6k-jq157vu86azXs1uHQ8pSGKeLV-W1Y/330x192",
+    "opcoes": [
+      "Eco",
+      "Army Sheen",
+      "Emerald"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Tread Plate",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73dTRD4dO4kL-bm_bgNoTdn2xZ_It0jL2ToI-t2la1rkY4am7ydtKQJwdraAvV_gO3krrt05-1vsjNnHNlpGB8shn635Ab/330x192",
+    "opcoes": [
+      "Xiangliu",
+      "Red Astor",
+      "Pole Position"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Hexane",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf2-r3czFX6dSzjL-HnvD8J_WBxTlUvMch07CYrd-liQDhr0RoYGCnJIHDI1NoZ16C8lO3yL_uhZPqot2XnnI1PsT0/330x192",
+    "opcoes": [
+      "Silver",
+      "Syndicate",
+      "Tread Plate"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Poison Dart",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73fzRW_tOxkY60m_7zO6-fk2oA7JQmjL7EpY700VK1_EJtYW-iIIDHcVRvaFGCrFO7ybq508O-uYOJlyUWxV7F4g/330x192",
+    "opcoes": [
+      "Twist",
+      "Slalom",
+      "Emerald Quartz"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Yellow Jacket",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0Ob3cicVud2Jl4iKhOP9Kb7DqWdY781lxO2Sp9-hiwPl-RBvMGn1LNfBIFRoNV3X-1ntxejn1pG7tMvLyndi7nQ8pSGKLZrRnqo/330x192",
+    "opcoes": [
+      "Distressed",
+      "Emerald",
+      "Hexane"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Eco",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0Ob3cicVueOzl4-0m_7zO6-fxzJQ6ZJz07iV9I-i2Q3i8xZrYDigII7Hcwc8M1GG_gK2wO_p1pG6u4OJlyX1lloaZw/330x192",
+    "opcoes": [
+      "Midnight Palm",
+      "Twist",
+      "Tuxedo"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Army Sheen",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73cC9P9eOlnImFksj4OrzZgiUDvpIi3O2VrYn02A21_kFkZzimdofGJAc_Y1HSqAK9lObo1JO6vpjI1zI97bVJKki2/330x192",
+    "opcoes": [
+      "Tuxedo",
+      "Imprint",
+      "Green Plaid"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Red Astor",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf1OD3cicVud2JhoWPluTgPKnummJW4NE_j7mR8Nqt0A3s_RBpY2H0I9eUcgVoNF7Wrla-l7q5hMDvvZ6bmydr6D5iuygHt3zVOw/330x192",
+    "opcoes": [
+      "Hexane",
+      "Distressed",
+      "Yellow Jacket"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Green Plaid",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf2-r3YTFD5djkq4yCkP_gfeODkzgIucdw3LjCpdWnjVex-UVpNmqhcNOUdAQ9ZgmC_wC7wO7uhpai_MOeD-HdyvQ/330x192",
+    "opcoes": [
+      "Framework",
+      "Indigo",
+      "Imprint"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Indigo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZfwPz3eDNG5du5q4GFk8jzIb7IqWdY781lxLvFoYis2FHj_UM-YmD6IYSXcgA6NFHW-VTqwLu50cS9vc6dmCBgvnY8pSGKpcLqcxk/330x192",
+    "opcoes": [
+      "Tacticat",
+      "Victoria",
+      "Yellow Jacket"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Emerald Quartz",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73ci9b_8i3mIyCjfLwDLzDk25f18l4jeHVu9r0jQXt-RA-NW30doTGIAc_NAvU_Qftlb291MK8u8zPmHVr7HIhs3jD30vgqXoI3TY/330x192",
+    "opcoes": [
+      "Xiangliu",
+      "Twist",
+      "Yellow Jacket"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Imprint",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf1OD3cicVueOihoWKk8j4OrzZgiUJ65cm3O3Dot-lilbn-EdrZDiidYOXJAFvY1vY-FTow-fq0Je4v5vN1zI97U0IONk-/330x192",
+    "opcoes": [
+      "Chalice",
+      "Twist",
+      "Eco"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Distressed",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0Ob3cicVueO1kZKKnPjgNoTdn2xZ_IsjjLGTrdr00Ve1-UBtYDrxJ9WTJg9vNVCE-wK3xejqhcPqtJjPmnFkpGB8stao0_46/330x192",
+    "opcoes": [
+      "Midnight Palm",
+      "Framework",
+      "Nitro"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Jungle Dashed",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZfwOP3ZTxS6eOlnI-Zg8j-JrXWmm5u5Mx2gv3--Y3nj1H6_kNtYmr0cIeTd1NqNQmB-FLokuq7h8e56cidn3di7HJxsyrczUblgwYMMLKsLJr0kw/330x192",
+    "opcoes": [
+      "Tigris",
+      "Yellow Jacket",
+      "Xiangliu"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Vendetta",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf1OD3cicVueOgkY6PkuPgMoTdn2xZ_Pp9i_vG8MKliwex-UppNmHxcI6UcQdsYFiF8gXvkOy-hJO6tMjMzno17yAj4HvcgVXp1s4D2v3Y/330x192",
+    "opcoes": [
+      "Circaetus",
+      "Hexane",
+      "Polymer"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Silver",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v33YjRO-tmkq4yCkP_gDLfQhGxUpsEo3L-XoNr03FK3_hFtazvwJ9fBcQJsMgzYq1Toyb28gJbuvcvBwSd9-n5106iv1pk/330x192",
+    "opcoes": [
+      "Red Astor",
+      "Yellow Jacket",
+      "Twist"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Circaetus",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0Ob3cicVueOhnImZm-D9Pb_ummJW4NFOhujT8om70ALi-0prZGn0IICTdwNtYl3QqAO5k-7ngse0752fyCRi6CUnsX_cyQv330-K5zDKuQ/330x192",
+    "opcoes": [
+      "Distressed",
+      "Framework",
+      "Yellow Jacket"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Syndicate",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf1OD3ZS9D5dKJl5rcwsj4OrzZglRd6dd2j6fFpd2i0FbkrUE_Z2mgcIKRIwU2NV2D-lO_xL_ohJO-vpzNmiBi6XUq-z-DyH1IqVIT/330x192",
+    "opcoes": [
+      "Polymer",
+      "Eco",
+      "Green Plaid"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Midnight Palm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZfwOP3YTxO4eO4nYeDg8j4OrzZglRd6dd2j6eY84iljQXnqEU_NTuhJYLAJFRqNVDR_VK8kr_qh8C6uMvKynU2snUl-z-DyJCx_kND/330x192",
+    "opcoes": [
+      "Twist",
+      "Vendetta",
+      "Hexane"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Framework",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf2-r3ZzhQ-NWxm4mHm-LnOrTfqWdY781lteXA54vwxgWx-RU6ZW-ldtLBcFI7MA2B_1e4xOe-gsPo6ZyamnE17iUl5Sndn0GpwUYbngpAUs8/330x192",
+    "opcoes": [
+      "Vendetta",
+      "Distressed",
+      "Twist"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Polymer",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73cidUvuO7kr-HnvD8J_XUzzJV7MAj07rEoNrz3gWw_ERlY2GhLIWXdFI8MFDZ-1S7wubmgp6_ot2Xnh9O--Qm/330x192",
+    "opcoes": [
+      "Indigo",
+      "Emerald Quartz",
+      "Copper Fiber"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Tacticat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf1OD3cicVueOilYOfnvT1J4Tdn2xZ_It0jrDD9N7z3le28xU4ZjzxdYTHdFVoM1mC8wC-k7_r1p6775TKnCFgpGB8stXRbcWP/330x192",
+    "opcoes": [
+      "Polymer",
+      "Framework",
+      "Emerald"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Chalice",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73YzJb7dCJmImMn-O6NeLXwWlVsMAk2buQ842l3QPmqhc_YTv0I4aQcgA-aQ3V_1a-krq-04j84sqdvOTuGQ/330x192",
+    "opcoes": [
+      "Tread Plate",
+      "Victoria",
+      "Polymer"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Xiangliu",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf1OD3cid9_9K3n4WYqOfhIavdk1Rd4cJ5nqfApdqg0Q2yqhFtN27wJ4OXJFI3ZliGqVG9xOi8h5e575jJmiNk7ylz-z-DyEHqwXVj/330x192",
+    "opcoes": [
+      "Syndicate",
+      "Circaetus",
+      "Framework"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Emerald",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v33dDBH_t26kL-HnvD8J_WElT8Gu5Eg27iVotv00Azg80ZtMDimIo-ceg45YAuCrFbtyenv1sW6ot2Xntd6B4y4/330x192",
+    "opcoes": [
+      "Victoria",
+      "The Fuschia Is Now",
+      "Yellow Jacket"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Tigris",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0Ob3cmoX7ZGinYeOhcj4OrzZgiVTv5AliLzAot_20FLmqUFsZGD3JtPHcgI4NA6EqAW6kr-70Ja4uZzK1zI97c1w2kE2/330x192",
+    "opcoes": [
+      "Silver",
+      "Victoria",
+      "Midnight Palm"
+    ]
+  }
+]

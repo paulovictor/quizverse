@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Rebel",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b09qkkYWPmPrLP7LWnn9u5MRjjeyP946i0QHs_kFuYTj7LNKRJlI9M1nV_li_xL3qgJS778yazidmuid25GGdwUJ41XiT4g/330x192",
+    "opcoes": [
+      "Flash Out",
+      "Remote Control",
+      "Isaac"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mummy's Rot",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b09GjmY2SqPv9NLPFqWdQ-sJ0xOuWpY7w3VG3-0BtMmn2J47DJwVrZgrU-AW-kOzu0Zfv6c-cwXRq7yE8pSGKPIH688Y/330x192",
+    "opcoes": [
+      "Bamboo Forest",
+      "Safety Net",
+      "Terrace"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Slag",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjh01vCRTjdX4tevlZKPqPL6NLLfk25D4ct2teXI8oThxg3sqUppZzrxJ4SVewRoMFHU8gW4ku69gZDo75mcz3oysnNztHjbnBCpwUYb_AiXdm0/330x192",
+    "opcoes": [
+      "Ossified",
+      "Tornado",
+      "Re-Entry"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tiger Stencil",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhz3PDATilL69mkq5Ofkvn3Orfugm5Ssfp9g-7J4cKgjAXt-RJuMGv6coeRelI4aF_W-lbsx-69hp_vtJXBz3ZrunQmt3rVgVXp1oaiBklH/330x192",
+    "opcoes": [
+      "Remote Control",
+      "Avalanche",
+      "Garter-9"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Garter-9",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhz3Pb3YjND59mln4mFqPv9NLPF2GgIvsEi37zD8Yr00VDgrkdlZD37LYOWI1U-aFCC81Lsw7rqg8TuuZTXiSw0q6ibfrQ/330x192",
+    "opcoes": [
+      "Mummy's Rot",
+      "Phoenix Chalk",
+      "Bamboo Forest"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Blue Blast",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhz3MzcdDxO09C_k4if2fGtZuuIwj1X6cRyjuqYotjxjlHkr0dlZGqhLNXEJgdrNAqC-FK2wrvxxcjrunGLpbc/330x192",
+    "opcoes": [
+      "Orange Murano",
+      "Phoenix Chalk",
+      "Slag"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Citric Acid",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhz3Pz3YTxL4siJh5CHluPnDKLUmmde__p9g-7J4cKs0QTmqhVlYT36JoOdIFA2MAmE-FDvxLzp05S57ZicmHsxuSAht3aOgVXp1uugYRJ9/330x192",
+    "opcoes": [
+      "Brother",
+      "Hades",
+      "Re-Entry"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Raw Ceramic",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhz3MzLdC9D4dW1q4yCkP_gfe3Sxm5U7pEiiLGWpt6l2QSwqUFrMG76J9eVIQA5Z1rYqAC6lefu08Si_MOeoQtOxqY/330x192",
+    "opcoes": [
+      "Jambiya",
+      "Titanium Bit",
+      "Toxic"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Whiteout",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhz3MzfeTRW6dOjgL-fkvStDLfYkWNFpsRz0uiV84mh0QG1rkE9ZGvwctXHJA4-YQnQ_VO3wrjv0ZXp6Z3OzHt9-n5185nYV5I/330x192",
+    "opcoes": [
+      "Fubar",
+      "Cracked Opal",
+      "Bamboozle"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Titanium Bit",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhh3szOfShW6diJgIWIzsj4OrzZgiVT7scl37mXpNmliQLj_hFuZz3wJYGdJAI7Zl3Q_QXsw-fvhpW6uMnP1zI97ZyCKvWN/330x192",
+    "opcoes": [
+      "Orange Murano",
+      "Snek-9",
+      "Avalanche"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Bamboo Forest",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszKcDBA49OJnpWFkPvxDLfYkWNFppYg2L-Zodmljla2_hFpMGvxJofAdFNvMAyCr1a_w-q805656p6cyCZ9-n51ulNTsPw/330x192",
+    "opcoes": [
+      "Bamboozle",
+      "Toxic",
+      "Garter-9"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Snek-9",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b08-4lYuOqPv9NLPF2DIBvpAh27zEoNnxiVXg-kpsMWD0dY7HIQY9YlHS_wTqwb-615ft7snXiSw09bfpQ0A/330x192",
+    "opcoes": [
+      "Garter-9",
+      "Safety Net",
+      "Phoenix Chalk"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Nuclear Threat",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhzw8zGZDZH_8iknZCOqPDmNr7fqX9U65xOhuDG_Zi72ATi_EBvYG_xIdTDcwdoNwnZ-QW5weu70cO5uZ6bzSBh6HYks3ffzAv3308KZ1bYLw/330x192",
+    "opcoes": [
+      "Blue Blast",
+      "Rebel",
+      "Garter-9"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Remote Control",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhnwMzcdD4b09m4go-SqPv9NLPF2DsHsMcpieuV8IiljgDk_UdqYW37JobHJARtN1vUrwLtxb3sjcK07p_XiSw06UaFxPk/330x192",
+    "opcoes": [
+      "Mummy's Rot",
+      "Fuel Injector",
+      "Garter-9"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Brass",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhhwszKYzxR_-O6nYeDg7mkNuyJwD0E7pEo3uySrNz02ALgqEs9a2r7JIWVIAI6ZFDV-VfqyL-6m9bi6w7M2nK8/330x192",
+    "opcoes": [
+      "Cracked Opal",
+      "Fuel Injector",
+      "Urban DDPAT"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Red Quartz",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhh3szLYyRR-N26mImRkvPLP7LWnn8fv50miL7A8N6s0Vfn-BJsY2r2JYOQcQFqZFvT_wO9ybrqjZ_pvsjAn2wj5Hc2tBLiaQ/330x192",
+    "opcoes": [
+      "Mummy's Rot",
+      "Slag",
+      "Bamboozle"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Tornado",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhz3Mzcfi9M7di5q4KZluH7DLfYkWNFpscoiOrA8NSljlXl8hJsMmuiJYKSdg46ZVrX_VK9wOnt1pS9tJSam3t9-n510ZX2qrw/330x192",
+    "opcoes": [
+      "Groundwater",
+      "Blue Blast",
+      "Safety Net"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Cut Out",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhhwszcdD4b09--lYyAqOf1J6_UhGVu5Mx2gv2P8Nyh2gGw-xJpZTqiIdeXcAI-M1_R_li7kOu605Tu75mYn3I2syMh5GGdwULq_VC6dg/330x192",
+    "opcoes": [
+      "Cracked Opal",
+      "Blue Blast",
+      "Brass"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Bamboozle",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b0963mYKEmMj4OrzZgiUDvMEp07GX9tikjgfg_xdkMGimLYeTdVc3Yl2D_QO3werogJHqtJic1zI97SuSa_L0/330x192",
+    "opcoes": [
+      "Flash Out",
+      "Cut Out",
+      "Jambiya"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Re-Entry",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhh3szcdD4b086zkIKHluTgDLfYkWNFppV30u3Eotmi2wO3qEBpMjrycIeRIVA5ZVHS_lm9ybq-gcK77c_BzXt9-n516LZ7lec/330x192",
+    "opcoes": [
+      "Ice Cap",
+      "Army Mesh",
+      "Phoenix Chalk"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Avalanche",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b092glYyKmfT8NoTdn2xZ_It0iL-Wp9r02gDk80c-NWylJ9WdIQ5tZliDrlnrkO3ogZS57ZrJwSdgpGB8sqmt10R9/330x192",
+    "opcoes": [
+      "Bamboozle",
+      "Decimator",
+      "Brass"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Ossified",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhh3szHYi5L6sWJmImMn-O6YeLTx24FuMByiLyWrd3wjQKy_0Q-Z2_zcIWWdQRsZAvW_FG_lenpjYj84srtx4T2zA/330x192",
+    "opcoes": [
+      "Hades",
+      "Brother",
+      "Remote Control"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Fuel Injector",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhnwMzcdD4b08-jhIWZlP_1IbzUklRd4cJ5nqfEpon3iwbkrUJsNjimJISSewZoNFHV_VG9k-jvjJ_t786YyCZisiAr-z-DyHMz0KNe/330x192",
+    "opcoes": [
+      "Mummy's Rot",
+      "Rust Leaf",
+      "Avalanche"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Toxic",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszGZD5O6d2kq5OAgvv4IO7ugm5Ssfp9g-7J4cLx0Aew_Bc5ZzryJNLHIQNoMA3Z-FTvxb29gJW978zOmHo373V05ivcgVXp1mJNZYNi/330x192",
+    "opcoes": [
+      "Bamboo Forest",
+      "Fubar",
+      "Groundwater"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Flash Out",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b09q6lZODqPv9NLPF2DIGv5Um3OuU84miiQayrxFlYGr0cNOXIwVoN1-D_gO2x-m6jMS6u5nXiSw0NsQKleo/330x192",
+    "opcoes": [
+      "Remote Control",
+      "Tiger Stencil",
+      "Cut Out"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Jambiya",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhnwMzcdD4b09a3mYKCjvbLP7LWnn8f7JR33ruUp933igPj_0ZqZz_7JNeQcwRtYlHZ-gS5x-bugp_v6pzIyGwj5HdCAt7aPA/330x192",
+    "opcoes": [
+      "Fubar",
+      "Ice Cap",
+      "Groundwater"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Orange Murano",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszFZC9D4tOJm5KKmfDxDLfYkWNFpsZy3OjEp4-kiwe1qBJraj-mJNCTd1RrZg7QrFW-l-rmhsPu7ZjMmiR9-n51DsEi-Cs/330x192",
+    "opcoes": [
+      "Terrace",
+      "Raw Ceramic",
+      "Blue Titanium"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Ice Cap",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhh3szcdD59teOlkYG0hPb4J4Tdn2xZ_Ism2L_HotTzjAzj-RI9YTqgctXEIA9vYV3RqFXsxue8hpe46JjJmHY2pGB8srWWYKT2/330x192",
+    "opcoes": [
+      "Urban DDPAT",
+      "Re-Entry",
+      "Flash Out"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Decimator",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhnwMzcdD4b09izl4mGluP7IYTdn2xZ_Isg27uSo92j2wLi_BZtNz33ItWWJg44aAzY_lXrwubr1JS_uZnNzHNgpGB8smiJY1x5/330x192",
+    "opcoes": [
+      "Fuel Injector",
+      "Army Mesh",
+      "Titanium Bit"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Rust Leaf",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhzw8zEdDxE09OklY6Mksj4OrzZgiUI7MBw07yR84il3FLi80ppY26icNXHcFdtM1uGrFO7xe65hJ_o6suc1zI97aFkZeMA/330x192",
+    "opcoes": [
+      "Fuel Injector",
+      "Garter-9",
+      "VariCamo"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Brother",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhnwMzcdD4b09ujkZKCm_v1DLfYkWNFppIo3LySoY-l0QXg-EVtNjygI4-TJ1VtNV3V_1m3wu7vjJDqu5ifwHR9-n51hBXCino/330x192",
+    "opcoes": [
+      "Raw Ceramic",
+      "Sandstorm",
+      "Titanium Bit"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Phoenix Chalk",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszYeTJH4tWuq5SKkOTLP7Ldl2hu5Mx2gv3--Y3nj1H6qhY9Y2uhJ4WSJwc5MFzV_lm8l-_uh5S8uJqazndl6Clx7X7bmReziAYMMLK-41sItg/330x192",
+    "opcoes": [
+      "Raw Ceramic",
+      "Hades",
+      "Remote Control"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Blast From the Past",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszJfz5L6dKiq5SCm_LnDKvUl2hZ18l4jeHVyoD0mlOx5Uo9N2DwdtKRc1A5ZVvW-lG7k-q50ZLouM-bn3RruyV34SuMyha-0hFSLrs4s9hGCzg/330x192",
+    "opcoes": [
+      "Brother",
+      "Urban DDPAT",
+      "Bamboozle"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Safety Net",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszFdC5K08-3koWfjvjmMrXWk1Rd4cJ5ntbN9J7yjRq1-UZqZ2n3IIWSc1U2ZgqC-1G2wOnqhsW7vcvPmiQxsyN05XzYlka2n1gSOQeuRM9Q/330x192",
+    "opcoes": [
+      "Brass",
+      "Tornado",
+      "Tiger Stencil"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Hades",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszAcDlH_-O6nYeDg7mtMe6GwzxVsZUi3rGZrIqs21bt-0Q-Z2ynctDAclc9aVjSqFPrxby8m9bi60T40sRY/330x192",
+    "opcoes": [
+      "Rebel",
+      "Brother",
+      "Titanium Bit"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Terrace",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszPdDJP6ciknYO0hOPxI6juj25d5MpmteXI8oThxgCw_kM_ZW77dtCcJ1NsaA7Q_FLvxe3t1Me16JiYnCFlsnUq43yLmEGpwUYbTNdEs3M/330x192",
+    "opcoes": [
+      "Blue Titanium",
+      "Flash Out",
+      "Ossified"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Cracked Opal",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b09-klYOAkvPLPKvQmlRd4cJ5nqfFo4msi1flqEBtZmzzctfAI1U3Ml3V-VW_k7vugpbt7svJznBnv3Il-z-DyKmyxRUt/330x192",
+    "opcoes": [
+      "Hades",
+      "Blue Titanium",
+      "Phoenix Chalk"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Groundwater",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhz3MzHfTRU6eO6nYeDg7miMOiEkDlS6pN0jLnHrdWmjgTmr0RsZGz6d4OXelBrZVHV8gDqlLy8m9bi6ya9iyPP/330x192",
+    "opcoes": [
+      "Red Quartz",
+      "Cracked Opal",
+      "Blue Titanium"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "VariCamo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszecC9L7927m7-HnvD8J_WJlzMHu5Yo2urFpYr22gDnqEBqam6gJ9KQdwc_YlGE-VS7wri70Ja_ot2Xnk_reDFK/330x192",
+    "opcoes": [
+      "Phoenix Chalk",
+      "Rust Leaf",
+      "Cracked Opal"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Army Mesh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhzw8zFdC5K092kmZm0m_7zO6-flDkFuJFz3OjApY-ijQXh80c6Nmv1LYfGJFNsMF_Qrlm8wr-505O6voOJlyUZNPPaxw/330x192",
+    "opcoes": [
+      "Bamboo Forest",
+      "Raw Ceramic",
+      "Blue Titanium"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Isaac",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b092lnYmGmOHLP7LWnn8fscQljOuY947z3lLk-kFsajv7ctKWJ1BoNAyB-wTrkri8hMO57ZSYymwj5HfRdvOI1A/330x192",
+    "opcoes": [
+      "Whiteout",
+      "Fuel Injector",
+      "Safety Net"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Blue Titanium",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhh3czceClD4tWjmdPbgcj4OrzZgiUGvpUm0rmXoN6m3VXt8kU4NWHyLILHdA46YF3ZrgfrlOm608XouZ7J1zI97dumq2ev/330x192",
+    "opcoes": [
+      "Garter-9",
+      "Rust Leaf",
+      "Snek-9"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Urban DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhoyszMdS1D-OOjhoK0m_7zO6-flG8FvJEo2-2W8Ymt3QC3-0s5YWD2JdOUdlA3YV7Wqwfqk-3rhcLouoOJlyWPsiOOZw/330x192",
+    "opcoes": [
+      "Sandstorm",
+      "Terrace",
+      "Safety Net"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Fubar",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhnwMzcdD4b09qjloGZqPv9NLPF2DsB7pMl2rmWrNSm3QLlrUZrMGHzLNSXcVM3Y17QrwPrkOjrhpHu75rXiSw0u_Jn4OQ/330x192",
+    "opcoes": [
+      "Slag",
+      "Jambiya",
+      "Toxic"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Sandstorm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b08-3moSYg_jmPoTdn2xZ_It0jLHHoNqt2Fa2qkNvYjr1doCcdFU_MlCGq1bvwbrpjJTvtMvNwSFhpGB8snlTOTi3/330x192",
+    "opcoes": [
+      "Toxic",
+      "Blast From the Past",
+      "Orange Murano"
+    ]
+  }
+]

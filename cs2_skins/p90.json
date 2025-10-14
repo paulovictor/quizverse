@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Neoqueen",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FABz7OORIQJM6dOngYWOmcj4OrzZglRd6dd2j6fH9N700AWy8xBramn1doSTegVsZA2C_gO7x-y60cK-uZ_AmCZh6XYi-z-DyD1-_Pni/330x192",
+    "opcoes": [
+      "Leather",
+      "Traction",
+      "Wash me"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ScaraB Rush",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIQJR792klYK0mPHLJLLCkmRc18l4jeHVyoD0mlOx5UZoNWH2cYCVJAE_YFDV-lm9wuzsgpC07prAnHRqs3Rz4nnfyhW-1B5SLrs4mCfNmlg/330x192",
+    "opcoes": [
+      "Elite Build",
+      "Virus",
+      "Desert Warfare"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Attack Vector",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OPHfSR9-tW5mIWfqOetY4Tdn2xZ_IsojO-TpY2gjVfm-UE4MW_ycNCQcQRtaVHVqFS5wLru1MfqvpvKmyNrpGB8soTejOYQ/330x192",
+    "opcoes": [
+      "Desert Halftone",
+      "Ash Wood",
+      "Vent Rush"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Wash me",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7PzedC9S7c-lq4SEmPP4NoTBmn5c18l4jeHVu9mg3QPh-EpkY270cdLBJwI2aVrR-AXvl-_qjMC-tczInHBl7HUl5XzD30vg6-T_U9I/330x192",
+    "opcoes": [
+      "Facility Negative",
+      "Ash Wood",
+      "Scorched"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Randy Rush",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBc5g8zacDNG9eOkgZODqPv9NLPF2DxU7MZ3jrHF8N_ziwzj_EJpYmHxctWdelM6MFjV_le8xua81JPu6c7XiSw0SF9mP2E/330x192",
+    "opcoes": [
+      "Wash me",
+      "Sand Spray",
+      "Death by Kitty"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Mustard Gas",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA951szSfjJP09C_k4if2fOiMu-Gzz0G7pd10-3ErYjziwPir0c5NWn0JobAcwRsYg7R_wXryO_xxcjryM1M0po/330x192",
+    "opcoes": [
+      "Chopper",
+      "Desert Warfare",
+      "Tiger Pit"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Blue Tac",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957ObbcDt9_tOjmoS0m_7zO6-flG8IuJAkju3E996i2VLlr0U9Mj31LI7Hclc4NA3WqwPsxrzphZbqv4OJlyV_rhK97g/330x192",
+    "opcoes": [
+      "Ancient Earth",
+      "Facility Negative",
+      "Shapewood"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Reef Grief",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA951szLfi9D4OO6nYeDg7mma-KIkztVsMQoj7rHpN2li1DnqkY4Mmn0coDBdwc8N1iG-wTvyOu5m9bi62zF2DoS/330x192",
+    "opcoes": [
+      "Astral Jörmungandr",
+      "Nostalgia",
+      "Asiimov"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Desert Halftone",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA907ODBfC1O6eO1lY2EqPv9NLPF2D0JscAh07iUrdmt3wPk_xBlYzr7J9CXJlI9aF7V_QW8wOy5g8Lv7prXiSw0Oo0yHsE/330x192",
+    "opcoes": [
+      "Cold Blooded",
+      "Nostalgia",
+      "Straight Dimes"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Wave Breaker",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBc5g8zKfjJR-OO0mJWOqPv9NLPF2GgCvp0j3O2W99ul2lLj_EI9ZT_yJ9SXJFA6YwvW_le6l73m1MDvtJ3XiSw0BgC0u9Y/330x192",
+    "opcoes": [
+      "Ancient Earth",
+      "Cold Blooded",
+      "Schematic"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Straight Dimes",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBc5g8zbZThH4N-klYafqPv9NLPF2GlU7Jwi3b3Ap9rw2QDm80E4Y2umI9PAewZoaQrR_QDvyevqjZDtuJrXiSw0IzoNeZM/330x192",
+    "opcoes": [
+      "ScaraB Rush",
+      "Attack Vector",
+      "Freight"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Elite Build",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIQJP7c-ikZKSqPv9NLPF2G0EsMN33rGY9tWnjlK18xBqNm2gIISdcwJsMAzQ-wK9xOy705bt7pvXiSw0wcJJWjY/330x192",
+    "opcoes": [
+      "Desert Halftone",
+      "Blue Tac",
+      "Asiimov"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Emerald Dragon",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17PfacDpN4uOmzdC0leX1JbTummJW4NE_2LmR8Iqg2Qe1rkFlMjz0IoOUI1I9N1vRr1e2k-u9hJ66vprAzHVh7D5iuyg1KAc3xw/330x192",
+    "opcoes": [
+      "Facility Negative",
+      "Death by Kitty",
+      "Astral Jörmungandr"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Blind Spot",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957P7HdS5S48ilq4yCkP_gfbqGxjlTsMN0i--R8N6g3gyx_UM5NTvxddSScAQ2YFGC-lS8wLu-gcSi_MOeeRvTTZs/330x192",
+    "opcoes": [
+      "Freight",
+      "Sunset Lily",
+      "Module"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Death Grip",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957OORIQJA7c6zlo-FkuTLMbfEk1Rd4cJ5nqfCrNytjAKyqEU4ZmqgdoTDdgc4aQnW_gO3kO3t0JLuus_MzXVq7HMq-z-DyDp1RLqf/330x192",
+    "opcoes": [
+      "Glacier Mesh",
+      "Off World",
+      "Baroque Red"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Glacier Mesh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7P7NYjV969C3l4mOhcj4OrzZgiUGvJck2bCYpdzx3QXs_RVqaz2mctSQJFdtZg3Wq1m8xunu1pW8vsmd1zI97XX66x_K/330x192",
+    "opcoes": [
+      "Chopper",
+      "Asiimov",
+      "Scorched"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Traction",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FABz7OORIQJW_tm3kL-HnvD8J_WBl2hTsJJ1j7rF99qljQW3-0Q9Mmj2LdDBd1Q2Y1vYqFC_k7zn057qot2XnsJUPN1Z/330x192",
+    "opcoes": [
+      "Blind Spot",
+      "Death Grip",
+      "Mustard Gas"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Fallout Warning",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7P3dejhR-M6_hIW0mvbmPLTfqWdY781lxOqSrN2gjQPm-BFkYWigJNKVcVBtMA7V-le_w-e9h5XqvZubnSQ1unY8pSGKsV7vdWM/330x192",
+    "opcoes": [
+      "Cocoa Rampage",
+      "Freight",
+      "Elite Build"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Virus",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957OnHfD9L6eO6nYeDg7mjNe2HlDgB7ZMo2rvA8Nui2ga2_EppYj-nI4KRdFdrZg3ZqFK2ye66m9bi66gMGC9v/330x192",
+    "opcoes": [
+      "Ancient Earth",
+      "Module",
+      "Desert DDPAT"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Asiimov",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIXBD_9W_mY-dqPv9NLPF2DtS6ZJ33e_Cpd-niw3sqEY_MGzzItXGJlM3YwrT-QS7ye3p1J7ttJXXiSw09F9GDzA/330x192",
+    "opcoes": [
+      "Shallow Grave",
+      "Blue Tac",
+      "Verdant Growth"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Facility Negative",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957PHEZDhS_tW4gL-KhuL1DLfYkWNFppYkjLGX99_xiQTlqkBtZmr6cIPEdw88aF3YqVi4wuvp05C_6JzPznd9-n51UetnMI0/330x192",
+    "opcoes": [
+      "Leather",
+      "Mustard Gas",
+      "Run and Hide"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Scorched",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7PfJYS1O6eO6nYeDg7miMuyAw21SsMcn2ejEoNqsiwayqhA-Ym_zI9SQcAI9MlrRq1a8ye6-m9bi68t-w9oa/330x192",
+    "opcoes": [
+      "Desert DDPAT",
+      "Ash Wood",
+      "Tiger Pit"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Desert Warfare",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIQJR79OkhImehMj4OrzZgiUJ7pRzibvHo43ziwCx_BVlNT-hI9eRdwc8ZFrU_FDoxL_u0cC8u8yd1zI97Zyq9VwK/330x192",
+    "opcoes": [
+      "Ancient Earth",
+      "Cocoa Rampage",
+      "Storm"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Storm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRv7ODcfi9P6s65mpS0m_7zO6-fwDtVv5Yn07iZodn0jAG1r0M5Zj37dYeQIAI2aVDQ_QW3kuzq1JO76oOJlyW3FA9ebg/330x192",
+    "opcoes": [
+      "Baroque Red",
+      "Emerald Dragon",
+      "Sunset Lily"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Off World",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIQJN6tqhm5KHk8j4OrzZgiUFvcMgjuuU99T33Afh_kRoNW31ctDDJwE5aF7Qrlnrl-zmgJe16c6Y1zI97e6qBIG_/330x192",
+    "opcoes": [
+      "Shapewood",
+      "Shallow Grave",
+      "Scorched"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Leather",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17PHafipM09CzlZSDkuXLI-KBqWdY781lxL-Yod_33wzmrUI_Y2mncI-WcVVvYg2F-QK_yOnrjMPtvpnAzXpqs3M8pSGK1jc3FeA/330x192",
+    "opcoes": [
+      "Storm",
+      "Chopper",
+      "Blind Spot"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Chopper",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FABz7OORIQJE-dC6q5SDhfjgJ7fUqWdY781lxL6R8Iqj0FDj-0VtZDyhJ4edJwRqN1jVr1G3l-nnhZK4tMzImyM1unQ8pSGK75hLHr0/330x192",
+    "opcoes": [
+      "Trigon",
+      "Desert Warfare",
+      "Sand Spray"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Nostalgia",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIQJM48-ilYyMnvbLP7LWnn8fsMEgie_Eptmt2g3l_hI-am7zJtSQdVM_Yl_WrwO-le6508fuvp7KyGwj5HdK09f-6g/330x192",
+    "opcoes": [
+      "Trigon",
+      "Grim",
+      "Attack Vector"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Grim",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIQJF_tW7mb-HnvD8J_WEzz4AvMEmiLyV89qm31Ln-kdvYWChdoXDJ1A_Ml-GrAW_k-_qhsTtot2Xnl5g8bQH/330x192",
+    "opcoes": [
+      "Asiimov",
+      "Baroque Red",
+      "Nostalgia"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Astral Jörmungandr",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAZt7PnHYzB97tCjkb-HnvD8J_WFkjoEuZcgj7jAp9Wg2gTmqUdqMW73IYTHclc3Y1-D-lG3kru915W7ot2Xnprrf7F4/330x192",
+    "opcoes": [
+      "Sand Spray",
+      "Run and Hide",
+      "Desert Halftone"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Shallow Grave",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FABz7OORIQJR5N26mI-cqPDmMq3UqWdY781lxLCVrdyk0VLhrRU-ZG-hd9WXdlVoNAyF-1jtyOft08Duv5mcyicw63Y8pSGKeWe5Vcs/330x192",
+    "opcoes": [
+      "Off World",
+      "Teardown",
+      "Module"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Baroque Red",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAZt7OXNfzhW4-OkkYS0m_7zO6-fxWlX6pcn3rjEpY6tjQDkqEM_ZGD0dYKRIFQ6ZVCFqVG4lL-90JDutIOJlyW91qodZg/330x192",
+    "opcoes": [
+      "Verdant Growth",
+      "Blind Spot",
+      "Storm"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Shapewood",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIQJR5N2mkZeEmPPLP7LWnn8f7ZIm3r2Zodz20A22-hFkYDumLITBcFA4ZQqFqFTvx-nujMW4u8-dymwj5HeKrOWJ7A/330x192",
+    "opcoes": [
+      "Desert Halftone",
+      "Storm",
+      "Shallow Grave"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Sunset Lily",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7PHEfjJP09OklY6Mksj4OrzZgiVUu8Ag3riZoYigjAflqEpoa22hI4CcdVI5N1vYqwDokO2-gZG16Z_J1zI97eWh4xLd/330x192",
+    "opcoes": [
+      "Astral Jörmungandr",
+      "Module",
+      "Neoqueen"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Freight",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FABz7OORIQJB49KilYmFkuXLP7LWnn8f7cApjr6WrN-k0FK3-kBqZDvyd4CWIFRoMFrQ-AW4w-ju1Ja9u5yayGwj5Hcrp1upiA/330x192",
+    "opcoes": [
+      "Desert DDPAT",
+      "Blue Tac",
+      "Run and Hide"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Cocoa Rampage",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957OORIQJG5dK5q5KKmuf1NL7ummJW4NFOhujT8om72gbn-kRoYT_zIYWSd1I9Yl_QrFToybi91pHq6J6fyiRluCNzs3nVlwv3309SNStznA/330x192",
+    "opcoes": [
+      "Ash Wood",
+      "Baroque Red",
+      "Virus"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Ancient Earth",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAZh7PLGcjRH4siJlpKEgPnLP7LWnn9u5MRjjeyPo9X3i1Ltr0JlMjzwcoPHcARrYlvY-AXsl-7o0ce8tZ3Jn3JivSkk4mGdwUKR5Z08aA/330x192",
+    "opcoes": [
+      "Run and Hide",
+      "Freight",
+      "Trigon"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Tiger Pit",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAZt7OfBdjhQ_-O0ho-cmcj4OrzZglRd6dd2j6eZoN_z0FLh-kZtYWH2cIaSJFc3NFjT_1O5k7jugcLvuJ3KzXUwuCV3-z-DyPmghlDB/330x192",
+    "opcoes": [
+      "Blind Spot",
+      "Straight Dimes",
+      "Grim"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Run and Hide",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17PnJdihD_uOmzdC0m_7zO6_ummpD78A_3e2Y84mn2QXk_RFkYDqhcoeVJ1c2MgvXrFnsxbjp1MPtu5-Yn3Blsj5iuyh78hYCww/330x192",
+    "opcoes": [
+      "Grim",
+      "Schematic",
+      "Glacier Mesh"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Desert DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957PfMYTxW09izh4WZg8j4OrzZglRd6dd2j6fA9o73jQzj-EFlN22lI4HHcA5qYwuD-1TtlOy6jZ_vucnMyXZgvHEk-z-DyO3mgdVY/330x192",
+    "opcoes": [
+      "Asiimov",
+      "Astral Jörmungandr",
+      "Mustard Gas"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Verdant Growth",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7P7HYzJ9-NmugImHksjzIb7UmFRH4ct0teXI8oTht1i1uRQ5fW30cI6VIw42YgvR8lW4w-e7h5a4tcvBmHc2uCAm437Yn0e0hE1KZ7BxxavJxC4P7pE/330x192",
+    "opcoes": [
+      "Attack Vector",
+      "Wash me",
+      "Shallow Grave"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Schematic",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957OXNYylL69OxkY-0m_7zO6_ummpD78A_2buQ8dSl3gzj_UI-Zzv7LdOUJw9oZFHR_APvw7251se5vJvBnHJruj5iuyio5Vscgw/330x192",
+    "opcoes": [
+      "Ash Wood",
+      "ScaraB Rush",
+      "Vent Rush"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Vent Rush",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FABz7OORIQJW7dKxmIWPqPv9NLPFqWdQ-sJ0xO2Q9tr32QWwqEVkZG-lJdXDdwI4Y1DRrge2k-a51MW6tMzJynVmuyg8pSGK6f93q8Q/330x192",
+    "opcoes": [
+      "Shallow Grave",
+      "Ash Wood",
+      "Reef Grief"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Cold Blooded",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAZt7ODEeClK6c6JhNnbqPv9NLPF2D4Ju8Qo2uqXo9Sg0Fey-xA_YWnxIYXBcFA6MFiCr1C_x-a61MLu78zXiSw00t3nOkI/330x192",
+    "opcoes": [
+      "Virus",
+      "Tiger Pit",
+      "Mustard Gas"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Teardown",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7P7NYjV95NOiq4GFk8j3PLfVqWdY781lxOuQ8Nug0VG3_EVkYmz7LIXHJAVrY1HT-FC7lO3ngJ7p7czJznRg6CE8pSGK_1A-hqA/330x192",
+    "opcoes": [
+      "Ancient Earth",
+      "Fallout Warning",
+      "Blind Spot"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Sand Spray",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7ODYYzxb08-3moS0m_7zO6-fxzNQ65J03L2Vo9-sigzj_kU6Mmr6LIKVdwNvZVHTqVTqxri8jZS4tYOJlyVoTeLjug/330x192",
+    "opcoes": [
+      "Ancient Earth",
+      "Randy Rush",
+      "Chopper"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Ash Wood",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FBRw7OffeDpR09C_k4if2aSmNeKDz2kHvsZ1jLqVrNWi0A3jqkdkYW_zdYOWewI4NF_Y_AC7wu_xxcjrWn3XXSU/330x192",
+    "opcoes": [
+      "Facility Negative",
+      "Fallout Warning",
+      "Teardown"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Module",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAZu7OHHaDxO7tCzkYS0m_7zO6-fwzNV7scl0ryQrNytjAPsqEBtNmvzIYKSdQE3YgnW-FG3w-3ohpHo7oOJlyXY6CwB5A/330x192",
+    "opcoes": [
+      "Vent Rush",
+      "Freight",
+      "Traction"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Trigon",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17OORIQJW_tWxm460m_7zO6-fwDkG7pxwibiU9t6k2AHirkBtNmGgINCXdFM8MlvWqFjowr28jJC_tIOJlyVRsc7XqA/330x192",
+    "opcoes": [
+      "ScaraB Rush",
+      "Asiimov",
+      "Glacier Mesh"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Death by Kitty",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FAR17PDJZS5J-dC6h7-bzqfLP7LWnn8fuMN32OqU9tmmiQLt-hZuaz2mJITGJgFsZViF-Vi7levs0Z7vupXLz2wj5HegSjteqg/330x192",
+    "opcoes": [
+      "Leather",
+      "Fallout Warning",
+      "Asiimov"
+    ]
+  }
+]

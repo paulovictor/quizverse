@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "name": "Temukau",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW08izmZWAluLLP7LWnn9u5MRjjeyP9NikjVbs-xBrYzqhdtPAd1I2ZQ3V-QO7krru0MftvZ3AzHYwsyMqsWGdwUIVjrrhbw/330x192",
+    "opcoes": [
+      "Howl",
+      "Jungle Tiger",
+      "Tooth Fairy"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Eye of Horus",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW0863q4yCkP_gDLfQhGxUppIk2bjE9tumjVHm-xc9MGDwcoaTegU6Y17R_FS3yLvrjZa06s_BzHJ9-n51Ol-KLl8/330x192",
+    "opcoes": [
+      "Tornado",
+      "Desert-Strike",
+      "Jungle Tiger"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Etch Lord",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhth_KcTi5M7dezlomfksj4OrzZgiUAvJMojL6W9omsjgHirkNkZGqhdYfAdFQ7YlDR-1XswL3vgZa678ic1zI97V2YJQr8/330x192",
+    "opcoes": [
+      "Bullet Rain",
+      "Converter",
+      "Jungle Tiger"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Polysoup",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz3Pz3YTJO9c-5gZC0mqP1Z4Tdn2xZ_Itz2bjCrYimiQzh-Bc9ZWrwJIPAc1U2YljTrFe3w-jngpW16cvOzXY1pGB8spSrmgW8/330x192",
+    "opcoes": [
+      "Red DDPAT",
+      "Full Throttle",
+      "Desert Storm"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Turbine",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhth_KcTjtX_9W5mr-HnvD8J_WEkj5SuZEkjLyS8YmmiVXtqBVkY233JYOXcwVrZFmDr1a2wbzmhsO9ot2XnoRdLtZ6/330x192",
+    "opcoes": [
+      "Polysoup",
+      "Jungle Tiger",
+      "Faded Zebra"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Steel Work",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhox8zFdClD4OOzkIeOhMj4OrzZgiVU6ZJ33rqV9o6jjA3hrkRkY2j3JYPAJFdoM17QrFK8w-i-15O9tZvO1zI97WgrZMci/330x192",
+    "opcoes": [
+      "Dark Blossom",
+      "Sheet Lightning",
+      "The Battlestar"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sheet Lightning",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhzw_b3fTRF5Mi4nY6MqPv9NLPF2G5T6pMg2bCUpNin3Azi_BBuZz-lcoTDclRvZFDYrlDqlb-8gMS9vp3XiSw0RAugXB0/330x192",
+    "opcoes": [
+      "Zirka",
+      "Cyber Security",
+      "Desolate Space"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Naval Shred Camo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhoyvb3czFX6eO7wIHfqPv9NLPF2DII6pwl3-qTpt-mjAbg-UVuMD3wddKXJgI-NA2G8li8x7_sg5e_6pjXiSw0kgzqApo/330x192",
+    "opcoes": [
+      "Buzz Kill",
+      "Royal Paladin",
+      "Dark Blossom"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Hellish",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW08iklYmFqP_xP7fummJW4NE_jr-Tpd6silew_xE9Mmn6cIORewRtaA7V_Qfrkrro0Z-475iYmiE2uj5iuyjtKZdHAQ/330x192",
+    "opcoes": [
+      "Polysoup",
+      "Poseidon",
+      "Turbine"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Choppa",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhth_KcTjpQ6dm4q4OKmvjLP7LWnn8fuMci07CQpY-j0QXs_0toYj3zIYecJFQ2M13U_lS9wrvp0MK_7c6fyWwj5HdGzghqGA/330x192",
+    "opcoes": [
+      "Mainframe",
+      "Daybreak",
+      "Global Offensive"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Full Throttle",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwi8P7qaRe69_MuKHMWCCxOt4j-1gSCGn20kk4mSHn97_eXqTOgMkXpdzR-MNsxO7w9e2Yrnk5VbciIhDznj8iy9XrnE8J4rQ87g/330x192",
+    "opcoes": [
+      "Dark Blossom",
+      "Naval Shred Camo",
+      "Spider Lily"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Neo-Noir",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09Kzm7-FmP7mDLfYkWNFpsch2evFo9Wl2lflr0RtZzilJNTBdgE3ZAyDr1nrx-vs0cK9vsmamnt9-n51UgTl8ms/330x192",
+    "opcoes": [
+      "Dark Blossom",
+      "Hellfire",
+      "Jungle Tiger"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Mainframe",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhh3szLeC9B-dWilo-KhfPLILLdgG5D18l4jeHVu9v021bs_UNlZW-iI4HHIVQ2YFrUq1Ptwua805LuvJnNwCQ3vyQgty7D30vga_w3QVc/330x192",
+    "opcoes": [
+      "The Battlestar",
+      "龍王 (Dragon King)",
+      "Steel Work"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Daybreak",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhh3szDeDBN4tOJh5WFhf7nNoTdn2xZ_It33uqVp9-m3gfmrRY4ZGnzINfHdgA4ZwmFqwLrkLzqhpS_v86dnSZlpGB8smE_CYHw/330x192",
+    "opcoes": [
+      "Hellish",
+      "Polysoup",
+      "Jungle Tiger"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Jungle Tiger",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhoyszeTilL69mkq4yCkP_gfbjVkDhXsMAl2b3E9N-j0ADmrRJpYWmgddTAIQ4_Yw2BqAC9l-y51JOi_MOeuFGxnXQ/330x192",
+    "opcoes": [
+      "Asiimov",
+      "Cyber Security",
+      "Steel Work"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Desert-Strike",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszceClD4s-im5KGqPv9NLPF2GoAvpR3jL_E9N6miVLmr0o-MT2gJNeSdwFoZFnW-QfvwL-7jZHtv53XiSw0Hg_ppDA/330x192",
+    "opcoes": [
+      "Faded Zebra",
+      "Spider Lily",
+      "Poseidon"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Radiation Hazard",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhzw8zGZDZH_8iknZCOqPjmMrXWk1Rd4cJ5nqfF8I6m0Q3hrhBsMT30JISUIVA9YguB-lm3l--7jZ616s_AyyMx6ykm-z-DyGiiq0dX/330x192",
+    "opcoes": [
+      "Emperor",
+      "Converter",
+      "Spider Lily"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Converter",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhoyszadDl95Nmuq4yCkP_gfbjVxDoEu8R3073AptyniwTm8kBqYWnxLI-ScwBvY1GE8wfsl7y61sei_MOeKVbcl-w/330x192",
+    "opcoes": [
+      "Hellfire",
+      "Neo-Noir",
+      "Bullet Rain"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Hellfire",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09SzmIyNnuXxDLfYkWNFpsEi3L6UrdiljFXlr0VsNmj6dteXdFBtYFnV-VjryO3qhMe86c7BwHB9-n51JK1M_qQ/330x192",
+    "opcoes": [
+      "Desolate Space",
+      "Tornado",
+      "Daybreak"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "龍王 (Dragon King)",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW0924l4WYg-X1P4Tdn2xZ_ItyiO2Yot-n3gztrUduMW6icdWcc1RqM1HR_FfswLu6gZe4tZrNmiBkpGB8smM7Zio1/330x192",
+    "opcoes": [
+      "Radiation Hazard",
+      "Asiimov",
+      "Zirka"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Evil Daimyo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09mgnYy0k_b9PqLeqWdY781lxOqTpdT3iQbh-RBsN2H6JITGI1c3ZluB_FK6kry51J-4uZjJwSNkuyY8pSGKLxf1Y6o/330x192",
+    "opcoes": [
+      "Asiimov",
+      "The Battlestar",
+      "In Living Color"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Magnesium",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW09--m5CbkuXLNLPehX9u5Mx2gv2Pptuh0QXnrxJoamvwJ4SXcVJrZQuB-wfowee-h5bv75-YziNqviIq7WGdwULQRBs-zw/330x192",
+    "opcoes": [
+      "Emperor",
+      "Full Throttle",
+      "Desert-Strike"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Modern Hunter",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhoyszAZDNW6c6JmY-PkuX6DLfYkWNFppwm37rD8I72jAaxr0c-MTj7dYKWcAQ2Yg7T_wK7le_mgp-9vsmbwCZ9-n51LLZAfPE/330x192",
+    "opcoes": [
+      "Full Throttle",
+      "Spider Lily",
+      "Polysoup"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Zirka",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhzw8zbZTxQ096klZaEqPv9NLPF2G8F6ZAni-vErdSgiQW1-0A5Mmj0J9eTI1drM1yG-1Hskru8g8e875_XiSw0WKtGtpw/330x192",
+    "opcoes": [
+      "Poly Mag",
+      "Naval Shred Camo",
+      "Hellfire"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Emperor",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW09m7hIWZmOXLP7LWnn8fvpRzj72ZoNmsigS1_hdpZDzzIIeVelA2Zl6G_wLoxuvq0MW07c6awWwj5HetHVr5dg/330x192",
+    "opcoes": [
+      "The Coalition",
+      "Spider Lily",
+      "Poly Mag"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Desolate Space",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09izh4-HluPxDKjBl2hU18l4jeHVu93zi1aw_hZtYW2icYHGdwJtN1nSr1foxui8gZW96ZvPznMyvSMq4XrD30vgc83x0v4/330x192",
+    "opcoes": [
+      "Zirka",
+      "Urban DDPAT",
+      "Eye of Horus"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "The Battlestar",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW08y_m46OkuXLP7LWnn8fusFyib3CrN_0jAXs_0JrajzwINSccQM3YVHQrla9yObohJ7ov5uczWwj5Hd7eyZ_vw/330x192",
+    "opcoes": [
+      "Mainframe",
+      "Magnesium",
+      "Daybreak"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Royal Paladin",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW0865jYGHqOTlJrLDk1Rd4cJ5nqfHrdynjVfnqBVlMGigIo6WdVI2ZVnT8lXox7ruhJS_uprKzXJrsiBw-z-DyEuekK1S/330x192",
+    "opcoes": [
+      "Global Offensive",
+      "The Battlestar",
+      "Evil Daimyo"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "The Emperor",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW09m7hIWZmOXLP7LWnn8fvpRzj72ZoNmsigS1_hdpZDzzIIeVelA2Zl6G_wLoxuvq0MW07c6awWwj5HetHVr5dg/330x192",
+    "opcoes": [
+      "In Living Color",
+      "Temukau",
+      "Magnesium"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Desert Storm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhoyszMdC5H_siJmImMn-O6YOvVx24C7MZy2rrD9I_00FDgqkA6YWvxdoXHegM_MAzR-AK5xunmjIj84sqcbwbCfw/330x192",
+    "opcoes": [
+      "Naval Shred Camo",
+      "Desolate Space",
+      "Griffin"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Buzz Kill",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW08-zl5SEhcj4OrzZgiUFu8By27iQ8Iqg3Qyy_Ec_Z2CmJ4eTcAdqZV3VrFi9k7_rhJK7vZmc1zI97eGSYpLn/330x192",
+    "opcoes": [
+      "Howl",
+      "Daybreak",
+      "Eye of Horus"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Griffin",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLP7LWnn8fupAkiO2Zporx2wDnrhJkNmGnLILEc1I7MlHU81S3le69h5Dv7cuYnGwj5HeWs6qHHw/330x192",
+    "opcoes": [
+      "Faded Zebra",
+      "Poly Mag",
+      "Urban DDPAT"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Bullet Rain",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszKZDFO6ciJhoGCmcj5Z7qAqWdY781lxL3Dptms2wzjqUs9MTqndobEJw88YFvUqAC-l-zuhZDvuJ3MnXthuCI8pSGKrTrO99I/330x192",
+    "opcoes": [
+      "Temukau",
+      "Faded Zebra",
+      "Desert-Strike"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Faded Zebra",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhzw8zSdD9Q7d-3mb-JgMj4OrzZgiVV7ZUpj--T9Nrx3wHm_xZqa2vyJY7GJ1A7NVnS-1O6kuvugJDo6szB1zI97QRjcl-G/330x192",
+    "opcoes": [
+      "Zirka",
+      "In Living Color",
+      "Temukau"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Dark Blossom",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhzw8zKZDl97tCjkb-HnvD8J_XXxTpTsJ0j2L_Cotuh0ATh_0s9YzrycYCXdw4_Mw2B8ge9yOrpjJa6ot2XnlpCOvy3/330x192",
+    "opcoes": [
+      "Naval Shred Camo",
+      "Evil Daimyo",
+      "Poseidon"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Tooth Fairy",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW082jkYWFkfb9IaLummJW4NE_j7zH99yn2gXg_kdoYTqlLIPHIwI2ZAzYqVLtl7rr05C_tZzAyno2uj5iuyhcYJM50w/330x192",
+    "opcoes": [
+      "Royal Paladin",
+      "Howl",
+      "Poseidon"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Global Offensive",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszLYjpN09-3mY-0m_7zO6_ummpD78A_0-yQ9Nqh3FLs8xA5ZDihI4XDdAVqZArZ-lG5wbzmjJ-_6s6byHYy6T5iuygVDs_aYw/330x192",
+    "opcoes": [
+      "Emperor",
+      "Turbine",
+      "Griffin"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Cyber Security",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09-vloWZh-L6OITdn2xZ_Pp9i_vG8MKtjVDj-0FlYz2mLI6Rew5oMg6EqVHtyee5h5Xu7Z-YnXRj6HQj5i7YgVXp1qR0cFCZ/330x192",
+    "opcoes": [
+      "Turbine",
+      "Tooth Fairy",
+      "Converter"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "In Living Color",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09C5goW0m_7zO6_ummpD78A_3--W89r02wTs_hI5NzrydY6SelJqYFjY8lC_xeq6gp61tMzLnSBg7j5iuyjjy9o9kg/330x192",
+    "opcoes": [
+      "Converter",
+      "Urban DDPAT",
+      "X-Ray"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Red DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhoyszMdS1D-OOjhoKKmcjmNr_ummJW4NFOhujT8om7jVewrkJvZWmhI4_Ee1I3Y13U81TvxOzs0MO1ucibwCRn6CRw5HiIzQv3309aMAzt0g/330x192",
+    "opcoes": [
+      "Steel Work",
+      "Bullet Rain",
+      "Converter"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Spider Lily",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJQJE4NOhkZKYqPv9NLPFqWdQ-sJ0xLCYoN-t3gDn-UU9N236IdOWcFQ2ZF2BqVW7lefphpC77pzNwCA2syA8pSGKXgX3GQ4/330x192",
+    "opcoes": [
+      "Evil Daimyo",
+      "Buzz Kill",
+      "Desolate Space"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "The Coalition",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW09-5lYyCg_77PYTdn2xZ_Pp9i_vG8MKm2QewqkBtZWChcoWXIQI8ZlvS_wTskum5hcft6ZyYyXBkuHUh7HaMgVXp1o1UOJQ9/330x192",
+    "opcoes": [
+      "Temukau",
+      "Hellfire",
+      "Desert-Strike"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Poly Mag",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09m6nZSOqOP1MK_YlWpd18l4jeHVyoD0mlOx5UNtZj-nLIDEIwU8N1yG-lK9wL--hMS76M7LzHVi7igrsS2LnB2xhhlSLrs49GJYqt8/330x192",
+    "opcoes": [
+      "Magnesium",
+      "Urban DDPAT",
+      "Hellish"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Tornado",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz3Mzcfi9M7di5q4yCkP_gfe7Uzj4D6pUo37vA89iii1Cx8hFkMG_zcdLDcwU5N1vUqFm_l7vnhJSi_MOeBFODA4o/330x192",
+    "opcoes": [
+      "Royal Paladin",
+      "Jungle Tiger",
+      "Desert-Strike"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Poseidon",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszYfi5H5di5mr-HnvD8J_WCkmkEvp0pi7zDodv3jAHj-UM5ZGr7INfHJAc9MlzV-FK_kO281pa_ot2XnrA-A3kA/330x192",
+    "opcoes": [
+      "Tornado",
+      "Radiation Hazard",
+      "Hellfire"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "X-Ray",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszQYzxb09Hiq4yCkP_gfb6IxDJT6pYo07HF89is2Aa3-RE4ZT_1ctTHdQE7Mg2D-la_xOvn18ei_MOeUwVqCl8/330x192",
+    "opcoes": [
+      "Desert-Strike",
+      "Temukau",
+      "Evil Daimyo"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Urban DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhoyszMdS1D-OOjhoK0m_7zO6-fwWhU7JQn27uR8dmhilewqEE6Mjj1ItKXcwNvNFDR-lW_kLzthsTvuIOJlyVFp_EY2g/330x192",
+    "opcoes": [
+      "Hellish",
+      "Desert-Strike",
+      "Evil Daimyo"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Howl",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwT09S5g4yCmfDLP7LWnn8f65Mli7DH9tXziQTgqUY4YmmnINSUJwQ-YVnT_wS7yOzngMW07ZrOmmwj5HeObpQQtA/330x192",
+    "opcoes": [
+      "Naval Shred Camo",
+      "Neo-Noir",
+      "Poly Mag"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Asiimov",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJQJD_9W7m5a0mvLwOq7c2GlUucFwjruR9t7231DmrRc_NW7yItCRcVNoYVHS-APrwbzu0JK-78nXiSw0EnwDRM0/330x192",
+    "opcoes": [
+      "Poly Mag",
+      "Howl",
+      "Jungle Tiger"
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Fragments",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PTbTi5B7c6JkpKKkPrxPa_CqWld6cZ6teXI8oTht1i1uRQ5fT31dtLAcA45M1jWqAC8wubv18e8u5vLyCNj6CAktnzbzRS00hxMbOBxxavJFBR8sSk/330x192",
+    "opcoes": [
+      "Magna Carta",
+      "Contractor",
+      "Crimson Web"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Trail Blazer",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODLcC8QvOOwgZKSqOP7I7TummJW4NE_0r7C8dj3jQTs-RVkNW77cYaSIwNsYFnU8lW3yOi7jJG4vc6bm3Aw6D5iuyg-kGGpmQ/330x192",
+    "opcoes": [
+      "Short Ochre",
+      "Powercore",
+      "Enforcer"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Wild Berry",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTj5K6cqkm460hPT1IemBqWdY781lxOiVo96tjQKw80s4a272IdTBcFc4NwmDqVLtl7vs1MPttM-byHsx7CQ8pSGKclHX3pg/330x192",
+    "opcoes": [
+      "Outbreak",
+      "Carbon Fiber",
+      "Enforcer"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Short Ochre",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODHTjBX_8i3hoS0hPT1IemBqWdY781lxLnFotz3jAHn80Y9YWygd9SWegY3aQzWrAXrybjmhce-vJnKm3tj73I8pSGKRyYwxTE/330x192",
+    "opcoes": [
+      "Brass",
+      "Splash Jam",
+      "Outbreak"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Caged",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLinZfyr3Jk_PGvept_JfaBD2SEyOF4j_c9cCW6khUz_W_SmNirdSmVOFcmDJEjQrEPtROwxtGyYevqsgPcg98RxXishi1Bui91o7FVKL5cNSg/330x192",
+    "opcoes": [
+      "Emerald",
+      "Magna Carta",
+      "Powercore"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sand Mesh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODYTjBH_9SJh4GFk8j4OrzZgiUJsJVwj-2Zp4mgilXtqEs_aj33dYHAIFQ2aQ3Vq1S_xefu1sO-6JjA1zI97XdHr3Td/330x192",
+    "opcoes": [
+      "Poultrygeist",
+      "Army Sheen",
+      "Cardiac"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Grotto",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PLZTi5B7c7kxL-Hkvb_DLfYkWNFppUniLCTpt2j2wy2qkBoZDz6JdWTdQdrMg7SqVC9x-rogJK7tZnBwHF9-n51IW4yjAA/330x192",
+    "opcoes": [
+      "Bloodsport",
+      "Sand Mesh",
+      "Green Marine"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cyrex",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c6Jl5mZku_LP7LWnn8f7cAljuiQpomnjAPgr0M6N2ilcNTEIw5oYwuB_ljrk--8gsC87c6amGwj5HcY7eHXug/330x192",
+    "opcoes": [
+      "Short Ochre",
+      "Crimson Web",
+      "Stone Mosaico"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Storm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODHTi5W4867kpKEmePLP7LWnn8fu8d0iO3D9oihjVXmqhZkZmigcNKXIwY4NVjW_FK_w--7hZfp7snOwGwj5HdNrhZ4ew/330x192",
+    "opcoes": [
+      "Contractor",
+      "Palm",
+      "Magna Carta"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Jungle Slipstream",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PvRTi5B7c7kxL-BgvnzP77uhWdY-NZlmOzA-LP5gVO8v104Z2ClLY_EIQ47ZQvRq1O7l73rg8To6ZidnXFh7CQh7S2JyxC_hk5NcKUx0mqrOQdE/330x192",
+    "opcoes": [
+      "Assault",
+      "Enforcer",
+      "Cardiac"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Palm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODYTi1D4NGJmImMn-O6Nr-IxT5VsZYj3biQrNqk3gThqEA-Y2qhLI-TdwA-N1yFqAfryebphIj84spWYPOlFA/330x192",
+    "opcoes": [
+      "Splash Jam",
+      "Carbon Fiber",
+      "Magna Carta"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Cardiac",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOhuDG_Zi70QKw8hJuZTqgdYCUdQQ-ZlrQ8gC2wui7gZS46JvOzyAw6CJxsHyPlgv3308fY4CoRw/330x192",
+    "opcoes": [
+      "Powercore",
+      "Torn",
+      "Cyrex"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Crimson Web",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PvRTipH7s-JkIGZnPLmDLfYkWNFpp102r_ErdutiwbmqUtuMG-hdoeVdgNoY16F-wPsku_mh5Dq7cian3B9-n51JZMMtxo/330x192",
+    "opcoes": [
+      "Enforcer",
+      "Emerald",
+      "Trail Blazer"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Green Marine",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PTbTi5B7c7kxL-bkvb3NrbQnW5DuJZOhuDG_Zi72ALlrUo9MGulcobEcgI-N16GqQK8yOi8gZO9753Anydh7yEr7SnVnAv330-PPKTi9g/330x192",
+    "opcoes": [
+      "Cyrex",
+      "Enforcer",
+      "Crimson Web"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Bloodsport",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PTbTi5B7c7kxL-Jm_j7N6jBmXlF18l4jeHVu4jx0Q2yrhA_MWrycITAIQQ3ZwqDrle8wb-90Z60ucjPnydmunQm4SrD30vg_ZtSLog/330x192",
+    "opcoes": [
+      "Stone Mosaico",
+      "Cardiac",
+      "Assault"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Outbreak",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PvRTi5B7c7kxL-BgvnzP77DqWdY781lxL3Ho9il2lK1qEY_Mmn3JdfEJwFqM1nXqFO_xbvq1sDouZjIzXswviQ8pSGKZe0NLy8/330x192",
+    "opcoes": [
+      "Crimson Web",
+      "Powercore",
+      "Torn"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Stone Mosaico",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PvRTj5D4t26h7-fnvvxDLfYkWNFppIki72R8NSnjVK2rxU9Y2_6JdOWcFNsaFDT-lDowLzrgZftvJ2fzXR9-n51n_DZzCs/330x192",
+    "opcoes": [
+      "Brass",
+      "Outbreak",
+      "Fragments"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Brass",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PLZTj9Q7c-lq4yCkP_gfe_TwjIG7pR03uiVp42giwLg_kJkYjjyIYWRIVU8aVvS-gS9l-jngZSi_MOerKELP1I/330x192",
+    "opcoes": [
+      "Stone Mosaico",
+      "Powercore",
+      "Sand Mesh"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Torn",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODYTi5B7c7kxL-Yg-X9OL7DqW9E-9FOhuDG_Zi72Azg-Rc-Nz_zctOScwJtaFqG_FK6k-3og8O9uc7Ln3owuCFw4yvYmQv3308ypyy1Yg/330x192",
+    "opcoes": [
+      "Emerald",
+      "Palm",
+      "Powercore"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Army Sheen",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PLFTjxQ4cWJh4iCmfLLP7LWnn8fusEjjLHDoo-ljAW1_RVlZm3yLYOTJgdsNA7Q-1m8x--70cK0vJjNy2wj5HdbrGOTFQ/330x192",
+    "opcoes": [
+      "Emerald",
+      "Bloodsport",
+      "Wild Berry"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Powercore",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PTbTi5B7c7kxL-bmODxIbjehG5u5Mx2gv2Potj3i1Di_hFtMm2iIYTBJgU3Zg2Er1TvkOvm1566vM6YzSFgsikh7GGdwUIxojBz1A/330x192",
+    "opcoes": [
+      "Trail Blazer",
+      "Storm",
+      "Jungle Slipstream"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Enforcer",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PTbTi5B7c7kxL-OmfH7IbjUhFRd4cJ5nqeTpYn3iQe1_hJkZz_wIYaUe1VrM1-GqwDrxeu-hcS4vpnPmHVhsykq-z-DyCcd0fLr/330x192",
+    "opcoes": [
+      "Powercore",
+      "Blueprint",
+      "Carbon Fiber"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Magna Carta",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PvRTjxX-NS5homfjsjkJqnBmm5u5Mx2gv3--Y3nj1H6_URpZzildteTdFRsaFnY_FPok-i50MC5tJ6cyCBi7yMr7H_bnhC2iQYMMLLa6EBWUQ/330x192",
+    "opcoes": [
+      "Stone Mosaico",
+      "Army Sheen",
+      "Trail Blazer"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Poultrygeist",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODYTi5B7c6Jl4iClPzxPb3YkWNF18l4jeHVyoD0mlOx5RFvYT-ncYSSJAZoZV3U_1fsxb3u0JPqvJnAmydl7CQmtyzVmRG-0x9SLrs4w6klS8s/330x192",
+    "opcoes": [
+      "Sand Mesh",
+      "Emerald",
+      "Caged"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Assault",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c6JlZOYluL4J4Tdn2xZ_Isk3ejArdWs3w2wrRI9MWrwINTHcVM3YAvQ8we7xezpjMO1tM6fzXUypGB8suJLlS0Q/330x192",
+    "opcoes": [
+      "Storm",
+      "Enforcer",
+      "Army Sheen"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Blueprint",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTj9O-dmmhomFg8jnMLrDqWdY781lxLDAot3w0AXt-hBuMWvzLIfDd1BqYlDY_ge7xrjmhJ-6up6by3Q27yU8pSGKGwiMA-c/330x192",
+    "opcoes": [
+      "Powercore",
+      "Caged",
+      "Cardiac"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Splash Jam",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PvRTjVX4sizhr-Jm_buNoTBn2Va18l4jeHVu46iiVLhrhY4ZTumJNWSJg87NAvQ-wS8lLrmhJC0uJydmHJjv3NxsyzD30vgw6xVMJ0/330x192",
+    "opcoes": [
+      "Cardiac",
+      "Blueprint",
+      "Fragments"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Emerald",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PLGTjhP6c63mIS0leX1JbTummJW4NE_2-_F8Y322gKw_UFkZ232dtLGew47Zw3Q_gO7lOe8g5_quZ_PyHBj6D5iuyhXhSRN_w/330x192",
+    "opcoes": [
+      "Powercore",
+      "Enforcer",
+      "Magna Carta"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Contractor",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODHTi1P7-O6nYeDg7n3YL6Bw2lQ7cZy27yTp9X00Qztrxc4Y2DwLYCRJw9tZQ3ZrAPrx-a-m9bi67t5CePh/330x192",
+    "opcoes": [
+      "Army Sheen",
+      "Carbon Fiber",
+      "Cardiac"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Carbon Fiber",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PLFTj5D_t65mr-NnvXxIYTdn2xZ_Isgj7vDrN2t0FXjqBU6MWv1d4HEewc8aFHVrgS9w-e90ZG86J2dyCZqpGB8suxfkl-y/330x192",
+    "opcoes": [
+      "Brass",
+      "Grotto",
+      "Splash Jam"
+    ]
+  }
+]

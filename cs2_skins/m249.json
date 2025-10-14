@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Submerged",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhjxszFI2kb08-1lZKKlcj4OrzZglRd6dd2j6eX8Y-kjFfm_hI6MGiiJ9eXcFBoN1jW_gK2xL3n05Tov8nBwSM263Ml-z-DyLEMhPw5/330x192",
+    "opcoes": [
+      "Blizzard Marbleized",
+      "Aztec",
+      "System Lock"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spectrogram",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhox8zYdDxJ_-OklYmFlfjjDLfYkWNFpsN3jr-ZpNnx2lfm-kM4Y2r0JY7AJwI7NVCE81W9l-zphZW1uZrOmHJ9-n51XX9omhc/330x192",
+    "opcoes": [
+      "Predator",
+      "Impact Drill",
+      "Sage Camo"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hypnosis",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhtgaeRTjVb_NK5h4mYqPv9NLPF2GoE7pIki73FptzziQGy_xE-MjyhcoeVcwI7ZVvQ_VTtl-69h5G86Z3XiSw0fRYxKig/330x192",
+    "opcoes": [
+      "Spectre",
+      "O.S.I.P.R.",
+      "System Lock"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sage Camo",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhoyvz3eyhM69Czq4SOhPbgDLfYkWNFpsYpj-uYoo72ilbk-Uc-YD-gctCSdlRoZFnV8gLolefn1MO8vc6dy3R9-n51Bn40WzM/330x192",
+    "opcoes": [
+      "Predator",
+      "Midnight Palm",
+      "Contrast Spray"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Magma",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhhwszHcy5L6NW3mr-HnvD8J_XSzmoCsMYo2byV9t7z3AHn-hVsa2nxcdfEdg9tMAnZ8la2k7y5jMPoot2XnoUzripl/330x192",
+    "opcoes": [
+      "Downtown",
+      "Blizzard Marbleized",
+      "O.S.I.P.R."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Contrast Spray",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhzw8zbYS9D9eO6nYeDg7mlau6FlG9SuMFy2-yQpYnwilGxqBZrNWr3cYTHe1A2NF3R_1i4levqm9bi6zy-BOh7/330x192",
+    "opcoes": [
+      "Downtown",
+      "Aztec",
+      "Shipping Forecast"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "System Lock",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhjxszFI2kb08-zn5SEhcj4OrzZgiVSsZAmj76R9tqg3gTm_xFuMGn1JtCSI1A8YVvRq1a4krzs1p6_6pya1zI97fYyj9_i/330x192",
+    "opcoes": [
+      "Contrast Spray",
+      "Predator",
+      "Emerald Poison Dart"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Jungle DDPAT",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhoyszMdS1D-OO8gY6Mm_LLManQgGRu5Mx2gv2P8dWm0AXm-UBqZ233ddDGdAFvYQzZ81Xtle25g8Dt7ZnLyCNmvSEj4WGdwUIqtfR_xQ/330x192",
+    "opcoes": [
+      "Hypnosis",
+      "Emerald Poison Dart",
+      "Contrast Spray"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Nebula Crusader",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhnwMzFI2kb09KzlpWHlsj3Ia7Cl29U-vp9g-7J4cKj2FLi-xBlNmHxJIWQdQNrYg3TrFS7xuq715O9vZ7LnHAxuHZ34izagVXp1iP8BI4S/330x192",
+    "opcoes": [
+      "Spectre",
+      "Emerald Poison Dart",
+      "Magma"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Impact Drill",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhz3MzDdCRB49C5hpO0m_7zO6-flG0B7sAjiLzFoI6giwLh-EZkZmj6cdTEJ1NrNV6Eq1a8we3t18C47oOJlyVYUbyKnQ/330x192",
+    "opcoes": [
+      "Sage Camo",
+      "Nebula Crusader",
+      "Predator"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Aztec",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhhwszFI2kb092sgIWIqPv9NLPF2DMAuZIiibzDo933jQzk_UNvajz1IIXEclU8ZluF_gXtlO3s18K56cjXiSw0Ji5XUV8/330x192",
+    "opcoes": [
+      "Blizzard Marbleized",
+      "System Lock",
+      "Gator Mesh"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Spectre",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhjxszFI2kb08-mkYOfhfLLP7LWnn8f6pVw2LrCodjw3QLn8kM-ZzuhcNWXIQU2aFHR-we4kr3t15K-6MzKnWwj5HdN0A91jg/330x192",
+    "opcoes": [
+      "System Lock",
+      "Jungle",
+      "O.S.I.P.R."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Warbird",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhnwMzFI2kb08u3hoKChfPLJb7Fk3lQ5vp9g-7J4cKn0VXmrhZuYWvxJtSVcQFrZ1DS_wfswb3thpbt7ZrAwHVisnUm5H7YgVXp1mplhCUV/330x192",
+    "opcoes": [
+      "System Lock",
+      "Sage Camo",
+      "Humidor"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Jungle",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhz3MzCZDNF4NmJmImMn-O6Yr6ExDIGupIii7nFo4qi2APn_BI5MG-hco7GJwU5YQyF_AO2xri-0Yj84sp8GLoy2A/330x192",
+    "opcoes": [
+      "Shipping Forecast",
+      "System Lock",
+      "O.S.I.P.R."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Deep Relief",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhjxszFI2kb09izkZC0hfL4Or7XqWdY781lteXA54vwxgbm_BJsYmzyLNCRd1VsM16B_lK3ye-6hpDuu5ufz3JksiV07H_VmkepwUYb-wiXbAo/330x192",
+    "opcoes": [
+      "Spectre",
+      "Sage Camo",
+      "Warbird"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Predator",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhzw8zSdD9Q7d-3mb-HnvD8J4Tdl3lW7Yt12u2ToI2g0FLm_EU4ZTj2J47AI1Q2ZlyG-we6kL_qgpS46p7Om3Q2pGB8skhacMBR/330x192",
+    "opcoes": [
+      "Jungle",
+      "Midnight Palm",
+      "Submerged"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "O.S.I.P.R.",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhnwMzFI2kb09-5mYKCmfLLP7LWnn9u5MRjjeyPo4qt3wbgrhVkam_2JIDAJlM-aFrVq1W8xLq-hZO1upSfyHsy63Z2tmGdwUIJtswwdA/330x192",
+    "opcoes": [
+      "Shipping Forecast",
+      "System Lock",
+      "Impact Drill"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Humidor",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhzw8zFfi9N09-3hpaCmfDLMa7DmH9u5Mx2gv3--Y3nj1H6_UVpMGGidYKXegE7N1zWq1K2lO-50JW06J6cnHY26yd3tHnYzRTl1wYMMLK2yI6yPA/330x192",
+    "opcoes": [
+      "Magma",
+      "Hypnosis",
+      "Spectrogram"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Midnight Palm",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhzw8zYcDFP09K_k4ifqPv9NLPFqWdQ-sJ0xLHFrd2k2lXj-BZvMGH2INLGJwQ_Y16Gq1a4x7-6jce1v5jKyyRi63E8pSGKCuSrnKU/330x192",
+    "opcoes": [
+      "Humidor",
+      "Blizzard Marbleized",
+      "Deep Relief"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Downtown",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhjxszFI2kb09i5g46dmOPxDLfYkWNF18lwmO7Eu9Xx3QWw_hdkajvycNCVdVQ_Z1jV8lHsxLzmh5_qupufyXQx6Cgh5H_D30vgXOdShco/330x192",
+    "opcoes": [
+      "Nebula Crusader",
+      "Magma",
+      "Jungle"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Shipping Forecast",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhoyszSfjlL7d_lq4yCkP_gfemIz2hTuJFy27vCp9yn0ATt-ENpZWv2JIKUdAc9YVGGqAO3ku-6gZOi_MOeuW2MUv4/330x192",
+    "opcoes": [
+      "Midnight Palm",
+      "Blizzard Marbleized",
+      "Sage Camo"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Blizzard Marbleized",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhoyszKfTRY9t2kkL-HnvD8J_XVxD8GvZYhi-2YoYnw2lXkqEJqZ2jyItSde1BqYg7T8gC6wrq905W8ot2XnqjzBKae/330x192",
+    "opcoes": [
+      "Spectre",
+      "Contrast Spray",
+      "Sage Camo"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Emerald Poison Dart",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhzw8zFI2kb09qkm4e0mOX9NLLfl2du5Mx2gv2Pot-m2VG2-BdqZG-mdtLDelJoZlmBrgO7ybzrhsfp7ZvKz3Rj7Ccq4GGdwUJpddwSYA/330x192",
+    "opcoes": [
+      "Spectrogram",
+      "Submerged",
+      "Humidor"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Gator Mesh",
+    "foto": "https://steamcommunity-a.akamaihd.net/economy/image/9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhzw8zFdC5K08yvgIiEmcj4OrzZgiUCscMj2u-UodWsiQOw_Us5azv6JNecJwY4ZQvZ81LryL_nhZXou5_I1zI97T4Sdvxh/330x192",
+    "opcoes": [
+      "Predator",
+      "System Lock",
+      "O.S.I.P.R."
+    ]
+  }
+]

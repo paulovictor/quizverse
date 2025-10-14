@@ -19,7 +19,7 @@ class Theme(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
     slug = models.SlugField(unique=True, max_length=255)
-    icon_svg = models.CharField(max_length=50, blank=True, null=True, help_text='Nome do arquivo SVG (ex: trophy, soccer, gamepad, book, film, music)')
+    icon = models.URLField(max_length=500, blank=True, null=True, help_text='URL da imagem do ícone (PNG, SVG, etc - use Cloudinary)')
     
     # Idioma do tema
     language = models.CharField(max_length=10, choices=LANGUAGE_CHOICES, default='pt-BR', help_text='Idioma do tema')
