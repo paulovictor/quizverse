@@ -18,7 +18,7 @@
     /* Category Hero - Full Width */
     .category-hero {
         background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-        padding: 3rem 2rem;
+        padding: 3rem 0;
         position: relative;
         overflow: hidden;
         width: 100%;
@@ -41,8 +41,9 @@
     }
 
     .hero-content {
-        max-width: 1400px;
+        max-width: 1200px;
         margin: 0 auto;
+        padding: 0 2rem;
         position: relative;
         z-index: 1;
         display: flex;
@@ -104,7 +105,7 @@
     }
 
     .breadcrumb-content {
-        max-width: 1400px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 0 2rem;
         display: flex;
@@ -154,9 +155,11 @@
 
     /* Layout without Sidebar */
     .page-layout {
-        max-width: 1400px;
+        max-width: 1200px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 0 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     /* Sidebar */
@@ -380,7 +383,7 @@
         font-size: 1.5rem;
         font-weight: 700;
         color: #1e40af;
-        margin-bottom: 0.5rem;
+        margin: 0 0 0.5rem 0;
     }
 
     .section-intro-description {
@@ -403,6 +406,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-shrink: 0;
+        line-height: 1;
     }
 
     .section-icon svg {
@@ -416,6 +421,7 @@
         font-size: 1.35rem;
         font-weight: 700;
         color: #1e40af;
+        margin: 0;
         transition: color 0.3s ease;
     }
 
@@ -502,7 +508,7 @@
         font-size: 1.1rem;
         font-weight: 700;
         color: #1e40af;
-        margin-bottom: 0.5rem;
+        margin: 0 0 0.5rem 0;
         transition: color 0.3s ease;
     }
 
@@ -598,7 +604,7 @@
         font-size: 1.1rem;
         font-weight: 700;
         color: #1e40af;
-        margin-bottom: 0.5rem;
+        margin: 0 0 0.5rem 0;
         line-height: 1.3;
         transition: color 0.3s ease;
     }
@@ -700,7 +706,7 @@
 
     .empty-state h3 {
         color: #1e40af;
-        margin-bottom: 0.5rem;
+        margin: 0 0 0.5rem 0;
         font-size: 1.5rem;
         font-weight: 700;
         transition: color 0.3s ease;
@@ -719,12 +725,13 @@
     /* Responsive */
     @media (max-width: 768px) {
         .category-hero {
-            padding: 2rem 1rem;
+            padding: 2rem 0;
         }
 
         .hero-content {
             flex-direction: column;
             text-align: center;
+            padding: 0 1rem;
         }
 
         .breadcrumb-content {
