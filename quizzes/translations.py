@@ -349,6 +349,53 @@ TRANSLATIONS = {
         'nl': 'Verken quizzen', 'sv': 'Utforska frågesporter', 'no': 'Utforsk quizer', 'pl': 'Odkryj quizy', 'id': 'Jelajahi kuis',
         'ja': 'クイズを探索', 'ko': '퀴즈 탐색', 'th': 'สำรวจแบบทดสอบ', 'vi': 'Khám phá câu đố',
     },
+    
+    # Home Page - Category Cards
+    'your_progress': {
+        'pt-BR': 'Seu Progresso', 'en': 'Your Progress', 'es': 'Tu Progreso', 'fr': 'Votre Progrès', 'de': 'Ihr Fortschritt', 'it': 'Il tuo Progresso',
+        'nl': 'Jouw Voortgang', 'sv': 'Din Framsteg', 'no': 'Din Fremgang', 'pl': 'Twój Postęp', 'id': 'Kemajuan Anda',
+        'ja': 'あなたの進捗', 'ko': '당신의 진행 상황', 'th': 'ความคืบหน้าของคุณ', 'vi': 'Tiến độ của bạn',
+    },
+    'completed': {
+        'pt-BR': 'completos', 'en': 'completed', 'es': 'completados', 'fr': 'terminés', 'de': 'abgeschlossen', 'it': 'completati',
+        'nl': 'voltooid', 'sv': 'slutförda', 'no': 'fullført', 'pl': 'ukończone', 'id': 'selesai',
+        'ja': '完了', 'ko': '완료', 'th': 'เสร็จสิ้น', 'vi': 'hoàn thành',
+    },
+    'coming_soon': {
+        'pt-BR': '🔜 Em breve!', 'en': '🔜 Coming soon!', 'es': '🔜 ¡Próximamente!', 'fr': '🔜 Bientôt!', 'de': '🔜 Demnächst!', 'it': '🔜 Prossimamente!',
+        'nl': '🔜 Binnenkort!', 'sv': '🔜 Kommer snart!', 'no': '🔜 Kommer snart!', 'pl': '🔜 Wkrótce!', 'id': '🔜 Segera hadir!',
+        'ja': '🔜 近日公開！', 'ko': '🔜 곧 출시!', 'th': '🔜 เร็วๆ นี้!', 'vi': '🔜 Sắp ra mắt!',
+    },
+    'start_journey_button': {
+        'pt-BR': 'Iniciar Jornada 🚀', 'en': 'Start Journey 🚀', 'es': 'Iniciar Viaje 🚀', 'fr': 'Commencer le Voyage 🚀', 'de': 'Reise starten 🚀', 'it': 'Inizia il Viaggio 🚀',
+        'nl': 'Start Reis 🚀', 'sv': 'Starta Resa 🚀', 'no': 'Start Reise 🚀', 'pl': 'Rozpocznij Podróż 🚀', 'id': 'Mulai Perjalanan 🚀',
+        'ja': '旅を始める 🚀', 'ko': '여정 시작 🚀', 'th': 'เริ่มการเดินทาง 🚀', 'vi': 'Bắt đầu Hành trình 🚀',
+    },
+    'category_complete': {
+        'pt-BR': '✨ Categoria 100% completa!', 'en': '✨ Category 100% complete!', 'es': '✨ ¡Categoría 100% completa!', 'fr': '✨ Catégorie 100% complète!', 'de': '✨ Kategorie 100% abgeschlossen!', 'it': '✨ Categoria 100% completa!',
+        'nl': '✨ Categorie 100% voltooid!', 'sv': '✨ Kategori 100% slutförd!', 'no': '✨ Kategori 100% fullført!', 'pl': '✨ Kategoria 100% ukończona!', 'id': '✨ Kategori 100% selesai!',
+        'ja': '✨ カテゴリー100%完了！', 'ko': '✨ 카테고리 100% 완료!', 'th': '✨ หมวดหมู่เสร็จสิ้น 100%!', 'vi': '✨ Danh mục hoàn thành 100%!',
+    },
+    'continue_journey': {
+        'pt-BR': '🎯 Continue sua jornada!', 'en': '🎯 Continue your journey!', 'es': '🎯 ¡Continúa tu viaje!', 'fr': '🎯 Continuez votre voyage!', 'de': '🎯 Setze deine Reise fort!', 'it': '🎯 Continua il tuo viaggio!',
+        'nl': '🎯 Ga door met je reis!', 'sv': '🎯 Fortsätt din resa!', 'no': '🎯 Fortsett reisen din!', 'pl': '🎯 Kontynuuj swoją podróż!', 'id': '🎯 Lanjutkan perjalanan Anda!',
+        'ja': '🎯 旅を続けよう！', 'ko': '🎯 여정을 계속하세요!', 'th': '🎯 ดำเนินการเดินทางต่อ!', 'vi': '🎯 Tiếp tục hành trình của bạn!',
+    },
+    'new_challenge': {
+        'pt-BR': '⚡ Novo desafio disponível!', 'en': '⚡ New challenge available!', 'es': '⚡ ¡Nuevo desafío disponible!', 'fr': '⚡ Nouveau défi disponible!', 'de': '⚡ Neue Herausforderung verfügbar!', 'it': '⚡ Nuova sfida disponibile!',
+        'nl': '⚡ Nieuwe uitdaging beschikbaar!', 'sv': '⚡ Ny utmaning tillgänglig!', 'no': '⚡ Ny utfordring tilgjengelig!', 'pl': '⚡ Nowe wyzwanie dostępne!', 'id': '⚡ Tantangan baru tersedia!',
+        'ja': '⚡ 新しいチャレンジ！', 'ko': '⚡ 새 도전 가능!', 'th': '⚡ ความท้าทายใหม่!', 'vi': '⚡ Thách thức mới!',
+    },
+    'review_quizzes': {
+        'pt-BR': 'Revisar Quizzes 🔄', 'en': 'Review Quizzes 🔄', 'es': 'Revisar Quizzes 🔄', 'fr': 'Réviser les Quiz 🔄', 'de': 'Quiz überprüfen 🔄', 'it': 'Rivedi Quiz 🔄',
+        'nl': 'Quizzen bekijken 🔄', 'sv': 'Granska Frågesporter 🔄', 'no': 'Gjennomgå Quizer 🔄', 'pl': 'Przejrzyj Quizy 🔄', 'id': 'Tinjau Kuis 🔄',
+        'ja': 'クイズ復習 🔄', 'ko': '퀴즈 복습 🔄', 'th': 'ทบทวนแบบทดสอบ 🔄', 'vi': 'Xem lại Câu đố 🔄',
+    },
+    'continue_playing': {
+        'pt-BR': 'Continuar Jogando 🎮', 'en': 'Continue Playing 🎮', 'es': 'Seguir Jugando 🎮', 'fr': 'Continuer à Jouer 🎮', 'de': 'Weiterspielen 🎮', 'it': 'Continua a Giocare 🎮',
+        'nl': 'Doorgaan met Spelen 🎮', 'sv': 'Fortsätt Spela 🎮', 'no': 'Fortsett å Spille 🎮', 'pl': 'Kontynuuj Grę 🎮', 'id': 'Lanjutkan Bermain 🎮',
+        'ja': 'プレイ続行 🎮', 'ko': '계속 플레이 🎮', 'th': 'เล่นต่อ 🎮', 'vi': 'Tiếp tục Chơi 🎮',
+    },
 }
 
 

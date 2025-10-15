@@ -629,9 +629,9 @@
                     <!-- Progresso -->
                     <div class="progress-section">
                         <div class="progress-header">
-                            <span class="progress-label">Seu Progresso</span>
+                            <span class="progress-label">{% t 'your_progress' %}</span>
                             <span class="progress-count">
-                                {{ item.completed_quizzes|default:0 }}/{{ item.quiz_count }} completos
+                                {{ item.completed_quizzes|default:0 }}/{{ item.quiz_count }} {% t 'completed' %}
                             </span>
                         </div>
                         <div class="progress-bar">
@@ -647,24 +647,24 @@
                     <!-- Badge de status -->
                     <div class="status-badge {% if item.completed_quizzes == item.quiz_count and item.quiz_count > 0 %}complete{% endif %}">
                         {% if item.quiz_count == 0 %}
-                            🔜 Em breve!
+                            {% t 'coming_soon' %}
                         {% elif item.completed_quizzes == item.quiz_count %}
-                            ✨ Categoria 100% completa!
+                            {% t 'category_complete' %}
                         {% elif item.completed_quizzes > 0 %}
-                            🎯 Continue sua jornada!
+                            {% t 'continue_journey' %}
                         {% else %}
-                            ⚡ Novo desafio disponível!
+                            {% t 'new_challenge' %}
                         {% endif %}
                     </div>
                     
                     <!-- Botão de ação -->
                     <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="action-btn">
                         {% if item.completed_quizzes == item.quiz_count and item.quiz_count > 0 %}
-                            Revisar Quizzes 🔄
+                            {% t 'review_quizzes' %}
                         {% elif item.completed_quizzes > 0 %}
-                            Continuar Jogando 🎮
+                            {% t 'continue_playing' %}
                         {% else %}
-                            Iniciar Jornada 🚀
+                            {% t 'start_journey_button' %}
                         {% endif %}
                     </a>
                 </div>
