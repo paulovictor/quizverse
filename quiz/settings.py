@@ -190,6 +190,20 @@ if not DEBUG:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Session and Cookie Configuration
+# Estas configurações são essenciais para mobile e HTTPS funcionarem corretamente
+SESSION_COOKIE_SAMESITE = 'Lax'  # Permite cookies em navegação normal
+SESSION_COOKIE_HTTPONLY = True  # Segurança: não acessível via JavaScript
+SESSION_COOKIE_AGE = 1209600  # 2 semanas
+SESSION_SAVE_EVERY_REQUEST = True  # Garante que a sessão seja salva a cada request
+
+# Em produção (HTTPS), use cookies seguros
+if not DEBUG:
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+    CSRF_COOKIE_SAMESITE = 'Lax'
+    CSRF_COOKIE_HTTPONLY = False  # CSRF token precisa ser acessível via JavaScript
+
 # Django Allauth Configuration
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
