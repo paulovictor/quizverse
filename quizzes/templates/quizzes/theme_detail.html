@@ -843,7 +843,7 @@
     <div class="breadcrumb">
         <div class="breadcrumb-content">
             <a href="{% url 'quizzes:home' %}" class="breadcrumb-link">
-                🏠 Início
+                🏠 {% t 'home' %}
             </a>
             {% if breadcrumb %}
                 <span class="breadcrumb-separator">›</span>
@@ -891,19 +891,19 @@
                             <div class="quiz-card-title-wrapper">
                                 <h3 class="quiz-card-title">{{ quiz.title }}</h3>
                                 <div class="quiz-card-meta">
-                                    <span class="quiz-meta-item">📝 {{ quiz.get_questions_per_attempt }} questões</span>
-                                    <span class="quiz-meta-item">⏱️ {{ quiz.get_estimated_time }} min</span>
+                                    <span class="quiz-meta-item">📝 {{ quiz.get_questions_per_attempt }} {% t 'questions' %}</span>
+                                    <span class="quiz-meta-item">⏱️ {{ quiz.get_estimated_time }} {% t 'estimated_time' %}</span>
                                 </div>
                             </div>
                         </div>
                         <p class="quiz-card-description">{{ quiz.description }}</p>
                         <div class="quiz-card-footer">
                             <span class="difficulty-badge difficulty-{{ quiz.difficulty }}">
-                                {% if quiz.difficulty == 'easy' %}Fácil
-                                {% elif quiz.difficulty == 'medium' %}Médio
-                                {% else %}Difícil{% endif %}
+                                {% if quiz.difficulty == 'easy' %}{% t 'easy' %}
+                                {% elif quiz.difficulty == 'medium' %}{% t 'medium' %}
+                                {% else %}{% t 'hard' %}{% endif %}
                             </span>
-                            <span class="btn-play">▶ Jogar</span>
+                            <span class="btn-play">▶ {% t 'play' %}</span>
                         </div>
                     </a>
                     {% endfor %}
@@ -916,7 +916,7 @@
             <section class="section">
                 <div class="section-header">
                     <span class="section-icon">📂</span>
-                    <h2 class="section-title">Explorar por Categoria</h2>
+                    <h2 class="section-title">{% t 'explore_by_category' %}</h2>
                 </div>
 
                 <div class="category-cards-grid">

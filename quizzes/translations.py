@@ -52,7 +52,37 @@ TRANSLATIONS = {
         'ja': 'アカウント作成', 'ko': '계정 만들기', 'th': 'สร้างบัญชี', 'vi': 'Tạo tài khoản',
     },
     
-    # Home Page
+    # Home Page & Navigation
+    'home': {
+        'pt-BR': 'Início', 'en': 'Home', 'es': 'Inicio', 'fr': 'Accueil', 'de': 'Startseite', 'it': 'Home',
+        'nl': 'Home', 'sv': 'Hem', 'no': 'Hjem', 'pl': 'Strona główna', 'id': 'Beranda',
+        'ja': 'ホーム', 'ko': '홈', 'th': 'หน้าแรก', 'vi': 'Trang chủ',
+    },
+    'explore_by_category': {
+        'pt-BR': 'Explorar por Categoria', 'en': 'Explore by Category', 'es': 'Explorar por Categoría', 'fr': 'Explorer par Catégorie', 'de': 'Nach Kategorie erkunden', 'it': 'Esplora per Categoria',
+        'nl': 'Verkennen per Categorie', 'sv': 'Utforska efter Kategori', 'no': 'Utforsk etter Kategori', 'pl': 'Przeglądaj według Kategorii', 'id': 'Jelajahi berdasarkan Kategori',
+        'ja': 'カテゴリーで探す', 'ko': '카테고리별 탐색', 'th': 'สำรวจตามหมวดหมู่', 'vi': 'Khám phá theo Danh mục',
+    },
+    'items': {
+        'pt-BR': 'Itens', 'en': 'Items', 'es': 'Artículos', 'fr': 'Éléments', 'de': 'Artikel', 'it': 'Articoli',
+        'nl': 'Items', 'sv': 'Objekt', 'no': 'Elementer', 'pl': 'Elementy', 'id': 'Item',
+        'ja': 'アイテム', 'ko': '항목', 'th': 'รายการ', 'vi': 'Mục',
+    },
+    'play': {
+        'pt-BR': 'Jogar', 'en': 'Play', 'es': 'Jugar', 'fr': 'Jouer', 'de': 'Spielen', 'it': 'Gioca',
+        'nl': 'Spelen', 'sv': 'Spela', 'no': 'Spill', 'pl': 'Graj', 'id': 'Main',
+        'ja': 'プレイ', 'ko': '플레이', 'th': 'เล่น', 'vi': 'Chơi',
+    },
+    'play_again': {
+        'pt-BR': 'Jogar novamente', 'en': 'Play again', 'es': 'Jugar de nuevo', 'fr': 'Rejouer', 'de': 'Nochmal spielen', 'it': 'Gioca di nuovo',
+        'nl': 'Opnieuw spelen', 'sv': 'Spela igen', 'no': 'Spill igjen', 'pl': 'Zagraj ponownie', 'id': 'Main lagi',
+        'ja': 'もう一度プレイ', 'ko': '다시 플레이', 'th': 'เล่นอีกครั้ง', 'vi': 'Chơi lại',
+    },
+    'more_quizzes': {
+        'pt-BR': 'Mais quizzes', 'en': 'More quizzes', 'es': 'Más quizzes', 'fr': 'Plus de quiz', 'de': 'Mehr Quiz', 'it': 'Altri quiz',
+        'nl': 'Meer quizzen', 'sv': 'Fler frågesporter', 'no': 'Flere quizer', 'pl': 'Więcej quizów', 'id': 'Kuis lainnya',
+        'ja': 'もっとクイズ', 'ko': '더 많은 퀴즈', 'th': 'แบบทดสอบเพิ่มเติม', 'vi': 'Thêm câu đố',
+    },
     'welcome_title': {
         'pt-BR': 'Desafie seus conhecimentos', 'en': 'Challenge your knowledge', 'es': 'Desafía tus conocimientos', 
         'fr': 'Défiez vos connaissances', 'de': 'Fordern Sie Ihr Wissen heraus', 'it': 'Sfida le tue conoscenze',

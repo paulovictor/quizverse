@@ -1033,7 +1033,7 @@
 <div class="breadcrumb">
     <div class="breadcrumb-content">
         <a href="{% url 'quizzes:home' %}" class="breadcrumb-link">
-            🏠 Início
+            🏠 {% t 'home' %}
         </a>
         <span class="breadcrumb-separator">›</span>
         {% for item in breadcrumb %}
@@ -1139,11 +1139,11 @@
             <form method="POST" action="{% url 'quizzes:quiz_start' theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}" style="margin: 0;">
                 {% csrf_token %}
                 <button type="submit" class="hero-btn hero-btn-primary">
-                    🔄 Jogar novamente
+                    🔄 {% t 'play_again' %}
                 </button>
             </form>
             <a href="{% url 'quizzes:theme_detail' theme_slug=quiz.theme.slug %}" class="hero-btn hero-btn-secondary">
-                📚 Mais quizzes
+                📚 {% t 'more_quizzes' %}
             </a>
         </div>
     </div>

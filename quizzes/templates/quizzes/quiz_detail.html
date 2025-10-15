@@ -574,7 +574,7 @@
     <!-- Breadcrumb -->
     <nav class="breadcrumb">
         <div class="breadcrumb-content">
-            <a href="{% url 'quizzes:home' %}" class="breadcrumb-item">🏠 Início</a>
+            <a href="{% url 'quizzes:home' %}" class="breadcrumb-item">🏠 {% t 'home' %}</a>
             {% for item in breadcrumb %}
                 <span class="breadcrumb-separator">›</span>
                 <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-item">
