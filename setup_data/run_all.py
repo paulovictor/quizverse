@@ -12,7 +12,7 @@ SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Lista de scripts em ordem de execução
 SETUP_SCRIPTS = [
-    '01_setup_root_themes.py',
+    '00_root_themes.py',
     '02_setup_sports_subcategories.py',
     # Adicione mais scripts aqui conforme necessário
     # '03_setup_sample_quizzes.py',
@@ -33,11 +33,13 @@ def run_script(script_path):
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     
-    # Executa a função run() do módulo
-    if hasattr(module, 'run'):
+    # Executa a função principal do módulo
+    if hasattr(module, 'create_root_themes'):
+        module.create_root_themes()
+    elif hasattr(module, 'run'):
         module.run()
     else:
-        print(f"⚠️  Aviso: {script_name} não tem função run()")
+        print(f"⚠️  Aviso: {script_name} não tem função run() ou create_root_themes()")
 
 
 def main():
