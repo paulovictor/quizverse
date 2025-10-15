@@ -244,6 +244,7 @@
             transition: all 0.3s;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
             display: none;
+            -webkit-overflow-scrolling: touch;
         }
 
         .options-list-header.active {
@@ -589,6 +590,22 @@
                 padding: 0.4rem 0.5rem;
             }
 
+            /* Ajustes do dropdown no mobile */
+            .options-list-header {
+                position: fixed;
+                right: 1rem;
+                left: 1rem;
+                min-width: auto;
+                max-width: calc(100vw - 2rem);
+                top: auto;
+                bottom: auto;
+                max-height: 60vh;
+            }
+
+            .search-box-header input {
+                font-size: 16px; /* Previne zoom no iOS */
+            }
+
             .footer-content {
                 grid-template-columns: 1fr;
             }
@@ -883,13 +900,43 @@
                 selectButton.classList.add('active');
                 optionsList.classList.add('active');
                 searchInput.value = '';
-                setTimeout(() => searchInput.focus(), 100);
+                
+                // No mobile, ajusta posicionamento e previne scroll
+                if (window.innerWidth <= 640) {
+                    const buttonRect = selectButton.getBoundingClientRect();
+                    const spaceBelow = window.innerHeight - buttonRect.bottom;
+                    const spaceAbove = buttonRect.top;
+                    
+                    // Se tem mais espaço embaixo, posiciona abaixo; senão, acima
+                    if (spaceBelow > spaceAbove) {
+                        optionsList.style.top = buttonRect.bottom + 8 + 'px';
+                        optionsList.style.bottom = 'auto';
+                    } else {
+                        optionsList.style.bottom = (window.innerHeight - buttonRect.top + 8) + 'px';
+                        optionsList.style.top = 'auto';
+                    }
+                    
+                    // Previne scroll do body no mobile
+                    document.body.style.overflow = 'hidden';
+                }
+                
+                setTimeout(() => {
+                    // No mobile, não foca automaticamente para evitar zoom
+                    if (window.innerWidth > 640) {
+                        searchInput.focus();
+                    }
+                }, 100);
                 renderOptions();
             }
 
             function closeDropdown() {
                 selectButton.classList.remove('active');
                 optionsList.classList.remove('active');
+                
+                // Restaura scroll do body no mobile
+                if (window.innerWidth <= 640) {
+                    document.body.style.overflow = '';
+                }
             }
 
             // Search functionality
