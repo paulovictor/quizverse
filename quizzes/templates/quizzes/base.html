@@ -1,7 +1,7 @@
 {% load static %}
 {% load icon_tags %}
 <!DOCTYPE html>
-<html lang="{{ current_language|default:'pt-BR' }}">
+<html lang="{{ current_language|default:'pt' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
     <meta property="og:title" content="{% block og_title %}{% t 'site_name' %} - {% t 'welcome_title' %}{% endblock %}">
     <meta property="og:description" content="{% block og_description %}{% t 'footer_description' %}{% endblock %}">
     <meta property="og:image" content="{% block og_image %}{{ request.scheme }}://{{ request.get_host }}{% static 'images/quizverse_icon.png' %}{% endblock %}">
-    <meta property="og:locale" content="{{ current_language|default:'pt_BR' }}">
+    <meta property="og:locale" content="{{ current_language|default:'pt' }}_{{ current_country|slice:'-2:'|upper|default:'BR' }}">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -161,6 +161,161 @@
             transition: color 0.3s ease;
         }
 
+        /* Country Select in Header */
+        .custom-select-header {
+            position: relative;
+        }
+
+        .select-button-header {
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            padding: 0.6rem 0.75rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            min-width: 80px;
+            height: 50px;
+            user-select: none;
+        }
+
+        .select-button-header:hover {
+            border-color: #3b82f6;
+            background: var(--bg-secondary);
+        }
+
+        .select-button-header.active {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        .selected-option-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex: 1;
+        }
+
+        .flag-header {
+            font-size: 1.5rem;
+        }
+
+        .arrow-header {
+            transition: transform 0.3s;
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+        }
+
+        .select-button-header.active .arrow-header {
+            transform: rotate(180deg);
+        }
+
+        .options-list-header {
+            position: absolute;
+            top: calc(100% + 8px);
+            right: 0;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            min-width: 280px;
+            max-height: 400px;
+            overflow-y: auto;
+            z-index: 10000;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            display: none;
+        }
+
+        .options-list-header.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+            display: block;
+        }
+
+        .options-list-header::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .options-list-header::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+        }
+
+        .options-list-header::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 8px;
+        }
+
+        .options-list-header::-webkit-scrollbar-thumb:hover {
+            background: #3b82f6;
+        }
+
+        .search-box-header {
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            background: var(--card-bg);
+            z-index: 1;
+        }
+
+        .search-box-header input {
+            width: 100%;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 8px 12px;
+            color: var(--text-primary);
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-box-header input:focus {
+            border-color: #3b82f6;
+        }
+
+        .search-box-header input::placeholder {
+            color: var(--text-tertiary);
+        }
+
+        .option-item-header {
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-primary);
+        }
+
+        .option-item-header:hover {
+            background: var(--bg-secondary);
+        }
+
+        .option-item-header .flag-header {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .option-item-header .name-header {
+            font-size: 14px;
+        }
+
+        .no-results-header {
+            padding: 20px;
+            text-align: center;
+            color: var(--text-tertiary);
+            font-size: 14px;
+        }
+
         /* Dark Mode Toggle Button in Header */
         .dark-mode-toggle-header {
             background: transparent;
@@ -273,114 +428,6 @@
             flex: 1;
         }
 
-        /* Footer Languages Section */
-        .footer-languages {
-            padding: 2.5rem 2rem 3rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .footer-languages-content {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .footer-languages-header {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        .footer-languages-title {
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: white;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-        }
-
-        .footer-languages-icon {
-            font-size: 1.5rem;
-        }
-
-        .footer-languages-subtitle {
-            font-size: 0.95rem;
-            color: rgba(255, 255, 255, 0.6);
-            font-weight: 400;
-        }
-
-        .language-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-            gap: 0.875rem;
-        }
-
-        .language-card {
-            background: rgba(255, 255, 255, 0.08);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            border-radius: 10px;
-            padding: 0.875rem;
-            display: flex;
-            align-items: center;
-            gap: 0.625rem;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-
-        .language-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-            border-color: rgba(59, 130, 246, 0.6);
-            background: rgba(255, 255, 255, 0.12);
-        }
-        
-        .language-card.active {
-            background: rgba(59, 130, 246, 0.25);
-            border: 2px solid rgba(59, 130, 246, 0.8);
-            box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
-        }
-
-        .language-flag {
-            font-size: 1.75rem;
-            flex-shrink: 0;
-        }
-
-        .language-info {
-            flex: 1;
-            min-width: 0;
-        }
-
-        .language-name {
-            font-size: 0.875rem;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 0.125rem;
-        }
-
-        .language-subtitle {
-            font-size: 0.7rem;
-            color: rgba(255, 255, 255, 0.6);
-            margin-bottom: 0.3rem;
-        }
-
-        .language-count {
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-            font-size: 0.75rem;
-            color: #10b981;
-            font-weight: 600;
-        }
-
-        .language-count-dot {
-            width: 5px;
-            height: 5px;
-            background: #10b981;
-            border-radius: 50%;
-        }
-
         /* Footer */
         .footer {
             background: var(--footer-bg);
@@ -443,8 +490,8 @@
 
         /* Responsive */
         @media (max-width: 968px) {
-            .language-cards {
-                grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            .language-card {
+                font-size: 1.5rem;
             }
 
             .footer-content {
@@ -474,18 +521,6 @@
                 height: 1.2rem;
             }
 
-            .footer-languages {
-                padding: 2rem 1rem;
-            }
-
-            .footer-languages-header {
-                margin-bottom: 1.5rem;
-            }
-
-            .language-cards {
-                grid-template-columns: 1fr;
-            }
-
             .footer-content {
                 grid-template-columns: 1fr;
             }
@@ -503,6 +538,23 @@
                 <span>{% t 'site_name' %}</span>
             </a>
             <div class="user-section">
+                <!-- Country Selector -->
+                <div class="custom-select-header">
+                    <div class="select-button-header" id="selectButtonHeader">
+                        <div class="selected-option-header">
+                            <span class="flag-header">🇧🇷</span>
+                        </div>
+                        <span class="arrow-header">▼</span>
+                    </div>
+
+                    <div class="options-list-header" id="optionsListHeader">
+                        <div class="search-box-header">
+                            <input type="text" id="searchInputHeader" placeholder="Buscar país...">
+                        </div>
+                        <div id="optionsContainerHeader"></div>
+                    </div>
+                </div>
+
                 <!-- Dark Mode Toggle -->
                 <button class="dark-mode-toggle-header" onclick="toggleDarkMode()" title="Alternar modo escuro/claro">
                     <div class="toggle-icon-container">
@@ -530,87 +582,6 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- Language Section in Footer -->
-        <div class="footer-languages">
-            <div class="footer-languages-content">
-                <div class="footer-languages-header">
-                    <h3 class="footer-languages-title">
-                        <span class="footer-languages-icon">💙</span>
-                        {% t 'footer_languages_title' %}
-                    </h3>
-                    <p class="footer-languages-subtitle">{% t 'footer_languages_subtitle' %}</p>
-                </div>
-                <div class="language-cards">
-                    <div class="language-card {% if current_language == 'pt-BR' %}active{% endif %}" data-language="pt-BR">
-                        <div class="language-flag">🇧🇷</div>
-                        <div class="language-info">
-                            <div class="language-name">Português</div>
-                            <div class="language-subtitle">{% t 'lang_portuguese' %}</div>
-                            <div class="language-count">
-                                <span class="language-count-dot"></span>
-                                <span>{{ language_stats.pt_BR|default:0 }} {% t 'total_quizzes' %}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="language-card {% if current_language == 'en' %}active{% endif %}" data-language="en">
-                        <div class="language-flag">🇺🇸</div>
-                        <div class="language-info">
-                            <div class="language-name">English</div>
-                            <div class="language-subtitle">{% t 'lang_english' %}</div>
-                            <div class="language-count">
-                                <span class="language-count-dot"></span>
-                                <span>{{ language_stats.en|default:0 }} {% t 'total_quizzes' %}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="language-card {% if current_language == 'es' %}active{% endif %}" data-language="es">
-                        <div class="language-flag">🇪🇸</div>
-                        <div class="language-info">
-                            <div class="language-name">Español</div>
-                            <div class="language-subtitle">{% t 'lang_spanish' %}</div>
-                            <div class="language-count">
-                                <span class="language-count-dot"></span>
-                                <span>{{ language_stats.es|default:0 }} {% t 'total_quizzes' %}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="language-card {% if current_language == 'fr' %}active{% endif %}" data-language="fr">
-                        <div class="language-flag">🇫🇷</div>
-                        <div class="language-info">
-                            <div class="language-name">Français</div>
-                            <div class="language-subtitle">{% t 'lang_french' %}</div>
-                            <div class="language-count">
-                                <span class="language-count-dot"></span>
-                                <span>{{ language_stats.fr|default:0 }} {% t 'total_quizzes' %}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="language-card {% if current_language == 'de' %}active{% endif %}" data-language="de">
-                        <div class="language-flag">🇩🇪</div>
-                        <div class="language-info">
-                            <div class="language-name">Deutsch</div>
-                            <div class="language-subtitle">{% t 'lang_german' %}</div>
-                            <div class="language-count">
-                                <span class="language-count-dot"></span>
-                                <span>{{ language_stats.de|default:0 }} {% t 'total_quizzes' %}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="language-card {% if current_language == 'it' %}active{% endif %}" data-language="it">
-                        <div class="language-flag">🇮🇹</div>
-                        <div class="language-info">
-                            <div class="language-name">Italiano</div>
-                            <div class="language-subtitle">{% t 'lang_italian' %}</div>
-                            <div class="language-count">
-                                <span class="language-count-dot"></span>
-                                <span>{{ language_stats.it|default:0 }} {% t 'total_quizzes' %}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="footer-content">
             <div class="footer-brand">
                 <h4>{% t 'site_name' %}</h4>
@@ -667,57 +638,175 @@
             }
         };
 
-        // Language Switcher
+        // Country Selector in Header
         document.addEventListener('DOMContentLoaded', function() {
-            const languageCards = document.querySelectorAll('.language-card');
+            console.log('Country selector script loaded');
+            const countries = [
+                { code: 'pt-BR', name: 'Brasil', flag: '🇧🇷' },
+                { code: 'en-US', name: 'United States', flag: '🇺🇸' },
+                { code: 'en-CA', name: 'Canada', flag: '🇨🇦' },
+                { code: 'es-MX', name: 'México', flag: '🇲🇽' },
+                { code: 'es-AR', name: 'Argentina', flag: '🇦🇷' },
+                { code: 'es-CO', name: 'Colombia', flag: '🇨🇴' },
+                { code: 'en-GB', name: 'United Kingdom', flag: '🇬🇧' },
+                { code: 'de-DE', name: 'Germany', flag: '🇩🇪' },
+                { code: 'fr-FR', name: 'France', flag: '🇫🇷' },
+                { code: 'es-ES', name: 'Spain', flag: '🇪🇸' },
+                { code: 'it-IT', name: 'Italy', flag: '🇮🇹' },
+                { code: 'nl-NL', name: 'Netherlands', flag: '🇳🇱' },
+                { code: 'sv-SE', name: 'Sweden', flag: '🇸🇪' },
+                { code: 'no-NO', name: 'Norway', flag: '🇳🇴' },
+                { code: 'pl-PL', name: 'Poland', flag: '🇵🇱' },
+                { code: 'pt-PT', name: 'Portugal', flag: '🇵🇹' },
+                { code: 'en-IN', name: 'India', flag: '🇮🇳' },
+                { code: 'en-PH', name: 'Philippines', flag: '🇵🇭' },
+                { code: 'id-ID', name: 'Indonesia', flag: '🇮🇩' },
+                { code: 'ja-JP', name: 'Japan', flag: '🇯🇵' },
+                { code: 'ko-KR', name: 'South Korea', flag: '🇰🇷' },
+                { code: 'th-TH', name: 'Thailand', flag: '🇹🇭' },
+                { code: 'vi-VN', name: 'Vietnam', flag: '🇻🇳' },
+                { code: 'en-AU', name: 'Australia', flag: '🇦🇺' },
+                { code: 'en-NZ', name: 'New Zealand', flag: '🇳🇿' },
+            ];
+
+            const selectButton = document.getElementById('selectButtonHeader');
+            const optionsList = document.getElementById('optionsListHeader');
+            const searchInput = document.getElementById('searchInputHeader');
+            const optionsContainer = document.getElementById('optionsContainerHeader');
             
-            languageCards.forEach(card => {
-                card.addEventListener('click', function() {
-                    const language = this.dataset.language;
-                    
-                    // Get CSRF token
-                    const csrftoken = getCookie('csrftoken');
-                    
-                    // Send POST request to change language
-                    fetch("{% url 'quizzes:set_language' %}", {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/x-www-form-urlencoded',
-                            'X-CSRFToken': csrftoken
-                        },
-                        body: 'language=' + encodeURIComponent(language)
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.success) {
-                            // Redirect to home page to show content in new language
-                            window.location.href = "{% url 'quizzes:home' %}";
-                        } else {
-                            console.error('Failed to change language:', data.error);
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error changing language:', error);
+            // Check if elements exist
+            if (!selectButton || !optionsList || !searchInput || !optionsContainer) {
+                console.log('Country selector elements not found');
+                return;
+            }
+            
+            // Set current country from server
+            const currentCountry = '{{ current_country|default:"pt-BR" }}';
+            const currentCountryData = countries.find(c => c.code === currentCountry);
+            if (currentCountryData && selectButton.querySelector('.flag-header')) {
+                selectButton.querySelector('.flag-header').textContent = currentCountryData.flag;
+            }
+
+            // Render options
+            function renderOptions(filter = '') {
+                const filtered = countries.filter(country =>
+                    country.name.toLowerCase().includes(filter.toLowerCase())
+                );
+
+                if (filtered.length === 0) {
+                    optionsContainer.innerHTML = '<div class="no-results-header">Nenhum país encontrado</div>';
+                    return;
+                }
+
+                optionsContainer.innerHTML = filtered.map(country => `
+                    <div class="option-item-header" data-code="${country.code}" data-flag="${country.flag}">
+                        <span class="flag-header">${country.flag}</span>
+                        <span class="name-header">${country.name}</span>
+                    </div>
+                `).join('');
+
+                // Add click events to options
+                document.querySelectorAll('.option-item-header').forEach(item => {
+                    item.addEventListener('click', function() {
+                        const code = this.dataset.code;
+                        const flag = this.dataset.flag;
+                        
+                        // Update button
+                        selectButton.querySelector('.flag-header').textContent = flag;
+                        
+                        // Get CSRF token
+                        const csrftoken = getCookie('csrftoken');
+                        
+                        // Send POST request to change country
+                        fetch("{% url 'quizzes:set_country' %}", {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'X-CSRFToken': csrftoken
+                            },
+                            body: 'country=' + encodeURIComponent(code)
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success) {
+                                window.location.href = "{% url 'quizzes:home' %}";
+                            } else {
+                                console.error('Failed to change country:', data.error);
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error changing country:', error);
+                        });
+                        
+                        closeDropdown();
                     });
                 });
+            }
+
+            // Toggle dropdown
+            selectButton.addEventListener('click', function(e) {
+                console.log('Select button clicked');
+                e.stopPropagation();
+                const isActive = optionsList.classList.contains('active');
+                console.log('isActive:', isActive);
+                
+                if (isActive) {
+                    closeDropdown();
+                } else {
+                    openDropdown();
+                }
             });
-            
-            // Helper function to get CSRF token from cookies
-            function getCookie(name) {
-                let cookieValue = null;
-                if (document.cookie && document.cookie !== '') {
-                    const cookies = document.cookie.split(';');
-                    for (let i = 0; i < cookies.length; i++) {
-                        const cookie = cookies[i].trim();
-                        if (cookie.substring(0, name.length + 1) === (name + '=')) {
-                            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-                            break;
-                        }
+
+            function openDropdown() {
+                console.log('Opening dropdown');
+                selectButton.classList.add('active');
+                optionsList.classList.add('active');
+                searchInput.value = '';
+                setTimeout(() => searchInput.focus(), 100);
+                renderOptions();
+            }
+
+            function closeDropdown() {
+                console.log('Closing dropdown');
+                selectButton.classList.remove('active');
+                optionsList.classList.remove('active');
+            }
+
+            // Search functionality
+            searchInput.addEventListener('input', function(e) {
+                e.stopPropagation();
+                renderOptions(this.value);
+            });
+
+            // Prevent closing when clicking inside options list
+            optionsList.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+
+            // Close when clicking outside
+            document.addEventListener('click', function() {
+                closeDropdown();
+            });
+
+            // Initial render
+            renderOptions();
+        });
+
+        // Helper function to get CSRF token from cookies
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
                     }
                 }
-                return cookieValue;
             }
-        });
+            return cookieValue;
+        }
     </script>
     
     {% block extra_scripts %}{% endblock %}

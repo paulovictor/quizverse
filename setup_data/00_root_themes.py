@@ -1,6 +1,6 @@
 """
-Script para configurar os temas principais (root themes) em múltiplos idiomas.
-Criar categorias base para todos os idiomas suportados: pt, en, es, de, fr, it
+Script para configurar os temas principais (root themes) em múltiplos países.
+Criar categorias base para todos os 25 países suportados
 """
 
 import os
@@ -16,518 +16,371 @@ django.setup()
 from quizzes.models import Theme
 
 def create_root_themes():
-    """Cria temas principais em todos os idiomas"""
+    """Cria temas principais em todos os países"""
     
-    # Definição dos temas com traduções
-    themes_data = [
+    # Definição dos temas com suas configurações visuais
+    themes_base = [
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Esportes',
-                    'slug': 'esportes',
-                    'description': 'Teste seus conhecimentos sobre futebol, olimpíadas, recordes mundiais e os maiores atletas da história. De regras a curiosidades esportivas!'
-                },
-                'en': {
-                    'title': 'Sports',
-                    'slug': 'sports',
-                    'description': 'Test your knowledge about soccer, Olympics, world records and the greatest athletes in history. From rules to sports trivia!'
-                },
-                'es': {
-                    'title': 'Deportes',
-                    'slug': 'deportes',
-                    'description': '¡Pon a prueba tus conocimientos sobre fútbol, olimpiadas, récords mundiales y los mejores atletas de la historia. ¡De reglas a curiosidades deportivas!'
-                },
-                'de': {
-                    'title': 'Sport',
-                    'slug': 'sport',
-                    'description': 'Testen Sie Ihr Wissen über Fußball, Olympische Spiele, Weltrekorde und die größten Athleten der Geschichte. Von Regeln bis zu Sport-Trivia!'
-                },
-                'fr': {
-                    'title': 'Sports',
-                    'slug': 'sports',
-                    'description': 'Testez vos connaissances sur le football, les Jeux olympiques, les records mondiaux et les plus grands athlètes de l\'histoire. Des règles aux anecdotes sportives!'
-                },
-                'it': {
-                    'title': 'Sport',
-                    'slug': 'sport',
-                    'description': 'Metti alla prova le tue conoscenze su calcio, Olimpiadi, record mondiali e i più grandi atleti della storia. Dalle regole alle curiosità sportive!'
-                }
-            },
+            'slug_base': 'sports',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485101/ChatGPT_Image_Oct_14_2025_08_21_19_PM_u8jcah.png',
             'primary_color': '#34d399',
             'secondary_color': '#10b981',
             'icon_bg_color_1': '#d1fae5',
             'icon_bg_color_2': '#a7f3d0',
-            'order': 1
+            'order': 1,
+            'translations': {
+                'en': {'title': 'Sports', 'description': 'Test your knowledge about soccer, Olympics, world records and the greatest athletes in history!'},
+                'pt': {'title': 'Esportes', 'description': 'Teste seus conhecimentos sobre futebol, olimpíadas, recordes mundiais e os maiores atletas da história!'},
+                'es': {'title': 'Deportes', 'description': '¡Pon a prueba tus conocimientos sobre fútbol, olimpiadas, récords mundiales y los mejores atletas de la historia!'},
+                'de': {'title': 'Sport', 'description': 'Testen Sie Ihr Wissen über Fußball, Olympische Spiele, Weltrekorde und die größten Athleten der Geschichte!'},
+                'fr': {'title': 'Sports', 'description': 'Testez vos connaissances sur le football, les Jeux olympiques, les records mondiaux et les plus grands athlètes!'},
+                'it': {'title': 'Sport', 'description': 'Metti alla prova le tue conoscenze su calcio, Olimpiadi, record mondiali e i più grandi atleti della storia!'},
+                'nl': {'title': 'Sport', 'description': 'Test je kennis over voetbal, Olympische Spelen, wereldrecords en de grootste atleten uit de geschiedenis!'},
+                'sv': {'title': 'Sport', 'description': 'Testa dina kunskaper om fotboll, OS, världsrekord och historiens största idrottare!'},
+                'no': {'title': 'Sport', 'description': 'Test kunnskapen din om fotball, OL, verdensrekorder og historiens største idrettsutøvere!'},
+                'pl': {'title': 'Sport', 'description': 'Przetestuj swoją wiedzę o piłce nożnej, Igrzyskach Olimpijskich, rekordach świata i największych sportowcach!'},
+                'id': {'title': 'Olahraga', 'description': 'Uji pengetahuan Anda tentang sepak bola, Olimpiade, rekor dunia, dan atlet terhebat sepanjang masa!'},
+                'ja': {'title': 'スポーツ', 'description': 'サッカー、オリンピック、世界記録、歴史上最高のアスリートについての知識をテストしよう!'},
+                'ko': {'title': '스포츠', 'description': '축구, 올림픽, 세계 기록, 역사상 최고의 운동선수에 대한 지식을 테스트하세요!'},
+                'th': {'title': 'กีฬา', 'description': 'ทดสอบความรู้เกี่ยวกับฟุตบอล โอลิมปิก สถิติโลก และนักกีฬาที่ยิ่งใหญ่ที่สุดในประวัติศาสตร์!'},
+                'vi': {'title': 'Thể thao', 'description': 'Kiểm tra kiến thức của bạn về bóng đá, Olympic, kỷ lục thế giới và những vận động viên vĩ đại nhất!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Entretenimento & Mídia',
-                    'slug': 'entretenimento-midia',
-                    'description': 'Mergulhe no universo do cinema, séries, música e TV! De blockbusters a clássicos cult, teste seu conhecimento sobre tudo que diverte o mundo.'
-                },
-                'en': {
-                    'title': 'Entertainment & Media',
-                    'slug': 'entertainment-media',
-                    'description': 'Dive into the universe of cinema, series, music and TV! From blockbusters to cult classics, test your knowledge about everything that entertains the world.'
-                },
-                'es': {
-                    'title': 'Entretenimiento y Medios',
-                    'slug': 'entretenimiento-medios',
-                    'description': '¡Sumérgete en el universo del cine, series, música y TV! Desde éxitos de taquilla hasta clásicos de culto, pon a prueba tus conocimientos sobre todo lo que divierte al mundo.'
-                },
-                'de': {
-                    'title': 'Unterhaltung & Medien',
-                    'slug': 'unterhaltung-medien',
-                    'description': 'Tauchen Sie ein in die Welt von Kino, Serien, Musik und TV! Von Blockbustern bis Kultklassikern, testen Sie Ihr Wissen über alles, was die Welt unterhält.'
-                },
-                'fr': {
-                    'title': 'Divertissement & Médias',
-                    'slug': 'divertissement-medias',
-                    'description': 'Plongez dans l\'univers du cinéma, des séries, de la musique et de la TV! Des blockbusters aux classiques cultes, testez vos connaissances sur tout ce qui divertit le monde.'
-                },
-                'it': {
-                    'title': 'Intrattenimento & Media',
-                    'slug': 'intrattenimento-media',
-                    'description': 'Immergiti nell\'universo del cinema, serie TV, musica e televisione! Dai blockbuster ai classici cult, metti alla prova le tue conoscenze su tutto ciò che intrattiene il mondo.'
-                }
-            },
+            'slug_base': 'entertainment',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485101/ChatGPT_Image_Oct_14_2025_08_19_27_PM_vb9x9w.png',
             'primary_color': '#a78bfa',
             'secondary_color': '#8b5cf6',
             'icon_bg_color_1': '#ede9fe',
             'icon_bg_color_2': '#ddd6fe',
-            'order': 2
+            'order': 2,
+            'translations': {
+                'en': {'title': 'Entertainment & Media', 'description': 'Dive into the universe of cinema, series, music and TV!'},
+                'pt': {'title': 'Entretenimento & Mídia', 'description': 'Mergulhe no universo do cinema, séries, música e TV!'},
+                'es': {'title': 'Entretenimiento y Medios', 'description': '¡Sumérgete en el universo del cine, series, música y TV!'},
+                'de': {'title': 'Unterhaltung & Medien', 'description': 'Tauchen Sie ein in die Welt von Kino, Serien, Musik und TV!'},
+                'fr': {'title': 'Divertissement & Médias', 'description': 'Plongez dans l\'univers du cinéma, des séries, de la musique et de la TV!'},
+                'it': {'title': 'Intrattenimento & Media', 'description': 'Immergiti nell\'universo del cinema, serie TV, musica e televisione!'},
+                'nl': {'title': 'Entertainment & Media', 'description': 'Duik in het universum van cinema, series, muziek en TV!'},
+                'sv': {'title': 'Underhållning & Media', 'description': 'Dyk in i världen av bio, serier, musik och TV!'},
+                'no': {'title': 'Underholdning & Media', 'description': 'Dykk ned i universet av kino, serier, musikk og TV!'},
+                'pl': {'title': 'Rozrywka i Media', 'description': 'Zanurz się w świecie kina, seriali, muzyki i telewizji!'},
+                'id': {'title': 'Hiburan & Media', 'description': 'Selami dunia sinema, serial, musik, dan TV!'},
+                'ja': {'title': 'エンターテイメント', 'description': '映画、シリーズ、音楽、テレビの世界に飛び込もう!'},
+                'ko': {'title': '엔터테인먼트', 'description': '영화, 시리즈, 음악, TV의 세계로 뛰어들어보세요!'},
+                'th': {'title': 'บันเทิง', 'description': 'ดำดิ่งสู่จักรวาลของภาพยนตร์ ซีรีส์ เพลง และทีวี!'},
+                'vi': {'title': 'Giải trí & Truyền thông', 'description': 'Hòa mình vào vũ trụ điện ảnh, phim truyền hình, âm nhạc và TV!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Curiosidades Gerais',
-                    'slug': 'curiosidades-gerais',
-                    'description': 'Descubra fatos surpreendentes e bizarros sobre o mundo! Perguntas aleatórias e divertidas que vão testar sua cultura geral de forma imprevisível.'
-                },
-                'en': {
-                    'title': 'General Trivia',
-                    'slug': 'general-trivia',
-                    'description': 'Discover surprising and bizarre facts about the world! Random and fun questions that will test your general knowledge in unpredictable ways.'
-                },
-                'es': {
-                    'title': 'Curiosidades Generales',
-                    'slug': 'curiosidades-generales',
-                    'description': '¡Descubre hechos sorprendentes y extraños sobre el mundo! Preguntas aleatorias y divertidas que pondrán a prueba tu cultura general de manera impredecible.'
-                },
-                'de': {
-                    'title': 'Allgemeinwissen',
-                    'slug': 'allgemeinwissen',
-                    'description': 'Entdecken Sie überraschende und bizarre Fakten über die Welt! Zufällige und unterhaltsame Fragen, die Ihr Allgemeinwissen auf unvorhersehbare Weise testen.'
-                },
-                'fr': {
-                    'title': 'Culture Générale',
-                    'slug': 'culture-generale',
-                    'description': 'Découvrez des faits surprenants et bizarres sur le monde! Des questions aléatoires et amusantes qui testeront votre culture générale de manière imprévisible.'
-                },
-                'it': {
-                    'title': 'Curiosità Generali',
-                    'slug': 'curiosita-generali',
-                    'description': 'Scopri fatti sorprendenti e bizzarri sul mondo! Domande casuali e divertenti che metteranno alla prova la tua cultura generale in modi imprevedibili.'
-                }
-            },
+            'slug_base': 'trivia',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760486708/ChatGPT_Image_Oct_14_2025_09_04_59_PM_yclneb.png',
             'primary_color': '#fb7185',
             'secondary_color': '#f43f5e',
             'icon_bg_color_1': '#ffe4e6',
             'icon_bg_color_2': '#fecdd3',
-            'order': 3
+            'order': 3,
+            'translations': {
+                'en': {'title': 'General Trivia', 'description': 'Discover surprising facts about the world!'},
+                'pt': {'title': 'Curiosidades Gerais', 'description': 'Descubra fatos surpreendentes sobre o mundo!'},
+                'es': {'title': 'Curiosidades Generales', 'description': '¡Descubre hechos sorprendentes sobre el mundo!'},
+                'de': {'title': 'Allgemeinwissen', 'description': 'Entdecken Sie überraschende Fakten über die Welt!'},
+                'fr': {'title': 'Culture Générale', 'description': 'Découvrez des faits surprenants sur le monde!'},
+                'it': {'title': 'Curiosità Generali', 'description': 'Scopri fatti sorprendenti sul mondo!'},
+                'nl': {'title': 'Algemene Kennis', 'description': 'Ontdek verrassende feiten over de wereld!'},
+                'sv': {'title': 'Allmänbildning', 'description': 'Upptäck överraskande fakta om världen!'},
+                'no': {'title': 'Allmenankunnskap', 'description': 'Oppdag overraskende fakta om verden!'},
+                'pl': {'title': 'Ciekawostki', 'description': 'Odkryj zaskakujące fakty o świecie!'},
+                'id': {'title': 'Trivia Umum', 'description': 'Temukan fakta mengejutkan tentang dunia!'},
+                'ja': {'title': '一般知識', 'description': '世界についての驚くべき事実を発見しよう!'},
+                'ko': {'title': '일반 상식', 'description': '세상에 대한 놀라운 사실을 발견하세요!'},
+                'th': {'title': 'ความรู้ทั่วไป', 'description': 'ค้นพบข้อเท็จจริงที่น่าประหลาดใจเกี่ยวกับโลก!'},
+                'vi': {'title': 'Kiến thức tổng hợp', 'description': 'Khám phá những sự thật đáng ngạc nhiên về thế giới!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Ciência & Tecnologia',
-                    'slug': 'ciencia-tecnologia',
-                    'description': 'Explore o universo da inovação! De física quântica a inteligência artificial, descubra as descobertas que transformam nosso mundo.'
-                },
-                'en': {
-                    'title': 'Science & Technology',
-                    'slug': 'science-technology',
-                    'description': 'Explore the universe of innovation! From quantum physics to artificial intelligence, discover the discoveries that transform our world.'
-                },
-                'es': {
-                    'title': 'Ciencia y Tecnología',
-                    'slug': 'ciencia-tecnologia',
-                    'description': '¡Explora el universo de la innovación! Desde física cuántica hasta inteligencia artificial, descubre los hallazgos que transforman nuestro mundo.'
-                },
-                'de': {
-                    'title': 'Wissenschaft & Technologie',
-                    'slug': 'wissenschaft-technologie',
-                    'description': 'Erkunden Sie das Universum der Innovation! Von Quantenphysik bis künstlicher Intelligenz, entdecken Sie die Entdeckungen, die unsere Welt verändern.'
-                },
-                'fr': {
-                    'title': 'Science & Technologie',
-                    'slug': 'science-technologie',
-                    'description': 'Explorez l\'univers de l\'innovation! De la physique quantique à l\'intelligence artificielle, découvrez les découvertes qui transforment notre monde.'
-                },
-                'it': {
-                    'title': 'Scienza & Tecnologia',
-                    'slug': 'scienza-tecnologia',
-                    'description': 'Esplora l\'universo dell\'innovazione! Dalla fisica quantistica all\'intelligenza artificiale, scopri le scoperte che trasformano il nostro mondo.'
-                }
-            },
+            'slug_base': 'science',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485110/ChatGPT_Image_Oct_14_2025_05_59_31_PM_g7wxey.png',
             'primary_color': '#22d3ee',
             'secondary_color': '#06b6d4',
             'icon_bg_color_1': '#cffafe',
             'icon_bg_color_2': '#a5f3fc',
-            'order': 4
+            'order': 4,
+            'translations': {
+                'en': {'title': 'Science & Technology', 'description': 'Explore the universe of innovation!'},
+                'pt': {'title': 'Ciência & Tecnologia', 'description': 'Explore o universo da inovação!'},
+                'es': {'title': 'Ciencia y Tecnología', 'description': '¡Explora el universo de la innovación!'},
+                'de': {'title': 'Wissenschaft & Technologie', 'description': 'Erkunden Sie das Universum der Innovation!'},
+                'fr': {'title': 'Science & Technologie', 'description': 'Explorez l\'univers de l\'innovation!'},
+                'it': {'title': 'Scienza & Tecnologia', 'description': 'Esplora l\'universo dell\'innovazione!'},
+                'nl': {'title': 'Wetenschap & Technologie', 'description': 'Verken het universum van innovatie!'},
+                'sv': {'title': 'Vetenskap & Teknologi', 'description': 'Utforska innovationens universum!'},
+                'no': {'title': 'Vitenskap & Teknologi', 'description': 'Utforsk innovasjonens univers!'},
+                'pl': {'title': 'Nauka i Technologia', 'description': 'Odkryj wszechświat innowacji!'},
+                'id': {'title': 'Sains & Teknologi', 'description': 'Jelajahi alam semesta inovasi!'},
+                'ja': {'title': '科学技術', 'description': 'イノベーションの宇宙を探索しよう!'},
+                'ko': {'title': '과학 기술', 'description': '혁신의 우주를 탐험하세요!'},
+                'th': {'title': 'วิทยาศาสตร์และเทคโนโลยี', 'description': 'สำรวจจักรวาลแห่งนวัตกรรม!'},
+                'vi': {'title': 'Khoa học & Công nghệ', 'description': 'Khám phá vũ trụ của sự đổi mới!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Jogos',
-                    'slug': 'jogos',
-                    'description': 'Do clássico ao moderno! Teste sua memória sobre videogames, jogos de tabuleiro e os universos que marcaram gerações de jogadores.'
-                },
-                'en': {
-                    'title': 'Games',
-                    'slug': 'games',
-                    'description': 'From classic to modern! Test your memory about video games, board games and the universes that marked generations of players.'
-                },
-                'es': {
-                    'title': 'Juegos',
-                    'slug': 'juegos',
-                    'description': '¡De lo clásico a lo moderno! Pon a prueba tu memoria sobre videojuegos, juegos de mesa y los universos que marcaron generaciones de jugadores.'
-                },
-                'de': {
-                    'title': 'Spiele',
-                    'slug': 'spiele',
-                    'description': 'Vom Klassiker bis zur Moderne! Testen Sie Ihr Gedächtnis über Videospiele, Brettspiele und die Universen, die Generationen von Spielern geprägt haben.'
-                },
-                'fr': {
-                    'title': 'Jeux',
-                    'slug': 'jeux',
-                    'description': 'Du classique au moderne! Testez votre mémoire sur les jeux vidéo, les jeux de société et les univers qui ont marqué des générations de joueurs.'
-                },
-                'it': {
-                    'title': 'Giochi',
-                    'slug': 'giochi',
-                    'description': 'Dal classico al moderno! Metti alla prova la tua memoria su videogiochi, giochi da tavolo e gli universi che hanno segnato generazioni di giocatori.'
-                }
-            },
+            'slug_base': 'games',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485108/ChatGPT_Image_Oct_14_2025_05_59_40_PM_u2r5vg.png',
             'primary_color': '#f472b6',
             'secondary_color': '#ec4899',
             'icon_bg_color_1': '#fce7f3',
             'icon_bg_color_2': '#fbcfe8',
-            'order': 5
+            'order': 5,
+            'translations': {
+                'en': {'title': 'Games', 'description': 'From classic to modern video games and board games!'},
+                'pt': {'title': 'Jogos', 'description': 'Do clássico ao moderno! Videogames e jogos de tabuleiro!'},
+                'es': {'title': 'Juegos', 'description': '¡De lo clásico a lo moderno! Videojuegos y juegos de mesa!'},
+                'de': {'title': 'Spiele', 'description': 'Von klassisch bis modern! Videospiele und Brettspiele!'},
+                'fr': {'title': 'Jeux', 'description': 'Du classique au moderne! Jeux vidéo et jeux de société!'},
+                'it': {'title': 'Giochi', 'description': 'Dal classico al moderno! Videogiochi e giochi da tavolo!'},
+                'nl': {'title': 'Games', 'description': 'Van klassiek tot modern! Videogames en bordspellen!'},
+                'sv': {'title': 'Spel', 'description': 'Från klassiskt till modernt! Videospel och brädspel!'},
+                'no': {'title': 'Spill', 'description': 'Fra klassisk til moderne! Videospill og brettspill!'},
+                'pl': {'title': 'Gry', 'description': 'Od klasyki po nowoczesność! Gry wideo i planszowe!'},
+                'id': {'title': 'Game', 'description': 'Dari klasik hingga modern! Video game dan board game!'},
+                'ja': {'title': 'ゲーム', 'description': 'クラシックからモダンまで！ビデオゲームとボードゲーム!'},
+                'ko': {'title': '게임', 'description': '클래식부터 현대까지! 비디오 게임과 보드 게임!'},
+                'th': {'title': 'เกม', 'description': 'จากคลาสสิกถึงสมัยใหม่! วิดีโอเกมและบอร์ดเกม!'},
+                'vi': {'title': 'Trò chơi', 'description': 'Từ cổ điển đến hiện đại! Video game và board game!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Celebridades & Personalidades',
-                    'slug': 'celebridades-personalidades',
-                    'description': 'Conheça a vida de ícones do entretenimento, líderes históricos e figuras que influenciaram a cultura pop e a sociedade moderna.'
-                },
-                'en': {
-                    'title': 'Celebrities & Personalities',
-                    'slug': 'celebrities-personalities',
-                    'description': 'Learn about the lives of entertainment icons, historical leaders and figures who influenced pop culture and modern society.'
-                },
-                'es': {
-                    'title': 'Celebridades y Personalidades',
-                    'slug': 'celebridades-personalidades',
-                    'description': 'Conoce la vida de íconos del entretenimiento, líderes históricos y figuras que influenciaron la cultura pop y la sociedad moderna.'
-                },
-                'de': {
-                    'title': 'Prominente & Persönlichkeiten',
-                    'slug': 'prominente-personlichkeiten',
-                    'description': 'Erfahren Sie mehr über das Leben von Entertainment-Ikonen, historischen Führern und Persönlichkeiten, die die Popkultur und moderne Gesellschaft beeinflusst haben.'
-                },
-                'fr': {
-                    'title': 'Célébrités & Personnalités',
-                    'slug': 'celebrites-personnalites',
-                    'description': 'Découvrez la vie d\'icônes du divertissement, de leaders historiques et de figures qui ont influencé la culture pop et la société moderne.'
-                },
-                'it': {
-                    'title': 'Celebrità & Personalità',
-                    'slug': 'celebrita-personalita',
-                    'description': 'Scopri la vita delle icone dello spettacolo, leader storici e figure che hanno influenzato la cultura pop e la società moderna.'
-                }
-            },
+            'slug_base': 'celebrities',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485107/ChatGPT_Image_Oct_14_2025_08_13_11_PM_pgimb4.png',
             'primary_color': '#fcd34d',
             'secondary_color': '#fbbf24',
             'icon_bg_color_1': '#fef9c3',
             'icon_bg_color_2': '#fef08a',
-            'order': 6
+            'order': 6,
+            'translations': {
+                'en': {'title': 'Celebrities & Personalities', 'description': 'Learn about entertainment icons and historical leaders!'},
+                'pt': {'title': 'Celebridades & Personalidades', 'description': 'Conheça ícones do entretenimento e líderes históricos!'},
+                'es': {'title': 'Celebridades y Personalidades', 'description': '¡Conoce íconos del entretenimiento y líderes históricos!'},
+                'de': {'title': 'Prominente & Persönlichkeiten', 'description': 'Erfahren Sie mehr über Entertainment-Ikonen und historische Führer!'},
+                'fr': {'title': 'Célébrités & Personnalités', 'description': 'Découvrez les icônes du divertissement et les leaders historiques!'},
+                'it': {'title': 'Celebrità & Personalità', 'description': 'Scopri le icone dello spettacolo e i leader storici!'},
+                'nl': {'title': 'Beroemdheden & Persoonlijkheden', 'description': 'Leer over entertainment iconen en historische leiders!'},
+                'sv': {'title': 'Kändisar & Personligheter', 'description': 'Lär dig om underhållningsikoner och historiska ledare!'},
+                'no': {'title': 'Kjendiser & Personligheter', 'description': 'Lær om underholdningsikoner og historiske ledere!'},
+                'pl': {'title': 'Celebryci i Osobistości', 'description': 'Poznaj ikony rozrywki i historycznych przywódców!'},
+                'id': {'title': 'Selebriti & Tokoh', 'description': 'Pelajari tentang ikon hiburan dan pemimpin bersejarah!'},
+                'ja': {'title': 'セレブ＆著名人', 'description': 'エンターテインメントのアイコンと歴史的指導者について学ぼう!'},
+                'ko': {'title': '유명인사', 'description': '엔터테인먼트 아이콘과 역사적 지도자에 대해 알아보세요!'},
+                'th': {'title': 'คนดังและบุคคลสำคัญ', 'description': 'เรียนรู้เกี่ยวกับไอคอนบันเทิงและผู้นำประวัติศาสตร์!'},
+                'vi': {'title': 'Người nổi tiếng', 'description': 'Tìm hiểu về các biểu tượng giải trí và nhà lãnh đạo lịch sử!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Arte & Cultura',
-                    'slug': 'arte-cultura',
-                    'description': 'Mergulhe no mundo das artes visuais, música, cinema, literatura e tradições culturais que enriquecem nossa sociedade.'
-                },
-                'en': {
-                    'title': 'Arts & Culture',
-                    'slug': 'arts-culture',
-                    'description': 'Dive into the world of visual arts, music, cinema, literature and cultural traditions that enrich our society.'
-                },
-                'es': {
-                    'title': 'Arte y Cultura',
-                    'slug': 'arte-cultura',
-                    'description': 'Sumérgete en el mundo de las artes visuales, música, cine, literatura y tradiciones culturales que enriquecen nuestra sociedad.'
-                },
-                'de': {
-                    'title': 'Kunst & Kultur',
-                    'slug': 'kunst-kultur',
-                    'description': 'Tauchen Sie ein in die Welt der bildenden Künste, Musik, Kino, Literatur und kulturellen Traditionen, die unsere Gesellschaft bereichern.'
-                },
-                'fr': {
-                    'title': 'Arts & Culture',
-                    'slug': 'arts-culture',
-                    'description': 'Plongez dans le monde des arts visuels, de la musique, du cinéma, de la littérature et des traditions culturelles qui enrichissent notre société.'
-                },
-                'it': {
-                    'title': 'Arte & Cultura',
-                    'slug': 'arte-cultura',
-                    'description': 'Immergiti nel mondo delle arti visive, musica, cinema, letteratura e tradizioni culturali che arricchiscono la nostra società.'
-                }
-            },
+            'slug_base': 'arts',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,f_auto/v1760485103/ChatGPT_Image_Oct_14_2025_08_18_00_PM_ooloop.png',
             'primary_color': '#c084fc',
             'secondary_color': '#a855f7',
             'icon_bg_color_1': '#f3e8ff',
             'icon_bg_color_2': '#e9d5ff',
-            'order': 7
+            'order': 7,
+            'translations': {
+                'en': {'title': 'Arts & Culture', 'description': 'Dive into the world of visual arts, music, and literature!'},
+                'pt': {'title': 'Arte & Cultura', 'description': 'Mergulhe no mundo das artes visuais, música e literatura!'},
+                'es': {'title': 'Arte y Cultura', 'description': '¡Sumérgete en el mundo de las artes visuales, música y literatura!'},
+                'de': {'title': 'Kunst & Kultur', 'description': 'Tauchen Sie ein in die Welt der bildenden Künste, Musik und Literatur!'},
+                'fr': {'title': 'Arts & Culture', 'description': 'Plongez dans le monde des arts visuels, de la musique et de la littérature!'},
+                'it': {'title': 'Arte & Cultura', 'description': 'Immergiti nel mondo delle arti visive, musica e letteratura!'},
+                'nl': {'title': 'Kunst & Cultuur', 'description': 'Duik in de wereld van beeldende kunst, muziek en literatuur!'},
+                'sv': {'title': 'Konst & Kultur', 'description': 'Dyk in i världen av bildkonst, musik och litteratur!'},
+                'no': {'title': 'Kunst & Kultur', 'description': 'Dykk ned i verden av billedkunst, musikk og litteratur!'},
+                'pl': {'title': 'Sztuka i Kultura', 'description': 'Zanurz się w świecie sztuk wizualnych, muzyki i literatury!'},
+                'id': {'title': 'Seni & Budaya', 'description': 'Selami dunia seni visual, musik, dan sastra!'},
+                'ja': {'title': '芸術文化', 'description': '視覚芸術、音楽、文学の世界に飛び込もう!'},
+                'ko': {'title': '예술 문화', 'description': '시각 예술, 음악, 문학의 세계로 뛰어들어보세요!'},
+                'th': {'title': 'ศิลปะและวัฒนธรรม', 'description': 'ดำดิ่งสู่โลกของศิลปะภาพ ดนตรี และวรรณกรรม!'},
+                'vi': {'title': 'Nghệ thuật & Văn hóa', 'description': 'Hòa mình vào thế giới nghệ thuật thị giác, âm nhạc và văn học!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'História',
-                    'slug': 'historia',
-                    'description': 'Viaje no tempo através de civilizações antigas, guerras épicas e momentos que mudaram o curso da humanidade. Você conhece o passado?'
-                },
-                'en': {
-                    'title': 'History',
-                    'slug': 'history',
-                    'description': 'Travel through time through ancient civilizations, epic wars and moments that changed the course of humanity. Do you know the past?'
-                },
-                'es': {
-                    'title': 'Historia',
-                    'slug': 'historia',
-                    'description': 'Viaja en el tiempo a través de civilizaciones antiguas, guerras épicas y momentos que cambiaron el curso de la humanidad. ¿Conoces el pasado?'
-                },
-                'de': {
-                    'title': 'Geschichte',
-                    'slug': 'geschichte',
-                    'description': 'Reisen Sie durch die Zeit durch antike Zivilisationen, epische Kriege und Momente, die den Lauf der Menschheit verändert haben. Kennen Sie die Vergangenheit?'
-                },
-                'fr': {
-                    'title': 'Histoire',
-                    'slug': 'histoire',
-                    'description': 'Voyagez dans le temps à travers les civilisations anciennes, les guerres épiques et les moments qui ont changé le cours de l\'humanité. Connaissez-vous le passé?'
-                },
-                'it': {
-                    'title': 'Storia',
-                    'slug': 'storia',
-                    'description': 'Viaggia nel tempo attraverso civiltà antiche, guerre epiche e momenti che hanno cambiato il corso dell\'umanità. Conosci il passato?'
-                }
-            },
+            'slug_base': 'history',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485109/ChatGPT_Image_Oct_14_2025_05_59_34_PM_km9cdk.png',
             'primary_color': '#fbbf24',
             'secondary_color': '#f59e0b',
             'icon_bg_color_1': '#fef3c7',
             'icon_bg_color_2': '#fde68a',
-            'order': 8
+            'order': 8,
+            'translations': {
+                'en': {'title': 'History', 'description': 'Travel through time through ancient civilizations and epic wars!'},
+                'pt': {'title': 'História', 'description': 'Viaje no tempo através de civilizações antigas e guerras épicas!'},
+                'es': {'title': 'Historia', 'description': '¡Viaja en el tiempo a través de civilizaciones antiguas y guerras épicas!'},
+                'de': {'title': 'Geschichte', 'description': 'Reisen Sie durch die Zeit durch antike Zivilisationen und epische Kriege!'},
+                'fr': {'title': 'Histoire', 'description': 'Voyagez dans le temps à travers les civilisations anciennes et les guerres épiques!'},
+                'it': {'title': 'Storia', 'description': 'Viaggia nel tempo attraverso civiltà antiche e guerre epiche!'},
+                'nl': {'title': 'Geschiedenis', 'description': 'Reis door de tijd door oude beschavingen en epische oorlogen!'},
+                'sv': {'title': 'Historia', 'description': 'Res genom tiden genom antika civilisationer och episka krig!'},
+                'no': {'title': 'Historie', 'description': 'Reis gjennom tiden gjennom antikke sivilisasjoner og episke kriger!'},
+                'pl': {'title': 'Historia', 'description': 'Podróżuj w czasie przez starożytne cywilizacje i epickie wojny!'},
+                'id': {'title': 'Sejarah', 'description': 'Jelajahi waktu melalui peradaban kuno dan perang epik!'},
+                'ja': {'title': '歴史', 'description': '古代文明と壮大な戦争を通じて時間を旅しよう!'},
+                'ko': {'title': '역사', 'description': '고대 문명과 장대한 전쟁을 통해 시간을 여행하세요!'},
+                'th': {'title': 'ประวัติศาสตร์', 'description': 'เดินทางผ่านเวลาผ่านอารยธรรมโบราณและสงครามมหากาพย์!'},
+                'vi': {'title': 'Lịch sử', 'description': 'Du hành thời gian qua các nền văn minh cổ đại và cuộc chiến sử thi!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Comida & Bebida',
-                    'slug': 'comida-bebida',
-                    'description': 'Para os amantes da gastronomia! Receitas famosas, ingredientes exóticos, chefs renomados e curiosidades sobre a culinária mundial.'
-                },
-                'en': {
-                    'title': 'Food & Drink',
-                    'slug': 'food-drink',
-                    'description': 'For food lovers! Famous recipes, exotic ingredients, renowned chefs and curiosities about world cuisine.'
-                },
-                'es': {
-                    'title': 'Comida y Bebida',
-                    'slug': 'comida-bebida',
-                    'description': '¡Para los amantes de la gastronomía! Recetas famosas, ingredientes exóticos, chefs reconocidos y curiosidades sobre la cocina mundial.'
-                },
-                'de': {
-                    'title': 'Essen & Trinken',
-                    'slug': 'essen-trinken',
-                    'description': 'Für Feinschmecker! Berühmte Rezepte, exotische Zutaten, renommierte Köche und Kuriositäten über die Weltküche.'
-                },
-                'fr': {
-                    'title': 'Nourriture & Boissons',
-                    'slug': 'nourriture-boissons',
-                    'description': 'Pour les amateurs de gastronomie! Recettes célèbres, ingrédients exotiques, chefs renommés et curiosités sur la cuisine mondiale.'
-                },
-                'it': {
-                    'title': 'Cibo & Bevande',
-                    'slug': 'cibo-bevande',
-                    'description': 'Per gli amanti della gastronomia! Ricette famose, ingredienti esotici, chef rinomati e curiosità sulla cucina mondiale.'
-                }
-            },
+            'slug_base': 'food',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485104/ChatGPT_Image_Oct_14_2025_08_17_14_PM_ghpv3w.png',
             'primary_color': '#fbbf24',
             'secondary_color': '#f59e0b',
             'icon_bg_color_1': '#fef3c7',
             'icon_bg_color_2': '#fde68a',
-            'order': 9
+            'order': 9,
+            'translations': {
+                'en': {'title': 'Food & Drink', 'description': 'For food lovers! Famous recipes and world cuisine!'},
+                'pt': {'title': 'Comida & Bebida', 'description': 'Para os amantes da gastronomia! Receitas famosas e culinária mundial!'},
+                'es': {'title': 'Comida y Bebida', 'description': '¡Para los amantes de la gastronomía! ¡Recetas famosas y cocina mundial!'},
+                'de': {'title': 'Essen & Trinken', 'description': 'Für Feinschmecker! Berühmte Rezepte und Weltküche!'},
+                'fr': {'title': 'Nourriture & Boissons', 'description': 'Pour les amateurs de gastronomie! Recettes célèbres et cuisine mondiale!'},
+                'it': {'title': 'Cibo & Bevande', 'description': 'Per gli amanti della gastronomia! Ricette famose e cucina mondiale!'},
+                'nl': {'title': 'Eten & Drinken', 'description': 'Voor voedselliefhebbers! Beroemde recepten en wereldkeuken!'},
+                'sv': {'title': 'Mat & Dryck', 'description': 'För matälskare! Berömda recept och världskök!'},
+                'no': {'title': 'Mat & Drikke', 'description': 'For matentusiaster! Berømte oppskrifter og verdenskjøkken!'},
+                'pl': {'title': 'Jedzenie i Napoje', 'description': 'Dla miłośników jedzenia! Słynne przepisy i kuchnia światowa!'},
+                'id': {'title': 'Makanan & Minuman', 'description': 'Untuk pecinta kuliner! Resep terkenal dan masakan dunia!'},
+                'ja': {'title': '料理飲料', 'description': '食通のために！有名なレシピと世界の料理!'},
+                'ko': {'title': '음식 음료', 'description': '미식가를 위한! 유명한 레시피와 세계 요리!'},
+                'th': {'title': 'อาหารและเครื่องดื่ม', 'description': 'สำหรับคนรักอาหาร! สูตรอาหารชื่อดังและอาหารนานาชาติ!'},
+                'vi': {'title': 'Ẩm thực', 'description': 'Dành cho người yêu ẩm thực! Công thức nổi tiếng và ẩm thực thế giới!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Natureza & Animais',
-                    'slug': 'natureza-animais',
-                    'description': 'Explore a biodiversidade do planeta! Espécies fascinantes, ecossistemas únicos e os segredos da vida selvagem aguardam você.'
-                },
-                'en': {
-                    'title': 'Nature & Animals',
-                    'slug': 'nature-animals',
-                    'description': 'Explore the planet\'s biodiversity! Fascinating species, unique ecosystems and the secrets of wildlife await you.'
-                },
-                'es': {
-                    'title': 'Naturaleza y Animales',
-                    'slug': 'naturaleza-animales',
-                    'description': '¡Explora la biodiversidad del planeta! Especies fascinantes, ecosistemas únicos y los secretos de la vida silvestre te esperan.'
-                },
-                'de': {
-                    'title': 'Natur & Tiere',
-                    'slug': 'natur-tiere',
-                    'description': 'Erkunden Sie die Biodiversität des Planeten! Faszinierende Arten, einzigartige Ökosysteme und die Geheimnisse der Tierwelt erwarten Sie.'
-                },
-                'fr': {
-                    'title': 'Nature & Animaux',
-                    'slug': 'nature-animaux',
-                    'description': 'Explorez la biodiversité de la planète! Des espèces fascinantes, des écosystèmes uniques et les secrets de la faune vous attendent.'
-                },
-                'it': {
-                    'title': 'Natura & Animali',
-                    'slug': 'natura-animali',
-                    'description': 'Esplora la biodiversità del pianeta! Specie affascinanti, ecosistemi unici e i segreti della fauna selvatica ti aspettano.'
-                }
-            },
+            'slug_base': 'nature',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485105/ChatGPT_Image_Oct_14_2025_08_16_46_PM_tclomp.png',
             'primary_color': '#4ade80',
             'secondary_color': '#22c55e',
             'icon_bg_color_1': '#dcfce7',
             'icon_bg_color_2': '#bbf7d0',
-            'order': 10
+            'order': 10,
+            'translations': {
+                'en': {'title': 'Nature & Animals', 'description': 'Explore the planet\'s biodiversity!'},
+                'pt': {'title': 'Natureza & Animais', 'description': 'Explore a biodiversidade do planeta!'},
+                'es': {'title': 'Naturaleza y Animales', 'description': '¡Explora la biodiversidad del planeta!'},
+                'de': {'title': 'Natur & Tiere', 'description': 'Erkunden Sie die Biodiversität des Planeten!'},
+                'fr': {'title': 'Nature & Animaux', 'description': 'Explorez la biodiversité de la planète!'},
+                'it': {'title': 'Natura & Animali', 'description': 'Esplora la biodiversità del pianeta!'},
+                'nl': {'title': 'Natuur & Dieren', 'description': 'Verken de biodiversiteit van de planeet!'},
+                'sv': {'title': 'Natur & Djur', 'description': 'Utforska planetens biologiska mångfald!'},
+                'no': {'title': 'Natur & Dyr', 'description': 'Utforsk planetens biodiversitet!'},
+                'pl': {'title': 'Przyroda i Zwierzęta', 'description': 'Odkryj bioróżnorodność planety!'},
+                'id': {'title': 'Alam & Hewan', 'description': 'Jelajahi keanekaragaman hayati planet!'},
+                'ja': {'title': '自然動物', 'description': '地球の生物多様性を探検しよう!'},
+                'ko': {'title': '자연 동물', 'description': '지구의 생물 다양성을 탐험하세요!'},
+                'th': {'title': 'ธรรมชาติและสัตว์', 'description': 'สำรวจความหลากหลายทางชีวภาพของโลก!'},
+                'vi': {'title': 'Thiên nhiên & Động vật', 'description': 'Khám phá đa dạng sinh học của hành tinh!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Geografia',
-                    'slug': 'geografia',
-                    'description': 'Explore países, capitais, continentes e maravilhas naturais! Desafie-se com perguntas sobre mapas, culturas e paisagens ao redor do globo.'
-                },
-                'en': {
-                    'title': 'Geography',
-                    'slug': 'geography',
-                    'description': 'Explore countries, capitals, continents and natural wonders! Challenge yourself with questions about maps, cultures and landscapes around the globe.'
-                },
-                'es': {
-                    'title': 'Geografía',
-                    'slug': 'geografia',
-                    'description': '¡Explora países, capitales, continentes y maravillas naturales! Desafíate con preguntas sobre mapas, culturas y paisajes alrededor del mundo.'
-                },
-                'de': {
-                    'title': 'Geographie',
-                    'slug': 'geographie',
-                    'description': 'Erkunden Sie Länder, Hauptstädte, Kontinente und Naturwunder! Fordern Sie sich mit Fragen zu Karten, Kulturen und Landschaften auf der ganzen Welt heraus.'
-                },
-                'fr': {
-                    'title': 'Géographie',
-                    'slug': 'geographie',
-                    'description': 'Explorez les pays, capitales, continents et merveilles naturelles! Défiez-vous avec des questions sur les cartes, cultures et paysages du monde entier.'
-                },
-                'it': {
-                    'title': 'Geografia',
-                    'slug': 'geografia',
-                    'description': 'Esplora paesi, capitali, continenti e meraviglie naturali! Sfida te stesso con domande su mappe, culture e paesaggi di tutto il mondo.'
-                }
-            },
+            'slug_base': 'geography',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485102/ChatGPT_Image_Oct_14_2025_08_19_00_PM_e99coh.png',
             'primary_color': '#60a5fa',
             'secondary_color': '#3b82f6',
             'icon_bg_color_1': '#dbeafe',
             'icon_bg_color_2': '#bfdbfe',
-            'order': 11
+            'order': 11,
+            'translations': {
+                'en': {'title': 'Geography', 'description': 'Explore countries, capitals, and natural wonders!'},
+                'pt': {'title': 'Geografia', 'description': 'Explore países, capitais e maravilhas naturais!'},
+                'es': {'title': 'Geografía', 'description': '¡Explora países, capitales y maravillas naturales!'},
+                'de': {'title': 'Geographie', 'description': 'Erkunden Sie Länder, Hauptstädte und Naturwunder!'},
+                'fr': {'title': 'Géographie', 'description': 'Explorez les pays, capitales et merveilles naturelles!'},
+                'it': {'title': 'Geografia', 'description': 'Esplora paesi, capitali e meraviglie naturali!'},
+                'nl': {'title': 'Geografie', 'description': 'Verken landen, hoofdsteden en natuurwonderen!'},
+                'sv': {'title': 'Geografi', 'description': 'Utforska länder, huvudstäder och naturunder!'},
+                'no': {'title': 'Geografi', 'description': 'Utforsk land, hovedsteder og naturundere!'},
+                'pl': {'title': 'Geografia', 'description': 'Odkryj kraje, stolice i cuda natury!'},
+                'id': {'title': 'Geografi', 'description': 'Jelajahi negara, ibu kota, dan keajaiban alam!'},
+                'ja': {'title': '地理', 'description': '国、首都、自然の驚異を探検しよう!'},
+                'ko': {'title': '지리', 'description': '국가, 수도, 자연의 경이를 탐험하세요!'},
+                'th': {'title': 'ภูมิศาสตร์', 'description': 'สำรวจประเทศ เมืองหลวง และความมหัศจรรย์ทางธรรมชาติ!'},
+                'vi': {'title': 'Địa lý', 'description': 'Khám phá các quốc gia, thủ đô và kỳ quan thiên nhiên!'},
+            }
         },
         {
-            'translations': {
-                'pt-BR': {
-                    'title': 'Política & Sociedade',
-                    'slug': 'politica-sociedade',
-                    'description': 'Entenda sistemas políticos, movimentos sociais e os eventos que moldam a organização da sociedade contemporânea.'
-                },
-                'en': {
-                    'title': 'Politics & Society',
-                    'slug': 'politics-society',
-                    'description': 'Understand political systems, social movements and the events that shape the organization of contemporary society.'
-                },
-                'es': {
-                    'title': 'Política y Sociedad',
-                    'slug': 'politica-sociedad',
-                    'description': 'Comprende los sistemas políticos, movimientos sociales y los eventos que moldean la organización de la sociedad contemporánea.'
-                },
-                'de': {
-                    'title': 'Politik & Gesellschaft',
-                    'slug': 'politik-gesellschaft',
-                    'description': 'Verstehen Sie politische Systeme, soziale Bewegungen und die Ereignisse, die die Organisation der zeitgenössischen Gesellschaft prägen.'
-                },
-                'fr': {
-                    'title': 'Politique & Société',
-                    'slug': 'politique-societe',
-                    'description': 'Comprenez les systèmes politiques, les mouvements sociaux et les événements qui façonnent l\'organisation de la société contemporaine.'
-                },
-                'it': {
-                    'title': 'Politica & Società',
-                    'slug': 'politica-societa',
-                    'description': 'Comprendi i sistemi politici, i movimenti sociali e gli eventi che plasmano l\'organizzazione della società contemporanea.'
-                }
-            },
+            'slug_base': 'politics',
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485106/Symbols_of_Justice_and_Voice_frytbp.png',
             'primary_color': '#94a3b8',
             'secondary_color': '#64748b',
             'icon_bg_color_1': '#f1f5f9',
             'icon_bg_color_2': '#e2e8f0',
-            'order': 12
-        }
+            'order': 12,
+            'translations': {
+                'en': {'title': 'Politics & Society', 'description': 'Understand political systems and social movements!'},
+                'pt': {'title': 'Política & Sociedade', 'description': 'Entenda sistemas políticos e movimentos sociais!'},
+                'es': {'title': 'Política y Sociedad', 'description': '¡Comprende los sistemas políticos y movimientos sociales!'},
+                'de': {'title': 'Politik & Gesellschaft', 'description': 'Verstehen Sie politische Systeme und soziale Bewegungen!'},
+                'fr': {'title': 'Politique & Société', 'description': 'Comprenez les systèmes politiques et les mouvements sociaux!'},
+                'it': {'title': 'Politica & Società', 'description': 'Comprendi i sistemi politici e i movimenti sociali!'},
+                'nl': {'title': 'Politiek & Maatschappij', 'description': 'Begrijp politieke systemen en sociale bewegingen!'},
+                'sv': {'title': 'Politik & Samhälle', 'description': 'Förstå politiska system och sociala rörelser!'},
+                'no': {'title': 'Politikk & Samfunn', 'description': 'Forstå politiske systemer og sosiale bevegelser!'},
+                'pl': {'title': 'Polityka i Społeczeństwo', 'description': 'Zrozum systemy polityczne i ruchy społeczne!'},
+                'id': {'title': 'Politik & Masyarakat', 'description': 'Pahami sistem politik dan gerakan sosial!'},
+                'ja': {'title': '政治社会', 'description': '政治システムと社会運動を理解しよう!'},
+                'ko': {'title': '정치 사회', 'description': '정치 시스템과 사회 운동을 이해하세요!'},
+                'th': {'title': 'การเมืองและสังคม', 'description': 'เข้าใจระบบการเมืองและการเคลื่อนไหวทางสังคม!'},
+                'vi': {'title': 'Chính trị & Xã hội', 'description': 'Hiểu về hệ thống chính trị và phong trào xã hội!'},
+            }
+        },
     ]
     
-    languages = ['pt-BR', 'en', 'es', 'de', 'fr', 'it']
+    # Mapeamento de países para idiomas
+    country_to_lang = {
+        'en-US': 'en', 'en-CA': 'en', 'en-GB': 'en', 'en-IN': 'en', 'en-PH': 'en', 'en-AU': 'en', 'en-NZ': 'en',
+        'pt-BR': 'pt', 'pt-PT': 'pt',
+        'es-MX': 'es', 'es-ES': 'es', 'es-AR': 'es', 'es-CO': 'es',
+        'de-DE': 'de',
+        'fr-FR': 'fr',
+        'it-IT': 'it',
+        'nl-NL': 'nl',
+        'sv-SE': 'sv',
+        'no-NO': 'no',
+        'pl-PL': 'pl',
+        'id-ID': 'id',
+        'ja-JP': 'ja',
+        'ko-KR': 'ko',
+        'th-TH': 'th',
+        'vi-VN': 'vi',
+    }
     
-    print("🚀 Criando temas principais em múltiplos idiomas...")
-    print(f"📚 Idiomas: {', '.join(languages)}")
-    print(f"🎯 Total de temas: {len(themes_data)}")
-    print("-" * 60)
+    countries = list(country_to_lang.keys())
+    
+    print("🚀 Criando temas principais em múltiplos países...")
+    print(f"🌍 Países: {len(countries)}")
+    print(f"🎯 Temas base: {len(themes_base)}")
+    print(f"📊 Total a processar: {len(themes_base) * len(countries)}")
+    print("-" * 80)
     
     created_count = 0
     updated_count = 0
     
-    for theme_data in themes_data:
-        for lang in languages:
-            translation = theme_data['translations'][lang]
+    for theme_base in themes_base:
+        for country_code in countries:
+            lang_code = country_to_lang[country_code]
+            translation = theme_base['translations'].get(lang_code, theme_base['translations']['en'])
             
             theme, created = Theme.objects.update_or_create(
-                slug=translation['slug'],
-                language=lang,
+                slug=theme_base['slug_base'],
+                country=country_code,
                 defaults={
                     'title': translation['title'],
                     'description': translation['description'],
-                    'icon': theme_data['icon'],
-                    'primary_color': theme_data['primary_color'],
-                    'secondary_color': theme_data['secondary_color'],
-                    'icon_bg_color_1': theme_data['icon_bg_color_1'],
-                    'icon_bg_color_2': theme_data['icon_bg_color_2'],
-                    'order': theme_data['order'],
+                    'icon': theme_base['icon'],
+                    'primary_color': theme_base['primary_color'],
+                    'secondary_color': theme_base['secondary_color'],
+                    'icon_bg_color_1': theme_base['icon_bg_color_1'],
+                    'icon_bg_color_2': theme_base['icon_bg_color_2'],
+                    'order': theme_base['order'],
                     'parent': None,
                     'active': True
                 }
@@ -535,19 +388,21 @@ def create_root_themes():
             
             if created:
                 created_count += 1
-                status = "✅ CRIADO"
+                status = "✅"
             else:
                 updated_count += 1
-                status = "🔄 ATUALIZADO"
+                status = "🔄"
             
-            print(f"{status}: [{lang.upper()}] {theme.title} ({theme.slug})")
+            country_emoji = dict(Theme.COUNTRY_CHOICES).get(country_code, country_code).split()[0]
+            print(f"{status} [{country_code}] {country_emoji} {theme.title}")
     
-    print("-" * 60)
+    print("-" * 80)
     print(f"✨ Processo concluído!")
     print(f"📊 Temas criados: {created_count}")
     print(f"🔄 Temas atualizados: {updated_count}")
     print(f"📈 Total processado: {created_count + updated_count}")
+    print(f"🌍 Países configurados: {len(countries)}")
+    print(f"🎯 Temas por país: {len(themes_base)}")
 
 if __name__ == '__main__':
     create_root_themes()
-

@@ -10,48 +10,83 @@ from .decorators import validate_attempt_access
 import random
 
 
-def get_user_language(request):
-    """Helper para obter o idioma preferido do usuário"""
+def get_user_country(request):
+    """Helper para obter o país preferido do usuário"""
     # Primeiro verifica na sessão
-    language = request.session.get('language')
-    if language:
-        return language
+    country = request.session.get('country')
+    if country:
+        return country
     
     # Se não tiver na sessão, usar pt-BR como padrão
     return 'pt-BR'
 
 
-def get_language_context(request):
-    """Helper para adicionar contexto de idioma ao template"""
-    user_language = get_user_language(request)
+def country_to_language(country_code):
+    """Converte código de país para código de idioma para traduções"""
+    # Mapeamento de país para idioma
+    country_to_lang_map = {
+        'pt-BR': 'pt',
+        'pt-PT': 'pt',
+        'en-US': 'en',
+        'en-CA': 'en',
+        'en-GB': 'en',
+        'en-IN': 'en',
+        'en-PH': 'en',
+        'en-AU': 'en',
+        'en-NZ': 'en',
+        'es-MX': 'es',
+        'es-ES': 'es',
+        'es-AR': 'es',
+        'es-CO': 'es',
+        'de-DE': 'de',
+        'fr-FR': 'fr',
+        'it-IT': 'it',
+        'nl-NL': 'nl',
+        'sv-SE': 'sv',
+        'no-NO': 'no',
+        'pl-PL': 'pl',
+        'id-ID': 'id',
+        'ja-JP': 'ja',
+        'ko-KR': 'ko',
+        'th-TH': 'th',
+        'vi-VN': 'vi',
+    }
+    return country_to_lang_map.get(country_code, 'pt')
+
+
+def get_country_context(request):
+    """Helper para adicionar contexto de país ao template"""
+    user_country = get_user_country(request)
+    user_language = country_to_language(user_country)
     
-    # Estatísticas de idiomas para o footer - usando underscore para compatibilidade com templates
-    language_stats = {}
-    for lang_code, lang_name in Theme.LANGUAGE_CHOICES:
-        quiz_count = Quiz.objects.filter(active=True, language=lang_code).count()
+    # Estatísticas de países para o footer - usando underscore para compatibilidade com templates
+    country_stats = {}
+    for country_code, country_name in Theme.COUNTRY_CHOICES:
+        quiz_count = Quiz.objects.filter(active=True, country=country_code).count()
         # Substituir hífen por underscore para funcionar nos templates
-        safe_key = lang_code.replace('-', '_')
-        language_stats[safe_key] = quiz_count
+        safe_key = country_code.replace('-', '_')
+        country_stats[safe_key] = quiz_count
     
     return {
+        'current_country': user_country,
         'current_language': user_language,
-        'language_stats': language_stats,
+        'country_stats': country_stats,
     }
 
 
 @ratelimit(key='ip', rate='20/h', method='POST', block=True)
-def set_language(request):
-    """View para trocar o idioma do usuário"""
+def set_country(request):
+    """View para trocar o país do usuário"""
     if request.method == 'POST':
-        language = request.POST.get('language', 'pt-BR')
+        country = request.POST.get('country', 'pt-BR')
         
-        # Validar se é um idioma suportado
-        supported_languages = ['pt-BR', 'en', 'es', 'fr', 'de', 'it']
-        if language in supported_languages:
-            request.session['language'] = language
-            return JsonResponse({'success': True, 'language': language})
+        # Validar se é um país suportado
+        supported_countries = [code for code, name in Theme.COUNTRY_CHOICES]
+        if country in supported_countries:
+            request.session['country'] = country
+            return JsonResponse({'success': True, 'country': country})
         
-        return JsonResponse({'success': False, 'error': 'Idioma não suportado'}, status=400)
+        return JsonResponse({'success': False, 'error': 'País não suportado'}, status=400)
     
     return JsonResponse({'success': False, 'error': 'Método não permitido'}, status=405)
 
@@ -92,22 +127,22 @@ def get_all_descendant_quizzes(theme, is_superuser=False):
 
 def home(request):
     """Página inicial com categorias principais (temas sem parent)"""
-    # Obter idioma do usuário
-    user_language = get_user_language(request)
+    # Obter país do usuário
+    user_country = get_user_country(request)
     
     # Se for superuser, mostrar todos os temas (incluindo inativos)
     if request.user.is_authenticated and request.user.is_superuser:
         themes = Theme.objects.filter(
-            parent__isnull=True, language=user_language
+            parent__isnull=True, country=user_country
         ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
-        all_quizzes = Quiz.objects.filter(language=user_language).select_related('theme')
-        all_themes = Theme.objects.filter(language=user_language)
+        all_quizzes = Quiz.objects.filter(country=user_country).select_related('theme')
+        all_themes = Theme.objects.filter(country=user_country)
     else:
         themes = Theme.objects.filter(
-            parent__isnull=True, active=True, language=user_language
+            parent__isnull=True, active=True, country=user_country
         ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
-        all_quizzes = Quiz.objects.filter(active=True, language=user_language).select_related('theme')
-        all_themes = Theme.objects.filter(active=True, language=user_language)
+        all_quizzes = Quiz.objects.filter(active=True, country=user_country).select_related('theme')
+        all_themes = Theme.objects.filter(active=True, country=user_country)
     
     # Adicionar contagens para cada tema
     categories = []
@@ -131,9 +166,9 @@ def home(request):
         
         # Contagem de subcategorias diretas (para exibição)
         if is_superuser:
-            subcategories_count = theme.subcategories.filter(language=user_language).count()
+            subcategories_count = theme.subcategories.filter(country=user_country).count()
         else:
-            subcategories_count = theme.subcategories.filter(active=True, language=user_language).count()
+            subcategories_count = theme.subcategories.filter(active=True, country=user_country).count()
         
         categories.append({
             'theme': theme,
@@ -154,7 +189,7 @@ def home(request):
         'total_quizzes': total_quizzes,
         'total_questions': total_questions,
         'is_root': True,
-        **get_language_context(request),
+        **get_country_context(request),
     }
     return render(request, 'quizzes/home.html', context)
 
@@ -162,31 +197,31 @@ def home(request):
 def theme_detail(request, theme_slug):
     """Lista subcategorias e quizzes de um tema"""
     # Obter idioma do usuário
-    user_language = get_user_language(request)
+    user_country = get_user_country(request)
     
     # Superuser pode acessar temas inativos
     if request.user.is_authenticated and request.user.is_superuser:
         theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug)
         subcategories = theme.subcategories.filter(
-            language=user_language
+            country=user_country
         ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
-        quizzes = theme.quizzes.filter(language=user_language).order_by('order', 'title')
+        quizzes = theme.quizzes.filter(country=user_country).order_by('order', 'title')
     else:
         theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug, active=True)
         subcategories = theme.subcategories.filter(
-            active=True, language=user_language
+            active=True, country=user_country
         ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
-        quizzes = theme.quizzes.filter(active=True, language=user_language).order_by('order', 'title')
+        quizzes = theme.quizzes.filter(active=True, country=user_country).order_by('order', 'title')
     
     # Adicionar contagens para subcategorias
     subcategories_with_info = []
     for subcat in subcategories:
         if request.user.is_authenticated and request.user.is_superuser:
-            sub_count = subcat.subcategories.filter(language=user_language).count()
-            quiz_count = subcat.quizzes.filter(language=user_language).count()
+            sub_count = subcat.subcategories.filter(country=user_country).count()
+            quiz_count = subcat.quizzes.filter(country=user_country).count()
         else:
-            sub_count = subcat.subcategories.filter(active=True, language=user_language).count()
-            quiz_count = subcat.quizzes.filter(active=True, language=user_language).count()
+            sub_count = subcat.subcategories.filter(active=True, country=user_country).count()
+            quiz_count = subcat.quizzes.filter(active=True, country=user_country).count()
         
         subcategories_with_info.append({
             'theme': subcat,
@@ -210,7 +245,7 @@ def theme_detail(request, theme_slug):
         'quizzes': quizzes,
         'products': products,
         'breadcrumb': breadcrumb,
-        **get_language_context(request),
+        **get_country_context(request),
     }
     return render(request, 'quizzes/theme_detail.html', context)
 
@@ -277,7 +312,7 @@ def quiz_detail(request, theme_slug, quiz_slug):
         'user_attempts': user_attempts,
         'stats': stats,
         'breadcrumb': breadcrumb,
-        **get_language_context(request),
+        **get_country_context(request),
     }
     return render(request, 'quizzes/quiz_detail.html', context)
 
@@ -373,7 +408,7 @@ def quiz_play(request, attempt_id, attempt=None):
         'total_questions': len(questions),
         'progress_percentage': (current_index / len(questions)) * 100,
         'breadcrumb': breadcrumb,
-        **get_language_context(request),
+        **get_country_context(request),
     }
     return render(request, 'quizzes/quiz_play.html', context)
 
@@ -563,7 +598,7 @@ def quiz_result(request, attempt_id, attempt=None):
         'user_rank': user_rank,
         'total_attempts': total_attempts,
         'users_beaten_percentage': users_beaten_percentage,
-        **get_language_context(request),
+        **get_country_context(request),
     }
     return render(request, 'quizzes/quiz_result.html', context)
 
@@ -680,7 +715,7 @@ def user_profile(request):
         'attempts_data': attempts_data,
         'themes': themes,
         'category_filter': category_filter,
-        **get_language_context(request),
+        **get_country_context(request),
     }
     
     return render(request, 'quizzes/user_profile.html', context)

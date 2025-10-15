@@ -4,13 +4,13 @@ from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Prod
 
 @admin.register(Theme)
 class ThemeAdmin(admin.ModelAdmin):
-    list_display = ['title', 'slug', 'language', 'icon', 'active', 'created_at']
-    list_filter = ['active', 'language', 'created_at']
+    list_display = ['title', 'slug', 'country', 'icon', 'active', 'created_at']
+    list_filter = ['active', 'country', 'created_at']
     search_fields = ['title', 'description', 'slug']
     prepopulated_fields = {'slug': ('title',)}
     fieldsets = (
         ('Informações Básicas', {
-            'fields': ('title', 'slug', 'description', 'language', 'icon', 'parent', 'order', 'active')
+            'fields': ('title', 'slug', 'description', 'country', 'icon', 'parent', 'order', 'active')
         }),
         ('Cores da Categoria (Home)', {
             'fields': ('primary_color', 'secondary_color', 'icon_bg_color_1', 'icon_bg_color_2'),
@@ -40,14 +40,14 @@ class QuestionInline(admin.StackedInline):
 
 @admin.register(Quiz)
 class QuizAdmin(admin.ModelAdmin):
-    list_display = ['title', 'theme', 'language', 'difficulty', 'active', 'get_total_questions', 'order', 'created_at']
-    list_filter = ['active', 'language', 'difficulty', 'theme', 'created_at']
+    list_display = ['title', 'theme', 'country', 'difficulty', 'active', 'get_total_questions', 'order', 'created_at']
+    list_filter = ['active', 'country', 'difficulty', 'theme', 'created_at']
     search_fields = ['title', 'description', 'slug']
     prepopulated_fields = {'slug': ('title',)}
     inlines = [QuestionInline]
     fieldsets = (
         ('Informações Básicas', {
-            'fields': ('title', 'slug', 'description', 'theme', 'language', 'difficulty', 'order', 'active')
+            'fields': ('title', 'slug', 'description', 'theme', 'country', 'difficulty', 'order', 'active')
         }),
     )
     
