@@ -472,7 +472,7 @@
             {% for item in breadcrumb %}
                 <span class="breadcrumb-separator">›</span>
                 <a href="{% url 'quizzes:theme_detail' theme_slug=item.slug %}" class="breadcrumb-item">
-                    {{ item.icon }} {{ item.title }}
+                    {{ item.title }}
                 </a>
             {% endfor %}
             <span class="breadcrumb-separator">›</span>

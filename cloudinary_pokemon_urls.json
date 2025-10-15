@@ -1,0 +1,1361 @@
+{
+  "1": {
+    "id": 1,
+    "name": "bulbasaur",
+    "public_id": "001_bulbasaur_zujyt4",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500211/001_bulbasaur_zujyt4.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500211/001_bulbasaur_zujyt4.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "2": {
+    "id": 2,
+    "name": "ivysaur",
+    "public_id": "002_ivysaur_ckopla",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500213/002_ivysaur_ckopla.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500213/002_ivysaur_ckopla.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "3": {
+    "id": 3,
+    "name": "venusaur",
+    "public_id": "003_venusaur_hmtduf",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500067/003_venusaur_hmtduf.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500067/003_venusaur_hmtduf.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "4": {
+    "id": 4,
+    "name": "charmander",
+    "public_id": "004_charmander_oj3znn",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500068/004_charmander_oj3znn.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500068/004_charmander_oj3znn.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "5": {
+    "id": 5,
+    "name": "charmeleon",
+    "public_id": "005_charmeleon_faoq1h",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500063/005_charmeleon_faoq1h.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500063/005_charmeleon_faoq1h.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "6": {
+    "id": 6,
+    "name": "charizard",
+    "public_id": "006_charizard_zootn1",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500072/006_charizard_zootn1.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500072/006_charizard_zootn1.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "7": {
+    "id": 7,
+    "name": "squirtle",
+    "public_id": "007_squirtle_a9uqb7",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500078/007_squirtle_a9uqb7.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500078/007_squirtle_a9uqb7.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "8": {
+    "id": 8,
+    "name": "wartortle",
+    "public_id": "008_wartortle_hxalyz",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500074/008_wartortle_hxalyz.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500074/008_wartortle_hxalyz.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "9": {
+    "id": 9,
+    "name": "blastoise",
+    "public_id": "009_blastoise_ronvr7",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500220/009_blastoise_ronvr7.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500220/009_blastoise_ronvr7.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "10": {
+    "id": 10,
+    "name": "caterpie",
+    "public_id": "010_caterpie_jx409u",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500207/010_caterpie_jx409u.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500207/010_caterpie_jx409u.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "11": {
+    "id": 11,
+    "name": "metapod",
+    "public_id": "011_metapod_n3j3ws",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500065/011_metapod_n3j3ws.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500065/011_metapod_n3j3ws.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "12": {
+    "id": 12,
+    "name": "butterfree",
+    "public_id": "012_butterfree_kg0xqq",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500215/012_butterfree_kg0xqq.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500215/012_butterfree_kg0xqq.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "13": {
+    "id": 13,
+    "name": "weedle",
+    "public_id": "013_weedle_lmzwd1",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500070/013_weedle_lmzwd1.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500070/013_weedle_lmzwd1.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "14": {
+    "id": 14,
+    "name": "kakuna",
+    "public_id": "014_kakuna_h1xo70",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500076/014_kakuna_h1xo70.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500076/014_kakuna_h1xo70.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "15": {
+    "id": 15,
+    "name": "beedrill",
+    "public_id": "015_beedrill_elvm2p",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500218/015_beedrill_elvm2p.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500218/015_beedrill_elvm2p.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "16": {
+    "id": 16,
+    "name": "pidgey",
+    "public_id": "016_pidgey_pykqlk",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500216/016_pidgey_pykqlk.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500216/016_pidgey_pykqlk.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "17": {
+    "id": 17,
+    "name": "pidgeotto",
+    "public_id": "017_pidgeotto_yflbgs",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500225/017_pidgeotto_yflbgs.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500225/017_pidgeotto_yflbgs.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "18": {
+    "id": 18,
+    "name": "pidgeot",
+    "public_id": "018_pidgeot_qwrpjz",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500227/018_pidgeot_qwrpjz.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500227/018_pidgeot_qwrpjz.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "19": {
+    "id": 19,
+    "name": "rattata",
+    "public_id": "019_rattata_htvr5n",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500209/019_rattata_htvr5n.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500209/019_rattata_htvr5n.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "20": {
+    "id": 20,
+    "name": "raticate",
+    "public_id": "020_raticate_qurk8k",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500230/020_raticate_qurk8k.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500230/020_raticate_qurk8k.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "21": {
+    "id": 21,
+    "name": "spearow",
+    "public_id": "021_spearow_e9asbf",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500235/021_spearow_e9asbf.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500235/021_spearow_e9asbf.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "22": {
+    "id": 22,
+    "name": "fearow",
+    "public_id": "022_fearow_y5pwc9",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500240/022_fearow_y5pwc9.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500240/022_fearow_y5pwc9.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "23": {
+    "id": 23,
+    "name": "ekans",
+    "public_id": "023_ekans_ohhksf",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500242/023_ekans_ohhksf.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500242/023_ekans_ohhksf.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "24": {
+    "id": 24,
+    "name": "arbok",
+    "public_id": "024_arbok_mjpzfq",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500244/024_arbok_mjpzfq.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500244/024_arbok_mjpzfq.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "25": {
+    "id": 25,
+    "name": "pikachu",
+    "public_id": "025_pikachu_lrkb9g",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500222/025_pikachu_lrkb9g.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500222/025_pikachu_lrkb9g.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "26": {
+    "id": 26,
+    "name": "raichu",
+    "public_id": "026_raichu_myitrk",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500223/026_raichu_myitrk.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500223/026_raichu_myitrk.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "27": {
+    "id": 27,
+    "name": "sandshrew",
+    "public_id": "027_sandshrew_t5rk6m",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500260/027_sandshrew_t5rk6m.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500260/027_sandshrew_t5rk6m.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "28": {
+    "id": 28,
+    "name": "sandslash",
+    "public_id": "028_sandslash_gkincg",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500265/028_sandslash_gkincg.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500265/028_sandslash_gkincg.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "29": {
+    "id": 29,
+    "name": "nidoran-f",
+    "public_id": "029_nidoran-f_fkyndx",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500266/029_nidoran-f_fkyndx.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500266/029_nidoran-f_fkyndx.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "30": {
+    "id": 30,
+    "name": "nidorina",
+    "public_id": "030_nidorina_hkfyrc",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500268/030_nidorina_hkfyrc.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500268/030_nidorina_hkfyrc.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "31": {
+    "id": 31,
+    "name": "nidoqueen",
+    "public_id": "031_nidoqueen_ubmnmq",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500270/031_nidoqueen_ubmnmq.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500270/031_nidoqueen_ubmnmq.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "32": {
+    "id": 32,
+    "name": "nidoran-m",
+    "public_id": "032_nidoran-m_tooy58",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500275/032_nidoran-m_tooy58.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500275/032_nidoran-m_tooy58.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "33": {
+    "id": 33,
+    "name": "nidorino",
+    "public_id": "033_nidorino_p4suwf",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500272/033_nidorino_p4suwf.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500272/033_nidorino_p4suwf.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "34": {
+    "id": 34,
+    "name": "nidoking",
+    "public_id": "034_nidoking_kq0fac",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500282/034_nidoking_kq0fac.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500282/034_nidoking_kq0fac.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "35": {
+    "id": 35,
+    "name": "clefairy",
+    "public_id": "035_clefairy_kpto8y",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500280/035_clefairy_kpto8y.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500280/035_clefairy_kpto8y.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "36": {
+    "id": 36,
+    "name": "clefable",
+    "public_id": "036_clefable_fy1nhl",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500285/036_clefable_fy1nhl.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500285/036_clefable_fy1nhl.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "37": {
+    "id": 37,
+    "name": "vulpix",
+    "public_id": "037_vulpix_rgy0tu",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500289/037_vulpix_rgy0tu.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500289/037_vulpix_rgy0tu.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "38": {
+    "id": 38,
+    "name": "ninetales",
+    "public_id": "038_ninetales_h7gufn",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500287/038_ninetales_h7gufn.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500287/038_ninetales_h7gufn.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "39": {
+    "id": 39,
+    "name": "jigglypuff",
+    "public_id": "039_jigglypuff_dthztg",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500283/039_jigglypuff_dthztg.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500283/039_jigglypuff_dthztg.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "40": {
+    "id": 40,
+    "name": "wigglytuff",
+    "public_id": "040_wigglytuff_ums564",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500294/040_wigglytuff_ums564.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500294/040_wigglytuff_ums564.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "41": {
+    "id": 41,
+    "name": "zubat",
+    "public_id": "041_zubat_rcy2yx",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500236/041_zubat_rcy2yx.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500236/041_zubat_rcy2yx.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "42": {
+    "id": 42,
+    "name": "golbat",
+    "public_id": "042_golbat_ri8pqn",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500238/042_golbat_ri8pqn.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500238/042_golbat_ri8pqn.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "43": {
+    "id": 43,
+    "name": "oddish",
+    "public_id": "043_oddish_ioo5fq",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500301/043_oddish_ioo5fq.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500301/043_oddish_ioo5fq.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "44": {
+    "id": 44,
+    "name": "gloom",
+    "public_id": "044_gloom_m0k44e",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500308/044_gloom_m0k44e.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500308/044_gloom_m0k44e.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "45": {
+    "id": 45,
+    "name": "vileplume",
+    "public_id": "045_vileplume_ppykwt",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500311/045_vileplume_ppykwt.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500311/045_vileplume_ppykwt.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "46": {
+    "id": 46,
+    "name": "paras",
+    "public_id": "046_paras_qdfouh",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500318/046_paras_qdfouh.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500318/046_paras_qdfouh.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "47": {
+    "id": 47,
+    "name": "parasect",
+    "public_id": "047_parasect_ubfr0c",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500315/047_parasect_ubfr0c.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500315/047_parasect_ubfr0c.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "48": {
+    "id": 48,
+    "name": "venonat",
+    "public_id": "048_venonat_sf1xm7",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500336/048_venonat_sf1xm7.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500336/048_venonat_sf1xm7.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "49": {
+    "id": 49,
+    "name": "venomoth",
+    "public_id": "049_venomoth_mdnq0s",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500245/049_venomoth_mdnq0s.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500245/049_venomoth_mdnq0s.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "50": {
+    "id": 50,
+    "name": "diglett",
+    "public_id": "050_diglett_wvxagd",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500329/050_diglett_wvxagd.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500329/050_diglett_wvxagd.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "51": {
+    "id": 51,
+    "name": "dugtrio",
+    "public_id": "051_dugtrio_loipwu",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500327/051_dugtrio_loipwu.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500327/051_dugtrio_loipwu.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "52": {
+    "id": 52,
+    "name": "meowth",
+    "public_id": "052_meowth_acyvs5",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500247/052_meowth_acyvs5.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500247/052_meowth_acyvs5.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "53": {
+    "id": 53,
+    "name": "persian",
+    "public_id": "053_persian_fhlb9j",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500251/053_persian_fhlb9j.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500251/053_persian_fhlb9j.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "54": {
+    "id": 54,
+    "name": "psyduck",
+    "public_id": "054_psyduck_ptyijt",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500249/054_psyduck_ptyijt.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500249/054_psyduck_ptyijt.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "55": {
+    "id": 55,
+    "name": "golduck",
+    "public_id": "055_golduck_fc7kdi",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500252/055_golduck_fc7kdi.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500252/055_golduck_fc7kdi.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "56": {
+    "id": 56,
+    "name": "mankey",
+    "public_id": "056_mankey_jrbpqt",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500258/056_mankey_jrbpqt.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500258/056_mankey_jrbpqt.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "57": {
+    "id": 57,
+    "name": "primeape",
+    "public_id": "057_primeape_yx3en9",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500342/057_primeape_yx3en9.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500342/057_primeape_yx3en9.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "58": {
+    "id": 58,
+    "name": "growlithe",
+    "public_id": "058_growlithe_fuvzyk",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500348/058_growlithe_fuvzyk.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500348/058_growlithe_fuvzyk.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "59": {
+    "id": 59,
+    "name": "arcanine",
+    "public_id": "059_arcanine_ufa9sm",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500421/059_arcanine_ufa9sm.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500421/059_arcanine_ufa9sm.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "60": {
+    "id": 60,
+    "name": "poliwag",
+    "public_id": "060_poliwag_wuvkvt",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500352/060_poliwag_wuvkvt.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500352/060_poliwag_wuvkvt.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "61": {
+    "id": 61,
+    "name": "poliwhirl",
+    "public_id": "061_poliwhirl_nybbqy",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500350/061_poliwhirl_nybbqy.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500350/061_poliwhirl_nybbqy.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "62": {
+    "id": 62,
+    "name": "poliwrath",
+    "public_id": "062_poliwrath_jz2hyi",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500263/062_poliwrath_jz2hyi.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500263/062_poliwrath_jz2hyi.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "63": {
+    "id": 63,
+    "name": "abra",
+    "public_id": "063_abra_o8pcmy",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500277/063_abra_o8pcmy.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500277/063_abra_o8pcmy.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "64": {
+    "id": 64,
+    "name": "kadabra",
+    "public_id": "064_kadabra_vlge1h",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500356/064_kadabra_vlge1h.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500356/064_kadabra_vlge1h.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "65": {
+    "id": 65,
+    "name": "alakazam",
+    "public_id": "065_alakazam_cx9fwm",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500362/065_alakazam_cx9fwm.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500362/065_alakazam_cx9fwm.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "66": {
+    "id": 66,
+    "name": "machop",
+    "public_id": "066_machop_umd09k",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500358/066_machop_umd09k.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500358/066_machop_umd09k.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "67": {
+    "id": 67,
+    "name": "machoke",
+    "public_id": "067_machoke_bdnqdx",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500333/067_machoke_bdnqdx.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500333/067_machoke_bdnqdx.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "68": {
+    "id": 68,
+    "name": "machamp",
+    "public_id": "068_machamp_plftan",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500338/068_machamp_plftan.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500338/068_machamp_plftan.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "69": {
+    "id": 69,
+    "name": "bellsprout",
+    "public_id": "069_bellsprout_sdqddo",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500256/069_bellsprout_sdqddo.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500256/069_bellsprout_sdqddo.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "70": {
+    "id": 70,
+    "name": "weepinbell",
+    "public_id": "070_weepinbell_swr9mc",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500254/070_weepinbell_swr9mc.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500254/070_weepinbell_swr9mc.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "71": {
+    "id": 71,
+    "name": "victreebel",
+    "public_id": "071_victreebel_rnixsa",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500340/071_victreebel_rnixsa.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500340/071_victreebel_rnixsa.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "72": {
+    "id": 72,
+    "name": "tentacool",
+    "public_id": "072_tentacool_u5obrd",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500261/072_tentacool_u5obrd.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500261/072_tentacool_u5obrd.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "73": {
+    "id": 73,
+    "name": "tentacruel",
+    "public_id": "073_tentacruel_d8zgwm",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500365/073_tentacruel_d8zgwm.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500365/073_tentacruel_d8zgwm.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "74": {
+    "id": 74,
+    "name": "geodude",
+    "public_id": "074_geodude_utl0aj",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500274/074_geodude_utl0aj.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500274/074_geodude_utl0aj.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "75": {
+    "id": 75,
+    "name": "graveler",
+    "public_id": "075_graveler_orgqpp",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500290/075_graveler_orgqpp.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500290/075_graveler_orgqpp.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "76": {
+    "id": 76,
+    "name": "golem",
+    "public_id": "076_golem_cm3dao",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500367/076_golem_cm3dao.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500367/076_golem_cm3dao.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "77": {
+    "id": 77,
+    "name": "ponyta",
+    "public_id": "077_ponyta_x6yw7t",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500293/077_ponyta_x6yw7t.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500293/077_ponyta_x6yw7t.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "78": {
+    "id": 78,
+    "name": "rapidash",
+    "public_id": "078_rapidash_bcxugl",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500369/078_rapidash_bcxugl.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500369/078_rapidash_bcxugl.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "79": {
+    "id": 79,
+    "name": "slowpoke",
+    "public_id": "079_slowpoke_gijb4y",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500296/079_slowpoke_gijb4y.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500296/079_slowpoke_gijb4y.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "80": {
+    "id": 80,
+    "name": "slowbro",
+    "public_id": "080_slowbro_te6eb3",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500373/080_slowbro_te6eb3.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500373/080_slowbro_te6eb3.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "81": {
+    "id": 81,
+    "name": "magnemite",
+    "public_id": "081_magnemite_fdtgvo",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500299/081_magnemite_fdtgvo.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500299/081_magnemite_fdtgvo.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "82": {
+    "id": 82,
+    "name": "magneton",
+    "public_id": "082_magneton_vbmvj3",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500371/082_magneton_vbmvj3.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500371/082_magneton_vbmvj3.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "83": {
+    "id": 83,
+    "name": "farfetchd",
+    "public_id": "083_farfetchd_aoitzn",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500377/083_farfetchd_aoitzn.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500377/083_farfetchd_aoitzn.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "84": {
+    "id": 84,
+    "name": "doduo",
+    "public_id": "084_doduo_aacvgv",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500297/084_doduo_aacvgv.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500297/084_doduo_aacvgv.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "85": {
+    "id": 85,
+    "name": "dodrio",
+    "public_id": "085_dodrio_pbqgfc",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500303/085_dodrio_pbqgfc.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500303/085_dodrio_pbqgfc.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "86": {
+    "id": 86,
+    "name": "seel",
+    "public_id": "086_seel_roys4k",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500306/086_seel_roys4k.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500306/086_seel_roys4k.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "87": {
+    "id": 87,
+    "name": "dewgong",
+    "public_id": "087_dewgong_e0uwx0",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500375/087_dewgong_e0uwx0.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500375/087_dewgong_e0uwx0.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "88": {
+    "id": 88,
+    "name": "grimer",
+    "public_id": "088_grimer_uzno3l",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500304/088_grimer_uzno3l.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500304/088_grimer_uzno3l.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "89": {
+    "id": 89,
+    "name": "muk",
+    "public_id": "089_muk_pyamwu",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500310/089_muk_pyamwu.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500310/089_muk_pyamwu.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "90": {
+    "id": 90,
+    "name": "shellder",
+    "public_id": "090_shellder_cj4yaa",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500397/090_shellder_cj4yaa.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500397/090_shellder_cj4yaa.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "91": {
+    "id": 91,
+    "name": "cloyster",
+    "public_id": "091_cloyster_ejl4ss",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500382/091_cloyster_ejl4ss.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500382/091_cloyster_ejl4ss.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "92": {
+    "id": 92,
+    "name": "gastly",
+    "public_id": "092_gastly_q05lrq",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500380/092_gastly_q05lrq.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500380/092_gastly_q05lrq.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "93": {
+    "id": 93,
+    "name": "haunter",
+    "public_id": "093_haunter_aysb5i",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500313/093_haunter_aysb5i.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500313/093_haunter_aysb5i.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "94": {
+    "id": 94,
+    "name": "gengar",
+    "public_id": "094_gengar_tipvf2",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500386/094_gengar_tipvf2.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500386/094_gengar_tipvf2.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "95": {
+    "id": 95,
+    "name": "onix",
+    "public_id": "095_onix_rjltb6",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500391/095_onix_rjltb6.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500391/095_onix_rjltb6.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "96": {
+    "id": 96,
+    "name": "drowzee",
+    "public_id": "096_drowzee_lf3pgx",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500395/096_drowzee_lf3pgx.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500395/096_drowzee_lf3pgx.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "97": {
+    "id": 97,
+    "name": "hypno",
+    "public_id": "097_hypno_wuuwfh",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500393/097_hypno_wuuwfh.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500393/097_hypno_wuuwfh.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "98": {
+    "id": 98,
+    "name": "krabby",
+    "public_id": "098_krabby_uaboqf",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500325/098_krabby_uaboqf.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500325/098_krabby_uaboqf.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "99": {
+    "id": 99,
+    "name": "kingler",
+    "public_id": "099_kingler_lp44sd",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500323/099_kingler_lp44sd.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500323/099_kingler_lp44sd.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "100": {
+    "id": 100,
+    "name": "voltorb",
+    "public_id": "100_voltorb_tcnogu",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500402/100_voltorb_tcnogu.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500402/100_voltorb_tcnogu.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "101": {
+    "id": 101,
+    "name": "electrode",
+    "public_id": "101_electrode_zglo6t",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500404/101_electrode_zglo6t.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500404/101_electrode_zglo6t.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "102": {
+    "id": 102,
+    "name": "exeggcute",
+    "public_id": "102_exeggcute_vc6v0k",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500399/102_exeggcute_vc6v0k.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500399/102_exeggcute_vc6v0k.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "103": {
+    "id": 103,
+    "name": "exeggutor",
+    "public_id": "103_exeggutor_rngzvy",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500406/103_exeggutor_rngzvy.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500406/103_exeggutor_rngzvy.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "104": {
+    "id": 104,
+    "name": "cubone",
+    "public_id": "104_cubone_avrqnd",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500414/104_cubone_avrqnd.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500414/104_cubone_avrqnd.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "105": {
+    "id": 105,
+    "name": "marowak",
+    "public_id": "105_marowak_qelktl",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500384/105_marowak_qelktl.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500384/105_marowak_qelktl.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "106": {
+    "id": 106,
+    "name": "hitmonlee",
+    "public_id": "106_hitmonlee_znq9mu",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500320/106_hitmonlee_znq9mu.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500320/106_hitmonlee_znq9mu.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "107": {
+    "id": 107,
+    "name": "hitmonchan",
+    "public_id": "107_hitmonchan_jlmztg",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500331/107_hitmonchan_jlmztg.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500331/107_hitmonchan_jlmztg.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "108": {
+    "id": 108,
+    "name": "lickitung",
+    "public_id": "108_lickitung_cslrtb",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500429/108_lickitung_cslrtb.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500429/108_lickitung_cslrtb.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "109": {
+    "id": 109,
+    "name": "koffing",
+    "public_id": "109_koffing_s0o2jm",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500408/109_koffing_s0o2jm.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500408/109_koffing_s0o2jm.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "110": {
+    "id": 110,
+    "name": "weezing",
+    "public_id": "110_weezing_rwxuyn",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500412/110_weezing_rwxuyn.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500412/110_weezing_rwxuyn.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "111": {
+    "id": 111,
+    "name": "rhyhorn",
+    "public_id": "111_rhyhorn_jj1zgi",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500419/111_rhyhorn_jj1zgi.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500419/111_rhyhorn_jj1zgi.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "112": {
+    "id": 112,
+    "name": "rhydon",
+    "public_id": "112_rhydon_efmvpn",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500511/112_rhydon_efmvpn.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500511/112_rhydon_efmvpn.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "113": {
+    "id": 113,
+    "name": "chansey",
+    "public_id": "113_chansey_fe1pjk",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500427/113_chansey_fe1pjk.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500427/113_chansey_fe1pjk.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "114": {
+    "id": 114,
+    "name": "tangela",
+    "public_id": "114_tangela_xayqyk",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500534/114_tangela_xayqyk.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500534/114_tangela_xayqyk.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "115": {
+    "id": 115,
+    "name": "kangaskhan",
+    "public_id": "115_kangaskhan_qmpx47",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500449/115_kangaskhan_qmpx47.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500449/115_kangaskhan_qmpx47.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "116": {
+    "id": 116,
+    "name": "horsea",
+    "public_id": "116_horsea_brtmb8",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500410/116_horsea_brtmb8.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500410/116_horsea_brtmb8.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "117": {
+    "id": 117,
+    "name": "seadra",
+    "public_id": "117_seadra_gaerfi",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500344/117_seadra_gaerfi.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500344/117_seadra_gaerfi.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "118": {
+    "id": 118,
+    "name": "goldeen",
+    "public_id": "118_goldeen_kk3mxw",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500346/118_goldeen_kk3mxw.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500346/118_goldeen_kk3mxw.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "119": {
+    "id": 119,
+    "name": "seaking",
+    "public_id": "119_seaking_et1rfm",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500417/119_seaking_et1rfm.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500417/119_seaking_et1rfm.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "120": {
+    "id": 120,
+    "name": "staryu",
+    "public_id": "120_staryu_n0fizo",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500460/120_staryu_n0fizo.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500460/120_staryu_n0fizo.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "121": {
+    "id": 121,
+    "name": "starmie",
+    "public_id": "121_starmie_c9o8qg",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500555/121_starmie_c9o8qg.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500555/121_starmie_c9o8qg.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "122": {
+    "id": 122,
+    "name": "mr-mime",
+    "public_id": "122_mr-mime_xsxlpf",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500434/122_mr-mime_xsxlpf.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500434/122_mr-mime_xsxlpf.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "123": {
+    "id": 123,
+    "name": "scyther",
+    "public_id": "123_scyther_g5csab",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500446/123_scyther_g5csab.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500446/123_scyther_g5csab.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "124": {
+    "id": 124,
+    "name": "jynx",
+    "public_id": "124_jynx_zkghc6",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500436/124_jynx_zkghc6.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500436/124_jynx_zkghc6.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "125": {
+    "id": 125,
+    "name": "electabuzz",
+    "public_id": "125_electabuzz_i55qyz",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500530/125_electabuzz_i55qyz.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500530/125_electabuzz_i55qyz.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "126": {
+    "id": 126,
+    "name": "magmar",
+    "public_id": "126_magmar_cnorca",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500432/126_magmar_cnorca.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500432/126_magmar_cnorca.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "127": {
+    "id": 127,
+    "name": "pinsir",
+    "public_id": "127_pinsir_nyihie",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500470/127_pinsir_nyihie.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500470/127_pinsir_nyihie.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "128": {
+    "id": 128,
+    "name": "tauros",
+    "public_id": "128_tauros_gxh4qi",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500354/128_tauros_gxh4qi.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500354/128_tauros_gxh4qi.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "129": {
+    "id": 129,
+    "name": "magikarp",
+    "public_id": "129_magikarp_p2s1vs",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500443/129_magikarp_p2s1vs.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500443/129_magikarp_p2s1vs.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "130": {
+    "id": 130,
+    "name": "gyarados",
+    "public_id": "130_gyarados_mpovxk",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500445/130_gyarados_mpovxk.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500445/130_gyarados_mpovxk.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "131": {
+    "id": 131,
+    "name": "lapras",
+    "public_id": "131_lapras_t76d28",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500438/131_lapras_t76d28.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500438/131_lapras_t76d28.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "132": {
+    "id": 132,
+    "name": "ditto",
+    "public_id": "132_ditto_l9brpw",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500360/132_ditto_l9brpw.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500360/132_ditto_l9brpw.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "133": {
+    "id": 133,
+    "name": "eevee",
+    "public_id": "133_eevee_msivlz",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500451/133_eevee_msivlz.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500451/133_eevee_msivlz.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "134": {
+    "id": 134,
+    "name": "vaporeon",
+    "public_id": "134_vaporeon_jzdg9l",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500464/134_vaporeon_jzdg9l.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500464/134_vaporeon_jzdg9l.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "135": {
+    "id": 135,
+    "name": "jolteon",
+    "public_id": "135_jolteon_zgzo7v",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500537/135_jolteon_zgzo7v.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500537/135_jolteon_zgzo7v.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "136": {
+    "id": 136,
+    "name": "flareon",
+    "public_id": "136_flareon_vuwgbw",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500455/136_flareon_vuwgbw.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500455/136_flareon_vuwgbw.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "137": {
+    "id": 137,
+    "name": "porygon",
+    "public_id": "137_porygon_q1d8z8",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500539/137_porygon_q1d8z8.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500539/137_porygon_q1d8z8.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "138": {
+    "id": 138,
+    "name": "omanyte",
+    "public_id": "138_omanyte_unhxpr",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500457/138_omanyte_unhxpr.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500457/138_omanyte_unhxpr.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "139": {
+    "id": 139,
+    "name": "omastar",
+    "public_id": "139_omastar_qvf4fx",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500543/139_omastar_qvf4fx.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500543/139_omastar_qvf4fx.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "140": {
+    "id": 140,
+    "name": "kabuto",
+    "public_id": "140_kabuto_xjkgki",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500468/140_kabuto_xjkgki.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500468/140_kabuto_xjkgki.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "141": {
+    "id": 141,
+    "name": "kabutops",
+    "public_id": "141_kabutops_i4agh1",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500466/141_kabutops_i4agh1.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500466/141_kabutops_i4agh1.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "142": {
+    "id": 142,
+    "name": "aerodactyl",
+    "public_id": "142_aerodactyl_s1e3l1",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500423/142_aerodactyl_s1e3l1.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500423/142_aerodactyl_s1e3l1.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "143": {
+    "id": 143,
+    "name": "snorlax",
+    "public_id": "143_snorlax_aluloy",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500453/143_snorlax_aluloy.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500453/143_snorlax_aluloy.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "144": {
+    "id": 144,
+    "name": "articuno",
+    "public_id": "144_articuno_yf12m8",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500558/144_articuno_yf12m8.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500558/144_articuno_yf12m8.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "145": {
+    "id": 145,
+    "name": "zapdos",
+    "public_id": "145_zapdos_xrt3lb",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500462/145_zapdos_xrt3lb.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500462/145_zapdos_xrt3lb.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "146": {
+    "id": 146,
+    "name": "moltres",
+    "public_id": "146_moltres_d0trpw",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500440/146_moltres_d0trpw.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500440/146_moltres_d0trpw.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "147": {
+    "id": 147,
+    "name": "dratini",
+    "public_id": "147_dratini_gslgll",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500532/147_dratini_gslgll.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500532/147_dratini_gslgll.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "148": {
+    "id": 148,
+    "name": "dragonair",
+    "public_id": "148_dragonair_dhfsdo",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500388/148_dragonair_dhfsdo.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500388/148_dragonair_dhfsdo.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "149": {
+    "id": 149,
+    "name": "dragonite",
+    "public_id": "149_dragonite_qytfor",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500541/149_dragonite_qytfor.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500541/149_dragonite_qytfor.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "150": {
+    "id": 150,
+    "name": "mewtwo",
+    "public_id": "150_mewtwo_k8ctae",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500425/150_mewtwo_k8ctae.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500425/150_mewtwo_k8ctae.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  },
+  "151": {
+    "id": 151,
+    "name": "mew",
+    "public_id": "151_mew_ibw53l",
+    "url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760500545/151_mew_ibw53l.png",
+    "format": "png",
+    "url_original": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760500545/151_mew_ibw53l.png",
+    "transformations": "w_300,h_300,c_thumb,g_face,f_auto"
+  }
+}
