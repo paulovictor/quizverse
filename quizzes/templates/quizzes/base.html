@@ -830,13 +830,6 @@
             return cookieValue;
         }
 
-        // Inicializa Twemoji para converter emojis em imagens (suporte a Windows)
-        if (typeof twemoji !== 'undefined') {
-            twemoji.parse(document.body, {
-                folder: 'svg',
-                ext: '.svg'
-            });
-        }
     </script>
     
     {% block extra_scripts %}{% endblock %}
