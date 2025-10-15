@@ -37,7 +37,7 @@ class Theme(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=255)
     description = models.TextField()
-    slug = models.SlugField(max_length=255)
+    slug = models.SlugField(max_length=255, unique=True)
     icon = models.URLField(max_length=500, blank=True, null=True, help_text='URL da imagem do ícone (PNG, SVG, etc - use Cloudinary)')
     
     # País do tema
@@ -61,7 +61,6 @@ class Theme(models.Model):
         verbose_name = "Theme"
         verbose_name_plural = "Themes"
         ordering = ['order', 'title']
-        unique_together = [['slug', 'country']]
 
     def __str__(self):
         if self.parent:

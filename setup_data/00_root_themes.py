@@ -341,13 +341,6 @@ def create_root_themes():
         'vi-VN': 'vi',
     }
     
-    # Agrupar países por idioma para determinar quais precisam de sufixo
-    lang_countries = {}
-    for country, lang in country_to_lang.items():
-        if lang not in lang_countries:
-            lang_countries[lang] = []
-        lang_countries[lang].append(country)
-    
     countries = list(country_to_lang.keys())
     
     print("🚀 Criando temas principais em múltiplos países...")
@@ -364,16 +357,13 @@ def create_root_themes():
             lang_code = country_to_lang[country_code]
             translation = theme_base['translations'].get(lang_code, theme_base['translations']['en'])
             
-            # Determinar o slug: adicionar sufixo do país se houver múltiplos países com o mesmo idioma
+            # Determinar o slug: Brasil não tem sufixo, outros países sempre têm
             base_slug = translation['slug']
-            countries_with_lang = lang_countries[lang_code]
-            
-            if len(countries_with_lang) > 1:
-                # Adicionar sufixo apenas se não for o primeiro país na lista (ordenado)
+            if country_code == 'pt-BR':
+                slug = base_slug
+            else:
                 country_suffix = country_code.split('-')[1].lower()
                 slug = f"{base_slug}-{country_suffix}"
-            else:
-                slug = base_slug
             
             theme, created = Theme.objects.update_or_create(
                 slug=slug,
