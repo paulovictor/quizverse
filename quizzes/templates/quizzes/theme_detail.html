@@ -881,11 +881,17 @@
                             <span class="inactive-badge">Inativo</span>
                         {% endif %}
                         <div class="quiz-card-header">
-                            <div class="quiz-card-icon">⚽</div>
+                            <div class="quiz-card-icon">
+                                {% if theme.icon %}
+                                    <img src="{{ theme.icon }}" alt="{{ theme.title }}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                {% else %}
+                                    {% render_icon theme %}
+                                {% endif %}
+                            </div>
                             <div class="quiz-card-title-wrapper">
                                 <h3 class="quiz-card-title">{{ quiz.title }}</h3>
                                 <div class="quiz-card-meta">
-                                    <span class="quiz-meta-item">📝 {{ quiz.get_total_questions }} questões</span>
+                                    <span class="quiz-meta-item">📝 {{ quiz.get_questions_per_attempt }} questões</span>
                                     <span class="quiz-meta-item">⏱️ {{ quiz.get_estimated_time }} min</span>
                                 </div>
                             </div>

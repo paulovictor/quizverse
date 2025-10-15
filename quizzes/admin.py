@@ -40,7 +40,7 @@ class QuestionInline(admin.StackedInline):
 
 @admin.register(Quiz)
 class QuizAdmin(admin.ModelAdmin):
-    list_display = ['title', 'theme', 'country', 'difficulty', 'active', 'get_total_questions', 'order', 'created_at']
+    list_display = ['title', 'theme', 'country', 'difficulty', 'active', 'get_total_questions', 'question_sample_size', 'order', 'created_at']
     list_filter = ['active', 'country', 'difficulty', 'theme', 'created_at']
     search_fields = ['title', 'description', 'slug']
     prepopulated_fields = {'slug': ('title',)}
@@ -49,11 +49,15 @@ class QuizAdmin(admin.ModelAdmin):
         ('Informações Básicas', {
             'fields': ('title', 'slug', 'description', 'theme', 'country', 'difficulty', 'order', 'active')
         }),
+        ('Configurações do Quiz', {
+            'fields': ('time_limit', 'question_sample_size'),
+            'description': 'Configure o tempo limite e quantas questões aleatórias serão apresentadas a cada tentativa. Use 0 em "question_sample_size" para usar todas as questões disponíveis.'
+        }),
     )
     
     def get_total_questions(self, obj):
         return obj.get_total_questions()
-    get_total_questions.short_description = 'Perguntas'
+    get_total_questions.short_description = 'Questões'
 
 
 @admin.register(Question)
@@ -65,7 +69,7 @@ class QuestionAdmin(admin.ModelAdmin):
     
     def short_text(self, obj):
         return obj.text[:50] + '...' if len(obj.text) > 50 else obj.text
-    short_text.short_description = 'Pergunta'
+    short_text.short_description = 'Questão'
 
 
 @admin.register(Answer)
@@ -125,7 +129,7 @@ class UserAnswerAdmin(admin.ModelAdmin):
     
     def question_display(self, obj):
         return obj.question.text[:40] + '...' if len(obj.question.text) > 40 else obj.question.text
-    question_display.short_description = 'Pergunta'
+    question_display.short_description = 'Questão'
 
 
 @admin.register(Product)

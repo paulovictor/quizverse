@@ -95,7 +95,7 @@ TRANSLATIONS = {
         'ja': 'クイズ', 'ko': '퀴즈', 'th': 'แบบทดสอบ', 'vi': 'câu đố',
     },
     'total_questions': {
-        'pt-BR': 'perguntas', 'en': 'questions', 'es': 'preguntas', 'fr': 'questions', 'de': 'Fragen', 'it': 'domande',
+        'pt-BR': 'questões', 'en': 'questions', 'es': 'preguntas', 'fr': 'questions', 'de': 'Fragen', 'it': 'domande',
         'nl': 'vragen', 'sv': 'frågor', 'no': 'spørsmål', 'pl': 'pytania', 'id': 'pertanyaan',
         'ja': '質問', 'ko': '질문', 'th': 'คำถาม', 'vi': 'câu hỏi',
     },
@@ -106,25 +106,80 @@ TRANSLATIONS = {
     },
     
     # Quiz Detail
+    'questions_label': {
+        'pt-BR': 'Questões', 'en': 'Questions', 'es': 'Preguntas', 'fr': 'Questions', 'de': 'Fragen', 'it': 'Domande',
+        'nl': 'Vragen', 'sv': 'Frågor', 'no': 'Spørsmål', 'pl': 'Pytania', 'id': 'Pertanyaan',
+        'ja': '質問数', 'ko': '질문 수', 'th': 'คำถาม', 'vi': 'Câu hỏi',
+    },
     'questions': {
-        'pt-BR': 'perguntas', 'en': 'questions', 'es': 'preguntas', 'fr': 'questions', 'de': 'Fragen', 'it': 'domande',
+        'pt-BR': 'questões', 'en': 'questions', 'es': 'preguntas', 'fr': 'questions', 'de': 'Fragen', 'it': 'domande',
         'nl': 'vragen', 'sv': 'frågor', 'no': 'spørsmål', 'pl': 'pytania', 'id': 'pertanyaan',
-        'ja': '質問', 'ko': '질문', 'th': 'คำถาม', 'vi': 'câu hỏi',
+        'ja': '質問', 'ko': '質問', 'th': 'คำถาม', 'vi': 'câu hỏi',
+    },
+    'estimated_time_label': {
+        'pt-BR': 'Tempo estimado', 'en': 'Estimated time', 'es': 'Tiempo estimado', 'fr': 'Temps estimé', 'de': 'Geschätzte Zeit', 'it': 'Tempo stimato',
+        'nl': 'Geschatte tijd', 'sv': 'Uppskattad tid', 'no': 'Estimert tid', 'pl': 'Szacowany czas', 'id': 'Perkiraan waktu',
+        'ja': '所要時間', 'ko': '예상 시간', 'th': 'เวลาโดยประมาณ', 'vi': 'Thời gian ước tính',
     },
     'estimated_time': {
         'pt-BR': 'min', 'en': 'min', 'es': 'min', 'fr': 'min', 'de': 'Min', 'it': 'min',
         'nl': 'min', 'sv': 'min', 'no': 'min', 'pl': 'min', 'id': 'mnt',
         'ja': '分', 'ko': '분', 'th': 'นาที', 'vi': 'phút',
     },
+    'difficulty_label': {
+        'pt-BR': 'Dificuldade', 'en': 'Difficulty', 'es': 'Dificultad', 'fr': 'Difficulté', 'de': 'Schwierigkeit', 'it': 'Difficoltà',
+        'nl': 'Moeilijkheidsgraad', 'sv': 'Svårighetsgrad', 'no': 'Vanskelighetsgrad', 'pl': 'Trudność', 'id': 'Kesulitan',
+        'ja': '難易度', 'ko': '난이도', 'th': 'ความยาก', 'vi': 'Độ khó',
+    },
     'difficulty': {
         'pt-BR': 'Dificuldade', 'en': 'Difficulty', 'es': 'Dificultad', 'fr': 'Difficulté', 'de': 'Schwierigkeit', 'it': 'Difficoltà',
         'nl': 'Moeilijkheidsgraad', 'sv': 'Svårighetsgrad', 'no': 'Vanskelighetsgrad', 'pl': 'Trudność', 'id': 'Kesulitan',
         'ja': '難易度', 'ko': '난이도', 'th': 'ความยาก', 'vi': 'Độ khó',
     },
+    'easy': {
+        'pt-BR': 'Fácil', 'en': 'Easy', 'es': 'Fácil', 'fr': 'Facile', 'de': 'Einfach', 'it': 'Facile',
+        'nl': 'Gemakkelijk', 'sv': 'Lätt', 'no': 'Lett', 'pl': 'Łatwy', 'id': 'Mudah',
+        'ja': '簡単', 'ko': '쉬움', 'th': 'ง่าย', 'vi': 'Dễ',
+    },
+    'medium': {
+        'pt-BR': 'Médio', 'en': 'Medium', 'es': 'Medio', 'fr': 'Moyen', 'de': 'Mittel', 'it': 'Medio',
+        'nl': 'Gemiddeld', 'sv': 'Medel', 'no': 'Middels', 'pl': 'Średni', 'id': 'Sedang',
+        'ja': '普通', 'ko': '보통', 'th': 'ปานกลาง', 'vi': 'Trung bình',
+    },
+    'hard': {
+        'pt-BR': 'Difícil', 'en': 'Hard', 'es': 'Difícil', 'fr': 'Difficile', 'de': 'Schwer', 'it': 'Difficile',
+        'nl': 'Moeilijk', 'sv': 'Svår', 'no': 'Vanskelig', 'pl': 'Trudny', 'id': 'Sulit',
+        'ja': '難しい', 'ko': '어려움', 'th': 'ยาก', 'vi': 'Khó',
+    },
     'start_quiz': {
         'pt-BR': 'Iniciar Quiz', 'en': 'Start Quiz', 'es': 'Iniciar Quiz', 'fr': 'Commencer le Quiz', 'de': 'Quiz starten', 'it': 'Inizia Quiz',
         'nl': 'Quiz starten', 'sv': 'Starta Quiz', 'no': 'Start Quiz', 'pl': 'Rozpocznij Quiz', 'id': 'Mulai Kuis',
         'ja': 'クイズ開始', 'ko': '퀴즈 시작', 'th': 'เริ่มแบบทดสอบ', 'vi': 'Bắt đầu Câu đố',
+    },
+    'your_previous_attempts': {
+        'pt-BR': 'Suas Tentativas Anteriores', 'en': 'Your Previous Attempts', 'es': 'Tus Intentos Anteriores', 'fr': 'Vos Tentatives Précédentes', 'de': 'Ihre vorherigen Versuche', 'it': 'I tuoi Tentativi Precedenti',
+        'nl': 'Jouw Eerdere Pogingen', 'sv': 'Dina Tidigare Försök', 'no': 'Dine Tidligere Forsøk', 'pl': 'Twoje Poprzednie Próby', 'id': 'Percobaan Sebelumnya',
+        'ja': '過去の試行', 'ko': '이전 시도', 'th': 'ความพยายามก่อนหน้า', 'vi': 'Các Lần Thử Trước',
+    },
+    'showing_last_attempts': {
+        'pt-BR': 'Exibindo suas últimas 10 tentativas', 'en': 'Showing your last 10 attempts', 'es': 'Mostrando tus últimos 10 intentos', 'fr': 'Affichage de vos 10 dernières tentatives', 'de': 'Zeigt Ihre letzten 10 Versuche', 'it': 'Mostrando i tuoi ultimi 10 tentativi',
+        'nl': 'Toont je laatste 10 pogingen', 'sv': 'Visar dina senaste 10 försök', 'no': 'Viser dine siste 10 forsøk', 'pl': 'Wyświetlanie ostatnich 10 prób', 'id': 'Menampilkan 10 percobaan terakhir Anda',
+        'ja': '最後の10回の試行を表示', 'ko': '최근 10번의 시도 표시', 'th': 'แสดง 10 ครั้งล่าสุด', 'vi': 'Hiển thị 10 lần thử gần nhất',
+    },
+    'attempts_stat': {
+        'pt-BR': 'Tentativas', 'en': 'Attempts', 'es': 'Intentos', 'fr': 'Tentatives', 'de': 'Versuche', 'it': 'Tentativi',
+        'nl': 'Pogingen', 'sv': 'Försök', 'no': 'Forsøk', 'pl': 'Próby', 'id': 'Percobaan',
+        'ja': '試行回数', 'ko': '시도 횟수', 'th': 'ความพยายาม', 'vi': 'Lần thử',
+    },
+    'best_score': {
+        'pt-BR': 'Melhor Score', 'en': 'Best Score', 'es': 'Mejor Puntuación', 'fr': 'Meilleur Score', 'de': 'Beste Punktzahl', 'it': 'Punteggio Migliore',
+        'nl': 'Beste Score', 'sv': 'Bästa Resultat', 'no': 'Beste Poengsum', 'pl': 'Najlepszy Wynik', 'id': 'Skor Terbaik',
+        'ja': '最高スコア', 'ko': '최고 점수', 'th': 'คะแนนสูงสุด', 'vi': 'Điểm Cao Nhất',
+    },
+    'average': {
+        'pt-BR': 'Média', 'en': 'Average', 'es': 'Promedio', 'fr': 'Moyenne', 'de': 'Durchschnitt', 'it': 'Media',
+        'nl': 'Gemiddelde', 'sv': 'Genomsnitt', 'no': 'Gjennomsnitt', 'pl': 'Średnia', 'id': 'Rata-rata',
+        'ja': '平均', 'ko': '평균', 'th': 'เฉลี่ย', 'vi': 'Trung bình',
     },
     'your_history': {
         'pt-BR': 'Seu Histórico', 'en': 'Your History', 'es': 'Tu Historial', 'fr': 'Votre Historique', 'de': 'Ihre Geschichte', 'it': 'La tua Storia',
@@ -141,7 +196,7 @@ TRANSLATIONS = {
     
     # Quiz Play
     'question': {
-        'pt-BR': 'Pergunta', 'en': 'Question', 'es': 'Pregunta', 'fr': 'Question', 'de': 'Frage', 'it': 'Domanda',
+        'pt-BR': 'Questão', 'en': 'Question', 'es': 'Pregunta', 'fr': 'Question', 'de': 'Frage', 'it': 'Domanda',
         'nl': 'Vraag', 'sv': 'Fråga', 'no': 'Spørsmål', 'pl': 'Pytanie', 'id': 'Pertanyaan',
         'ja': '質問', 'ko': '질문', 'th': 'คำถาม', 'vi': 'Câu hỏi',
     },

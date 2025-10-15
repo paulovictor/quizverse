@@ -605,19 +605,19 @@
                 <!-- Info Grid -->
                 <div class="info-grid">
                     <div class="info-item">
-                        <div class="info-label">Perguntas</div>
-                        <div class="info-value">{{ quiz.get_total_questions }}</div>
+                        <div class="info-label">{% t 'questions_label' %}</div>
+                        <div class="info-value">{{ total_questions }}</div>
                     </div>
                     <div class="info-item">
-                        <div class="info-label">Tempo estimado</div>
-                        <div class="info-value">~{{ quiz.get_estimated_time }} min</div>
+                        <div class="info-label">{% t 'estimated_time_label' %}</div>
+                        <div class="info-value">~{{ quiz.get_estimated_time }} {% t 'estimated_time' %}</div>
                     </div>
                     <div class="info-item">
-                        <div class="info-label">Dificuldade</div>
+                        <div class="info-label">{% t 'difficulty_label' %}</div>
                         <div class="info-value difficulty difficulty-{{ quiz.difficulty }}">
-                            {% if quiz.difficulty == 'easy' %}Fácil
-                            {% elif quiz.difficulty == 'medium' %}Médio
-                            {% else %}Difícil{% endif %}
+                            {% if quiz.difficulty == 'easy' %}{% t 'easy' %}
+                            {% elif quiz.difficulty == 'medium' %}{% t 'medium' %}
+                            {% else %}{% t 'hard' %}{% endif %}
                         </div>
                     </div>
                 </div>
@@ -626,7 +626,7 @@
                 <form method="POST" action="{% url 'quizzes:quiz_start' theme_slug=theme.slug quiz_slug=quiz.slug %}" style="margin: 0;">
                     {% csrf_token %}
                     <button type="submit" class="cta-button">
-                        🚀 Iniciar Quiz
+                        🚀 {% t 'start_quiz' %}
                     </button>
                 </form>
 
@@ -635,22 +635,22 @@
                 <div class="history-section">
                     <div class="history-header">
                         <span class="history-icon">📊</span>
-                        <h2 class="history-title">Suas Tentativas Anteriores</h2>
-                        <p class="history-description">Exibindo suas últimas 10 tentativas</p>
+                        <h2 class="history-title">{% t 'your_previous_attempts' %}</h2>
+                        <p class="history-description">{% t 'showing_last_attempts' %}</p>
                     </div>
 
                     <!-- Stats Summary -->
                     <div class="stats-summary">
                         <div class="stat-item">
-                            <div class="stat-label">Tentativas</div>
+                            <div class="stat-label">{% t 'attempts_stat' %}</div>
                             <div class="stat-value">{{ stats.total_attempts }}</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-label">Melhor Score</div>
+                            <div class="stat-label">{% t 'best_score' %}</div>
                             <div class="stat-value">{{ stats.best_percentage|floatformat:0 }}%</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-label">Média</div>
+                            <div class="stat-label">{% t 'average' %}</div>
                             <div class="stat-value">{{ stats.avg_percentage|floatformat:0 }}%</div>
                         </div>
                     </div>
@@ -679,7 +679,7 @@
                 <div class="history-section">
                     <div class="history-header">
                         <span class="history-icon">📊</span>
-                        <h2 class="history-title">Suas Tentativas Anteriores</h2>
+                        <h2 class="history-title">{% t 'your_previous_attempts' %}</h2>
                     </div>
                 </div>
                 {% endif %}

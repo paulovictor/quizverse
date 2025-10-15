@@ -1,7 +1,7 @@
 {% extends "quizzes/base_quiz.html" %}
 {% load static %}
 
-{% block title %}{{ quiz.title }} - Pergunta {{ current_index }}{% endblock %}
+{% block title %}{{ quiz.title }} - Questão {{ current_index }}{% endblock %}
 
 {% block extra_styles %}
 <style>
@@ -203,22 +203,50 @@
         width: 300px;
         height: 300px;
         border-radius: 16px;
-        background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
-        background-size: 200% 100%;
-        animation: skeleton-loading 1.5s ease-in-out infinite;
+        background: rgba(59, 130, 246, 0.05);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(10px);
     }
 
     body.dark-mode .image-skeleton {
-        background: linear-gradient(90deg, #2d3748 25%, #1a202c 50%, #2d3748 75%);
-        background-size: 200% 100%;
+        background: rgba(59, 130, 246, 0.1);
     }
 
-    @keyframes skeleton-loading {
-        0% {
-            background-position: 200% 0;
+    .image-skeleton::before {
+        content: '?';
+        font-size: 120px;
+        font-weight: 900;
+        color: #3b82f6;
+        opacity: 0.3;
+        animation: pulse-question 1.5s ease-in-out infinite;
+    }
+
+    body.dark-mode .image-skeleton::before {
+        color: #60a5fa;
+        opacity: 0.4;
+    }
+
+    @keyframes pulse-question {
+        0%, 100% {
+            transform: scale(1);
+            opacity: 0.3;
         }
-        100% {
-            background-position: -200% 0;
+        50% {
+            transform: scale(1.1);
+            opacity: 0.6;
+        }
+    }
+
+    body.dark-mode @keyframes pulse-question {
+        0%, 100% {
+            transform: scale(1);
+            opacity: 0.4;
+        }
+        50% {
+            transform: scale(1.1);
+            opacity: 0.7;
         }
     }
 
@@ -443,6 +471,10 @@
             height: 250px;
         }
 
+        .image-skeleton::before {
+            font-size: 100px;
+        }
+
         .answer-option {
             padding: 1.25rem 1.5rem;
             font-size: 1rem;
@@ -497,13 +529,13 @@
     <!-- Question Card -->
     <div class="question-card">
         <div class="question-number">
-            Pergunta {{ current_index }} de {{ total_questions }}
+            Questão {{ current_index }} de {{ total_questions }}
         </div>
 
         {% if question.image %}
         <div class="question-image">
             <div class="image-skeleton" id="imageSkeleton"></div>
-            <img src="{{ question.image }}" alt="Imagem da pergunta" class="loading" id="questionImage">
+            <img src="{{ question.image }}" alt="Imagem da questão" class="loading" id="questionImage">
         </div>
         {% endif %}
 
@@ -528,7 +560,7 @@
                         {% if current_index == total_questions %}
                             ✓ Finalizar Quiz
                         {% else %}
-                            Próxima Pergunta →
+                            Próxima Questão →
                         {% endif %}
                     </span>
                 </button>
@@ -603,7 +635,7 @@
             });
 
             if (response.ok) {
-                // Redirecionar para próxima pergunta
+                // Redirecionar para próxima questão
                 window.location.href = '{% url "quizzes:quiz_play" attempt_id=attempt.id %}';
             } else {
                 alert('Erro ao enviar resposta. Tente novamente.');

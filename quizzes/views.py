@@ -320,7 +320,8 @@ def quiz_detail(request, theme_slug, quiz_slug):
     context = {
         'theme': theme,
         'quiz': quiz,
-        'total_questions': quiz.get_total_questions(),
+        'total_questions': quiz.get_questions_per_attempt(),  # Número de questões por tentativa
+        'total_questions_available': quiz.get_total_questions(),  # Total cadastrado
         'user_attempts': user_attempts,
         'stats': stats,
         'breadcrumb': breadcrumb,
@@ -347,9 +348,9 @@ def quiz_start(request, theme_slug, quiz_slug):
             theme=theme, slug=quiz_slug, active=True
         )
     
-    # Verificar se há perguntas
+    # Verificar se há questões
     if quiz.get_total_questions() == 0:
-        messages.error(request, 'Este quiz ainda não possui perguntas.')
+        messages.error(request, 'Este quiz ainda não possui questões.')
         return redirect('quizzes:quiz_detail', theme_slug=theme_slug, quiz_slug=quiz_slug)
     
     # Criar nova tentativa
@@ -366,10 +367,10 @@ def quiz_start(request, theme_slug, quiz_slug):
         attempt.session_key = request.session.session_key
         attempt.save()
     
-    # Randomizar perguntas
+    # Randomizar questões
     attempt.initialize_question_order()
     
-    # Redirecionar para a primeira pergunta
+    # Redirecionar para a primeira questão
     return redirect('quizzes:quiz_play', attempt_id=attempt.id)
 
 
@@ -382,7 +383,7 @@ def quiz_play(request, attempt_id, attempt=None):
     if attempt.is_completed():
         return redirect('quizzes:quiz_result', attempt_id=attempt.id)
     
-    # Pegar perguntas na ordem randomizada
+    # Pegar questões na ordem randomizada
     questions = attempt.get_ordered_questions()
     
     # Pegar respostas já dadas
@@ -390,7 +391,7 @@ def quiz_play(request, attempt_id, attempt=None):
         str(qid) for qid in attempt.user_answers.values_list('question_id', flat=True)
     )
     
-    # Encontrar próxima pergunta não respondida
+    # Encontrar próxima questão não respondida
     current_question = None
     current_index = 0
     for idx, question in enumerate(questions):
@@ -429,7 +430,7 @@ def quiz_play(request, attempt_id, attempt=None):
 @ratelimit(key='ip', rate='30/m', method='POST', block=True)
 @validate_attempt_access(redirect_on_error=False)
 def quiz_answer(request, attempt_id, attempt=None):
-    """Processa a resposta de uma pergunta"""
+    """Processa a resposta de uma questão"""
     # attempt is now passed by the decorator
     
     # Verificar se já foi completado
@@ -443,7 +444,7 @@ def quiz_answer(request, attempt_id, attempt=None):
     if not question_id or not answer_id:
         return JsonResponse({'error': 'Dados inválidos'}, status=400)
     
-    # Validar pergunta e resposta
+    # Validar questão e resposta
     question = get_object_or_404(Question, id=question_id, quiz=attempt.quiz)
     answer = get_object_or_404(Answer, id=answer_id, question=question)
     
@@ -470,12 +471,12 @@ def quiz_finish(request, attempt_id, attempt=None):
     """Finaliza o quiz e calcula a pontuação"""
     # attempt is now passed by the decorator
     
-    # Verificar se todas as perguntas foram respondidas
+    # Verificar se todas as questões foram respondidas
     questions = attempt.get_ordered_questions()
     answered_count = attempt.user_answers.count()
     
     if answered_count < len(questions):
-        messages.warning(request, f'Você respondeu apenas {answered_count} de {len(questions)} perguntas.')
+        messages.warning(request, f'Você respondeu apenas {answered_count} de {len(questions)} questões.')
     
     # Calcular pontuação se ainda não foi finalizado
     if not attempt.is_completed():
@@ -493,7 +494,7 @@ def quiz_result(request, attempt_id, attempt=None):
     """Exibe o resultado do quiz"""
     # attempt is now passed by the decorator
     
-    # Pegar todas as respostas com perguntas na ordem
+    # Pegar todas as respostas com questões na ordem
     questions = attempt.get_ordered_questions()
     user_answers_dict = {
         str(ua.question.id): ua 

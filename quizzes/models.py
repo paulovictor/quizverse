@@ -109,6 +109,10 @@ class Quiz(models.Model):
     difficulty = models.CharField(max_length=10, choices=DIFFICULTY_CHOICES, default='medium')
     country = models.CharField(max_length=10, choices=COUNTRY_CHOICES, default='pt-BR', help_text='País do quiz')
     time_limit = models.IntegerField(help_text='Tempo limite em segundos (0 = sem limite)', default=0)
+    question_sample_size = models.IntegerField(
+        default=20,
+        help_text='Número de questões aleatórias a serem selecionadas (0 = usar todas)'
+    )
     active = models.BooleanField(default=True)
     order = models.IntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -130,20 +134,28 @@ class Quiz(models.Model):
         })
 
     def get_total_questions(self):
+        """Retorna o total de questões cadastradas no quiz"""
         return self.questions.count()
     
+    def get_questions_per_attempt(self):
+        """Retorna o número de questões que serão apresentadas em cada tentativa"""
+        total = self.get_total_questions()
+        if self.question_sample_size > 0 and total > self.question_sample_size:
+            return self.question_sample_size
+        return total
+    
     def get_estimated_time(self):
-        """Estima o tempo em minutos baseado no número de perguntas"""
-        # Assumindo ~30 segundos por pergunta
-        total_questions = self.get_total_questions()
-        return max(1, round(total_questions * 0.5))  # 0.5 min = 30 segundos
+        """Estima o tempo em minutos baseado no número de questões por tentativa"""
+        # Assumindo ~30 segundos por questão
+        questions_count = self.get_questions_per_attempt()
+        return max(1, round(questions_count * 0.5))  # 0.5 min = 30 segundos
 
 
 class Question(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='questions')
-    text = models.TextField(verbose_name='Pergunta')
-    image = models.URLField(max_length=500, blank=True, null=True, help_text='URL da imagem da pergunta (opcional - use Cloudinary)')
+    text = models.TextField(verbose_name='Questão')
+    image = models.URLField(max_length=500, blank=True, null=True, help_text='URL da imagem da questão (opcional - use Cloudinary)')
     explanation = models.TextField(blank=True, help_text='Explicação da resposta correta')
     order = models.IntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -185,7 +197,7 @@ class QuizAttempt(models.Model):
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='attempts')
     session_key = models.CharField(max_length=40, blank=True, help_text='Para usuários não logados')
     ip_address = models.GenericIPAddressField(null=True, blank=True)
-    question_order = models.JSONField(default=list, help_text='Ordem das perguntas [uuid, uuid, ...]')
+    question_order = models.JSONField(default=list, help_text='Ordem das questões [uuid, uuid, ...]')
     started_at = models.DateTimeField(auto_now_add=True)
     completed_at = models.DateTimeField(null=True, blank=True)
     score = models.IntegerField(default=0)
@@ -209,16 +221,25 @@ class QuizAttempt(models.Model):
         return round((self.score / self.max_score) * 100, 1)
 
     def get_ordered_questions(self):
-        """Retorna as perguntas na ordem salva no attempt"""
+        """Retorna as questões na ordem salva no attempt"""
         question_ids = [uuid.UUID(qid) for qid in self.question_order]
         questions = Question.objects.filter(id__in=question_ids)
         questions_dict = {str(q.id): q for q in questions}
         return [questions_dict[qid] for qid in self.question_order if qid in questions_dict]
 
     def initialize_question_order(self):
-        """Randomiza e salva a ordem das perguntas"""
+        """Randomiza e salva a ordem das questões"""
         questions = list(self.quiz.questions.all())
-        random.shuffle(questions)
+        
+        # Aplicar amostragem se configurado
+        sample_size = self.quiz.question_sample_size
+        if sample_size > 0 and len(questions) > sample_size:
+            # Selecionar aleatoriamente N questões
+            questions = random.sample(questions, sample_size)
+        else:
+            # Usar todas as questões, apenas embaralhar
+            random.shuffle(questions)
+        
         self.question_order = [str(q.id) for q in questions]
         self.max_score = len(questions)
         self.save()
