@@ -35,6 +35,9 @@
     <!-- Theme Color -->
     <meta name="theme-color" content="#3b82f6">
     
+    <!-- Twemoji - Para suporte a emojis em todos os sistemas (especialmente Windows) -->
+    <script src="https://cdn.jsdelivr.net/npm/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+    
     <style>
         :root {
             /* Light Mode Colors */
@@ -201,6 +204,17 @@
 
         .flag-header {
             font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        /* Twemoji images for flags */
+        .flag-header img.emoji,
+        .option-item-header img.emoji {
+            height: 1.5em;
+            width: 1.5em;
+            margin: 0;
+            vertical-align: middle;
+            display: inline-block;
         }
 
         .arrow-header {
@@ -640,7 +654,6 @@
 
         // Country Selector in Header
         document.addEventListener('DOMContentLoaded', function() {
-            console.log('Country selector script loaded');
             const countries = [
                 { code: 'pt-BR', name: 'Brasil', flag: '🇧🇷' },
                 { code: 'en-US', name: 'United States', flag: '🇺🇸' },
@@ -676,7 +689,6 @@
             
             // Check if elements exist
             if (!selectButton || !optionsList || !searchInput || !optionsContainer) {
-                console.log('Country selector elements not found');
                 return;
             }
             
@@ -685,6 +697,10 @@
             const currentCountryData = countries.find(c => c.code === currentCountry);
             if (currentCountryData && selectButton.querySelector('.flag-header')) {
                 selectButton.querySelector('.flag-header').textContent = currentCountryData.flag;
+                // Parse emojis to images (Windows support)
+                if (typeof twemoji !== 'undefined') {
+                    twemoji.parse(selectButton.querySelector('.flag-header'));
+                }
             }
 
             // Render options
@@ -705,6 +721,11 @@
                     </div>
                 `).join('');
 
+                // Parse emojis to images (Windows support)
+                if (typeof twemoji !== 'undefined') {
+                    twemoji.parse(optionsContainer);
+                }
+
                 // Add click events to options
                 document.querySelectorAll('.option-item-header').forEach(item => {
                     item.addEventListener('click', function() {
@@ -713,6 +734,11 @@
                         
                         // Update button
                         selectButton.querySelector('.flag-header').textContent = flag;
+                        
+                        // Parse emojis to images (Windows support)
+                        if (typeof twemoji !== 'undefined') {
+                            twemoji.parse(selectButton.querySelector('.flag-header'));
+                        }
                         
                         // Get CSRF token
                         const csrftoken = getCookie('csrftoken');
@@ -745,10 +771,8 @@
 
             // Toggle dropdown
             selectButton.addEventListener('click', function(e) {
-                console.log('Select button clicked');
                 e.stopPropagation();
                 const isActive = optionsList.classList.contains('active');
-                console.log('isActive:', isActive);
                 
                 if (isActive) {
                     closeDropdown();
@@ -758,7 +782,6 @@
             });
 
             function openDropdown() {
-                console.log('Opening dropdown');
                 selectButton.classList.add('active');
                 optionsList.classList.add('active');
                 searchInput.value = '';
@@ -767,7 +790,6 @@
             }
 
             function closeDropdown() {
-                console.log('Closing dropdown');
                 selectButton.classList.remove('active');
                 optionsList.classList.remove('active');
             }
@@ -806,6 +828,14 @@
                 }
             }
             return cookieValue;
+        }
+
+        // Inicializa Twemoji para converter emojis em imagens (suporte a Windows)
+        if (typeof twemoji !== 'undefined') {
+            twemoji.parse(document.body, {
+                folder: 'svg',
+                ext: '.svg'
+            });
         }
     </script>
     
