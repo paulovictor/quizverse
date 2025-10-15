@@ -195,7 +195,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SESSION_COOKIE_SAMESITE = 'Lax'  # Permite cookies em navegação normal
 SESSION_COOKIE_HTTPONLY = True  # Segurança: não acessível via JavaScript
 SESSION_COOKIE_AGE = 1209600  # 2 semanas
-SESSION_SAVE_EVERY_REQUEST = True  # Garante que a sessão seja salva a cada request
+SESSION_SAVE_EVERY_REQUEST = False  # Salva apenas quando modificada
+SESSION_COOKIE_NAME = 'sessionid'  # Nome padrão do cookie
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Sessão no banco de dados
 
 # Em produção (HTTPS), use cookies seguros
 if not DEBUG:

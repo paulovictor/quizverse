@@ -83,7 +83,16 @@ def set_country(request):
         # Validar se é um país suportado
         supported_countries = [code for code, name in Theme.COUNTRY_CHOICES]
         if country in supported_countries:
+            # Garantir que a sessão seja criada (importante para modo incógnito/primeira visita)
+            if not request.session.session_key:
+                request.session.create()
+            
+            # Salvar o país na sessão
             request.session['country'] = country
+            
+            # Forçar modificação da sessão para garantir que seja salva
+            request.session.modified = True
+            
             return JsonResponse({'success': True, 'country': country})
         
         return JsonResponse({'success': False, 'error': 'País não suportado'}, status=400)
