@@ -199,12 +199,15 @@ SESSION_SAVE_EVERY_REQUEST = False  # Salva apenas quando modificada
 SESSION_COOKIE_NAME = 'sessionid'  # Nome padrão do cookie
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Sessão no banco de dados
 
+# CSRF Configuration
+CSRF_COOKIE_HTTPONLY = False  # CSRF token precisa ser acessível via JavaScript
+CSRF_COOKIE_SAMESITE = 'Lax'  # Permite em navegação normal
+CSRF_USE_SESSIONS = False  # Usa cookie ao invés de sessão (mais confiável)
+
 # Em produção (HTTPS), use cookies seguros
 if not DEBUG:
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
-    CSRF_COOKIE_SAMESITE = 'Lax'
-    CSRF_COOKIE_HTTPONLY = False  # CSRF token precisa ser acessível via JavaScript
 
 # Django Allauth Configuration
 AUTHENTICATION_BACKENDS = [

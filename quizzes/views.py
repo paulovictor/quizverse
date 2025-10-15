@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.utils import timezone
 from django.http import JsonResponse, HttpResponseBadRequest
 from django.views.decorators.http import require_POST
+from django.views.decorators.csrf import ensure_csrf_cookie, csrf_exempt
 from django_ratelimit.decorators import ratelimit
 from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Product
 from .decorators import validate_attempt_access
@@ -74,9 +75,10 @@ def get_country_context(request):
     }
 
 
+@csrf_exempt
 @ratelimit(key='ip', rate='20/h', method='POST', block=True)
 def set_country(request):
-    """View para trocar o país do usuário"""
+    """View para trocar o país do usuário (não requer CSRF pois é operação segura)"""
     if request.method == 'POST':
         country = request.POST.get('country', 'pt-BR')
         
@@ -134,6 +136,7 @@ def get_all_descendant_quizzes(theme, is_superuser=False):
     return quizzes
 
 
+@ensure_csrf_cookie
 def home(request):
     """Página inicial com categorias principais (temas sem parent)"""
     # Obter país do usuário
