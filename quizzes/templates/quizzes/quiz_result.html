@@ -147,6 +147,96 @@
         margin-bottom: 1.5rem;
     }
 
+    /* Login Alert */
+    .login-alert {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 16px;
+        padding: 1.5rem 2rem;
+        margin: 2rem auto 0;
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        animation: slideIn 0.5s ease;
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .login-alert-icon {
+        font-size: 2.5rem;
+        flex-shrink: 0;
+    }
+
+    .login-alert-content {
+        flex: 1;
+        text-align: left;
+    }
+
+    .login-alert-title {
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 700;
+        margin: 0 0 0.5rem 0;
+    }
+
+    .login-alert-message {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0 0 1rem 0;
+    }
+
+    .login-alert-buttons {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+
+    .login-alert-btn {
+        padding: 0.625rem 1.5rem;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .login-btn {
+        background: rgba(255, 255, 255, 0.25);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .login-btn:hover {
+        background: rgba(255, 255, 255, 0.35);
+        transform: translateY(-2px);
+    }
+
+    .signup-btn {
+        background: white;
+        color: #3b82f6;
+        border: 2px solid white;
+    }
+
+    .signup-btn:hover {
+        background: rgba(255, 255, 255, 0.95);
+        transform: translateY(-2px);
+    }
+
     /* Hero Divider */
     .hero-divider {
         width: 80px;
@@ -729,6 +819,24 @@
             font-size: 0.8rem;
         }
 
+        .login-alert {
+            flex-direction: column;
+            text-align: center;
+            padding: 1.25rem 1.5rem;
+        }
+
+        .login-alert-icon {
+            font-size: 2rem;
+        }
+
+        .login-alert-content {
+            text-align: center;
+        }
+
+        .login-alert-buttons {
+            justify-content: center;
+        }
+
         .hero-action-buttons {
             flex-direction: column;
             width: 100%;
@@ -905,6 +1013,25 @@
         <p class="result-subtitle">{{ quiz.title }}</p>
         <div class="score-display">{{ percentage }}%</div>
         <div class="score-label">{{ total_score }} de {{ total_questions }} questões corretas</div>
+        
+        <!-- Login Alert for Non-Authenticated Users -->
+        {% if not user.is_authenticated %}
+        <div class="login-alert">
+            <div class="login-alert-icon">🔒</div>
+            <div class="login-alert-content">
+                <p class="login-alert-title">Faça login para salvar seu resultado!</p>
+                <p class="login-alert-message">Crie uma conta ou faça login para acompanhar seu progresso, ver seu histórico de pontuações e competir no ranking.</p>
+                <div class="login-alert-buttons">
+                    <a href="{% url 'account_login' %}?next={{ request.path }}" class="login-alert-btn login-btn">
+                        Entrar
+                    </a>
+                    <a href="{% url 'account_signup' %}?next={{ request.path }}" class="login-alert-btn signup-btn">
+                        Criar conta
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
         
         <!-- Share Buttons in Hero -->
         <div class="hero-share-buttons">
