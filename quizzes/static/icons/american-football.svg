@@ -1,9 +1,0 @@
-<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <ellipse cx="12" cy="12" rx="9" ry="6" stroke="currentColor" stroke-width="2"/>
-  <path d="M12 6V18" stroke="currentColor" stroke-width="2"/>
-  <path d="M8 12H16" stroke="currentColor" stroke-width="2"/>
-  <path d="M9 9L15 9" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M9 15L15 15" stroke="currentColor" stroke-width="1.5"/>
-  <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
-</svg>
-
