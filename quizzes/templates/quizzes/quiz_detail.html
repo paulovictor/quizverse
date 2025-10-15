@@ -456,6 +456,100 @@
         color: #ef4444;
     }
 
+    /* Incomplete Badge */
+    .badge-incomplete {
+        background: #f1f5f9;
+        color: #475569;
+        padding: 0.375rem 0.875rem;
+        border-radius: 50px;
+        font-size: 0.875rem;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    body.dark-mode .badge-incomplete {
+        background: rgba(100, 116, 139, 0.2);
+        color: #94a3b8;
+    }
+
+    .history-item.incomplete {
+        opacity: 0.85;
+        border-left: 3px solid #94a3b8;
+    }
+
+    body.dark-mode .history-item.incomplete {
+        border-left-color: #475569;
+    }
+
+    .incomplete-text {
+        color: #64748b;
+        font-size: 0.875rem;
+        font-style: italic;
+    }
+
+    body.dark-mode .incomplete-text {
+        color: #94a3b8;
+    }
+
+    .incomplete-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        flex: 1;
+    }
+
+    .progress-text {
+        font-size: 0.875rem;
+        color: #475569;
+        font-weight: 600;
+    }
+
+    body.dark-mode .progress-text {
+        color: #94a3b8;
+    }
+
+    .remaining-text {
+        color: #64748b;
+        font-weight: 400;
+        font-size: 0.8125rem;
+    }
+
+    body.dark-mode .remaining-text {
+        color: #64748b;
+    }
+
+    .btn-continue {
+        padding: 0.375rem 0.875rem;
+        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+        color: white;
+        border-radius: 50px;
+        font-size: 0.875rem;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+        transition: all 0.2s;
+        align-self: flex-start;
+    }
+
+    .btn-continue:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+
+    body.dark-mode .btn-continue {
+        background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    }
+
+    .history-item.incomplete .history-score {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
     /* Empty State */
     .empty-state {
         text-align: center;
@@ -658,17 +752,36 @@
                     <!-- History List -->
                     <div class="history-list">
                         {% for attempt in user_attempts %}
-                        <div class="history-item">
+                        <div class="history-item {% if not attempt.completed_at %}incomplete{% endif %}">
                             <div class="history-date">
-                                📅 {{ attempt.completed_at|date:"d/m/Y H:i" }}
+                                {% if attempt.completed_at %}
+                                    📅 {{ attempt.completed_at|date:"d/m/Y H:i" }}
+                                {% else %}
+                                    🕐 {{ attempt.started_at|date:"d/m/Y H:i" }}
+                                {% endif %}
                             </div>
                             <div class="history-score">
-                                <span class="score-value {% if attempt.percentage >= 80 %}score-perfect{% elif attempt.percentage >= 50 %}score-good{% else %}score-poor{% endif %}">
-                                    {{ attempt.total_score }}/{{ attempt.max_score }}
-                                </span>
-                                <span class="score-badge {% if attempt.percentage >= 80 %}badge-perfect{% elif attempt.percentage >= 50 %}badge-good{% else %}badge-poor{% endif %}">
-                                    {{ attempt.percentage|floatformat:1 }}%
-                                </span>
+                                {% if attempt.completed_at %}
+                                    <span class="score-value {% if attempt.percentage >= 80 %}score-perfect{% elif attempt.percentage >= 50 %}score-good{% else %}score-poor{% endif %}">
+                                        {{ attempt.total_score }}/{{ attempt.max_score }}
+                                    </span>
+                                    <span class="score-badge {% if attempt.percentage >= 80 %}badge-perfect{% elif attempt.percentage >= 50 %}badge-good{% else %}badge-poor{% endif %}">
+                                        {{ attempt.percentage|floatformat:1 }}%
+                                    </span>
+                                {% else %}
+                                    <div class="incomplete-info">
+                                        <span class="badge-incomplete">
+                                            ⏸️ {% t 'not_finished' %}
+                                        </span>
+                                        <span class="progress-text">
+                                            {{ attempt.answered_questions }}/{{ attempt.max_score }} {% t 'answered' %}
+                                            <span class="remaining-text">({{ attempt.remaining_questions }} {% t 'remaining' %})</span>
+                                        </span>
+                                    </div>
+                                    <a href="{% url 'quizzes:quiz_play' attempt_id=attempt.id %}" class="btn-continue">
+                                        ▶️ {% t 'continue' %}
+                                    </a>
+                                {% endif %}
                             </div>
                         </div>
                         {% endfor %}

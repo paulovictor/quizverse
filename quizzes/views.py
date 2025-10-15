@@ -282,11 +282,20 @@ def quiz_detail(request, theme_slug, quiz_slug):
     user_attempts = None
     stats = None
     if request.user.is_authenticated:
+        # Buscar todas as tentativas (completadas e não completadas)
+        # Ordenar: completadas por data desc, depois não completadas por data desc
+        from django.db.models import Case, When, Value, IntegerField
+        
         attempts = QuizAttempt.objects.filter(
             user=request.user,
             quiz=quiz,
-            completed_at__isnull=False
-        ).order_by('-completed_at')[:10]
+        ).annotate(
+            is_completed=Case(
+                When(completed_at__isnull=False, then=Value(1)),
+                default=Value(0),
+                output_field=IntegerField(),
+            )
+        ).order_by('-is_completed', '-started_at')[:10]
         
         # Calcular porcentagem para cada tentativa e converter para lista
         user_attempts = []
@@ -300,13 +309,20 @@ def quiz_detail(request, theme_slug, quiz_slug):
             # Adicionar porcentagem e total_score como atributos temporários
             attempt.percentage = percentage
             attempt.total_score = attempt.score  # Alias para template
+            
+            # Para tentativas não completadas, contar quantas questões já foram respondidas
+            if attempt.completed_at is None:
+                attempt.answered_questions = attempt.user_answers.count()
+                attempt.remaining_questions = attempt.max_score - attempt.answered_questions
+            
             user_attempts.append(attempt)
         
-        # Calcular estatísticas
-        if user_attempts:
-            total_attempts = len(user_attempts)
-            best_percentage = max(attempt.percentage for attempt in user_attempts)
-            avg_percentage = sum(attempt.percentage for attempt in user_attempts) / total_attempts
+        # Calcular estatísticas (apenas tentativas completadas)
+        completed_attempts = [a for a in user_attempts if a.completed_at is not None]
+        if completed_attempts:
+            total_attempts = len(completed_attempts)
+            best_percentage = max(attempt.percentage for attempt in completed_attempts)
+            avg_percentage = sum(attempt.percentage for attempt in completed_attempts) / total_attempts
             
             stats = {
                 'total_attempts': total_attempts,

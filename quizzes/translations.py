@@ -211,6 +211,26 @@ TRANSLATIONS = {
         'nl': 'Gemiddelde', 'sv': 'Genomsnitt', 'no': 'Gjennomsnitt', 'pl': 'Średnia', 'id': 'Rata-rata',
         'ja': '平均', 'ko': '평균', 'th': 'เฉลี่ย', 'vi': 'Trung bình',
     },
+    'not_finished': {
+        'pt-BR': 'Não finalizado', 'en': 'Not finished', 'es': 'No finalizado', 'fr': 'Non terminé', 'de': 'Nicht beendet', 'it': 'Non finito',
+        'nl': 'Niet voltooid', 'sv': 'Inte avslutad', 'no': 'Ikke fullført', 'pl': 'Nie ukończono', 'id': 'Tidak selesai',
+        'ja': '未完了', 'ko': '완료되지 않음', 'th': 'ยังไม่เสร็จ', 'vi': 'Chưa hoàn thành',
+    },
+    'continue': {
+        'pt-BR': 'Continuar', 'en': 'Continue', 'es': 'Continuar', 'fr': 'Continuer', 'de': 'Fortsetzen', 'it': 'Continua',
+        'nl': 'Doorgaan', 'sv': 'Fortsätt', 'no': 'Fortsett', 'pl': 'Kontynuuj', 'id': 'Lanjutkan',
+        'ja': '続ける', 'ko': '계속하기', 'th': 'ดำเนินการต่อ', 'vi': 'Tiếp tục',
+    },
+    'answered': {
+        'pt-BR': 'respondidas', 'en': 'answered', 'es': 'respondidas', 'fr': 'répondues', 'de': 'beantwortet', 'it': 'risposte',
+        'nl': 'beantwoord', 'sv': 'besvarade', 'no': 'besvart', 'pl': 'odpowiedzi', 'id': 'dijawab',
+        'ja': '回答済み', 'ko': '응답완료', 'th': 'ตอบแล้ว', 'vi': 'đã trả lời',
+    },
+    'remaining': {
+        'pt-BR': 'restantes', 'en': 'remaining', 'es': 'restantes', 'fr': 'restantes', 'de': 'verbleibend', 'it': 'rimanenti',
+        'nl': 'resterend', 'sv': 'återstående', 'no': 'gjenstående', 'pl': 'pozostałe', 'id': 'tersisa',
+        'ja': '残り', 'ko': '남은', 'th': 'เหลือ', 'vi': 'còn lại',
+    },
     'your_history': {
         'pt-BR': 'Seu Histórico', 'en': 'Your History', 'es': 'Tu Historial', 'fr': 'Votre Historique', 'de': 'Ihre Geschichte', 'it': 'La tua Storia',
         'nl': 'Jouw Geschiedenis', 'sv': 'Din Historik', 'no': 'Din Historie', 'pl': 'Twoja Historia', 'id': 'Riwayat Anda',
