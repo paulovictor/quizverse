@@ -959,6 +959,7 @@
         transition: color 0.3s ease;
     }
 
+
     /* Responsive */
     @media (max-width: 768px) {
         .category-hero {
@@ -998,6 +999,7 @@
             width: 100%;
             justify-content: center;
         }
+
     }
 </style>
 {% endblock %}
@@ -1124,6 +1126,9 @@
             </section>
             {% endif %}
 
+            <!-- Products Section - Carousel -->
+            {% include 'quizzes/partials/products_carousel.html' %}
+
             <!-- Explore by Category -->
             {% if subcategories %}
             <section class="section">
@@ -1199,6 +1204,7 @@
             });
         }
     });
+
 </script>
 {% endblock %}
 

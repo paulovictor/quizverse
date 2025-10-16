@@ -386,6 +386,11 @@ class Product(models.Model):
     theme = models.ForeignKey(Theme, on_delete=models.CASCADE, related_name='products')
     title = models.CharField(max_length=255, verbose_name='Título do Produto')
     price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name='Preço')
+    discount_percentage = models.IntegerField(
+        default=0, 
+        verbose_name='Porcentagem de Desconto',
+        help_text='Desconto em porcentagem (0-100). Use 0 para sem desconto.'
+    )
     image_url = models.URLField(max_length=500, verbose_name='URL da Imagem (use Cloudinary)')
     product_url = models.URLField(max_length=500, verbose_name='Link do Produto')
     active = models.BooleanField(default=True)
@@ -399,7 +404,8 @@ class Product(models.Model):
         ordering = ['theme', 'order', 'title']
 
     def __str__(self):
-        return f"{self.theme.title} - {self.title} (R$ {self.price})"
+        discount_text = f" (-{self.discount_percentage}%)" if self.discount_percentage > 0 else ""
+        return f"{self.theme.title} - {self.title} (R$ {self.price}){discount_text}"
 
 
 class Badge(models.Model):

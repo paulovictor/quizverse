@@ -794,6 +794,16 @@ TRANSLATIONS = {
         'nl': 'Bekijk product', 'sv': 'Visa produkt', 'no': 'Se produkt', 'pl': 'Zobacz produkt', 'id': 'Lihat produk',
         'ja': '製品を見る', 'ko': '제품 보기', 'th': 'ดูผลิตภัณฑ์', 'vi': 'Xem sản phẩm',
     },
+    'discount': {
+        'pt-BR': 'DESCONTO', 'en': 'DISCOUNT', 'es': 'DESCUENTO', 'fr': 'RÉDUCTION', 'de': 'RABATT', 'it': 'SCONTO',
+        'nl': 'KORTING', 'sv': 'RABATT', 'no': 'RABATT', 'pl': 'ZNIŻKA', 'id': 'DISKON',
+        'ja': '割引', 'ko': '할인', 'th': 'ส่วนลด', 'vi': 'GIẢM GIÁ',
+    },
+    'currency_symbol': {
+        'pt-BR': 'R$', 'en': '$', 'es': '€', 'fr': '€', 'de': '€', 'it': '€',
+        'nl': '€', 'sv': 'kr', 'no': 'kr', 'pl': 'zł', 'id': 'Rp',
+        'ja': '¥', 'ko': '₩', 'th': '฿', 'vi': '₫',
+    },
     'answer_review': {
         'pt-BR': 'Revisão das Respostas', 'en': 'Answer Review', 'es': 'Revisión de Respuestas', 'fr': 'Révision des Réponses', 'de': 'Antwortüberprüfung', 'it': 'Revisione delle Risposte',
         'nl': 'Antwoordbeoordeling', 'sv': 'Svarsgranskning', 'no': 'Svarsoppgjør', 'pl': 'Przegląd odpowiedzi', 'id': 'Tinjauan Jawaban',

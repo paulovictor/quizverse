@@ -204,11 +204,27 @@ class UserAnswerAdmin(admin.ModelAdmin):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['title', 'theme', 'price', 'active', 'order', 'created_at']
+    list_display = ['title', 'theme', 'price', 'discount_percentage', 'active', 'order', 'created_at']
     list_filter = ['active', 'theme', 'created_at']
     search_fields = ['title', 'theme__title']
-    list_editable = ['active', 'order']
+    list_editable = ['active', 'order', 'discount_percentage']
     readonly_fields = ['created_at', 'updated_at']
+    fieldsets = (
+        ('Informações Básicas', {
+            'fields': ('theme', 'title', 'order', 'active')
+        }),
+        ('Preço e Desconto', {
+            'fields': ('price', 'discount_percentage'),
+            'description': 'Configure o preço e a porcentagem de desconto (0-100). A badge só aparece se houver desconto.'
+        }),
+        ('Links', {
+            'fields': ('image_url', 'product_url')
+        }),
+        ('Metadados', {
+            'fields': ('created_at', 'updated_at'),
+            'classes': ('collapse',)
+        }),
+    )
 
 
 class CloneQuizGroupForm(forms.Form):
