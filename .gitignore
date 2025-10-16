@@ -48,3 +48,10 @@ Thumbs.db
 
 # UV
 uv.lock
+
+# Coverage reports
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
