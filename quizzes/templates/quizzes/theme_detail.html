@@ -1059,7 +1059,7 @@
                     {% for quiz_data in quizzes_with_badges %}
                     <div class="quiz-card {% if user.is_superuser and not quiz_data.quiz.active %}inactive{% endif %}">
                         {% if user.is_superuser and not quiz_data.quiz.active %}
-                            <span class="inactive-badge">Inativo</span>
+                            <span class="inactive-badge">{% t 'inactive' %}</span>
                         {% endif %}
 
                         <!-- Difficulty Badge -->
@@ -1136,7 +1136,7 @@
                     {% for item in subcategories %}
                     <a href="{% url 'quizzes:theme_detail' theme_slug=item.theme.slug %}" class="category-card {% if user.is_superuser and not item.theme.active %}inactive{% endif %}" {% if item.theme.primary_color %}style="border-color: {{ item.theme.primary_color }}22;"{% endif %}>
                         {% if user.is_superuser and not item.theme.active %}
-                            <span class="inactive-badge">Inativo</span>
+                            <span class="inactive-badge">{% t 'inactive' %}</span>
                         {% endif %}
                         <div class="category-card-icon" {% if item.theme.card_background_image %}style="background: none; padding: 0; overflow: hidden;"{% elif item.theme.primary_color and item.theme.secondary_color %}style="background: linear-gradient(135deg, {{ item.theme.primary_color }} 0%, {{ item.theme.secondary_color }} 100%); overflow: hidden;"{% else %}style="overflow: hidden;"{% endif %}>
                             {% if item.theme.card_background_image %}
@@ -1149,11 +1149,11 @@
                             <h3 class="category-card-title" {% if item.theme.primary_color %}style="color: {{ item.theme.primary_color }};"{% endif %}>{{ item.theme.title }}</h3>
                             <div class="category-card-meta">
                                 {% if item.quiz_count > 0 %}
-                                    <span>📝 {{ item.quiz_count }} itens</span>
+                                    <span>📝 {{ item.quiz_count }} {% t 'items' %}</span>
                                 {% elif item.subcategories_count > 0 %}
-                                    <span>📂 {{ item.subcategories_count }} itens</span>
+                                    <span>📂 {{ item.subcategories_count }} {% t 'items' %}</span>
                                 {% else %}
-                                    <span>🔜 Em breve</span>
+                                    <span>🔜 {% t 'coming_soon' %}</span>
                                 {% endif %}
                             </div>
                         </div>

@@ -652,6 +652,218 @@ TRANSLATIONS = {
         'nl': 'Home', 'sv': 'Hem', 'no': 'Hjem', 'pl': 'Strona główna', 'id': 'Beranda',
         'ja': 'ホーム', 'ko': '홈', 'th': 'หน้าแรก', 'vi': 'Trang chủ',
     },
+    
+    # Palavras não traduzidas encontradas nos templates
+    'inactive': {
+        'pt-BR': 'Inativo', 'en': 'Inactive', 'es': 'Inactivo', 'fr': 'Inactif', 'de': 'Inaktiv', 'it': 'Inattivo',
+        'nl': 'Inactief', 'sv': 'Inaktiv', 'no': 'Inaktiv', 'pl': 'Nieaktywny', 'id': 'Tidak aktif',
+        'ja': '非アクティブ', 'ko': '비활성', 'th': 'ไม่ใช้งาน', 'vi': 'Không hoạt động',
+    },
+    'quiz_inactive': {
+        'pt-BR': 'Quiz Inativo', 'en': 'Quiz Inactive', 'es': 'Quiz Inactivo', 'fr': 'Quiz Inactif', 'de': 'Quiz Inaktiv', 'it': 'Quiz Inattivo',
+        'nl': 'Quiz Inactief', 'sv': 'Quiz Inaktiv', 'no': 'Quiz Inaktiv', 'pl': 'Quiz Nieaktywny', 'id': 'Kuis Tidak aktif',
+        'ja': 'クイズ非アクティブ', 'ko': '퀴즈 비활성', 'th': 'แบบทดสอบไม่ใช้งาน', 'vi': 'Câu đố không hoạt động',
+    },
+    'items': {
+        'pt-BR': 'itens', 'en': 'items', 'es': 'elementos', 'fr': 'éléments', 'de': 'Elemente', 'it': 'elementi',
+        'nl': 'items', 'sv': 'objekt', 'no': 'elementer', 'pl': 'elementy', 'id': 'item',
+        'ja': 'アイテム', 'ko': '항목', 'th': 'รายการ', 'vi': 'mục',
+    },
+    'coming_soon': {
+        'pt-BR': 'Em breve', 'en': 'Coming soon', 'es': 'Próximamente', 'fr': 'Bientôt', 'de': 'Demnächst', 'it': 'Prossimamente',
+        'nl': 'Binnenkort', 'sv': 'Kommer snart', 'no': 'Kommer snart', 'pl': 'Wkrótce', 'id': 'Segera hadir',
+        'ja': '近日公開', 'ko': '곧 출시', 'th': 'เร็วๆ นี้', 'vi': 'Sắp ra mắt',
+    },
+    'time': {
+        'pt-BR': 'Tempo', 'en': 'Time', 'es': 'Tiempo', 'fr': 'Temps', 'de': 'Zeit', 'it': 'Tempo',
+        'nl': 'Tijd', 'sv': 'Tid', 'no': 'Tid', 'pl': 'Czas', 'id': 'Waktu',
+        'ja': '時間', 'ko': '시간', 'th': 'เวลา', 'vi': 'Thời gian',
+    },
+    'played_on': {
+        'pt-BR': 'Jogado em', 'en': 'Played on', 'es': 'Jugado el', 'fr': 'Joué le', 'de': 'Gespielt am', 'it': 'Giocato il',
+        'nl': 'Gespeeld op', 'sv': 'Spelade den', 'no': 'Spilt den', 'pl': 'Grane', 'id': 'Dimainkan pada',
+        'ja': 'プレイ日', 'ko': '플레이 날짜', 'th': 'เล่นเมื่อ', 'vi': 'Chơi vào',
+    },
+    'at': {
+        'pt-BR': 'às', 'en': 'at', 'es': 'a las', 'fr': 'à', 'de': 'um', 'it': 'alle',
+        'nl': 'om', 'sv': 'kl', 'no': 'kl', 'pl': 'o', 'id': 'pada',
+        'ja': 'に', 'ko': '에', 'th': 'ที่', 'vi': 'lúc',
+    },
+    'hits': {
+        'pt-BR': 'ACERTOS', 'en': 'HITS', 'es': 'ACIERTOS', 'fr': 'TOUCHÉS', 'de': 'TREFFER', 'it': 'COLPI',
+        'nl': 'RAKERS', 'sv': 'TRÄFFAR', 'no': 'TREFF', 'pl': 'TRAFIONY', 'id': 'HIT',
+        'ja': 'ヒット', 'ko': '히트', 'th': 'ฮิต', 'vi': 'Lượt truy cập',
+    },
+    'rate': {
+        'pt-BR': 'TAXA', 'en': 'RATE', 'es': 'TASA', 'fr': 'TAUX', 'de': 'RATE', 'it': 'TASSO',
+        'nl': 'TARIEVEN', 'sv': 'TAXA', 'no': 'RATE', 'pl': 'STAWKA', 'id': 'TINGKAT',
+        'ja': 'レート', 'ko': '비율', 'th': 'อัตรา', 'vi': 'Tỷ lệ',
+    },
+    'try_again': {
+        'pt-BR': 'Tentar novamente', 'en': 'Try again', 'es': 'Intentar de nuevo', 'fr': 'Réessayer', 'de': 'Erneut versuchen', 'it': 'Riprova',
+        'nl': 'Probeer opnieuw', 'sv': 'Försök igen', 'no': 'Prøv igjen', 'pl': 'Spróbuj ponownie', 'id': 'Coba lagi',
+        'ja': 'もう一度試す', 'ko': '다시 시도', 'th': 'ลองอีกครั้ง', 'vi': 'Thử lại',
+    },
+    'explore_quizzes': {
+        'pt-BR': 'Explorar Quizzes', 'en': 'Explore Quizzes', 'es': 'Explorar Quizzes', 'fr': 'Explorer les Quiz', 'de': 'Quiz erkunden', 'it': 'Esplora Quiz',
+        'nl': 'Verken Quizzen', 'sv': 'Utforska Frågesporter', 'no': 'Utforsk Quizer', 'pl': 'Odkryj Quizy', 'id': 'Jelajahi Kuis',
+        'ja': 'クイズを探索', 'ko': '퀴즈 탐색', 'th': 'สำรวจแบบทดสอบ', 'vi': 'Khám phá Câu đố',
+    },
+    'no_quiz_completed_yet': {
+        'pt-BR': 'Nenhum quiz realizado ainda', 'en': 'No quiz completed yet', 'es': 'Aún no se ha completado ningún quiz', 'fr': 'Aucun quiz terminé pour le moment', 'de': 'Noch kein Quiz abgeschlossen', 'it': 'Nessun quiz completato ancora',
+        'nl': 'Nog geen quiz voltooid', 'sv': 'Ingen frågesport slutförd än', 'no': 'Ingen quiz fullført ennå', 'pl': 'Brak ukończonych quizów', 'id': 'Belum ada kuis yang diselesaikan',
+        'ja': 'まだ完了したクイズはありません', 'ko': '아직 완료된 퀴즈가 없습니다', 'th': 'ยังไม่มีแบบทดสอบที่เสร็จสิ้น', 'vi': 'Chưa có câu đố nào hoàn thành',
+    },
+    'start_learning_journey': {
+        'pt-BR': 'Comece sua jornada de aprendizado agora!', 'en': 'Start your learning journey now!', 'es': '¡Comienza tu viaje de aprendizaje ahora!', 'fr': 'Commencez votre voyage d\'apprentissage maintenant!', 'de': 'Beginnen Sie jetzt Ihre Lernreise!', 'it': 'Inizia il tuo viaggio di apprendimento ora!',
+        'nl': 'Begin nu je leerreis!', 'sv': 'Börja din lärresa nu!', 'no': 'Start din læringsreise nå!', 'pl': 'Rozpocznij swoją podróż edukacyjną teraz!', 'id': 'Mulai perjalanan belajar Anda sekarang!',
+        'ja': '今すぐ学習の旅を始めましょう！', 'ko': '지금 학습 여정을 시작하세요!', 'th': 'เริ่มต้นการเดินทางเรียนรู้ของคุณตอนนี้!', 'vi': 'Bắt đầu hành trình học tập của bạn ngay bây giờ!',
+    },
+    'save_progress': {
+        'pt-BR': 'Salvar Progresso', 'en': 'Save Progress', 'es': 'Guardar Progreso', 'fr': 'Sauvegarder le Progrès', 'de': 'Fortschritt speichern', 'it': 'Salva Progresso',
+        'nl': 'Voortgang opslaan', 'sv': 'Spara framsteg', 'no': 'Lagre fremgang', 'pl': 'Zapisz postęp', 'id': 'Simpan kemajuan',
+        'ja': '進捗を保存', 'ko': '진행률 저장', 'th': 'บันทึกความคืบหน้า', 'vi': 'Lưu tiến độ',
+    },
+    'create_account_login_description': {
+        'pt-BR': 'Crie uma conta ou faça login para acompanhar seu progresso, ver seu histórico de pontuações e competir no ranking.', 'en': 'Create an account or log in to track your progress, view your score history and compete in the ranking.', 'es': 'Crea una cuenta o inicia sesión para rastrear tu progreso, ver tu historial de puntuaciones y competir en el ranking.', 'fr': 'Créez un compte ou connectez-vous pour suivre vos progrès, voir votre historique de scores et participer au classement.', 'de': 'Erstellen Sie ein Konto oder melden Sie sich an, um Ihren Fortschritt zu verfolgen, Ihre Punktverlauf anzuzeigen und im Ranking zu konkurrieren.', 'it': 'Crea un account o accedi per tracciare i tuoi progressi, visualizzare la cronologia dei punteggi e competere nella classifica.',
+        'nl': 'Maak een account aan of log in om je voortgang bij te houden, je scoregeschiedenis te bekijken en mee te doen aan de ranking.', 'sv': 'Skapa ett konto eller logga in för att spåra din framsteg, visa din poänghistorik och tävla i ranking.', 'no': 'Opprett en konto eller logg inn for å spore fremgangen din, se poenghistorikken din og konkurrere i ranking.', 'pl': 'Utwórz konto lub zaloguj się, aby śledzić swoje postępy, przeglądać historię wyników i konkurować w rankingu.', 'id': 'Buat akun atau masuk untuk melacak kemajuan Anda, melihat riwayat skor Anda dan bersaing di peringkat.',
+        'ja': 'アカウントを作成するかログインして、進捗を追跡し、スコア履歴を表示し、ランキングで競争してください。', 'ko': '계정을 만들거나 로그인하여 진행 상황을 추적하고, 점수 기록을 보고, 순위에서 경쟁하세요.', 'th': 'สร้างบัญชีหรือเข้าสู่ระบบเพื่อติดตามความคืบหน้าของคุณ ดูประวัติคะแนนของคุณ และแข่งขันในอันดับ', 'vi': 'Tạo tài khoản hoặc đăng nhập để theo dõi tiến độ của bạn, xem lịch sử điểm số và cạnh tranh trong bảng xếp hạng.',
+    },
+    'save_results_achievements': {
+        'pt-BR': 'Salvar seus resultados e conquistas', 'en': 'Save your results and achievements', 'es': 'Guardar tus resultados y logros', 'fr': 'Sauvegarder vos résultats et réalisations', 'de': 'Speichern Sie Ihre Ergebnisse und Erfolge', 'it': 'Salva i tuoi risultati e successi',
+        'nl': 'Bewaar je resultaten en prestaties', 'sv': 'Spara dina resultat och framgångar', 'no': 'Lagre dine resultater og prestasjoner', 'pl': 'Zapisz swoje wyniki i osiągnięcia', 'id': 'Simpan hasil dan pencapaian Anda',
+        'ja': '結果と成果を保存', 'ko': '결과와 성과 저장', 'th': 'บันทึกผลลัพธ์และความสำเร็จของคุณ', 'vi': 'Lưu kết quả và thành tích của bạn',
+    },
+    'compete_global_ranking': {
+        'pt-BR': 'Competir no ranking global', 'en': 'Compete in global ranking', 'es': 'Competir en el ranking global', 'fr': 'Participer au classement mondial', 'de': 'Im globalen Ranking konkurrieren', 'it': 'Competere nella classifica globale',
+        'nl': 'Concurreren in wereldwijde ranking', 'sv': 'Tävla i global ranking', 'no': 'Konkurrere i global ranking', 'pl': 'Konkurować w globalnym rankingu', 'id': 'Bersaing di peringkat global',
+        'ja': 'グローバルランキングで競争', 'ko': '글로벌 순위에서 경쟁', 'th': 'แข่งขันในอันดับโลก', 'vi': 'Cạnh tranh trong bảng xếp hạng toàn cầu',
+    },
+    'earn_badges_rewards': {
+        'pt-BR': 'Ganhar badges e recompensas', 'en': 'Earn badges and rewards', 'es': 'Ganar insignias y recompensas', 'fr': 'Gagner des badges et des récompenses', 'de': 'Abzeichen und Belohnungen verdienen', 'it': 'Guadagnare badge e ricompense',
+        'nl': 'Badges en beloningen verdienen', 'sv': 'Tjäna märken och belöningar', 'no': 'Tjene merker og belønninger', 'pl': 'Zarabiaj odznaki i nagrody', 'id': 'Dapatkan lencana dan hadiah',
+        'ja': 'バッジと報酬を獲得', 'ko': '배지와 보상 획득', 'th': 'รับเหรียญและรางวัล', 'vi': 'Kiếm huy hiệu và phần thưởng',
+    },
+    'track_evolution': {
+        'pt-BR': 'Acompanhar sua evolução', 'en': 'Track your evolution', 'es': 'Rastrear tu evolución', 'fr': 'Suivre votre évolution', 'de': 'Verfolgen Sie Ihre Entwicklung', 'it': 'Traccia la tua evoluzione',
+        'nl': 'Volg je evolutie', 'sv': 'Spåra din utveckling', 'no': 'Spor din evolusjon', 'pl': 'Śledź swoją ewolucję', 'id': 'Lacak evolusi Anda',
+        'ja': '進化を追跡', 'ko': '진화 추적', 'th': 'ติดตามการพัฒนาของคุณ', 'vi': 'Theo dõi sự tiến hóa của bạn',
+    },
+    'create_account': {
+        'pt-BR': 'Criar conta', 'en': 'Create account', 'es': 'Crear cuenta', 'fr': 'Créer un compte', 'de': 'Konto erstellen', 'it': 'Crea account',
+        'nl': 'Account aanmaken', 'sv': 'Skapa konto', 'no': 'Opprett konto', 'pl': 'Utwórz konto', 'id': 'Buat akun',
+        'ja': 'アカウント作成', 'ko': '계정 만들기', 'th': 'สร้างบัญชี', 'vi': 'Tạo tài khoản',
+    },
+    'enter': {
+        'pt-BR': 'Entrar', 'en': 'Enter', 'es': 'Entrar', 'fr': 'Entrer', 'de': 'Eingeben', 'it': 'Entra',
+        'nl': 'Invoeren', 'sv': 'Ange', 'no': 'Skriv inn', 'pl': 'Wprowadź', 'id': 'Masuk',
+        'ja': '入力', 'ko': '입력', 'th': 'เข้า', 'vi': 'Nhập',
+    },
+    'share': {
+        'pt-BR': 'Compartilhar', 'en': 'Share', 'es': 'Compartir', 'fr': 'Partager', 'de': 'Teilen', 'it': 'Condividi',
+        'nl': 'Delen', 'sv': 'Dela', 'no': 'Del', 'pl': 'Udostępnij', 'id': 'Bagikan',
+        'ja': '共有', 'ko': '공유', 'th': 'แชร์', 'vi': 'Chia sẻ',
+    },
+    'tweet': {
+        'pt-BR': 'Tweetar', 'en': 'Tweet', 'es': 'Tuitear', 'fr': 'Tweeter', 'de': 'Twittern', 'it': 'Twittare',
+        'nl': 'Tweeten', 'sv': 'Tweeta', 'no': 'Tweet', 'pl': 'Tweetnij', 'id': 'Tweet',
+        'ja': 'ツイート', 'ko': '트윗', 'th': 'ทวีต', 'vi': 'Tweet',
+    },
+    'position': {
+        'pt-BR': 'Posição', 'en': 'Position', 'es': 'Posición', 'fr': 'Position', 'de': 'Position', 'it': 'Posizione',
+        'nl': 'Positie', 'sv': 'Position', 'no': 'Posisjon', 'pl': 'Pozycja', 'id': 'Posisi',
+        'ja': '位置', 'ko': '위치', 'th': 'ตำแหน่ง', 'vi': 'Vị trí',
+    },
+    'beaten': {
+        'pt-BR': 'Superados', 'en': 'Beaten', 'es': 'Superados', 'fr': 'Battus', 'de': 'Geschlagen', 'it': 'Battuti',
+        'nl': 'Verslagen', 'sv': 'Slagna', 'no': 'Slått', 'pl': 'Pokonani', 'id': 'Dikalahkan',
+        'ja': '打ち負かした', 'ko': '이긴', 'th': 'เอาชนะ', 'vi': 'Đánh bại',
+    },
+    'you_may_also_like': {
+        'pt-BR': 'Você também pode gostar', 'en': 'You may also like', 'es': 'También te puede gustar', 'fr': 'Vous pourriez aussi aimer', 'de': 'Das könnte Ihnen auch gefallen', 'it': 'Potrebbe piacerti anche',
+        'nl': 'Je vindt dit misschien ook leuk', 'sv': 'Du kanske också gillar', 'no': 'Du liker kanskje også', 'pl': 'Może Ci się też spodobać', 'id': 'Anda mungkin juga menyukai',
+        'ja': 'こちらもおすすめ', 'ko': '이것도 좋아할 수 있습니다', 'th': 'คุณอาจชอบด้วย', 'vi': 'Bạn cũng có thể thích',
+    },
+    'products_selected_for_you': {
+        'pt-BR': 'Produtos selecionados especialmente para você', 'en': 'Products selected especially for you', 'es': 'Productos seleccionados especialmente para ti', 'fr': 'Produits sélectionnés spécialement pour vous', 'de': 'Speziell für Sie ausgewählte Produkte', 'it': 'Prodotti selezionati appositamente per te',
+        'nl': 'Producten speciaal voor jou geselecteerd', 'sv': 'Produkter valda speciellt för dig', 'no': 'Produkter valgt spesielt for deg', 'pl': 'Produkty wybrane specjalnie dla Ciebie', 'id': 'Produk yang dipilih khusus untuk Anda',
+        'ja': 'あなたのために特別に選ばれた製品', 'ko': '당신을 위해 특별히 선택된 제품', 'th': 'ผลิตภัณฑ์ที่เลือกมาเป็นพิเศษสำหรับคุณ', 'vi': 'Sản phẩm được chọn đặc biệt cho bạn',
+    },
+    'view_product': {
+        'pt-BR': 'Ver produto', 'en': 'View product', 'es': 'Ver producto', 'fr': 'Voir le produit', 'de': 'Produkt anzeigen', 'it': 'Visualizza prodotto',
+        'nl': 'Bekijk product', 'sv': 'Visa produkt', 'no': 'Se produkt', 'pl': 'Zobacz produkt', 'id': 'Lihat produk',
+        'ja': '製品を見る', 'ko': '제품 보기', 'th': 'ดูผลิตภัณฑ์', 'vi': 'Xem sản phẩm',
+    },
+    'answer_review': {
+        'pt-BR': 'Revisão das Respostas', 'en': 'Answer Review', 'es': 'Revisión de Respuestas', 'fr': 'Révision des Réponses', 'de': 'Antwortüberprüfung', 'it': 'Revisione delle Risposte',
+        'nl': 'Antwoordbeoordeling', 'sv': 'Svarsgranskning', 'no': 'Svarsoppgjør', 'pl': 'Przegląd odpowiedzi', 'id': 'Tinjauan Jawaban',
+        'ja': '回答の確認', 'ko': '답변 검토', 'th': 'การตรวจสอบคำตอบ', 'vi': 'Xem lại câu trả lời',
+    },
+    'see_questions_check_answers': {
+        'pt-BR': 'Veja as questões e confira suas respostas', 'en': 'See the questions and check your answers', 'es': 'Ve las preguntas y revisa tus respuestas', 'fr': 'Voir les questions et vérifier vos réponses', 'de': 'Sehen Sie die Fragen und überprüfen Sie Ihre Antworten', 'it': 'Vedi le domande e controlla le tue risposte',
+        'nl': 'Bekijk de vragen en controleer je antwoorden', 'sv': 'Se frågorna och kontrollera dina svar', 'no': 'Se spørsmålene og sjekk svarene dine', 'pl': 'Zobacz pytania i sprawdź swoje odpowiedzi', 'id': 'Lihat pertanyaan dan periksa jawaban Anda',
+        'ja': '質問を見て、回答を確認してください', 'ko': '질문을 보고 답변을 확인하세요', 'th': 'ดูคำถามและตรวจสอบคำตอบของคุณ', 'vi': 'Xem các câu hỏi và kiểm tra câu trả lời của bạn',
+    },
+    'correct': {
+        'pt-BR': 'Correto', 'en': 'Correct', 'es': 'Correcto', 'fr': 'Correct', 'de': 'Richtig', 'it': 'Corretto',
+        'nl': 'Correct', 'sv': 'Rätt', 'no': 'Riktig', 'pl': 'Poprawny', 'id': 'Benar',
+        'ja': '正解', 'ko': '정답', 'th': 'ถูกต้อง', 'vi': 'Đúng',
+    },
+    'incorrect': {
+        'pt-BR': 'Incorreto', 'en': 'Incorrect', 'es': 'Incorrecto', 'fr': 'Incorrect', 'de': 'Falsch', 'it': 'Sbagliato',
+        'nl': 'Onjuist', 'sv': 'Fel', 'no': 'Feil', 'pl': 'Niepoprawny', 'id': 'Salah',
+        'ja': '不正解', 'ko': '틀림', 'th': 'ไม่ถูกต้อง', 'vi': 'Sai',
+    },
+    'new_achievement_unlocked': {
+        'pt-BR': 'Nova Conquista Desbloqueada!', 'en': 'New Achievement Unlocked!', 'es': '¡Nuevo Logro Desbloqueado!', 'fr': 'Nouvelle Réalisation Débloquée!', 'de': 'Neuer Erfolg freigeschaltet!', 'it': 'Nuovo Successo Sbloccato!',
+        'nl': 'Nieuwe Prestatie Ontgrendeld!', 'sv': 'Ny Framgång Upplåst!', 'no': 'Ny Prestasjon Låst Opp!', 'pl': 'Nowe Osiągnięcie Odblokowane!', 'id': 'Pencapaian Baru Terbuka!',
+        'ja': '新しい成果が解除されました！', 'ko': '새로운 성과가 잠금 해제되었습니다!', 'th': 'ความสำเร็จใหม่ปลดล็อกแล้ว!', 'vi': 'Thành tích mới đã được mở khóa!',
+    },
+    'new_achievements': {
+        'pt-BR': 'Novas Conquistas!', 'en': 'New Achievements!', 'es': '¡Nuevos Logros!', 'fr': 'Nouvelles Réalisations!', 'de': 'Neue Erfolge!', 'it': 'Nuovi Successi!',
+        'nl': 'Nieuwe Prestaties!', 'sv': 'Nya Framgångar!', 'no': 'Nye Prestasjoner!', 'pl': 'Nowe Osiągnięcia!', 'id': 'Pencapaian Baru!',
+        'ja': '新しい成果！', 'ko': '새로운 성과!', 'th': 'ความสำเร็จใหม่!', 'vi': 'Thành tích mới!',
+    },
+    'congratulations_earned': {
+        'pt-BR': 'Parabéns! Você conquistou', 'en': 'Congratulations! You earned', 'es': '¡Felicidades! Ganaste', 'fr': 'Félicitations! Vous avez gagné', 'de': 'Herzlichen Glückwunsch! Sie haben verdient', 'it': 'Congratulazioni! Hai guadagnato',
+        'nl': 'Gefeliciteerd! Je hebt verdiend', 'sv': 'Grattis! Du tjänade', 'no': 'Gratulerer! Du tjente', 'pl': 'Gratulacje! Zarobiłeś', 'id': 'Selamat! Anda mendapat',
+        'ja': 'おめでとうございます！獲得しました', 'ko': '축하합니다! 획득했습니다', 'th': 'ยินดีด้วย! คุณได้รับ', 'vi': 'Chúc mừng! Bạn đã kiếm được',
+    },
+    'new_badge': {
+        'pt-BR': 'uma nova badge', 'en': 'a new badge', 'es': 'una nueva insignia', 'fr': 'un nouveau badge', 'de': 'ein neues Abzeichen', 'it': 'un nuovo badge',
+        'nl': 'een nieuwe badge', 'sv': 'ett nytt märke', 'no': 'et nytt merke', 'pl': 'nową odznakę', 'id': 'lencana baru',
+        'ja': '新しいバッジ', 'ko': '새로운 배지', 'th': 'เหรียญใหม่', 'vi': 'huy hiệu mới',
+    },
+    'new_badges': {
+        'pt-BR': 'novas badges', 'en': 'new badges', 'es': 'nuevas insignias', 'fr': 'nouveaux badges', 'de': 'neue Abzeichen', 'it': 'nuovi badge',
+        'nl': 'nieuwe badges', 'sv': 'nya märken', 'no': 'nye merker', 'pl': 'nowe odznaki', 'id': 'lencana baru',
+        'ja': '新しいバッジ', 'ko': '새로운 배지들', 'th': 'เหรียญใหม่', 'vi': 'huy hiệu mới',
+    },
+    'continue': {
+        'pt-BR': 'Continuar', 'en': 'Continue', 'es': 'Continuar', 'fr': 'Continuer', 'de': 'Fortsetzen', 'it': 'Continua',
+        'nl': 'Doorgaan', 'sv': 'Fortsätt', 'no': 'Fortsett', 'pl': 'Kontynuuj', 'id': 'Lanjutkan',
+        'ja': '続ける', 'ko': '계속', 'th': 'ดำเนินการต่อ', 'vi': 'Tiếp tục',
+    },
+    'new': {
+        'pt-BR': 'NOVO', 'en': 'NEW', 'es': 'NUEVO', 'fr': 'NOUVEAU', 'de': 'NEU', 'it': 'NUOVO',
+        'nl': 'NIEUW', 'sv': 'NY', 'no': 'NY', 'pl': 'NOWY', 'id': 'BARU',
+        'ja': '新着', 'ko': '새로운', 'th': 'ใหม่', 'vi': 'MỚI',
+    },
+    'share_achievement': {
+        'pt-BR': 'Compartilhe sua conquista!', 'en': 'Share your achievement!', 'es': '¡Comparte tu logro!', 'fr': 'Partagez votre réalisation!', 'de': 'Teilen Sie Ihren Erfolg!', 'it': 'Condividi il tuo successo!',
+        'nl': 'Deel je prestatie!', 'sv': 'Dela din framgång!', 'no': 'Del din prestasjon!', 'pl': 'Udostępnij swoje osiągnięcie!', 'id': 'Bagikan pencapaian Anda!',
+        'ja': '成果を共有しましょう！', 'ko': '성과를 공유하세요!', 'th': 'แชร์ความสำเร็จของคุณ!', 'vi': 'Chia sẻ thành tích của bạn!',
+    },
+    'view_all_achievements': {
+        'pt-BR': 'Ver todas as suas conquistas', 'en': 'View all your achievements', 'es': 'Ver todos tus logros', 'fr': 'Voir toutes vos réalisations', 'de': 'Alle Ihre Erfolge anzeigen', 'it': 'Visualizza tutti i tuoi successi',
+        'nl': 'Bekijk al je prestaties', 'sv': 'Visa alla dina framgångar', 'no': 'Se alle prestasjonene dine', 'pl': 'Zobacz wszystkie swoje osiągnięcia', 'id': 'Lihat semua pencapaian Anda',
+        'ja': 'すべての成果を表示', 'ko': '모든 성과 보기', 'th': 'ดูความสำเร็จทั้งหมดของคุณ', 'vi': 'Xem tất cả thành tích của bạn',
+    },
+    'go_to_profile': {
+        'pt-BR': 'Ir para o Perfil', 'en': 'Go to Profile', 'es': 'Ir al Perfil', 'fr': 'Aller au Profil', 'de': 'Zum Profil gehen', 'it': 'Vai al Profilo',
+        'nl': 'Ga naar Profiel', 'sv': 'Gå till Profil', 'no': 'Gå til Profil', 'pl': 'Przejdź do Profilu', 'id': 'Pergi ke Profil',
+        'ja': 'プロフィールに移動', 'ko': '프로필로 이동', 'th': 'ไปที่โปรไฟล์', 'vi': 'Đi đến Hồ sơ',
+    },
 }
 
 

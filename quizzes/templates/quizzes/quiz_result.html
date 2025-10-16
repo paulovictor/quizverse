@@ -1788,13 +1788,13 @@
 
         <h2 class="badge-celebration-title">
             {% if new_badges|length == 1 %}
-                🎉 Nova Conquista Desbloqueada!
+                🎉 {% t 'new_achievement_unlocked' %}
             {% else %}
-                🎉 {{ new_badges|length }} Novas Conquistas!
+                🎉 {{ new_badges|length }} {% t 'new_achievements' %}
             {% endif %}
         </h2>
         <p class="badge-celebration-subtitle">
-            Parabéns! Você conquistou {% if new_badges|length == 1 %}uma nova badge{% else %}{{ new_badges|length }} novas badges{% endif %}!
+            {% t 'congratulations_earned' %} {% if new_badges|length == 1 %}{% t 'new_badge' %}{% else %}{{ new_badges|length }} {% t 'new_badges' %}{% endif %}!
         </p>
 
         <div class="badge-celebration-badges">
@@ -1811,7 +1811,7 @@
         </div>
 
         <button class="badge-celebration-button" onclick="closeBadgeCelebration()">
-            ✨ Continuar
+            ✨ {% t 'continue' %}
         </button>
     </div>
 </div>
@@ -1832,21 +1832,21 @@
             <div class="save-progress-content">
                 <h3 class="save-progress-title">
                     <span class="save-progress-icon">🔒</span>
-                    Salvar Progresso
+                    {% t 'save_progress' %}
                 </h3>
-                <p class="save-progress-description">Crie uma conta ou faça login para acompanhar seu progresso, ver seu histórico de pontuações e competir no ranking.</p>
+                <p class="save-progress-description">{% t 'create_account_login_description' %}</p>
                 <div class="save-progress-features">
-                    <div class="feature-item">✓ Salvar seus resultados e conquistas</div>
-                    <div class="feature-item">✓ Competir no ranking global</div>
-                    <div class="feature-item">✓ Ganhar badges e recompensas</div>
-                    <div class="feature-item">✓ Acompanhar sua evolução</div>
+                    <div class="feature-item">✓ {% t 'save_results_achievements' %}</div>
+                    <div class="feature-item">✓ {% t 'compete_global_ranking' %}</div>
+                    <div class="feature-item">✓ {% t 'earn_badges_rewards' %}</div>
+                    <div class="feature-item">✓ {% t 'track_evolution' %}</div>
                 </div>
                 <div class="save-progress-buttons">
                     <a href="{% url 'account_signup' %}?next={{ request.path }}" class="save-btn save-btn-primary">
-                        Criar conta
+                        {% t 'create_account' %}
                     </a>
                     <a href="{% url 'account_login' %}?next={{ request.path }}" class="save-btn save-btn-secondary">
-                        Entrar
+                        {% t 'enter' %}
                     </a>
                 </div>
             </div>
@@ -1859,13 +1859,13 @@
                 <svg class="hero-share-icon" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                 </svg>
-                <span>Compartilhar</span>
+                <span>{% t 'share' %}</span>
             </a>
             <a href="#" class="hero-share-btn twitter" id="heroShareTwitter" target="_blank">
                 <svg class="hero-share-icon" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                 </svg>
-                <span>Tweetar</span>
+                <span>{% t 'tweet' %}</span>
             </a>
         </div>
 
@@ -1882,7 +1882,7 @@
                     {% else %}🏆{% endif %}
                 </div>
                 <div class="hero-stat-content">
-                    <div class="hero-stat-label">Posição</div>
+                    <div class="hero-stat-label">{% t 'position' %}</div>
                     <div class="hero-stat-value">{{ user_rank }}º</div>
                 </div>
             </div>
@@ -1891,7 +1891,7 @@
             <div class="hero-stat">
                 <div class="hero-stat-icon">📈</div>
                 <div class="hero-stat-content">
-                    <div class="hero-stat-label">Superados</div>
+                    <div class="hero-stat-label">{% t 'beaten' %}</div>
                     <div class="hero-stat-value">{{ users_beaten_percentage }}%</div>
                 </div>
             </div>
@@ -1925,17 +1925,17 @@
         <div class="badges-earned-content">
             <div class="badges-earned-header">
                 <h2 class="badges-earned-title">
-                    🏆 {% if new_badges|length == 1 %}Nova Conquista!{% else %}Novas Conquistas!{% endif %}
+                    🏆 {% if new_badges|length == 1 %}{% t 'new_achievement_unlocked' %}{% else %}{% t 'new_achievements' %}{% endif %}
                 </h2>
                 <p class="badges-earned-subtitle">
-                    Você desbloqueou {% if new_badges|length == 1 %}uma badge especial{% else %}{{ new_badges|length }} badges especiais{% endif %} neste quiz!
+                    {% t 'congratulations_earned' %} {% if new_badges|length == 1 %}{% t 'new_badge' %}{% else %}{{ new_badges|length }} {% t 'new_badges' %}{% endif %} {% t 'in' %} {% t 'this_quiz' %}!
                 </p>
             </div>
 
             <div class="badges-earned-grid">
                 {% for user_badge in new_badges %}
                 <div class="badge-earned-card">
-                    <span class="badge-earned-new">✨ NOVO</span>
+                    <span class="badge-earned-new">✨ {% t 'new' %}</span>
                     <div class="badge-earned-image-container">
                         <img src="{{ user_badge.badge.image }}" alt="{{ user_badge.badge.title }}" class="badge-earned-image">
                         <div class="badge-earned-checkmark">✓</div>
@@ -1946,7 +1946,7 @@
             </div>
 
             <div class="badges-earned-share">
-                <p class="badges-earned-share-title">🎉 Compartilhe sua conquista!</p>
+                <p class="badges-earned-share-title">🎉 {% t 'share_achievement' %}</p>
                 <div class="badges-earned-share-buttons">
                     <button class="badge-share-btn" onclick="shareBadgeWhatsApp()">
                         <svg class="badge-share-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -1964,13 +1964,13 @@
 
                 <!-- Profile Button -->
                 <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid rgba(255, 255, 255, 0.2);">
-                    <p class="badges-earned-share-title" style="margin-bottom: 1rem;">✨ Ver todas as suas conquistas</p>
+                    <p class="badges-earned-share-title" style="margin-bottom: 1rem;">✨ {% t 'view_all_achievements' %}</p>
                     <a href="{% url 'quizzes:user_profile' %}" class="badge-profile-btn">
                         <svg class="badge-share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
                         </svg>
-                        <span>Ir para o Perfil</span>
+                        <span>{% t 'go_to_profile' %}</span>
                         <svg class="badge-profile-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="9 18 15 12 9 6"></polyline>
                         </svg>
@@ -1986,8 +1986,8 @@
     <div class="carousel-section">
         <div class="carousel-container">
             <div class="carousel-header">
-                <h1>Você também pode gostar</h1>
-                <p>Produtos selecionados especialmente para você</p>
+                <h1>{% t 'you_may_also_like' %}</h1>
+                <p>{% t 'products_selected_for_you' %}</p>
             </div>
 
             <div class="carousel-wrapper">
@@ -1998,7 +1998,7 @@
                             <img src="{{ product.image_url }}" alt="{{ product.title }}" class="product-image">
                             <h3 class="product-name">{{ product.title }}</h3>
                             <p class="product-price">R$ {{ product.price }}</p>
-                            <span class="product-button">Ver produto →</span>
+                            <span class="product-button">{% t 'view_product' %} →</span>
                         </a>
                     </div>
                     {% endfor %}
@@ -2025,8 +2025,8 @@
     <!-- Review Section -->
     <div class="review-section">
         <div class="review-header">
-            <h2 class="review-title">📝 Revisão das Respostas</h2>
-            <p class="review-description">Veja as questões e confira suas respostas</p>
+            <h2 class="review-title">📝 {% t 'answer_review' %}</h2>
+            <p class="review-description">{% t 'see_questions_check_answers' %}</p>
         </div>
 
         {% for result in results %}
@@ -2036,9 +2036,9 @@
                 <div class="question-text">{{ result.question.text }}</div>
                 <div class="question-status {% if result.user_answer.is_correct %}correct{% else %}incorrect{% endif %}">
                     {% if result.user_answer.is_correct %}
-                        ✓ Correto
+                        ✓ {% t 'correct' %}
                     {% else %}
-                        ✗ Incorreto
+                        ✗ {% t 'incorrect' %}
                     {% endif %}
                 </div>
                 <div class="question-toggle">▼</div>

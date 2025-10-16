@@ -824,7 +824,7 @@
                 <h1 class="quiz-title">{{ quiz.title }}</h1>
                 <p class="quiz-subtitle">{{ quiz.description }}</p>
                 {% if user.is_superuser and not quiz.active %}
-                    <div class="inactive-badge">Quiz Inativo</div>
+                    <div class="inactive-badge">{% t 'quiz_inactive' %}</div>
                 {% endif %}
             </div>
 

@@ -608,7 +608,7 @@
             {% for item in categories %}
                 <div class="category-card {% if user.is_superuser and not item.theme.active %}inactive{% endif %}" data-theme="{{ item.theme.slug }}">
                     {% if user.is_superuser and not item.theme.active %}
-                        <span class="inactive-badge">Inativo</span>
+                        <span class="inactive-badge">{% t 'inactive' %}</span>
                     {% endif %}
                     
                     <!-- Cabeçalho com ícone e título -->

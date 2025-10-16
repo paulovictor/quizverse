@@ -1049,7 +1049,7 @@ body.dark-mode .result-stat-value {
                                 {{ user_badge.completion_time_seconds|floatformat:0|add:"0"|slice:":1" }}h
                             {% endif %}
                         </div>
-                        <div class="badge-stat-label">Tempo</div>
+                        <div class="badge-stat-label">{% t 'time' %}</div>
                     </div>
                     {% endif %}
                 </div>
@@ -1101,7 +1101,7 @@ body.dark-mode .result-stat-value {
                     <div class="result-info">
                         <div class="result-quiz-name">{{ data.attempt.quiz.title }}</div>
                         <div class="result-meta">
-                            Jogado em {{ data.attempt.completed_at|date:"d/m/Y" }} às {{ data.attempt.completed_at|date:"H:i" }}
+                            {% t 'played_on' %} {{ data.attempt.completed_at|date:"d/m/Y" }} {% t 'at' %} {{ data.attempt.completed_at|date:"H:i" }}
                         </div>
                     </div>
                 </div>
@@ -1109,11 +1109,11 @@ body.dark-mode .result-stat-value {
                 <div class="result-stats">
                     <div class="result-stat">
                         <div class="result-stat-value">{{ data.attempt.score }}/{{ data.attempt.max_score }}</div>
-                        <div class="result-stat-label">ACERTOS</div>
+                        <div class="result-stat-label">{% t 'hits' %}</div>
                     </div>
                     <div class="result-stat">
                         <div class="result-stat-value">{{ data.accuracy }}%</div>
-                        <div class="result-stat-label">TAXA</div>
+                        <div class="result-stat-label">{% t 'rate' %}</div>
                     </div>
                 </div>
                 
@@ -1122,7 +1122,7 @@ body.dark-mode .result-stat-value {
                         {{ data.badge }}
                     </div>
                     <a href="{% url 'quizzes:quiz_detail' theme_slug=data.attempt.quiz.theme.slug quiz_slug=data.attempt.quiz.slug %}" class="retry-button">
-                        Tentar novamente
+                        {% t 'try_again' %}
                     </a>
                 </div>
             </div>
@@ -1131,10 +1131,10 @@ body.dark-mode .result-stat-value {
         {% else %}
         <div class="empty-state">
             <div class="empty-state-icon">🎯</div>
-            <h3 class="empty-state-title">Nenhum quiz realizado ainda</h3>
-            <p class="empty-state-text">Comece sua jornada de aprendizado agora!</p>
+            <h3 class="empty-state-title">{% t 'no_quiz_completed_yet' %}</h3>
+            <p class="empty-state-text">{% t 'start_learning_journey' %}</p>
             <a href="{% url 'quizzes:home' %}" class="empty-state-button">
-                Explorar Quizzes
+                {% t 'explore_quizzes' %}
             </a>
         </div>
         {% endif %}
