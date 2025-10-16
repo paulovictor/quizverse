@@ -1325,7 +1325,7 @@
         const totalAttempts = '{{ total_attempts }}';
         const url = window.location.origin + '{% url "quizzes:quiz_detail" theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}';
         
-        const message = 'Acabei de fazer o quiz "' + quizTitle + '" e consegui ' + percentage + '% de acertos! Fiquei em ' + rank + 'º lugar de ' + totalAttempts + ' participantes. Faca voce tambem: ' + url;
+        const message = 'Acabei de fazer o quiz "' + quizTitle + '" e consegui ' + percentage + '% de acertos! Fiquei em ' + rank + 'º lugar.' + ' Faca voce tambem: ' + url;
         
         const whatsappUrl = 'https://wa.me/?text=' + encodeURIComponent(message);
         window.open(whatsappUrl, '_blank');
@@ -1340,7 +1340,7 @@
         const totalAttempts = '{{ total_attempts }}';
         const url = window.location.origin + '{% url "quizzes:quiz_detail" theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}';
         
-        const message = 'Acabei de fazer o quiz "' + quizTitle + '" e consegui ' + percentage + '% de acertos! Fiquei em ' + rank + 'º lugar de ' + totalAttempts + ' participantes.';
+        const message = 'Acabei de fazer o quiz "' + quizTitle + '" e consegui ' + percentage + '% de acertos! Fiquei em ' + rank + 'º lugar.';
         
         const twitterUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(message) + '&url=' + encodeURIComponent(url);
         window.open(twitterUrl, '_blank');
