@@ -1,6 +1,7 @@
 {% extends 'quizzes/base.html' %}
 {% load static %}
 {% load icon_tags %}
+{% load translations %}
 
 {% block title %}Meu Perfil - Quizverso{% endblock %}
 
@@ -977,22 +978,22 @@ body.dark-mode .result-stat-value {
             <div class="profile-avatar">
                 👋
             </div>
-            <h1 class="profile-greeting">Olá, {{ user.first_name|default:user.username|default:"João" }}!</h1>
+            <h1 class="profile-greeting">{% t 'hello' %}, {{ user.first_name|default:user.username|default:"João" }}!</h1>
         </div>
         
         <!-- Stats Inline - All in one row -->
         <div class="stats-inline">
             <div class="stat-item">
                 <div class="stat-number">{{ total_attempts }}</div>
-                <div class="stat-label">Quizzes Realizados</div>
+                <div class="stat-label">{% t 'quizzes_completed' %}</div>
             </div>
             <div class="stat-item">
                 <div class="stat-number">{{ accuracy_rate }}%</div>
-                <div class="stat-label">Taxa de Acerto</div>
+                <div class="stat-label">{% t 'accuracy_rate' %}</div>
             </div>
             <div class="stat-item">
                 <div class="stat-number">{{ total_badges }}</div>
-                <div class="stat-label">Badges Conquistadas</div>
+                <div class="stat-label">{% t 'badges_earned' %}</div>
             </div>
         </div>
     </div>
@@ -1003,11 +1004,11 @@ body.dark-mode .result-stat-value {
     <div class="profile-nav-tabs">
         <a href="#conquistas" class="profile-nav-tab active" data-tab="conquistas">
             <span class="profile-nav-icon">🏆</span>
-            Minhas Conquistas
+            {% t 'my_achievements' %}
         </a>
         <a href="#resultados" class="profile-nav-tab" data-tab="resultados">
             <span class="profile-nav-icon">📊</span>
-            Meus Resultados
+            {% t 'my_results' %}
         </a>
     </div>
 </div>
@@ -1016,12 +1017,12 @@ body.dark-mode .result-stat-value {
 <div class="profile-container">
     <div class="achievements-section" id="conquistas">
         <div class="section-header">
-            <h2 class="section-title">🏆 Minhas Conquistas</h2>
+            <h2 class="section-title">🏆 {% t 'my_achievements' %}</h2>
             <p class="section-subtitle">
                 {% if total_badges > 0 %}
                     Você conquistou {{ total_badges }} badge{% if total_badges != 1 %}s{% endif %}!
                 {% else %}
-                    Complete quizzes para conquistar badges incríveis
+                    {% t 'complete_quizzes_for_amazing_badges' %}
                 {% endif %}
             </p>
         </div>
@@ -1062,10 +1063,10 @@ body.dark-mode .result-stat-value {
         {% else %}
         <div class="empty-achievements">
             <div class="empty-achievements-icon">🏅</div>
-            <h3 class="empty-achievements-title">Nenhuma conquista ainda</h3>
-            <p class="empty-achievements-text">Complete quizzes e alcance boas pontuações para conquistar badges exclusivas!</p>
+            <h3 class="empty-achievements-title">{% t 'no_achievements_yet' %}</h3>
+            <p class="empty-achievements-text">{% t 'complete_quizzes_for_exclusive_badges' %}</p>
             <a href="{% url 'quizzes:home' %}" class="empty-state-button">
-                Começar a Conquistar
+                {% t 'start_earning' %}
             </a>
         </div>
         {% endif %}
@@ -1076,10 +1077,10 @@ body.dark-mode .result-stat-value {
 <div class="profile-container">
     <div class="results-section" id="resultados">
         <div class="results-header">
-            <h2 class="results-title">Meus Resultados</h2>
+            <h2 class="results-title">{% t 'my_results' %}</h2>
             <div class="filter-tabs">
                 <a href="?category=all" class="filter-tab {% if category_filter == 'all' %}active{% endif %}">
-                    Todos
+                    {% t 'all' %}
                 </a>
                 {% for theme in themes %}
                 <a href="?category={{ theme.slug }}" class="filter-tab {% if category_filter == theme.slug %}active{% endif %}">

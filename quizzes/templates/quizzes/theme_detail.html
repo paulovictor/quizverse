@@ -1,6 +1,7 @@
 {% extends "quizzes/base_quiz.html" %}
 {% load static %}
 {% load icon_tags %}
+{% load translations %}
 
 {% block title %}{{ theme.title }} - Quizverso{% endblock %}
 
@@ -1051,7 +1052,7 @@
             <section class="section">
                 <div class="section-header">
                     <span class="section-icon">🎮</span>
-                    <h2 class="section-title">Quizzes Diretos</h2>
+                    <h2 class="section-title">{% t 'quizzes' %}</h2>
                 </div>
 
                 <div class="quiz-cards-grid">
@@ -1071,7 +1072,7 @@
                         <div class="quiz-card-header">
                             <h3 class="quiz-card-title">{{ quiz_data.quiz.title }}</h3>
                             <div class="quiz-card-meta">
-                                <span class="quiz-meta-item">🎯 {{ quiz_data.quiz.get_questions_per_attempt }} questões</span>
+                                <span class="quiz-meta-item">🎯 {{ quiz_data.quiz.get_questions_per_attempt }} {% t 'questions' %}</span>
                                 <span class="quiz-meta-item">🏆 {{ quiz_data.quiz.min_correct_answers|default:0 }}</span>
                                 {% if quiz_data.quiz.time_limit_minutes %}
                                     <span class="quiz-meta-item">⏱ {{ quiz_data.quiz.time_limit_minutes }}:00</span>
@@ -1085,9 +1086,9 @@
                         {% if quiz_data.earned_badges %}
                             <div class="quiz-card-badges-section">
                                 <div class="quiz-badges-header">
-                                    <h4 class="quiz-badges-title">Conquistas Disponíveis</h4>
+                                    <h4 class="quiz-badges-title">{% t 'available_achievements' %}</h4>
                                     {% if user.is_authenticated %}
-                                        <span class="quiz-badges-progress">{{ quiz_data.earned_count }}/{{ quiz_data.total_badges }} conquistadas</span>
+                                        <span class="quiz-badges-progress">{{ quiz_data.earned_count }}/{{ quiz_data.total_badges }} {% t 'earned' %}</span>
                                     {% endif %}
                                 </div>
                                 <div class="quiz-card-footer">
@@ -1105,7 +1106,7 @@
                                         {% endfor %}
                                     </div>
                                     <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz_data.quiz.slug %}" class="btn-play">
-                                        ▶ Jogar
+                                        ▶ {% t 'play' %}
                                     </a>
                                 </div>
                             </div>
@@ -1113,7 +1114,7 @@
                             <div class="quiz-card-footer">
                                 <div></div>
                                 <a href="{% url 'quizzes:quiz_detail' theme_slug=theme.slug quiz_slug=quiz_data.quiz.slug %}" class="btn-play">
-                                    ▶ Jogar
+                                    ▶ {% t 'play' %}
                                 </a>
                             </div>
                         {% endif %}
@@ -1167,8 +1168,8 @@
             {% if not subcategories and not quizzes %}
             <div class="empty-state">
                 <div class="empty-icon">📝</div>
-                <h3>Nenhum conteúdo disponível ainda</h3>
-                <p>Em breve, novos quizzes e subcategorias estarão disponíveis aqui!</p>
+                <h3>{% t 'no_content_available_yet' %}</h3>
+                <p>{% t 'coming_soon_new_content' %}</p>
             </div>
             {% endif %}
         </main>

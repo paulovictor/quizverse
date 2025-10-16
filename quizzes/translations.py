@@ -536,6 +536,122 @@ TRANSLATIONS = {
         'nl': 'Doorgaan met Spelen 🎮', 'sv': 'Fortsätt Spela 🎮', 'no': 'Fortsett å Spille 🎮', 'pl': 'Kontynuuj Grę 🎮', 'id': 'Lanjutkan Bermain 🎮',
         'ja': 'プレイ続行 🎮', 'ko': '계속 플레이 🎮', 'th': 'เล่นต่อ 🎮', 'vi': 'Tiếp tục Chơi 🎮',
     },
+    
+    # User Profile - Dashboard
+    'quizzes_completed': {
+        'pt-BR': 'Quizzes Realizados', 'en': 'Quizzes Completed', 'es': 'Quizzes Completados', 'fr': 'Quiz Terminés', 'de': 'Quiz Abgeschlossen', 'it': 'Quiz Completati',
+        'nl': 'Quizzen Voltooid', 'sv': 'Frågesporter Slutförda', 'no': 'Quizer Fullført', 'pl': 'Quizy Ukończone', 'id': 'Kuis Diselesaikan',
+        'ja': '完了したクイズ', 'ko': '완료된 퀴즈', 'th': 'แบบทดสอบที่เสร็จสิ้น', 'vi': 'Câu đố đã hoàn thành',
+    },
+    'badges_earned': {
+        'pt-BR': 'Badges Conquistadas', 'en': 'Badges Earned', 'es': 'Insignias Ganadas', 'fr': 'Badges Gagnés', 'de': 'Abzeichen Verdient', 'it': 'Badge Guadagnate',
+        'nl': 'Badges Verdiend', 'sv': 'Märken Förtjänade', 'no': 'Merker Opptjent', 'pl': 'Odznaki Zdobyte', 'id': 'Lencana Diperoleh',
+        'ja': '獲得したバッジ', 'ko': '획득한 배지', 'th': 'เหรียญที่ได้รับ', 'vi': 'Huy hiệu đã đạt được',
+    },
+    'my_achievements': {
+        'pt-BR': 'Minhas Conquistas', 'en': 'My Achievements', 'es': 'Mis Logros', 'fr': 'Mes Réalisations', 'de': 'Meine Erfolge', 'it': 'I Miei Successi',
+        'nl': 'Mijn Prestaties', 'sv': 'Mina Framgångar', 'no': 'Mine Prestasjoner', 'pl': 'Moje Osiągnięcia', 'id': 'Pencapaian Saya',
+        'ja': '私の成果', 'ko': '내 성과', 'th': 'ความสำเร็จของฉัน', 'vi': 'Thành tích của tôi',
+    },
+    'my_results': {
+        'pt-BR': 'Meus Resultados', 'en': 'My Results', 'es': 'Mis Resultados', 'fr': 'Mes Résultats', 'de': 'Meine Ergebnisse', 'it': 'I Miei Risultati',
+        'nl': 'Mijn Resultaten', 'sv': 'Mina Resultat', 'no': 'Mine Resultater', 'pl': 'Moje Wyniki', 'id': 'Hasil Saya',
+        'ja': '私の結果', 'ko': '내 결과', 'th': 'ผลลัพธ์ของฉัน', 'vi': 'Kết quả của tôi',
+    },
+    'complete_quizzes_for_amazing_badges': {
+        'pt-BR': 'Complete quizzes para conquistar badges incríveis', 'en': 'Complete quizzes to earn amazing badges', 'es': 'Completa quizzes para ganar insignias increíbles', 'fr': 'Complétez des quiz pour gagner des badges incroyables', 'de': 'Vervollständige Quiz, um erstaunliche Abzeichen zu verdienen', 'it': 'Completa i quiz per guadagnare badge fantastici',
+        'nl': 'Voltooi quizzen om geweldige badges te verdienen', 'sv': 'Slutför frågesporter för att tjäna fantastiska märken', 'no': 'Fullfør quizer for å tjene fantastiske merker', 'pl': 'Ukończ quizy, aby zdobyć niesamowite odznaki', 'id': 'Selesaikan kuis untuk mendapatkan lencana luar biasa',
+        'ja': '素晴らしいバッジを獲得するためにクイズを完了', 'ko': '놀라운 배지를 얻기 위해 퀴즈 완료', 'th': 'ทำแบบทดสอบให้เสร็จเพื่อรับเหรียญที่น่าทึ่ง', 'vi': 'Hoàn thành câu đố để kiếm được huy hiệu tuyệt vời',
+    },
+    'no_achievements_yet': {
+        'pt-BR': 'Nenhuma conquista ainda', 'en': 'No achievements yet', 'es': 'Aún no hay logros', 'fr': 'Aucune réalisation pour le moment', 'de': 'Noch keine Erfolge', 'it': 'Nessun successo ancora',
+        'nl': 'Nog geen prestaties', 'sv': 'Inga framgångar än', 'no': 'Ingen prestasjoner ennå', 'pl': 'Brak osiągnięć', 'id': 'Belum ada pencapaian',
+        'ja': 'まだ成果なし', 'ko': '아직 성과 없음', 'th': 'ยังไม่มีผลงาน', 'vi': 'Chưa có thành tích',
+    },
+    'complete_quizzes_for_exclusive_badges': {
+        'pt-BR': 'Complete quizzes e alcance boas pontuações para conquistar badges exclusivas!', 'en': 'Complete quizzes and achieve good scores to earn exclusive badges!', 'es': '¡Completa quizzes y alcanza buenas puntuaciones para ganar insignias exclusivas!', 'fr': 'Complétez des quiz et obtenez de bons scores pour gagner des badges exclusifs!', 'de': 'Vervollständige Quiz und erreiche gute Punkte, um exklusive Abzeichen zu verdienen!', 'it': 'Completa i quiz e ottieni buoni punteggi per guadagnare badge esclusivi!',
+        'nl': 'Voltooi quizzen en behaal goede scores om exclusieve badges te verdienen!', 'sv': 'Slutför frågesporter och uppnå bra poäng för att tjäna exklusiva märken!', 'no': 'Fullfør quizer og oppnå gode poeng for å tjene eksklusive merker!', 'pl': 'Ukończ quizy i osiągnij dobre wyniki, aby zdobyć ekskluzywne odznaki!', 'id': 'Selesaikan kuis dan capai skor bagus untuk mendapatkan lencana eksklusif!',
+        'ja': 'クイズを完了して良いスコアを達成し、限定バッジを獲得しましょう！', 'ko': '퀴즈를 완료하고 좋은 점수를 달성하여 독점 배지를 획득하세요!', 'th': 'ทำแบบทดสอบให้เสร็จและได้คะแนนดีเพื่อรับเหรียญพิเศษ!', 'vi': 'Hoàn thành câu đố và đạt điểm cao để kiếm được huy hiệu độc quyền!',
+    },
+    'start_earning': {
+        'pt-BR': 'Começar a Conquistar', 'en': 'Start Earning', 'es': 'Comenzar a Ganar', 'fr': 'Commencer à Gagner', 'de': 'Verdienen Beginnen', 'it': 'Inizia a Guadagnare',
+        'nl': 'Begin met Verdienen', 'sv': 'Börja Tjäna', 'no': 'Begynn å Tjene', 'pl': 'Zacznij Zarabiać', 'id': 'Mulai Menghasilkan',
+        'ja': '獲得を開始', 'ko': '획득 시작', 'th': 'เริ่มรับรางวัล', 'vi': 'Bắt đầu Kiếm',
+    },
+    'all': {
+        'pt-BR': 'Todos', 'en': 'All', 'es': 'Todos', 'fr': 'Tous', 'de': 'Alle', 'it': 'Tutti',
+        'nl': 'Alle', 'sv': 'Alla', 'no': 'Alle', 'pl': 'Wszystkie', 'id': 'Semua',
+        'ja': 'すべて', 'ko': '모두', 'th': 'ทั้งหมด', 'vi': 'Tất cả',
+    },
+    
+    # Quiz Play
+    'playing': {
+        'pt-BR': 'Jogando', 'en': 'Playing', 'es': 'Jugando', 'fr': 'En train de jouer', 'de': 'Spielen', 'it': 'Giocando',
+        'nl': 'Spelen', 'sv': 'Spelar', 'no': 'Spiller', 'pl': 'Gracie', 'id': 'Bermain',
+        'ja': 'プレイ中', 'ko': '플레이 중', 'th': 'กำลังเล่น', 'vi': 'Đang chơi',
+    },
+    'progress': {
+        'pt-BR': 'Progresso', 'en': 'Progress', 'es': 'Progreso', 'fr': 'Progrès', 'de': 'Fortschritt', 'it': 'Progresso',
+        'nl': 'Voortgang', 'sv': 'Framsteg', 'no': 'Fremgang', 'pl': 'Postęp', 'id': 'Kemajuan',
+        'ja': '進捗', 'ko': '진행률', 'th': 'ความคืบหน้า', 'vi': 'Tiến độ',
+    },
+    'question': {
+        'pt-BR': 'Questão', 'en': 'Question', 'es': 'Pregunta', 'fr': 'Question', 'de': 'Frage', 'it': 'Domanda',
+        'nl': 'Vraag', 'sv': 'Fråga', 'no': 'Spørsmål', 'pl': 'Pytanie', 'id': 'Pertanyaan',
+        'ja': '質問', 'ko': '질문', 'th': 'คำถาม', 'vi': 'Câu hỏi',
+    },
+    'finish_quiz': {
+        'pt-BR': 'Finalizar Quiz', 'en': 'Finish Quiz', 'es': 'Finalizar Quiz', 'fr': 'Terminer le Quiz', 'de': 'Quiz beenden', 'it': 'Termina Quiz',
+        'nl': 'Quiz voltooien', 'sv': 'Avsluta Quiz', 'no': 'Fullfør Quiz', 'pl': 'Zakończ Quiz', 'id': 'Selesaikan Kuis',
+        'ja': 'クイズ終了', 'ko': '퀴즈 완료', 'th': 'เสร็จสิ้นแบบทดสอบ', 'vi': 'Hoàn thành Câu đố',
+    },
+    'you_are_playing': {
+        'pt-BR': 'Você está jogando', 'en': 'You are playing', 'es': 'Estás jugando', 'fr': 'Vous jouez', 'de': 'Sie spielen', 'it': 'Stai giocando',
+        'nl': 'Je speelt', 'sv': 'Du spelar', 'no': 'Du spiller', 'pl': 'Grasz', 'id': 'Anda sedang bermain',
+        'ja': 'あなたはプレイ中です', 'ko': '당신은 플레이 중입니다', 'th': 'คุณกำลังเล่น', 'vi': 'Bạn đang chơi',
+    },
+    
+    # Theme Detail
+    'questions': {
+        'pt-BR': 'questões', 'en': 'questions', 'es': 'preguntas', 'fr': 'questions', 'de': 'Fragen', 'it': 'domande',
+        'nl': 'vragen', 'sv': 'frågor', 'no': 'spørsmål', 'pl': 'pytania', 'id': 'pertanyaan',
+        'ja': '質問', 'ko': '질문', 'th': 'คำถาม', 'vi': 'câu hỏi',
+    },
+    'available_achievements': {
+        'pt-BR': 'Conquistas Disponíveis', 'en': 'Available Achievements', 'es': 'Logros Disponibles', 'fr': 'Réalisations Disponibles', 'de': 'Verfügbare Erfolge', 'it': 'Successi Disponibili',
+        'nl': 'Beschikbare Prestaties', 'sv': 'Tillgängliga Framgångar', 'no': 'Tilgjengelige Prestasjoner', 'pl': 'Dostępne Osiągnięcia', 'id': 'Pencapaian Tersedia',
+        'ja': '利用可能な成果', 'ko': '사용 가능한 성과', 'th': 'ความสำเร็จที่มี', 'vi': 'Thành tích có sẵn',
+    },
+    'earned': {
+        'pt-BR': 'conquistadas', 'en': 'earned', 'es': 'ganadas', 'fr': 'gagnées', 'de': 'verdient', 'it': 'guadagnate',
+        'nl': 'verdiend', 'sv': 'förtjänade', 'no': 'opptjent', 'pl': 'zdobyte', 'id': 'diperoleh',
+        'ja': '獲得', 'ko': '획득', 'th': 'ได้รับ', 'vi': 'đạt được',
+    },
+    'quizzes': {
+        'pt-BR': 'Quizzes', 'en': 'Quizzes', 'es': 'Quizzes', 'fr': 'Quiz', 'de': 'Quiz', 'it': 'Quiz',
+        'nl': 'Quizzen', 'sv': 'Frågesporter', 'no': 'Quizer', 'pl': 'Quizy', 'id': 'Kuis',
+        'ja': 'クイズ', 'ko': '퀴즈', 'th': 'แบบทดสอบ', 'vi': 'Câu đố',
+    },
+    'play': {
+        'pt-BR': 'Jogar', 'en': 'Play', 'es': 'Jugar', 'fr': 'Jouer', 'de': 'Spielen', 'it': 'Giocare',
+        'nl': 'Spelen', 'sv': 'Spela', 'no': 'Spill', 'pl': 'Graj', 'id': 'Main',
+        'ja': 'プレイ', 'ko': '플레이', 'th': 'เล่น', 'vi': 'Chơi',
+    },
+    'no_content_available_yet': {
+        'pt-BR': 'Nenhum conteúdo disponível ainda', 'en': 'No content available yet', 'es': 'Aún no hay contenido disponible', 'fr': 'Aucun contenu disponible pour le moment', 'de': 'Noch kein Inhalt verfügbar', 'it': 'Nessun contenuto disponibile ancora',
+        'nl': 'Nog geen inhoud beschikbaar', 'sv': 'Inget innehåll tillgängligt än', 'no': 'Ingen innhold tilgjengelig ennå', 'pl': 'Brak dostępnej treści', 'id': 'Belum ada konten tersedia',
+        'ja': 'まだコンテンツがありません', 'ko': '아직 사용 가능한 콘텐츠가 없습니다', 'th': 'ยังไม่มีเนื้อหา', 'vi': 'Chưa có nội dung nào',
+    },
+    'coming_soon_new_content': {
+        'pt-BR': 'Em breve, novos quizzes e subcategorias estarão disponíveis aqui!', 'en': 'Coming soon, new quizzes and subcategories will be available here!', 'es': '¡Próximamente, nuevos quizzes y subcategorías estarán disponibles aquí!', 'fr': 'Bientôt, de nouveaux quiz et sous-catégories seront disponibles ici!', 'de': 'Bald werden hier neue Quiz und Unterkategorien verfügbar sein!', 'it': 'Presto, nuovi quiz e sottocategorie saranno disponibili qui!',
+        'nl': 'Binnenkort zullen hier nieuwe quizzen en subcategorieën beschikbaar zijn!', 'sv': 'Snart kommer nya frågesporter och underkategorier att vara tillgängliga här!', 'no': 'Snart vil nye quizer og underkategorier være tilgjengelige her!', 'pl': 'Wkrótce nowe quizy i podkategorie będą dostępne tutaj!', 'id': 'Segera, kuis dan subkategori baru akan tersedia di sini!',
+        'ja': 'まもなく、新しいクイズとサブカテゴリがここで利用可能になります！', 'ko': '곧 새로운 퀴즈와 하위 카테고리가 여기에서 사용 가능해집니다!', 'th': 'เร็วๆ นี้ แบบทดสอบและหมวดหมู่ย่อยใหม่จะพร้อมใช้งานที่นี่!', 'vi': 'Sắp có các câu đố và danh mục con mới sẽ có sẵn ở đây!',
+    },
+    'home': {
+        'pt-BR': 'Início', 'en': 'Home', 'es': 'Inicio', 'fr': 'Accueil', 'de': 'Startseite', 'it': 'Home',
+        'nl': 'Home', 'sv': 'Hem', 'no': 'Hjem', 'pl': 'Strona główna', 'id': 'Beranda',
+        'ja': 'ホーム', 'ko': '홈', 'th': 'หน้าแรก', 'vi': 'Trang chủ',
+    },
 }
 
 

@@ -1,6 +1,7 @@
 {% extends "quizzes/base_quiz.html" %}
 {% load static %}
 {% load icon_tags %}
+{% load translations %}
 
 {% block title %}{{ quiz.title }} - Questão {{ current_index }}{% endblock %}
 
@@ -227,6 +228,7 @@
     body.dark-mode .image-skeleton::before {
         color: #60a5fa;
         opacity: 0.4;
+        animation: pulse-question-dark 1.5s ease-in-out infinite;
     }
 
     @keyframes pulse-question {
@@ -240,7 +242,7 @@
         }
     }
 
-    body.dark-mode @keyframes pulse-question {
+    @keyframes pulse-question-dark {
         0%, 100% {
             transform: scale(1);
             opacity: 0.4;
@@ -510,7 +512,7 @@
             {{ quiz.title }}
         </a>
         <span class="breadcrumb-separator">›</span>
-        <span class="breadcrumb-current">Jogando</span>
+        <span class="breadcrumb-current">{% t 'playing' %}</span>
     </div>
 </div>
 
@@ -519,7 +521,7 @@
     <!-- Progress Section -->
     <div class="progress-section">
         <div class="progress-header">
-            <span class="progress-label">Progresso</span>
+            <span class="progress-label">{% t 'progress' %}</span>
             <span class="progress-count">{{ current_index }} / {{ total_questions }}</span>
         </div>
         <div class="progress-bar">
@@ -530,7 +532,7 @@
     <!-- Question Card -->
     <div class="question-card">
         <div class="question-number">
-            Questão {{ current_index }} de {{ total_questions }}
+            {% t 'question' %} {{ current_index }} {% t 'of' %} {{ total_questions }}
         </div>
 
         {% if question.image %}
@@ -559,9 +561,9 @@
                 <button type="submit" class="btn-submit" id="submitBtn" disabled>
                     <span class="button-text">
                         {% if current_index == total_questions %}
-                            ✓ Finalizar Quiz
+                            ✓ {% t 'finish_quiz' %}
                         {% else %}
-                            Próxima Questão →
+                            {% t 'next' %} {% t 'question' %} →
                         {% endif %}
                     </span>
                 </button>
@@ -571,7 +573,7 @@
 
     <!-- Quiz Info -->
     <div class="quiz-info">
-        <div class="quiz-info-title">Você está jogando</div>
+        <div class="quiz-info-title">{% t 'you_are_playing' %}</div>
         <div class="quiz-info-subtitle">{{ quiz.title }} • {{ theme.title }}</div>
     </div>
 </div>
