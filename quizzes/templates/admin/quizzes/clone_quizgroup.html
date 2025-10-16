@@ -1,0 +1,104 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <a href="{% url 'admin:index' %}">Home</a>
+    &rsaquo; <a href="{% url 'admin:quizzes_quizgroup_changelist' %}">Quiz Groups</a>
+    &rsaquo; Clonar QuizGroup
+</div>
+{% endblock %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+
+<div class="module">
+    <div class="info" style="padding: 15px; margin-bottom: 20px; background-color: #e7f2f8; border-left: 4px solid #417690; color: #333;">
+        <h3 style="margin-top: 0; color: #333;">Informações do QuizGroup Original</h3>
+        <p style="color: #333;"><strong>Nome:</strong> {{ quiz_group.name }}</p>
+        <p style="color: #333;"><strong>Slug:</strong> {{ quiz_group.slug }}</p>
+        <p style="color: #333;"><strong>Descrição:</strong> {{ quiz_group.description|default:"-" }}</p>
+        <p style="color: #333;"><strong>Número de Quizzes:</strong> {{ quizzes_count }}</p>
+        <p style="margin-bottom: 0; color: #555;">
+            <em>Esta operação irá criar um novo QuizGroup e clonar todos os {{ quizzes_count }} quizzes,
+            incluindo todas as questões e respostas, com o novo "question_sample_size" que você definir.</em>
+        </p>
+    </div>
+</div>
+
+<form method="post" novalidate>
+    {% csrf_token %}
+
+    <div class="module">
+        <h2>Configurações do Novo QuizGroup</h2>
+
+        {% if form.errors %}
+            <div class="errornote">
+                Por favor, corrija os erros abaixo.
+            </div>
+        {% endif %}
+
+        <fieldset class="module aligned">
+            {% for field in form %}
+                <div class="form-row {% if field.errors %}errors{% endif %}">
+                    <div>
+                        <label for="{{ field.id_for_label }}" class="required">
+                            {{ field.label }}:
+                        </label>
+                        {{ field }}
+                        {% if field.help_text %}
+                            <p class="help">{{ field.help_text }}</p>
+                        {% endif %}
+                        {% if field.errors %}
+                            <ul class="errorlist">
+                                {% for error in field.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </div>
+
+    <div class="submit-row">
+        <input type="submit" value="Clonar QuizGroup" class="default" />
+        <a href="{% url 'admin:quizzes_quizgroup_changelist' %}" class="button cancel-link">Cancelar</a>
+    </div>
+</form>
+
+<style>
+    .cancel-link {
+        padding: 10px 15px;
+        margin-left: 10px;
+        background: #ba2121;
+        color: white;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    .cancel-link:hover {
+        background: #a41515;
+    }
+    .form-row input[type="text"],
+    .form-row input[type="number"] {
+        width: 100%;
+        max-width: 500px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    .form-row label {
+        display: inline-block;
+        width: 200px;
+        font-weight: bold;
+    }
+    .help {
+        color: #666;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+</style>
+
+{% endblock %}

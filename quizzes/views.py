@@ -8,6 +8,7 @@ from django.views.decorators.csrf import ensure_csrf_cookie, csrf_exempt
 from django_ratelimit.decorators import ratelimit
 from .models import Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Product
 from .decorators import validate_attempt_access
+from .services import check_and_award_badges
 import random
 
 
@@ -217,13 +218,13 @@ def theme_detail(request, theme_slug):
         subcategories = theme.subcategories.filter(
             country=user_country
         ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
-        quizzes = theme.quizzes.filter(country=user_country).order_by('order', 'title')
+        quizzes = theme.quizzes.filter(country=user_country).select_related('quiz_group').order_by('quiz_group__order', 'order', 'title')
     else:
         theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug, active=True)
         subcategories = theme.subcategories.filter(
             active=True, country=user_country
         ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
-        quizzes = theme.quizzes.filter(active=True, country=user_country).order_by('order', 'title')
+        quizzes = theme.quizzes.filter(active=True, country=user_country).select_related('quiz_group').order_by('quiz_group__order', 'order', 'title')
     
     # Adicionar contagens para subcategorias
     subcategories_with_info = []
@@ -618,6 +619,11 @@ def quiz_result(request, attempt_id, attempt=None):
     else:
         users_beaten_percentage = 0
     
+    # Verificar e conceder badges (se usuário autenticado)
+    new_badges = []
+    if attempt.user and attempt.is_completed():
+        new_badges = check_and_award_badges(attempt)
+    
     context = {
         'attempt': attempt,
         'quiz': attempt.quiz,
@@ -635,6 +641,8 @@ def quiz_result(request, attempt_id, attempt=None):
         'user_rank': user_rank,
         'total_attempts': total_attempts,
         'users_beaten_percentage': users_beaten_percentage,
+        'new_badges': new_badges,
+        'show_badge_celebration': len(new_badges) > 0,
         **get_country_context(request),
     }
     return render(request, 'quizzes/quiz_result.html', context)

@@ -889,11 +889,10 @@
                         <div class="quiz-card-header">
                             <h3 class="quiz-card-title">{{ quiz.title }}</h3>
                             <div class="quiz-card-meta">
-                                <span class="quiz-meta-item">{{ quiz.get_questions_per_attempt }} questões</span>
-                                <span class="quiz-meta-item">{{ quiz.get_estimated_time }}</span>
-                                <span class="difficulty-badge difficulty-{{ quiz.difficulty }}">
-                                    {% if quiz.difficulty == 'easy' %}{% t 'easy' %}
-                                    {% elif quiz.difficulty == 'medium' %}{% t 'medium' %}
+                                <span class="quiz-meta-item">📝 {{ quiz.get_questions_per_attempt }} questões</span>
+                                <span class="difficulty-badge difficulty-{{ quiz.get_effective_difficulty }}">
+                                    {% if quiz.get_effective_difficulty == 'easy' %}{% t 'easy' %}
+                                    {% elif quiz.get_effective_difficulty == 'medium' %}{% t 'medium' %}
                                     {% else %}{% t 'hard' %}{% endif %}
                                 </span>
                             </div>

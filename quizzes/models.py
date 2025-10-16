@@ -92,6 +92,40 @@ class Theme(models.Model):
         return self.quizzes.filter(active=True).count()
 
 
+class QuizGroup(models.Model):
+    """Agrupa quizzes equivalentes (sempre obrigatório)"""
+    DIFFICULTY_CHOICES = [
+        ('easy', 'Fácil'),
+        ('medium', 'Médio'),
+        ('hard', 'Difícil'),
+    ]
+
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    name = models.CharField(max_length=255, verbose_name='Nome do Grupo')
+    slug = models.SlugField(max_length=255, unique=True)
+    description = models.TextField(blank=True, verbose_name='Descrição')
+    difficulty = models.CharField(
+        max_length=10,
+        choices=DIFFICULTY_CHOICES,
+        default='medium',
+        help_text='Dificuldade do grupo (aplicada a todos os quizzes do grupo)'
+    )
+    order = models.IntegerField(default=0, help_text='Ordem de exibição dos quizzes deste grupo')
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name = "Quiz Group"
+        verbose_name_plural = "Quiz Groups"
+        ordering = ['order', 'name']
+    
+    def __str__(self):
+        return self.name
+    
+    def get_available_languages(self):
+        """Retorna lista de idiomas disponíveis para este grupo"""
+        return self.quizzes.filter(active=True).values_list('country', flat=True).distinct()
+
+
 class Quiz(models.Model):
     DIFFICULTY_CHOICES = [
         ('easy', 'Fácil'),
@@ -103,9 +137,21 @@ class Quiz(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     theme = models.ForeignKey(Theme, on_delete=models.CASCADE, related_name='quizzes')
+    quiz_group = models.ForeignKey(
+        'QuizGroup',
+        on_delete=models.PROTECT,
+        related_name='quizzes',
+        null=True,
+        blank=True,
+        help_text='Grupo de quizzes equivalentes (ex: mesmo quiz em vários idiomas)'
+    )
     title = models.CharField(max_length=255)
     slug = models.SlugField(max_length=255)
     description = models.TextField()
+    description_template = models.TextField(
+        blank=True,
+        help_text='Template de descrição com placeholders {sample_size} e {total}. Ex: "Identifique {sample_size} personagens de {total} disponíveis"'
+    )
     difficulty = models.CharField(max_length=10, choices=DIFFICULTY_CHOICES, default='medium')
     country = models.CharField(max_length=10, choices=COUNTRY_CHOICES, default='pt-BR', help_text='País do quiz')
     time_limit = models.IntegerField(help_text='Tempo limite em segundos (0 = sem limite)', default=0)
@@ -149,6 +195,37 @@ class Quiz(models.Model):
         # Assumindo ~30 segundos por questão
         questions_count = self.get_questions_per_attempt()
         return max(1, round(questions_count * 0.5))  # 0.5 min = 30 segundos
+
+    def get_effective_difficulty(self):
+        """Retorna a dificuldade efetiva: do grupo se existir, senão do quiz"""
+        if self.quiz_group:
+            return self.quiz_group.difficulty
+        return self.difficulty
+
+    def render_description(self):
+        """Gera description a partir do template"""
+        if not self.description_template:
+            return self.description
+
+        total = self.questions.count() if self.pk else 0
+        sample = self.question_sample_size if self.question_sample_size > 0 else total
+
+        try:
+            return self.description_template.format(
+                sample_size=sample,
+                total=total
+            )
+        except (KeyError, ValueError):
+            # Se houver erro no template, retorna a description original
+            return self.description
+
+    def save(self, *args, **kwargs):
+        # Se tem template, gera description automaticamente
+        if self.description_template:
+            # Para novos quizzes sem questions ainda, salva sem renderizar
+            if self.pk:
+                self.description = self.render_description()
+        super().save(*args, **kwargs)
 
 
 class Question(models.Model):
@@ -312,3 +389,156 @@ class Product(models.Model):
 
     def __str__(self):
         return f"{self.theme.title} - {self.title} (R$ {self.price})"
+
+
+class Badge(models.Model):
+    """Insignia/Badge que pode ser conquistada"""
+    RULE_TYPE_CHOICES = [
+        ('percentage', 'Porcentagem de Acertos'),
+        ('percentage_time', 'Porcentagem + Tempo Limite'),
+        ('perfect_score', 'Pontuação Perfeita'),
+        ('streak', 'Sequência de Acertos'),
+    ]
+    
+    RARITY_CHOICES = [
+        ('common', 'Comum'),
+        ('rare', 'Rara'),
+        ('epic', 'Épica'),
+        ('legendary', 'Lendária'),
+    ]
+    
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    title = models.CharField(max_length=255, verbose_name='Título da Badge')
+    description = models.TextField(verbose_name='Descrição')
+    image = models.URLField(max_length=500, help_text='URL da imagem da badge (Cloudinary)')
+    
+    # Regras
+    rule_type = models.CharField(
+        max_length=20, 
+        choices=RULE_TYPE_CHOICES,
+        default='percentage',
+        verbose_name='Tipo de Regra'
+    )
+    min_percentage = models.DecimalField(
+        max_digits=5, 
+        decimal_places=2, 
+        default=0,
+        help_text='Porcentagem mínima de acertos (0-100)',
+        verbose_name='Porcentagem Mínima'
+    )
+    max_time_seconds = models.IntegerField(
+        null=True, 
+        blank=True,
+        help_text='Tempo máximo em segundos (apenas para percentage_time)',
+        verbose_name='Tempo Máximo (segundos)'
+    )
+    
+    # Metadata
+    rarity = models.CharField(
+        max_length=20,
+        choices=RARITY_CHOICES,
+        default='common',
+        verbose_name='Raridade'
+    )
+    points = models.IntegerField(default=10, help_text='Pontos que a badge vale')
+    order = models.IntegerField(default=0, help_text='Ordem de exibição')
+    active = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        verbose_name = "Badge"
+        verbose_name_plural = "Badges"
+        ordering = ['order', 'title']
+    
+    def __str__(self):
+        return self.title
+
+
+class QuizGroupBadge(models.Model):
+    """
+    Define quais badges estão disponíveis para cada grupo.
+    Tabela de associação simples.
+    """
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    quiz_group = models.ForeignKey(
+        QuizGroup, 
+        on_delete=models.CASCADE,
+        related_name='available_badges'
+    )
+    badge = models.ForeignKey(
+        Badge, 
+        on_delete=models.CASCADE, 
+        related_name='quiz_groups'
+    )
+    active = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        verbose_name = "Quiz Group Badge"
+        verbose_name_plural = "Quiz Group Badges"
+        unique_together = ['quiz_group', 'badge']
+        ordering = ['quiz_group', 'badge__order']
+    
+    def __str__(self):
+        return f"{self.badge.title} - {self.quiz_group.name}"
+
+
+class UserBadge(models.Model):
+    """
+    Badge conquistada por usuário.
+    Campos diretos para badge e quiz_group (simplicidade e performance).
+    """
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='earned_badges')
+    
+    # Campos diretos (performance + simplicidade)
+    badge = models.ForeignKey(
+        Badge,
+        on_delete=models.CASCADE,
+        related_name='user_achievements'
+    )
+    quiz_group = models.ForeignKey(
+        QuizGroup,
+        on_delete=models.CASCADE,
+        related_name='user_achievements'
+    )
+    
+    # Onde foi conquistada
+    quiz_attempt = models.ForeignKey(
+        QuizAttempt, 
+        on_delete=models.CASCADE,
+        related_name='badges_earned'
+    )
+    
+    # Stats
+    earned_at = models.DateTimeField(auto_now_add=True)
+    score_percentage = models.DecimalField(max_digits=5, decimal_places=2)
+    completion_time_seconds = models.IntegerField(null=True, blank=True)
+    
+    class Meta:
+        verbose_name = "User Badge"
+        verbose_name_plural = "User Badges"
+        ordering = ['-earned_at']
+        # Garante: um usuário só ganha cada badge uma vez por grupo
+        unique_together = ['user', 'badge', 'quiz_group']
+        indexes = [
+            models.Index(fields=['user', 'badge']),
+            models.Index(fields=['user', 'quiz_group']),
+            models.Index(fields=['badge', 'quiz_group']),
+            models.Index(fields=['-earned_at']),
+        ]
+    
+    def __str__(self):
+        return f"{self.user.username} - {self.badge.title} ({self.quiz_group.name})"
+    
+    def save(self, *args, **kwargs):
+        # Validação: badge deve estar disponível para o grupo
+        if not QuizGroupBadge.objects.filter(
+            quiz_group=self.quiz_group,
+            badge=self.badge,
+            active=True
+        ).exists():
+            raise ValueError(
+                f"Badge '{self.badge}' não está disponível para o grupo '{self.quiz_group}'"
+            )
+        super().save(*args, **kwargs)

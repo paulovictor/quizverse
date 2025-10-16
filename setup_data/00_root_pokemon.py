@@ -137,95 +137,146 @@ def create_pokemon_quizzes():
         'vi-VN': 'vi',
     }
     
-    # Traduções do quiz em múltiplos idiomas
+    # Função para gerar TEMPLATE de descrição (com placeholders)
+    def get_quiz_description_template(lang_code):
+        """Retorna template de descrição com placeholders {sample_size} e {total}"""
+        templates = {
+            'en': 'Identify {sample_size} random Pokémon from the {total} original ones! Test your knowledge about the first generation.',
+            'pt': 'Identifique {sample_size} Pokémon aleatórios dos {total} originais! Teste seu conhecimento sobre a primeira geração.',
+            'es': '¡Identifica {sample_size} Pokémon aleatorios de los {total} originales! Pon a prueba tu conocimiento sobre la primera generación.',
+            'de': 'Identifizieren Sie {sample_size} zufällige Pokémon aus den {total} Originalen! Testen Sie Ihr Wissen über die erste Generation.',
+            'fr': 'Identifiez {sample_size} Pokémon aléatoires parmi les {total} originaux! Testez vos connaissances sur la première génération.',
+            'it': 'Identifica {sample_size} Pokémon casuali tra i {total} originali! Metti alla prova la tua conoscenza sulla prima generazione.',
+            'nl': 'Identificeer {sample_size} willekeurige Pokémon uit de {total} originelen! Test je kennis over de eerste generatie.',
+            'sv': 'Identifiera {sample_size} slumpmässiga Pokémon från de {total} ursprungliga! Testa din kunskap om första generationen.',
+            'no': 'Identifiser {sample_size} tilfeldige Pokémon fra de {total} originale! Test kunnskapen din om første generasjon.',
+            'pl': 'Zidentyfikuj {sample_size} losowych Pokémonów spośród {total} oryginalnych! Przetestuj swoją wiedzę o pierwszej generacji.',
+            'id': 'Identifikasi {sample_size} Pokémon acak dari {total} yang asli! Uji pengetahuan Anda tentang generasi pertama.',
+            'ja': '{total}匹のオリジナルポケモンから{sample_size}匹をランダムに識別しよう！第1世代についての知識をテストしよう。',
+            'ko': '{total}마리 오리지널 포켓몬 중 {sample_size}마리를 무작위로 식별하세요! 1세대에 대한 지식을 테스트하세요.',
+            'th': 'ระบุโปเกมอน {sample_size} ตัวแบบสุ่มจากทั้งหมด {total} ตัว! ทดสอบความรู้ของคุณเกี่ยวกับรุ่นแรก',
+            'vi': 'Nhận dạng {sample_size} Pokémon ngẫu nhiên từ {total} Pokémon gốc! Kiểm tra kiến thức của bạn về thế hệ đầu tiên.',
+        }
+        return templates.get(lang_code, templates['en'])
+
+    # Função para gerar descrição dinâmica baseada no sample_size
+    def get_quiz_description(lang_code, total_questions, sample_size):
+        """Gera descrição do quiz baseado no idioma e configuração"""
+        # Determinar se usa todas as questões ou uma amostra
+        if sample_size == 0 or sample_size >= total_questions:
+            # Usar TODAS as questões
+            descriptions = {
+                'en': f'Identify all {total_questions} original Pokémon by looking at their images! Test your knowledge about the first generation.',
+                'pt': f'Identifique todos os {total_questions} Pokémon originais olhando suas imagens! Teste seu conhecimento sobre a primeira geração.',
+                'es': f'¡Identifica los {total_questions} Pokémon originales mirando sus imágenes! Pon a prueba tu conocimiento sobre la primera generación.',
+                'de': f'Identifizieren Sie alle {total_questions} Original-Pokémon anhand ihrer Bilder! Testen Sie Ihr Wissen über die erste Generation.',
+                'fr': f'Identifiez les {total_questions} Pokémon originaux en regardant leurs images! Testez vos connaissances sur la première génération.',
+                'it': f'Identifica tutti i {total_questions} Pokémon originali guardando le loro immagini! Metti alla prova la tua conoscenza sulla prima generazione.',
+                'nl': f'Identificeer alle {total_questions} originele Pokémon door naar hun afbeeldingen te kijken! Test je kennis over de eerste generatie.',
+                'sv': f'Identifiera alla {total_questions} ursprungliga Pokémon genom att titta på deras bilder! Testa din kunskap om första generationen.',
+                'no': f'Identifiser alle {total_questions} originale Pokémon ved å se på bildene deres! Test kunnskapen din om første generasjon.',
+                'pl': f'Zidentyfikuj wszystkich {total_questions} oryginalnych Pokémonów patrząc na ich obrazy! Przetestuj swoją wiedzę o pierwszej generacji.',
+                'id': f'Identifikasi semua {total_questions} Pokémon asli dengan melihat gambar mereka! Uji pengetahuan Anda tentang generasi pertama.',
+                'ja': f'{total_questions}匹すべてのオリジナルポケモンを画像を見て識別しよう！第1世代についての知識をテストしよう。',
+                'ko': f'{total_questions}마리 모든 오리지널 포켓몬을 이미지를 보고 식별하세요! 1세대에 대한 지식을 테스트하세요.',
+                'th': f'ระบุโปเกมอนดั้งเดิมทั้งหมด {total_questions} ตัวโดยดูจากภาพ! ทดสอบความรู้ของคุณเกี่ยวกับรุ่นแรก',
+                'vi': f'Nhận dạng tất cả {total_questions} Pokémon gốc bằng cách xem hình ảnh! Kiểm tra kiến thức của bạn về thế hệ đầu tiên.',
+            }
+        else:
+            # Usar AMOSTRA de questões
+            descriptions = {
+                'en': f'Identify {sample_size} random Pokémon from the {total_questions} original ones! Test your knowledge about the first generation.',
+                'pt': f'Identifique {sample_size} Pokémon aleatórios dos {total_questions} originais! Teste seu conhecimento sobre a primeira geração.',
+                'es': f'¡Identifica {sample_size} Pokémon aleatorios de los {total_questions} originales! Pon a prueba tu conocimiento sobre la primera generación.',
+                'de': f'Identifizieren Sie {sample_size} zufällige Pokémon aus den {total_questions} Originalen! Testen Sie Ihr Wissen über die erste Generation.',
+                'fr': f'Identifiez {sample_size} Pokémon aléatoires parmi les {total_questions} originaux! Testez vos connaissances sur la première génération.',
+                'it': f'Identifica {sample_size} Pokémon casuali tra i {total_questions} originali! Metti alla prova la tua conoscenza sulla prima generazione.',
+                'nl': f'Identificeer {sample_size} willekeurige Pokémon uit de {total_questions} originelen! Test je kennis over de eerste generatie.',
+                'sv': f'Identifiera {sample_size} slumpmässiga Pokémon från de {total_questions} ursprungliga! Testa din kunskap om första generationen.',
+                'no': f'Identifiser {sample_size} tilfeldige Pokémon fra de {total_questions} originale! Test kunnskapen din om første generasjon.',
+                'pl': f'Zidentyfikuj {sample_size} losowych Pokémonów spośród {total_questions} oryginalnych! Przetestuj swoją wiedzę o pierwszej generacji.',
+                'id': f'Identifikasi {sample_size} Pokémon acak dari {total_questions} yang asli! Uji pengetahuan Anda tentang generasi pertama.',
+                'ja': f'{total_questions}匹のオリジナルポケモンから{sample_size}匹をランダムに識別しよう！第1世代についての知識をテストしよう。',
+                'ko': f'{total_questions}마리 오리지널 포켓몬 중 {sample_size}마리를 무작위로 식별하세요! 1세대에 대한 지식을 테스트하세요.',
+                'th': f'ระบุโปเกมอน {sample_size} ตัวแบบสุ่มจากทั้งหมด {total_questions} ตัว! ทดสอบความรู้ของคุณเกี่ยวกับรุ่นแรก',
+                'vi': f'Nhận dạng {sample_size} Pokémon ngẫu nhiên từ {total_questions} Pokémon gốc! Kiểm tra kiến thức của bạn về thế hệ đầu tiên.',
+            }
+        return descriptions.get(lang_code, descriptions['en'])
+
+    # Traduções do quiz em múltiplos idiomas (apenas campos estáticos)
     quiz_translations = {
         'en': {
             'title': 'Guess the Pokémon - Gen 1',
-            'description': 'Identify the 151 original Pokémon by looking at their images! Test your knowledge about the first generation.',
             'question_text': 'Which Pokémon is this?',
             'explanation_template': 'This is {name}, a {types} type Pokémon.'
         },
         'pt': {
             'title': 'Adivinhe o Pokémon - Geração 1',
-            'description': 'Identifique os 151 Pokémon originais olhando suas imagens! Teste seu conhecimento sobre a primeira geração.',
             'question_text': 'Qual é este Pokémon?',
             'explanation_template': 'Este é {name}, um Pokémon do tipo {types}.'
         },
         'es': {
             'title': 'Adivina el Pokémon - Gen 1',
-            'description': '¡Identifica los 151 Pokémon originales mirando sus imágenes! Pon a prueba tu conocimiento sobre la primera generación.',
             'question_text': '¿Cuál es este Pokémon?',
             'explanation_template': 'Este es {name}, un Pokémon de tipo {types}.'
         },
         'de': {
             'title': 'Errate das Pokémon - Gen 1',
-            'description': 'Identifizieren Sie die 151 Original-Pokémon anhand ihrer Bilder! Testen Sie Ihr Wissen über die erste Generation.',
             'question_text': 'Welches Pokémon ist das?',
             'explanation_template': 'Dies ist {name}, ein Pokémon vom Typ {types}.'
         },
         'fr': {
             'title': 'Devinez le Pokémon - Gén 1',
-            'description': 'Identifiez les 151 Pokémon originaux en regardant leurs images! Testez vos connaissances sur la première génération.',
             'question_text': 'Quel est ce Pokémon?',
             'explanation_template': 'C\'est {name}, un Pokémon de type {types}.'
         },
         'it': {
             'title': 'Indovina il Pokémon - Gen 1',
-            'description': 'Identifica i 151 Pokémon originali guardando le loro immagini! Metti alla prova la tua conoscenza sulla prima generazione.',
             'question_text': 'Quale Pokémon è questo?',
             'explanation_template': 'Questo è {name}, un Pokémon di tipo {types}.'
         },
         'nl': {
             'title': 'Raad de Pokémon - Gen 1',
-            'description': 'Identificeer de 151 originele Pokémon door naar hun afbeeldingen te kijken! Test je kennis over de eerste generatie.',
             'question_text': 'Welke Pokémon is dit?',
             'explanation_template': 'Dit is {name}, een Pokémon van type {types}.'
         },
         'sv': {
             'title': 'Gissa Pokémonen - Gen 1',
-            'description': 'Identifiera de 151 ursprungliga Pokémon genom att titta på deras bilder! Testa din kunskap om första generationen.',
             'question_text': 'Vilken Pokémon är detta?',
             'explanation_template': 'Detta är {name}, en Pokémon av typ {types}.'
         },
         'no': {
             'title': 'Gjett Pokémonen - Gen 1',
-            'description': 'Identifiser de 151 originale Pokémon ved å se på bildene deres! Test kunnskapen din om første generasjon.',
             'question_text': 'Hvilken Pokémon er dette?',
             'explanation_template': 'Dette er {name}, en Pokémon av type {types}.'
         },
         'pl': {
             'title': 'Zgadnij Pokémona - Gen 1',
-            'description': 'Zidentyfikuj 151 oryginalnych Pokémonów patrząc na ich obrazy! Przetestuj swoją wiedzę o pierwszej generacji.',
             'question_text': 'Który to Pokémon?',
             'explanation_template': 'To jest {name}, Pokémon typu {types}.'
         },
         'id': {
             'title': 'Tebak Pokémon - Gen 1',
-            'description': 'Identifikasi 151 Pokémon asli dengan melihat gambar mereka! Uji pengetahuan Anda tentang generasi pertama.',
             'question_text': 'Pokémon apa ini?',
             'explanation_template': 'Ini adalah {name}, Pokémon tipe {types}.'
         },
         'ja': {
             'title': 'ポケモンを当てよう - 第1世代',
-            'description': '画像を見て151匹のオリジナルポケモンを識別しよう！第1世代についての知識をテストしよう。',
             'question_text': 'このポケモンは何？',
             'explanation_template': 'これは{name}、{types}タイプのポケモンです。'
         },
         'ko': {
             'title': '포켓몬 맞히기 - 1세대',
-            'description': '이미지를 보고 151마리의 오리지널 포켓몬을 식별하세요! 1세대에 대한 지식을 테스트하세요.',
             'question_text': '이 포켓몬은 무엇입니까?',
             'explanation_template': '이것은 {name}, {types} 타입 포켓몬입니다.'
         },
         'th': {
             'title': 'ทายโปเกมอน - Gen 1',
-            'description': 'ระบุโปเกมอนดั้งเดิม 151 ตัวโดยดูจากภาพ! ทดสอบความรู้ของคุณเกี่ยวกับรุ่นแรก',
             'question_text': 'โปเกมอนตัวนี้คืออะไร?',
             'explanation_template': 'นี่คือ {name} โปเกมอนประเภท {types}'
         },
         'vi': {
             'title': 'Đoán Pokémon - Gen 1',
-            'description': 'Nhận dạng 151 Pokémon gốc bằng cách xem hình ảnh! Kiểm tra kiến thức của bạn về thế hệ đầu tiên.',
             'question_text': 'Đây là Pokémon nào?',
             'explanation_template': 'Đây là {name}, một Pokémon thuộc hệ {types}.'
         },
@@ -272,17 +323,25 @@ def create_pokemon_quizzes():
             country_suffix = country_code.split('-')[1].lower()
             quiz_slug = f"{quiz_base_slug}-{country_suffix}"
         
+        # Gerar descrição dinâmica baseada no sample_size
+        # Por padrão, este script usa question_sample_size=0 (todas as questões)
+        quiz_sample_size = 0  # 0 = usar todas as questões
+        quiz_description = get_quiz_description(lang_code, num_questions, quiz_sample_size)
+        quiz_description_template = get_quiz_description_template(lang_code)
+
         # Criar ou atualizar o quiz
         quiz, quiz_created = Quiz.objects.update_or_create(
             slug=quiz_slug,
             defaults={
                 'theme': theme,
                 'title': translation['title'],
-                'description': translation['description'],
+                'description': quiz_description,
+                'description_template': quiz_description_template,  # Template com placeholders
                 'difficulty': 'medium',
                 'active': True,
                 'order': 1,
                 'country': country_code,
+                'question_sample_size': quiz_sample_size,
             }
         )
         

@@ -842,9 +842,9 @@
                     </div>
                     <div class="info-item">
                         <div class="info-label">{% t 'difficulty_label' %}</div>
-                        <div class="info-value difficulty difficulty-{{ quiz.difficulty }}">
-                            {% if quiz.difficulty == 'easy' %}{% t 'easy' %}
-                            {% elif quiz.difficulty == 'medium' %}{% t 'medium' %}
+                        <div class="info-value difficulty difficulty-{{ quiz.get_effective_difficulty }}">
+                            {% if quiz.get_effective_difficulty == 'easy' %}{% t 'easy' %}
+                            {% elif quiz.get_effective_difficulty == 'medium' %}{% t 'medium' %}
                             {% else %}{% t 'hard' %}{% endif %}
                         </div>
                     </div>
