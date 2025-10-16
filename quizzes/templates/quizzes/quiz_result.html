@@ -1286,6 +1286,7 @@
         letter-spacing: 0.5px;
         box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
         animation: newBadgePulse 2s ease-in-out infinite;
+    z-index: 2;
     }
 
     @keyframes newBadgePulse {
@@ -1406,6 +1407,57 @@
     .badge-share-icon {
         width: 20px;
         height: 20px;
+    }
+
+    .badge-profile-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1rem 2.5rem;
+        border-radius: 50px;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 100%);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .badge-profile-btn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        transition: left 0.5s ease;
+    }
+
+    .badge-profile-btn:hover::before {
+        left: 100%;
+    }
+
+    .badge-profile-btn:hover {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.25) 100%);
+        border-color: rgba(255, 255, 255, 0.6);
+        transform: translateY(-3px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .badge-profile-arrow {
+        width: 18px;
+        height: 18px;
+        transition: transform 0.3s ease;
+    }
+
+    .badge-profile-btn:hover .badge-profile-arrow {
+        transform: translateX(5px);
     }
 
     /* Responsive */
@@ -1907,6 +1959,21 @@
                         </svg>
                         <span>Twitter</span>
                     </button>
+                </div>
+
+                <!-- Profile Button -->
+                <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid rgba(255, 255, 255, 0.2);">
+                    <p class="badges-earned-share-title" style="margin-bottom: 1rem;">✨ Ver todas as suas conquistas</p>
+                    <a href="{% url 'quizzes:user_profile' %}" class="badge-profile-btn">
+                        <svg class="badge-share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        <span>Ir para o Perfil</span>
+                        <svg class="badge-profile-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>

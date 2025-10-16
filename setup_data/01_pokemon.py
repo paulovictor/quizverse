@@ -591,7 +591,6 @@ def create_pokemon_badges(quiz_group):
     print()
     
     badges_data = [
-        # MAESTRIA (Todas requerem 100%)
         {
             'title': '🟠 Amber Pikachu',
             'description': 'Acerte todos os 150 Pokémon! Maestria absoluta da Geração 1.',

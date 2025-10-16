@@ -4,12 +4,154 @@
 
 {% block title %}Meu Perfil - Quizverso{% endblock %}
 
-{% block body_background %}#f8f9fa{% endblock %}
+{% block body_background %}var(--bg-secondary){% endblock %}
+
+{% block extra_body_styles %}
+body.dark-mode {
+    background: var(--bg-primary) !important;
+}
+
+body.dark-mode .profile-container {
+    background: #1e293b;
+    border-radius: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Menu de navegação no modo escuro */
+body.dark-mode .profile-nav {
+    background: #1f2937;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Abas inativas no modo escuro */
+body.dark-mode .profile-nav-tab {
+    background: #374151;
+    color: #d1d5db;
+}
+
+body.dark-mode .profile-nav-tab:hover {
+    background: #4b5563;
+    color: #f3f4f6;
+}
+
+/* Seções no modo escuro */
+body.dark-mode .achievements-section,
+body.dark-mode .results-section {
+    background: #1e293b;
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+/* Cards de badges no modo escuro */
+body.dark-mode .badge-card {
+    background: #1f2937;
+    border: 1px solid #374151;
+}
+
+/* Cards de resultados no modo escuro */
+body.dark-mode .result-card {
+    background: #1f2937;
+    border: 1px solid #374151;
+}
+
+/* Filtros no modo escuro */
+body.dark-mode .filter-tabs {
+    background: #1f2937;
+    border: 1px solid #374151;
+}
+
+body.dark-mode .filter-tab {
+    background: #374151;
+    color: #d1d5db;
+}
+
+body.dark-mode .filter-tab:hover {
+    background: #4b5563;
+}
+
+body.dark-mode .filter-tab.active {
+    background: linear-gradient(135deg, #1e40af 0%, #0369a1 100%);
+    color: white;
+}
+
+/* Botões de resultado no modo escuro */
+body.dark-mode .result-badge.perfect {
+    background: #065f46;
+    color: #d1fae5;
+}
+
+body.dark-mode .result-badge.great {
+    background: #92400e;
+    color: #fef3c7;
+}
+
+body.dark-mode .result-badge.good {
+    background: #92400e;
+    color: #fef3c7;
+}
+
+body.dark-mode .result-badge.try-again {
+    background: #991b1b;
+    color: #fee2e2;
+}
+
+/* Botão "Tentar novamente" no modo escuro */
+body.dark-mode .retry-button {
+    background: transparent;
+    border: 2px solid #60a5fa;
+    color: #60a5fa;
+}
+
+body.dark-mode .retry-button:hover {
+    background: #60a5fa;
+    color: #1e293b;
+}
+
+/* Botão "Todos" no modo escuro */
+body.dark-mode .filter-tab {
+    background: #374151;
+    color: #d1d5db;
+    border: 1px solid #4b5563;
+}
+
+body.dark-mode .filter-tab.active {
+    background: linear-gradient(135deg, #1e40af 0%, #0369a1 100%);
+    color: white;
+    border: 1px solid #1e40af;
+}
+
+/* Estados vazios no modo escuro */
+body.dark-mode .empty-state {
+    background: #1f2937;
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+body.dark-mode .empty-achievements {
+    background: #1f2937;
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+/* Botão de ação no estado vazio no modo escuro */
+body.dark-mode .empty-state-button {
+    background: linear-gradient(135deg, #1e40af 0%, #0369a1 100%);
+    color: white;
+}
+
+body.dark-mode .empty-state-button:hover {
+    background: linear-gradient(135deg, #1d4ed8 0%, #0284c7 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(30, 64, 175, 0.4);
+}
+{% endblock %}
 
 {% block extra_styles %}
 /* Profile Header Hero - Full Width */
 .profile-hero {
-    background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    background: linear-gradient(135deg, var(--body-gradient-start) 0%, var(--body-gradient-end) 100%);
     padding: 3rem 0;
     margin: 0;
     width: 100%;
@@ -17,7 +159,7 @@
 }
 
 body.dark-mode .profile-hero {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    background: linear-gradient(135deg, var(--body-gradient-start) 0%, var(--body-gradient-end) 100%);
 }
 
 .profile-hero-content {
@@ -88,11 +230,321 @@ body.dark-mode .profile-hero {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
+    background: var(--bg-primary);
+    transition: background 0.3s ease;
+}
+
+/* Profile Navigation Menu */
+.profile-nav {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 1rem;
+    margin: -2rem auto 2rem;
+    max-width: 1200px;
+    box-shadow: var(--shadow-md);
+    position: relative;
+    z-index: 10;
+}
+
+.profile-nav-tabs {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-nav-tab {
+    padding: 0.875rem 2rem;
+    background: var(--bg-secondary);
+    border: none;
+    border-radius: 12px;
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-nav-tab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.profile-nav-tab:hover::before {
+    left: 100%;
+}
+
+.profile-nav-tab:hover {
+    background: var(--bg-tertiary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-nav-tab.active {
+    background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    transform: translateY(-2px);
+}
+
+body.dark-mode .profile-nav-tab.active {
+    background: linear-gradient(135deg, #1e40af 0%, #0369a1 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(30, 64, 175, 0.4);
+}
+
+.profile-nav-tab.active::before {
+    display: none;
+}
+
+.profile-nav-icon {
+    font-size: 1.25rem;
+}
+
+/* Achievements Section */
+.achievements-section {
+    padding: 3rem 0 2rem 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.achievements-section.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 0.5rem;
+}
+
+body.dark-mode .section-title {
+    color: var(--text-primary);
+}
+
+.section-subtitle {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+/* Badges Grid */
+.badges-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.badge-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.badge-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+}
+
+.badge-card.rarity-common::before {
+    background: linear-gradient(90deg, #94a3b8, #64748b);
+}
+
+.badge-card.rarity-rare::before {
+    background: linear-gradient(90deg, #60a5fa, #3b82f6);
+}
+
+.badge-card.rarity-epic::before {
+    background: linear-gradient(90deg, #a78bfa, #8b5cf6);
+}
+
+.badge-card.rarity-legendary::before {
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+}
+
+.badge-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.badge-image-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.badge-card.rarity-common .badge-image-container {
+    background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+    box-shadow: 0 4px 15px rgba(148, 163, 184, 0.3);
+}
+
+.badge-card.rarity-rare .badge-image-container {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.badge-card.rarity-epic .badge-image-container {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.badge-card.rarity-legendary .badge-image-container {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    box-shadow: 0 4px 15px rgba(251, 191, 36, 0.4);
+    animation: pulse-gold 2s ease-in-out infinite;
+}
+
+@keyframes pulse-gold {
+    0%, 100% {
+        box-shadow: 0 4px 15px rgba(251, 191, 36, 0.4);
+    }
+    50% {
+        box-shadow: 0 4px 25px rgba(251, 191, 36, 0.6);
+    }
+}
+
+.badge-image {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.badge-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 0.5rem;
+}
+
+body.dark-mode .badge-title {
+    color: var(--text-primary);
+}
+
+.badge-description {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.badge-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.badge-quiz-group {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.badge-earned-date {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+}
+
+.badge-stats {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.75rem;
+}
+
+.badge-stat {
+    text-align: center;
+}
+
+.badge-stat-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+body.dark-mode .badge-stat-value {
+    color: var(--text-primary);
+}
+
+.badge-stat-label {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0.25rem;
+}
+
+.empty-achievements {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-secondary);
+}
+
+.empty-achievements-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.empty-achievements-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.empty-achievements-text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* Results Section */
 .results-section {
     padding: 3rem 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.results-section.hidden {
+    opacity: 0;
+    transform: translateY(20px);
 }
 
 .results-header {
@@ -388,6 +840,10 @@ body.dark-mode .result-stat-value {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .badges-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .profile-hero-content {
         flex-direction: column;
         text-align: center;
@@ -423,6 +879,10 @@ body.dark-mode .result-stat-value {
         grid-template-columns: 1fr;
     }
 
+    .badges-grid {
+        grid-template-columns: 1fr;
+    }
+
     .profile-hero {
         padding: 2rem 0;
     }
@@ -446,7 +906,27 @@ body.dark-mode .result-stat-value {
         padding: 0 1rem;
     }
 
-    .results-section {
+    .profile-nav {
+        margin: -1.5rem auto 1.5rem;
+        padding: 0.75rem;
+    }
+
+    .profile-nav-tabs {
+        gap: 0.25rem;
+    }
+
+    .profile-nav-tab {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+        gap: 0.5rem;
+    }
+
+    .profile-nav-icon {
+        font-size: 1rem;
+    }
+
+    .results-section,
+    .achievements-section {
         padding: 2rem 0;
     }
 
@@ -481,6 +961,10 @@ body.dark-mode .result-stat-value {
     .retry-button {
         width: 100%;
     }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
 }
 {% endblock %}
 
@@ -507,16 +991,90 @@ body.dark-mode .result-stat-value {
                 <div class="stat-label">Taxa de Acerto</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">{{ perfect_quizzes }}</div>
-                <div class="stat-label">Quizzes Perfeitos</div>
+                <div class="stat-number">{{ total_badges }}</div>
+                <div class="stat-label">Badges Conquistadas</div>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Profile Navigation Menu -->
+<div class="profile-nav">
+    <div class="profile-nav-tabs">
+        <a href="#conquistas" class="profile-nav-tab active" data-tab="conquistas">
+            <span class="profile-nav-icon">🏆</span>
+            Minhas Conquistas
+        </a>
+        <a href="#resultados" class="profile-nav-tab" data-tab="resultados">
+            <span class="profile-nav-icon">📊</span>
+            Meus Resultados
+        </a>
+    </div>
+</div>
+
+<!-- Achievements Section -->
+<div class="profile-container">
+    <div class="achievements-section" id="conquistas">
+        <div class="section-header">
+            <h2 class="section-title">🏆 Minhas Conquistas</h2>
+            <p class="section-subtitle">
+                {% if total_badges > 0 %}
+                    Você conquistou {{ total_badges }} badge{% if total_badges != 1 %}s{% endif %}!
+                {% else %}
+                    Complete quizzes para conquistar badges incríveis
+                {% endif %}
+            </p>
+        </div>
+
+        {% if user_badges %}
+        <div class="badges-grid">
+            {% for user_badge in user_badges %}
+            <div class="badge-card rarity-{{ user_badge.badge.rarity }}">
+                <div class="badge-image-container">
+                    <img src="{{ user_badge.badge.image }}" alt="{{ user_badge.badge.title }}" class="badge-image">
+                </div>
+                <h3 class="badge-title">{{ user_badge.badge.title }}</h3>
+                <p class="badge-description">{{ user_badge.badge.description }}</p>
+                
+                <div class="badge-stats">
+                    {% if user_badge.completion_time_seconds %}
+                    <div class="badge-stat">
+                        <div class="badge-stat-value">
+                            {% if user_badge.completion_time_seconds < 60 %}
+                                {{ user_badge.completion_time_seconds }}s
+                            {% elif user_badge.completion_time_seconds < 3600 %}
+                                {{ user_badge.completion_time_seconds|floatformat:0|add:"0"|slice:":2" }}min
+                            {% else %}
+                                {{ user_badge.completion_time_seconds|floatformat:0|add:"0"|slice:":1" }}h
+                            {% endif %}
+                        </div>
+                        <div class="badge-stat-label">Tempo</div>
+                    </div>
+                    {% endif %}
+                </div>
+                
+                <div class="badge-meta">
+                    <div class="badge-earned-date">{{ user_badge.earned_at|date:"d/m/Y" }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-achievements">
+            <div class="empty-achievements-icon">🏅</div>
+            <h3 class="empty-achievements-title">Nenhuma conquista ainda</h3>
+            <p class="empty-achievements-text">Complete quizzes e alcance boas pontuações para conquistar badges exclusivas!</p>
+            <a href="{% url 'quizzes:home' %}" class="empty-state-button">
+                Começar a Conquistar
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
 <!-- Results Section - With white/ice background -->
 <div class="profile-container">
-    <div class="results-section">
+    <div class="results-section" id="resultados">
         <div class="results-header">
             <h2 class="results-title">Meus Resultados</h2>
             <div class="filter-tabs">
@@ -581,5 +1139,74 @@ body.dark-mode .result-stat-value {
         {% endif %}
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const navTabs = document.querySelectorAll('.profile-nav-tab');
+    const achievementsSection = document.getElementById('conquistas');
+    const resultsSection = document.getElementById('resultados');
+    
+    // Função para atualizar aba ativa
+    function updateActiveTab(activeTab) {
+        navTabs.forEach(tab => {
+            tab.classList.remove('active');
+        });
+        activeTab.classList.add('active');
+    }
+    
+    // Função para mostrar/ocultar seções
+    function showSection(sectionToShow) {
+        // Ocultar todas as seções com animação
+        achievementsSection.classList.add('hidden');
+        resultsSection.classList.add('hidden');
+        
+        // Aguardar um pouco para a animação de saída
+        setTimeout(() => {
+            // Ocultar completamente as seções não ativas
+            achievementsSection.style.display = 'none';
+            resultsSection.style.display = 'none';
+            
+            // Mostrar a seção selecionada
+            sectionToShow.style.display = 'block';
+            
+            // Forçar reflow para garantir que o display foi aplicado
+            sectionToShow.offsetHeight;
+            
+            // Remover classe hidden para animação de entrada
+            sectionToShow.classList.remove('hidden');
+            
+            // Scroll suave para o topo da seção
+            sectionToShow.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }, 150);
+    }
+    
+    // Adicionar event listeners para as abas
+    navTabs.forEach(tab => {
+        tab.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('data-tab');
+            let targetSection;
+            
+            if (targetId === 'conquistas') {
+                targetSection = achievementsSection;
+            } else if (targetId === 'resultados') {
+                targetSection = resultsSection;
+            }
+            
+            if (targetSection) {
+                updateActiveTab(this);
+                showSection(targetSection);
+            }
+        });
+    });
+    
+    // Inicializar com a seção de conquistas visível
+    showSection(achievementsSection);
+});
+</script>
 {% endblock %}
 

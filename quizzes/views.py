@@ -739,6 +739,12 @@ def user_profile(request):
         accuracy_rate = 0
         perfect_quizzes = 0
     
+    # Buscar todas as badges conquistadas pelo usuário
+    from .models import UserBadge
+    user_badges = UserBadge.objects.filter(
+        user=user
+    ).select_related('badge', 'quiz_group', 'quiz_attempt__quiz').order_by('-earned_at')
+    
     # Filtro por categoria
     category_filter = request.GET.get('category', 'all')
     
@@ -801,6 +807,8 @@ def user_profile(request):
         'attempts_data': attempts_data,
         'themes': themes,
         'category_filter': category_filter,
+        'user_badges': user_badges,
+        'total_badges': user_badges.count(),
         **get_country_context(request),
     }
     
