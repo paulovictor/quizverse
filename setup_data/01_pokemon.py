@@ -19,7 +19,7 @@ sys.path.insert(0, project_root)
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'quiz.settings')
 django.setup()
 
-from quizzes.models import Theme, Quiz, QuizGroup, Question, Answer
+from quizzes.models import Theme, Quiz, QuizGroup, Question, Answer, Badge, QuizGroupBadge
 
 
 # ============================================================================
@@ -579,6 +579,132 @@ def create_pokemon_quizzes(quiz_group, all_pokemon, cloudinary_urls):
 
 
 # ============================================================================
+# ETAPA 4: CRIAR BADGES
+# ============================================================================
+
+def create_pokemon_badges(quiz_group):
+    """Cria as badges de Pokémon Gen 1 e associa ao QuizGroup"""
+    
+    print("=" * 80)
+    print("ETAPA 4: CRIANDO BADGES DE POKÉMON GEN 1")
+    print("=" * 80)
+    print()
+    
+    badges_data = [
+        # MAESTRIA (Todas requerem 100%)
+        {
+            'title': '🟠 Amber Pikachu',
+            'description': 'Acerte todos os 150 Pokémon! Maestria absoluta da Geração 1.',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586764/ChatGPT_Image_Oct_16_2025_12_35_33_AM_qv1cgh.png',
+            'rule_type': 'perfect_score',
+            'min_percentage': 100.0,
+            'max_time_seconds': None,
+            'rarity': 'epic',
+            'points': 150,
+            'order': 1,
+        },
+        {
+            'title': '🔴 Ruby Pikachu',
+            'description': 'Acerte todos os 150 Pokémon em menos de 25 minutos! Velocidade e precisão impecáveis.',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
+            'rule_type': 'percentage_time',
+            'min_percentage': 100.0,
+            'max_time_seconds': 1500,  # 25 minutos
+            'rarity': 'epic',
+            'points': 200,
+            'order': 2,
+        },
+        {
+            'title': '🟢 Emerald Pikachu',
+            'description': 'Acerte todos os 150 Pokémon em menos de 15 minutos! Conhecimento extraordinário.',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586750/ChatGPT_Image_Oct_16_2025_12_35_07_AM_gguqea.png',
+            'rule_type': 'percentage_time',
+            'min_percentage': 100.0,
+            'max_time_seconds': 900,  # 15 minutos
+            'rarity': 'legendary',
+            'points': 300,
+            'order': 3,
+        },
+        {
+            'title': '🔵 Sapphire Pikachu',
+            'description': 'Acerte todos os 150 Pokémon em menos de 10 minutos! Você é um verdadeiro mestre Pokémon.',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
+            'rule_type': 'percentage_time',
+            'min_percentage': 100.0,
+            'max_time_seconds': 600,  # 10 minutos
+            'rarity': 'legendary',
+            'points': 400,
+            'order': 4,
+        },
+        {
+            'title': '💎 Diamond Pikachu',
+            'description': 'Acerte todos os 150 Pokémon em menos de 6 minutos! Lenda absoluta da Geração 1.',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586749/ChatGPT_Image_Oct_16_2025_12_35_02_AM_nvtiy0.png',
+            'rule_type': 'percentage_time',
+            'min_percentage': 100.0,
+            'max_time_seconds': 360,  # 6 minutos
+            'rarity': 'legendary',
+            'points': 500,
+            'order': 5,
+        },
+    ]
+    
+    created_count = 0
+    updated_count = 0
+    associated_count = 0
+    
+    for badge_data in badges_data:
+        # Criar ou atualizar badge
+        badge, created = Badge.objects.update_or_create(
+            title=badge_data['title'],
+            defaults={
+                'description': badge_data['description'],
+                'image': badge_data['image'],
+                'rule_type': badge_data['rule_type'],
+                'min_percentage': badge_data['min_percentage'],
+                'max_time_seconds': badge_data['max_time_seconds'],
+                'rarity': badge_data['rarity'],
+                'points': badge_data['points'],
+                'order': badge_data['order'],
+                'active': True,
+            }
+        )
+        
+        if created:
+            created_count += 1
+            status = "✅ CRIADO"
+        else:
+            updated_count += 1
+            status = "🔄 ATUALIZADO"
+        
+        # Associar ao QuizGroup
+        group_badge, group_created = QuizGroupBadge.objects.get_or_create(
+            quiz_group=quiz_group,
+            badge=badge,
+            defaults={'active': True}
+        )
+        
+        if group_created:
+            associated_count += 1
+            association_status = "🔗 Associado"
+        else:
+            association_status = "✓ Já associado"
+        
+        time_info = ""
+        if badge_data['max_time_seconds']:
+            minutes = badge_data['max_time_seconds'] // 60
+            time_info = f" (< {minutes}min)"
+        
+        print(f"{status:15s} | {badge_data['title']:25s} | {badge_data['rarity']:10s} | {badge_data['points']:3d} pts{time_info:15s} | {association_status}")
+    
+    print()
+    print(f"📊 Badges criadas: {created_count} | Atualizadas: {updated_count} | Associadas: {associated_count}")
+    print()
+    
+    return created_count, updated_count
+
+
+# ============================================================================
 # MAIN
 # ============================================================================
 
@@ -612,6 +738,9 @@ def main():
 
     # Etapa 3: Criar Quizzes e Questões
     quizzes_created, quizzes_updated = create_pokemon_quizzes(quiz_group, all_pokemon, cloudinary_urls)
+    
+    # Etapa 4: Criar Badges
+    badges_created, badges_updated = create_pokemon_badges(quiz_group)
 
     # Resumo final
     print("=" * 80)
@@ -622,8 +751,15 @@ def main():
     print(f"✅ Quizzes criados: {quizzes_created}")
     print(f"🔄 Quizzes atualizados: {quizzes_updated}")
     print(f"📝 Total de quizzes no grupo: {quiz_group.quizzes.count()}")
+    print(f"🏆 Badges criadas: {badges_created}")
+    print(f"🔄 Badges atualizadas: {badges_updated}")
     print()
-    print("🎉 Setup concluído com sucesso!")
+    print("🎉 Setup completo de Pokémon Gen 1 concluído com sucesso!")
+    print()
+    print("💡 Próximos passos:")
+    print("   1. Verifique as badges em /admin/quizzes/badge/")
+    print("   2. As badges já estão associadas ao QuizGroup 'pokemon-gen1'")
+    print("   3. Complete um quiz para testar se as badges são concedidas automaticamente!")
     print()
 
 

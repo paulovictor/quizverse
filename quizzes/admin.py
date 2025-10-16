@@ -13,8 +13,9 @@ from .models import (
 class ThemeAdmin(admin.ModelAdmin):
     list_display = ['title', 'slug', 'country', 'icon', 'active', 'created_at']
     list_filter = ['active', 'country', 'created_at']
-    search_fields = ['title', 'description', 'slug']
+    search_fields = ['title', 'description', 'slug']  # Necessário para autocomplete
     prepopulated_fields = {'slug': ('title',)}
+    autocomplete_fields = ['parent']
     fieldsets = (
         ('Informações Básicas', {
             'fields': ('title', 'slug', 'description', 'country', 'icon', 'parent', 'order', 'active')
@@ -48,8 +49,9 @@ class QuestionInline(admin.StackedInline):
 @admin.register(Quiz)
 class QuizAdmin(admin.ModelAdmin):
     list_display = ['title', 'theme', 'quiz_group', 'country', 'difficulty', 'active', 'get_total_questions', 'question_sample_size', 'order', 'created_at']
-    list_filter = ['active', 'country', 'difficulty', 'theme', 'quiz_group', 'created_at']
+    list_filter = ['active', 'country', 'difficulty', 'created_at']
     search_fields = ['title', 'description', 'slug']
+    autocomplete_fields = ['theme', 'quiz_group']
     prepopulated_fields = {'slug': ('title',)}
     inlines = [QuestionInline]
     fieldsets = (
@@ -70,8 +72,9 @@ class QuizAdmin(admin.ModelAdmin):
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
     list_display = ['short_text', 'quiz', 'order', 'created_at']
-    list_filter = ['quiz__theme', 'quiz', 'created_at']
-    search_fields = ['text', 'explanation']
+    list_filter = ['created_at']
+    search_fields = ['text', 'explanation', 'quiz__title']
+    autocomplete_fields = ['quiz']
     inlines = [AnswerInline]
     
     def short_text(self, obj):
@@ -82,8 +85,9 @@ class QuestionAdmin(admin.ModelAdmin):
 @admin.register(Answer)
 class AnswerAdmin(admin.ModelAdmin):
     list_display = ['short_text', 'question', 'is_correct', 'order']
-    list_filter = ['is_correct', 'question__quiz']
-    search_fields = ['text']
+    list_filter = ['is_correct', 'created_at']
+    search_fields = ['text', 'question__text']
+    autocomplete_fields = ['question']
     
     def short_text(self, obj):
         correct = "✓" if obj.is_correct else "✗"
