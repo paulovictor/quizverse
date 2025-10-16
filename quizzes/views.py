@@ -255,11 +255,48 @@ def theme_detail(request, theme_slug):
     
     # Gerar breadcrumb
     breadcrumb = theme.get_breadcrumb()
-    
+
+    # Buscar badges conquistadas pelo usuário (se autenticado)
+    user_earned_badges = set()
+    if request.user.is_authenticated:
+        from quizzes.models import UserBadge
+        user_earned_badges = set(
+            UserBadge.objects.filter(user=request.user)
+            .values_list('badge_id', flat=True)
+        )
+
+    # Adicionar informações de badges conquistadas aos quizzes
+    quizzes_with_badges = []
+    for quiz in quizzes:
+        quiz_data = {
+            'quiz': quiz,
+            'earned_badges': [],
+            'total_badges': 0,
+            'earned_count': 0,
+        }
+
+        if quiz.quiz_group:
+            available_badges = quiz.quiz_group.available_badges.filter(
+                active=True, badge__active=True
+            )
+            quiz_data['total_badges'] = available_badges.count()
+
+            for group_badge in available_badges:
+                is_earned = group_badge.badge.id in user_earned_badges
+                if is_earned:
+                    quiz_data['earned_count'] += 1
+                quiz_data['earned_badges'].append({
+                    'group_badge': group_badge,
+                    'is_earned': is_earned,
+                })
+
+        quizzes_with_badges.append(quiz_data)
+
     context = {
         'theme': theme,
         'subcategories': subcategories_with_info,
         'quizzes': quizzes,
+        'quizzes_with_badges': quizzes_with_badges,
         'products': products,
         'breadcrumb': breadcrumb,
         **get_country_context(request),
