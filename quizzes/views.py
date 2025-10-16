@@ -310,10 +310,18 @@ def quiz_detail(request, theme_slug, quiz_slug):
             attempt.percentage = percentage
             attempt.total_score = attempt.score  # Alias para template
             
+            # Adicionar duração formatada
+            attempt.duration_formatted = attempt.get_duration_formatted()
+            
             # Para tentativas não completadas, contar quantas questões já foram respondidas
             if attempt.completed_at is None:
                 attempt.answered_questions = attempt.user_answers.count()
                 attempt.remaining_questions = attempt.max_score - attempt.answered_questions
+                # Calcular porcentagem de progresso
+                if attempt.max_score > 0:
+                    attempt.progress_percentage = int((attempt.answered_questions / attempt.max_score) * 100)
+                else:
+                    attempt.progress_percentage = 0
             
             user_attempts.append(attempt)
         

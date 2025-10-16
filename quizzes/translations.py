@@ -231,6 +231,41 @@ TRANSLATIONS = {
         'nl': 'resterend', 'sv': 'återstående', 'no': 'gjenstående', 'pl': 'pozostałe', 'id': 'tersisa',
         'ja': '残り', 'ko': '남은', 'th': 'เหลือ', 'vi': 'còn lại',
     },
+    'completed': {
+        'pt-BR': 'Concluído', 'en': 'Completed', 'es': 'Completado', 'fr': 'Terminé', 'de': 'Abgeschlossen', 'it': 'Completato',
+        'nl': 'Voltooid', 'sv': 'Slutförd', 'no': 'Fullført', 'pl': 'Ukończono', 'id': 'Selesai',
+        'ja': '完了', 'ko': '완료됨', 'th': 'เสร็จสิ้น', 'vi': 'Hoàn thành',
+    },
+    'in_progress': {
+        'pt-BR': 'Em Progresso', 'en': 'In Progress', 'es': 'En Progreso', 'fr': 'En cours', 'de': 'In Bearbeitung', 'it': 'In corso',
+        'nl': 'Bezig', 'sv': 'Pågår', 'no': 'Pågår', 'pl': 'W trakcie', 'id': 'Berlangsung',
+        'ja': '進行中', 'ko': '진행 중', 'th': 'กำลังดำเนินการ', 'vi': 'Đang tiến hành',
+    },
+    'correct_questions': {
+        'pt-BR': 'questões corretas', 'en': 'correct answers', 'es': 'respuestas correctas', 'fr': 'bonnes réponses', 'de': 'richtige Antworten', 'it': 'risposte corrette',
+        'nl': 'juiste antwoorden', 'sv': 'rätta svar', 'no': 'riktige svar', 'pl': 'poprawne odpowiedzi', 'id': 'jawaban benar',
+        'ja': '正解', 'ko': '정답', 'th': 'คำตอบที่ถูกต้อง', 'vi': 'câu trả lời đúng',
+    },
+    'correct_answers_label': {
+        'pt-BR': 'Acertos', 'en': 'Correct', 'es': 'Aciertos', 'fr': 'Corrects', 'de': 'Richtig', 'it': 'Corretti',
+        'nl': 'Correct', 'sv': 'Rätt', 'no': 'Riktig', 'pl': 'Poprawne', 'id': 'Benar',
+        'ja': '正解数', 'ko': '정답 수', 'th': 'ถูก', 'vi': 'Đúng',
+    },
+    'of': {
+        'pt-BR': 'de', 'en': 'of', 'es': 'de', 'fr': 'sur', 'de': 'von', 'it': 'di',
+        'nl': 'van', 'sv': 'av', 'no': 'av', 'pl': 'z', 'id': 'dari',
+        'ja': 'の', 'ko': '중', 'th': 'จาก', 'vi': 'trên',
+    },
+    'duration': {
+        'pt-BR': 'Duração', 'en': 'Duration', 'es': 'Duración', 'fr': 'Durée', 'de': 'Dauer', 'it': 'Durata',
+        'nl': 'Duur', 'sv': 'Varaktighet', 'no': 'Varighet', 'pl': 'Czas trwania', 'id': 'Durasi',
+        'ja': '所要時間', 'ko': '소요 시간', 'th': 'ระยะเวลา', 'vi': 'Thời lượng',
+    },
+    'view_answers': {
+        'pt-BR': 'Ver Respostas', 'en': 'View Answers', 'es': 'Ver Respuestas', 'fr': 'Voir les réponses', 'de': 'Antworten ansehen', 'it': 'Vedi risposte',
+        'nl': 'Antwoorden bekijken', 'sv': 'Visa svar', 'no': 'Se svar', 'pl': 'Zobacz odpowiedzi', 'id': 'Lihat Jawaban',
+        'ja': '回答を見る', 'ko': '답변 보기', 'th': 'ดูคำตอบ', 'vi': 'Xem câu trả lời',
+    },
     'your_history': {
         'pt-BR': 'Seu Histórico', 'en': 'Your History', 'es': 'Tu Historial', 'fr': 'Votre Historique', 'de': 'Ihre Geschichte', 'it': 'La tua Storia',
         'nl': 'Jouw Geschiedenis', 'sv': 'Din Historik', 'no': 'Din Historie', 'pl': 'Twoja Historia', 'id': 'Riwayat Anda',

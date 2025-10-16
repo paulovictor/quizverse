@@ -351,203 +351,337 @@
         color: #60a5fa;
     }
 
+    /* History List - Minimalist Design */
     .history-list {
         display: flex;
         flex-direction: column;
         gap: 0.75rem;
     }
 
+    /* Attempt Card - Clean & Minimal */
     .history-item {
-        background: #f8fafc;
+        position: relative;
+        background: white;
         border-radius: 12px;
         padding: 1.25rem 1.5rem;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        gap: 1.25rem;
         transition: all 0.2s ease;
-        border: 2px solid transparent;
+        border: 1px solid #f1f5f9;
     }
 
     body.dark-mode .history-item {
-        background: #1e293b;
+        background: rgba(30, 41, 59, 0.5);
+        border-color: #334155;
     }
 
     .history-item:hover {
-        border-color: #dbeafe;
-        background: white;
-        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.1);
+        border-color: #e2e8f0;
+        background: #fafbfc;
     }
 
     body.dark-mode .history-item:hover {
-        border-color: #334155;
-        background: #0f172a;
-        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+        border-color: #475569;
+        background: rgba(30, 41, 59, 0.7);
     }
 
-    .history-date {
+    /* Attempt Meta Info */
+    .attempt-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 0.375rem;
+        flex-shrink: 0;
+        min-width: 140px;
+    }
+
+    .attempt-date {
+        font-size: 0.8125rem;
+        color: #1e293b;
+        font-weight: 600;
         display: flex;
         align-items: center;
-        gap: 0.5rem;
-        color: #64748b;
-        font-size: 0.9rem;
+        gap: 0.375rem;
     }
 
-    body.dark-mode .history-date {
+    body.dark-mode .attempt-date {
+        color: #f1f5f9;
+    }
+
+    .attempt-date-icon {
+        font-size: 0.875rem;
+    }
+
+    .attempt-time {
+        font-size: 0.75rem;
+        color: #64748b;
+        display: flex;
+        align-items: center;
+        gap: 0.375rem;
+        font-weight: 500;
+    }
+
+    body.dark-mode .attempt-time {
         color: #94a3b8;
     }
 
-    .history-score {
+    .time-icon {
+        font-size: 0.875rem;
+    }
+
+    .time-value {
+        color: #3b82f6;
+        font-weight: 600;
+    }
+
+    body.dark-mode .time-value {
+        color: #60a5fa;
+    }
+
+    /* Attempt Content */
+    .attempt-content {
+        flex: 1;
         display: flex;
         align-items: center;
         gap: 1rem;
+        min-width: 0;
     }
 
-    .score-value {
-        font-size: 1.125rem;
-        font-weight: 700;
-    }
-
-    .score-perfect {
-        color: #10b981;
-    }
-
-    .score-good {
-        color: #f59e0b;
-    }
-
-    .score-poor {
-        color: #ef4444;
-    }
-
-    .score-badge {
-        padding: 0.375rem 0.875rem;
-        border-radius: 50px;
+    /* Status Indicator */
+    .attempt-status {
         font-size: 0.875rem;
-        font-weight: 600;
-    }
-
-    .badge-perfect {
-        background: #dcfce7;
-        color: #166534;
-    }
-
-    body.dark-mode .badge-perfect {
-        background: rgba(16, 185, 129, 0.2);
-        color: #10b981;
-    }
-
-    .badge-good {
-        background: #fef3c7;
-        color: #92400e;
-    }
-
-    body.dark-mode .badge-good {
-        background: rgba(245, 158, 11, 0.2);
-        color: #f59e0b;
-    }
-
-    .badge-poor {
-        background: #fee2e2;
-        color: #991b1b;
-    }
-
-    body.dark-mode .badge-poor {
-        background: rgba(239, 68, 68, 0.2);
-        color: #ef4444;
-    }
-
-    /* Incomplete Badge */
-    .badge-incomplete {
-        background: #f1f5f9;
+        font-weight: 500;
         color: #475569;
-        padding: 0.375rem 0.875rem;
-        border-radius: 50px;
-        font-size: 0.875rem;
-        font-weight: 600;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
     }
 
-    body.dark-mode .badge-incomplete {
-        background: rgba(100, 116, 139, 0.2);
+    body.dark-mode .attempt-status {
         color: #94a3b8;
     }
 
+    .attempt-status strong {
+        font-weight: 600;
+        color: #1e293b;
+    }
+
+    body.dark-mode .attempt-status strong {
+        color: #f1f5f9;
+    }
+
+    /* Progress Bar (for incomplete) */
+    .attempt-progress-bar {
+        width: 200px;
+        height: 6px;
+        background: #f1f5f9;
+        border-radius: 50px;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    body.dark-mode .attempt-progress-bar {
+        background: #334155;
+    }
+
+    .progress-fill {
+        height: 100%;
+        background: #3b82f6;
+        border-radius: 50px;
+        transition: width 0.3s ease;
+    }
+
+    body.dark-mode .progress-fill {
+        background: #60a5fa;
+    }
+
+    /* Score Display - Minimalist */
+    .attempt-score {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        flex-shrink: 0;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+        background: #fafbfc;
+    }
+
+    body.dark-mode .attempt-score {
+        border-color: #334155;
+        background: rgba(15, 23, 42, 0.5);
+    }
+
+    .score-number {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1e293b;
+        line-height: 1;
+    }
+
+    body.dark-mode .score-number {
+        color: #f1f5f9;
+    }
+
+    .score-number.perfect {
+        color: #10b981;
+    }
+
+    .score-number.good {
+        color: #f59e0b;
+    }
+
+    .score-number.poor {
+        color: #ef4444;
+    }
+
+    body.dark-mode .score-number.perfect {
+        color: #34d399;
+    }
+
+    body.dark-mode .score-number.good {
+        color: #fbbf24;
+    }
+
+    body.dark-mode .score-number.poor {
+        color: #f87171;
+    }
+
+    .score-label {
+        font-size: 0.75rem;
+        color: #64748b;
+        font-weight: 500;
+    }
+
+    body.dark-mode .score-label {
+        color: #94a3b8;
+    }
+
+    /* Incomplete Attempt Styles */
     .history-item.incomplete {
-        opacity: 0.85;
-        border-left: 3px solid #94a3b8;
+        border-left: 3px solid #f59e0b;
     }
 
     body.dark-mode .history-item.incomplete {
-        border-left-color: #475569;
+        border-left-color: #fbbf24;
     }
 
-    .incomplete-text {
-        color: #64748b;
-        font-size: 0.875rem;
-        font-style: italic;
-    }
-
-    body.dark-mode .incomplete-text {
-        color: #94a3b8;
-    }
-
-    .incomplete-info {
+    /* Buttons */
+    .attempt-actions {
         display: flex;
-        flex-direction: column;
+        align-items: center;
         gap: 0.5rem;
-        flex: 1;
-    }
-
-    .progress-text {
-        font-size: 0.875rem;
-        color: #475569;
-        font-weight: 600;
-    }
-
-    body.dark-mode .progress-text {
-        color: #94a3b8;
-    }
-
-    .remaining-text {
-        color: #64748b;
-        font-weight: 400;
-        font-size: 0.8125rem;
-    }
-
-    body.dark-mode .remaining-text {
-        color: #64748b;
+        flex-shrink: 0;
     }
 
     .btn-continue {
-        padding: 0.375rem 0.875rem;
-        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+        padding: 0.625rem 1.25rem;
+        background: #3b82f6;
         color: white;
-        border-radius: 50px;
+        border: none;
+        border-radius: 8px;
         font-size: 0.875rem;
         font-weight: 600;
         text-decoration: none;
         display: inline-flex;
         align-items: center;
-        gap: 0.375rem;
-        transition: all 0.2s;
-        align-self: flex-start;
+        justify-content: center;
+        gap: 0.5rem;
+        transition: all 0.2s ease;
+        white-space: nowrap;
     }
 
     .btn-continue:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        background: #2563eb;
+        transform: scale(1.02);
+    }
+
+    .btn-continue:active {
+        transform: scale(0.98);
     }
 
     body.dark-mode .btn-continue {
-        background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+        background: #2563eb;
     }
 
-    .history-item.incomplete .history-score {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.75rem;
+    body.dark-mode .btn-continue:hover {
+        background: #1d4ed8;
+    }
+
+    .btn-review {
+        padding: 0.5rem 1rem;
+        background: transparent;
+        color: #64748b;
+        border: none;
+        border-radius: 8px;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.375rem;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .btn-review:hover {
+        background: #f1f5f9;
+        color: #3b82f6;
+    }
+
+    body.dark-mode .btn-review {
+        color: #94a3b8;
+    }
+
+    body.dark-mode .btn-review:hover {
+        background: rgba(100, 116, 139, 0.15);
+        color: #60a5fa;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .history-item {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 1rem;
+            padding: 1rem 1.25rem;
+        }
+
+        .attempt-meta {
+            min-width: auto;
+            flex-direction: row;
+            gap: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        body.dark-mode .attempt-meta {
+            border-bottom-color: #334155;
+        }
+
+        .attempt-meta > div {
+            flex: 1;
+        }
+
+        .attempt-content {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0.75rem;
+        }
+
+        .attempt-progress-bar {
+            width: 100%;
+        }
+
+        .attempt-score {
+            justify-content: space-between;
+        }
+
+        .attempt-actions {
+            justify-content: stretch;
+        }
+
+        .btn-review, .btn-continue {
+            flex: 1;
+        }
     }
 
     /* Empty State */
@@ -753,31 +887,58 @@
                     <div class="history-list">
                         {% for attempt in user_attempts %}
                         <div class="history-item {% if not attempt.completed_at %}incomplete{% endif %}">
-                            <div class="history-date">
-                                {% if attempt.completed_at %}
-                                    📅 {{ attempt.completed_at|date:"d/m/Y H:i" }}
-                                {% else %}
-                                    🕐 {{ attempt.started_at|date:"d/m/Y H:i" }}
+                            <!-- Meta: Date & Duration -->
+                            <div class="attempt-meta">
+                                <div class="attempt-date">
+                                    <span class="attempt-date-icon">📅</span>
+                                    {% if attempt.completed_at %}
+                                        {{ attempt.completed_at|date:"d/m/Y H:i" }}
+                                    {% else %}
+                                        {{ attempt.started_at|date:"d/m/Y H:i" }}
+                                    {% endif %}
+                                </div>
+                                {% if attempt.duration_formatted %}
+                                    <div class="attempt-time">
+                                        <span class="time-icon">⏱️</span>
+                                        <span>Tempo:</span>
+                                        <span class="time-value">{{ attempt.duration_formatted }}</span>
+                                    </div>
                                 {% endif %}
                             </div>
-                            <div class="history-score">
+
+                            <!-- Content: Status & Info -->
+                            <div class="attempt-content">
                                 {% if attempt.completed_at %}
-                                    <span class="score-value {% if attempt.percentage >= 80 %}score-perfect{% elif attempt.percentage >= 50 %}score-good{% else %}score-poor{% endif %}">
-                                        {{ attempt.total_score }}/{{ attempt.max_score }}
-                                    </span>
-                                    <span class="score-badge {% if attempt.percentage >= 80 %}badge-perfect{% elif attempt.percentage >= 50 %}badge-good{% else %}badge-poor{% endif %}">
-                                        {{ attempt.percentage|floatformat:1 }}%
-                                    </span>
-                                {% else %}
-                                    <div class="incomplete-info">
-                                        <span class="badge-incomplete">
-                                            ⏸️ {% t 'not_finished' %}
-                                        </span>
-                                        <span class="progress-text">
-                                            {{ attempt.answered_questions }}/{{ attempt.max_score }} {% t 'answered' %}
-                                            <span class="remaining-text">({{ attempt.remaining_questions }} {% t 'remaining' %})</span>
-                                        </span>
+                                    <div class="attempt-status">
+                                        <strong>{{ attempt.total_score }}</strong>/{{ attempt.max_score }} {% t 'correct_questions' %}
                                     </div>
+                                {% else %}
+                                    <div class="attempt-status">
+                                        <strong>{{ attempt.answered_questions }}</strong>/{{ attempt.max_score }} {% t 'answered' %}
+                                    </div>
+                                    <div class="attempt-progress-bar">
+                                        <div class="progress-fill" style="width: {{ attempt.progress_percentage }}%"></div>
+                                    </div>
+                                {% endif %}
+                            </div>
+
+                            <!-- Score & Actions -->
+                            {% if attempt.completed_at %}
+                                <div class="attempt-score">
+                                    <div class="score-number {% if attempt.percentage >= 80 %}perfect{% elif attempt.percentage >= 50 %}good{% else %}poor{% endif %}">
+                                        {{ attempt.percentage|floatformat:0 }}%
+                                    </div>
+                                    <div class="score-label">{{ attempt.total_score }}/{{ attempt.max_score }}</div>
+                                </div>
+                            {% endif %}
+
+                            <!-- Action Buttons -->
+                            <div class="attempt-actions">
+                                {% if attempt.completed_at %}
+                                    <a href="{% url 'quizzes:quiz_result' attempt_id=attempt.id %}" class="btn-review">
+                                        📝 {% t 'view_answers' %}
+                                    </a>
+                                {% else %}
                                     <a href="{% url 'quizzes:quiz_play' attempt_id=attempt.id %}" class="btn-continue">
                                         ▶️ {% t 'continue' %}
                                     </a>

@@ -220,6 +220,30 @@ class QuizAttempt(models.Model):
             return 0
         return round((self.score / self.max_score) * 100, 1)
 
+    def get_duration(self):
+        """Retorna a duração do quiz em segundos, ou None se não completado"""
+        if self.completed_at and self.started_at:
+            delta = self.completed_at - self.started_at
+            return delta.total_seconds()
+        return None
+
+    def get_duration_formatted(self):
+        """Retorna a duração formatada (ex: '5min 32s', '1h 23min', '45s')"""
+        duration = self.get_duration()
+        if duration is None:
+            return None
+        
+        hours = int(duration // 3600)
+        minutes = int((duration % 3600) // 60)
+        seconds = int(duration % 60)
+        
+        if hours > 0:
+            return f"{hours}h {minutes}min"
+        elif minutes > 0:
+            return f"{minutes}min {seconds}s"
+        else:
+            return f"{seconds}s"
+
     def get_ordered_questions(self):
         """Retorna as questões na ordem salva no attempt"""
         question_ids = [uuid.UUID(qid) for qid in self.question_order]
