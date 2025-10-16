@@ -595,7 +595,7 @@ def create_pokemon_badges(quiz_group):
         {
             'title': '🟠 Amber Pikachu',
             'description': 'Acerte todos os 150 Pokémon! Maestria absoluta da Geração 1.',
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586764/ChatGPT_Image_Oct_16_2025_12_35_33_AM_qv1cgh.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586764/ChatGPT_Image_Oct_16_2025_12_35_33_AM_qv1cgh.png',
             'rule_type': 'perfect_score',
             'min_percentage': 100.0,
             'max_time_seconds': None,
@@ -606,7 +606,7 @@ def create_pokemon_badges(quiz_group):
         {
             'title': '🔴 Ruby Pikachu',
             'description': 'Acerte todos os 150 Pokémon em menos de 25 minutos! Velocidade e precisão impecáveis.',
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
             'max_time_seconds': 1500,  # 25 minutos
@@ -617,7 +617,7 @@ def create_pokemon_badges(quiz_group):
         {
             'title': '🟢 Emerald Pikachu',
             'description': 'Acerte todos os 150 Pokémon em menos de 15 minutos! Conhecimento extraordinário.',
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586750/ChatGPT_Image_Oct_16_2025_12_35_07_AM_gguqea.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586750/ChatGPT_Image_Oct_16_2025_12_35_07_AM_gguqea.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
             'max_time_seconds': 900,  # 15 minutos
@@ -628,7 +628,7 @@ def create_pokemon_badges(quiz_group):
         {
             'title': '🔵 Sapphire Pikachu',
             'description': 'Acerte todos os 150 Pokémon em menos de 10 minutos! Você é um verdadeiro mestre Pokémon.',
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
             'max_time_seconds': 600,  # 10 minutos
@@ -639,7 +639,7 @@ def create_pokemon_badges(quiz_group):
         {
             'title': '💎 Diamond Pikachu',
             'description': 'Acerte todos os 150 Pokémon em menos de 6 minutos! Lenda absoluta da Geração 1.',
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto/v1760586749/ChatGPT_Image_Oct_16_2025_12_35_02_AM_nvtiy0.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586749/ChatGPT_Image_Oct_16_2025_12_35_02_AM_nvtiy0.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
             'max_time_seconds': 360,  # 6 minutos

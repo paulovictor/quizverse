@@ -218,13 +218,17 @@ def theme_detail(request, theme_slug):
         subcategories = theme.subcategories.filter(
             country=user_country
         ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
-        quizzes = theme.quizzes.filter(country=user_country).select_related('quiz_group').order_by('quiz_group__order', 'order', 'title')
+        quizzes = theme.quizzes.filter(country=user_country).select_related('quiz_group').prefetch_related(
+            'quiz_group__available_badges__badge'
+        ).order_by('quiz_group__order', 'order', 'title')
     else:
         theme = get_object_or_404(Theme.objects.select_related('parent'), slug=theme_slug, active=True)
         subcategories = theme.subcategories.filter(
             active=True, country=user_country
         ).prefetch_related('subcategories', 'quizzes').order_by('order', 'title')
-        quizzes = theme.quizzes.filter(active=True, country=user_country).select_related('quiz_group').order_by('quiz_group__order', 'order', 'title')
+        quizzes = theme.quizzes.filter(active=True, country=user_country).select_related('quiz_group').prefetch_related(
+            'quiz_group__available_badges__badge'
+        ).order_by('quiz_group__order', 'order', 'title')
     
     # Adicionar contagens para subcategorias
     subcategories_with_info = []
