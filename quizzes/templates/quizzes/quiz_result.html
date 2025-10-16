@@ -1170,6 +1170,288 @@
         background: linear-gradient(135deg, #059669 0%, #047857 100%);
     }
 
+    /* Badges Earned Section */
+    .badges-earned-section {
+        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        border-radius: 24px;
+        padding: 2.5rem 2rem;
+        margin-bottom: 2rem;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 10px 40px rgba(16, 185, 129, 0.3);
+    }
+
+    body.dark-mode .badges-earned-section {
+        background: linear-gradient(135deg, #047857 0%, #065f46 100%);
+    }
+
+    .badges-earned-section::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+        animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    .badges-earned-content {
+        position: relative;
+        z-index: 1;
+    }
+
+    .badges-earned-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .badges-earned-title {
+        font-size: 2rem;
+        font-weight: 900;
+        color: white;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+    .badges-earned-subtitle {
+        font-size: 1.125rem;
+        color: rgba(255, 255, 255, 0.95);
+    }
+
+    .badges-earned-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .badge-earned-card {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body.dark-mode .badge-earned-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+    }
+
+    .badge-earned-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .badge-earned-card::before {
+        content: '✨';
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 1.5rem;
+        animation: sparkle 2s ease-in-out infinite;
+    }
+
+    @keyframes sparkle {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.5; transform: scale(1.2); }
+    }
+
+    .badge-earned-new {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        background: #ef4444;
+        color: white;
+        padding: 0.375rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+        animation: newBadgePulse 2s ease-in-out infinite;
+    }
+
+    @keyframes newBadgePulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+    }
+
+    .badge-earned-image-container {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 1rem;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .badge-earned-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 16px;
+        border: 3px solid #10b981;
+        background: #f0fdf4;
+        padding: 12px;
+        box-shadow: 0 8px 24px rgba(16, 185, 129, 0.3);
+        animation: badgeFloat 3s ease-in-out infinite;
+    }
+
+    body.dark-mode .badge-earned-image {
+        background: rgba(16, 185, 129, 0.15);
+        border-color: #34d399;
+    }
+
+    @keyframes badgeFloat {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(5deg); }
+    }
+
+    .badge-earned-checkmark {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        width: 36px;
+        height: 36px;
+        background: #10b981;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.25rem;
+        font-weight: bold;
+        border: 3px solid white;
+        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.5);
+        animation: checkmarkPop 1s ease infinite;
+    }
+
+    @keyframes checkmarkPop {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+    }
+
+    .badge-earned-name {
+        font-size: 1.125rem;
+        font-weight: 800;
+        color: #1e293b;
+        margin: 0;
+        line-height: 1.3;
+    }
+
+    body.dark-mode .badge-earned-name {
+        color: #f1f5f9;
+    }
+
+    .badges-earned-share {
+        text-align: center;
+    }
+
+    .badges-earned-share-title {
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    .badges-earned-share-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .badge-share-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.625rem;
+        padding: 0.875rem 1.75rem;
+        border-radius: 50px;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 0.9375rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .badge-share-btn:hover {
+        background: rgba(255, 255, 255, 0.3);
+        border-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-3px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .badge-share-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .badges-earned-section {
+            padding: 2rem 1.5rem;
+        }
+
+        .badges-earned-title {
+            font-size: 1.5rem;
+        }
+
+        .badges-earned-subtitle {
+            font-size: 1rem;
+        }
+
+        .badges-earned-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .badge-earned-image-container {
+            width: 100px;
+            height: 100px;
+        }
+
+        .badge-earned-name {
+            font-size: 1.125rem;
+        }
+
+        .badge-earned-description {
+            font-size: 0.875rem;
+        }
+
+        .badges-earned-share-buttons {
+            flex-direction: column;
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .badge-share-btn {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
     /* Responsive */
     @media (max-width: 768px) {
         .badge-celebration-modal {
@@ -1584,6 +1866,53 @@
 <!-- Main Content -->
 <div class="content-wrapper">
 
+    <!-- Badges Earned Section -->
+    {% if new_badges %}
+    <div class="badges-earned-section">
+        <div class="badges-earned-content">
+            <div class="badges-earned-header">
+                <h2 class="badges-earned-title">
+                    🏆 {% if new_badges|length == 1 %}Nova Conquista!{% else %}Novas Conquistas!{% endif %}
+                </h2>
+                <p class="badges-earned-subtitle">
+                    Você desbloqueou {% if new_badges|length == 1 %}uma badge especial{% else %}{{ new_badges|length }} badges especiais{% endif %} neste quiz!
+                </p>
+            </div>
+
+            <div class="badges-earned-grid">
+                {% for user_badge in new_badges %}
+                <div class="badge-earned-card">
+                    <span class="badge-earned-new">✨ NOVO</span>
+                    <div class="badge-earned-image-container">
+                        <img src="{{ user_badge.badge.image }}" alt="{{ user_badge.badge.title }}" class="badge-earned-image">
+                        <div class="badge-earned-checkmark">✓</div>
+                    </div>
+                    <h3 class="badge-earned-name">{{ user_badge.badge.title }}</h3>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="badges-earned-share">
+                <p class="badges-earned-share-title">🎉 Compartilhe sua conquista!</p>
+                <div class="badges-earned-share-buttons">
+                    <button class="badge-share-btn" onclick="shareBadgeWhatsApp()">
+                        <svg class="badge-share-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        <span>WhatsApp</span>
+                    </button>
+                    <button class="badge-share-btn" onclick="shareBadgeTwitter()">
+                        <svg class="badge-share-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        <span>Twitter</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
     <!-- Products Section - Carousel -->
     {% if products %}
     <div class="carousel-section">
@@ -1739,12 +2068,56 @@
         const rank = '{{ user_rank }}';
         const totalAttempts = '{{ total_attempts }}';
         const url = window.location.origin + '{% url "quizzes:quiz_detail" theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}';
-        
+
         const message = 'Acabei de fazer o quiz "' + quizTitle + '" e consegui ' + percentage + '% de acertos! Fiquei em ' + rank + 'º lugar.';
-        
+
         const twitterUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(message) + '&url=' + encodeURIComponent(url);
         window.open(twitterUrl, '_blank');
     });
+
+    // Share Badge on WhatsApp
+    function shareBadgeWhatsApp() {
+        const quizTitle = '{{ quiz.title|escapejs }}';
+        const percentage = '{{ percentage }}';
+        {% if new_badges %}
+        const badges = [
+            {% for badge in new_badges %}'{{ badge.badge.title|escapejs }}'{% if not forloop.last %}, {% endif %}{% endfor %}
+        ];
+        const badgeText = badges.length === 1 ?
+            'a badge "' + badges[0] + '"' :
+            badges.length + ' badges: ' + badges.join(', ');
+        {% else %}
+        const badgeText = 'uma nova conquista';
+        {% endif %}
+        const url = window.location.origin + '{% url "quizzes:quiz_detail" theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}';
+
+        const message = '🎉 Acabei de conquistar ' + badgeText + ' no quiz "' + quizTitle + '" com ' + percentage + '% de acertos! Jogue você também: ' + url;
+
+        const whatsappUrl = 'https://wa.me/?text=' + encodeURIComponent(message);
+        window.open(whatsappUrl, '_blank');
+    }
+
+    // Share Badge on Twitter
+    function shareBadgeTwitter() {
+        const quizTitle = '{{ quiz.title|escapejs }}';
+        const percentage = '{{ percentage }}';
+        {% if new_badges %}
+        const badges = [
+            {% for badge in new_badges %}'{{ badge.badge.title|escapejs }}'{% if not forloop.last %}, {% endif %}{% endfor %}
+        ];
+        const badgeText = badges.length === 1 ?
+            'a badge "' + badges[0] + '"' :
+            badges.length + ' novas badges';
+        {% else %}
+        const badgeText = 'uma nova conquista';
+        {% endif %}
+        const url = window.location.origin + '{% url "quizzes:quiz_detail" theme_slug=quiz.theme.slug quiz_slug=quiz.slug %}';
+
+        const message = '🎉 Conquistei ' + badgeText + ' no quiz "' + quizTitle + '" com ' + percentage + '% de acertos!';
+
+        const twitterUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(message) + '&url=' + encodeURIComponent(url);
+        window.open(twitterUrl, '_blank');
+    }
 
     // Carousel functionality
     {% if products %}
