@@ -64,8 +64,19 @@ class Theme(models.Model):
 
     def __str__(self):
         if self.parent:
-            return f"{self.parent.title} > {self.title}"
-        return self.title
+            base_name = f"{self.parent.title} > {self.title}"
+        else:
+            base_name = self.title
+
+        try:
+            country_display = self.get_country_display()
+            flag = country_display.split(' ')[0]
+        except Exception:
+            flag = ''
+
+        if flag:
+            return f"{flag} {base_name}"
+        return base_name
 
     def get_absolute_url(self):
         return reverse('quizzes:theme_detail', kwargs={'theme_slug': self.slug})
@@ -409,7 +420,12 @@ class Badge(models.Model):
     
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=255, verbose_name='Título da Badge')
-    description = models.TextField(verbose_name='Descrição')
+    description = models.TextField(verbose_name='Descrição (fallback)', blank=True)
+    description_translations = models.JSONField(
+        default=dict,
+        blank=True,
+        help_text='Traduções da descrição: {"pt-BR": "texto", "en-US": "text", ...}'
+    )
     image = models.URLField(max_length=500, help_text='URL da imagem da badge (Cloudinary)')
     
     # Regras
@@ -452,6 +468,27 @@ class Badge(models.Model):
     
     def __str__(self):
         return self.title
+    
+    def get_description(self, language=None):
+        """
+        Retorna a descrição traduzida para o idioma especificado.
+        Se não houver tradução, retorna o fallback (campo description).
+        
+        Args:
+            language: Código do idioma (ex: 'pt-BR', 'en-US')
+        
+        Returns:
+            str: Descrição traduzida ou fallback
+        """
+        if not language:
+            language = 'pt-BR'
+        
+        # Tenta pegar a tradução do JSONField
+        if self.description_translations and language in self.description_translations:
+            return self.description_translations[language]
+        
+        # Fallback para o campo description
+        return self.description
 
 
 class QuizGroupBadge(models.Model):

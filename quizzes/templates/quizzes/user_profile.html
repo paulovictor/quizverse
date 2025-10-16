@@ -1034,7 +1034,7 @@ body.dark-mode .result-stat-value {
                     <img src="{{ user_badge.badge.image }}" alt="{{ user_badge.badge.title }}" class="badge-image">
                 </div>
                 <h3 class="badge-title">{{ user_badge.badge.title }}</h3>
-                <p class="badge-description">{{ user_badge.badge.description }}</p>
+                <p class="badge-description">{{ user_badge.badge|badge_description:current_language }}</p>
                 
                 <div class="badge-stats">
                     {% if user_badge.completion_time_seconds %}

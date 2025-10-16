@@ -3,10 +3,69 @@ from django import forms
 from django.shortcuts import render, redirect
 from django.urls import path
 from django.contrib import messages
+from django.utils.html import format_html
+from django.utils.safestring import mark_safe
 from .models import (
     Theme, Quiz, Question, Answer, QuizAttempt, UserAnswer, Product,
     Badge, QuizGroup, QuizGroupBadge, UserBadge
 )
+
+
+class BadgeTranslationsForm(forms.ModelForm):
+    """Formulário customizado para editar traduções de badges"""
+    
+    class Meta:
+        model = Badge
+        fields = '__all__'
+        widgets = {
+            'description_translations': forms.Textarea(attrs={
+                'rows': 10,
+                'cols': 80,
+                'style': 'font-family: monospace; font-size: 12px;',
+                'placeholder': '{"pt-BR": "Acerte todos os 150 Pokémon! Maestria absoluta da Geração 1.", "en-US": "Get all 150 Pokémon correct! Absolute mastery of Generation 1.", "es-MX": "¡Acierta todos los 150 Pokémon! Maestría absoluta de la Generación 1."}'
+            }),
+        }
+    
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        if self.instance and self.instance.description_translations:
+            # Formatar JSON para exibição mais legível
+            import json
+            formatted_json = json.dumps(self.instance.description_translations, indent=2, ensure_ascii=False)
+            self.initial['description_translations'] = formatted_json
+    
+    def clean_description_translations(self):
+        """Valida se o JSON das traduções é válido"""
+        import json
+        data = self.cleaned_data.get('description_translations')
+        
+        if not data:
+            return {}
+        
+        try:
+            # Se for string, tentar fazer parse
+            if isinstance(data, str):
+                parsed_data = json.loads(data)
+            else:
+                parsed_data = data
+            
+            # Validar se é um dicionário
+            if not isinstance(parsed_data, dict):
+                raise forms.ValidationError("As traduções devem ser um objeto JSON válido (dicionário).")
+            
+            # Validar se todos os valores são strings
+            for lang, text in parsed_data.items():
+                if not isinstance(text, str):
+                    raise forms.ValidationError(f"O texto para '{lang}' deve ser uma string.")
+                if not text.strip():
+                    raise forms.ValidationError(f"O texto para '{lang}' não pode estar vazio.")
+            
+            return parsed_data
+            
+        except json.JSONDecodeError as e:
+            raise forms.ValidationError(f"JSON inválido: {str(e)}")
+        except Exception as e:
+            raise forms.ValidationError(f"Erro ao processar traduções: {str(e)}")
 
 
 @admin.register(Theme)
@@ -382,14 +441,19 @@ class QuizGroupAdmin(admin.ModelAdmin):
 
 @admin.register(Badge)
 class BadgeAdmin(admin.ModelAdmin):
-    list_display = ['title', 'rule_type', 'min_percentage', 'max_time_seconds', 'rarity', 'points', 'active', 'order']
+    form = BadgeTranslationsForm
+    list_display = ['title', 'rule_type', 'min_percentage', 'max_time_seconds', 'rarity', 'points', 'active', 'order', 'translations_count']
     list_filter = ['active', 'rule_type', 'rarity', 'created_at']
     search_fields = ['title', 'description']
     list_editable = ['active', 'order']
-    readonly_fields = ['created_at']
+    readonly_fields = ['created_at', 'translations_preview']
     fieldsets = (
         ('Informações Básicas', {
             'fields': ('title', 'description', 'image', 'order', 'active')
+        }),
+        ('Traduções', {
+            'fields': ('description_translations', 'translations_preview'),
+            'description': 'Adicione traduções da descrição para diferentes idiomas. Use o formato JSON válido: {"pt-BR": "texto", "en-US": "text", ...}'
         }),
         ('Regras da Badge', {
             'fields': ('rule_type', 'min_percentage', 'max_time_seconds'),
@@ -400,6 +464,27 @@ class BadgeAdmin(admin.ModelAdmin):
             'classes': ('collapse',),
         }),
     )
+    
+    def translations_count(self, obj):
+        """Mostra quantas traduções existem"""
+        if obj.description_translations:
+            return f"{len(obj.description_translations)} idiomas"
+        return "0 idiomas"
+    translations_count.short_description = 'Traduções'
+    
+    def translations_preview(self, obj):
+        """Mostra preview das traduções"""
+        if not obj.description_translations:
+            return "Nenhuma tradução disponível"
+        
+        preview_items = []
+        for lang, text in obj.description_translations.items():
+            # Truncar texto longo
+            short_text = text[:50] + "..." if len(text) > 50 else text
+            preview_items.append(format_html("<strong>{}:</strong> {}", lang, short_text))
+        
+        return format_html("<br>".join(preview_items))
+    translations_preview.short_description = 'Preview das Traduções'
 
 
 class QuizGroupBadgeInline(admin.TabularInline):

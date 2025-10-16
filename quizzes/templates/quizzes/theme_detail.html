@@ -1097,7 +1097,7 @@
                                                 <img src="{{ badge_info.group_badge.badge.image }}"
                                                      alt="{{ badge_info.group_badge.badge.title }}"
                                                      class="quiz-badge-icon {% if badge_info.is_earned %}quiz-badge-earned{% endif %}"
-                                                     title="{{ badge_info.group_badge.badge.title }} - {{ badge_info.group_badge.badge.description }}">
+                                                     title="{{ badge_info.group_badge.badge.title }} - {{ badge_info.group_badge.badge|badge_description:current_language }}">
                                                 {% if badge_info.is_earned %}
                                                     <span class="badge-checkmark badge-checkmark-right">✓</span>
                                                 {% endif %}

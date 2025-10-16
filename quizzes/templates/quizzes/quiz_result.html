@@ -704,7 +704,7 @@
         border-radius: 24px;
         padding: 40px 20px;
         box-shadow: var(--shadow-lg);
-        overflow: hidden;
+        overflow: visible;
         transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -738,8 +738,9 @@
     }
 
     .carousel-wrapper {
-        overflow: hidden;
+        overflow: visible;
         margin: 0 60px;
+        padding: 10px 0;
     }
 
     .carousel-track {
@@ -1804,7 +1805,7 @@
                     <div class="badge-celebration-shine">✨</div>
                 </div>
                 <div class="badge-celebration-name">{{ user_badge.badge.title }}</div>
-                <div class="badge-celebration-description">{{ user_badge.badge.description }}</div>
+                <div class="badge-celebration-description">{{ user_badge.badge|badge_description:current_language }}</div>
             </div>
             {% endfor %}
         </div>

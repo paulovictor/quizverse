@@ -483,7 +483,7 @@ def create_pokemon_quizzes(quiz_group, all_pokemon, cloudinary_urls):
             quiz_slug = f"{quiz_base_slug}-{country_suffix}"
 
         # Gerar template e description inicial
-        quiz_sample_size = 0  # 0 = usar todas
+        quiz_sample_size = num_questions  # Usar todas as 151 questões
         quiz_description_template = get_quiz_description_template(lang_code)
         quiz_description = quiz_description_template.format(sample_size=num_questions, total=num_questions)
 
@@ -573,6 +573,31 @@ def create_pokemon_quizzes(quiz_group, all_pokemon, cloudinary_urls):
     print()
     print(f"📊 Quizzes criados: {created_count} | Atualizados: {updated_count}")
     print(f"❓ Total de questões: {total_questions_created}")
+    
+    # Atualizar descrições após criar todas as questões
+    print("\n🔄 Atualizando descrições dos quizzes...")
+    updated_descriptions = 0
+    for country_code in countries:
+        lang_code = country_to_lang[country_code]
+        
+        # Determinar slug do quiz
+        quiz_base_slug = 'adivinhe-o-pokemon-gen1' if lang_code == 'pt' else 'guess-the-pokemon-gen1'
+        if country_code == 'pt-BR':
+            quiz_slug = quiz_base_slug
+        else:
+            country_suffix = country_code.split('-')[1].lower()
+            quiz_slug = f"{quiz_base_slug}-{country_suffix}"
+        
+        try:
+            quiz = Quiz.objects.get(slug=quiz_slug)
+            if quiz.description_template:
+                # Forçar re-renderização da descrição
+                quiz.save()  # Isso vai chamar render_description() automaticamente
+                updated_descriptions += 1
+        except Quiz.DoesNotExist:
+            pass
+    
+    print(f"✅ {updated_descriptions} descrições atualizadas")
     print()
 
     return created_count, updated_count
@@ -590,10 +615,150 @@ def create_pokemon_badges(quiz_group):
     print("=" * 80)
     print()
     
+    # Traduções das descrições das badges
+    badge_descriptions = {
+        'amber': {
+            'pt-BR': 'Acerte todos os Pokémons!',
+            'en-US': 'Get all Pokémon correct!',
+            'en-CA': 'Get all Pokémon correct!',
+            'en-GB': 'Get all Pokémon correct!',
+            'en-IN': 'Get all Pokémon correct!',
+            'en-PH': 'Get all Pokémon correct!',
+            'en-AU': 'Get all Pokémon correct!',
+            'en-NZ': 'Get all Pokémon correct!',
+            'pt-PT': 'Acerta todos os Pokémons!',
+            'es-MX': '¡Acierta todos los Pokémons!',
+            'es-ES': '¡Acierta todos los Pokémons!',
+            'es-AR': '¡Acierta todos los Pokémons!',
+            'es-CO': '¡Acierta todos los Pokémons!',
+            'de-DE': 'Errate alle Pokémon!',
+            'fr-FR': 'Trouvez tous les Pokémon!',
+            'it-IT': 'Indovina tutti i Pokémon!',
+            'nl-NL': 'Raad alle Pokémon!',
+            'sv-SE': 'Gissa alla Pokémon!',
+            'no-NO': 'Gjett alle Pokémon!',
+            'pl-PL': 'Zgadnij wszystkie Pokémony!',
+            'id-ID': 'Tebak semua Pokémon!',
+            'ja-JP': 'すべてのポケモンを当てよう！',
+            'ko-KR': '모든 포켓몬을 맞히세요!',
+            'th-TH': 'ทายโปเกมอนทั้งหมด!',
+            'vi-VN': 'Đoán đúng tất cả Pokémon!',
+        },
+        'ruby': {
+            'pt-BR': 'Acerte todos os Pokémons em menos de 25 minutos!',
+            'en-US': 'Get all Pokémon correct in under 25 minutes!',
+            'en-CA': 'Get all Pokémon correct in under 25 minutes!',
+            'en-GB': 'Get all Pokémon correct in under 25 minutes!',
+            'en-IN': 'Get all Pokémon correct in under 25 minutes!',
+            'en-PH': 'Get all Pokémon correct in under 25 minutes!',
+            'en-AU': 'Get all Pokémon correct in under 25 minutes!',
+            'en-NZ': 'Get all Pokémon correct in under 25 minutes!',
+            'pt-PT': 'Acerta todos os Pokémons em menos de 25 minutos!',
+            'es-MX': '¡Acierta todos los Pokémons en menos de 25 minutos!',
+            'es-ES': '¡Acierta todos los Pokémons en menos de 25 minutos!',
+            'es-AR': '¡Acierta todos los Pokémons en menos de 25 minutos!',
+            'es-CO': '¡Acierta todos los Pokémons en menos de 25 minutos!',
+            'de-DE': 'Errate alle Pokémon in unter 25 Minuten!',
+            'fr-FR': 'Trouvez tous les Pokémon en moins de 25 minutes!',
+            'it-IT': 'Indovina tutti i Pokémon in meno di 25 minuti!',
+            'nl-NL': 'Raad alle Pokémon in minder dan 25 minuten!',
+            'sv-SE': 'Gissa alla Pokémon på under 25 minuter!',
+            'no-NO': 'Gjett alle Pokémon på under 25 minutter!',
+            'pl-PL': 'Zgadnij wszystkie Pokémony w mniej niż 25 minut!',
+            'id-ID': 'Tebak semua Pokémon dalam waktu kurang dari 25 menit!',
+            'ja-JP': '25分以内にすべてのポケモンを当てよう！',
+            'ko-KR': '25분 이내에 모든 포켓몬을 맞히세요!',
+            'th-TH': 'ทายโปเกมอนทั้งหมดในเวลาไม่เกิน 25 นาที!',
+            'vi-VN': 'Đoán đúng tất cả Pokémon trong vòng 25 phút!',
+        },
+        'emerald': {
+            'pt-BR': 'Acerte todos os Pokémons em menos de 15 minutos!',
+            'en-US': 'Get all Pokémon correct in under 15 minutes!',
+            'en-CA': 'Get all Pokémon correct in under 15 minutes!',
+            'en-GB': 'Get all Pokémon correct in under 15 minutes!',
+            'en-IN': 'Get all Pokémon correct in under 15 minutes!',
+            'en-PH': 'Get all Pokémon correct in under 15 minutes!',
+            'en-AU': 'Get all Pokémon correct in under 15 minutes!',
+            'en-NZ': 'Get all Pokémon correct in under 15 minutes!',
+            'pt-PT': 'Acerta todos os Pokémons em menos de 15 minutos!',
+            'es-MX': '¡Acierta todos los Pokémons en menos de 15 minutos!',
+            'es-ES': '¡Acierta todos los Pokémons en menos de 15 minutos!',
+            'es-AR': '¡Acierta todos los Pokémons en menos de 15 minutos!',
+            'es-CO': '¡Acierta todos los Pokémons en menos de 15 minutos!',
+            'de-DE': 'Errate alle Pokémon in unter 15 Minuten!',
+            'fr-FR': 'Trouvez tous les Pokémon en moins de 15 minutes!',
+            'it-IT': 'Indovina tutti i Pokémon in meno di 15 minuti!',
+            'nl-NL': 'Raad alle Pokémon in minder dan 15 minuten!',
+            'sv-SE': 'Gissa alla Pokémon på under 15 minuter!',
+            'no-NO': 'Gjett alle Pokémon på under 15 minutter!',
+            'pl-PL': 'Zgadnij wszystkie Pokémony w mniej niż 15 minut!',
+            'id-ID': 'Tebak semua Pokémon dalam waktu kurang dari 15 menit!',
+            'ja-JP': '15分以内にすべてのポケモンを当てよう！',
+            'ko-KR': '15분 이내에 모든 포켓몬을 맞히세요!',
+            'th-TH': 'ทายโปเกมอนทั้งหมดในเวลาไม่เกิน 15 นาที!',
+            'vi-VN': 'Đoán đúng tất cả Pokémon trong vòng 15 phút!',
+        },
+        'sapphire': {
+            'pt-BR': 'Acerte todos os Pokémons em menos de 10 minutos!',
+            'en-US': 'Get all Pokémon correct in under 10 minutes!',
+            'en-CA': 'Get all Pokémon correct in under 10 minutes!',
+            'en-GB': 'Get all Pokémon correct in under 10 minutes!',
+            'en-IN': 'Get all Pokémon correct in under 10 minutes!',
+            'en-PH': 'Get all Pokémon correct in under 10 minutes!',
+            'en-AU': 'Get all Pokémon correct in under 10 minutes!',
+            'en-NZ': 'Get all Pokémon correct in under 10 minutes!',
+            'pt-PT': 'Acerta todos os Pokémons em menos de 10 minutos!',
+            'es-MX': '¡Acierta todos los Pokémons en menos de 10 minutos!',
+            'es-ES': '¡Acierta todos los Pokémons en menos de 10 minutos!',
+            'es-AR': '¡Acierta todos los Pokémons en menos de 10 minutos!',
+            'es-CO': '¡Acierta todos los Pokémons en menos de 10 minutos!',
+            'de-DE': 'Errate alle Pokémon in unter 10 Minuten!',
+            'fr-FR': 'Trouvez tous les Pokémon en moins de 10 minutes!',
+            'it-IT': 'Indovina tutti i Pokémon in meno di 10 minuti!',
+            'nl-NL': 'Raad alle Pokémon in minder dan 10 minuten!',
+            'sv-SE': 'Gissa alla Pokémon på under 10 minuter!',
+            'no-NO': 'Gjett alle Pokémon på under 10 minutter!',
+            'pl-PL': 'Zgadnij wszystkie Pokémony w mniej niż 10 minut!',
+            'id-ID': 'Tebak semua Pokémon dalam waktu kurang dari 10 menit!',
+            'ja-JP': '10分以内にすべてのポケモンを当てよう！',
+            'ko-KR': '10분 이내에 모든 포켓몬을 맞히세요!',
+            'th-TH': 'ทายโปเกมอนทั้งหมดในเวลาไม่เกิน 10 นาที!',
+            'vi-VN': 'Đoán đúng tất cả Pokémon trong vòng 10 phút!',
+        },
+        'diamond': {
+            'pt-BR': 'Acerte todos os Pokémons em menos de 6 minutos!',
+            'en-US': 'Get all Pokémon correct in under 6 minutes!',
+            'en-CA': 'Get all Pokémon correct in under 6 minutes!',
+            'en-GB': 'Get all Pokémon correct in under 6 minutes!',
+            'en-IN': 'Get all Pokémon correct in under 6 minutes!',
+            'en-PH': 'Get all Pokémon correct in under 6 minutes!',
+            'en-AU': 'Get all Pokémon correct in under 6 minutes!',
+            'en-NZ': 'Get all Pokémon correct in under 6 minutes!',
+            'pt-PT': 'Acerta todos os Pokémons em menos de 6 minutos!',
+            'es-MX': '¡Acierta todos los Pokémons en menos de 6 minutos!',
+            'es-ES': '¡Acierta todos los Pokémons en menos de 6 minutos!',
+            'es-AR': '¡Acierta todos los Pokémons en menos de 6 minutos!',
+            'es-CO': '¡Acierta todos los Pokémons en menos de 6 minutos!',
+            'de-DE': 'Errate alle Pokémon in unter 6 Minuten!',
+            'fr-FR': 'Trouvez tous les Pokémon en moins de 6 minutes!',
+            'it-IT': 'Indovina tutti i Pokémon in meno di 6 minuti!',
+            'nl-NL': 'Raad alle Pokémon in minder dan 6 minuten!',
+            'sv-SE': 'Gissa alla Pokémon på under 6 minuter!',
+            'no-NO': 'Gjett alle Pokémon på under 6 minutter!',
+            'pl-PL': 'Zgadnij wszystkie Pokémony w mniej niż 6 minut!',
+            'id-ID': 'Tebak semua Pokémon dalam waktu kurang dari 6 menit!',
+            'ja-JP': '6分以内にすべてのポケモンを当てよう！',
+            'ko-KR': '6분 이내에 모든 포켓몬을 맞히세요!',
+            'th-TH': 'ทายโปเกมอนทั้งหมดในเวลาไม่เกิน 6 นาที!',
+            'vi-VN': 'Đoán đúng tất cả Pokémon trong vòng 6 phút!',
+        },
+    }
+    
     badges_data = [
         {
             'title': '🟠 Amber Pikachu',
-            'description': 'Acerte todos os 150 Pokémon! Maestria absoluta da Geração 1.',
+            'description': 'Acerte todos os Pokémons!',
+            'description_translations': badge_descriptions['amber'],
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586764/ChatGPT_Image_Oct_16_2025_12_35_33_AM_qv1cgh.png',
             'rule_type': 'perfect_score',
             'min_percentage': 100.0,
@@ -604,7 +769,8 @@ def create_pokemon_badges(quiz_group):
         },
         {
             'title': '🔴 Ruby Pikachu',
-            'description': 'Acerte todos os 150 Pokémon em menos de 25 minutos! Velocidade e precisão impecáveis.',
+            'description': 'Acerte todos os Pokémons em menos de 25 minutos!',
+            'description_translations': badge_descriptions['ruby'],
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
@@ -615,7 +781,8 @@ def create_pokemon_badges(quiz_group):
         },
         {
             'title': '🟢 Emerald Pikachu',
-            'description': 'Acerte todos os 150 Pokémon em menos de 15 minutos! Conhecimento extraordinário.',
+            'description': 'Acerte todos os Pokémons em menos de 15 minutos!',
+            'description_translations': badge_descriptions['emerald'],
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586750/ChatGPT_Image_Oct_16_2025_12_35_07_AM_gguqea.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
@@ -626,7 +793,8 @@ def create_pokemon_badges(quiz_group):
         },
         {
             'title': '🔵 Sapphire Pikachu',
-            'description': 'Acerte todos os 150 Pokémon em menos de 10 minutos! Você é um verdadeiro mestre Pokémon.',
+            'description': 'Acerte todos os Pokémons em menos de 10 minutos!',
+            'description_translations': badge_descriptions['sapphire'],
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
@@ -637,7 +805,8 @@ def create_pokemon_badges(quiz_group):
         },
         {
             'title': '💎 Diamond Pikachu',
-            'description': 'Acerte todos os 150 Pokémon em menos de 6 minutos! Lenda absoluta da Geração 1.',
+            'description': 'Acerte todos os Pokémons em menos de 6 minutos!',
+            'description_translations': badge_descriptions['diamond'],
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586749/ChatGPT_Image_Oct_16_2025_12_35_02_AM_nvtiy0.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
@@ -658,6 +827,7 @@ def create_pokemon_badges(quiz_group):
             title=badge_data['title'],
             defaults={
                 'description': badge_data['description'],
+                'description_translations': badge_data['description_translations'],
                 'image': badge_data['image'],
                 'rule_type': badge_data['rule_type'],
                 'min_percentage': badge_data['min_percentage'],

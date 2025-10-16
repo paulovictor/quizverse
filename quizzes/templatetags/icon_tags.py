@@ -59,3 +59,15 @@ def translate(key, language='pt-BR'):
     """
     return get_translation(key, language)
 
+
+@register.filter
+def badge_description(badge, language='pt-BR'):
+    """
+    Retorna a descrição traduzida da badge
+    
+    Uso: {{ badge|badge_description:current_language }}
+    """
+    if hasattr(badge, 'get_description'):
+        return badge.get_description(language)
+    return badge.description if hasattr(badge, 'description') else ''
+
