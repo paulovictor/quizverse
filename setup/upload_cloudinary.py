@@ -38,7 +38,7 @@ API_KEY = os.environ.get("CLOUDINARY_API_KEY", "429396283651242")
 API_SECRET = os.environ.get("CLOUDINARY_API_SECRET", "HTF--7Ceic5mmOo_oxboCTzXiis")
 
 # Caminho raiz onde os arquivos aguardam upload
-UPLOAD_ROOT = Path(__file__).resolve().parent / "upload"
+UPLOAD_ROOT = Path(__file__).resolve().parent.parent / "upload"
 
 # Extensões suportadas
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".gif", ".bmp", ".avif"}
@@ -135,7 +135,7 @@ def save_report(data: List[dict], output_name: str) -> None:
     if not data:
         return
 
-    output_dir = Path("cloudinary_urls")
+    output_dir = Path(__file__).resolve().parent.parent / "cloudinary_urls"
     output_dir.mkdir(exist_ok=True)
 
     output_file = output_dir / f"{output_name}.json"
