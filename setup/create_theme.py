@@ -95,6 +95,20 @@ def find_parent_themes(parent_slug_pt):
     return parent_themes
 
 
+def list_available_root_themes():
+    """
+    Lista todos os temas root disponíveis (sem pai) em pt-BR
+    """
+    root_themes = Theme.objects.filter(country='pt-BR', parent__isnull=True).order_by('order')
+
+    if not root_themes.exists():
+        print("❌ Erro: Nenhum tema root encontrado!")
+        print("   Execute primeiro: python setup_data/00_root_themes.py")
+        return []
+
+    return root_themes
+
+
 def get_user_input():
     """
     Solicita informações do usuário sobre o tema a ser criado
@@ -104,14 +118,44 @@ def get_user_input():
     print("=" * 80)
     print()
 
-    # Slug do tema pai (em português)
-    print("1️⃣ Digite o slug do tema PAI em português (ex: jogos, filmes, etc)")
-    print("   O script buscará automaticamente os slugs correspondentes em outros países")
-    parent_slug_pt = input("   Slug do tema pai (pt-BR): ").strip()
+    # Listar temas root disponíveis
+    print("📋 Temas ROOT disponíveis (pt-BR):")
+    print()
 
-    if not parent_slug_pt:
-        print("❌ Erro: Slug do tema pai não pode ser vazio!")
+    root_themes = list_available_root_themes()
+
+    if not root_themes:
         sys.exit(1)
+
+    for theme in root_themes:
+        print(f"   • {theme.slug:20s} - {theme.title}")
+
+    print()
+    print("-" * 80)
+    print()
+
+    # Slug do tema pai (em português)
+    print("1️⃣ Digite o slug do tema PAI em português (deve estar na lista acima)")
+    print("   O script buscará automaticamente os slugs correspondentes em outros países")
+    print()
+
+    # Validar que o slug existe
+    while True:
+        parent_slug_pt = input("   Slug do tema pai (pt-BR): ").strip()
+
+        if not parent_slug_pt:
+            print("❌ Erro: Slug do tema pai não pode ser vazio!")
+            continue
+
+        # Verificar se o slug existe
+        if not Theme.objects.filter(slug=parent_slug_pt, country='pt-BR', parent__isnull=True).exists():
+            print(f"❌ Erro: Tema root '{parent_slug_pt}' não encontrado!")
+            print("   Use um dos slugs da lista acima.")
+            print()
+            continue
+
+        # Slug válido, sair do loop
+        break
 
     print()
 
@@ -126,13 +170,13 @@ def get_user_input():
 
     print()
 
-    # URL da imagem
-    print("3️⃣ Digite a URL da imagem do tema (Cloudinary)")
-    theme_image = input("   URL da imagem: ").strip()
+    # # URL da imagem
+    # print("3️⃣ Digite a URL da imagem do tema (Cloudinary)")
+    # theme_image = input("   URL da imagem: ").strip()
 
-    if not theme_image:
-        print("❌ Erro: URL da imagem não pode ser vazia!")
-        sys.exit(1)
+    # if not theme_image:
+    #     print("❌ Erro: URL da imagem não pode ser vazia!")
+    #     sys.exit(1)
 
     print()
 
@@ -190,7 +234,7 @@ def get_user_input():
     return {
         'parent_slug_pt': parent_slug_pt,
         'theme_slug_base': theme_slug_base,
-        'theme_image': theme_image,
+        'theme_image': '',
         'colors': {
             'primary_color': primary_color,
             'secondary_color': secondary_color,
@@ -317,7 +361,7 @@ def main():
     print("=" * 80)
     print(f"Slug base: {config['theme_slug_base']}")
     print(f"Tema pai (pt-BR): {config['parent_slug_pt']}")
-    print(f"Imagem: {config['theme_image'][:60]}...")
+    print(f"Imagem: Será configurada posteriormente")
     print(f"Traduções: {len(config['translations'])} idiomas")
     print(f"Ordem: {config['order']}")
     print()

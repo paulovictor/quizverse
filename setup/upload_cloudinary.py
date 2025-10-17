@@ -38,7 +38,7 @@ API_KEY = os.environ.get("CLOUDINARY_API_KEY", "429396283651242")
 API_SECRET = os.environ.get("CLOUDINARY_API_SECRET", "HTF--7Ceic5mmOo_oxboCTzXiis")
 
 # Caminho raiz onde os arquivos aguardam upload
-UPLOAD_ROOT = Path(__file__).resolve().parent.parent / "upload"
+UPLOAD_ROOT = Path(__file__).resolve().parent.parent / "setup_upload"
 
 # Extensões suportadas
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".gif", ".bmp", ".avif"}
