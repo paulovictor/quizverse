@@ -419,6 +419,7 @@ class SetCountryViewTest(TestCase):
         self.url = reverse('quizzes:set_country')
 
     def test_set_country_changes_session(self):
+        """Testa se a mudança de país salva corretamente na sessão"""
         response = self.client.post(self.url, {'country': 'en-US'})
         self.assertEqual(response.status_code, 200)
 
@@ -430,5 +431,95 @@ class SetCountryViewTest(TestCase):
         self.assertEqual(self.client.session['country'], 'en-US')
 
     def test_set_country_rejects_invalid_country(self):
+        """Testa se países inválidos são rejeitados"""
         response = self.client.post(self.url, {'country': 'invalid'})
         self.assertEqual(response.status_code, 400)
+        
+        data = response.json()
+        self.assertFalse(data['success'])
+        self.assertIn('error', data)
+
+    def test_set_country_creates_session_if_none(self):
+        """Testa se uma nova sessão é criada quando não existe"""
+        # Garantir que não há sessão
+        self.client.cookies.clear()
+        
+        response = self.client.post(self.url, {'country': 'pt-BR'})
+        self.assertEqual(response.status_code, 200)
+        
+        # Verificar que sessão foi criada
+        self.assertIsNotNone(self.client.session.session_key)
+        self.assertEqual(self.client.session['country'], 'pt-BR')
+
+    def test_set_country_accepts_all_supported_countries(self):
+        """Testa se todos os países suportados são aceitos"""
+        from quizzes.models import Theme
+        
+        supported_countries = [code for code, name in Theme.COUNTRY_CHOICES]
+        
+        for country_code in supported_countries[:5]:  # Testar alguns países
+            response = self.client.post(self.url, {'country': country_code})
+            self.assertEqual(response.status_code, 200, f"Failed for country: {country_code}")
+            
+            data = response.json()
+            self.assertTrue(data['success'], f"Failed for country: {country_code}")
+            self.assertEqual(data['country'], country_code)
+
+    def test_set_country_requires_post_method(self):
+        """Testa se apenas método POST é aceito"""
+        response = self.client.get(self.url)
+        self.assertEqual(response.status_code, 405)  # Method not allowed
+        
+        response = self.client.put(self.url, {'country': 'en-US'})
+        self.assertEqual(response.status_code, 405)
+
+    def test_set_country_handles_missing_country_parameter(self):
+        """Testa comportamento quando parâmetro country não é fornecido"""
+        response = self.client.post(self.url, {})
+        self.assertEqual(response.status_code, 200)
+        
+        data = response.json()
+        self.assertTrue(data['success'])
+        self.assertEqual(data['country'], 'pt-BR')  # Default value
+
+    def test_set_country_json_response_format(self):
+        """Testa se a resposta JSON tem o formato correto"""
+        response = self.client.post(self.url, {'country': 'es-ES'})
+        self.assertEqual(response.status_code, 200)
+        
+        data = response.json()
+        self.assertIn('success', data)
+        self.assertIn('country', data)
+        self.assertIsInstance(data['success'], bool)
+        self.assertIsInstance(data['country'], str)
+
+    def test_set_country_session_persistence(self):
+        """Testa se a sessão persiste entre requisições"""
+        # Primeira requisição
+        response1 = self.client.post(self.url, {'country': 'fr-FR'})
+        self.assertEqual(response1.status_code, 200)
+        
+        # Segunda requisição (deve manter a sessão)
+        response2 = self.client.get(reverse('quizzes:home'))
+        self.assertEqual(response2.status_code, 200)
+        
+        # Verificar que o país ainda está na sessão
+        self.assertEqual(self.client.session['country'], 'fr-FR')
+
+    def test_set_country_with_csrf_token(self):
+        """Testa se a view funciona com token CSRF"""
+        # Obter token CSRF
+        csrf_response = self.client.get(reverse('quizzes:home'))
+        csrf_token = csrf_response.cookies.get('csrftoken')
+        
+        if csrf_token:
+            response = self.client.post(
+                self.url, 
+                {'country': 'de-DE'},
+                HTTP_X_CSRFTOKEN=csrf_token.value
+            )
+            self.assertEqual(response.status_code, 200)
+            
+            data = response.json()
+            self.assertTrue(data['success'])
+            self.assertEqual(self.client.session['country'], 'de-DE')

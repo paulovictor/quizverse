@@ -684,6 +684,12 @@
                     </div>
                 </div>
 
+                <!-- Hidden form for country selection -->
+                <form id="countryFormHeader" method="post" action="{% url 'quizzes:set_country' %}" style="display: none;">
+                    {% csrf_token %}
+                    <input type="hidden" name="country" value="">
+                </form>
+
                 <!-- Dark Mode Toggle -->
                 <button class="dark-mode-toggle-header" onclick="toggleDarkMode()" title="Alternar modo escuro/claro">
                     <div class="toggle-icon-container">
@@ -852,7 +858,33 @@
                         const form = document.getElementById('countryFormHeader');
                         if (form) {
                             form.querySelector('input[name="country"]').value = code;
-                            form.submit();
+                            
+                            // Submit via fetch to avoid page reload
+                            const formData = new FormData(form);
+                            
+                            fetch(form.action, {
+                                method: 'POST',
+                                body: formData,
+                                headers: {
+                                    'X-CSRFToken': form.querySelector('[name=csrfmiddlewaretoken]').value
+                                }
+                            })
+                            .then(response => response.json())
+                            .then(data => {
+                                if (data.success) {
+                                    // Redirect to home page to apply new country
+                                    window.location.href = '{% url "quizzes:home" %}';
+                                } else {
+                                    console.error('Erro ao alterar país:', data.error);
+                                    // Revert flag display
+                                    selectButton.querySelector('.flag-header').textContent = currentCountryData.flag;
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Erro na requisição:', error);
+                                // Revert flag display
+                                selectButton.querySelector('.flag-header').textContent = currentCountryData.flag;
+                            });
                         }
                     });
                 });

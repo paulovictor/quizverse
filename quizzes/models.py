@@ -46,8 +46,6 @@ class Theme(models.Model):
     # Cores personalizadas para a categoria na home
     primary_color = models.CharField(max_length=7, blank=True, null=True, help_text='Cor principal (ex: #3b82f6)')
     secondary_color = models.CharField(max_length=7, blank=True, null=True, help_text='Cor secundária para gradiente (ex: #8b5cf6)')
-    icon_bg_color_1 = models.CharField(max_length=7, blank=True, null=True, help_text='Cor 1 do background do ícone (ex: #dbeafe)')
-    icon_bg_color_2 = models.CharField(max_length=7, blank=True, null=True, help_text='Cor 2 do background do ícone (ex: #e0e7ff)')
     
     parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='subcategories', help_text='Tema pai (deixe vazio para categoria principal)')
     order = models.IntegerField(default=0, help_text='Ordem de exibição')

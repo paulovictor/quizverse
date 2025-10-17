@@ -130,14 +130,10 @@ class ThemeModelTest(TestCase):
         theme = ThemeFactory.create(
             primary_color="#3b82f6",
             secondary_color="#8b5cf6",
-            icon_bg_color_1="#dbeafe",
-            icon_bg_color_2="#e0e7ff"
         )
 
         self.assertEqual(theme.primary_color, "#3b82f6")
         self.assertEqual(theme.secondary_color, "#8b5cf6")
-        self.assertEqual(theme.icon_bg_color_1, "#dbeafe")
-        self.assertEqual(theme.icon_bg_color_2, "#e0e7ff")
 
     def test_theme_with_icon(self):
         """Testa tema com ícone"""

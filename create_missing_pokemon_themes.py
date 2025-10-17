@@ -27,8 +27,6 @@ def create_missing_pokemon_themes():
     colors = {
         'primary_color': '#ffcb05',
         'secondary_color': '#3d7dca',
-        'icon_bg_color_1': '#fff9e6',
-        'icon_bg_color_2': '#ffe082',
     }
     
     # Países que estão faltando
@@ -79,8 +77,6 @@ def create_missing_pokemon_themes():
                 'country': country_data['country_code'],
                 'primary_color': colors['primary_color'],
                 'secondary_color': colors['secondary_color'],
-                'icon_bg_color_1': colors['icon_bg_color_1'],
-                'icon_bg_color_2': colors['icon_bg_color_2'],
                 'parent': parent_theme,
                 'active': True,
                 'order': 100,

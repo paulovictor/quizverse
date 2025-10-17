@@ -96,8 +96,6 @@ Siga exatamente a estrutura que usamos para Pokémon:
 - Cores sugeridas:
   - primary_color: #ff8c00 (Laranja Agumon)
   - secondary_color: #ff6b00
-  - icon_bg_color_1: #fff4e6
-  - icon_bg_color_2: #ffe0b2
 - Traduções em todos os idiomas suportados
 
 #### 4. QUIZZES

@@ -32,8 +32,6 @@ def create_counter_strike_themes():
     colors = {
         'primary_color': '#ff6347',  # Vermelho CS
         'secondary_color': '#1e90ff',  # Azul CS
-        'icon_bg_color_1': '#fff5f0',
-        'icon_bg_color_2': '#ffcccb',
     }
 
     translations = {
@@ -177,8 +175,6 @@ def create_counter_strike_themes():
                 'country': country_code,
                 'primary_color': colors['primary_color'],
                 'secondary_color': colors['secondary_color'],
-                'icon_bg_color_1': colors['icon_bg_color_1'],
-                'icon_bg_color_2': colors['icon_bg_color_2'],
                 'parent': parent_theme,
                 'active': True,
                 'order': 50,

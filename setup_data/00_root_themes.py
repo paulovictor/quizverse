@@ -24,8 +24,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485101/ChatGPT_Image_Oct_14_2025_08_21_19_PM_u8jcah.png',
             'primary_color': '#34d399',
             'secondary_color': '#10b981',
-            'icon_bg_color_1': '#d1fae5',
-            'icon_bg_color_2': '#a7f3d0',
             'order': 1,
             'translations': {
                 'en': {'title': 'Sports', 'slug': 'sports', 'description': 'Test your knowledge about soccer, Olympics, world records and the greatest athletes in history!'},
@@ -49,8 +47,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485101/ChatGPT_Image_Oct_14_2025_08_19_27_PM_vb9x9w.png',
             'primary_color': '#a78bfa',
             'secondary_color': '#8b5cf6',
-            'icon_bg_color_1': '#ede9fe',
-            'icon_bg_color_2': '#ddd6fe',
             'order': 2,
             'translations': {
                 'en': {'title': 'Entertainment & Media', 'slug': 'entertainment', 'description': 'Dive into the universe of cinema, series, music and TV!'},
@@ -74,8 +70,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760486708/ChatGPT_Image_Oct_14_2025_09_04_59_PM_yclneb.png',
             'primary_color': '#fb7185',
             'secondary_color': '#f43f5e',
-            'icon_bg_color_1': '#ffe4e6',
-            'icon_bg_color_2': '#fecdd3',
             'order': 3,
             'translations': {
                 'en': {'title': 'General Trivia', 'slug': 'trivia', 'description': 'Discover surprising facts about the world!'},
@@ -99,8 +93,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485110/ChatGPT_Image_Oct_14_2025_05_59_31_PM_g7wxey.png',
             'primary_color': '#22d3ee',
             'secondary_color': '#06b6d4',
-            'icon_bg_color_1': '#cffafe',
-            'icon_bg_color_2': '#a5f3fc',
             'order': 4,
             'translations': {
                 'en': {'title': 'Science & Technology', 'slug': 'science', 'description': 'Explore the universe of innovation!'},
@@ -124,8 +116,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485108/ChatGPT_Image_Oct_14_2025_05_59_40_PM_u2r5vg.png',
             'primary_color': '#f472b6',
             'secondary_color': '#ec4899',
-            'icon_bg_color_1': '#fce7f3',
-            'icon_bg_color_2': '#fbcfe8',
             'order': 5,
             'translations': {
                 'en': {'title': 'Games', 'slug': 'games', 'description': 'From classic to modern video games and board games!'},
@@ -149,8 +139,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485107/ChatGPT_Image_Oct_14_2025_08_13_11_PM_pgimb4.png',
             'primary_color': '#fcd34d',
             'secondary_color': '#fbbf24',
-            'icon_bg_color_1': '#fef9c3',
-            'icon_bg_color_2': '#fef08a',
             'order': 6,
             'translations': {
                 'en': {'title': 'Celebrities & Personalities', 'slug': 'celebrities', 'description': 'Learn about entertainment icons and historical leaders!'},
@@ -174,8 +162,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,f_auto/v1760485103/ChatGPT_Image_Oct_14_2025_08_18_00_PM_ooloop.png',
             'primary_color': '#c084fc',
             'secondary_color': '#a855f7',
-            'icon_bg_color_1': '#f3e8ff',
-            'icon_bg_color_2': '#e9d5ff',
             'order': 7,
             'translations': {
                 'en': {'title': 'Arts & Culture', 'slug': 'arts', 'description': 'Dive into the world of visual arts, music, and literature!'},
@@ -199,8 +185,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485109/ChatGPT_Image_Oct_14_2025_05_59_34_PM_km9cdk.png',
             'primary_color': '#fbbf24',
             'secondary_color': '#f59e0b',
-            'icon_bg_color_1': '#fef3c7',
-            'icon_bg_color_2': '#fde68a',
             'order': 8,
             'translations': {
                 'en': {'title': 'History', 'slug': 'history', 'description': 'Travel through time through ancient civilizations and epic wars!'},
@@ -224,8 +208,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485104/ChatGPT_Image_Oct_14_2025_08_17_14_PM_ghpv3w.png',
             'primary_color': '#fbbf24',
             'secondary_color': '#f59e0b',
-            'icon_bg_color_1': '#fef3c7',
-            'icon_bg_color_2': '#fde68a',
             'order': 9,
             'translations': {
                 'en': {'title': 'Food & Drink', 'slug': 'food', 'description': 'For food lovers! Famous recipes and world cuisine!'},
@@ -249,8 +231,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485105/ChatGPT_Image_Oct_14_2025_08_16_46_PM_tclomp.png',
             'primary_color': '#4ade80',
             'secondary_color': '#22c55e',
-            'icon_bg_color_1': '#dcfce7',
-            'icon_bg_color_2': '#bbf7d0',
             'order': 10,
             'translations': {
                 'en': {'title': 'Nature & Animals', 'slug': 'nature', 'description': 'Explore the planet\'s biodiversity!'},
@@ -274,8 +254,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485102/ChatGPT_Image_Oct_14_2025_08_19_00_PM_e99coh.png',
             'primary_color': '#60a5fa',
             'secondary_color': '#3b82f6',
-            'icon_bg_color_1': '#dbeafe',
-            'icon_bg_color_2': '#bfdbfe',
             'order': 11,
             'translations': {
                 'en': {'title': 'Geography', 'slug': 'geography', 'description': 'Explore countries, capitals, and natural wonders!'},
@@ -299,8 +277,6 @@ def create_root_themes():
             'icon': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,h_300,c_thumb,g_face,f_auto/v1760485106/Symbols_of_Justice_and_Voice_frytbp.png',
             'primary_color': '#94a3b8',
             'secondary_color': '#64748b',
-            'icon_bg_color_1': '#f1f5f9',
-            'icon_bg_color_2': '#e2e8f0',
             'order': 12,
             'translations': {
                 'en': {'title': 'Politics & Society', 'slug': 'politics', 'description': 'Understand political systems and social movements!'},
@@ -374,8 +350,6 @@ def create_root_themes():
                     'icon': theme_base['icon'],
                     'primary_color': theme_base['primary_color'],
                     'secondary_color': theme_base['secondary_color'],
-                    'icon_bg_color_1': theme_base['icon_bg_color_1'],
-                    'icon_bg_color_2': theme_base['icon_bg_color_2'],
                     'order': theme_base['order'],
                     'parent': None,
                     'active': True

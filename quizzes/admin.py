@@ -80,7 +80,7 @@ class ThemeAdmin(admin.ModelAdmin):
             'fields': ('title', 'slug', 'description', 'country', 'icon', 'parent', 'order', 'active')
         }),
         ('Cores da Categoria (Home)', {
-            'fields': ('primary_color', 'secondary_color', 'icon_bg_color_1', 'icon_bg_color_2'),
+            'fields': ('primary_color', 'secondary_color'),
             'classes': ('collapse',),
             'description': 'Define as cores personalizadas da categoria na tela inicial. Use formato hexadecimal (#3b82f6).'
         }),

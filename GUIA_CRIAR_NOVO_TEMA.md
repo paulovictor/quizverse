@@ -57,8 +57,6 @@ theme_image = 'https://res.cloudinary.com/...'
 colors = {
     'primary_color': '#XXXXXX',      # Cor principal
     'secondary_color': '#XXXXXX',    # Cor secundária
-    'icon_bg_color_1': '#XXXXXX',    # Cor de fundo 1 do ícone
-    'icon_bg_color_2': '#XXXXXX',    # Cor de fundo 2 do ícone
 }
 ```
 

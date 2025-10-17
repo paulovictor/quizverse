@@ -76,10 +76,9 @@ def get_country_context(request):
     }
 
 
-@csrf_exempt
 @ratelimit(key='ip', rate='20/h', method='POST', block=True)
 def set_country(request):
-    """View para trocar o país do usuário (não requer CSRF pois é operação segura)"""
+    """View para trocar o país do usuário"""
     if request.method == 'POST':
         country = request.POST.get('country', 'pt-BR')
         
