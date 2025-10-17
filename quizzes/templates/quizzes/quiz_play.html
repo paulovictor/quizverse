@@ -2,10 +2,12 @@
 {% load static %}
 {% load icon_tags %}
 {% load translations %}
+{% load protected_images %}
 
 {% block title %}{{ quiz.title }} - Questão {{ current_index }}{% endblock %}
 
 {% block extra_styles %}
+<script src="{% static 'quizzes/js/secure-image-loader.js' %}"></script>
 <style>
     /* Force main content to be full width without default padding */
     body > .main-content {
@@ -185,15 +187,32 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        /* Proteção adicional */
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
     }
 
-    .question-image img {
+    .question-image img,
+    .question-image canvas {
         max-width: 100%;
         max-height: 400px;
         border-radius: 16px;
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
         object-fit: contain;
         transition: opacity 0.3s ease;
+        /* Proteção contra seleção e drag */
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
     }
 
     .question-image img.loading {
@@ -255,6 +274,22 @@
 
     .image-skeleton.hidden {
         display: none;
+    }
+
+    /* Camada de proteção invisível sobre a imagem */
+    .image-protection-layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        background: transparent;
+        cursor: default;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
     }
 
     /* Answers */
@@ -538,7 +573,9 @@
         {% if question.image %}
         <div class="question-image">
             <div class="image-skeleton" id="imageSkeleton"></div>
-            <img src="{{ question.image }}" alt="Imagem da questão" class="loading" id="questionImage">
+            <div class="image-protection-layer"></div>
+            <canvas id="questionImageCanvas" class="loading" style="display: none;"></canvas>
+            <img id="questionImage" alt="Imagem da questão" class="loading" style="display: none;">
         </div>
         {% endif %}
 
@@ -579,27 +616,153 @@
 </div>
 
 <script>
-    // Image Loading Handler
-    const questionImage = document.getElementById('questionImage');
-    const imageSkeleton = document.getElementById('imageSkeleton');
+    // Proteção contra clique direito e outras ações
 
-    if (questionImage && imageSkeleton) {
-        // Se a imagem já estiver carregada (cache)
-        if (questionImage.complete) {
-            questionImage.classList.remove('loading');
-            imageSkeleton.classList.add('hidden');
-        } else {
-            // Quando a imagem carregar
-            questionImage.addEventListener('load', function() {
-                questionImage.classList.remove('loading');
-                imageSkeleton.classList.add('hidden');
-            });
-
-            // Se houver erro ao carregar
-            questionImage.addEventListener('error', function() {
-                imageSkeleton.classList.add('hidden');
-            });
+    // Desabilitar teclas de atalho e console
+    document.addEventListener('keydown', function(e) {
+        // Desabilitar F12, Ctrl+Shift+I, Ctrl+U, Ctrl+S, Ctrl+Shift+C, Ctrl+Shift+J
+        if (e.key === 'F12' || 
+            (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+            (e.ctrlKey && e.shiftKey && e.key === 'C') ||
+            (e.ctrlKey && e.shiftKey && e.key === 'J') ||
+            (e.ctrlKey && e.key === 'u') ||
+            (e.ctrlKey && e.key === 's')) {
+            e.preventDefault();
+            return false;
         }
+    });
+
+    // Desabilitar clique direito em toda a página durante o quiz
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        return false;
+    });
+
+    // Proteção contra console do desenvolvedor
+    (function() {
+        let devtools = {open: false, orientation: null};
+        const threshold = 160;
+        
+        setInterval(function() {
+            if (window.outerHeight - window.innerHeight > threshold || 
+                window.outerWidth - window.innerWidth > threshold) {
+                if (!devtools.open) {
+                    devtools.open = true;
+                    // Limpar console e mostrar aviso
+                    console.clear();
+                    console.log('%cConsole desabilitado durante o quiz!', 'color: red; font-size: 20px; font-weight: bold;');
+                    
+                    // Opcional: redirecionar para página de aviso
+                    // window.location.href = '/quiz-security-warning/';
+                }
+            } else {
+                devtools.open = false;
+            }
+        }, 500);
+    })();
+
+    // Proteção adicional: detectar tentativas de debug
+    let debugAttempts = 0;
+    const originalConsole = {
+        log: console.log,
+        warn: console.warn,
+        error: console.error,
+        info: console.info
+    };
+
+    // Sobrescrever métodos do console
+    ['log', 'warn', 'error', 'info'].forEach(method => {
+        console[method] = function() {
+            debugAttempts++;
+            if (debugAttempts > 5) {
+                console.clear();
+                console.log('%cDebugging detectado! Quiz será finalizado.', 'color: red; font-size: 16px; font-weight: bold;');
+                // Opcional: finalizar quiz automaticamente
+                // window.location.href = '/quiz-ended/';
+            }
+            return originalConsole[method].apply(console, arguments);
+        };
+    });
+
+    // Desabilitar drag and drop
+    document.addEventListener('dragstart', function(e) {
+        if (e.target.tagName === 'IMG' || e.target.closest('.question-image')) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    // Desabilitar seleção de texto em imagens
+    document.addEventListener('selectstart', function(e) {
+        if (e.target.tagName === 'IMG' || e.target.closest('.question-image')) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    // Ultra Secure Image Loading Handler
+    const questionCanvas = document.getElementById('questionImageCanvas');
+    const imageSkeleton = document.getElementById('imageSkeleton');
+    const protectedImageUrl = '{% protected_image_url question.image %}';
+
+    if (questionCanvas && imageSkeleton && protectedImageUrl && window.SecureImageLoader) {
+        // Usar SecureImageLoader com Web Worker
+        const secureLoader = new SecureImageLoader();
+        
+        secureLoader.loadImage(protectedImageUrl, questionCanvas)
+            .then(() => {
+                // Sucesso: mostrar canvas e esconder skeleton
+                questionCanvas.classList.remove('loading');
+                questionCanvas.style.display = 'block';
+                imageSkeleton.classList.add('hidden');
+            })
+            .catch((error) => {
+                console.error('Error loading secure image:', error);
+                imageSkeleton.classList.add('hidden');
+            })
+            .finally(() => {
+                // Limpar recursos
+                secureLoader.destroy();
+            });
+    } else if (questionCanvas && imageSkeleton && protectedImageUrl) {
+        // Fallback: método anterior se SecureImageLoader não estiver disponível
+        async function loadSecureImageFallback() {
+            try {
+                const response = await fetch(protectedImageUrl);
+                if (!response.ok) throw new Error('Failed to load image');
+                
+                const blob = await response.blob();
+                const blobUrl = URL.createObjectURL(blob);
+                
+                const tempImg = new Image();
+                tempImg.crossOrigin = 'anonymous';
+                
+                tempImg.onload = function() {
+                    const ctx = questionCanvas.getContext('2d');
+                    questionCanvas.width = tempImg.naturalWidth;
+                    questionCanvas.height = tempImg.naturalHeight;
+                    ctx.drawImage(tempImg, 0, 0);
+                    
+                    URL.revokeObjectURL(blobUrl);
+                    questionCanvas.classList.remove('loading');
+                    questionCanvas.style.display = 'block';
+                    imageSkeleton.classList.add('hidden');
+                };
+                
+                tempImg.onerror = function() {
+                    URL.revokeObjectURL(blobUrl);
+                    imageSkeleton.classList.add('hidden');
+                };
+                
+                tempImg.src = blobUrl;
+                
+            } catch (error) {
+                console.error('Error loading secure image:', error);
+                imageSkeleton.classList.add('hidden');
+            }
+        }
+        
+        loadSecureImageFallback();
     }
 
     const answerOptions = document.querySelectorAll('.answer-option');

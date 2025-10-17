@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 """
 Script consolidado para setup completo de AK-47 Skins do Counter-Strike.
-Cria temas, quizgroup, quizzes e questões em uma única execução.
+Cria temas AK-47, quizgroup, quizzes e questões em uma única execução.
 
-Pré-requisito: 00_root_themes.py deve ter sido executado.
+Pré-requisitos:
+- 00_root_themes.py deve ter sido executado
+- 02_counter_strike_theme.py deve ter sido executado
 """
 
 import os
@@ -19,7 +21,7 @@ sys.path.insert(0, project_root)
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'quiz.settings')
 django.setup()
 
-from quizzes.models import Theme, Quiz, QuizGroup, Question, Answer, Badge, QuizGroupBadge
+from quizzes.models import Theme, Quiz, QuizGroup, Question, Answer
 
 
 # ============================================================================
@@ -66,203 +68,11 @@ def get_skin_url(skin_name, cloudinary_urls, fallback_url):
 
 
 # ============================================================================
-# ETAPA 0: CRIAR TEMAS COUNTER-STRIKE (PAI)
-# ============================================================================
-
-def create_counter_strike_themes():
-    """Cria o tema Counter-Strike (pai) para todos os países"""
-
-    print("=" * 80)
-    print("ETAPA 0: CRIANDO TEMAS COUNTER-STRIKE (PAI)")
-    print("=" * 80)
-    print()
-
-    theme_image = 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760663478/counter-strike-2-pc-jogo-steam-cover_zp57n2.jpg'
-
-    colors = {
-        'primary_color': '#ff6347',  # Vermelho CS
-        'secondary_color': '#1e90ff',  # Azul CS
-        'icon_bg_color_1': '#fff5f0',
-        'icon_bg_color_2': '#ffcccb',
-    }
-
-    translations = {
-        'pt': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Teste seus conhecimentos sobre Counter-Strike! Skins, mapas, armas e muito mais.',
-            'parent_slug': 'jogos',
-        },
-        'en': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Test your Counter-Strike knowledge! Skins, maps, weapons and more.',
-            'parent_slug': 'games',
-        },
-        'es': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': '¡Pon a prueba tus conocimientos sobre Counter-Strike! Skins, mapas, armas y más.',
-            'parent_slug': 'juegos',
-        },
-        'fr': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Testez vos connaissances sur Counter-Strike! Skins, cartes, armes et plus.',
-            'parent_slug': 'jeux',
-        },
-        'de': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Teste dein Counter-Strike Wissen! Skins, Karten, Waffen und mehr.',
-            'parent_slug': 'spiele',
-        },
-        'it': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Metti alla prova le tue conoscenze su Counter-Strike! Skin, mappe, armi e altro.',
-            'parent_slug': 'giochi',
-        },
-        'nl': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Test je Counter-Strike kennis! Skins, maps, wapens en meer.',
-            'parent_slug': 'games',
-        },
-        'pl': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Sprawdź swoją wiedzę o Counter-Strike! Skórki, mapy, broń i więcej.',
-            'parent_slug': 'gry',
-        },
-        'sv': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Testa din Counter-Strike kunskap! Skins, kartor, vapen och mer.',
-            'parent_slug': 'spel',
-        },
-        'no': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Test din Counter-Strike kunnskap! Skins, kart, våpen og mer.',
-            'parent_slug': 'spill',
-        },
-        'id': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Uji pengetahuan Counter-Strike Anda! Skin, map, senjata dan lainnya.',
-            'parent_slug': 'game',
-        },
-        'ja': {
-            'title': 'カウンターストライク',
-            'slug': 'counter-strike',
-            'description': 'Counter-Strikeの知識をテストしよう！スキン、マップ、武器など。',
-            'parent_slug': 'gemu',
-        },
-        'ko': {
-            'title': '카운터 스트라이크',
-            'slug': 'counter-strike',
-            'description': 'Counter-Strike 지식을 테스트하세요! 스킨, 맵, 무기 등.',
-            'parent_slug': 'geim',
-        },
-        'th': {
-            'title': 'เคาน์เตอร์สไตรค์',
-            'slug': 'counter-strike',
-            'description': 'ทดสอบความรู้ Counter-Strike ของคุณ! สกิน แผนที่ อาวุธ และอื่นๆ',
-            'parent_slug': 'gem',
-        },
-        'vi': {
-            'title': 'Counter-Strike',
-            'slug': 'counter-strike',
-            'description': 'Kiểm tra kiến thức Counter-Strike của bạn! Skin, bản đồ, vũ khí và hơn thế nữa.',
-            'parent_slug': 'tro-choi',
-        },
-    }
-
-    country_to_lang = {
-        'en-US': 'en', 'en-CA': 'en', 'en-GB': 'en', 'en-IN': 'en', 'en-PH': 'en', 'en-AU': 'en', 'en-NZ': 'en',
-        'pt-BR': 'pt', 'pt-PT': 'pt',
-        'es-MX': 'es', 'es-ES': 'es', 'es-AR': 'es', 'es-CO': 'es',
-        'de-DE': 'de',
-        'fr-FR': 'fr',
-        'it-IT': 'it',
-        'nl-NL': 'nl',
-        'sv-SE': 'sv',
-        'no-NO': 'no',
-        'pl-PL': 'pl',
-        'id-ID': 'id',
-        'ja-JP': 'ja',
-        'ko-KR': 'ko',
-        'th-TH': 'th',
-        'vi-VN': 'vi',
-    }
-
-    created_count = 0
-    updated_count = 0
-    errors = []
-
-    for country_code, lang_code in country_to_lang.items():
-        translation = translations.get(lang_code, translations['en'])
-
-        if country_code == 'pt-BR':
-            theme_slug = translation['slug']
-            parent_slug = translation['parent_slug']
-        else:
-            country_suffix = country_code.split('-')[1].lower()
-            theme_slug = f"{translation['slug']}-{country_suffix}"
-            parent_slug = f"{translation['parent_slug']}-{country_suffix}"
-
-        try:
-            parent_theme = Theme.objects.get(slug=parent_slug)
-        except Theme.DoesNotExist:
-            errors.append(f"⚠️  Tema pai não encontrado: {parent_slug} para {country_code}")
-            parent_theme = None
-
-        theme, created = Theme.objects.update_or_create(
-            slug=theme_slug,
-            defaults={
-                'title': translation['title'],
-                'description': translation['description'],
-                'icon': theme_image,
-                'country': country_code,
-                'primary_color': colors['primary_color'],
-                'secondary_color': colors['secondary_color'],
-                'icon_bg_color_1': colors['icon_bg_color_1'],
-                'icon_bg_color_2': colors['icon_bg_color_2'],
-                'parent': parent_theme,
-                'active': True,
-                'order': 50,
-            }
-        )
-
-        if created:
-            created_count += 1
-            status = "✅"
-        else:
-            updated_count += 1
-            status = "🔄"
-
-        parent_info = f"→ {parent_slug}" if parent_theme else "→ SEM PAI"
-        print(f"{status} {country_code:7s} | {theme_slug:25s} {parent_info}")
-
-    print()
-    print(f"📊 Temas Counter-Strike criados: {created_count} | Atualizados: {updated_count}")
-
-    if errors:
-        print()
-        for error in errors:
-            print(error)
-
-    print()
-    return created_count + updated_count
-
-
-# ============================================================================
 # ETAPA 1: CRIAR TEMAS AK-47
 # ============================================================================
 
 def create_ak47_themes():
-    """Cria o tema de AK-47 para todos os países"""
+    """Cria o tema de AK-47 para todos os países (filho do tema Counter-Strike)"""
 
     print("=" * 80)
     print("ETAPA 1: CRIANDO TEMAS AK-47")
@@ -745,198 +555,6 @@ def create_ak47_quizzes(quiz_group, all_skins, cloudinary_urls):
 
 
 # ============================================================================
-# ETAPA 4: CRIAR BADGES
-# ============================================================================
-
-def create_ak47_badges(quiz_group):
-    """Cria as badges de AK-47 Skins e associa ao QuizGroup"""
-
-    print("=" * 80)
-    print("ETAPA 4: CRIANDO BADGES DE AK-47 SKINS")
-    print("=" * 80)
-    print()
-
-    # Traduções das descrições das badges
-    badge_descriptions = {
-        'bronze': {
-            'pt-BR': 'Acerte todas as skins de AK-47!',
-            'en-US': 'Get all AK-47 skins correct!',
-            'en-CA': 'Get all AK-47 skins correct!',
-            'en-GB': 'Get all AK-47 skins correct!',
-            'en-IN': 'Get all AK-47 skins correct!',
-            'en-PH': 'Get all AK-47 skins correct!',
-            'en-AU': 'Get all AK-47 skins correct!',
-            'en-NZ': 'Get all AK-47 skins correct!',
-            'pt-PT': 'Acerta todas as skins de AK-47!',
-            'es-MX': '¡Acierta todas las skins de AK-47!',
-            'es-ES': '¡Acierta todas las skins de AK-47!',
-            'es-AR': '¡Acierta todas las skins de AK-47!',
-            'es-CO': '¡Acierta todas las skins de AK-47!',
-            'de-DE': 'Errate alle AK-47 Skins!',
-            'fr-FR': 'Trouvez toutes les skins AK-47!',
-            'it-IT': 'Indovina tutte le skin AK-47!',
-            'nl-NL': 'Raad alle AK-47 skins!',
-            'sv-SE': 'Gissa alla AK-47 skins!',
-            'no-NO': 'Gjett alle AK-47 skins!',
-            'pl-PL': 'Zgadnij wszystkie skórki AK-47!',
-            'id-ID': 'Tebak semua skin AK-47!',
-            'ja-JP': 'すべてのAK-47スキンを当てよう！',
-            'ko-KR': '모든 AK-47 스킨을 맞히세요!',
-            'th-TH': 'ทายสกิน AK-47 ทั้งหมด!',
-            'vi-VN': 'Đoán đúng tất cả skin AK-47!',
-        },
-        'silver': {
-            'pt-BR': 'Acerte todas as skins em menos de 15 minutos!',
-            'en-US': 'Get all skins correct in under 15 minutes!',
-            'en-CA': 'Get all skins correct in under 15 minutes!',
-            'en-GB': 'Get all skins correct in under 15 minutes!',
-            'en-IN': 'Get all skins correct in under 15 minutes!',
-            'en-PH': 'Get all skins correct in under 15 minutes!',
-            'en-AU': 'Get all skins correct in under 15 minutes!',
-            'en-NZ': 'Get all skins correct in under 15 minutes!',
-            'pt-PT': 'Acerta todas as skins em menos de 15 minutos!',
-            'es-MX': '¡Acierta todas las skins en menos de 15 minutos!',
-            'es-ES': '¡Acierta todas las skins en menos de 15 minutos!',
-            'es-AR': '¡Acierta todas las skins en menos de 15 minutos!',
-            'es-CO': '¡Acierta todas las skins en menos de 15 minutos!',
-            'de-DE': 'Errate alle Skins in unter 15 Minuten!',
-            'fr-FR': 'Trouvez toutes les skins en moins de 15 minutes!',
-            'it-IT': 'Indovina tutte le skin in meno di 15 minuti!',
-            'nl-NL': 'Raad alle skins in minder dan 15 minuten!',
-            'sv-SE': 'Gissa alla skins på under 15 minuter!',
-            'no-NO': 'Gjett alle skins på under 15 minutter!',
-            'pl-PL': 'Zgadnij wszystkie skórki w mniej niż 15 minut!',
-            'id-ID': 'Tebak semua skin dalam waktu kurang dari 15 menit!',
-            'ja-JP': '15分以内にすべてのスキンを当てよう！',
-            'ko-KR': '15분 이내에 모든 스킨을 맞히세요!',
-            'th-TH': 'ทายสกินทั้งหมดในเวลาไม่เกิน 15 นาที!',
-            'vi-VN': 'Đoán đúng tất cả skin trong vòng 15 phút!',
-        },
-        'gold': {
-            'pt-BR': 'Acerte todas as skins em menos de 8 minutos!',
-            'en-US': 'Get all skins correct in under 8 minutes!',
-            'en-CA': 'Get all skins correct in under 8 minutes!',
-            'en-GB': 'Get all skins correct in under 8 minutes!',
-            'en-IN': 'Get all skins correct in under 8 minutes!',
-            'en-PH': 'Get all skins correct in under 8 minutes!',
-            'en-AU': 'Get all skins correct in under 8 minutes!',
-            'en-NZ': 'Get all skins correct in under 8 minutes!',
-            'pt-PT': 'Acerta todas as skins em menos de 8 minutos!',
-            'es-MX': '¡Acierta todas las skins en menos de 8 minutos!',
-            'es-ES': '¡Acierta todas las skins en menos de 8 minutos!',
-            'es-AR': '¡Acierta todas las skins en menos de 8 minutos!',
-            'es-CO': '¡Acierta todas las skins en menos de 8 minutos!',
-            'de-DE': 'Errate alle Skins in unter 8 Minuten!',
-            'fr-FR': 'Trouvez toutes les skins en moins de 8 minutes!',
-            'it-IT': 'Indovina tutte le skin in meno di 8 minuti!',
-            'nl-NL': 'Raad alle skins in minder dan 8 minuten!',
-            'sv-SE': 'Gissa alla skins på under 8 minuter!',
-            'no-NO': 'Gjett alle skins på under 8 minutter!',
-            'pl-PL': 'Zgadnij wszystkie skórki w mniej niż 8 minut!',
-            'id-ID': 'Tebak semua skin dalam waktu kurang dari 8 menit!',
-            'ja-JP': '8分以内にすべてのスキンを当てよう！',
-            'ko-KR': '8분 이내에 모든 스킨을 맞히세요!',
-            'th-TH': 'ทายสกินทั้งหมดในเวลาไม่เกิน 8 นาที!',
-            'vi-VN': 'Đoán đúng tất cả skin trong vòng 8 phút!',
-        },
-    }
-
-    badges_data = [
-        {
-            'title': '🥉 Bronze AK Master',
-            'description': 'Acerte todas as skins de AK-47!',
-            'description_translations': badge_descriptions['bronze'],
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760663642/ChatGPT_Image_Oct_16_2025_07_47_54_PM_n8e3ff.png',
-            'rule_type': 'perfect_score',
-            'min_percentage': 100.0,
-            'max_time_seconds': None,
-            'rarity': 'rare',
-            'points': 100,
-            'order': 1,
-        },
-        {
-            'title': '🥈 Silver Elite AK',
-            'description': 'Acerte todas as skins em menos de 15 minutos!',
-            'description_translations': badge_descriptions['silver'],
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760663641/ChatGPT_Image_Oct_16_2025_06_21_46_PM_pzs3sz.png',
-            'rule_type': 'percentage_time',
-            'min_percentage': 100.0,
-            'max_time_seconds': 900,  # 15 minutos
-            'rarity': 'epic',
-            'points': 200,
-            'order': 2,
-        },
-        {
-            'title': '🥇 Gold Nova AK',
-            'description': 'Acerte todas as skins em menos de 8 minutos!',
-            'description_translations': badge_descriptions['gold'],
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760663641/ChatGPT_Image_Oct_16_2025_06_21_49_PM_pdwnmr.png',
-            'rule_type': 'percentage_time',
-            'min_percentage': 100.0,
-            'max_time_seconds': 480,  # 8 minutos
-            'rarity': 'legendary',
-            'points': 300,
-            'order': 3,
-        },
-    ]
-
-    created_count = 0
-    updated_count = 0
-    associated_count = 0
-
-    for badge_data in badges_data:
-        # Criar ou atualizar badge
-        badge, created = Badge.objects.update_or_create(
-            title=badge_data['title'],
-            defaults={
-                'description': badge_data['description'],
-                'description_translations': badge_data['description_translations'],
-                'image': badge_data['image'],
-                'rule_type': badge_data['rule_type'],
-                'min_percentage': badge_data['min_percentage'],
-                'max_time_seconds': badge_data['max_time_seconds'],
-                'rarity': badge_data['rarity'],
-                'points': badge_data['points'],
-                'order': badge_data['order'],
-                'active': True,
-            }
-        )
-
-        if created:
-            created_count += 1
-            status = "✅ CRIADO"
-        else:
-            updated_count += 1
-            status = "🔄 ATUALIZADO"
-
-        # Associar ao QuizGroup
-        group_badge, group_created = QuizGroupBadge.objects.get_or_create(
-            quiz_group=quiz_group,
-            badge=badge,
-            defaults={'active': True}
-        )
-
-        if group_created:
-            associated_count += 1
-            association_status = "🔗 Associado"
-        else:
-            association_status = "✓ Já associado"
-
-        time_info = ""
-        if badge_data['max_time_seconds']:
-            minutes = badge_data['max_time_seconds'] // 60
-            time_info = f" (< {minutes}min)"
-
-        print(f"{status:15s} | {badge_data['title']:25s} | {badge_data['rarity']:10s} | {badge_data['points']:3d} pts{time_info:15s} | {association_status}")
-
-    print()
-    print(f"📊 Badges criadas: {created_count} | Atualizadas: {updated_count} | Associadas: {associated_count}")
-    print()
-
-    return created_count, updated_count
-
-
-# ============================================================================
 # MAIN
 # ============================================================================
 
@@ -962,9 +580,6 @@ def main():
     print(f"✅ {len(all_skins)} skins de AK-47 carregadas")
     print()
 
-    # Etapa 0: Criar temas Counter-Strike (pai)
-    cs_themes_count = create_counter_strike_themes()
-
     # Etapa 1: Criar temas AK-47
     themes_count = create_ak47_themes()
 
@@ -974,29 +589,23 @@ def main():
     # Etapa 3: Criar Quizzes e Questões
     quizzes_created, quizzes_updated = create_ak47_quizzes(quiz_group, all_skins, cloudinary_urls)
 
-    # Etapa 4: Criar Badges
-    badges_created, badges_updated = create_ak47_badges(quiz_group)
-
     # Resumo final
     print("=" * 80)
     print("📊 RESUMO FINAL")
     print("=" * 80)
-    print(f"✅ Temas Counter-Strike (pai): {cs_themes_count}")
     print(f"✅ Temas AK-47: {themes_count}")
     print(f"✅ QuizGroup: 1")
     print(f"✅ Quizzes criados: {quizzes_created}")
     print(f"🔄 Quizzes atualizados: {quizzes_updated}")
     print(f"📝 Total de quizzes no grupo: {quiz_group.quizzes.count()}")
-    print(f"🏆 Badges criadas: {badges_created}")
-    print(f"🔄 Badges atualizadas: {badges_updated}")
     print()
     print("🎉 Setup completo de AK-47 Skins concluído com sucesso!")
     print()
     print("💡 Próximos passos:")
     print("   1. Verifique os temas em /admin/quizzes/theme/")
-    print("   2. Verifique as badges em /admin/quizzes/badge/")
-    print("   3. Acesse um quiz para testar: /quiz/adivinhe-skin-ak47/")
-    print("   4. Complete um quiz para testar se as badges são concedidas automaticamente!")
+    print("   2. Acesse um quiz para testar: /quiz/adivinhe-skin-ak47/")
+    print()
+    print("📝 Nota: Execute primeiro 02_counter_strike_theme.py para criar os temas pai!")
     print()
 
 

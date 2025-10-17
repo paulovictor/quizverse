@@ -1,0 +1,371 @@
+[
+  {
+    "name": "エイダ Eida",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/f/f9/Ada.png/revision/latest/scale-to-width-down/300?cb=20210421051547",
+    "similar_characters": [
+      "アマド Amado",
+      "アラヤ Araya",
+      "コード Kōdo"
+    ]
+  },
+  {
+    "name": "アマド Amado",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/7/74/Amado.png/revision/latest/scale-to-width-down/300?cb=20210912060622",
+    "similar_characters": [
+      "アラヤ Araya",
+      "エイダ Eida",
+      "コード Kōdo"
+    ]
+  },
+  {
+    "name": "アラヤ Araya",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/1/1e/Araya.png/revision/latest/scale-to-width-down/300?cb=20180517132525",
+    "similar_characters": [
+      "アマド Amado",
+      "エイダ Eida",
+      "コード Kōdo"
+    ]
+  },
+  {
+    "name": "うずまきボルト Uzumaki Boruto",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/6/68/New_Boruto_infobox.png/revision/latest/scale-to-width-down/300?cb=20210112064420",
+    "similar_characters": [
+      "うちはマダラ Uchiha Madara",
+      "うちはサラダ Uchiha Sarada",
+      "秋道チョウチョウ Akimichi Chōchō"
+    ]
+  },
+  {
+    "name": "秋道チョウチョウ Akimichi Chōchō",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/0/08/Ch%C5%8Dch%C5%8D_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20171220104427",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "雷門デンキ Kaminarimon Denki",
+      "山中いのじん Yamanaka Inojin"
+    ]
+  },
+  {
+    "name": "コード Kōdo",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/3/38/Code.png/revision/latest/scale-to-width-down/300?cb=20210126070355",
+    "similar_characters": [
+      "コハダ Kohada",
+      "エイダ Eida",
+      "アマド Amado"
+    ]
+  },
+  {
+    "name": "観月ダンゴ Mitsuki Dango",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/a/a6/Dango_Mitsuki.png/revision/latest/scale-to-width-down/150?cb=20160224192930",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "山中いのじん Yamanaka Inojin",
+      "結乃イワベエ Yuino Iwabee"
+    ]
+  },
+  {
+    "name": "ディーパ Dīpa",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/6/69/Deepa.png/revision/latest/scale-to-width-down/300?cb=20201122142725",
+    "similar_characters": [
+      "デイダラ Deidara",
+      "デルタ Deruta",
+      "エイダ Eida"
+    ]
+  },
+  {
+    "name": "デイダラ Deidara",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/0/06/Deidara.png/revision/latest/scale-to-width-down/300?cb=20160113165515",
+    "similar_characters": [
+      "ディーパ Dīpa",
+      "デルタ Deruta",
+      "アマド Amado"
+    ]
+  },
+  {
+    "name": "デルタ Deruta",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/7/7c/Delta_Infobox.png/revision/latest/scale-to-width-down/300?cb=20210813151341",
+    "similar_characters": [
+      "ディーパ Dīpa",
+      "デイダラ Deidara",
+      "エイダ Eida"
+    ]
+  },
+  {
+    "name": "雷門デンキ Kaminarimon Denki",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/a/a3/Denki_Kaminarimon.png/revision/latest/scale-to-width-down/300?cb=20180208013944",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "秋道チョウチョウ Akimichi Chōchō",
+      "山中いのじん Yamanaka Inojin"
+    ]
+  },
+  {
+    "name": "黒衣ハコ Kuroi Hako",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/9/9e/Hako.png/revision/latest/scale-to-width-down/300?cb=20171207092807",
+    "similar_characters": [
+      "デイダラ Deidara",
+      "果心居士 Kashin Koji",
+      "メタル・リー Metaru Rī"
+    ]
+  },
+  {
+    "name": "山中いのじん Yamanaka Inojin",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/e/e6/Inojin_movie.png/revision/latest/scale-to-width-down/300?cb=20160715224617",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "秋道チョウチョウ Akimichi Chōchō",
+      "観月ダンゴ Mitsuki Dango"
+    ]
+  },
+  {
+    "name": "大筒木イッシキ Ōtsutsuki Isshiki",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/2/21/Isshiki.png/revision/latest/scale-to-width-down/300?cb=20210924094944",
+    "similar_characters": [
+      "大筒木キンシキ Ōtsutsuki Kinshiki",
+      "大筒木モモシキ Ōtsutsuki Momoshiki",
+      "大筒木ウラシキ Ōtsutsuki Urashiki"
+    ]
+  },
+  {
+    "name": "結乃イワベエ Yuino Iwabee",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/0/0b/Iwabee_Yuino.png/revision/latest/scale-to-width-down/300?cb=20180824075948",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "観月ダンゴ Mitsuki Dango",
+      "山中いのじん Yamanaka Inojin"
+    ]
+  },
+  {
+    "name": "ジゲン Jigen",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/5/54/Jigen_Infobox.png/revision/latest/scale-to-width-down/300?cb=20210902055901",
+    "similar_characters": [
+      "エイダ Eida",
+      "アマド Amado",
+      "アラヤ Araya"
+    ]
+  },
+  {
+    "name": "ワサビ次郎長 Wasabi Jirōchō",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/5/56/Jir%C5%8Dch%C5%8D_Wasabi.png/revision/latest/scale-to-width-down/300?cb=20150529191859",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "秋道チョウチョウ Akimichi Chōchō",
+      "観月ダンゴ Mitsuki Dango"
+    ]
+  },
+  {
+    "name": "カワキ Kawaki",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/e/ef/Kawaki_infobox.png/revision/latest/scale-to-width-down/300?cb=20211018061922",
+    "similar_characters": [
+      "エイダ Eida",
+      "アマド Amado",
+      "アラヤ Araya"
+    ]
+  },
+  {
+    "name": "大筒木キンシキ Ōtsutsuki Kinshiki",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/c/ca/Kinshiki.png/revision/latest/scale-to-width-down/300?cb=20180614114549",
+    "similar_characters": [
+      "大筒木イッシキ Ōtsutsuki Isshiki",
+      "大筒木モモシキ Ōtsutsuki Momoshiki",
+      "大筒木ウラシキ Ōtsutsuki Urashiki"
+    ]
+  },
+  {
+    "name": "コハダ Kohada",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/6/6c/Kohada_Anime.png/revision/latest/scale-to-width-down/300?cb=20151225112339",
+    "similar_characters": [
+      "コード Kōdo",
+      "エイダ Eida",
+      "アマド Amado"
+    ]
+  },
+  {
+    "name": "果心居士 Kashin Koji",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/f/f2/Koji.png/revision/latest/scale-to-width-down/300?cb=20210703162204",
+    "similar_characters": [
+      "観月ダンゴ Mitsuki Dango",
+      "黒衣ハコ Kuroi Hako",
+      "結乃イワベエ Yuino Iwabee"
+    ]
+  },
+  {
+    "name": "マダム・しじみ Madamu Shijimi",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/9/98/Tora_and_Madam_Shijimi_original.png/revision/latest/scale-to-width-down/300?cb=20150122122132",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "秋道チョウチョウ Akimichi Chōchō",
+      "観月ダンゴ Mitsuki Dango"
+    ]
+  },
+  {
+    "name": "うちはマダラ Uchiha Madara",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/0/0c/Madara_img2.png/revision/latest/scale-to-width-down/300?cb=20160115141947",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "うちはサラダ Uchiha Sarada",
+      "観月ダンゴ Mitsuki Dango"
+    ]
+  },
+  {
+    "name": "メタル・リー Metaru Rī",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/9/93/Metal_Lee.png/revision/latest/scale-to-width-down/300?cb=20180824114015",
+    "similar_characters": [
+      "観月ダンゴ Mitsuki Dango",
+      "黒衣ハコ Kuroi Hako",
+      "結乃イワベエ Yuino Iwabee"
+    ]
+  },
+  {
+    "name": "ミツキ Mitsuki",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/5/5c/Mitsuki.png/revision/latest/scale-to-width-down/300?cb=20180727050509",
+    "similar_characters": [
+      "エイダ Eida",
+      "アマド Amado",
+      "アラヤ Araya"
+    ]
+  },
+  {
+    "name": "大筒木モモシキ Ōtsutsuki Momoshiki",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/d/d1/Momoshiki.png/revision/latest/scale-to-width-down/300?cb=20180614193014",
+    "similar_characters": [
+      "大筒木イッシキ Ōtsutsuki Isshiki",
+      "大筒木キンシキ Ōtsutsuki Kinshiki",
+      "大筒木ウラシキ Ōtsutsuki Urashiki"
+    ]
+  },
+  {
+    "name": "狼牙ナダレ Rōga Nadare",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/1/19/Nadare_R%C5%8Dga.png/revision/latest/scale-to-width-down/300?cb=20160116190200",
+    "similar_characters": [
+      "観月ダンゴ Mitsuki Dango",
+      "黒衣ハコ Kuroi Hako",
+      "結乃イワベエ Yuino Iwabee"
+    ]
+  },
+  {
+    "name": "雀乃なみだ Suzumeno Namida",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/1/1d/Namida.png/revision/latest/scale-to-width-down/300?cb=20171220103121",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "秋道チョウチョウ Akimichi Chōchō",
+      "観月ダンゴ Mitsuki Dango"
+    ]
+  },
+  {
+    "name": "レンガ Renga",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/b/be/Renga.png/revision/latest/scale-to-width-down/300?cb=20150626125430",
+    "similar_characters": [
+      "エイダ Eida",
+      "アマド Amado",
+      "アラヤ Araya"
+    ]
+  },
+  {
+    "name": "国防レンガ Kokubō Renga",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/8/85/Renga_Kokub%C5%8D.png/revision/latest/scale-to-width-down/300?cb=20171220102300",
+    "similar_characters": [
+      "観月ダンゴ Mitsuki Dango",
+      "黒衣ハコ Kuroi Hako",
+      "結乃イワベエ Yuino Iwabee"
+    ]
+  },
+  {
+    "name": "サダ Sada",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/4/4b/Sada.png/revision/latest/scale-to-width-down/300?cb=20110811163613",
+    "similar_characters": [
+      "サダイ Sadai",
+      "エイダ Eida",
+      "アマド Amado"
+    ]
+  },
+  {
+    "name": "サダイ Sadai",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/c/c0/Assailant.png/revision/latest/scale-to-width-down/300?cb=20170311015253",
+    "similar_characters": [
+      "サダ Sada",
+      "エイダ Eida",
+      "アマド Amado"
+    ]
+  },
+  {
+    "name": "うちはサラダ Uchiha Sarada",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/9/9a/Sarada_Infobox.png/revision/latest/scale-to-width-down/300?cb=20180531174206",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "うちはマダラ Uchiha Madara",
+      "観月ダンゴ Mitsuki Dango"
+    ]
+  },
+  {
+    "name": "シャバダバ Shabadaba",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/4/4e/Shabadaba.png/revision/latest/scale-to-width-down/300?cb=20160123110401",
+    "similar_characters": [
+      "シンキ Shinki",
+      "デイダラ Deidara",
+      "黒衣ハコ Kuroi Hako"
+    ]
+  },
+  {
+    "name": "奈良シカダイ Nara Shikadai",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/3/3d/Shikadai_Nara.png/revision/latest/scale-to-width-down/300?cb=20150624043352",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "観月ダンゴ Mitsuki Dango",
+      "雷門デンキ Kaminarimon Denki"
+    ]
+  },
+  {
+    "name": "シンキ Shinki",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/7/78/Shinki.png/revision/latest/scale-to-width-down/300?cb=20180503122523",
+    "similar_characters": [
+      "シャバダバ Shabadaba",
+      "エイダ Eida",
+      "アマド Amado"
+    ]
+  },
+  {
+    "name": "スミレ Sumire",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/d/d6/Sumire.png/revision/latest/scale-to-width-down/300?cb=20150725183324",
+    "similar_characters": [
+      "エイダ Eida",
+      "アマド Amado",
+      "アラヤ Araya"
+    ]
+  },
+  {
+    "name": "筧スミレ Kakei Sumire",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/1/12/Sumire_Kakei.png/revision/latest/scale-to-width-down/300?cb=20210124172759",
+    "similar_characters": [
+      "観月ダンゴ Mitsuki Dango",
+      "黒衣ハコ Kuroi Hako",
+      "結乃イワベエ Yuino Iwabee"
+    ]
+  },
+  {
+    "name": "大筒木ウラシキ Ōtsutsuki Urashiki",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/f/f6/Urashiki.png/revision/latest/scale-to-width-down/300?cb=20190910012121",
+    "similar_characters": [
+      "大筒木イッシキ Ōtsutsuki Isshiki",
+      "大筒木キンシキ Ōtsutsuki Kinshiki",
+      "大筒木モモシキ Ōtsutsuki Momoshiki"
+    ]
+  },
+  {
+    "name": "伊豆野ワサビ Izuno Wasabi",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/4/49/Wasabi.png/revision/latest/scale-to-width-down/300?cb=20171220103023",
+    "similar_characters": [
+      "うずまきボルト Uzumaki Boruto",
+      "観月ダンゴ Mitsuki Dango",
+      "山中いのじん Yamanaka Inojin"
+    ]
+  },
+  {
+    "name": "ヨド Yodo",
+    "picture": "https://static.wikia.nocookie.net/naruto/images/f/ff/Yodo.png/revision/latest/scale-to-width-down/300?cb=20180517121142",
+    "similar_characters": [
+      "エイダ Eida",
+      "アマド Amado",
+      "アラヤ Araya"
+    ]
+  }
+]
