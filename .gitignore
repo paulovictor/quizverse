@@ -55,4 +55,4 @@ uv.lock
 coverage.xml
 htmlcov/
 .pytest_cache/
-upload/
+setup_upload/
