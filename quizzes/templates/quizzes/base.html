@@ -1,6 +1,7 @@
 {% load static %}
 {% load icon_tags %}
 {% load translations %}
+{% load simple_flags %}
 <!DOCTYPE html>
 <html lang="{{ current_language|default:'pt' }}">
 <head>
@@ -35,9 +36,6 @@
     
     <!-- Theme Color -->
     <meta name="theme-color" content="#3b82f6">
-    
-    <!-- Twemoji - Para suporte a emojis em todos os sistemas (especialmente Windows) -->
-    <script src="https://cdn.jsdelivr.net/npm/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
     
     <style>
         :root {
@@ -319,6 +317,7 @@
         .option-item-header .flag-header {
             font-size: 1.5rem;
             flex-shrink: 0;
+            margin-right: 0.75rem;
         }
 
         .option-item-header .name-header {
@@ -672,7 +671,7 @@
                 <div class="custom-select-header">
                     <div class="select-button-header" id="selectButtonHeader">
                         <div class="selected-option-header">
-                            <span class="flag-header">🇧🇷</span>
+                            <span class="flag-header">{% flag_emoji current_country|default:'pt-BR' %}</span>
                         </div>
                         <span class="arrow-header">▼</span>
                     </div>
@@ -813,10 +812,6 @@
             const currentCountryData = countries.find(c => c.code === currentCountry);
             if (currentCountryData && selectButton.querySelector('.flag-header')) {
                 selectButton.querySelector('.flag-header').textContent = currentCountryData.flag;
-                // Parse emojis to images (Windows support)
-                if (typeof twemoji !== 'undefined') {
-                    twemoji.parse(selectButton.querySelector('.flag-header'));
-                }
             }
 
             // Render options
@@ -837,50 +832,28 @@
                     </div>
                 `).join('');
 
-                // Parse emojis to images (Windows support)
-                if (typeof twemoji !== 'undefined') {
-                    twemoji.parse(optionsContainer);
-                }
-
                 // Add click events to options
                 document.querySelectorAll('.option-item-header').forEach(item => {
                     item.addEventListener('click', function() {
                         const code = this.dataset.code;
                         const flag = this.dataset.flag;
-                        
+                        const name = this.querySelector('.name-header').textContent;
+
                         // Update button
                         selectButton.querySelector('.flag-header').textContent = flag;
-                        
-                        // Parse emojis to images (Windows support)
-                        if (typeof twemoji !== 'undefined') {
-                            twemoji.parse(selectButton.querySelector('.flag-header'));
+
+                        // Update select
+                        selectButton.classList.remove('active');
+                        optionsList.classList.remove('open');
+                        selectButton.setAttribute('data-selected-code', code);
+                        optionsList.setAttribute('data-selected-code', code);
+
+                        // Submit form programmatically
+                        const form = document.getElementById('countryFormHeader');
+                        if (form) {
+                            form.querySelector('input[name="country"]').value = code;
+                            form.submit();
                         }
-                        
-                        // Get CSRF token
-                        const csrftoken = getCookie('csrftoken');
-                        
-                        // Send POST request to change country
-                        fetch("{% url 'quizzes:set_country' %}", {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/x-www-form-urlencoded',
-                                'X-CSRFToken': csrftoken
-                            },
-                            body: 'country=' + encodeURIComponent(code)
-                        })
-                        .then(response => response.json())
-                        .then(data => {
-                            if (data.success) {
-                                window.location.href = "{% url 'quizzes:home' %}";
-                            } else {
-                                console.error('Failed to change country:', data.error);
-                            }
-                        })
-                        .catch(error => {
-                            console.error('Error changing country:', error);
-                        });
-                        
-                        closeDropdown();
                     });
                 });
             }

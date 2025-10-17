@@ -1,6 +1,5 @@
 from django.urls import path
 from . import views
-from .image_proxy import serve_protected_image
 
 app_name = 'quizzes'
 
@@ -28,7 +27,5 @@ urlpatterns = [
     path('attempt/<uuid:attempt_id>/resultado/', views.quiz_result, name='quiz_result'),
     path('attempt/<uuid:attempt_id>/claim/', views.claim_attempt, name='claim_claim'),
     
-    # Protected Images
-    path('protected-image/<str:token>/<path:encoded_url>/', serve_protected_image, name='protected_image'),
 ]
 
