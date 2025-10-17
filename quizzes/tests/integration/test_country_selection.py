@@ -53,10 +53,10 @@ class CountrySelectionIntegrationTest(TestCase):
         
         content = response.content.decode()
         
-        # Verificar se países importantes estão na lista
-        self.assertIn("'pt-BR', name: 'Brasil', flag: '🇧🇷'", content)
-        self.assertIn("'en-US', name: 'United States', flag: '🇺🇸'", content)
-        self.assertIn("'es-ES', name: 'Spain', flag: '🇪🇸'", content)
+        # Verificar se países importantes estão na lista com flagCode
+        self.assertIn("'pt-BR', name: 'Brasil', flagCode: '1f1e7-1f1f7'", content)
+        self.assertIn("'en-US', name: 'United States', flagCode: '1f1fa-1f1f8'", content)
+        self.assertIn("'es-ES', name: 'Spain', flagCode: '1f1ea-1f1f8'", content)
 
     def test_current_country_displayed(self):
         """Testa se o país atual é exibido corretamente"""

@@ -64,6 +64,11 @@ def get_country_context(request):
     }
 
 
+def country_context_processor(request):
+    """Context processor para adicionar país a todos os templates"""
+    return get_country_context(request)
+
+
 @ratelimit(key='ip', rate='20/h', method='POST', block=True)
 def set_country(request):
     """View para trocar o país do usuário"""
