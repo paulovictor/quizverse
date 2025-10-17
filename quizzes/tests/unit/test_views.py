@@ -496,7 +496,7 @@ class SetCountryViewTest(TestCase):
     def test_set_country_session_persistence(self):
         """Testa se a sessão persiste entre requisições"""
         # Primeira requisição
-        response1 = self.client.post(self.url, {'country': 'fr-FR'})
+        response1 = self.client.post(self.url, {'country': 'es-ES'})
         self.assertEqual(response1.status_code, 200)
         
         # Segunda requisição (deve manter a sessão)
@@ -504,7 +504,7 @@ class SetCountryViewTest(TestCase):
         self.assertEqual(response2.status_code, 200)
         
         # Verificar que o país ainda está na sessão
-        self.assertEqual(self.client.session['country'], 'fr-FR')
+        self.assertEqual(self.client.session['country'], 'es-ES')
 
     def test_set_country_with_csrf_token(self):
         """Testa se a view funciona com token CSRF"""
@@ -515,11 +515,11 @@ class SetCountryViewTest(TestCase):
         if csrf_token:
             response = self.client.post(
                 self.url, 
-                {'country': 'de-DE'},
+                {'country': 'en-CA'},
                 HTTP_X_CSRFTOKEN=csrf_token.value
             )
             self.assertEqual(response.status_code, 200)
             
             data = response.json()
             self.assertTrue(data['success'])
-            self.assertEqual(self.client.session['country'], 'de-DE')
+            self.assertEqual(self.client.session['country'], 'en-CA')

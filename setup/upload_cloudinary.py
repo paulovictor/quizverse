@@ -130,12 +130,12 @@ def upload_files(files: Iterable[Path], cloud_folder: str) -> List[dict]:
 
 
 def save_report(data: List[dict], output_name: str) -> None:
-    """Salva o relatório das URLs em ``cloudinary_urls/<nome>.json``."""
+    """Salva o relatório das URLs em ``setup/cloudinary_urls/<nome>.json``."""
 
     if not data:
         return
 
-    output_dir = Path(__file__).resolve().parent.parent / "cloudinary_urls"
+    output_dir = Path(__file__).resolve().parent / "cloudinary_urls"
     output_dir.mkdir(exist_ok=True)
 
     output_file = output_dir / f"{output_name}.json"

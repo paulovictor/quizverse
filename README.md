@@ -17,19 +17,9 @@ uv run python setup/create_theme.py
 
 3 - Criar um quiz para o novo theme
 ```python
-uv run python setup/create_quizz.py
+uv run python setup/create_quiz.py
 ```
 
-
-
-
-
-
-
-
-
-
-
-3 - Generate all questions and answers in all languages
+4 - Generate all questions and answers in all languages
 ```python
-uv run python setup/create_quizz.py
+uv run python setup/create_questions.py

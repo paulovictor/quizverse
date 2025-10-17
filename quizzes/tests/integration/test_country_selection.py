@@ -163,14 +163,14 @@ class CountrySelectionIntegrationTest(TestCase):
             # Testar com token CSRF
             response = self.client.post(
                 reverse('quizzes:set_country'),
-                {'country': 'fr-FR'},
+                {'country': 'en-US'},
                 HTTP_X_CSRFTOKEN=csrf_token.value
             )
             self.assertEqual(response.status_code, 200)
             
             data = response.json()
             self.assertTrue(data['success'])
-            self.assertEqual(self.client.session['country'], 'fr-FR')
+            self.assertEqual(self.client.session['country'], 'en-US')
 
     def test_country_selector_error_handling(self):
         """Testa se o tratamento de erros funciona corretamente"""

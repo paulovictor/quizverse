@@ -152,7 +152,7 @@ class Quiz(models.Model):
     difficulty = models.CharField(max_length=10, choices=DIFFICULTY_CHOICES, default='medium')
     country = models.CharField(max_length=10, choices=COUNTRY_CHOICES, default='pt-BR', help_text='País do quiz')
     question_sample_size = models.IntegerField(
-        default=20,
+        default=0,
         help_text='Número de questões aleatórias a serem selecionadas (0 = usar todas)'
     )
     active = models.BooleanField(default=True)

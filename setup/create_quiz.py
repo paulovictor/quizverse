@@ -80,18 +80,6 @@ def get_quiz_description_template(lang_code):
         'en': 'Answer {sample_size} random questions from {total} available! Test your knowledge.',
         'pt': 'Responda {sample_size} questões aleatórias de {total} disponíveis! Teste seu conhecimento.',
         'es': '¡Responde {sample_size} preguntas aleatorias de {total} disponibles! Pon a prueba tu conocimiento.',
-        'de': 'Beantworten Sie {sample_size} zufällige Fragen von {total} verfügbaren! Testen Sie Ihr Wissen.',
-        'fr': 'Répondez à {sample_size} questions aléatoires sur {total} disponibles! Testez vos connaissances.',
-        'it': 'Rispondi a {sample_size} domande casuali su {total} disponibili! Metti alla prova la tua conoscenza.',
-        'nl': 'Beantwoord {sample_size} willekeurige vragen van {total} beschikbare! Test je kennis.',
-        'sv': 'Svara på {sample_size} slumpmässiga frågor av {total} tillgängliga! Testa din kunskap.',
-        'no': 'Svar på {sample_size} tilfeldige spørsmål av {total} tilgjengelige! Test kunnskapen din.',
-        'pl': 'Odpowiedz na {sample_size} losowych pytań z {total} dostępnych! Przetestuj swoją wiedzę.',
-        'id': 'Jawab {sample_size} pertanyaan acak dari {total} yang tersedia! Uji pengetahuan Anda.',
-        'ja': '{total}個の利用可能な質問から{sample_size}個のランダムな質問に答えてください！知識をテストしましょう。',
-        'ko': '{total}개의 사용 가능한 질문 중 {sample_size}개의 무작위 질문에 답하세요! 지식을 테스트하세요.',
-        'th': 'ตอบคำถาม {sample_size} ข้อแบบสุ่มจาก {total} ข้อที่มี! ทดสอบความรู้ของคุณ',
-        'vi': 'Trả lời {sample_size} câu hỏi ngẫu nhiên từ {total} câu có sẵn! Kiểm tra kiến thức của bạn.',
     }
     return templates.get(lang_code, templates['en'])
 
@@ -106,7 +94,7 @@ def get_user_input():
     print()
 
     # Slug do quiz (base em português)
-    print("1️⃣ Digite o slug BASE do novo quiz em português (ex: adivinhe-o-pokemon-gen1)")
+    print("1️⃣ Digite o slug BASE do novo quiz em português (ex: awp)")
     while True:
         quiz_slug_base = input("   Slug base: ").strip()
         if quiz_slug_base:
@@ -145,16 +133,7 @@ def get_user_input():
 
     print()
 
-    # Número de questões
-    print("5️⃣ Número de questões do quiz")
-    num_questions = input("   Número de questões (padrão: 20): ").strip()
-
-    try:
-        num_questions = int(num_questions) if num_questions else 20
-    except ValueError:
-        num_questions = 20
-
-    print()
+    num_questions = 0
 
     # Ordem
     print("6️⃣ Ordem de exibição do quiz (número inteiro, menor = primeiro)")
@@ -308,7 +287,7 @@ def create_quizzes(config, themes, quiz_group):
                 'active': True,
                 'order': config['order'],
                 'country': country_code,
-                'question_sample_size': config['num_questions'],
+                'question_sample_size': 0,
             }
         )
 

@@ -1,0 +1,472 @@
+[
+  {
+    "filename": "Acheron.png",
+    "display_name": "Acheron",
+    "public_id": "cs/awp/nisnzxooogprdmxvd8zx",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740607/cs/awp/nisnzxooogprdmxvd8zx.webp",
+    "asset_id": "6fd8d84ef46203928912b76d2ec3b5b8",
+    "bytes": 486160,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Arsenic Spill.png",
+    "display_name": "Arsenic Spill",
+    "public_id": "cs/awp/pidk2dzpoxyz5bzfkd4v",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740608/cs/awp/pidk2dzpoxyz5bzfkd4v.webp",
+    "asset_id": "1c4ccc7d57782863436fc2a5ff02ad2b",
+    "bytes": 340354,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Asiimov.png",
+    "display_name": "Asiimov",
+    "public_id": "cs/awp/tcfgdrj2emv1vluhvqip",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740609/cs/awp/tcfgdrj2emv1vluhvqip.webp",
+    "asset_id": "410f05052d94b1d9f08cddffbeee6b25",
+    "bytes": 269508,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Atheris.png",
+    "display_name": "Atheris",
+    "public_id": "cs/awp/q8v0wqrkxicsxcwoqear",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740610/cs/awp/q8v0wqrkxicsxcwoqear.webp",
+    "asset_id": "3bbb05e335a7f98e99b114b45b808175",
+    "bytes": 438348,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "BOOM.png",
+    "display_name": "BOOM",
+    "public_id": "cs/awp/qku1vuckpqdc4huifaka",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740610/cs/awp/qku1vuckpqdc4huifaka.webp",
+    "asset_id": "c5be187ca58c02244e1119ee45a386c5",
+    "bytes": 363722,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Black Nile.png",
+    "display_name": "Black Nile",
+    "public_id": "cs/awp/i87xoasb54cjdijkz0rx",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740611/cs/awp/i87xoasb54cjdijkz0rx.webp",
+    "asset_id": "b39573db06aecaa04db194e348084f15",
+    "bytes": 452306,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "CMYK.png",
+    "display_name": "CMYK",
+    "public_id": "cs/awp/nfs0hf1tcoxwfbrx3ge4",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740612/cs/awp/nfs0hf1tcoxwfbrx3ge4.webp",
+    "asset_id": "73ec7ec5c22e699ab03781fab08550bb",
+    "bytes": 403496,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Capillary.png",
+    "display_name": "Capillary",
+    "public_id": "cs/awp/uk4k6tf4agkfss6kng0k",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740612/cs/awp/uk4k6tf4agkfss6kng0k.webp",
+    "asset_id": "e03cf175a20bfd54659af05251fbc25e",
+    "bytes": 470952,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Chromatic Aberration.png",
+    "display_name": "Chromatic Aberration",
+    "public_id": "cs/awp/ar6tbhrshcenbkbgdur0",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740613/cs/awp/ar6tbhrshcenbkbgdur0.webp",
+    "asset_id": "fac57362690f7444ee7e495025324a74",
+    "bytes": 421702,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Chrome Cannon.png",
+    "display_name": "Chrome Cannon",
+    "public_id": "cs/awp/qvjs1o4b69tdixcsrr5c",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740614/cs/awp/qvjs1o4b69tdixcsrr5c.webp",
+    "asset_id": "3de94433d565d1ca22df60b6c575e04e",
+    "bytes": 431070,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Containment Breach.png",
+    "display_name": "Containment Breach",
+    "public_id": "cs/awp/bubeoldlmlz5imv90ekt",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740614/cs/awp/bubeoldlmlz5imv90ekt.webp",
+    "asset_id": "fa3cd768a4bf86f5969ededab35947de",
+    "bytes": 410790,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Corticera.png",
+    "display_name": "Corticera",
+    "public_id": "cs/awp/lc4wjsjnmvlsiqksb1kp",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740615/cs/awp/lc4wjsjnmvlsiqksb1kp.webp",
+    "asset_id": "4329d3b1055d1922e3737e83736ca655",
+    "bytes": 301592,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Crakow!.png",
+    "display_name": "Crakow!",
+    "public_id": "cs/awp/mvyrdgvsxfdhrbcq9dmh",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740616/cs/awp/mvyrdgvsxfdhrbcq9dmh.webp",
+    "asset_id": "043b87e66730b7c851a375ca9c1187d1",
+    "bytes": 433696,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Desert Hydra.png",
+    "display_name": "Desert Hydra",
+    "public_id": "cs/awp/it6xquqysdfhdnygoojj",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740618/cs/awp/it6xquqysdfhdnygoojj.webp",
+    "asset_id": "17ce98b024aa4f0e47f89c146468c8f8",
+    "bytes": 520374,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Dragon Lore.png",
+    "display_name": "Dragon Lore",
+    "public_id": "cs/awp/pztpl85hndwnrtxm7gld",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740619/cs/awp/pztpl85hndwnrtxm7gld.webp",
+    "asset_id": "079dbbc053b6f9b5b4e45f6fab75bd20",
+    "bytes": 550642,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Duality.png",
+    "display_name": "Duality",
+    "public_id": "cs/awp/yc7uocg7banf9z8izdxo",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740619/cs/awp/yc7uocg7banf9z8izdxo.webp",
+    "asset_id": "9be896dfd6190613d7b21d0c7fbffdf6",
+    "bytes": 483244,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Electric Hive.png",
+    "display_name": "Electric Hive",
+    "public_id": "cs/awp/daydto9btzy7ddayahl0",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740620/cs/awp/daydto9btzy7ddayahl0.webp",
+    "asset_id": "db5364c77bc60789c90dd9fc381e2777",
+    "bytes": 265636,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Elite Build.png",
+    "display_name": "Elite Build",
+    "public_id": "cs/awp/fifpuivlu4uise68cwhu",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740621/cs/awp/fifpuivlu4uise68cwhu.webp",
+    "asset_id": "9c15f998f80575c0510ff8326cc69ae5",
+    "bytes": 257358,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Exoskeleton.png",
+    "display_name": "Exoskeleton",
+    "public_id": "cs/awp/qxcfwza3qfemycdxt8jl",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740621/cs/awp/qxcfwza3qfemycdxt8jl.webp",
+    "asset_id": "6ec486655cf979278dee5ecaef02ce54",
+    "bytes": 465198,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Fade.png",
+    "display_name": "Fade",
+    "public_id": "cs/awp/moojnbxyaytik7pdmibx",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740622/cs/awp/moojnbxyaytik7pdmibx.webp",
+    "asset_id": "7ca08af6f87175b53fd1863cb0e62784",
+    "bytes": 357724,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Fever Dream.png",
+    "display_name": "Fever Dream",
+    "public_id": "cs/awp/woi8i8rpykad3f5jqqfm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740622/cs/awp/woi8i8rpykad3f5jqqfm.webp",
+    "asset_id": "cc2a943dc64f15dce9822c0370db50b7",
+    "bytes": 437994,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Graphite.png",
+    "display_name": "Graphite",
+    "public_id": "cs/awp/e906k2rh2wnzzrx5gzye",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740623/cs/awp/e906k2rh2wnzzrx5gzye.webp",
+    "asset_id": "14ae4f492f78660a6f4a19f16d4e3edf",
+    "bytes": 222758,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Green Energy.png",
+    "display_name": "Green Energy",
+    "public_id": "cs/awp/gpo5jqzbbizvem2nfjjy",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740624/cs/awp/gpo5jqzbbizvem2nfjjy.webp",
+    "asset_id": "60ddb339c0d7403a92b2ac8a04927bb8",
+    "bytes": 406332,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Gungnir.png",
+    "display_name": "Gungnir",
+    "public_id": "cs/awp/uruxzmd7gomi5ea9isjf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740625/cs/awp/uruxzmd7gomi5ea9isjf.webp",
+    "asset_id": "e9ea6ca5f630746aad65ba90116e60d7",
+    "bytes": 595532,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Hyper Beast.png",
+    "display_name": "Hyper Beast",
+    "public_id": "cs/awp/ronoxxq2bexhzedptljv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740625/cs/awp/ronoxxq2bexhzedptljv.webp",
+    "asset_id": "b9a004eab31d175613ea6325c107fb5a",
+    "bytes": 416526,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Ice Coaled.webp",
+    "display_name": "Ice Coaled",
+    "public_id": "cs/awp/c1xuaidfzhggyspb4x6t",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740626/cs/awp/c1xuaidfzhggyspb4x6t.webp",
+    "asset_id": "06cd3280d78584d8733e380491638f23",
+    "bytes": 104348,
+    "width": 3301,
+    "height": 644
+  },
+  {
+    "filename": "Lightning Strike.png",
+    "display_name": "Lightning Strike",
+    "public_id": "cs/awp/nlbtb6rk54bbcgvy1rwr",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740627/cs/awp/nlbtb6rk54bbcgvy1rwr.webp",
+    "asset_id": "7137546a16025cce159959eecb72ad85",
+    "bytes": 230376,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "LongDog.png",
+    "display_name": "LongDog",
+    "public_id": "cs/awp/sd0xwbh6nnkhwezkibct",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740629/cs/awp/sd0xwbh6nnkhwezkibct.webp",
+    "asset_id": "c851ae284a184feac7c15d403aefdb7d",
+    "bytes": 550802,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Man-o'-war.png",
+    "display_name": "Man-o'-war",
+    "public_id": "cs/awp/hnjk7md5gahhi2g1upia",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740630/cs/awp/hnjk7md5gahhi2g1upia.webp",
+    "asset_id": "6ba9eb70a3d84dab6270f781319f0bde",
+    "bytes": 359776,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Medusa.png",
+    "display_name": "Medusa",
+    "public_id": "cs/awp/otabsetcs3yqawvrqgwn",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740630/cs/awp/otabsetcs3yqawvrqgwn.webp",
+    "asset_id": "a6e80a911c0fa97328c6150e1ce5a33d",
+    "bytes": 311052,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Mortis.png",
+    "display_name": "Mortis",
+    "public_id": "cs/awp/qzcfg7vup0vs1gycj0hg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740631/cs/awp/qzcfg7vup0vs1gycj0hg.webp",
+    "asset_id": "70c7e85d9d0a3f424098949d34e261e2",
+    "bytes": 331370,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Neo-Noir.png",
+    "display_name": "Neo-Noir",
+    "public_id": "cs/awp/jggwpj3qkxjrnfjj7tqw",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740632/cs/awp/jggwpj3qkxjrnfjj7tqw.webp",
+    "asset_id": "79394cd69f5a28d9ba6ecf4b05badf70",
+    "bytes": 383824,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Oni Taiji.png",
+    "display_name": "Oni Taiji",
+    "public_id": "cs/awp/wdgplc5799u9xc7saylv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740632/cs/awp/wdgplc5799u9xc7saylv.webp",
+    "asset_id": "3eeccebdbd3b195e83fc63c70b46cf44",
+    "bytes": 612972,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "PAW.png",
+    "display_name": "PAW",
+    "public_id": "cs/awp/jhznanjwe7xjf6fsk4kf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740633/cs/awp/jhznanjwe7xjf6fsk4kf.webp",
+    "asset_id": "23bfd98345db8506905136ec83dc68ec",
+    "bytes": 383514,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "POP AWP.png",
+    "display_name": "POP AWP",
+    "public_id": "cs/awp/fkn48xj4raebewf0nsdd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740634/cs/awp/fkn48xj4raebewf0nsdd.webp",
+    "asset_id": "d66e110c63f5ff8830f476c567499f70",
+    "bytes": 299510,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Phobos.png",
+    "display_name": "Phobos",
+    "public_id": "cs/awp/vphzdqnshwoxpzdqhogq",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740635/cs/awp/vphzdqnshwoxpzdqhogq.webp",
+    "asset_id": "0cd9af0dc27237c3db691ee3ffdf2e3e",
+    "bytes": 380598,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Pink DDPAT.png",
+    "display_name": "Pink DDPAT",
+    "public_id": "cs/awp/spljvlhrt2wrxzh7lpwq",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740636/cs/awp/spljvlhrt2wrxzh7lpwq.webp",
+    "asset_id": "a737571cf9d8fe541d382e526f435f1f",
+    "bytes": 270986,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Pit Viper.png",
+    "display_name": "Pit Viper",
+    "public_id": "cs/awp/edlq6y7i52l6egab4jiz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740636/cs/awp/edlq6y7i52l6egab4jiz.webp",
+    "asset_id": "651bac8bfcd5910155d6cf2f6d66e9b2",
+    "bytes": 464962,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Printstream.png",
+    "display_name": "Printstream",
+    "public_id": "cs/awp/v6p9d1xgpnlbriqxvzcu",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740637/cs/awp/v6p9d1xgpnlbriqxvzcu.webp",
+    "asset_id": "34e588e7579f1fced6c7a16e1252a3bc",
+    "bytes": 365518,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Redline.png",
+    "display_name": "Redline",
+    "public_id": "cs/awp/fmdgxuti3omt9iqidzir",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740638/cs/awp/fmdgxuti3omt9iqidzir.webp",
+    "asset_id": "6e673f2ec373f178cfa03495108eb267",
+    "bytes": 290150,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Safari Mesh.png",
+    "display_name": "Safari Mesh",
+    "public_id": "cs/awp/b7kimroyz6j3nswcs0ic",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740639/cs/awp/b7kimroyz6j3nswcs0ic.webp",
+    "asset_id": "c5eecd7c6ecc653141a4a2041b6cbbc5",
+    "bytes": 308784,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Silk Tiger.png",
+    "display_name": "Silk Tiger",
+    "public_id": "cs/awp/gxuz48njaarebitdseqt",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740639/cs/awp/gxuz48njaarebitdseqt.webp",
+    "asset_id": "213fe37747cd683dbf3506610e050249",
+    "bytes": 391730,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Snake Camo.png",
+    "display_name": "Snake Camo",
+    "public_id": "cs/awp/gdnxshtan8sj5cxclhyb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740640/cs/awp/gdnxshtan8sj5cxclhyb.webp",
+    "asset_id": "7a0fc0767b328e514d1acbde7b9b8fe2",
+    "bytes": 343078,
+    "width": 4096,
+    "height": 807
+  },
+  {
+    "filename": "Sun in Leo.png",
+    "display_name": "Sun in Leo",
+    "public_id": "cs/awp/jc0qcmga3jwhkuo3ma78",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740641/cs/awp/jc0qcmga3jwhkuo3ma78.webp",
+    "asset_id": "28ad6a0d5feacedb4556e697761490e7",
+    "bytes": 387354,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "The Prince.png",
+    "display_name": "The Prince",
+    "public_id": "cs/awp/bz3chqyna2llmq9lcxwx",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740641/cs/awp/bz3chqyna2llmq9lcxwx.webp",
+    "asset_id": "61b36ea294d563b79e0180ab8d728d0b",
+    "bytes": 486330,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Wildfire.png",
+    "display_name": "Wildfire",
+    "public_id": "cs/awp/oalojxvgqsdvszgyy6fb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740642/cs/awp/oalojxvgqsdvszgyy6fb.webp",
+    "asset_id": "ef63867d3c9c5d670c3c515dcbbcb2e8",
+    "bytes": 484644,
+    "width": 4096,
+    "height": 782
+  },
+  {
+    "filename": "Worm God.png",
+    "display_name": "Worm God",
+    "public_id": "cs/awp/cvbyrpjxmozxxoo9auik",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/v1760740643/cs/awp/cvbyrpjxmozxxoo9auik.webp",
+    "asset_id": "73c514d2fd0424f2181b8a940a79b346",
+    "bytes": 401002,
+    "width": 4096,
+    "height": 782
+  }
+]
