@@ -191,19 +191,19 @@ def create_pokemon_themes():
             'title': 'ポケモン',
             'slug': 'pokemon',
             'description': '初代ポケモンの知識をテストしよう！151匹のオリジナルポケモンを識別してください。',
-            'parent_slug': 'gemu',
+            'parent_slug': 'gemu-jp',
         },
         'ko': {
             'title': '포켓몬',
             'slug': 'pokemon',
             'description': '1세대 포켓몬에 대한 지식을 테스트하세요! 151개의 오리지널 포켓몬을 식별하세요.',
-            'parent_slug': 'geim',
+            'parent_slug': 'geim-kr',
         },
         'th': {
             'title': 'โปเกมอน',
             'slug': 'pokemon',
             'description': 'ทดสอบความรู้ของคุณเกี่ยวกับโปเกมอนรุ่นแรก! ระบุโปเกมอนต้นฉบับทั้ง 151 ตัว',
-            'parent_slug': 'gem',
+            'parent_slug': 'gem-th',
         },
         'vi': {
             'title': 'Pokémon',
@@ -759,7 +759,7 @@ def create_pokemon_badges(quiz_group):
             'title': '🟠 Amber Pikachu',
             'description': 'Acerte todos os Pokémons!',
             'description_translations': badge_descriptions['amber'],
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586764/ChatGPT_Image_Oct_16_2025_12_35_33_AM_qv1cgh.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659174/pikachu_ambar_ckyhbt.png',
             'rule_type': 'perfect_score',
             'min_percentage': 100.0,
             'max_time_seconds': None,
@@ -771,7 +771,7 @@ def create_pokemon_badges(quiz_group):
             'title': '🔴 Ruby Pikachu',
             'description': 'Acerte todos os Pokémons em menos de 25 minutos!',
             'description_translations': badge_descriptions['ruby'],
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659173/pikachu_ruby_l8u7db.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
             'max_time_seconds': 1500,  # 25 minutos
@@ -783,7 +783,7 @@ def create_pokemon_badges(quiz_group):
             'title': '🟢 Emerald Pikachu',
             'description': 'Acerte todos os Pokémons em menos de 15 minutos!',
             'description_translations': badge_descriptions['emerald'],
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586750/ChatGPT_Image_Oct_16_2025_12_35_07_AM_gguqea.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659173/pikachu_emerald_huorpv.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
             'max_time_seconds': 900,  # 15 minutos
@@ -795,7 +795,7 @@ def create_pokemon_badges(quiz_group):
             'title': '🔵 Sapphire Pikachu',
             'description': 'Acerte todos os Pokémons em menos de 10 minutos!',
             'description_translations': badge_descriptions['sapphire'],
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586755/ChatGPT_Image_Oct_16_2025_12_35_05_AM_d1dlfe.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659173/pikachu_sapphire_pwcbqz.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
             'max_time_seconds': 600,  # 10 minutos
@@ -807,7 +807,7 @@ def create_pokemon_badges(quiz_group):
             'title': '💎 Diamond Pikachu',
             'description': 'Acerte todos os Pokémons em menos de 6 minutos!',
             'description_translations': badge_descriptions['diamond'],
-            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto,dpr_auto,e_trim/v1760586749/ChatGPT_Image_Oct_16_2025_12_35_02_AM_nvtiy0.png',
+            'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659173/pikachu_diamond_yccykq.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
             'max_time_seconds': 360,  # 6 minutos
