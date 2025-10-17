@@ -68,8 +68,8 @@ class CountrySelectionIntegrationTest(TestCase):
         response = self.client.get(reverse('quizzes:home'))
         self.assertEqual(response.status_code, 200)
         
-        # Verificar se o país atual é exibido
-        self.assertContains(response, 'current_country|default:"pt-BR"')
+        # Verificar se o país atual é exibido no JavaScript
+        self.assertContains(response, "const currentCountry = 'en-US';")
 
     def test_country_change_workflow(self):
         """Testa o fluxo completo de mudança de país"""
