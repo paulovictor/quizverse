@@ -33,19 +33,196 @@ COUNTRY_TO_LANG = {
     'en-US': 'en', 'en-CA': 'en', 'en-GB': 'en', 'en-IN': 'en',
     'en-PH': 'en', 'en-AU': 'en', 'en-NZ': 'en',
     'pt-BR': 'pt', 'pt-PT': 'pt',
-    'es-MX': 'es', 'es-ES': 'es', 'es-AR': 'es', 'es-CO': 'es',
-    'de-DE': 'de',
-    'fr-FR': 'fr',
-    'it-IT': 'it',
-    'nl-NL': 'nl',
-    'sv-SE': 'sv',
-    'no-NO': 'no',
-    'pl-PL': 'pl',
-    'id-ID': 'id',
-    'ja-JP': 'ja',
-    'ko-KR': 'ko',
-    'th-TH': 'th',
-    'vi-VN': 'vi',
+    'es-MX': 'es', 'es-ES': 'es', 'es-AR': 'es', 'es-CO': 'es'
+}
+
+# ============================================================================
+# DICIONÁRIO DE REFERÊNCIA DOS TEMAS ROOT
+# ============================================================================
+
+ROOT_THEMES_REFERENCE = {
+    'pt-BR': {
+        'esportes': 'Esportes',
+        'entretenimento': 'Entretenimento & Mídia',
+        'curiosidades': 'Curiosidades Gerais',
+        'ciencia': 'Ciência & Tecnologia',
+        'jogos': 'Jogos',
+        'celebridades': 'Celebridades & Personalidades',
+        'arte': 'Arte & Cultura',
+        'historia': 'História',
+        'comida': 'Comida & Bebida',
+        'natureza': 'Natureza & Animais',
+        'geografia': 'Geografia',
+        'politica': 'Política & Sociedade'
+    },
+    'pt-PT': {
+        'esportes-pt': 'Esportes',
+        'entretenimento-pt': 'Entretenimento & Mídia',
+        'curiosidades-pt': 'Curiosidades Gerais',
+        'ciencia-pt': 'Ciência & Tecnologia',
+        'jogos-pt': 'Jogos',
+        'celebridades-pt': 'Celebridades & Personalidades',
+        'arte-pt': 'Arte & Cultura',
+        'historia-pt': 'História',
+        'comida-pt': 'Comida & Bebida',
+        'natureza-pt': 'Natureza & Animais',
+        'geografia-pt': 'Geografia',
+        'politica-pt': 'Política & Sociedade'
+    },
+    'en-US': {
+        'sports-us': 'Sports',
+        'entertainment-us': 'Entertainment & Media',
+        'trivia-us': 'General Trivia',
+        'science-us': 'Science & Technology',
+        'games-us': 'Games',
+        'celebrities-us': 'Celebrities & Personalities',
+        'arts-us': 'Arts & Culture',
+        'history-us': 'History',
+        'food-us': 'Food & Drink',
+        'nature-us': 'Nature & Animals',
+        'geography-us': 'Geography',
+        'politics-us': 'Politics & Society'
+    },
+    'en-CA': {
+        'sports-ca': 'Sports',
+        'entertainment-ca': 'Entertainment & Media',
+        'trivia-ca': 'General Trivia',
+        'science-ca': 'Science & Technology',
+        'games-ca': 'Games',
+        'celebrities-ca': 'Celebrities & Personalities',
+        'arts-ca': 'Arts & Culture',
+        'history-ca': 'History',
+        'food-ca': 'Food & Drink',
+        'nature-ca': 'Nature & Animals',
+        'geography-ca': 'Geography',
+        'politics-ca': 'Politics & Society'
+    },
+    'en-GB': {
+        'sports-gb': 'Sports',
+        'entertainment-gb': 'Entertainment & Media',
+        'trivia-gb': 'General Trivia',
+        'science-gb': 'Science & Technology',
+        'games-gb': 'Games',
+        'celebrities-gb': 'Celebrities & Personalities',
+        'arts-gb': 'Arts & Culture',
+        'history-gb': 'History',
+        'food-gb': 'Food & Drink',
+        'nature-gb': 'Nature & Animals',
+        'geography-gb': 'Geography',
+        'politics-gb': 'Politics & Society'
+    },
+    'en-IN': {
+        'sports-in': 'Sports',
+        'entertainment-in': 'Entertainment & Media',
+        'trivia-in': 'General Trivia',
+        'science-in': 'Science & Technology',
+        'games-in': 'Games',
+        'celebrities-in': 'Celebrities & Personalities',
+        'arts-in': 'Arts & Culture',
+        'history-in': 'History',
+        'food-in': 'Food & Drink',
+        'nature-in': 'Nature & Animals',
+        'geography-in': 'Geography',
+        'politics-in': 'Politics & Society'
+    },
+    'en-PH': {
+        'sports-ph': 'Sports',
+        'entertainment-ph': 'Entertainment & Media',
+        'trivia-ph': 'General Trivia',
+        'science-ph': 'Science & Technology',
+        'games-ph': 'Games',
+        'celebrities-ph': 'Celebrities & Personalities',
+        'arts-ph': 'Arts & Culture',
+        'history-ph': 'History',
+        'food-ph': 'Food & Drink',
+        'nature-ph': 'Nature & Animals',
+        'geography-ph': 'Geography',
+        'politics-ph': 'Politics & Society'
+    },
+    'en-AU': {
+        'sports-au': 'Sports',
+        'entertainment-au': 'Entertainment & Media',
+        'trivia-au': 'General Trivia',
+        'science-au': 'Science & Technology',
+        'games-au': 'Games',
+        'celebrities-au': 'Celebrities & Personalities',
+        'arts-au': 'Arts & Culture',
+        'history-au': 'History',
+        'food-au': 'Food & Drink',
+        'nature-au': 'Nature & Animals',
+        'geography-au': 'Geography',
+        'politics-au': 'Politics & Society'
+    },
+    'en-NZ': {
+        'sports-nz': 'Sports',
+        'entertainment-nz': 'Entertainment & Media',
+        'trivia-nz': 'General Trivia',
+        'science-nz': 'Science & Technology',
+        'games-nz': 'Games',
+        'celebrities-nz': 'Celebrities & Personalities',
+        'arts-nz': 'Arts & Culture',
+        'history-nz': 'History',
+        'food-nz': 'Food & Drink',
+        'nature-nz': 'Nature & Animals',
+        'geography-nz': 'Geography',
+        'politics-nz': 'Politics & Society'
+    },
+    'es-MX': {
+        'deportes-mx': 'Deportes',
+        'entretenimiento-mx': 'Entretenimiento y Medios',
+        'curiosidades-mx': 'Curiosidades Generales',
+        'ciencia-mx': 'Ciencia y Tecnología',
+        'juegos-mx': 'Juegos',
+        'celebridades-mx': 'Celebridades y Personalidades',
+        'arte-mx': 'Arte y Cultura',
+        'historia-mx': 'Historia',
+        'comida-mx': 'Comida y Bebida',
+        'naturaleza-mx': 'Naturaleza y Animales',
+        'geografia-mx': 'Geografía',
+        'politica-mx': 'Política y Sociedad'
+    },
+    'es-ES': {
+        'deportes-es': 'Deportes',
+        'entretenimiento-es': 'Entretenimiento y Medios',
+        'curiosidades-es': 'Curiosidades Generales',
+        'ciencia-es': 'Ciencia y Tecnología',
+        'juegos-es': 'Juegos',
+        'celebridades-es': 'Celebridades y Personalidades',
+        'arte-es': 'Arte y Cultura',
+        'historia-es': 'Historia',
+        'comida-es': 'Comida y Bebida',
+        'naturaleza-es': 'Naturaleza y Animales',
+        'geografia-es': 'Geografía',
+        'politica-es': 'Política y Sociedad'
+    },
+    'es-AR': {
+        'deportes-ar': 'Deportes',
+        'entretenimiento-ar': 'Entretenimiento y Medios',
+        'curiosidades-ar': 'Curiosidades Generales',
+        'ciencia-ar': 'Ciencia y Tecnología',
+        'juegos-ar': 'Juegos',
+        'celebridades-ar': 'Celebridades y Personalidades',
+        'arte-ar': 'Arte y Cultura',
+        'historia-ar': 'Historia',
+        'comida-ar': 'Comida y Bebida',
+        'naturaleza-ar': 'Naturaleza y Animales',
+        'geografia-ar': 'Geografía',
+        'politica-ar': 'Política y Sociedad'
+    },
+    'es-CO': {
+        'deportes-co': 'Deportes',
+        'entretenimiento-co': 'Entretenimiento y Medios',
+        'curiosidades-co': 'Curiosidades Generales',
+        'ciencia-co': 'Ciencia y Tecnología',
+        'juegos-co': 'Juegos',
+        'celebridades-co': 'Celebridades y Personalidades',
+        'arte-co': 'Arte y Cultura',
+        'historia-co': 'Historia',
+        'comida-co': 'Comida y Bebida',
+        'naturaleza-co': 'Naturaleza y Animales',
+        'geografia-co': 'Geografía',
+        'politica-co': 'Política y Sociedad'
+    }
 }
 
 
@@ -56,6 +233,7 @@ COUNTRY_TO_LANG = {
 def find_parent_themes(parent_slug_pt):
     """
     Encontra os slugs dos temas pai em todos os países baseado no slug PT-BR
+    usando o dicionário de referência
 
     Exemplo:
         Se parent_slug_pt = 'jogos'
@@ -77,19 +255,61 @@ def find_parent_themes(parent_slug_pt):
         print(f"❌ Erro: Tema pai '{parent_slug_pt}' não encontrado para pt-BR")
         return None
 
-    # Para outros países, buscar variações do slug
+    # Para outros países, usar o dicionário de referência
     for country_code in COUNTRY_TO_LANG.keys():
         if country_code == 'pt-BR':
             continue
 
-        country_suffix = country_code.split('-')[1].lower()
-        expected_slug = f"{parent_slug_pt}-{country_suffix}"
+        # Buscar no dicionário de referência
+        country_themes = ROOT_THEMES_REFERENCE.get(country_code, {})
+        
+        # Tentar encontrar o tema correspondente
+        found_slug = None
+        
+        # Primeiro, tentar encontrar por slug base (sem sufixo)
+        for slug, title in country_themes.items():
+            if slug.startswith(parent_slug_pt):
+                found_slug = slug
+                break
+        
+        # Se não encontrou, tentar por mapeamento de categorias
+        if not found_slug:
+            # Mapeamento de categorias entre idiomas
+            category_mapping = {
+                'jogos': ['games', 'juegos'],
+                'esportes': ['sports', 'deportes'],
+                'entretenimento': ['entertainment', 'entretenimiento'],
+                'curiosidades': ['trivia', 'curiosidades'],
+                'ciencia': ['science', 'ciencia'],
+                'celebridades': ['celebrities', 'celebridades'],
+                'arte': ['arts', 'arte'],
+                'historia': ['history', 'historia'],
+                'comida': ['food', 'comida'],
+                'natureza': ['nature', 'naturaleza'],
+                'geografia': ['geography', 'geografia'],
+                'politica': ['politics', 'politica']
+            }
+            
+            base_category = parent_slug_pt
+            if base_category in category_mapping:
+                for variant in category_mapping[base_category]:
+                    for slug, title in country_themes.items():
+                        if variant in slug:
+                            found_slug = slug
+                            break
+                    if found_slug:
+                        break
 
-        try:
-            parent_theme = Theme.objects.get(slug=expected_slug, country=country_code)
-            parent_themes[country_code] = parent_theme.slug
-        except Theme.DoesNotExist:
-            print(f"⚠️  Tema pai não encontrado para {country_code}: {expected_slug}")
+        if found_slug:
+            try:
+                parent_theme = Theme.objects.get(slug=found_slug, country=country_code)
+                parent_themes[country_code] = parent_theme.slug
+                print(f"✅ Tema pai encontrado para {country_code}: {found_slug}")
+            except Theme.DoesNotExist:
+                print(f"⚠️  Tema pai '{found_slug}' não existe no banco para {country_code}")
+                parent_themes[country_code] = None
+        else:
+            print(f"⚠️  Tema pai não encontrado para {country_code}: {parent_slug_pt}")
             parent_themes[country_code] = None
 
     return parent_themes
@@ -109,6 +329,40 @@ def list_available_root_themes():
     return root_themes
 
 
+def get_root_theme_reference():
+    """
+    Retorna o dicionário de referência dos temas root para consulta
+    """
+    return ROOT_THEMES_REFERENCE
+
+
+def find_root_theme_by_category(category_name, country='pt-BR'):
+    """
+    Encontra o slug do tema root baseado no nome da categoria
+    
+    Args:
+        category_name (str): Nome da categoria (ex: 'jogos', 'esportes')
+        country (str): Código do país (padrão: 'pt-BR')
+    
+    Returns:
+        str: Slug do tema root ou None se não encontrado
+    """
+    reference = ROOT_THEMES_REFERENCE.get(country, {})
+    
+    # Buscar por slug exato
+    if category_name in reference:
+        return category_name
+    
+    # Buscar por nome/título
+    for slug, title in reference.items():
+        if category_name.lower() in title.lower() or title.lower() in category_name.lower():
+            return slug
+    
+    return None
+
+
+
+
 def get_user_input():
     """
     Solicita informações do usuário sobre o tema a ser criado
@@ -118,44 +372,60 @@ def get_user_input():
     print("=" * 80)
     print()
 
-    # Listar temas root disponíveis
+    # Listar temas root disponíveis usando o dicionário de referência
     print("📋 Temas ROOT disponíveis (pt-BR):")
     print()
 
     root_themes = list_available_root_themes()
+    reference = get_root_theme_reference()
 
     if not root_themes:
         sys.exit(1)
 
-    for theme in root_themes:
-        print(f"   • {theme.slug:20s} - {theme.title}")
+    # Mostrar temas com informações do dicionário de referência e números
+    theme_list = []
+    for i, theme in enumerate(root_themes, 1):
+        reference_title = reference.get('pt-BR', {}).get(theme.slug, theme.title)
+        print(f"   {i:2d}. {theme.slug:20s} - {reference_title}")
+        theme_list.append(theme)
 
+    print()
+    print("💡 Dica: Escolha o número do tema pai")
+    print("   O script encontrará automaticamente os slugs correspondentes em outros países")
     print()
     print("-" * 80)
     print()
 
-    # Slug do tema pai (em português)
-    print("1️⃣ Digite o slug do tema PAI em português (deve estar na lista acima)")
-    print("   O script buscará automaticamente os slugs correspondentes em outros países")
+    # Escolher tema pai por número
+    print("1️⃣ Escolha o número do tema PAI (deve estar na lista acima)")
     print()
 
-    # Validar que o slug existe
+    # Validar que o número é válido
     while True:
-        parent_slug_pt = input("   Slug do tema pai (pt-BR): ").strip()
+        try:
+            choice = input(f"   Número do tema pai (1-{len(theme_list)}): ").strip()
+            
+            if not choice:
+                print("❌ Erro: Número não pode ser vazio!")
+                continue
 
-        if not parent_slug_pt:
-            print("❌ Erro: Slug do tema pai não pode ser vazio!")
-            continue
+            choice_num = int(choice)
+            
+            if choice_num < 1 or choice_num > len(theme_list):
+                print(f"❌ Erro: Número deve estar entre 1 e {len(theme_list)}!")
+                print()
+                continue
 
-        # Verificar se o slug existe
-        if not Theme.objects.filter(slug=parent_slug_pt, country='pt-BR', parent__isnull=True).exists():
-            print(f"❌ Erro: Tema root '{parent_slug_pt}' não encontrado!")
-            print("   Use um dos slugs da lista acima.")
+            # Número válido, obter o tema
+            selected_theme = theme_list[choice_num - 1]
+            parent_slug_pt = selected_theme.slug
+            print(f"✅ Tema selecionado: {parent_slug_pt} - {selected_theme.title}")
+            break
+
+        except ValueError:
+            print("❌ Erro: Digite um número válido!")
             print()
             continue
-
-        # Slug válido, sair do loop
-        break
 
     print()
 
@@ -194,16 +464,13 @@ def get_user_input():
     translations = {}
 
     # Definir quais idiomas pedir tradução
-    main_languages = ['pt', 'en', 'es', 'de', 'fr', 'it']
+    main_languages = ['pt', 'en', 'es']
 
     for lang_code in main_languages:
         lang_names = {
             'pt': 'Português',
             'en': 'Inglês',
             'es': 'Espanhol',
-            'de': 'Alemão',
-            'fr': 'Francês',
-            'it': 'Italiano',
         }
 
         print(f"   📝 {lang_names[lang_code]} ({lang_code})")
@@ -385,10 +652,6 @@ def main():
     print()
     print("🎉 Temas criados com sucesso!")
     print()
-    print("💡 Próximos passos:")
-    print("   1. Criar QuizGroup para este tema")
-    print("   2. Criar Quizzes e Questões")
-    print("   3. Criar Badges (opcional)")
     print()
 
 

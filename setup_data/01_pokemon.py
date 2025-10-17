@@ -215,18 +215,6 @@ def create_pokemon_themes():
         'en-US': 'en', 'en-CA': 'en', 'en-GB': 'en', 'en-IN': 'en', 'en-PH': 'en', 'en-AU': 'en', 'en-NZ': 'en',
         'pt-BR': 'pt', 'pt-PT': 'pt',
         'es-MX': 'es', 'es-ES': 'es', 'es-AR': 'es', 'es-CO': 'es',
-        'de-DE': 'de',
-        'fr-FR': 'fr',
-        'it-IT': 'it',
-        'nl-NL': 'nl',
-        'sv-SE': 'sv',
-        'no-NO': 'no',
-        'pl-PL': 'pl',
-        'id-ID': 'id',
-        'ja-JP': 'ja',
-        'ko-KR': 'ko',
-        'th-TH': 'th',
-        'vi-VN': 'vi',
     }
 
     created_count = 0

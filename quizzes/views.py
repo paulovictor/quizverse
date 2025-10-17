@@ -39,19 +39,7 @@ def country_to_language(country_code):
         'es-MX': 'es',
         'es-ES': 'es',
         'es-AR': 'es',
-        'es-CO': 'es',
-        'de-DE': 'de',
-        'fr-FR': 'fr',
-        'it-IT': 'it',
-        'nl-NL': 'nl',
-        'sv-SE': 'sv',
-        'no-NO': 'no',
-        'pl-PL': 'pl',
-        'id-ID': 'id',
-        'ja-JP': 'ja',
-        'ko-KR': 'ko',
-        'th-TH': 'th',
-        'vi-VN': 'vi',
+        'es-CO': 'es'
     }
     return country_to_lang_map.get(country_code, 'pt')
 

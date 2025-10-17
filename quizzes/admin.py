@@ -374,7 +374,6 @@ class QuizGroupAdmin(admin.ModelAdmin):
                 description_template=original_quiz.description_template,  # Copia o template
                 difficulty=original_quiz.difficulty,
                 country=original_quiz.country,
-                time_limit=original_quiz.time_limit,
                 question_sample_size=question_sample_size,  # NOVO VALOR
                 active=False,  # Criar como inativo
                 order=original_quiz.order,
@@ -388,7 +387,6 @@ class QuizGroupAdmin(admin.ModelAdmin):
                     quiz=new_quiz,
                     text=original_question.text,
                     image=original_question.image,
-                    explanation=original_question.explanation,
                     order=original_question.order,
                 )
 
