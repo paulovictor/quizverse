@@ -372,77 +372,62 @@ def create_pokemon_quizzes(quiz_group, all_pokemon, cloudinary_urls):
         'en': {
             'title': 'Guess the Pokémon - Gen 1',
             'question_text': 'Which Pokémon is this?',
-            'explanation_template': 'This is {name}, a {types} type Pokémon.'
         },
         'pt': {
             'title': 'Adivinhe o Pokémon - Geração 1',
             'question_text': 'Qual é este Pokémon?',
-            'explanation_template': 'Este é {name}, um Pokémon do tipo {types}.'
         },
         'es': {
             'title': 'Adivina el Pokémon - Gen 1',
             'question_text': '¿Cuál es este Pokémon?',
-            'explanation_template': 'Este es {name}, un Pokémon de tipo {types}.'
         },
         'de': {
             'title': 'Errate das Pokémon - Gen 1',
             'question_text': 'Welches Pokémon ist das?',
-            'explanation_template': 'Dies ist {name}, ein Pokémon vom Typ {types}.'
         },
         'fr': {
             'title': 'Devinez le Pokémon - Gén 1',
             'question_text': 'Quel est ce Pokémon?',
-            'explanation_template': 'C\'est {name}, un Pokémon de type {types}.'
         },
         'it': {
             'title': 'Indovina il Pokémon - Gen 1',
             'question_text': 'Quale Pokémon è questo?',
-            'explanation_template': 'Questo è {name}, un Pokémon di tipo {types}.'
         },
         'nl': {
             'title': 'Raad de Pokémon - Gen 1',
             'question_text': 'Welke Pokémon is dit?',
-            'explanation_template': 'Dit is {name}, een Pokémon van type {types}.'
         },
         'sv': {
             'title': 'Gissa Pokémonen - Gen 1',
             'question_text': 'Vilken Pokémon är detta?',
-            'explanation_template': 'Detta är {name}, en Pokémon av typ {types}.'
         },
         'no': {
             'title': 'Gjett Pokémonen - Gen 1',
             'question_text': 'Hvilken Pokémon er dette?',
-            'explanation_template': 'Dette er {name}, en Pokémon av type {types}.'
         },
         'pl': {
             'title': 'Zgadnij Pokémona - Gen 1',
             'question_text': 'Który to Pokémon?',
-            'explanation_template': 'To jest {name}, Pokémon typu {types}.'
         },
         'id': {
             'title': 'Tebak Pokémon - Gen 1',
             'question_text': 'Pokémon apa ini?',
-            'explanation_template': 'Ini adalah {name}, Pokémon tipe {types}.'
         },
         'ja': {
             'title': 'ポケモンを当てよう - 第1世代',
             'question_text': 'このポケモンは何？',
-            'explanation_template': 'これは{name}、{types}タイプのポケモンです。'
         },
         'ko': {
             'title': '포켓몬 맞히기 - 1세대',
             'question_text': '이 포켓몬은 무엇입니까?',
-            'explanation_template': '이것은 {name}, {types} 타입 포켓몬입니다.'
         },
         'th': {
             'title': 'ทายโปเกมอน - Gen 1',
             'question_text': 'โปเกมอนตัวนี้คืออะไร?',
-            'explanation_template': 'นี่คือ {name} โปเกมอนประเภท {types}'
         },
         'vi': {
             'title': 'Đoán Pokémon - Gen 1',
             'question_text': 'Đây là Pokémon nào?',
-            'explanation_template': 'Đây là {name}, một Pokémon thuộc hệ {types}.'
         },
     }
 
@@ -524,10 +509,6 @@ def create_pokemon_quizzes(quiz_group, all_pokemon, cloudinary_urls):
             else:
                 types_text = ' and '.join(types_list) if len(types_list) > 1 else types_list[0]
 
-            explanation = translation['explanation_template'].format(
-                name=name,
-                types=types_text
-            )
 
             # Determinar imagem
             if cloudinary_urls and pokemon['id'] in cloudinary_urls:
@@ -540,7 +521,6 @@ def create_pokemon_quizzes(quiz_group, all_pokemon, cloudinary_urls):
                 quiz=quiz,
                 text=translation['question_text'],
                 image=image_path,
-                explanation=explanation,
                 order=idx
             )
 

@@ -131,7 +131,6 @@ class QuizFactory(BaseFactory):
             description=kwargs.pop('description', f"Description for {title}"),
             difficulty=kwargs.pop('difficulty', 'medium'),
             country=country,
-            time_limit=kwargs.pop('time_limit', 0),
             question_sample_size=kwargs.pop('question_sample_size', 0),
             active=kwargs.pop('active', True),
             order=kwargs.pop('order', 0),
@@ -169,7 +168,6 @@ class QuestionFactory(BaseFactory):
             text=text,
             order=order,
             image=kwargs.pop('image', None),
-            explanation=kwargs.pop('explanation', ''),
             **kwargs
         )
 
@@ -314,7 +312,6 @@ class BadgeFactory(BaseFactory):
             image=kwargs.pop('image', "https://via.placeholder.com/150"),
             rule_type=rule_type,
             min_percentage=Decimal(str(min_percentage)),
-            max_time_seconds=kwargs.pop('max_time_seconds', None),
             rarity=kwargs.pop('rarity', 'common'),
             points=kwargs.pop('points', 10),
             order=kwargs.pop('order', 0),

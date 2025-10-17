@@ -1076,9 +1076,6 @@
                             <div class="quiz-card-meta">
                                 <span class="quiz-meta-item">🎯 {{ quiz_data.quiz.get_questions_per_attempt }} {% t 'questions' %}</span>
                                 <span class="quiz-meta-item">🏆 {{ quiz_data.quiz.min_correct_answers|default:0 }}</span>
-                                {% if quiz_data.quiz.time_limit_minutes %}
-                                    <span class="quiz-meta-item">⏱ {{ quiz_data.quiz.time_limit_minutes }}:00</span>
-                                {% endif %}
                             </div>
                         </div>
 

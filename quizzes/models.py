@@ -163,7 +163,6 @@ class Quiz(models.Model):
     )
     difficulty = models.CharField(max_length=10, choices=DIFFICULTY_CHOICES, default='medium')
     country = models.CharField(max_length=10, choices=COUNTRY_CHOICES, default='pt-BR', help_text='País do quiz')
-    time_limit = models.IntegerField(help_text='Tempo limite em segundos (0 = sem limite)', default=0)
     question_sample_size = models.IntegerField(
         default=20,
         help_text='Número de questões aleatórias a serem selecionadas (0 = usar todas)'
@@ -242,7 +241,6 @@ class Question(models.Model):
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='questions')
     text = models.TextField(verbose_name='Questão')
     image = models.URLField(max_length=500, blank=True, null=True, help_text='URL da imagem da questão (opcional - use Cloudinary)')
-    explanation = models.TextField(blank=True, help_text='Explicação da resposta correta')
     order = models.IntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -445,12 +443,6 @@ class Badge(models.Model):
         default=0,
         help_text='Porcentagem mínima de acertos (0-100)',
         verbose_name='Porcentagem Mínima'
-    )
-    max_time_seconds = models.IntegerField(
-        null=True, 
-        blank=True,
-        help_text='Tempo máximo em segundos (apenas para percentage_time)',
-        verbose_name='Tempo Máximo (segundos)'
     )
     
     # Metadata

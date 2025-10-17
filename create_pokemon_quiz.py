@@ -145,16 +145,12 @@ def create_pokemon_quiz(num_questions=50):
         image_path = f"images/pokemon/{pokemon['id']:03d}_{pokemon['name'].lower()}.png"
         
         # Criar explicação
-        explanation = f"Este é {name}, um Pokémon do tipo {types}."
-        if len(pokemon['types']) == 1:
-            explanation = f"Este é {name}, um Pokémon do tipo {types}."
         
         # Criar a pergunta
         question = Question.objects.create(
             quiz=quiz,
             text=question_text,
             image=image_path,
-            explanation=explanation,
             order=idx
         )
         

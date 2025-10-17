@@ -186,7 +186,6 @@ def create_pokemon_badges():
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659174/pikachu_ambar_ckyhbt.png',
             'rule_type': 'perfect_score',
             'min_percentage': 100.0,
-            'max_time_seconds': None,
             'rarity': 'epic',
             'points': 150,
             'order': 1,
@@ -198,7 +197,6 @@ def create_pokemon_badges():
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659173/pikachu_ruby_l8u7db.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
-            'max_time_seconds': 1500,  # 25 minutos
             'rarity': 'epic',
             'points': 200,
             'order': 2,
@@ -210,7 +208,6 @@ def create_pokemon_badges():
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659173/pikachu_emerald_huorpv.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
-            'max_time_seconds': 900,  # 15 minutos
             'rarity': 'legendary',
             'points': 300,
             'order': 3,
@@ -222,7 +219,6 @@ def create_pokemon_badges():
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659173/pikachu_sapphire_pwcbqz.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
-            'max_time_seconds': 600,  # 10 minutos
             'rarity': 'legendary',
             'points': 400,
             'order': 4,
@@ -234,7 +230,6 @@ def create_pokemon_badges():
             'image': 'https://res.cloudinary.com/dwm53cbu2/image/upload/v1760659173/pikachu_diamond_yccykq.png',
             'rule_type': 'percentage_time',
             'min_percentage': 100.0,
-            'max_time_seconds': 360,  # 6 minutos
             'rarity': 'legendary',
             'points': 500,
             'order': 5,
@@ -255,7 +250,6 @@ def create_pokemon_badges():
                 'image': badge_data['image'],
                 'rule_type': badge_data['rule_type'],
                 'min_percentage': badge_data['min_percentage'],
-                'max_time_seconds': badge_data['max_time_seconds'],
                 'rarity': badge_data['rarity'],
                 'points': badge_data['points'],
                 'order': badge_data['order'],
@@ -284,9 +278,6 @@ def create_pokemon_badges():
             association_status = "✓ Já associado"
 
         time_info = ""
-        if badge_data['max_time_seconds']:
-            minutes = badge_data['max_time_seconds'] // 60
-            time_info = f" (< {minutes}min)"
 
         print(f"{status:15s} | {badge_data['title']:25s} | {badge_data['rarity']:10s} | {badge_data['points']:3d} pts{time_info:15s} | {association_status}")
 

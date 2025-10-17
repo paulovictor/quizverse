@@ -84,9 +84,7 @@ def badge_criteria_met(quiz_attempt, badge):
     
     elif badge.rule_type == 'percentage_time':
         duration = quiz_attempt.get_duration()
-        if duration is None or badge.max_time_seconds is None:
-            return False
-        return percentage >= badge.min_percentage and duration <= badge.max_time_seconds
+        return percentage >= badge.min_percentage
     
     elif badge.rule_type == 'perfect_score':
         return percentage == 100

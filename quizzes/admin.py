@@ -101,7 +101,7 @@ class AnswerInline(admin.TabularInline):
 class QuestionInline(admin.StackedInline):
     model = Question
     extra = 1
-    fields = ['text', 'explanation', 'order']
+    fields = ['text', 'order']
     show_change_link = True
 
 
@@ -118,7 +118,7 @@ class QuizAdmin(admin.ModelAdmin):
             'fields': ('title', 'slug', 'description', 'theme', 'quiz_group', 'country', 'difficulty', 'order', 'active')
         }),
         ('Configurações do Quiz', {
-            'fields': ('time_limit', 'question_sample_size'),
+            'fields': ('question_sample_size',),
             'description': 'Configure o tempo limite e quantas questões aleatórias serão apresentadas a cada tentativa. Use 0 em "question_sample_size" para usar todas as questões disponíveis.'
         }),
     )
@@ -132,7 +132,7 @@ class QuizAdmin(admin.ModelAdmin):
 class QuestionAdmin(admin.ModelAdmin):
     list_display = ['short_text', 'quiz', 'order', 'created_at']
     list_filter = ['created_at']
-    search_fields = ['text', 'explanation', 'quiz__title']
+    search_fields = ['text', 'quiz__title']
     autocomplete_fields = ['quiz']
     inlines = [AnswerInline]
     
@@ -458,7 +458,7 @@ class QuizGroupAdmin(admin.ModelAdmin):
 @admin.register(Badge)
 class BadgeAdmin(admin.ModelAdmin):
     form = BadgeTranslationsForm
-    list_display = ['title', 'rule_type', 'min_percentage', 'max_time_seconds', 'rarity', 'points', 'active', 'order', 'translations_count']
+    list_display = ['title', 'rule_type', 'min_percentage', 'rarity', 'points', 'active', 'order', 'translations_count']
     list_filter = ['active', 'rule_type', 'rarity', 'created_at']
     search_fields = ['title', 'description']
     list_editable = ['active', 'order']
@@ -472,7 +472,7 @@ class BadgeAdmin(admin.ModelAdmin):
             'description': 'Adicione traduções da descrição para diferentes idiomas. Use o formato JSON válido: {"pt-BR": "texto", "en-US": "text", ...}'
         }),
         ('Regras da Badge', {
-            'fields': ('rule_type', 'min_percentage', 'max_time_seconds'),
+            'fields': ('rule_type', 'min_percentage'),
             'description': 'Defina os critérios para conquistar esta badge. Para "percentage_time", preencha ambos os campos.'
         }),
         ('Metadata', {

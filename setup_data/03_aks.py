@@ -340,77 +340,62 @@ def create_ak47_quizzes(quiz_group, all_skins, cloudinary_urls):
         'en': {
             'title': 'Guess the AK-47 Skin - CS2',
             'question_text': 'Which AK-47 skin is this?',
-            'explanation_template': 'This is {name}, an AK-47 skin from Counter-Strike 2.'
         },
         'pt': {
             'title': 'Adivinhe a Skin da AK-47 - CS2',
             'question_text': 'Qual é esta skin de AK-47?',
-            'explanation_template': 'Esta é {name}, uma skin de AK-47 do Counter-Strike 2.'
         },
         'es': {
             'title': 'Adivina la Skin de AK-47 - CS2',
             'question_text': '¿Cuál es esta skin de AK-47?',
-            'explanation_template': 'Esta es {name}, una skin de AK-47 de Counter-Strike 2.'
         },
         'de': {
             'title': 'Errate die AK-47 Skin - CS2',
             'question_text': 'Welche AK-47 Skin ist das?',
-            'explanation_template': 'Dies ist {name}, eine AK-47 Skin aus Counter-Strike 2.'
         },
         'fr': {
             'title': 'Devinez la Skin AK-47 - CS2',
             'question_text': 'Quelle est cette skin AK-47?',
-            'explanation_template': 'C\'est {name}, une skin AK-47 de Counter-Strike 2.'
         },
         'it': {
             'title': 'Indovina la Skin AK-47 - CS2',
             'question_text': 'Quale skin AK-47 è questa?',
-            'explanation_template': 'Questa è {name}, una skin AK-47 di Counter-Strike 2.'
         },
         'nl': {
             'title': 'Raad de AK-47 Skin - CS2',
             'question_text': 'Welke AK-47 skin is dit?',
-            'explanation_template': 'Dit is {name}, een AK-47 skin van Counter-Strike 2.'
         },
         'sv': {
             'title': 'Gissa AK-47 Skinnet - CS2',
             'question_text': 'Vilket AK-47 skin är detta?',
-            'explanation_template': 'Detta är {name}, en AK-47 skin från Counter-Strike 2.'
         },
         'no': {
             'title': 'Gjett AK-47 Skinnet - CS2',
             'question_text': 'Hvilket AK-47 skin er dette?',
-            'explanation_template': 'Dette er {name}, en AK-47 skin fra Counter-Strike 2.'
         },
         'pl': {
             'title': 'Zgadnij Skórkę AK-47 - CS2',
             'question_text': 'Która to skórka AK-47?',
-            'explanation_template': 'To jest {name}, skórka AK-47 z Counter-Strike 2.'
         },
         'id': {
             'title': 'Tebak Skin AK-47 - CS2',
             'question_text': 'Skin AK-47 apa ini?',
-            'explanation_template': 'Ini adalah {name}, skin AK-47 dari Counter-Strike 2.'
         },
         'ja': {
             'title': 'AK-47スキンを当てよう - CS2',
             'question_text': 'このAK-47スキンは何？',
-            'explanation_template': 'これは{name}、Counter-Strike 2のAK-47スキンです。'
         },
         'ko': {
             'title': 'AK-47 스킨 맞히기 - CS2',
             'question_text': '이 AK-47 스킨은 무엇입니까?',
-            'explanation_template': '이것은 {name}, Counter-Strike 2의 AK-47 스킨입니다.'
         },
         'th': {
             'title': 'ทายสกิน AK-47 - CS2',
             'question_text': 'สกิน AK-47 นี้คืออะไร?',
-            'explanation_template': 'นี่คือ {name} สกิน AK-47 จาก Counter-Strike 2'
         },
         'vi': {
             'title': 'Đoán Skin AK-47 - CS2',
             'question_text': 'Đây là skin AK-47 nào?',
-            'explanation_template': 'Đây là {name}, một skin AK-47 từ Counter-Strike 2.'
         },
     }
 
@@ -485,7 +470,6 @@ def create_ak47_quizzes(quiz_group, all_skins, cloudinary_urls):
         for idx, skin in enumerate(all_skins, 1):
             name = skin['name']
 
-            explanation = translation['explanation_template'].format(name=name)
 
             # Determinar imagem
             image_path = get_skin_url(name, cloudinary_urls, skin['foto'])
@@ -495,7 +479,6 @@ def create_ak47_quizzes(quiz_group, all_skins, cloudinary_urls):
                 quiz=quiz,
                 text=translation['question_text'],
                 image=image_path,
-                explanation=explanation,
                 order=idx
             )
 

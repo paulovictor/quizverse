@@ -265,14 +265,6 @@ class QuestionModelTest(TestCase):
         )
         self.assertEqual(question.image, "https://example.com/image.jpg")
 
-    def test_question_with_explanation(self):
-        """Testa questão com explicação"""
-        question = QuestionFactory.create(
-            quiz=self.quiz,
-            explanation="Paris is the capital and largest city of France",
-            create_answers=False
-        )
-        self.assertIn("Paris", question.explanation)
 
     def test_question_ordering(self):
         """Testa ordenação de questões"""
