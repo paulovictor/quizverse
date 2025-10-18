@@ -3,6 +3,43 @@
 from django.db import migrations, models
 
 
+def clean_orphan_data(apps, schema_editor):
+    """Limpa dados órfãos antes da migração"""
+    UserAnswer = apps.get_model('quizzes', 'UserAnswer')
+    QuizAttempt = apps.get_model('quizzes', 'QuizAttempt')
+    Question = apps.get_model('quizzes', 'Question')
+    Answer = apps.get_model('quizzes', 'Answer')
+    
+    print("🧹 Limpando dados órfãos...")
+    
+    # Deletar UserAnswers primeiro
+    user_answers_count = UserAnswer.objects.count()
+    UserAnswer.objects.all().delete()
+    print(f"   ✅ {user_answers_count} UserAnswers deletados")
+    
+    # Deletar QuizAttempts
+    quiz_attempts_count = QuizAttempt.objects.count()
+    QuizAttempt.objects.all().delete()
+    print(f"   ✅ {quiz_attempts_count} QuizAttempts deletados")
+    
+    # Deletar Answers
+    answers_count = Answer.objects.count()
+    Answer.objects.all().delete()
+    print(f"   ✅ {answers_count} Answers deletados")
+    
+    # Deletar Questions
+    questions_count = Question.objects.count()
+    Question.objects.all().delete()
+    print(f"   ✅ {questions_count} Questions deletados")
+    
+    print("✨ Limpeza concluída!")
+
+
+def reverse_clean_orphan_data(apps, schema_editor):
+    """Função reversa - não faz nada pois os dados foram deletados"""
+    pass
+
+
 class Migration(migrations.Migration):
 
     dependencies = [
@@ -10,7 +47,10 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        # Primeiro, remover foreign key constraints temporariamente
+        # Limpar dados órfãos primeiro
+        migrations.RunPython(clean_orphan_data, reverse_clean_orphan_data),
+        
+        # Remover foreign key constraints temporariamente
         migrations.AlterField(
             model_name='question',
             name='quiz',
