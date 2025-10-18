@@ -194,9 +194,9 @@ class ThemeModelTest(TestCase):
     def test_theme_cascade_delete_with_quizzes(self):
         """Testa deleção em cascata com quizzes"""
         quiz = QuizFactory.create(theme=self.theme)
-        quiz_id = quiz.id
+        quiz_slug = quiz.slug
 
         self.theme.delete()
 
         from quizzes.models import Quiz
-        self.assertFalse(Quiz.objects.filter(id=quiz_id).exists())
+        self.assertFalse(Quiz.objects.filter(slug=quiz_slug).exists())

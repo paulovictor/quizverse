@@ -77,7 +77,7 @@ class QuizModelTest(TestCase):
 
     def test_quiz_creation(self):
         """Testa criação básica de um quiz"""
-        self.assertIsNotNone(self.quiz.id)
+        self.assertIsNotNone(self.quiz.slug)
         self.assertEqual(self.quiz.title, "Test Quiz")
         self.assertEqual(self.quiz.theme, self.theme)
         self.assertEqual(self.quiz.quiz_group, self.quiz_group)

@@ -371,7 +371,7 @@ def export_quiz_fixtures(config, quiz_group):
                         natural_foreign=True,
                         natural_primary=True,
                         stdout=f,
-                        pks=','.join([str(quiz.pk) for quiz in quizzes_to_export]))
+                        pks=','.join([quiz.slug for quiz in quizzes_to_export]))
         
         print(f"✅ Fixture QuizGroup exportada: {quiz_group_fixture_path}")
         print(f"✅ Fixture Quizzes exportada: {fixture_path}")

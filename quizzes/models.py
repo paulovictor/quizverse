@@ -131,8 +131,7 @@ class Quiz(models.Model):
     
     COUNTRY_CHOICES = Theme.COUNTRY_CHOICES
 
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    theme = models.ForeignKey(Theme, on_delete=models.CASCADE, related_name='quizzes')
+    theme = models.ForeignKey(Theme, on_delete=models.CASCADE, related_name='quizzes', to_field='slug')
     quiz_group = models.ForeignKey(
         'QuizGroup',
         on_delete=models.PROTECT,
@@ -142,7 +141,7 @@ class Quiz(models.Model):
         help_text='Grupo de quizzes equivalentes (ex: mesmo quiz em vários idiomas)'
     )
     title = models.CharField(max_length=255)
-    slug = models.SlugField(max_length=255)
+    slug = models.SlugField(max_length=255, primary_key=True)
     description = models.TextField()
     description_template = models.TextField(
         blank=True,
@@ -225,7 +224,7 @@ class Quiz(models.Model):
 
 class Question(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='questions')
+    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='questions', to_field='slug')
     text = models.TextField(verbose_name='Questão')
     image = models.URLField(max_length=500, blank=True, null=True, help_text='URL da imagem da questão (opcional - use Cloudinary)')
     order = models.IntegerField(default=0)
@@ -265,7 +264,7 @@ class Answer(models.Model):
 class QuizAttempt(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True, related_name='quiz_attempts')
-    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='attempts')
+    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='attempts', to_field='slug')
     session_key = models.CharField(max_length=40, blank=True, help_text='Para usuários não logados')
     ip_address = models.GenericIPAddressField(null=True, blank=True)
     question_order = models.JSONField(default=list, help_text='Ordem das questões [uuid, uuid, ...]')
