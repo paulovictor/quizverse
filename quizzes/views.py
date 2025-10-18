@@ -745,16 +745,16 @@ def user_profile(request):
         try:
             parent_theme = Theme.objects.get(slug=category_filter)
             # Pegar o tema e todos os seus descendentes
-            theme_ids = [parent_theme.id]
+            theme_slugs = [parent_theme.slug]
             # Adicionar todos os filhos diretos
             children = Theme.objects.filter(parent=parent_theme)
-            theme_ids.extend(children.values_list('id', flat=True))
+            theme_slugs.extend(children.values_list('slug', flat=True))
             # Adicionar netos (se houver)
             for child in children:
                 grandchildren = Theme.objects.filter(parent=child)
-                theme_ids.extend(grandchildren.values_list('id', flat=True))
+                theme_slugs.extend(grandchildren.values_list('slug', flat=True))
             
-            attempts = attempts.filter(quiz__theme__id__in=theme_ids)
+            attempts = attempts.filter(quiz__theme__slug__in=theme_slugs)
         except Theme.DoesNotExist:
             pass
     

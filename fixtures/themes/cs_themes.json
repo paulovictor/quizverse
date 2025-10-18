@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Teste seu conhecimento em Counter-Strike! Observe as imagens e identifique corretamente os itens",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "jogos",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.915Z",
+    "updated_at": "2025-10-18T00:44:30.915Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ar",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "¡Pon a prueba tu conocimiento en Counter-Strike! Observa las imágenes e identifica correctamente los objetos",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-ar",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.918Z",
+    "updated_at": "2025-10-18T00:44:30.918Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-au",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Test your Counter-Strike knowledge! Look at the images and correctly identify the game’s classic items",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-au",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.914Z",
+    "updated_at": "2025-10-18T00:44:30.914Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ca",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Test your Counter-Strike knowledge! Look at the images and correctly identify the game’s classic items",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-ca",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.911Z",
+    "updated_at": "2025-10-18T00:44:30.911Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-co",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "¡Pon a prueba tu conocimiento en Counter-Strike! Observa las imágenes e identifica correctamente los objetos",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-co",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.919Z",
+    "updated_at": "2025-10-18T00:44:30.919Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-es",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "¡Pon a prueba tu conocimiento en Counter-Strike! Observa las imágenes e identifica correctamente los objetos",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-es",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.917Z",
+    "updated_at": "2025-10-18T00:44:30.917Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-gb",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Test your Counter-Strike knowledge! Look at the images and correctly identify the game’s classic items",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-gb",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.912Z",
+    "updated_at": "2025-10-18T00:44:30.912Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-in",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Test your Counter-Strike knowledge! Look at the images and correctly identify the game’s classic items",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-in",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.913Z",
+    "updated_at": "2025-10-18T00:44:30.913Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-mx",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "¡Pon a prueba tu conocimiento en Counter-Strike! Observa las imágenes e identifica correctamente los objetos",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-mx",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.917Z",
+    "updated_at": "2025-10-18T00:44:30.917Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-nz",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Test your Counter-Strike knowledge! Look at the images and correctly identify the game’s classic items",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-nz",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.915Z",
+    "updated_at": "2025-10-18T00:44:30.915Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ph",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Test your Counter-Strike knowledge! Look at the images and correctly identify the game’s classic items",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-ph",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.913Z",
+    "updated_at": "2025-10-18T00:44:30.913Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-pt",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Teste seu conhecimento em Counter-Strike! Observe as imagens e identifique corretamente os itens",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "jogos-pt",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.916Z",
+    "updated_at": "2025-10-18T00:44:30.916Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-us",
+  "fields": {
+    "title": "Counter Strike",
+    "description": "Test your Counter-Strike knowledge! Look at the images and correctly identify the game’s classic items",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-us",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T00:44:30.909Z",
+    "updated_at": "2025-10-18T00:44:30.910Z"
+  }
+}
+]

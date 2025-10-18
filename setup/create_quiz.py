@@ -13,8 +13,10 @@ Uso:
 
 import os
 import sys
+import json
 import django
 from pathlib import Path
+from django.core.management import call_command
 
 # Configuração do Django
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -313,6 +315,72 @@ def create_quizzes(config, themes, quiz_group):
     return created_count + updated_count
 
 
+def export_quiz_fixtures(config, quiz_group):
+    """
+    Exporta os quizzes criados como fixtures JSON
+    """
+    print("=" * 80)
+    print("📦 EXPORTANDO FIXTURES")
+    print("=" * 80)
+    print()
+    
+    # Criar pasta fixtures se não existir
+    fixtures_dir = Path(project_root) / 'fixtures' / 'quizzes'
+    fixtures_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Nome do arquivo baseado no slug
+    fixture_filename = f"{config['quiz_slug_base']}_quizzes.json"
+    fixture_path = fixtures_dir / fixture_filename
+    
+    try:
+        # Buscar todos os quizzes criados para este slug base
+        quizzes_to_export = []
+        
+        for country_code in COUNTRY_TO_LANG.keys():
+            # Determinar slug do quiz
+            if country_code == 'pt-BR':
+                quiz_slug = config['quiz_slug_base']
+            else:
+                country_suffix = country_code.split('-')[1].lower()
+                quiz_slug = f"{config['quiz_slug_base']}-{country_suffix}"
+            
+            try:
+                quiz = Quiz.objects.get(slug=quiz_slug, country=country_code)
+                quizzes_to_export.append(quiz)
+            except Quiz.DoesNotExist:
+                continue
+        
+        if not quizzes_to_export:
+            print("⚠️  Nenhum quiz encontrado para exportar")
+            return
+        
+        # Exportar QuizGroup primeiro
+        quiz_group_fixture_path = fixtures_dir / f"{config['quiz_slug_base']}_quiz_group.json"
+        with open(quiz_group_fixture_path, 'w', encoding='utf-8') as f:
+            call_command('dumpdata', 'quizzes.QuizGroup', 
+                        indent=2, 
+                        natural_foreign=True,
+                        natural_primary=True,
+                        stdout=f,
+                        pks=str(quiz_group.pk))
+        
+        # Exportar quizzes
+        with open(fixture_path, 'w', encoding='utf-8') as f:
+            call_command('dumpdata', 'quizzes.Quiz', 
+                        indent=2, 
+                        natural_foreign=True,
+                        natural_primary=True,
+                        stdout=f,
+                        pks=','.join([str(quiz.pk) for quiz in quizzes_to_export]))
+        
+        print(f"✅ Fixture QuizGroup exportada: {quiz_group_fixture_path}")
+        print(f"✅ Fixture Quizzes exportada: {fixture_path}")
+        print(f"📊 {len(quizzes_to_export)} quizzes exportados")
+        
+    except Exception as e:
+        print(f"❌ Erro ao exportar fixture: {e}")
+
+
 # ============================================================================
 # MAIN
 # ============================================================================
@@ -380,13 +448,16 @@ def main():
     # Criar quizzes
     total_quizzes = create_quizzes(config, themes, quiz_group)
 
+    # Exportar fixtures
+    export_quiz_fixtures(config, quiz_group)
+
     # Resumo final
     print("=" * 80)
     print("📊 RESUMO FINAL")
     print("=" * 80)
     print(f"✅ Total de quizzes processados: {total_quizzes}")
     print()
-    print("🎉 Quizzes criados com sucesso!")
+    print("🎉 Quizzes criados e fixtures exportadas com sucesso!")
 
 
 

@@ -13,8 +13,10 @@ Uso:
 
 import os
 import sys
+import json
 import django
 from pathlib import Path
+from django.core.management import call_command
 
 # Configuração do Django
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -457,39 +459,45 @@ def get_user_input():
 
     print()
 
-    # Traduções
-    print("5️⃣ Traduções do tema")
+    # Título (mesmo para todos os idiomas) e descrições traduzidas
+    print("5️⃣ Título e descrições do tema")
     print()
-
-    translations = {}
-
-    # Definir quais idiomas pedir tradução
-    main_languages = ['pt', 'en', 'es']
-
-    for lang_code in main_languages:
-        lang_names = {
-            'pt': 'Português',
-            'en': 'Inglês',
-            'es': 'Espanhol',
-        }
-
-        print(f"   📝 {lang_names[lang_code]} ({lang_code})")
-        title = input(f"      Título: ").strip()
-        description = input(f"      Descrição: ").strip()
-
-        if not title or not description:
-            print(f"   ⚠️  Pulando {lang_code} (campos vazios)")
-            continue
-
-        translations[lang_code] = {
-            'title': title,
-            'description': description,
-        }
-        print()
-
-    if not translations:
-        print("❌ Erro: Pelo menos uma tradução é necessária!")
+    
+    title = input("   Título (mesmo para todos os idiomas): ").strip()
+    
+    if not title:
+        print("❌ Erro: Título é obrigatório!")
         sys.exit(1)
+    
+    # Pedir descrições traduzidas
+    print()
+    print("   📝 Descrições traduzidas:")
+    
+    descriptions = {}
+    main_languages = ['pt', 'en', 'es']
+    lang_names = {
+        'pt': 'Português',
+        'en': 'Inglês', 
+        'es': 'Espanhol',
+    }
+    
+    for lang_code in main_languages:
+        description = input(f"      {lang_names[lang_code]} ({lang_code}): ").strip()
+        if description:
+            descriptions[lang_code] = description
+    
+    if not descriptions:
+        print("❌ Erro: Pelo menos uma descrição é necessária!")
+        sys.exit(1)
+    
+    # Usar o mesmo título para todos, mas descrições traduzidas
+    translations = {}
+    for lang_code in main_languages:
+        if lang_code in descriptions:
+            translations[lang_code] = {
+                'title': title,
+                'description': descriptions[lang_code]
+            }
 
     # Ordem de exibição
     print("6️⃣ Ordem de exibição do tema (número inteiro, menor = primeiro)")
@@ -591,6 +599,61 @@ def create_themes(config, parent_themes):
     return created_count + updated_count
 
 
+def export_theme_fixtures(config):
+    """
+    Exporta os temas criados como fixtures JSON
+    """
+    print("=" * 80)
+    print("📦 EXPORTANDO FIXTURES")
+    print("=" * 80)
+    print()
+    
+    # Criar pasta fixtures se não existir
+    fixtures_dir = Path(project_root) / 'fixtures' / 'themes'
+    fixtures_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Nome do arquivo baseado no slug
+    fixture_filename = f"{config['theme_slug_base']}_themes.json"
+    fixture_path = fixtures_dir / fixture_filename
+    
+    try:
+        # Buscar todos os temas criados para este slug base
+        themes_to_export = []
+        
+        for country_code in COUNTRY_TO_LANG.keys():
+            # Determinar slug do tema
+            if country_code == 'pt-BR':
+                theme_slug = config['theme_slug_base']
+            else:
+                country_suffix = country_code.split('-')[1].lower()
+                theme_slug = f"{config['theme_slug_base']}-{country_suffix}"
+            
+            try:
+                theme = Theme.objects.get(slug=theme_slug, country=country_code)
+                themes_to_export.append(theme)
+            except Theme.DoesNotExist:
+                continue
+        
+        if not themes_to_export:
+            print("⚠️  Nenhum tema encontrado para exportar")
+            return
+        
+        # Exportar usando dumpdata
+        with open(fixture_path, 'w', encoding='utf-8') as f:
+            call_command('dumpdata', 'quizzes.Theme', 
+                        indent=2, 
+                        natural_foreign=True,
+                        natural_primary=True,
+                        stdout=f,
+                        pks=','.join([theme.slug for theme in themes_to_export]))
+        
+        print(f"✅ Fixture exportada: {fixture_path}")
+        print(f"📊 {len(themes_to_export)} temas exportados")
+        
+    except Exception as e:
+        print(f"❌ Erro ao exportar fixture: {e}")
+
+
 # ============================================================================
 # MAIN
 # ============================================================================
@@ -633,16 +696,13 @@ def main():
     print(f"Ordem: {config['order']}")
     print()
 
-    response = input("Deseja continuar com a criação dos temas? (s/n): ").strip().lower()
 
-    if response != 's':
-        print("⚠️  Operação cancelada pelo usuário")
-        sys.exit(0)
-
-    print()
 
     # Criar temas
     total_themes = create_themes(config, parent_themes)
+
+    # Exportar fixtures
+    export_theme_fixtures(config)
 
     # Resumo final
     print("=" * 80)
@@ -650,7 +710,7 @@ def main():
     print("=" * 80)
     print(f"✅ Total de temas processados: {total_themes}")
     print()
-    print("🎉 Temas criados com sucesso!")
+    print("🎉 Temas criados e fixtures exportadas com sucesso!")
     print()
     print()
 

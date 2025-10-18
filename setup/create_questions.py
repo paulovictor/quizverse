@@ -18,6 +18,7 @@ import json
 import random
 import django
 from pathlib import Path
+from django.core.management import call_command
 
 # Configuração do Django
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -366,6 +367,61 @@ def create_questions(config, quizzes, cloudinary_data):
     return created_count + updated_count
 
 
+def export_question_fixtures(config, quizzes):
+    """
+    Exporta as questões criadas como fixtures JSON
+    """
+    print("=" * 80)
+    print("📦 EXPORTANDO FIXTURES")
+    print("=" * 80)
+    print()
+    
+    # Criar pasta fixtures se não existir
+    fixtures_dir = Path(project_root) / 'fixtures' / 'questions'
+    fixtures_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Nome do arquivo baseado no slug do quiz
+    fixture_filename = f"{config['quiz_slug_pt']}_questions.json"
+    fixture_path = fixtures_dir / fixture_filename
+    
+    try:
+        # Buscar todas as questões criadas para este quiz
+        questions_to_export = []
+        answers_to_export = []
+        
+        for country_code, quiz in quizzes.items():
+            if not quiz:
+                continue
+            
+            # Buscar questões do quiz
+            questions = Question.objects.filter(quiz=quiz)
+            for question in questions:
+                questions_to_export.append(question)
+                # Buscar respostas da questão
+                answers = Answer.objects.filter(question=question)
+                answers_to_export.extend(answers)
+        
+        if not questions_to_export:
+            print("⚠️  Nenhuma questão encontrada para exportar")
+            return
+        
+        # Exportar questões e respostas
+        all_pks = [str(q.pk) for q in questions_to_export] + [str(a.pk) for a in answers_to_export]
+        with open(fixture_path, 'w', encoding='utf-8') as f:
+            call_command('dumpdata', 'quizzes.Question', 'quizzes.Answer',
+                        indent=2, 
+                        natural_foreign=True,
+                        natural_primary=True,
+                        stdout=f,
+                        pks=','.join(all_pks))
+        
+        print(f"✅ Fixture exportada: {fixture_path}")
+        print(f"📊 {len(questions_to_export)} questões e {len(answers_to_export)} respostas exportadas")
+        
+    except Exception as e:
+        print(f"❌ Erro ao exportar fixture: {e}")
+
+
 # ============================================================================
 # MAIN
 # ============================================================================
@@ -441,13 +497,16 @@ def main():
     # Criar questões
     total_quizzes = create_questions(config, quizzes, cloudinary_data)
 
+    # Exportar fixtures
+    export_question_fixtures(config, quizzes)
+
     # Resumo final
     print("=" * 80)
     print("📊 RESUMO FINAL")
     print("=" * 80)
     print(f"✅ Total de quizzes processados: {total_quizzes}")
     print()
-    print("🎉 Questões criadas com sucesso!")
+    print("🎉 Questões criadas e fixtures exportadas com sucesso!")
     print()
 
 

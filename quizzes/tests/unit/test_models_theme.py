@@ -20,7 +20,7 @@ class ThemeModelTest(TestCase):
 
     def test_theme_creation(self):
         """Testa criação básica de um tema"""
-        self.assertIsNotNone(self.theme.id)
+        self.assertIsNotNone(self.theme.slug)
         self.assertEqual(self.theme.title, "Test Theme")
         self.assertEqual(self.theme.country, 'pt-BR')
         self.assertTrue(self.theme.active)
