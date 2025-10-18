@@ -571,7 +571,7 @@ def create_themes(config, parent_themes):
                 'primary_color': config['colors']['primary_color'],
                 'secondary_color': config['colors']['secondary_color'],
                 'parent': parent_theme,
-                'active': True,
+                'active': False,
                 'order': config['order'],
             }
         )

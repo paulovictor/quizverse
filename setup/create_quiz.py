@@ -286,7 +286,7 @@ def create_quizzes(config, themes, quiz_group):
                 'description': quiz_description,
                 'description_template': quiz_description_template,
                 'difficulty': config['difficulty'],
-                'active': True,
+                'active': False,
                 'order': config['order'],
                 'country': country_code,
                 'question_sample_size': 0,

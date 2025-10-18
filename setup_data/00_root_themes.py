@@ -196,7 +196,7 @@ def create_root_themes():
                     'secondary_color': theme_base['secondary_color'],
                     'order': theme_base['order'],
                     'parent': None,
-                    'active': True
+                    'active': False
                 }
             )
             
