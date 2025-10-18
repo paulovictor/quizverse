@@ -34,7 +34,7 @@ class Theme(models.Model):
     primary_color = models.CharField(max_length=7, blank=True, null=True, help_text='Cor principal (ex: #3b82f6)')
     secondary_color = models.CharField(max_length=7, blank=True, null=True, help_text='Cor secundária para gradiente (ex: #8b5cf6)')
     
-    parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='subcategories', help_text='Tema pai (deixe vazio para categoria principal)')
+    parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='subcategories', to_field='slug', help_text='Tema pai (deixe vazio para categoria principal)')
     order = models.IntegerField(default=0, help_text='Ordem de exibição')
     active = models.BooleanField(default=True)
     card_background_image = models.URLField(max_length=500, blank=True, null=True, help_text='URL da imagem de background do CARD/CAIXA do tema (use Cloudinary)')
