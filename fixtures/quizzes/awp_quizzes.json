@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "0788f23d-3d1d-4d11-8765-2fc215e29c1c",
+  "fields": {
+    "theme": "cs-ar",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-ar",
+    "description": "¡Responde 0 preguntas aleatorias de 0 disponibles! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde {sample_size} preguntas aleatorias de {total} disponibles! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.169Z",
+    "updated_at": "2025-10-18T01:31:32.169Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "1d5806a9-0a80-4b64-af2b-8d2b3bc8ef80",
+  "fields": {
+    "theme": "cs-au",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-au",
+    "description": "Answer 0 random questions from 0 available! Test your knowledge.",
+    "description_template": "Answer {sample_size} random questions from {total} available! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.164Z",
+    "updated_at": "2025-10-18T01:31:32.164Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "3d3f1c80-f79e-4a6e-8a5b-775d4a0ced6a",
+  "fields": {
+    "theme": "cs",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp",
+    "description": "Responda 0 questões aleatórias de 0 disponíveis! Teste seu conhecimento.",
+    "description_template": "Responda {sample_size} questões aleatórias de {total} disponíveis! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.166Z",
+    "updated_at": "2025-10-18T01:31:32.166Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "5f14d342-9257-4366-99d0-b9b05b927b14",
+  "fields": {
+    "theme": "cs-ca",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-ca",
+    "description": "Answer 0 random questions from 0 available! Test your knowledge.",
+    "description_template": "Answer {sample_size} random questions from {total} available! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.161Z",
+    "updated_at": "2025-10-18T01:31:32.161Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "67262ad0-aa58-41e8-b79b-fcdf81cfef05",
+  "fields": {
+    "theme": "cs-mx",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-mx",
+    "description": "¡Responde 0 preguntas aleatorias de 0 disponibles! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde {sample_size} preguntas aleatorias de {total} disponibles! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.167Z",
+    "updated_at": "2025-10-18T01:31:32.167Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "73b398ea-ee9e-450e-87ec-13a94b1f7424",
+  "fields": {
+    "theme": "cs-us",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-us",
+    "description": "Answer 0 random questions from 0 available! Test your knowledge.",
+    "description_template": "Answer {sample_size} random questions from {total} available! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.160Z",
+    "updated_at": "2025-10-18T01:31:32.160Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "7c2543b9-adf1-4c93-a02b-c4f410581573",
+  "fields": {
+    "theme": "cs-ph",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-ph",
+    "description": "Answer 0 random questions from 0 available! Test your knowledge.",
+    "description_template": "Answer {sample_size} random questions from {total} available! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.163Z",
+    "updated_at": "2025-10-18T01:31:32.163Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "82188bb3-d081-4e20-a45e-e848236b1131",
+  "fields": {
+    "theme": "cs-co",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-co",
+    "description": "¡Responde 0 preguntas aleatorias de 0 disponibles! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde {sample_size} preguntas aleatorias de {total} disponibles! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.170Z",
+    "updated_at": "2025-10-18T01:31:32.170Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "a59d6085-1a6f-446b-897b-d0b66303fb9f",
+  "fields": {
+    "theme": "cs-nz",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-nz",
+    "description": "Answer 0 random questions from 0 available! Test your knowledge.",
+    "description_template": "Answer {sample_size} random questions from {total} available! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.165Z",
+    "updated_at": "2025-10-18T01:31:32.165Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "be827c76-73e4-4821-96e3-8a9647616c49",
+  "fields": {
+    "theme": "cs-in",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-in",
+    "description": "Answer 0 random questions from 0 available! Test your knowledge.",
+    "description_template": "Answer {sample_size} random questions from {total} available! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.163Z",
+    "updated_at": "2025-10-18T01:31:32.163Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "d63e5713-d8ba-426c-a29e-6d62aa80f139",
+  "fields": {
+    "theme": "cs-gb",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-gb",
+    "description": "Answer 0 random questions from 0 available! Test your knowledge.",
+    "description_template": "Answer {sample_size} random questions from {total} available! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.162Z",
+    "updated_at": "2025-10-18T01:31:32.162Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "e885ddc8-d1a8-4b8f-b5f4-ce15e35097dd",
+  "fields": {
+    "theme": "cs-pt",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-pt",
+    "description": "Responda 0 questões aleatórias de 0 disponíveis! Teste seu conhecimento.",
+    "description_template": "Responda {sample_size} questões aleatórias de {total} disponíveis! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.166Z",
+    "updated_at": "2025-10-18T01:31:32.166Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "fd43c9af-b921-4bea-8e5b-7066fc32d5f8",
+  "fields": {
+    "theme": "cs-es",
+    "quiz_group": "01918d5e-1fb1-4d27-af8f-3d8ef16247e1",
+    "title": "AWP",
+    "slug": "awp-es",
+    "description": "¡Responde 0 preguntas aleatorias de 0 disponibles! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde {sample_size} preguntas aleatorias de {total} disponibles! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": true,
+    "order": 1,
+    "created_at": "2025-10-18T01:31:32.168Z",
+    "updated_at": "2025-10-18T01:31:32.168Z"
+  }
+}
+]

@@ -868,6 +868,7 @@
                     </div>
 
                     <!-- Stats Summary -->
+                    {% if stats.total_attempts > 0 %}
                     <div class="stats-summary">
                         <div class="stat-item">
                             <div class="stat-label">{% t 'attempts_stat' %}</div>
@@ -882,6 +883,7 @@
                             <div class="stat-value">{{ stats.avg_percentage|floatformat:0 }}%</div>
                         </div>
                     </div>
+                    {% endif %}
 
                     <!-- History List -->
                     <div class="history-list">

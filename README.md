@@ -10,6 +10,11 @@ Passos para criar um Thema (Pokemon) e um Quiz (Qual é este pokemon?) com Image
 uv run python setup/upload_cloudinary.py
 ```
 
+1 - Otimize as imagens
+```python
+uv run python setup/optimize_cloudinary_urls.py
+```
+
 2 - Criar o Theme em todos os paises
 ```python
 uv run python setup/create_theme.py

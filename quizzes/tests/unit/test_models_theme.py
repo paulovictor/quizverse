@@ -116,7 +116,7 @@ class ThemeModelTest(TestCase):
 
         # Filtrar apenas os themes criados neste teste
         themes = list(Theme.objects.filter(
-            id__in=[theme1.id, theme2.id, theme3.id]
+            slug__in=[theme1.slug, theme2.slug, theme3.slug]
         ).order_by('order', 'title'))
 
         # Verificar ordenação

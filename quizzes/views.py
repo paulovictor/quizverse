@@ -371,6 +371,13 @@ def quiz_detail(request, theme_slug, quiz_slug):
                 'best_percentage': best_percentage,
                 'avg_percentage': avg_percentage,
             }
+        else:
+            # Valores padrão quando não há tentativas completadas
+            stats = {
+                'total_attempts': 0,
+                'best_percentage': 0,
+                'avg_percentage': 0,
+            }
     
     # Gerar breadcrumb
     breadcrumb = theme.get_breadcrumb()

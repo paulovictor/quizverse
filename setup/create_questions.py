@@ -405,15 +405,30 @@ def export_question_fixtures(config, quizzes):
             print("⚠️  Nenhuma questão encontrada para exportar")
             return
         
-        # Exportar questões e respostas
-        all_pks = [str(q.pk) for q in questions_to_export] + [str(a.pk) for a in answers_to_export]
+        # Exportar questões e respostas separadamente
+        question_pks = [str(q.pk) for q in questions_to_export]
+        answer_pks = [str(a.pk) for a in answers_to_export]
+        
         with open(fixture_path, 'w', encoding='utf-8') as f:
-            call_command('dumpdata', 'quizzes.Question', 'quizzes.Answer',
-                        indent=2, 
-                        natural_foreign=True,
-                        natural_primary=True,
-                        stdout=f,
-                        pks=','.join(all_pks))
+            # Exportar questões primeiro
+            if question_pks:
+                call_command('dumpdata', 'quizzes.Question',
+                            indent=2, 
+                            natural_foreign=True,
+                            natural_primary=True,
+                            stdout=f,
+                            pks=','.join(question_pks))
+            
+            # Exportar respostas (sem quebra de linha se não há questões)
+            if answer_pks:
+                if question_pks:
+                    f.write('\n')
+                call_command('dumpdata', 'quizzes.Answer',
+                            indent=2, 
+                            natural_foreign=True,
+                            natural_primary=True,
+                            stdout=f,
+                            pks=','.join(answer_pks))
         
         print(f"✅ Fixture exportada: {fixture_path}")
         print(f"📊 {len(questions_to_export)} questões e {len(answers_to_export)} respostas exportadas")
