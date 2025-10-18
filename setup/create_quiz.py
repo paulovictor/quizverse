@@ -79,9 +79,9 @@ def find_theme_by_slug(theme_slug_pt):
 def get_quiz_description_template(lang_code):
     """Retorna template de descrição com placeholders {sample_size} e {total}"""
     templates = {
-        'en': 'Answer {sample_size} random questions from {total} available! Test your knowledge.',
-        'pt': 'Responda {sample_size} questões aleatórias de {total} disponíveis! Teste seu conhecimento.',
-        'es': '¡Responde {sample_size} preguntas aleatorias de {total} disponibles! Pon a prueba tu conocimiento.',
+        'en': 'Answer random questions! Test your knowledge.',
+        'pt': 'Responda questões aleatórias! Teste seu conhecimento.',
+        'es': '¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.',
     }
     return templates.get(lang_code, templates['en'])
 

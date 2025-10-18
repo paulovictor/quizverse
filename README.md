@@ -28,3 +28,4 @@ uv run python setup/create_quiz.py
 4 - Generate all questions and answers in all languages
 ```python
 uv run python setup/create_questions.py
+```

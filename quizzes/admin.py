@@ -75,6 +75,7 @@ class ThemeAdmin(admin.ModelAdmin):
     search_fields = ['title', 'description', 'slug']  # Necessário para autocomplete
     prepopulated_fields = {'slug': ('title',)}
     autocomplete_fields = ['parent']
+    actions = ['activate_themes', 'deactivate_themes']
     fieldsets = (
         ('Informações Básicas', {
             'fields': ('title', 'slug', 'description', 'country', 'icon', 'parent', 'order', 'active')
@@ -90,6 +91,26 @@ class ThemeAdmin(admin.ModelAdmin):
             'description': 'Personaliza a aparência do card/tema com imagens e cores de fundo.'
         }),
     )
+
+    def activate_themes(self, request, queryset):
+        """Ativa os temas selecionados"""
+        updated = queryset.update(active=True)
+        self.message_user(
+            request,
+            f'{updated} tema(s) foram ativados com sucesso.',
+            messages.SUCCESS
+        )
+    activate_themes.short_description = "✅ Ativar temas selecionados"
+
+    def deactivate_themes(self, request, queryset):
+        """Inativa os temas selecionados"""
+        updated = queryset.update(active=False)
+        self.message_user(
+            request,
+            f'{updated} tema(s) foram inativados com sucesso.',
+            messages.SUCCESS
+        )
+    deactivate_themes.short_description = "❌ Inativar temas selecionados"
 
 
 class AnswerInline(admin.TabularInline):
@@ -113,6 +134,7 @@ class QuizAdmin(admin.ModelAdmin):
     autocomplete_fields = ['theme', 'quiz_group']
     prepopulated_fields = {'slug': ('title',)}
     inlines = [QuestionInline]
+    actions = ['activate_quizzes', 'deactivate_quizzes']
     fieldsets = (
         ('Informações Básicas', {
             'fields': ('title', 'slug', 'description', 'theme', 'quiz_group', 'country', 'difficulty', 'order', 'active')
@@ -122,6 +144,26 @@ class QuizAdmin(admin.ModelAdmin):
             'description': 'Configure o tempo limite e quantas questões aleatórias serão apresentadas a cada tentativa. Use 0 em "question_sample_size" para usar todas as questões disponíveis.'
         }),
     )
+
+    def activate_quizzes(self, request, queryset):
+        """Ativa os quizzes selecionados"""
+        updated = queryset.update(active=True)
+        self.message_user(
+            request,
+            f'{updated} quiz(zes) foram ativados com sucesso.',
+            messages.SUCCESS
+        )
+    activate_quizzes.short_description = "✅ Ativar quizzes selecionados"
+
+    def deactivate_quizzes(self, request, queryset):
+        """Inativa os quizzes selecionados"""
+        updated = queryset.update(active=False)
+        self.message_user(
+            request,
+            f'{updated} quiz(zes) foram inativados com sucesso.',
+            messages.SUCCESS
+        )
+    deactivate_quizzes.short_description = "❌ Inativar quizzes selecionados"
     
     def get_total_questions(self, obj):
         return obj.get_total_questions()
