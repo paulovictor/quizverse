@@ -1,2 +1,2 @@
-release: python manage.py migrate && python fixtures/load_fixtures.py && python setup_data/restore_essential_data.py
+release: python manage.py migrate && python fixtures/load_fixtures.py
 web: gunicorn quiz.wsgi --log-file -
