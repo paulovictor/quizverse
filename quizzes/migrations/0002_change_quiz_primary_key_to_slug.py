@@ -50,16 +50,14 @@ class Migration(migrations.Migration):
         # Limpar dados órfãos primeiro
         migrations.RunPython(clean_orphan_data, reverse_clean_orphan_data),
         
-        # Remover foreign key constraints temporariamente
-        migrations.AlterField(
+        # Remover completamente as foreign keys
+        migrations.RemoveField(
             model_name='question',
             name='quiz',
-            field=models.ForeignKey('Quiz', on_delete=models.CASCADE, related_name='questions', db_constraint=False),
         ),
-        migrations.AlterField(
+        migrations.RemoveField(
             model_name='quizattempt',
             name='quiz',
-            field=models.ForeignKey('Quiz', on_delete=models.CASCADE, related_name='attempts', db_constraint=False),
         ),
         
         # Remover o campo id do Quiz
@@ -76,12 +74,12 @@ class Migration(migrations.Migration):
         ),
         
         # Recriar foreign key constraints com to_field='slug'
-        migrations.AlterField(
+        migrations.AddField(
             model_name='question',
             name='quiz',
             field=models.ForeignKey('Quiz', on_delete=models.CASCADE, related_name='questions', to_field='slug'),
         ),
-        migrations.AlterField(
+        migrations.AddField(
             model_name='quizattempt',
             name='quiz',
             field=models.ForeignKey('Quiz', on_delete=models.CASCADE, related_name='attempts', to_field='slug'),
