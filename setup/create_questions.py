@@ -409,26 +409,49 @@ def export_question_fixtures(config, quizzes):
         question_pks = [str(q.pk) for q in questions_to_export]
         answer_pks = [str(a.pk) for a in answers_to_export]
         
-        with open(fixture_path, 'w', encoding='utf-8') as f:
-            # Exportar questões primeiro
-            if question_pks:
-                call_command('dumpdata', 'quizzes.Question',
-                            indent=2, 
-                            natural_foreign=True,
-                            natural_primary=True,
-                            stdout=f,
-                            pks=','.join(question_pks))
+        # Combinar questões e respostas em uma única lista
+        all_objects = []
+        
+        # Exportar questões
+        if question_pks:
+            questions_data = call_command('dumpdata', 'quizzes.Question',
+                                        indent=2, 
+                                        natural_foreign=True,
+                                        natural_primary=True,
+                                        pks=','.join(question_pks),
+                                        verbosity=0)
+            # call_command retorna None, precisamos usar StringIO
+            from io import StringIO
+            import json
             
-            # Exportar respostas (sem quebra de linha se não há questões)
-            if answer_pks:
-                if question_pks:
-                    f.write('\n')
-                call_command('dumpdata', 'quizzes.Answer',
-                            indent=2, 
-                            natural_foreign=True,
-                            natural_primary=True,
-                            stdout=f,
-                            pks=','.join(answer_pks))
+            # Capturar output do dumpdata
+            output = StringIO()
+            call_command('dumpdata', 'quizzes.Question',
+                        indent=2, 
+                        natural_foreign=True,
+                        natural_primary=True,
+                        stdout=output,
+                        pks=','.join(question_pks))
+            questions_json = output.getvalue()
+            questions_data = json.loads(questions_json)
+            all_objects.extend(questions_data)
+        
+        # Exportar respostas
+        if answer_pks:
+            output = StringIO()
+            call_command('dumpdata', 'quizzes.Answer',
+                        indent=2, 
+                        natural_foreign=True,
+                        natural_primary=True,
+                        stdout=output,
+                        pks=','.join(answer_pks))
+            answers_json = output.getvalue()
+            answers_data = json.loads(answers_json)
+            all_objects.extend(answers_data)
+        
+        # Salvar como JSON válido
+        with open(fixture_path, 'w', encoding='utf-8') as f:
+            json.dump(all_objects, f, indent=2, ensure_ascii=False)
         
         print(f"✅ Fixture exportada: {fixture_path}")
         print(f"📊 {len(questions_to_export)} questões e {len(answers_to_export)} respostas exportadas")
