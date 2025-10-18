@@ -162,12 +162,12 @@ def home(request):
         completed_quizzes = 0
         if request.user.is_authenticated:
             # Quizzes que o usuário completou (distinct)
-            quiz_ids = [q.id for q in all_theme_quizzes]
+            quiz_slugs = [q.slug for q in all_theme_quizzes]
             completed_quizzes = QuizAttempt.objects.filter(
                 user=request.user,
-                quiz_id__in=quiz_ids,
+                quiz__slug__in=quiz_slugs,
                 completed_at__isnull=False
-            ).values('quiz_id').distinct().count()
+            ).values('quiz__slug').distinct().count()
         
         # Contagem de subcategorias diretas (para exibição)
         if is_superuser:
