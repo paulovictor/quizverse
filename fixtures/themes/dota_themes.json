@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "dota",
+  "fields": {
+    "title": "Dota",
+    "description": "Teste seu conhecimento no universo de Dota! Observe as imagens e descubra quais heróis, itens ou habilidades aparecem nelas",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "jogos",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.495Z",
+    "updated_at": "2025-10-18T02:31:08.495Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-ar",
+  "fields": {
+    "title": "Dota",
+    "description": "¡Pon a prueba tu conocimiento del universo de Dota! Observa las imágenes y descubre qué héroes, objetos o habilidades aparecen en ellas",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-ar",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.498Z",
+    "updated_at": "2025-10-18T02:31:08.498Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-au",
+  "fields": {
+    "title": "Dota",
+    "description": "Test your knowledge of the Dota universe! Look at the images and find out which heroes, items, or abilities are shown",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-au",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.494Z",
+    "updated_at": "2025-10-18T02:31:08.494Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-ca",
+  "fields": {
+    "title": "Dota",
+    "description": "Test your knowledge of the Dota universe! Look at the images and find out which heroes, items, or abilities are shown",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-ca",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.489Z",
+    "updated_at": "2025-10-18T02:31:08.489Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-co",
+  "fields": {
+    "title": "Dota",
+    "description": "¡Pon a prueba tu conocimiento del universo de Dota! Observa las imágenes y descubre qué héroes, objetos o habilidades aparecen en ellas",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-co",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.499Z",
+    "updated_at": "2025-10-18T02:31:08.499Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-es",
+  "fields": {
+    "title": "Dota",
+    "description": "¡Pon a prueba tu conocimiento del universo de Dota! Observa las imágenes y descubre qué héroes, objetos o habilidades aparecen en ellas",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-es",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.497Z",
+    "updated_at": "2025-10-18T02:31:08.497Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-gb",
+  "fields": {
+    "title": "Dota",
+    "description": "Test your knowledge of the Dota universe! Look at the images and find out which heroes, items, or abilities are shown",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-gb",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.491Z",
+    "updated_at": "2025-10-18T02:31:08.491Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-in",
+  "fields": {
+    "title": "Dota",
+    "description": "Test your knowledge of the Dota universe! Look at the images and find out which heroes, items, or abilities are shown",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-in",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.492Z",
+    "updated_at": "2025-10-18T02:31:08.492Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-mx",
+  "fields": {
+    "title": "Dota",
+    "description": "¡Pon a prueba tu conocimiento del universo de Dota! Observa las imágenes y descubre qué héroes, objetos o habilidades aparecen en ellas",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-mx",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.497Z",
+    "updated_at": "2025-10-18T02:31:08.497Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-nz",
+  "fields": {
+    "title": "Dota",
+    "description": "Test your knowledge of the Dota universe! Look at the images and find out which heroes, items, or abilities are shown",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-nz",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.494Z",
+    "updated_at": "2025-10-18T02:31:08.494Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-ph",
+  "fields": {
+    "title": "Dota",
+    "description": "Test your knowledge of the Dota universe! Look at the images and find out which heroes, items, or abilities are shown",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-ph",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.493Z",
+    "updated_at": "2025-10-18T02:31:08.493Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-pt",
+  "fields": {
+    "title": "Dota",
+    "description": "Teste seu conhecimento no universo de Dota! Observe as imagens e descubra quais heróis, itens ou habilidades aparecem nelas",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "jogos-pt",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.496Z",
+    "updated_at": "2025-10-18T02:31:08.496Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-us",
+  "fields": {
+    "title": "Dota",
+    "description": "Test your knowledge of the Dota universe! Look at the images and find out which heroes, items, or abilities are shown",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-us",
+    "order": 1,
+    "active": true,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-18T02:31:08.485Z",
+    "updated_at": "2025-10-18T02:31:08.487Z"
+  }
+}
+]

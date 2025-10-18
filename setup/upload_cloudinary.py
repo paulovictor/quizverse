@@ -55,27 +55,58 @@ def configure_cloudinary() -> None:
     )
 
 
-def request_folder(prompt: str, base_path: Path) -> Path:
-    """Solicita ao usuário um nome de subpasta e valida sua existência."""
+def list_available_folders(base_path: Path) -> List[Path]:
+    """Lista todas as pastas disponíveis no diretório base."""
+    
+    folders = []
+    if base_path.exists() and base_path.is_dir():
+        for item in base_path.iterdir():
+            if item.is_dir():
+                folders.append(item)
+    
+    return sorted(folders)
 
+
+def request_folder(base_path: Path) -> Path:
+    """Lista pastas disponíveis e solicita ao usuário selecionar por número."""
+
+    # Listar pastas disponíveis
+    available_folders = list_available_folders(base_path)
+    
+    if not available_folders:
+        print("❌ Nenhuma pasta encontrada no diretório de upload.")
+        raise SystemExit(1)
+    
+    print("\n📁 PASTAS DISPONÍVEIS:")
+    print("=" * 50)
+    for i, folder in enumerate(available_folders, 1):
+        # Contar imagens na pasta
+        image_count = len(collect_images(folder))
+        print(f"{i:2d}. {folder.name} ({image_count} imagens)")
+    
+    print("=" * 50)
+    
     while True:
         try:
-            folder_name = input(prompt).strip()
+            choice = input(f"\nSelecione uma pasta (1-{len(available_folders)}): ").strip()
         except EOFError:
             print("\n⚠️  Nenhum input recebido. Encerrando.")
             raise SystemExit(1)
 
-        if not folder_name:
-            print("⚠️  O nome da pasta não pode ficar em branco.")
+        if not choice:
+            print("⚠️  Por favor, digite um número.")
             continue
 
-        candidate = (base_path / folder_name).expanduser().resolve()
-
-        if not candidate.exists() or not candidate.is_dir():
-            print(f"❌ Pasta não encontrada: {candidate}")
-            continue
-
-        return candidate
+        try:
+            choice_num = int(choice)
+            if 1 <= choice_num <= len(available_folders):
+                selected_folder = available_folders[choice_num - 1]
+                print(f"✅ Pasta selecionada: {selected_folder.name}")
+                return selected_folder
+            else:
+                print(f"⚠️  Por favor, digite um número entre 1 e {len(available_folders)}.")
+        except ValueError:
+            print("⚠️  Por favor, digite um número válido.")
 
 
 def collect_images(folder: Path) -> List[Path]:
@@ -157,9 +188,7 @@ def main() -> None:
     print(f"📁 Pasta raiz local: {UPLOAD_ROOT}")
 
     # 1. Solicitar a subpasta local
-    local_folder = request_folder(
-        "Informe a subpasta dentro de 'upload/' a ser enviada: ", UPLOAD_ROOT
-    )
+    local_folder = request_folder(UPLOAD_ROOT)
 
     # 2. Destino no Cloudinary
     try:
