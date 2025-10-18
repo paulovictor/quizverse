@@ -1,0 +1,1210 @@
+[
+  {
+    "pokemon": "Bulbasaur",
+    "similar": [
+      "Ivysaur",
+      "Venusaur",
+      "Oddish"
+    ]
+  },
+  {
+    "pokemon": "Ivysaur",
+    "similar": [
+      "Bulbasaur",
+      "Venusaur",
+      "Oddish"
+    ]
+  },
+  {
+    "pokemon": "Venusaur",
+    "similar": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Oddish"
+    ]
+  },
+  {
+    "pokemon": "Charmander",
+    "similar": [
+      "Charmeleon",
+      "Vulpix",
+      "Ninetales"
+    ]
+  },
+  {
+    "pokemon": "Charmeleon",
+    "similar": [
+      "Charmander",
+      "Vulpix",
+      "Ninetales"
+    ]
+  },
+  {
+    "pokemon": "Charizard",
+    "similar": [
+      "Moltres",
+      "Charmander",
+      "Charmeleon"
+    ]
+  },
+  {
+    "pokemon": "Squirtle",
+    "similar": [
+      "Wartortle",
+      "Blastoise",
+      "Psyduck"
+    ]
+  },
+  {
+    "pokemon": "Wartortle",
+    "similar": [
+      "Squirtle",
+      "Blastoise",
+      "Psyduck"
+    ]
+  },
+  {
+    "pokemon": "Blastoise",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Psyduck"
+    ]
+  },
+  {
+    "pokemon": "Caterpie",
+    "similar": [
+      "Metapod",
+      "Pinsir",
+      "Butterfree"
+    ]
+  },
+  {
+    "pokemon": "Metapod",
+    "similar": [
+      "Caterpie",
+      "Pinsir",
+      "Butterfree"
+    ]
+  },
+  {
+    "pokemon": "Butterfree",
+    "similar": [
+      "Scyther",
+      "Charizard",
+      "Caterpie"
+    ]
+  },
+  {
+    "pokemon": "Weedle",
+    "similar": [
+      "Kakuna",
+      "Beedrill",
+      "Venonat"
+    ]
+  },
+  {
+    "pokemon": "Kakuna",
+    "similar": [
+      "Weedle",
+      "Beedrill",
+      "Venonat"
+    ]
+  },
+  {
+    "pokemon": "Beedrill",
+    "similar": [
+      "Weedle",
+      "Kakuna",
+      "Venonat"
+    ]
+  },
+  {
+    "pokemon": "Pidgey",
+    "similar": [
+      "Pidgeotto",
+      "Pidgeot",
+      "Spearow"
+    ]
+  },
+  {
+    "pokemon": "Pidgeotto",
+    "similar": [
+      "Pidgey",
+      "Pidgeot",
+      "Spearow"
+    ]
+  },
+  {
+    "pokemon": "Pidgeot",
+    "similar": [
+      "Pidgey",
+      "Pidgeotto",
+      "Spearow"
+    ]
+  },
+  {
+    "pokemon": "Rattata",
+    "similar": [
+      "Raticate",
+      "Meowth",
+      "Persian"
+    ]
+  },
+  {
+    "pokemon": "Raticate",
+    "similar": [
+      "Rattata",
+      "Meowth",
+      "Persian"
+    ]
+  },
+  {
+    "pokemon": "Spearow",
+    "similar": [
+      "Pidgey",
+      "Pidgeotto",
+      "Pidgeot"
+    ]
+  },
+  {
+    "pokemon": "Fearow",
+    "similar": [
+      "Pidgey",
+      "Pidgeotto",
+      "Pidgeot"
+    ]
+  },
+  {
+    "pokemon": "Ekans",
+    "similar": [
+      "Arbok",
+      "Nidoran-f",
+      "Nidorina"
+    ]
+  },
+  {
+    "pokemon": "Arbok",
+    "similar": [
+      "Ekans",
+      "Nidoran-f",
+      "Nidorina"
+    ]
+  },
+  {
+    "pokemon": "Pikachu",
+    "similar": [
+      "Raichu",
+      "Voltorb",
+      "Electrode"
+    ]
+  },
+  {
+    "pokemon": "Raichu",
+    "similar": [
+      "Pikachu",
+      "Voltorb",
+      "Electrode"
+    ]
+  },
+  {
+    "pokemon": "Sandshrew",
+    "similar": [
+      "Sandslash",
+      "Diglett",
+      "Dugtrio"
+    ]
+  },
+  {
+    "pokemon": "Sandslash",
+    "similar": [
+      "Sandshrew",
+      "Diglett",
+      "Dugtrio"
+    ]
+  },
+  {
+    "pokemon": "Nidoran-f",
+    "similar": [
+      "Ekans",
+      "Arbok",
+      "Nidorina"
+    ]
+  },
+  {
+    "pokemon": "Nidorina",
+    "similar": [
+      "Ekans",
+      "Arbok",
+      "Nidoran-f"
+    ]
+  },
+  {
+    "pokemon": "Nidoqueen",
+    "similar": [
+      "Nidoking",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Nidoran-m",
+    "similar": [
+      "Ekans",
+      "Arbok",
+      "Nidoran-f"
+    ]
+  },
+  {
+    "pokemon": "Nidorino",
+    "similar": [
+      "Ekans",
+      "Arbok",
+      "Nidoran-f"
+    ]
+  },
+  {
+    "pokemon": "Nidoking",
+    "similar": [
+      "Nidoqueen",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Clefairy",
+    "similar": [
+      "Clefable",
+      "Jigglypuff",
+      "Wigglytuff"
+    ]
+  },
+  {
+    "pokemon": "Clefable",
+    "similar": [
+      "Clefairy",
+      "Jigglypuff",
+      "Wigglytuff"
+    ]
+  },
+  {
+    "pokemon": "Vulpix",
+    "similar": [
+      "Charmander",
+      "Charmeleon",
+      "Ninetales"
+    ]
+  },
+  {
+    "pokemon": "Ninetales",
+    "similar": [
+      "Charmander",
+      "Charmeleon",
+      "Vulpix"
+    ]
+  },
+  {
+    "pokemon": "Jigglypuff",
+    "similar": [
+      "Wigglytuff",
+      "Pidgey",
+      "Pidgeotto"
+    ]
+  },
+  {
+    "pokemon": "Wigglytuff",
+    "similar": [
+      "Jigglypuff",
+      "Pidgey",
+      "Pidgeotto"
+    ]
+  },
+  {
+    "pokemon": "Zubat",
+    "similar": [
+      "Golbat",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Golbat",
+    "similar": [
+      "Zubat",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Oddish",
+    "similar": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Venusaur"
+    ]
+  },
+  {
+    "pokemon": "Gloom",
+    "similar": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Venusaur"
+    ]
+  },
+  {
+    "pokemon": "Vileplume",
+    "similar": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Venusaur"
+    ]
+  },
+  {
+    "pokemon": "Paras",
+    "similar": [
+      "Parasect",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Parasect",
+    "similar": [
+      "Paras",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Venonat",
+    "similar": [
+      "Weedle",
+      "Kakuna",
+      "Beedrill"
+    ]
+  },
+  {
+    "pokemon": "Venomoth",
+    "similar": [
+      "Weedle",
+      "Kakuna",
+      "Beedrill"
+    ]
+  },
+  {
+    "pokemon": "Diglett",
+    "similar": [
+      "Sandshrew",
+      "Sandslash",
+      "Dugtrio"
+    ]
+  },
+  {
+    "pokemon": "Dugtrio",
+    "similar": [
+      "Sandshrew",
+      "Sandslash",
+      "Diglett"
+    ]
+  },
+  {
+    "pokemon": "Meowth",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Persian"
+    ]
+  },
+  {
+    "pokemon": "Persian",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Psyduck",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Golduck",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Mankey",
+    "similar": [
+      "Primeape",
+      "Machop",
+      "Machoke"
+    ]
+  },
+  {
+    "pokemon": "Primeape",
+    "similar": [
+      "Mankey",
+      "Machop",
+      "Machoke"
+    ]
+  },
+  {
+    "pokemon": "Growlithe",
+    "similar": [
+      "Charmander",
+      "Charmeleon",
+      "Vulpix"
+    ]
+  },
+  {
+    "pokemon": "Arcanine",
+    "similar": [
+      "Charmander",
+      "Charmeleon",
+      "Vulpix"
+    ]
+  },
+  {
+    "pokemon": "Poliwag",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Poliwhirl",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Poliwrath",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Abra",
+    "similar": [
+      "Kadabra",
+      "Alakazam",
+      "Drowzee"
+    ]
+  },
+  {
+    "pokemon": "Kadabra",
+    "similar": [
+      "Abra",
+      "Alakazam",
+      "Drowzee"
+    ]
+  },
+  {
+    "pokemon": "Alakazam",
+    "similar": [
+      "Abra",
+      "Kadabra",
+      "Drowzee"
+    ]
+  },
+  {
+    "pokemon": "Machop",
+    "similar": [
+      "Mankey",
+      "Primeape",
+      "Machoke"
+    ]
+  },
+  {
+    "pokemon": "Machoke",
+    "similar": [
+      "Mankey",
+      "Primeape",
+      "Machop"
+    ]
+  },
+  {
+    "pokemon": "Machamp",
+    "similar": [
+      "Mankey",
+      "Primeape",
+      "Machop"
+    ]
+  },
+  {
+    "pokemon": "Bellsprout",
+    "similar": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Venusaur"
+    ]
+  },
+  {
+    "pokemon": "Weepinbell",
+    "similar": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Venusaur"
+    ]
+  },
+  {
+    "pokemon": "Victreebel",
+    "similar": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Venusaur"
+    ]
+  },
+  {
+    "pokemon": "Tentacool",
+    "similar": [
+      "Tentacruel",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Tentacruel",
+    "similar": [
+      "Tentacool",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Geodude",
+    "similar": [
+      "Graveler",
+      "Golem",
+      "Onix"
+    ]
+  },
+  {
+    "pokemon": "Graveler",
+    "similar": [
+      "Geodude",
+      "Golem",
+      "Onix"
+    ]
+  },
+  {
+    "pokemon": "Golem",
+    "similar": [
+      "Geodude",
+      "Graveler",
+      "Onix"
+    ]
+  },
+  {
+    "pokemon": "Ponyta",
+    "similar": [
+      "Charmander",
+      "Charmeleon",
+      "Vulpix"
+    ]
+  },
+  {
+    "pokemon": "Rapidash",
+    "similar": [
+      "Charmander",
+      "Charmeleon",
+      "Vulpix"
+    ]
+  },
+  {
+    "pokemon": "Slowpoke",
+    "similar": [
+      "Slowbro",
+      "Starmie",
+      "Squirtle"
+    ]
+  },
+  {
+    "pokemon": "Slowbro",
+    "similar": [
+      "Slowpoke",
+      "Starmie",
+      "Squirtle"
+    ]
+  },
+  {
+    "pokemon": "Magnemite",
+    "similar": [
+      "Magneton",
+      "Pikachu",
+      "Raichu"
+    ]
+  },
+  {
+    "pokemon": "Magneton",
+    "similar": [
+      "Magnemite",
+      "Pikachu",
+      "Raichu"
+    ]
+  },
+  {
+    "pokemon": "Farfetchd",
+    "similar": [
+      "Pidgey",
+      "Pidgeotto",
+      "Pidgeot"
+    ]
+  },
+  {
+    "pokemon": "Doduo",
+    "similar": [
+      "Pidgey",
+      "Pidgeotto",
+      "Pidgeot"
+    ]
+  },
+  {
+    "pokemon": "Dodrio",
+    "similar": [
+      "Pidgey",
+      "Pidgeotto",
+      "Pidgeot"
+    ]
+  },
+  {
+    "pokemon": "Seel",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Dewgong",
+    "similar": [
+      "Cloyster",
+      "Lapras",
+      "Squirtle"
+    ]
+  },
+  {
+    "pokemon": "Grimer",
+    "similar": [
+      "Ekans",
+      "Arbok",
+      "Nidoran-f"
+    ]
+  },
+  {
+    "pokemon": "Muk",
+    "similar": [
+      "Ekans",
+      "Arbok",
+      "Nidoran-f"
+    ]
+  },
+  {
+    "pokemon": "Shellder",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Cloyster",
+    "similar": [
+      "Dewgong",
+      "Lapras",
+      "Squirtle"
+    ]
+  },
+  {
+    "pokemon": "Gastly",
+    "similar": [
+      "Haunter",
+      "Gengar",
+      "Bulbasaur"
+    ]
+  },
+  {
+    "pokemon": "Haunter",
+    "similar": [
+      "Gastly",
+      "Gengar",
+      "Bulbasaur"
+    ]
+  },
+  {
+    "pokemon": "Gengar",
+    "similar": [
+      "Gastly",
+      "Haunter",
+      "Bulbasaur"
+    ]
+  },
+  {
+    "pokemon": "Onix",
+    "similar": [
+      "Geodude",
+      "Graveler",
+      "Golem"
+    ]
+  },
+  {
+    "pokemon": "Drowzee",
+    "similar": [
+      "Abra",
+      "Kadabra",
+      "Alakazam"
+    ]
+  },
+  {
+    "pokemon": "Hypno",
+    "similar": [
+      "Abra",
+      "Kadabra",
+      "Alakazam"
+    ]
+  },
+  {
+    "pokemon": "Krabby",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Kingler",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Voltorb",
+    "similar": [
+      "Pikachu",
+      "Raichu",
+      "Electrode"
+    ]
+  },
+  {
+    "pokemon": "Electrode",
+    "similar": [
+      "Pikachu",
+      "Raichu",
+      "Voltorb"
+    ]
+  },
+  {
+    "pokemon": "Exeggcute",
+    "similar": [
+      "Exeggutor",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Exeggutor",
+    "similar": [
+      "Exeggcute",
+      "Bulbasaur",
+      "Ivysaur"
+    ]
+  },
+  {
+    "pokemon": "Cubone",
+    "similar": [
+      "Sandshrew",
+      "Sandslash",
+      "Diglett"
+    ]
+  },
+  {
+    "pokemon": "Marowak",
+    "similar": [
+      "Sandshrew",
+      "Sandslash",
+      "Diglett"
+    ]
+  },
+  {
+    "pokemon": "Hitmonlee",
+    "similar": [
+      "Mankey",
+      "Primeape",
+      "Machop"
+    ]
+  },
+  {
+    "pokemon": "Hitmonchan",
+    "similar": [
+      "Mankey",
+      "Primeape",
+      "Machop"
+    ]
+  },
+  {
+    "pokemon": "Lickitung",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Koffing",
+    "similar": [
+      "Ekans",
+      "Arbok",
+      "Nidoran-f"
+    ]
+  },
+  {
+    "pokemon": "Weezing",
+    "similar": [
+      "Ekans",
+      "Arbok",
+      "Nidoran-f"
+    ]
+  },
+  {
+    "pokemon": "Rhyhorn",
+    "similar": [
+      "Geodude",
+      "Graveler",
+      "Golem"
+    ]
+  },
+  {
+    "pokemon": "Rhydon",
+    "similar": [
+      "Geodude",
+      "Graveler",
+      "Golem"
+    ]
+  },
+  {
+    "pokemon": "Chansey",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Tangela",
+    "similar": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Venusaur"
+    ]
+  },
+  {
+    "pokemon": "Kangaskhan",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Horsea",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Seadra",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Goldeen",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Seaking",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Staryu",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Starmie",
+    "similar": [
+      "Slowpoke",
+      "Slowbro",
+      "Squirtle"
+    ]
+  },
+  {
+    "pokemon": "Mr-mime",
+    "similar": [
+      "Clefairy",
+      "Clefable",
+      "Jigglypuff"
+    ]
+  },
+  {
+    "pokemon": "Scyther",
+    "similar": [
+      "Butterfree",
+      "Charizard",
+      "Caterpie"
+    ]
+  },
+  {
+    "pokemon": "Jynx",
+    "similar": [
+      "Abra",
+      "Kadabra",
+      "Alakazam"
+    ]
+  },
+  {
+    "pokemon": "Electabuzz",
+    "similar": [
+      "Pikachu",
+      "Raichu",
+      "Voltorb"
+    ]
+  },
+  {
+    "pokemon": "Magmar",
+    "similar": [
+      "Charmander",
+      "Charmeleon",
+      "Vulpix"
+    ]
+  },
+  {
+    "pokemon": "Pinsir",
+    "similar": [
+      "Caterpie",
+      "Metapod",
+      "Butterfree"
+    ]
+  },
+  {
+    "pokemon": "Tauros",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Magikarp",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Gyarados",
+    "similar": [
+      "Charizard",
+      "Squirtle",
+      "Wartortle"
+    ]
+  },
+  {
+    "pokemon": "Lapras",
+    "similar": [
+      "Dewgong",
+      "Cloyster",
+      "Squirtle"
+    ]
+  },
+  {
+    "pokemon": "Ditto",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Eevee",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Vaporeon",
+    "similar": [
+      "Squirtle",
+      "Wartortle",
+      "Blastoise"
+    ]
+  },
+  {
+    "pokemon": "Jolteon",
+    "similar": [
+      "Pikachu",
+      "Raichu",
+      "Voltorb"
+    ]
+  },
+  {
+    "pokemon": "Flareon",
+    "similar": [
+      "Charmander",
+      "Charmeleon",
+      "Vulpix"
+    ]
+  },
+  {
+    "pokemon": "Porygon",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Omanyte",
+    "similar": [
+      "Omastar",
+      "Kabuto",
+      "Kabutops"
+    ]
+  },
+  {
+    "pokemon": "Omastar",
+    "similar": [
+      "Omanyte",
+      "Kabuto",
+      "Kabutops"
+    ]
+  },
+  {
+    "pokemon": "Kabuto",
+    "similar": [
+      "Omanyte",
+      "Omastar",
+      "Kabutops"
+    ]
+  },
+  {
+    "pokemon": "Kabutops",
+    "similar": [
+      "Omanyte",
+      "Omastar",
+      "Kabuto"
+    ]
+  },
+  {
+    "pokemon": "Aerodactyl",
+    "similar": [
+      "Charizard",
+      "Butterfree",
+      "Pidgey"
+    ]
+  },
+  {
+    "pokemon": "Snorlax",
+    "similar": [
+      "Rattata",
+      "Raticate",
+      "Meowth"
+    ]
+  },
+  {
+    "pokemon": "Articuno",
+    "similar": [
+      "Charizard",
+      "Butterfree",
+      "Pidgey"
+    ]
+  },
+  {
+    "pokemon": "Zapdos",
+    "similar": [
+      "Charizard",
+      "Butterfree",
+      "Pidgey"
+    ]
+  },
+  {
+    "pokemon": "Moltres",
+    "similar": [
+      "Charizard",
+      "Charmander",
+      "Charmeleon"
+    ]
+  },
+  {
+    "pokemon": "Dratini",
+    "similar": [
+      "Dragonair",
+      "Dragonite",
+      "Bulbasaur"
+    ]
+  },
+  {
+    "pokemon": "Dragonair",
+    "similar": [
+      "Dratini",
+      "Dragonite",
+      "Bulbasaur"
+    ]
+  },
+  {
+    "pokemon": "Dragonite",
+    "similar": [
+      "Charizard",
+      "Butterfree",
+      "Pidgey"
+    ]
+  },
+  {
+    "pokemon": "Mewtwo",
+    "similar": [
+      "Abra",
+      "Kadabra",
+      "Alakazam"
+    ]
+  },
+  {
+    "pokemon": "Mew",
+    "similar": [
+      "Abra",
+      "Kadabra",
+      "Alakazam"
+    ]
+  }
+]

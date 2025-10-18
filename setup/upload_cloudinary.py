@@ -176,6 +176,32 @@ def save_report(data: List[dict], output_name: str) -> None:
     print(f"💾 Relatório salvo em: {output_file.resolve()}")
 
 
+def generate_chatgpt_prompt(data: List[dict], folder_name: str) -> str:
+    """Gera o texto para copiar e colar no ChatGPT."""
+    
+    if not data:
+        return ""
+    
+    # Extrair nomes dos arquivos (sem extensão)
+    item_names = []
+    for item in data:
+        filename = item.get('filename', '')
+        # Remover extensão
+        name = Path(filename).stem
+        item_names.append(name)
+    
+    # Gerar o texto
+    prompt = f"""* Crie uma lista de similaridade para todos esses itens:
+
+me retorne um json nessa estrutura 
+{{ {{item}}:[similar1, similar2, similar3] }} 
+
+faça 1 desse para cada item desta lista: 
+{json.dumps(item_names, indent=2, ensure_ascii=False)}"""
+    
+    return prompt
+
+
 def main() -> None:
     print("=" * 70)
     print("☁️  UPLOAD DE IMAGENS PARA O CLOUDINARY")
@@ -235,6 +261,16 @@ def main() -> None:
     print(f"❌ Falhas: {len(image_files) - len(uploaded)}")
 
     save_report(uploaded, local_folder.name)
+    
+    # Gerar prompt para ChatGPT
+    if uploaded:
+        print("\n" + "=" * 70)
+        print("🤖 TEXTO PARA COPIAR NO CHATGPT")
+        print("=" * 70)
+        chatgpt_prompt = generate_chatgpt_prompt(uploaded, local_folder.name)
+        print(chatgpt_prompt)
+        print("=" * 70)
+        print("📋 Copie o texto acima e cole no ChatGPT para gerar similaridades!")
 
 
 if __name__ == "__main__":

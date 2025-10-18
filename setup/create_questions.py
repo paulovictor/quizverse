@@ -90,6 +90,31 @@ def list_available_json_files():
     return sorted(json_files)
 
 
+def list_available_similarity_files():
+    """Lista todos os arquivos de similaridade disponíveis na pasta similarities"""
+    similarities_dir = Path(project_root) / 'setup' / 'similarities'
+    
+    if not similarities_dir.exists():
+        print(f"❌ Erro: Pasta {similarities_dir} não encontrada!")
+        return []
+    
+    json_files = list(similarities_dir.glob("*.json"))
+    return sorted(json_files)
+
+
+def load_similarity_file(filename):
+    """Carrega arquivo de similaridades"""
+    similarity_file = Path(project_root) / 'setup' / 'similarities' / f"{filename}.json"
+    
+    if not similarity_file.exists():
+        print(f"❌ Erro: Arquivo {filename}.json não encontrado em {similarity_file}")
+        return None
+    
+    with open(similarity_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        return data
+
+
 def load_cloudinary_urls(filename):
     """Carrega as URLs do Cloudinary do arquivo JSON"""
     cloudinary_file = Path(project_root) / 'setup' / 'cloudinary_urls' / f"{filename}.json"
@@ -103,13 +128,34 @@ def load_cloudinary_urls(filename):
         return data
 
 
-def get_similar_items(target_item, all_items, count=3, name_field='display_name'):
+def get_similar_items(target_item, all_items, count=3, name_field='display_name', similarity_data=None):
     """
     Retorna itens similares ao alvo para usar como alternativas incorretas.
+    Se similarity_data for fornecido, usa as similaridades do arquivo.
+    Caso contrário, usa regras próprias.
     """
-    similar = []
     target_name = target_item.get(name_field, '').lower()
-
+    
+    # Se temos dados de similaridade, usar eles
+    if similarity_data:
+        # Procurar o item nas similaridades
+        for item_name, similar_names in similarity_data.items():
+            if item_name.lower() == target_name:
+                # Encontrar os itens similares na lista de todos os itens
+                similar_items = []
+                for similar_name in similar_names:
+                    for item in all_items:
+                        if item.get(name_field, '').lower() == similar_name.lower():
+                            similar_items.append(item)
+                            break
+                
+                if similar_items:
+                    return similar_items[:count]
+                break
+    
+    # Fallback: usar regras próprias
+    similar = []
+    
     # 1. Itens com nomes similares (contém parte do nome)
     partial_matches = [
         item for item in all_items
@@ -205,6 +251,60 @@ def get_user_input():
 
     print()
 
+    # Escolher arquivo de similaridades
+    print("3️⃣ Escolha o arquivo de similaridades (ou 0 para usar regras próprias)")
+    print()
+    
+    similarity_files = list_available_similarity_files()
+    
+    print("📋 Arquivos de similaridade disponíveis:")
+    print()
+    print("   0. Usar regras próprias (sem arquivo de similaridade)")
+    
+    if similarity_files:
+        for i, similarity_file in enumerate(similarity_files, 1):
+            filename = similarity_file.stem  # Nome sem extensão
+            print(f"   {i:2d}. {filename}")
+    else:
+        print("   ⚠️  Nenhum arquivo de similaridade encontrado")
+    
+    print()
+    print("💡 Dica: Escolha o número do arquivo ou 0 para regras próprias")
+    print()
+    
+    # Escolher arquivo por número
+    similarity_filename = None
+    while True:
+        try:
+            choice = input(f"   Número do arquivo (0-{len(similarity_files)}): ").strip()
+            
+            if not choice:
+                print("❌ Número não pode ser vazio!")
+                continue
+
+            choice_num = int(choice)
+            
+            if choice_num == 0:
+                print("✅ Usando regras próprias para similaridades")
+                break
+            elif choice_num < 1 or choice_num > len(similarity_files):
+                print(f"❌ Número deve estar entre 0 e {len(similarity_files)}!")
+                print()
+                continue
+
+            # Número válido, obter o arquivo
+            selected_file = similarity_files[choice_num - 1]
+            similarity_filename = selected_file.stem
+            print(f"✅ Arquivo de similaridade selecionado: {similarity_filename}")
+            break
+
+        except ValueError:
+            print("❌ Digite um número válido!")
+            print()
+            continue
+
+    print()
+
     # Campo de nome fixo
     name_field = "display_name"
 
@@ -254,13 +354,14 @@ def get_user_input():
     return {
         'quiz_slug_pt': quiz_slug_pt,
         'json_filename': json_filename,
+        'similarity_filename': similarity_filename,
         'name_field': name_field,
         'question_text_pt': question_text_pt,
         'translations': translations,
     }
 
 
-def create_questions(config, quizzes, cloudinary_data):
+def create_questions(config, quizzes, cloudinary_data, similarity_data=None):
     """
     Cria as questões em todos os países
     """
@@ -326,7 +427,7 @@ def create_questions(config, quizzes, cloudinary_data):
             )
 
             # Gerar alternativas similares
-            similar_items = get_similar_items(item, items_list, count=3, name_field=config['name_field'])
+            similar_items = get_similar_items(item, items_list, count=3, name_field=config['name_field'], similarity_data=similarity_data)
 
             # Criar respostas
             answers_data = [{'text': item_name, 'is_correct': True}]
@@ -503,6 +604,20 @@ def main():
         print("❌ Erro: Não foi possível carregar os dados")
         sys.exit(1)
 
+    # Carregar dados de similaridade se especificado
+    similarity_data = None
+    if config['similarity_filename']:
+        print(f"📂 Carregando similaridades de {config['similarity_filename']}.json...")
+        similarity_data = load_similarity_file(config['similarity_filename'])
+        
+        if similarity_data is None:
+            print("❌ Erro: Não foi possível carregar as similaridades")
+            sys.exit(1)
+        else:
+            print(f"✅ Similaridades carregadas: {len(similarity_data)} itens")
+    else:
+        print("📂 Usando regras próprias para similaridades")
+
     # Converter para lista se necessário
     if isinstance(cloudinary_data, dict):
         items_count = len(cloudinary_data)
@@ -518,6 +633,7 @@ def main():
     print("=" * 80)
     print(f"Quiz: {config['quiz_slug_pt']}")
     print(f"Arquivo JSON: {config['json_filename']}.json")
+    print(f"Arquivo de similaridade: {config['similarity_filename'] or 'Regras próprias'}")
     print(f"Campo de nome: {config['name_field']}")
     print(f"Texto da pergunta: {config['question_text_pt']}")
     print(f"Número de questões: {items_count} (uma para cada item)")
@@ -533,7 +649,7 @@ def main():
     print()
 
     # Criar questões
-    total_quizzes = create_questions(config, quizzes, cloudinary_data)
+    total_quizzes = create_questions(config, quizzes, cloudinary_data, similarity_data)
 
     # Exportar fixtures
     export_question_fixtures(config, quizzes)
