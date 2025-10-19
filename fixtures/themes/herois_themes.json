@@ -1,249 +1,249 @@
 [
 {
   "model": "quizzes.theme",
-  "pk": "dota",
+  "pk": "herois",
   "fields": {
-    "title": "Dota",
-    "description": "Mostre que você é um verdadeiro mestre do Dota!",
+    "title": "Heróis",
+    "description": "Você consegue reconhecer todos os heróis de Dota?",
     "icon": "",
     "country": "pt-BR",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "jogos",
+    "parent": "dota",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.657Z",
-    "updated_at": "2025-10-19T21:58:16.657Z"
+    "created_at": "2025-10-19T21:58:58.569Z",
+    "updated_at": "2025-10-19T21:58:58.569Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-ar",
+  "pk": "herois-ar",
   "fields": {
-    "title": "Dota",
-    "description": "¡Demuestra que eres un verdadero maestro de Dota!",
+    "title": "Héroes",
+    "description": "¿Puedes reconocer a todos los héroes de Dota?",
     "icon": "",
     "country": "es-AR",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "juegos-ar",
+    "parent": "dota-ar",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.661Z",
-    "updated_at": "2025-10-19T21:58:16.661Z"
+    "created_at": "2025-10-19T21:58:58.573Z",
+    "updated_at": "2025-10-19T21:58:58.573Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-au",
+  "pk": "herois-au",
   "fields": {
-    "title": "Dota",
-    "description": "Show that you’re a true Dota master!",
+    "title": "Heroes",
+    "description": "Can you recognize all the Dota heroes?",
     "icon": "",
     "country": "en-AU",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "games-au",
+    "parent": "dota-au",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.655Z",
-    "updated_at": "2025-10-19T21:58:16.655Z"
+    "created_at": "2025-10-19T21:58:58.567Z",
+    "updated_at": "2025-10-19T21:58:58.567Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-ca",
+  "pk": "herois-ca",
   "fields": {
-    "title": "Dota",
-    "description": "Show that you’re a true Dota master!",
+    "title": "Heroes",
+    "description": "Can you recognize all the Dota heroes?",
     "icon": "",
     "country": "en-CA",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "games-ca",
+    "parent": "dota-ca",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.650Z",
-    "updated_at": "2025-10-19T21:58:16.650Z"
+    "created_at": "2025-10-19T21:58:58.562Z",
+    "updated_at": "2025-10-19T21:58:58.562Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-co",
+  "pk": "herois-co",
   "fields": {
-    "title": "Dota",
-    "description": "¡Demuestra que eres un verdadero maestro de Dota!",
+    "title": "Héroes",
+    "description": "¿Puedes reconocer a todos los héroes de Dota?",
     "icon": "",
     "country": "es-CO",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "juegos-co",
+    "parent": "dota-co",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.662Z",
-    "updated_at": "2025-10-19T21:58:16.662Z"
+    "created_at": "2025-10-19T21:58:58.573Z",
+    "updated_at": "2025-10-19T21:58:58.573Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-es",
+  "pk": "herois-es",
   "fields": {
-    "title": "Dota",
-    "description": "¡Demuestra que eres un verdadero maestro de Dota!",
+    "title": "Héroes",
+    "description": "¿Puedes reconocer a todos los héroes de Dota?",
     "icon": "",
     "country": "es-ES",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "juegos-es",
+    "parent": "dota-es",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.660Z",
-    "updated_at": "2025-10-19T21:58:16.660Z"
+    "created_at": "2025-10-19T21:58:58.572Z",
+    "updated_at": "2025-10-19T21:58:58.572Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-gb",
+  "pk": "herois-gb",
   "fields": {
-    "title": "Dota",
-    "description": "Show that you’re a true Dota master!",
+    "title": "Heroes",
+    "description": "Can you recognize all the Dota heroes?",
     "icon": "",
     "country": "en-GB",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "games-gb",
+    "parent": "dota-gb",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.651Z",
-    "updated_at": "2025-10-19T21:58:16.651Z"
+    "created_at": "2025-10-19T21:58:58.563Z",
+    "updated_at": "2025-10-19T21:58:58.563Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-in",
+  "pk": "herois-in",
   "fields": {
-    "title": "Dota",
-    "description": "Show that you’re a true Dota master!",
+    "title": "Heroes",
+    "description": "Can you recognize all the Dota heroes?",
     "icon": "",
     "country": "en-IN",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "games-in",
+    "parent": "dota-in",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.652Z",
-    "updated_at": "2025-10-19T21:58:16.652Z"
+    "created_at": "2025-10-19T21:58:58.565Z",
+    "updated_at": "2025-10-19T21:58:58.565Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-mx",
+  "pk": "herois-mx",
   "fields": {
-    "title": "Dota",
-    "description": "¡Demuestra que eres un verdadero maestro de Dota!",
+    "title": "Héroes",
+    "description": "¿Puedes reconocer a todos los héroes de Dota?",
     "icon": "",
     "country": "es-MX",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "juegos-mx",
+    "parent": "dota-mx",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.659Z",
-    "updated_at": "2025-10-19T21:58:16.659Z"
+    "created_at": "2025-10-19T21:58:58.571Z",
+    "updated_at": "2025-10-19T21:58:58.571Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-nz",
+  "pk": "herois-nz",
   "fields": {
-    "title": "Dota",
-    "description": "Show that you’re a true Dota master!",
+    "title": "Heroes",
+    "description": "Can you recognize all the Dota heroes?",
     "icon": "",
     "country": "en-NZ",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "games-nz",
+    "parent": "dota-nz",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.656Z",
-    "updated_at": "2025-10-19T21:58:16.656Z"
+    "created_at": "2025-10-19T21:58:58.568Z",
+    "updated_at": "2025-10-19T21:58:58.568Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-ph",
+  "pk": "herois-ph",
   "fields": {
-    "title": "Dota",
-    "description": "Show that you’re a true Dota master!",
+    "title": "Heroes",
+    "description": "Can you recognize all the Dota heroes?",
     "icon": "",
     "country": "en-PH",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "games-ph",
+    "parent": "dota-ph",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.654Z",
-    "updated_at": "2025-10-19T21:58:16.654Z"
+    "created_at": "2025-10-19T21:58:58.566Z",
+    "updated_at": "2025-10-19T21:58:58.566Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-pt",
+  "pk": "herois-pt",
   "fields": {
-    "title": "Dota",
-    "description": "Mostre que você é um verdadeiro mestre do Dota!",
+    "title": "Heróis",
+    "description": "Você consegue reconhecer todos os heróis de Dota?",
     "icon": "",
     "country": "pt-PT",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "jogos-pt",
+    "parent": "dota-pt",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.658Z",
-    "updated_at": "2025-10-19T21:58:16.658Z"
+    "created_at": "2025-10-19T21:58:58.570Z",
+    "updated_at": "2025-10-19T21:58:58.570Z"
   }
 },
 {
   "model": "quizzes.theme",
-  "pk": "dota-us",
+  "pk": "herois-us",
   "fields": {
-    "title": "Dota",
-    "description": "Show that you’re a true Dota master!",
+    "title": "Heroes",
+    "description": "Can you recognize all the Dota heroes?",
     "icon": "",
     "country": "en-US",
     "primary_color": "#ffcb05",
     "secondary_color": "#3d7dca",
-    "parent": "games-us",
+    "parent": "dota-us",
     "order": 1,
     "active": false,
     "card_background_image": null,
     "card_background_color": null,
-    "created_at": "2025-10-19T21:58:16.646Z",
-    "updated_at": "2025-10-19T21:58:16.647Z"
+    "created_at": "2025-10-19T21:58:58.558Z",
+    "updated_at": "2025-10-19T21:58:58.559Z"
   }
 }
 ]

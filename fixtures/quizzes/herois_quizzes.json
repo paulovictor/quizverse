@@ -1,0 +1,236 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "herois",
+  "fields": {
+    "theme": "herois",
+    "quiz_group": "herois",
+    "title": "Acerte os Heróis",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.378Z",
+    "updated_at": "2025-10-19T22:04:58.378Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-ar",
+  "fields": {
+    "theme": "herois-ar",
+    "quiz_group": "herois",
+    "title": "Acierta los Héroes",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.383Z",
+    "updated_at": "2025-10-19T22:04:58.383Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-au",
+  "fields": {
+    "theme": "herois-au",
+    "quiz_group": "herois",
+    "title": "Guess the Heroes",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.374Z",
+    "updated_at": "2025-10-19T22:04:58.374Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-ca",
+  "fields": {
+    "theme": "herois-ca",
+    "quiz_group": "herois",
+    "title": "Guess the Heroes",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.368Z",
+    "updated_at": "2025-10-19T22:04:58.368Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-co",
+  "fields": {
+    "theme": "herois-co",
+    "quiz_group": "herois",
+    "title": "Acierta los Héroes",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.384Z",
+    "updated_at": "2025-10-19T22:04:58.384Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-es",
+  "fields": {
+    "theme": "herois-es",
+    "quiz_group": "herois",
+    "title": "Acierta los Héroes",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.382Z",
+    "updated_at": "2025-10-19T22:04:58.382Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-gb",
+  "fields": {
+    "theme": "herois-gb",
+    "quiz_group": "herois",
+    "title": "Guess the Heroes",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.370Z",
+    "updated_at": "2025-10-19T22:04:58.370Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-in",
+  "fields": {
+    "theme": "herois-in",
+    "quiz_group": "herois",
+    "title": "Guess the Heroes",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.371Z",
+    "updated_at": "2025-10-19T22:04:58.371Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-mx",
+  "fields": {
+    "theme": "herois-mx",
+    "quiz_group": "herois",
+    "title": "Acierta los Héroes",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.380Z",
+    "updated_at": "2025-10-19T22:04:58.380Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-nz",
+  "fields": {
+    "theme": "herois-nz",
+    "quiz_group": "herois",
+    "title": "Guess the Heroes",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.376Z",
+    "updated_at": "2025-10-19T22:04:58.376Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-ph",
+  "fields": {
+    "theme": "herois-ph",
+    "quiz_group": "herois",
+    "title": "Guess the Heroes",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.372Z",
+    "updated_at": "2025-10-19T22:04:58.372Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-pt",
+  "fields": {
+    "theme": "herois-pt",
+    "quiz_group": "herois",
+    "title": "Acerte os Heróis",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.379Z",
+    "updated_at": "2025-10-19T22:04:58.379Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "herois-us",
+  "fields": {
+    "theme": "herois-us",
+    "quiz_group": "herois",
+    "title": "Guess the Heroes",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-19T22:04:58.366Z",
+    "updated_at": "2025-10-19T22:04:58.366Z"
+  }
+}
+]
