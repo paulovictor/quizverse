@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "tibia",
+  "fields": {
+    "title": "Tibia",
+    "description": "Teste seu conhecimento em Tibia!",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "jogos",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.095Z",
+    "updated_at": "2025-10-19T18:17:51.095Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-ar",
+  "fields": {
+    "title": "Tibia",
+    "description": "¡Pon a prueba tu conocimiento en Tibia!",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-ar",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.100Z",
+    "updated_at": "2025-10-19T18:17:51.100Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-au",
+  "fields": {
+    "title": "Tibia",
+    "description": "Test your knowledge in Tibia!",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-au",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.091Z",
+    "updated_at": "2025-10-19T18:17:51.091Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-ca",
+  "fields": {
+    "title": "Tibia",
+    "description": "Test your knowledge in Tibia!",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-ca",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.084Z",
+    "updated_at": "2025-10-19T18:17:51.084Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-co",
+  "fields": {
+    "title": "Tibia",
+    "description": "¡Pon a prueba tu conocimiento en Tibia!",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-co",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.101Z",
+    "updated_at": "2025-10-19T18:17:51.101Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-es",
+  "fields": {
+    "title": "Tibia",
+    "description": "¡Pon a prueba tu conocimiento en Tibia!",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-es",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.098Z",
+    "updated_at": "2025-10-19T18:17:51.098Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-gb",
+  "fields": {
+    "title": "Tibia",
+    "description": "Test your knowledge in Tibia!",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-gb",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.086Z",
+    "updated_at": "2025-10-19T18:17:51.087Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-in",
+  "fields": {
+    "title": "Tibia",
+    "description": "Test your knowledge in Tibia!",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-in",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.088Z",
+    "updated_at": "2025-10-19T18:17:51.088Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-mx",
+  "fields": {
+    "title": "Tibia",
+    "description": "¡Pon a prueba tu conocimiento en Tibia!",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-mx",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.097Z",
+    "updated_at": "2025-10-19T18:17:51.097Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-nz",
+  "fields": {
+    "title": "Tibia",
+    "description": "Test your knowledge in Tibia!",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-nz",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.093Z",
+    "updated_at": "2025-10-19T18:17:51.093Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-ph",
+  "fields": {
+    "title": "Tibia",
+    "description": "Test your knowledge in Tibia!",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-ph",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.090Z",
+    "updated_at": "2025-10-19T18:17:51.090Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-pt",
+  "fields": {
+    "title": "Tibia",
+    "description": "Teste seu conhecimento em Tibia!",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "jogos-pt",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.096Z",
+    "updated_at": "2025-10-19T18:17:51.096Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "tibia-us",
+  "fields": {
+    "title": "Tibia",
+    "description": "Test your knowledge in Tibia!",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-us",
+    "order": 8,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:17:51.080Z",
+    "updated_at": "2025-10-19T18:17:51.081Z"
+  }
+}
+]

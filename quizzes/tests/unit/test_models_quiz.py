@@ -21,7 +21,7 @@ class QuizGroupModelTest(TestCase):
 
     def test_quiz_group_creation(self):
         """Testa criação básica de um grupo de quiz"""
-        self.assertIsNotNone(self.quiz_group.id)
+        self.assertIsNotNone(self.quiz_group.slug)
         self.assertEqual(self.quiz_group.name, "Test Group")
         self.assertEqual(self.quiz_group.difficulty, 'medium')
 
@@ -56,7 +56,7 @@ class QuizGroupModelTest(TestCase):
 
         # Filtrar apenas os grupos criados neste teste
         groups = list(QuizGroup.objects.filter(
-            id__in=[group1.id, group2.id]
+            slug__in=[group1.slug, group2.slug]
         ).order_by('order', 'name'))
         self.assertEqual(len(groups), 2)
         self.assertEqual(groups[0], group2)  # order=1

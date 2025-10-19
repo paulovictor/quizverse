@@ -274,7 +274,7 @@ def theme_detail(request, theme_slug):
             quiz_data['total_badges'] = available_badges.count()
 
             for group_badge in available_badges:
-                is_earned = group_badge.badge.id in user_earned_badges
+                is_earned = group_badge.badge.pk in user_earned_badges
                 if is_earned:
                     quiz_data['earned_count'] += 1
                 quiz_data['earned_badges'].append({

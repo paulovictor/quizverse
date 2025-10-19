@@ -38,6 +38,14 @@ COUNTRY_TO_LANG = {
     'es-MX': 'es', 'es-ES': 'es', 'es-AR': 'es', 'es-CO': 'es'
 }
 
+
+def derive_slug_for_country(base_slug, country_code):
+    if country_code == 'pt-BR':
+        return base_slug
+
+    suffix = country_code.split('-')[1].lower()
+    return f"{base_slug}-{suffix}"
+
 # ============================================================================
 # DICIONÁRIO DE REFERÊNCIA DOS TEMAS ROOT
 # ============================================================================
@@ -232,7 +240,11 @@ ROOT_THEMES_REFERENCE = {
 # FUNÇÕES AUXILIARES
 # ============================================================================
 
-def find_parent_themes(parent_slug_pt):
+def derive_manual_parent_slug(base_slug, country_code):
+    return derive_slug_for_country(base_slug, country_code)
+
+
+def find_parent_themes(parent_slug_pt, manual_parent=False):
     """
     Encontra os slugs dos temas pai em todos os países baseado no slug PT-BR
     usando o dicionário de referência
@@ -262,18 +274,29 @@ def find_parent_themes(parent_slug_pt):
         if country_code == 'pt-BR':
             continue
 
+        if manual_parent:
+            derived_slug = derive_slug_for_country(parent_slug_pt, country_code)
+            try:
+                parent_theme = Theme.objects.get(slug=derived_slug, country=country_code)
+                parent_themes[country_code] = parent_theme.slug
+                print(f"✅ Tema pai encontrado para {country_code}: {derived_slug}")
+            except Theme.DoesNotExist:
+                print(f"⚠️  Tema pai '{derived_slug}' não existe no banco para {country_code}")
+                parent_themes[country_code] = None
+            continue
+
         # Buscar no dicionário de referência
         country_themes = ROOT_THEMES_REFERENCE.get(country_code, {})
-        
+
         # Tentar encontrar o tema correspondente
         found_slug = None
-        
+
         # Primeiro, tentar encontrar por slug base (sem sufixo)
         for slug, title in country_themes.items():
             if slug.startswith(parent_slug_pt):
                 found_slug = slug
                 break
-        
+
         # Se não encontrou, tentar por mapeamento de categorias
         if not found_slug:
             # Mapeamento de categorias entre idiomas
@@ -291,7 +314,7 @@ def find_parent_themes(parent_slug_pt):
                 'geografia': ['geography', 'geografia'],
                 'politica': ['politics', 'politica']
             }
-            
+
             base_category = parent_slug_pt
             if base_category in category_mapping:
                 for variant in category_mapping[base_category]:
@@ -392,6 +415,9 @@ def get_user_input():
         theme_list.append(theme)
 
     print()
+    print("   0. Outro tema (informar slug manual)")
+
+    print()
     print("💡 Dica: Escolha o número do tema pai")
     print("   O script encontrará automaticamente os slugs correspondentes em outros países")
     print()
@@ -399,10 +425,12 @@ def get_user_input():
     print()
 
     # Escolher tema pai por número
-    print("1️⃣ Escolha o número do tema PAI (deve estar na lista acima)")
+    print("1️⃣ Escolha o número do tema PAI (deve estar na lista acima ou use 0 para informar manualmente)")
     print()
 
     # Validar que o número é válido
+    parent_slug_pt = None
+    selected_theme = None
     while True:
         try:
             choice = input(f"   Número do tema pai (1-{len(theme_list)}): ").strip()
@@ -410,6 +438,16 @@ def get_user_input():
             if not choice:
                 print("❌ Erro: Número não pode ser vazio!")
                 continue
+
+            if choice == '0':
+                manual_slug = input("   Digite o slug do tema pai (ex: meu-tema-raiz): ").strip()
+                if not manual_slug:
+                    print("❌ Erro: Slug do tema pai não pode ser vazio!")
+                    print()
+                    continue
+                parent_slug_pt = manual_slug
+                print(f"✅ Tema pai selecionado manualmente: {parent_slug_pt}")
+                break
 
             choice_num = int(choice)
             
@@ -460,19 +498,10 @@ def get_user_input():
     print()
 
     # Título (mesmo para todos os idiomas) e descrições traduzidas
-    print("5️⃣ Título e descrições do tema")
+    print("5️⃣ Títulos e descrições do tema por idioma")
     print()
-    
-    title = input("   Título (mesmo para todos os idiomas): ").strip()
-    
-    if not title:
-        print("❌ Erro: Título é obrigatório!")
-        sys.exit(1)
-    
-    # Pedir descrições traduzidas
-    print()
-    print("   📝 Descrições traduzidas:")
-    
+    # Pedir títulos e descrições traduzidos
+    translations = {}
     descriptions = {}
     main_languages = ['pt', 'en', 'es']
     lang_names = {
@@ -482,22 +511,28 @@ def get_user_input():
     }
     
     for lang_code in main_languages:
-        description = input(f"      {lang_names[lang_code]} ({lang_code}): ").strip()
-        if description:
-            descriptions[lang_code] = description
-    
-    if not descriptions:
-        print("❌ Erro: Pelo menos uma descrição é necessária!")
+        print(f"   {lang_names[lang_code]} ({lang_code}):")
+        while True:
+            title_input = input("      Título: ").strip()
+            description_input = input("      Descrição: ").strip()
+
+            if title_input and description_input:
+                translations[lang_code] = {
+                    'title': title_input,
+                    'description': description_input
+                }
+                descriptions[lang_code] = description_input
+                break
+
+            if not title_input and not description_input:
+                break
+
+            print("      ❌ Forneça título e descrição ou deixe ambos vazios.")
+            print()
+
+    if not translations:
+        print("❌ Erro: Pelo menos um idioma com título e descrição é necessário!")
         sys.exit(1)
-    
-    # Usar o mesmo título para todos, mas descrições traduzidas
-    translations = {}
-    for lang_code in main_languages:
-        if lang_code in descriptions:
-            translations[lang_code] = {
-                'title': title,
-                'description': descriptions[lang_code]
-            }
 
     # Ordem de exibição
     print("6️⃣ Ordem de exibição do tema (número inteiro, menor = primeiro)")
@@ -516,6 +551,7 @@ def get_user_input():
         },
         'translations': translations,
         'order': order,
+        'manual_parent': selected_theme is None,
     }
 
 
@@ -541,11 +577,7 @@ def create_themes(config, parent_themes):
             continue
 
         # Determinar slug do tema
-        if country_code == 'pt-BR':
-            theme_slug = config['theme_slug_base']
-        else:
-            country_suffix = country_code.split('-')[1].lower()
-            theme_slug = f"{config['theme_slug_base']}-{country_suffix}"
+        theme_slug = derive_slug_for_country(config['theme_slug_base'], country_code)
 
         # Buscar tema pai
         parent_slug = parent_themes.get(country_code)
@@ -622,11 +654,7 @@ def export_theme_fixtures(config):
         
         for country_code in COUNTRY_TO_LANG.keys():
             # Determinar slug do tema
-            if country_code == 'pt-BR':
-                theme_slug = config['theme_slug_base']
-            else:
-                country_suffix = country_code.split('-')[1].lower()
-                theme_slug = f"{config['theme_slug_base']}-{country_suffix}"
+            theme_slug = derive_slug_for_country(config['theme_slug_base'], country_code)
             
             try:
                 theme = Theme.objects.get(slug=theme_slug, country=country_code)
@@ -675,7 +703,7 @@ def main():
     print()
 
     # Encontrar temas pai em todos os países
-    parent_themes = find_parent_themes(config['parent_slug_pt'])
+    parent_themes = find_parent_themes(config['parent_slug_pt'], manual_parent=config.get('manual_parent', False))
 
     if parent_themes is None:
         print("❌ Erro: Não foi possível encontrar o tema pai")

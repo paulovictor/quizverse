@@ -180,6 +180,7 @@ def create_pokemon_badges():
 
     badges_data = [
         {
+            'slug': 'amber-pikachu',
             'title': '🟠 Amber Pikachu',
             'description': 'Acerte todos os Pokémons!',
             'description_translations': badge_descriptions['amber'],
@@ -191,6 +192,7 @@ def create_pokemon_badges():
             'order': 1,
         },
         {
+            'slug': 'ruby-pikachu',
             'title': '🔴 Ruby Pikachu',
             'description': 'Acerte todos os Pokémons em menos de 25 minutos!',
             'description_translations': badge_descriptions['ruby'],
@@ -202,6 +204,7 @@ def create_pokemon_badges():
             'order': 2,
         },
         {
+            'slug': 'emerald-pikachu',
             'title': '🟢 Emerald Pikachu',
             'description': 'Acerte todos os Pokémons em menos de 15 minutos!',
             'description_translations': badge_descriptions['emerald'],
@@ -213,6 +216,7 @@ def create_pokemon_badges():
             'order': 3,
         },
         {
+            'slug': 'sapphire-pikachu',
             'title': '🔵 Sapphire Pikachu',
             'description': 'Acerte todos os Pokémons em menos de 10 minutos!',
             'description_translations': badge_descriptions['sapphire'],
@@ -224,6 +228,7 @@ def create_pokemon_badges():
             'order': 4,
         },
         {
+            'slug': 'diamond-pikachu',
             'title': '💎 Diamond Pikachu',
             'description': 'Acerte todos os Pokémons em menos de 6 minutos!',
             'description_translations': badge_descriptions['diamond'],
@@ -243,8 +248,9 @@ def create_pokemon_badges():
     for badge_data in badges_data:
         # Criar ou atualizar badge
         badge, created = Badge.objects.update_or_create(
-            title=badge_data['title'],
+            slug=badge_data['slug'],
             defaults={
+                'title': badge_data['title'],
                 'description': badge_data['description'],
                 'description_translations': badge_data['description_translations'],
                 'image': badge_data['image'],

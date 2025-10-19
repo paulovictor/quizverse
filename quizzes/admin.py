@@ -316,7 +316,7 @@ class QuizGroupAdmin(admin.ModelAdmin):
         urls = super().get_urls()
         custom_urls = [
             path(
-                '<uuid:quiz_group_id>/clone/',
+                '<slug:quiz_group_slug>/clone/',
                 self.admin_site.admin_view(self.clone_quizgroup_view),
                 name='quizzes_quizgroup_clone',
             ),
@@ -334,13 +334,13 @@ class QuizGroupAdmin(admin.ModelAdmin):
             return
 
         quiz_group = queryset.first()
-        return redirect('admin:quizzes_quizgroup_clone', quiz_group_id=quiz_group.id)
+        return redirect('admin:quizzes_quizgroup_clone', quiz_group_slug=quiz_group.slug)
 
     clone_quizgroup_action.short_description = 'Clonar QuizGroup com novo sample size'
 
-    def clone_quizgroup_view(self, request, quiz_group_id):
+    def clone_quizgroup_view(self, request, quiz_group_slug):
         """View para mostrar formulário e processar clonagem"""
-        quiz_group = QuizGroup.objects.get(id=quiz_group_id)
+        quiz_group = QuizGroup.objects.get(slug=quiz_group_slug)
 
         if request.method == 'POST':
             form = CloneQuizGroupForm(request.POST)
@@ -359,7 +359,7 @@ class QuizGroupAdmin(admin.ModelAdmin):
                         f'QuizGroup "{new_group.name}" clonado com sucesso! {new_group.quizzes.count()} quizzes criados.',
                         level=messages.SUCCESS
                     )
-                    return redirect('admin:quizzes_quizgroup_change', new_group.id)
+                    return redirect('admin:quizzes_quizgroup_change', new_group.slug)
 
                 except Exception as e:
                     self.message_user(

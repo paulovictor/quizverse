@@ -306,7 +306,10 @@ class BadgeFactory(BaseFactory):
         if not title:
             title = f"Badge {uuid.uuid4().hex[:8]}"
 
+        slug = kwargs.pop('slug', None) or BadgeFactory.create_unique_slug("badge-")
+
         return Badge.objects.create(
+            slug=slug,
             title=title,
             description=kwargs.pop('description', f"Description for {title}"),
             image=kwargs.pop('image', "https://via.placeholder.com/150"),

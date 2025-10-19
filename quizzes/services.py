@@ -47,7 +47,7 @@ def check_and_award_badges(quiz_attempt):
     
     for badge in available_badges:
         # Já tem? Pula
-        if badge.id in existing_badge_ids:
+        if badge.pk in existing_badge_ids:
             continue
         
         # Verifica critérios

@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas",
+  "fields": {
+    "title": "Criaturas",
+    "description": "Você sabe o nome de todas as criaturas?",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.765Z",
+    "updated_at": "2025-10-19T18:41:20.765Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-ar",
+  "fields": {
+    "title": "Criaturas",
+    "description": "¡Reconoce las criaturas y demuestra tu conocimiento!",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.770Z",
+    "updated_at": "2025-10-19T18:41:20.770Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-au",
+  "fields": {
+    "title": "Monsters",
+    "description": "Recognize the creatures and prove your knowledge!",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.762Z",
+    "updated_at": "2025-10-19T18:41:20.762Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-ca",
+  "fields": {
+    "title": "Monsters",
+    "description": "Recognize the creatures and prove your knowledge!",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.756Z",
+    "updated_at": "2025-10-19T18:41:20.756Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-co",
+  "fields": {
+    "title": "Criaturas",
+    "description": "¡Reconoce las criaturas y demuestra tu conocimiento!",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.771Z",
+    "updated_at": "2025-10-19T18:41:20.771Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-es",
+  "fields": {
+    "title": "Criaturas",
+    "description": "¡Reconoce las criaturas y demuestra tu conocimiento!",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.769Z",
+    "updated_at": "2025-10-19T18:41:20.769Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-gb",
+  "fields": {
+    "title": "Monsters",
+    "description": "Recognize the creatures and prove your knowledge!",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.758Z",
+    "updated_at": "2025-10-19T18:41:20.758Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-in",
+  "fields": {
+    "title": "Monsters",
+    "description": "Recognize the creatures and prove your knowledge!",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.759Z",
+    "updated_at": "2025-10-19T18:41:20.759Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-mx",
+  "fields": {
+    "title": "Criaturas",
+    "description": "¡Reconoce las criaturas y demuestra tu conocimiento!",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.767Z",
+    "updated_at": "2025-10-19T18:41:20.767Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-nz",
+  "fields": {
+    "title": "Monsters",
+    "description": "Recognize the creatures and prove your knowledge!",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.763Z",
+    "updated_at": "2025-10-19T18:41:20.763Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-ph",
+  "fields": {
+    "title": "Monsters",
+    "description": "Recognize the creatures and prove your knowledge!",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.761Z",
+    "updated_at": "2025-10-19T18:41:20.761Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-pt",
+  "fields": {
+    "title": "Criaturas",
+    "description": "Você sabe o nome de todas as criaturas?",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.766Z",
+    "updated_at": "2025-10-19T18:41:20.766Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "criaturas-us",
+  "fields": {
+    "title": "Monsters",
+    "description": "Recognize the creatures and prove your knowledge!",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "tibia-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-19T18:41:20.752Z",
+    "updated_at": "2025-10-19T18:41:20.753Z"
+  }
+}
+]

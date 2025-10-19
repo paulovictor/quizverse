@@ -96,9 +96,8 @@ class QuizGroup(models.Model):
         ('hard', 'Difícil'),
     ]
 
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    slug = models.SlugField(max_length=255, primary_key=True)
     name = models.CharField(max_length=255, verbose_name='Nome do Grupo')
-    slug = models.SlugField(max_length=255, unique=True)
     description = models.TextField(blank=True, verbose_name='Descrição')
     difficulty = models.CharField(
         max_length=10,
@@ -138,6 +137,7 @@ class Quiz(models.Model):
         related_name='quizzes',
         null=True,
         blank=True,
+        to_field='slug',
         help_text='Grupo de quizzes equivalentes (ex: mesmo quiz em vários idiomas)'
     )
     title = models.CharField(max_length=255)
@@ -406,7 +406,7 @@ class Badge(models.Model):
         ('legendary', 'Lendária'),
     ]
     
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    slug = models.SlugField(max_length=255, primary_key=True)
     title = models.CharField(max_length=255, verbose_name='Título da Badge')
     description = models.TextField(verbose_name='Descrição (fallback)', blank=True)
     description_translations = models.JSONField(
@@ -482,12 +482,14 @@ class QuizGroupBadge(models.Model):
     quiz_group = models.ForeignKey(
         QuizGroup, 
         on_delete=models.CASCADE,
-        related_name='available_badges'
+        related_name='available_badges',
+        to_field='slug'
     )
     badge = models.ForeignKey(
         Badge, 
         on_delete=models.CASCADE, 
-        related_name='quiz_groups'
+        related_name='quiz_groups',
+        to_field='slug'
     )
     active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -514,12 +516,14 @@ class UserBadge(models.Model):
     badge = models.ForeignKey(
         Badge,
         on_delete=models.CASCADE,
-        related_name='user_achievements'
+        related_name='user_achievements',
+        to_field='slug'
     )
     quiz_group = models.ForeignKey(
         QuizGroup,
         on_delete=models.CASCADE,
-        related_name='user_achievements'
+        related_name='user_achievements',
+        to_field='slug'
     )
     
     # Onde foi conquistada
