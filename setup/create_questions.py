@@ -654,16 +654,6 @@ def main():
     # Exportar fixtures
     export_question_fixtures(config, quizzes)
 
-    # Resumo final
-    print("=" * 80)
-    print("📊 RESUMO FINAL")
-    print("=" * 80)
-    print(f"✅ Total de quizzes processados: {total_quizzes}")
-    print()
-    print("🎉 Questões criadas e fixtures exportadas com sucesso!")
-    print()
-
-
 if __name__ == '__main__':
     try:
         main()

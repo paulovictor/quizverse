@@ -165,7 +165,7 @@ class Quiz(models.Model):
         ordering = ['theme', 'order', 'title']
 
     def __str__(self):
-        return f"{self.theme.title} - {self.title}"
+        return f"{self.theme.title} - {self.title} ({self.country})"
 
     def get_absolute_url(self):
         return reverse('quizzes:quiz_detail', kwargs={

@@ -116,7 +116,7 @@ WSGI_APPLICATION = 'quiz.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000000
 DATABASES = {
     'default': dj_database_url.config(
         default=f'sqlite:///{BASE_DIR / "db.sqlite3"}',
