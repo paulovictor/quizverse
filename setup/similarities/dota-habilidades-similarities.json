@@ -1,0 +1,9228 @@
+{
+  "Spray Ácido": {
+    "portuguese": [
+      "Rajada De Espinhos"
+    ],
+    "english": [
+      "Quill Spray"
+    ],
+    "spanish": [
+      "Lluvia De Espinas"
+    ]
+  },
+  "Disparo De Bolota": {
+    "portuguese": [
+      "Disparo Contusivo",
+      "Rebatiro",
+      "Questão De Sorte"
+    ],
+    "english": [
+      "Concussive Shot",
+      "Dead Shot",
+      "Lucky Shot"
+    ],
+    "spanish": [
+      "Disparo Conmocionador",
+      "Disparo Mortal",
+      "Disparo Certero"
+    ]
+  },
+  "Ativar Resquício Flamejante": {
+    "portuguese": [
+      "Resquício Flamejante",
+      "Resquício Etéreo",
+      "Encantar Resquício"
+    ],
+    "english": [
+      "Fire Remnant",
+      "Aether Remnant",
+      "Enchant Remnant"
+    ],
+    "spanish": [
+      "Remanente De Fuego",
+      "Remanente Etéreo",
+      "Atracción Geomagnética"
+    ]
+  },
+  "Ataque Adaptável": {
+    "portuguese": [
+      "Troca De Atributo (+ Agilidade)",
+      "Golpe Sorrateiro",
+      "Pancada Ilimitada"
+    ],
+    "english": [
+      "Morph (agility Gain)",
+      "Blink Strike",
+      "Boundless Strike"
+    ],
+    "spanish": [
+      "Cambio De Atributo (ganancia De Agilidad)",
+      "Asalto Traslativo",
+      "Golpe Infinito"
+    ]
+  },
+  "Resquício Etéreo": {
+    "portuguese": [
+      "Ativar Resquício Flamejante",
+      "Encantar Resquício",
+      "Resquício Flamejante"
+    ],
+    "english": [
+      "Activate Fire Remnant",
+      "Enchant Remnant",
+      "Fire Remnant"
+    ],
+    "spanish": [
+      "Activar Remanente De Fuego",
+      "Atracción Geomagnética",
+      "Remanente De Fuego"
+    ]
+  },
+  "Tremor Secundário": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Alacridade": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Colisão Da Âncora": {
+    "portuguese": [
+      "Golpe Geológico"
+    ],
+    "english": [
+      "Boulder Smash"
+    ],
+    "spanish": [
+      "Golpe De Roca"
+    ]
+  },
+  "Selo Ancestral": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Escudo Afótico": {
+    "portuguese": [
+      "Escudo Ígneo",
+      "Escudo Congelado",
+      "Escudo De Carne"
+    ],
+    "english": [
+      "Fire Shield",
+      "Frost Shield",
+      "Meat Shield"
+    ],
+    "spanish": [
+      "Escudo De Fuego",
+      "Escudo De Hielo",
+      "Escudo Cárnico"
+    ]
+  },
+  "Aura Arcana": {
+    "portuguese": [
+      "Maldição Arcana",
+      "Esfera Arcana",
+      "Supremacia Arcana"
+    ],
+    "english": [
+      "Arcane Curse",
+      "Arcane Orb",
+      "Arcane Supremacy"
+    ],
+    "spanish": [
+      "Maldición Arcana",
+      "Orbe Arcano",
+      "Supremacía Arcana"
+    ]
+  },
+  "Maldição Arcana": {
+    "portuguese": [
+      "Aura Arcana",
+      "Esfera Arcana",
+      "Supremacia Arcana"
+    ],
+    "english": [
+      "Arcane Aura",
+      "Arcane Orb",
+      "Arcane Supremacy"
+    ],
+    "spanish": [
+      "Aura Arcana",
+      "Orbe Arcano",
+      "Supremacía Arcana"
+    ]
+  },
+  "Esfera Arcana": {
+    "portuguese": [
+      "Orbe Ilusório",
+      "Aura Arcana",
+      "Maldição Arcana"
+    ],
+    "english": [
+      "Illusory Orb",
+      "Arcane Aura",
+      "Arcane Curse"
+    ],
+    "spanish": [
+      "Orbe Ilusorio",
+      "Aura Arcana",
+      "Maldición Arcana"
+    ]
+  },
+  "Supremacia Arcana": {
+    "portuguese": [
+      "Aura Arcana",
+      "Maldição Arcana",
+      "Esfera Arcana"
+    ],
+    "english": [
+      "Arcane Aura",
+      "Arcane Curse",
+      "Arcane Orb"
+    ],
+    "spanish": [
+      "Aura Arcana",
+      "Maldición Arcana",
+      "Orbe Arcano"
+    ]
+  },
+  "Cauterização Ártica": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Arena Sangrenta": {
+    "portuguese": [
+      "Sangue Do Furioso",
+      "Ritual De Sangue"
+    ],
+    "english": [
+      "Berserker's Blood",
+      "Blood Rite"
+    ],
+    "spanish": [
+      "Sangre Del Berserker",
+      "Rito De Sangre"
+    ]
+  },
+  "Assassinar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Prisão Astral": {
+    "portuguese": [
+      "Espírito Astral",
+      "Projeção Astral"
+    ],
+    "english": [
+      "Astral Spirit",
+      "Astral Step"
+    ],
+    "spanish": [
+      "Espíritu Astral",
+      "Paso Astral"
+    ]
+  },
+  "Espírito Astral": {
+    "portuguese": [
+      "Prisão Astral",
+      "Projeção Astral",
+      "Forjar Espírito"
+    ],
+    "english": [
+      "Astral Imprisonment",
+      "Astral Step",
+      "Forge Spirit"
+    ],
+    "spanish": [
+      "Prisión Astral",
+      "Paso Astral",
+      "Forjar Espíritu"
+    ]
+  },
+  "Projeção Astral": {
+    "portuguese": [
+      "Andar Nas Sombras",
+      "Prisão Astral",
+      "Espírito Astral"
+    ],
+    "english": [
+      "Shadow Step",
+      "Astral Imprisonment",
+      "Astral Spirit"
+    ],
+    "spanish": [
+      "Pisasombra",
+      "Prisión Astral",
+      "Espíritu Astral"
+    ]
+  },
+  "Atrophy Aura": {
+    "portuguese": [
+      "Aura Arcana",
+      "Aura De Parada Cardíaca",
+      "Aura Da Vingança"
+    ],
+    "english": [
+      "Arcane Aura",
+      "Heartstopper Aura",
+      "Vengeance Aura"
+    ],
+    "spanish": [
+      "Aura Arcana",
+      "Aura Detienecorazones",
+      "Aura Vengativa"
+    ]
+  },
+  "Avalanche": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Bola De Relâmpago": {
+    "portuguese": [
+      "Raio",
+      "Mãos Eletrizantes",
+      "Tempestade De Raios"
+    ],
+    "english": [
+      "Lightning Bolt",
+      "Lightning Hands",
+      "Lightning Storm"
+    ],
+    "spanish": [
+      "Relámpago",
+      "Manos Relámpago",
+      "Tormenta Eléctrica"
+    ]
+  },
+  "Pancada Das Profundezas": {
+    "portuguese": [
+      "Grande Pancada"
+    ],
+    "english": [
+      "Greater Bash"
+    ],
+    "spanish": [
+      "Gran Golpetazo"
+    ]
+  },
+  "Investida De Bateria": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fome De Batalha": {
+    "portuguese": [
+      "Transe De Batalha",
+      "Fome Insaciável"
+    ],
+    "english": [
+      "Battle Trance",
+      "Insatiable Hunger"
+    ],
+    "spanish": [
+      "Trance De Batalla",
+      "Hambre Insaciable"
+    ]
+  },
+  "Transe De Batalha": {
+    "portuguese": [
+      "Fome De Batalha"
+    ],
+    "english": [
+      "Battle Hunger"
+    ],
+    "spanish": [
+      "Sed De Batalla"
+    ]
+  },
+  "Balbúrdia": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Poção Da Fúria": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Sangue Do Furioso": {
+    "portuguese": [
+      "Grito Do Furioso",
+      "Ira Do Furioso",
+      "Arena Sangrenta"
+    ],
+    "english": [
+      "Berserker's Call",
+      "Berserker's Rage",
+      "Arena Of Blood"
+    ],
+    "spanish": [
+      "Llamada Del Berserker",
+      "Furia Del Berserker",
+      "Arena De Sangre"
+    ]
+  },
+  "Grito Do Furioso": {
+    "portuguese": [
+      "Sangue Do Furioso",
+      "Ira Do Furioso",
+      "Chamado Da Natureza"
+    ],
+    "english": [
+      "Berserker's Blood",
+      "Berserker's Rage",
+      "Nature's Call"
+    ],
+    "spanish": [
+      "Sangre Del Berserker",
+      "Furia Del Berserker",
+      "Llamada De La Naturaleza"
+    ]
+  },
+  "Ira Do Furioso": {
+    "portuguese": [
+      "Sangue Do Furioso",
+      "Grito Do Furioso",
+      "Fúria Química"
+    ],
+    "english": [
+      "Berserker's Blood",
+      "Berserker's Call",
+      "Chemical Rage"
+    ],
+    "spanish": [
+      "Sangre Del Berserker",
+      "Llamada Del Berserker",
+      "Furia Química"
+    ]
+  },
+  "Buraco Negro": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Dança Da Lâmina": {
+    "portuguese": [
+      "Dança Do Raptor",
+      "Dança Das Sombras",
+      "Dança Da Árvore"
+    ],
+    "english": [
+      "Raptor Dance",
+      "Shadow Dance",
+      "Tree Dance"
+    ],
+    "spanish": [
+      "Danza Del Ave Rapaz",
+      "Baile De Sombras",
+      "Danza Arbórea"
+    ]
+  },
+  "Fúria Da Lâmina": {
+    "portuguese": [
+      "Garras Furiosas",
+      "Dança Da Lâmina",
+      "Lâmina De Abate"
+    ],
+    "english": [
+      "Fury Swipes",
+      "Blade Dance",
+      "Culling Blade"
+    ],
+    "spanish": [
+      "Arañazos Furiosos",
+      "Danza De La Hoja",
+      "Hoja Selectiva"
+    ]
+  },
+  "Lançamento!": {
+    "portuguese": [
+      "Explosão Ensurdecedora",
+      "Explosão Congelante",
+      "Explosão De Gelo"
+    ],
+    "english": [
+      "Deafening Blast",
+      "Frost Blast",
+      "Ice Blast"
+    ],
+    "spanish": [
+      "Explosión Ensordecedora",
+      "Explosión Gélida",
+      "Explosión De Hielo"
+    ]
+  },
+  "Luz Cegante": {
+    "portuguese": [
+      "Impacto De Luz Solar"
+    ],
+    "english": [
+      "Light Strike Array"
+    ],
+    "spanish": [
+      "Impacto De Luz Solar"
+    ]
+  },
+  "Golpe Sorrateiro": {
+    "portuguese": [
+      "Translocar",
+      "Ataque Adaptável",
+      "Pancada Ilimitada"
+    ],
+    "english": [
+      "Blink",
+      "Adaptative Strike (agility)",
+      "Boundless Strike"
+    ],
+    "spanish": [
+      "Traslación",
+      "Golpe Adaptativo",
+      "Golpe Infinito"
+    ]
+  },
+  "Translocar": {
+    "portuguese": [
+      "Golpe Sorrateiro"
+    ],
+    "english": [
+      "Blink Strike"
+    ],
+    "spanish": [
+      "Asalto Traslativo"
+    ]
+  },
+  "Ritual De Sangue": {
+    "portuguese": [
+      "Arena Sangrenta",
+      "Sangue Do Furioso"
+    ],
+    "english": [
+      "Arena Of Blood",
+      "Berserker's Blood"
+    ],
+    "spanish": [
+      "Arena De Sangre",
+      "Sangre Del Berserker"
+    ]
+  },
+  "Sede De Sangue": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fúria Por Sangue": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Guarda-costas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Exército Ósseo": {
+    "portuguese": [
+      "Troca De Guarda"
+    ],
+    "english": [
+      "Changing Of The Guard"
+    ],
+    "spanish": [
+      "Cambio De Guardia"
+    ]
+  },
+  "Tempo Emprestado": {
+    "portuguese": [
+      "Reverter Andar Temporal",
+      "Dilatação Temporal",
+      "Lapso Temporal"
+    ],
+    "english": [
+      "Reverse Time Walk",
+      "Time Dilatation",
+      "Time Lapse"
+    ],
+    "spanish": [
+      "Salto Temporal Inverso",
+      "Dilatación Del Tiempo",
+      "Lapso Temporal"
+    ]
+  },
+  "Golpe Geológico": {
+    "portuguese": [
+      "Colisão Da Âncora",
+      "Pedregulho Rolante"
+    ],
+    "english": [
+      "Anchor Smash",
+      "Rolling Boulder"
+    ],
+    "spanish": [
+      "Golpe De Ancla",
+      "Roca Rodante"
+    ]
+  },
+  "Pancada Ilimitada": {
+    "portuguese": [
+      "Ataque Adaptável",
+      "Golpe Sorrateiro",
+      "Golpe Caótico"
+    ],
+    "english": [
+      "Adaptative Strike (agility)",
+      "Blink Strike",
+      "Chaos Strike"
+    ],
+    "spanish": [
+      "Golpe Adaptativo",
+      "Asalto Traslativo",
+      "Golpe Caótico"
+    ]
+  },
+  "Drenagem Cerebral": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Labirinto De Espinheiros": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Soprar Fogo": {
+    "portuguese": [
+      "Ativar Resquício Flamejante",
+      "Resquício Flamejante",
+      "Escudo Ígneo"
+    ],
+    "english": [
+      "Activate Fire Remnant",
+      "Fire Remnant",
+      "Fire Shield"
+    ],
+    "spanish": [
+      "Activar Remanente De Fuego",
+      "Remanente De Fuego",
+      "Escudo De Fuego"
+    ]
+  },
+  "Proteção De Cerdas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Intimidar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Baluarte": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Exército Ardente": {
+    "portuguese": [
+      "Rajada Ardente",
+      "Lança Flamejante"
+    ],
+    "english": [
+      "Burning Barrage",
+      "Burning Spear"
+    ],
+    "spanish": [
+      "Aluvión Llameante",
+      "Lanza Flamígera"
+    ]
+  },
+  "Rajada Ardente": {
+    "portuguese": [
+      "Artilharia De Foguetes",
+      "Exército Ardente",
+      "Lança Flamejante"
+    ],
+    "english": [
+      "Rocket Barrage",
+      "Burning Army",
+      "Burning Spear"
+    ],
+    "spanish": [
+      "Andanada De Cohetes",
+      "Ejército Ardiente",
+      "Lanza Flamígera"
+    ]
+  },
+  "Lança Flamejante": {
+    "portuguese": [
+      "Lança De Marte",
+      "Exército Ardente",
+      "Rajada Ardente"
+    ],
+    "english": [
+      "Spear Of Mars",
+      "Burning Army",
+      "Burning Barrage"
+    ],
+    "spanish": [
+      "Lanza De Mars",
+      "Ejército Ardiente",
+      "Aluvión Llameante"
+    ]
+  },
+  "Entocar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Golpe Subterrâneo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Enredamento": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Lançamento Aéreo": {
+    "portuguese": [
+      "Grito Do Furioso",
+      "Javali (chamado Da Selva)",
+      "Falcão (chamado Da Selva)"
+    ],
+    "english": [
+      "Berserker's Call",
+      "Call Of The Wild Boar",
+      "Call Of The Wild Hawk"
+    ],
+    "spanish": [
+      "Llamada Del Berserker",
+      "Llamada Del Jabalí Salvaje",
+      "Llamada Del Halcón Salvaje"
+    ]
+  },
+  "Javali (chamado Da Selva)": {
+    "portuguese": [
+      "Falcão (chamado Da Selva)",
+      "Machados Selvagens",
+      "Grito Do Furioso"
+    ],
+    "english": [
+      "Call Of The Wild Hawk",
+      "Wild Axes",
+      "Berserker's Call"
+    ],
+    "spanish": [
+      "Llamada Del Halcón Salvaje",
+      "Hachas Salvajes",
+      "Llamada Del Berserker"
+    ]
+  },
+  "Falcão (chamado Da Selva)": {
+    "portuguese": [
+      "Javali (chamado Da Selva)",
+      "Machados Selvagens",
+      "Grito Do Furioso"
+    ],
+    "english": [
+      "Call Of The Wild Boar",
+      "Wild Axes",
+      "Berserker's Call"
+    ],
+    "spanish": [
+      "Llamada Del Jabalí Salvaje",
+      "Hachas Salvajes",
+      "Llamada Del Berserker"
+    ]
+  },
+  "Martelo Celestial": {
+    "portuguese": [
+      "Martelo Da Pureza",
+      "Punho Da Tempestade"
+    ],
+    "english": [
+      "Hammer Of Purity",
+      "Storm Hammer"
+    ],
+    "spanish": [
+      "Martillo De Pureza",
+      "Martillo De La Tormenta"
+    ]
+  },
+  "Congelamento Em Cadeia": {
+    "portuguese": [
+      "Corrente Arbórea",
+      "Flechas De Gelo",
+      "Explosão Congelante"
+    ],
+    "english": [
+      "Timber Chain",
+      "Frost Arrows",
+      "Frost Blast"
+    ],
+    "spanish": [
+      "Cadena Maderera",
+      "Flechas Gélidas",
+      "Explosión Gélida"
+    ]
+  },
+  "Magia Do Chakra": {
+    "portuguese": [
+      "Míssil Mágico"
+    ],
+    "english": [
+      "Magic Missile"
+    ],
+    "spanish": [
+      "Misil Mágico"
+    ]
+  },
+  "Chakram": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Troca De Guarda": {
+    "portuguese": [
+      "Exército Ósseo"
+    ],
+    "english": [
+      "Bone Guard"
+    ],
+    "spanish": [
+      "Guardia De Esqueletos"
+    ]
+  },
+  "Raio Caótico": {
+    "portuguese": [
+      "Meteoro Do Caos",
+      "Golpe Caótico",
+      "Choque Enfraquecedor"
+    ],
+    "english": [
+      "Chaos Meteor",
+      "Chaos Strike",
+      "Fade Bolt"
+    ],
+    "spanish": [
+      "Meteorito Del Caos",
+      "Golpe Caótico",
+      "Rayo Atenuante"
+    ]
+  },
+  "Meteoro Do Caos": {
+    "portuguese": [
+      "Raio Caótico",
+      "Golpe Caótico"
+    ],
+    "english": [
+      "Chaos Bolt",
+      "Chaos Strike"
+    ],
+    "spanish": [
+      "Rayo Del Caos",
+      "Golpe Caótico"
+    ]
+  },
+  "Golpe Caótico": {
+    "portuguese": [
+      "Raio Caótico",
+      "Meteoro Do Caos",
+      "Ataque Adaptável"
+    ],
+    "english": [
+      "Chaos Bolt",
+      "Chaos Meteor",
+      "Adaptative Strike (agility)"
+    ],
+    "spanish": [
+      "Rayo Del Caos",
+      "Meteorito Del Caos",
+      "Golpe Adaptativo"
+    ]
+  },
+  "Oferenda Caótica": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Investida Sombria": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fúria Química": {
+    "portuguese": [
+      "Ira Do Furioso",
+      "Fúria"
+    ],
+    "english": [
+      "Berserker's Rage",
+      "Rage"
+    ],
+    "spanish": [
+      "Furia Del Berserker",
+      "Furia"
+    ]
+  },
+  "Toque Arrepiante": {
+    "portuguese": [
+      "Toque Venenoso"
+    ],
+    "english": [
+      "Poison Touch"
+    ],
+    "spanish": [
+      "Toque Venenoso"
+    ]
+  },
+  "Cronosfera": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Água Ardente": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Manto E Adaga": {
+    "portuguese": [
+      "Capa Ardente",
+      "Manto Do Coveiro",
+      "Adaga Espectral"
+    ],
+    "english": [
+      "Flame Cloak",
+      "Gravekeeper's Cloak",
+      "Spectral Dagger"
+    ],
+    "spanish": [
+      "Hoja De Laguna",
+      "Capa Del Guardián De La Tumba",
+      "Daga Espectral"
+    ]
+  },
+  "Abraço Gelado": {
+    "portuguese": [
+      "Abraço Fantasma",
+      "Pé Frio",
+      "Onda De Frio"
+    ],
+    "english": [
+      "Phantom's Embrace",
+      "Cold Feet",
+      "Cold Snap"
+    ],
+    "spanish": [
+      "Abrazo Fantasma",
+      "Pies Fríos",
+      "Ola De Frío"
+    ]
+  },
+  "Pé Frio": {
+    "portuguese": [
+      "Abraço Gelado",
+      "Onda De Frio"
+    ],
+    "english": [
+      "Cold Embrace",
+      "Cold Snap"
+    ],
+    "spanish": [
+      "Abrazo Helado",
+      "Ola De Frío"
+    ]
+  },
+  "Onda De Frio": {
+    "portuguese": [
+      "Abraço Gelado",
+      "Pé Frio"
+    ],
+    "english": [
+      "Cold Embrace",
+      "Cold Feet"
+    ],
+    "spanish": [
+      "Abrazo Helado",
+      "Pies Fríos"
+    ]
+  },
+  "Granada De Concussão": {
+    "portuguese": [
+      "Disparo Contusivo"
+    ],
+    "english": [
+      "Concussive Shot"
+    ],
+    "spanish": [
+      "Disparo Conmocionador"
+    ]
+  },
+  "Disparo Contusivo": {
+    "portuguese": [
+      "Granada De Concussão",
+      "Disparo De Bolota",
+      "Rebatiro"
+    ],
+    "english": [
+      "Concussive Grenade",
+      "Acorn Shot",
+      "Dead Shot"
+    ],
+    "spanish": [
+      "Granada Aturdidora",
+      "Bellotazo",
+      "Disparo Mortal"
+    ]
+  },
+  "Conjurar Imagem": {
+    "portuguese": [
+      "Imagem Espelhada"
+    ],
+    "english": [
+      "Mirror Image"
+    ],
+    "spanish": [
+      "Espejismo"
+    ]
+  },
+  "Neblina Corrosiva": {
+    "portuguese": [
+      "Escama Corrosiva",
+      "Armamento Corrosivo"
+    ],
+    "english": [
+      "Corrosive Skin",
+      "Corrosive Weaponry"
+    ],
+    "spanish": [
+      "Piel Corrosiva",
+      "Armamento Corrosivo"
+    ]
+  },
+  "Escama Corrosiva": {
+    "portuguese": [
+      "Neblina Corrosiva",
+      "Armamento Corrosivo"
+    ],
+    "english": [
+      "Corrosive Haze",
+      "Corrosive Weaponry"
+    ],
+    "spanish": [
+      "Neblina Corrosiva",
+      "Armamento Corrosivo"
+    ]
+  },
+  "Armamento Corrosivo": {
+    "portuguese": [
+      "Neblina Corrosiva",
+      "Escama Corrosiva"
+    ],
+    "english": [
+      "Corrosive Haze",
+      "Corrosive Skin"
+    ],
+    "spanish": [
+      "Neblina Corrosiva",
+      "Piel Corrosiva"
+    ]
+  },
+  "Contraespiral": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Contrafeitiço Aliado": {
+    "portuguese": [
+      "Contrafeitiço"
+    ],
+    "english": [
+      "Counterspell"
+    ],
+    "spanish": [
+      "Contrahechizo"
+    ]
+  },
+  "Contrafeitiço": {
+    "portuguese": [
+      "Contrafeitiço Aliado"
+    ],
+    "english": [
+      "Counterspell Ally"
+    ],
+    "spanish": [
+      "Contrahechizo Aliado"
+    ]
+  },
+  "Coup De Grace": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Terror Debilitante": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Enxame Da Cripta": {
+    "portuguese": [
+      "O Enxame"
+    ],
+    "english": [
+      "The Swarm"
+    ],
+    "spanish": [
+      "El Enjambre"
+    ]
+  },
+  "Clone Cristalino": {
+    "portuguese": [
+      "Explosão Cristalina"
+    ],
+    "english": [
+      "Crystal Nova"
+    ],
+    "spanish": [
+      "Explosión Cristalina"
+    ]
+  },
+  "Explosão Cristalina": {
+    "portuguese": [
+      "Clone Cristalino",
+      "Pulso De Nova"
+    ],
+    "english": [
+      "Crystal Clone",
+      "Pulse Nova"
+    ],
+    "spanish": [
+      "Clon De Cristal",
+      "Ráfaga De Pulsaciones"
+    ]
+  },
+  "Lâmina De Abate": {
+    "portuguese": [
+      "Dança Da Lâmina",
+      "Fúria Da Lâmina",
+      "Lâmina Infernal"
+    ],
+    "english": [
+      "Blade Dance",
+      "Blade Fury",
+      "Infernal Blade"
+    ],
+    "spanish": [
+      "Danza De La Hoja",
+      "Furia De La Hoja",
+      "Hoja Infernal"
+    ]
+  },
+  "Maldição De Averno": {
+    "portuguese": [
+      "Maldição Arcana",
+      "Maldição Da Floresta Nativa",
+      "Maldição Do Inverno"
+    ],
+    "english": [
+      "Arcane Curse",
+      "Curse Of The Oldgrowth",
+      "Winter's Curse"
+    ],
+    "spanish": [
+      "Maldición Arcana",
+      "Maldición Del Bosque Primigenio",
+      "Maldición Del Invierno"
+    ]
+  },
+  "Maldição Da Floresta Nativa": {
+    "portuguese": [
+      "Maldição Arcana",
+      "Maldição De Averno",
+      "Maldição Do Inverno"
+    ],
+    "english": [
+      "Arcane Curse",
+      "Curse Of Avernus",
+      "Winter's Curse"
+    ],
+    "spanish": [
+      "Maldición Arcana",
+      "Maldición Del Averno",
+      "Maldición Del Invierno"
+    ]
+  },
+  "Coroa Amaldiçoada": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Ascensão Sombria": {
+    "portuguese": [
+      "Pacto Sombrio",
+      "Retrato Sombrio"
+    ],
+    "english": [
+      "Dark Pact",
+      "Dark Portrait"
+    ],
+    "spanish": [
+      "Pacto Oscuro",
+      "Ola De Tinta"
+    ]
+  },
+  "Pacto Sombrio": {
+    "portuguese": [
+      "Pacto De Morte",
+      "Ascensão Sombria",
+      "Retrato Sombrio"
+    ],
+    "english": [
+      "Death Pact",
+      "Dark Ascension",
+      "Dark Portrait"
+    ],
+    "spanish": [
+      "Pacto Mortal",
+      "Ascensión Oscura",
+      "Ola De Tinta"
+    ]
+  },
+  "Retrato Sombrio": {
+    "portuguese": [
+      "Ascensão Sombria",
+      "Pacto Sombrio"
+    ],
+    "english": [
+      "Dark Ascension",
+      "Dark Pact"
+    ],
+    "spanish": [
+      "Ascensión Oscura",
+      "Pacto Oscuro"
+    ]
+  },
+  "Ancoradouro": {
+    "portuguese": [
+      "Rebatiro"
+    ],
+    "english": [
+      "Dead Shot"
+    ],
+    "spanish": [
+      "Disparo Mortal"
+    ]
+  },
+  "Rebatiro": {
+    "portuguese": [
+      "Ancoradouro",
+      "Disparo De Bolota",
+      "Disparo Contusivo"
+    ],
+    "english": [
+      "Dead In The Water",
+      "Acorn Shot",
+      "Concussive Shot"
+    ],
+    "spanish": [
+      "Anclar",
+      "Bellotazo",
+      "Disparo Conmocionador"
+    ]
+  },
+  "Explosão Ensurdecedora": {
+    "portuguese": [
+      "Lançamento!",
+      "Explosão Congelante",
+      "Explosão De Gelo"
+    ],
+    "english": [
+      "Blast Off!",
+      "Frost Blast",
+      "Ice Blast"
+    ],
+    "spanish": [
+      "¡despegue!",
+      "Explosión Gélida",
+      "Explosión De Hielo"
+    ]
+  },
+  "Pacto De Morte": {
+    "portuguese": [
+      "Pacto Sombrio",
+      "Pulso Mortal",
+      "Busca Mortal"
+    ],
+    "english": [
+      "Dark Pact",
+      "Death Pulse",
+      "Death Seeker"
+    ],
+    "spanish": [
+      "Pacto Oscuro",
+      "Pulso Mortal",
+      "Buscador De La Muerte"
+    ]
+  },
+  "Pulso Mortal": {
+    "portuguese": [
+      "Pulso Da Meia-noite",
+      "Pulso De Nova",
+      "Pulso Ressonante"
+    ],
+    "english": [
+      "Midnight Pulse",
+      "Pulse Nova",
+      "Resonant Pulse"
+    ],
+    "spanish": [
+      "Pulso De Medianoche",
+      "Ráfaga De Pulsaciones",
+      "Pulso Resonante"
+    ]
+  },
+  "Busca Mortal": {
+    "portuguese": [
+      "Pacto De Morte",
+      "Pulso Mortal",
+      "Sentinela Da Morte"
+    ],
+    "english": [
+      "Death Pact",
+      "Death Pulse",
+      "Death Ward"
+    ],
+    "spanish": [
+      "Pacto Mortal",
+      "Pulso Mortal",
+      "Guardián De La Muerte"
+    ]
+  },
+  "Sentinela Da Morte": {
+    "portuguese": [
+      "Sentinela De Cura",
+      "Serpentes Sentinelas",
+      "Sentinela Antimagia"
+    ],
+    "english": [
+      "Healing Ward",
+      "Mass Serpent Ward",
+      "Nether Ward"
+    ],
+    "spanish": [
+      "Guardián Sanador",
+      "Guardianes Serpiente En Masa",
+      "Guardián Abisal"
+    ]
+  },
+  "Degeneração": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Chamariz": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Decrepitar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Matriz Defensiva": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fervor Demoníaco": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Limpeza Demoníaca": {
+    "portuguese": [
+      "Invocação Demoníaca",
+      "Expurgo Demoníaco"
+    ],
+    "english": [
+      "Demonic Conversion",
+      "Demonic Purge"
+    ],
+    "spanish": [
+      "Invocación Demoníaca",
+      "Purga Demoníaca"
+    ]
+  },
+  "Invocação Demoníaca": {
+    "portuguese": [
+      "Limpeza Demoníaca",
+      "Expurgo Demoníaco"
+    ],
+    "english": [
+      "Demonic Cleanse",
+      "Demonic Purge"
+    ],
+    "spanish": [
+      "Limpieza Demoníaca",
+      "Purga Demoníaca"
+    ]
+  },
+  "Expurgo Demoníaco": {
+    "portuguese": [
+      "Limpeza Demoníaca",
+      "Invocação Demoníaca"
+    ],
+    "english": [
+      "Demonic Cleanse",
+      "Demonic Conversion"
+    ],
+    "spanish": [
+      "Limpieza Demoníaca",
+      "Invocación Demoníaca"
+    ]
+  },
+  "Manto Das Profundezas": {
+    "portuguese": [
+      "Mortalha Fantasmagórica"
+    ],
+    "english": [
+      "Ghost Shroud"
+    ],
+    "spanish": [
+      "Velo Fantasmal"
+    ]
+  },
+  "Desolar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Destruir Caminho De Gelo": {
+    "portuguese": [
+      "Caminho De Gelo",
+      "Explosão De Gelo",
+      "Fragmentos De Gelo"
+    ],
+    "english": [
+      "Ice Path",
+      "Ice Blast",
+      "Ice Shards"
+    ],
+    "spanish": [
+      "Senda Helada",
+      "Explosión De Hielo",
+      "Fragmentos De Hielo"
+    ]
+  },
+  "Devorar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Decreto Diabólico": {
+    "portuguese": [
+      "Decreto Do Destino"
+    ],
+    "english": [
+      "Fate's Edict"
+    ],
+    "spanish": [
+      "Edicto Del Destino"
+    ]
+  },
+  "Escavar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Desmembrar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Dispersão": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Dispor": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Disrupção": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Disseminar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Sumiço": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Divididos Venceremos": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Favor Divino": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Condenar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Doppelgänger": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Arma De Dois Gumes": {
+    "portuguese": [
+      "Duplicata Tempestuosa"
+    ],
+    "english": [
+      "Tempest Double"
+    ],
+    "spanish": [
+      "Duplicado De La Tempestad"
+    ]
+  },
+  "Dragão Escravo": {
+    "portuguese": [
+      "Cauda De Dragão",
+      "Forma De Dragão Ancestral"
+    ],
+    "english": [
+      "Dragon Tail",
+      "Elder Dragon Form"
+    ],
+    "spanish": [
+      "Cola De Dragón",
+      "Forma De Dragón Ancestral"
+    ]
+  },
+  "Cauda De Dragão": {
+    "portuguese": [
+      "Dragão Escravo",
+      "Forma De Dragão Ancestral"
+    ],
+    "english": [
+      "Dragon Slave",
+      "Elder Dragon Form"
+    ],
+    "spanish": [
+      "Esclavo Dracónico",
+      "Forma De Dragón Ancestral"
+    ]
+  },
+  "Espiral Dos Sonhos": {
+    "portuguese": [
+      "Espiral Da Neblina"
+    ],
+    "english": [
+      "Mist Coil"
+    ],
+    "spanish": [
+      "Espiral De Niebla"
+    ]
+  },
+  "Beber, Correr E Espancar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Tambor De Slom": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Lutador Bêbado": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Baforada Dupla": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Duelo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Espinho De Terra": {
+    "portuguese": [
+      "Divisor De Solos",
+      "Terra Chamuscada",
+      "Dividir A Terra"
+    ],
+    "english": [
+      "Earth Splitter",
+      "Scorched Earth",
+      "Split Earth"
+    ],
+    "spanish": [
+      "Divisor De La Tierra",
+      "Tierra Quemada",
+      "Dividir La Tierra"
+    ]
+  },
+  "Divisor De Solos": {
+    "portuguese": [
+      "Espinho De Terra",
+      "Terra Chamuscada",
+      "Dividir A Terra"
+    ],
+    "english": [
+      "Earth Spike",
+      "Scorched Earth",
+      "Split Earth"
+    ],
+    "spanish": [
+      "Púa Terrenal",
+      "Tierra Quemada",
+      "Dividir La Tierra"
+    ]
+  },
+  "Rede De Caça": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Choque Terrestre": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Batida Ecoante": {
+    "portuguese": [
+      "Corte Ecoante",
+      "Pisão Ecoante"
+    ],
+    "english": [
+      "Echo Slash",
+      "Echo Stomp"
+    ],
+    "spanish": [
+      "Corte Resonante",
+      "Pisotón Resonante"
+    ]
+  },
+  "Corte Ecoante": {
+    "portuguese": [
+      "Batida Ecoante",
+      "Pisão Ecoante"
+    ],
+    "english": [
+      "Echo Slam",
+      "Echo Stomp"
+    ],
+    "spanish": [
+      "Golpe Resonante",
+      "Pisotón Resonante"
+    ]
+  },
+  "Pisão Ecoante": {
+    "portuguese": [
+      "Pisão",
+      "Batida Ecoante",
+      "Corte Ecoante"
+    ],
+    "english": [
+      "Hoof Stomp",
+      "Echo Slam",
+      "Echo Slash"
+    ],
+    "spanish": [
+      "Pisotón",
+      "Golpe Resonante",
+      "Corte Resonante"
+    ]
+  },
+  "Eclipse": {
+    "portuguese": [
+      "Eclipse Da Sanidade"
+    ],
+    "english": [
+      "Sanity's Eclipse"
+    ],
+    "spanish": [
+      "Eclipse De La Cordura"
+    ]
+  },
+  "Forma De Dragão Ancestral": {
+    "portuguese": [
+      "Dragão Escravo",
+      "Cauda De Dragão",
+      "Forma Espiritual"
+    ],
+    "english": [
+      "Dragon Slave",
+      "Dragon Tail",
+      "Spirit Form"
+    ],
+    "spanish": [
+      "Esclavo Dracónico",
+      "Cola De Dragón",
+      "Forma Espiritual"
+    ]
+  },
+  "Vórtice Elétrico": {
+    "portuguese": [
+      "Vórtex De Gelo"
+    ],
+    "english": [
+      "Ice Vortex"
+    ],
+    "spanish": [
+      "Vórtice De Hielo"
+    ]
+  },
+  "Pulso Eletromagnético": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fortalecer": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Encantar Resquício": {
+    "portuguese": [
+      "Encantar",
+      "Encantar Totem",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Enchant",
+      "Enchant Totem",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Encantar",
+      "Encantar Tótem",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Encantar Totem": {
+    "portuguese": [
+      "Encantar",
+      "Encantar Resquício"
+    ],
+    "english": [
+      "Enchant",
+      "Enchant Remnant"
+    ],
+    "spanish": [
+      "Encantar",
+      "Atracción Geomagnética"
+    ]
+  },
+  "Encantar": {
+    "portuguese": [
+      "Encantar Resquício",
+      "Encantar Totem"
+    ],
+    "english": [
+      "Enchant Remnant",
+      "Enchant Totem"
+    ],
+    "spanish": [
+      "Atracción Geomagnética",
+      "Encantar Tótem"
+    ]
+  },
+  "Debilitar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Enfurecer": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Enredar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Epicentro": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Escapismo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Espírito Vampírico": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fluxo De Essência": {
+    "portuguese": [
+      "Troca De Essência",
+      "Fluxo"
+    ],
+    "english": [
+      "Essence Shift",
+      "Flux"
+    ],
+    "spanish": [
+      "Robo De Esencia",
+      "Flujo"
+    ]
+  },
+  "Troca De Essência": {
+    "portuguese": [
+      "Fluxo De Essência",
+      "Troca De Fase"
+    ],
+    "english": [
+      "Essence Flux",
+      "Phase Shift"
+    ],
+    "spanish": [
+      "Flujo De Esencia",
+      "Cambio De Fase"
+    ]
+  },
+  "Choque De Éter": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Exorcismo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Exort": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Olho Da Tempestade": {
+    "portuguese": [
+      "Tempestade De Raios",
+      "Tempestade De Areia",
+      "Tempestade Eletrostática"
+    ],
+    "english": [
+      "Lightning Storm",
+      "Sand Storm",
+      "Static Storm"
+    ],
+    "spanish": [
+      "Tormenta Eléctrica",
+      "Tormenta De Arena",
+      "Tormenta Estática"
+    ]
+  },
+  "Olhos Na Floresta": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Choque Enfraquecedor": {
+    "portuguese": [
+      "Raio Caótico",
+      "Raio"
+    ],
+    "english": [
+      "Chaos Bolt",
+      "Lightning Bolt"
+    ],
+    "spanish": [
+      "Rayo Del Caos",
+      "Relámpago"
+    ]
+  },
+  "Avanço Falcoado": {
+    "portuguese": [
+      "Investida Fantasma"
+    ],
+    "english": [
+      "Phantom Rush"
+    ],
+    "spanish": [
+      "Carrera Fantasma"
+    ]
+  },
+  "Falsa Promessa": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Chuva De Facas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Vínculos Fatais": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Decreto Do Destino": {
+    "portuguese": [
+      "Decreto Diabólico",
+      "Pincelada Do Destino",
+      "Sangue Do Furioso"
+    ],
+    "english": [
+      "Diabolic Edict",
+      "Stroke Of Fate",
+      "Berserker's Blood"
+    ],
+    "spanish": [
+      "Decreto Diabólico",
+      "Trazo Del Destino",
+      "Sangre Del Berserker"
+    ]
+  },
+  "Banquete De Almas": {
+    "portuguese": [
+      "Réquiem Das Almas"
+    ],
+    "english": [
+      "Requiem Of Souls"
+    ],
+    "spanish": [
+      "Réquiem De Las Almas"
+    ]
+  },
+  "Impulso Feroz": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fervor": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Portal Do Demônio": {
+    "portuguese": [
+      "Aperto Do Demônio",
+      "Sangue Do Furioso",
+      "Grito Do Furioso"
+    ],
+    "english": [
+      "Fiend's Grip",
+      "Berserker's Blood",
+      "Berserker's Call"
+    ],
+    "spanish": [
+      "Garra Del Diablo",
+      "Sangre Del Berserker",
+      "Llamada Del Berserker"
+    ]
+  },
+  "Aperto Do Demônio": {
+    "portuguese": [
+      "Portal Do Demônio",
+      "Punho Geomagnético",
+      "Sangue Do Furioso"
+    ],
+    "english": [
+      "Fiend's Gate",
+      "Geomagnetic Grip",
+      "Berserker's Blood"
+    ],
+    "spanish": [
+      "Portal Demoníaco",
+      "Atracción Geomagnética",
+      "Sangre Del Berserker"
+    ]
+  },
+  "Alma Ardente": {
+    "portuguese": [
+      "Suposição De Almas",
+      "Rompimento Da Alma"
+    ],
+    "english": [
+      "Soul Assumption",
+      "Soul Rip"
+    ],
+    "spanish": [
+      "Toma De Almas",
+      "Desgarre De Alma"
+    ]
+  },
+  "Dedo Da Morte": {
+    "portuguese": [
+      "Pacto De Morte",
+      "Pulso Mortal",
+      "Busca Mortal"
+    ],
+    "english": [
+      "Death Pact",
+      "Death Pulse",
+      "Death Seeker"
+    ],
+    "spanish": [
+      "Pacto Mortal",
+      "Pulso Mortal",
+      "Buscador De La Muerte"
+    ]
+  },
+  "Resquício Flamejante": {
+    "portuguese": [
+      "Ativar Resquício Flamejante",
+      "Resquício Etéreo",
+      "Encantar Resquício"
+    ],
+    "english": [
+      "Activate Fire Remnant",
+      "Aether Remnant",
+      "Enchant Remnant"
+    ],
+    "spanish": [
+      "Activar Remanente De Fuego",
+      "Remanente Etéreo",
+      "Atracción Geomagnética"
+    ]
+  },
+  "Escudo Ígneo": {
+    "portuguese": [
+      "Escudo Afótico",
+      "Escudo Congelado",
+      "Escudo De Carne"
+    ],
+    "english": [
+      "Aphotic Shield",
+      "Frost Shield",
+      "Meat Shield"
+    ],
+    "spanish": [
+      "Escudo Afótico",
+      "Escudo De Hielo",
+      "Escudo Cárnico"
+    ]
+  },
+  "Espíritos De Fogo": {
+    "portuguese": [
+      "Espíritos",
+      "Aproximar Espíritos",
+      "Afastar Espíritos"
+    ],
+    "english": [
+      "Spirits",
+      "Spirits In",
+      "Spirits Out"
+    ],
+    "spanish": [
+      "Espíritus",
+      "Acercar Espíritus",
+      "Alejar Espíritus"
+    ]
+  },
+  "Bola De Fogo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Rajada De Fogo": {
+    "portuguese": [
+      "Rajada De Fogo Bruto"
+    ],
+    "english": [
+      "Unrefined Fireblast"
+    ],
+    "spanish": [
+      "Explosión De Fuego Bruta"
+    ]
+  },
+  "Rastro De Chamas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Biscoito Energético": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Chuva De Meteoros": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fissura": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Canhão Antiaéreo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Capa Ardente": {
+    "portuguese": [
+      "Manto E Adaga",
+      "Manto Do Coveiro"
+    ],
+    "english": [
+      "Cloak And Dagger",
+      "Gravekeeper's Cloak"
+    ],
+    "spanish": [
+      "Puñalada Desde Las Sombras",
+      "Capa Del Guardián De La Tumba"
+    ]
+  },
+  "Explosão De Chamas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Lança-chamas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Laço Flamejante": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Golem De Carne E Osso": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fluxo": {
+    "portuguese": [
+      "Fluxo De Essência"
+    ],
+    "english": [
+      "Essence Flux"
+    ],
+    "spanish": [
+      "Flujo De Esencia"
+    ]
+  },
+  "Disparos Concentrados": {
+    "portuguese": [
+      "Ativar Resquício Flamejante",
+      "Soprar Fogo",
+      "Resquício Flamejante"
+    ],
+    "english": [
+      "Activate Fire Remnant",
+      "Breathe Fire",
+      "Fire Remnant"
+    ],
+    "spanish": [
+      "Activar Remanente De Fuego",
+      "Aliento De Fuego",
+      "Remanente De Fuego"
+    ]
+  },
+  "Forjar Espírito": {
+    "portuguese": [
+      "Espírito Astral",
+      "Forma Espiritual",
+      "Lança Espiritual"
+    ],
+    "english": [
+      "Astral Spirit",
+      "Spirit Form",
+      "Spirit Lance"
+    ],
+    "spanish": [
+      "Espíritu Astral",
+      "Forma Espiritual",
+      "Lanza Espiritual"
+    ]
+  },
+  "Forma Da Natureza": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fim Da Fortuna": {
+    "portuguese": [
+      "Sangue Do Furioso",
+      "Grito Do Furioso",
+      "Ira Do Furioso"
+    ],
+    "english": [
+      "Berserker's Blood",
+      "Berserker's Call",
+      "Berserker's Rage"
+    ],
+    "spanish": [
+      "Sangre Del Berserker",
+      "Llamada Del Berserker",
+      "Furia Del Berserker"
+    ]
+  },
+  "Campo Congelante": {
+    "portuguese": [
+      "Campo Cinético",
+      "Campo Magnético",
+      "Campo De Plasma"
+    ],
+    "english": [
+      "Kinetic Field",
+      "Magnetic Field",
+      "Plasma Field"
+    ],
+    "spanish": [
+      "Campo Cinético",
+      "Campo Magnético",
+      "Campo De Plasma"
+    ]
+  },
+  "Sombra Aliada": {
+    "portuguese": [
+      "Sombra Lunar",
+      "Dança Das Sombras",
+      "Veneno Sombrio"
+    ],
+    "english": [
+      "Moonlight Shadow",
+      "Shadow Dance",
+      "Shadow Poison"
+    ],
+    "spanish": [
+      "Sombra A La Luz De La Luna",
+      "Baile De Sombras",
+      "Veneno Sombrío"
+    ]
+  },
+  "Flechas De Gelo": {
+    "portuguese": [
+      "Congelamento Em Cadeia",
+      "Explosão Congelante",
+      "Escudo Congelado"
+    ],
+    "english": [
+      "Chain Frost",
+      "Frost Blast",
+      "Frost Shield"
+    ],
+    "spanish": [
+      "Congelación En Cadena",
+      "Explosión Gélida",
+      "Escudo De Hielo"
+    ]
+  },
+  "Explosão Congelante": {
+    "portuguese": [
+      "Congelamento Em Cadeia",
+      "Flechas De Gelo",
+      "Escudo Congelado"
+    ],
+    "english": [
+      "Chain Frost",
+      "Frost Arrows",
+      "Frost Shield"
+    ],
+    "spanish": [
+      "Congelación En Cadena",
+      "Flechas Gélidas",
+      "Escudo De Hielo"
+    ]
+  },
+  "Escudo Congelado": {
+    "portuguese": [
+      "Escudo Afótico",
+      "Congelamento Em Cadeia",
+      "Escudo Ígneo"
+    ],
+    "english": [
+      "Aphotic Shield",
+      "Chain Frost",
+      "Fire Shield"
+    ],
+    "spanish": [
+      "Escudo Afótico",
+      "Congelación En Cadena",
+      "Escudo De Fuego"
+    ]
+  },
+  "Congelamento": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fuga Da Galinha": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Garras Furiosas": {
+    "portuguese": [
+      "Fúria Da Lâmina"
+    ],
+    "english": [
+      "Blade Fury"
+    ],
+    "spanish": [
+      "Furia De La Hoja"
+    ]
+  },
+  "Força Da Ventania": {
+    "portuguese": [
+      "Bola De Veneno"
+    ],
+    "english": [
+      "Venomous Gale"
+    ],
+    "spanish": [
+      "Vendaval Venenoso"
+    ]
+  },
+  "Ataque Germinante": {
+    "portuguese": [
+      "Ataque Venenoso",
+      "Forçar O Ataque"
+    ],
+    "english": [
+      "Poison Attack",
+      "Press The Attack"
+    ],
+    "spanish": [
+      "Ataque Venenoso",
+      "Intensificar El Ataque"
+    ]
+  },
+  "Punho Geomagnético": {
+    "portuguese": [
+      "Aperto Do Demônio"
+    ],
+    "english": [
+      "Fiend's Grip"
+    ],
+    "spanish": [
+      "Garra Del Diablo"
+    ]
+  },
+  "Mortalha Fantasmagórica": {
+    "portuguese": [
+      "Manto Das Profundezas",
+      "Andar Fantasma"
+    ],
+    "english": [
+      "Depth Shroud",
+      "Ghost Walk"
+    ],
+    "spanish": [
+      "Manto De Las Profundidades",
+      "Movimiento Fantasmal"
+    ]
+  },
+  "Andar Fantasma": {
+    "portuguese": [
+      "Mortalha Fantasmagórica",
+      "Reverter Andar Temporal",
+      "Andar Das Sombras"
+    ],
+    "english": [
+      "Ghost Shroud",
+      "Reverse Time Walk",
+      "Shadow Walk"
+    ],
+    "spanish": [
+      "Velo Fantasmal",
+      "Salto Temporal Inverso",
+      "Movimiento Sombrío"
+    ]
+  },
+  "Navio Fantasma": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Frenesi Carniçal": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Geleira": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Glaives Da Sabedoria": {
+    "portuguese": [
+      "Glaives Lunares"
+    ],
+    "english": [
+      "Moon Glaives"
+    ],
+    "spanish": [
+      "Gujas Lunares"
+    ]
+  },
+  "Relance": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Silêncio Global": {
+    "portuguese": [
+      "Silenciar"
+    ],
+    "english": [
+      "Silence"
+    ],
+    "spanish": [
+      "Silencio"
+    ]
+  },
+  "Engolir": {
+    "portuguese": [
+      "Enrolar"
+    ],
+    "english": [
+      "Roll Up"
+    ],
+    "spanish": [
+      "Enrollar"
+    ]
+  },
+  "Repreensão Divina": {
+    "portuguese": [
+      "Força Divina",
+      "Mão De Deus",
+      "Sangue Do Furioso"
+    ],
+    "english": [
+      "God's Strength",
+      "Hand Of God",
+      "Berserker's Blood"
+    ],
+    "spanish": [
+      "Fuerza Divina",
+      "Mano De Dios",
+      "Sangre Del Berserker"
+    ]
+  },
+  "Força Divina": {
+    "portuguese": [
+      "Repreensão Divina",
+      "Troca De Atributo (+ Força)",
+      "Mão De Deus"
+    ],
+    "english": [
+      "God's Rebuke",
+      "Morph (strength Gain)",
+      "Hand Of God"
+    ],
+    "spanish": [
+      "Reprimenda Divina",
+      "Cambio De Atributo (ganancia De Fuerza)",
+      "Mano De Dios"
+    ]
+  },
+  "Domínio Da Górgona": {
+    "portuguese": [
+      "Garras Da Natureza",
+      "Sangue Do Furioso",
+      "Grito Do Furioso"
+    ],
+    "english": [
+      "Nature's Grasp",
+      "Berserker's Blood",
+      "Berserker's Call"
+    ],
+    "spanish": [
+      "Agarre De La Naturaleza",
+      "Sangre Del Berserker",
+      "Llamada Del Berserker"
+    ]
+  },
+  "Calafrio Do Túmulo": {
+    "portuguese": [
+      "Cova Rasa",
+      "Silêncio Do Túmulo"
+    ],
+    "english": [
+      "Shallow Grave",
+      "Silent As The Grave"
+    ],
+    "spanish": [
+      "Tumba Vacía",
+      "Capa Del Guardián De La Tumba"
+    ]
+  },
+  "Manto Do Coveiro": {
+    "portuguese": [
+      "Manto E Adaga",
+      "Capa Ardente",
+      "Sangue Do Furioso"
+    ],
+    "english": [
+      "Cloak And Dagger",
+      "Flame Cloak",
+      "Berserker's Blood"
+    ],
+    "spanish": [
+      "Puñalada Desde Las Sombras",
+      "Hoja De Laguna",
+      "Sangre Del Berserker"
+    ]
+  },
+  "Grande Pancada": {
+    "portuguese": [
+      "Pancada Das Profundezas"
+    ],
+    "english": [
+      "Bash Of The Deep"
+    ],
+    "spanish": [
+      "Golpetazo De Las Profundidades"
+    ]
+  },
+  "Crescer": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Anjo Da Guarda": {
+    "portuguese": [
+      "Arrancada Do Guardião",
+      "Guardiã Solar"
+    ],
+    "english": [
+      "Guardian Sprint",
+      "Solar Guardian"
+    ],
+    "spanish": [
+      "Carrera Del Guardián",
+      "Guardiana Solar"
+    ]
+  },
+  "Arrancada Do Guardião": {
+    "portuguese": [
+      "Anjo Da Guarda",
+      "Guardiã Solar"
+    ],
+    "english": [
+      "Guardian Angel",
+      "Solar Guardian"
+    ],
+    "spanish": [
+      "Ángel Guardián",
+      "Guardiana Solar"
+    ]
+  },
+  "Pistoleira": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Jato D'água": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Rajada De Vento": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Bola De Pelos": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Martelo Da Pureza": {
+    "portuguese": [
+      "Martelo Celestial",
+      "Punho Da Tempestade"
+    ],
+    "english": [
+      "Celestial Hammer",
+      "Storm Hammer"
+    ],
+    "spanish": [
+      "Martillo Celestial",
+      "Martillo De La Tormenta"
+    ]
+  },
+  "Mão De Deus": {
+    "portuguese": [
+      "Repreensão Divina",
+      "Força Divina"
+    ],
+    "english": [
+      "God's Rebuke",
+      "God's Strength"
+    ],
+    "spanish": [
+      "Reprimenda Divina",
+      "Fuerza Divina"
+    ]
+  },
+  "Assombrar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Atirar Na Cabeça": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Sentinela De Cura": {
+    "portuguese": [
+      "Sentinela Da Morte",
+      "Serpentes Sentinelas",
+      "Sentinela Antimagia"
+    ],
+    "english": [
+      "Death Ward",
+      "Mass Serpent Ward",
+      "Nether Ward"
+    ],
+    "spanish": [
+      "Guardián De La Muerte",
+      "Guardianes Serpiente En Masa",
+      "Guardián Abisal"
+    ]
+  },
+  "Aura De Parada Cardíaca": {
+    "portuguese": [
+      "Aura Arcana",
+      "Atrophy Aura",
+      "Aura Da Vingança"
+    ],
+    "english": [
+      "Arcane Aura",
+      "Atrophy Aura",
+      "Vengeance Aura"
+    ],
+    "spanish": [
+      "Aura Arcana",
+      "Aura Atrofiante",
+      "Aura Vengativa"
+    ]
+  },
+  "Salto Divino": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Enfeitiçar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Persuasão Sagrada": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Míssil Teleguiado": {
+    "portuguese": [
+      "Míssil Mágico"
+    ],
+    "english": [
+      "Magic Missile"
+    ],
+    "spanish": [
+      "Misil Mágico"
+    ]
+  },
+  "Pisão": {
+    "portuguese": [
+      "Pisão Ecoante"
+    ],
+    "english": [
+      "Echo Stomp"
+    ],
+    "spanish": [
+      "Pisotón Resonante"
+    ]
+  },
+  "Gancho": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Lançamento Chifrudo": {
+    "portuguese": [
+      "Lançamento De Shuriken",
+      "Desgarrar",
+      "Lançar"
+    ],
+    "english": [
+      "Shuriken Toss",
+      "Talon Toss",
+      "Toss"
+    ],
+    "spanish": [
+      "Lanzamiento De Shuriken",
+      "Lanzamiento De Garra",
+      "Lanzamiento"
+    ]
+  },
+  "Uivo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Predador Noturno": {
+    "portuguese": [
+      "Bumerangue Da Caçadora"
+    ],
+    "english": [
+      "Hunter's Boomerang"
+    ],
+    "spanish": [
+      "Bumerán De La Cazadora"
+    ]
+  },
+  "Bumerangue Da Caçadora": {
+    "portuguese": [
+      "Predador Noturno",
+      "Sangue Do Furioso",
+      "Grito Do Furioso"
+    ],
+    "english": [
+      "Hunter In The Night",
+      "Berserker's Blood",
+      "Berserker's Call"
+    ],
+    "spanish": [
+      "Cazador Nocturno",
+      "Sangre Del Berserker",
+      "Llamada Del Berserker"
+    ]
+  },
+  "Rasante De Ícaro": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Explosão De Gelo": {
+    "portuguese": [
+      "Lançamento!",
+      "Explosão Ensurdecedora",
+      "Destruir Caminho De Gelo"
+    ],
+    "english": [
+      "Blast Off!",
+      "Deafening Blast",
+      "Destroy Ice Path"
+    ],
+    "spanish": [
+      "¡despegue!",
+      "Explosión Ensordecedora",
+      "Destruir Senda Helada"
+    ]
+  },
+  "Caminho De Gelo": {
+    "portuguese": [
+      "Destruir Caminho De Gelo",
+      "Explosão De Gelo",
+      "Fragmentos De Gelo"
+    ],
+    "english": [
+      "Destroy Ice Path",
+      "Ice Blast",
+      "Ice Shards"
+    ],
+    "spanish": [
+      "Destruir Senda Helada",
+      "Explosión De Hielo",
+      "Fragmentos De Hielo"
+    ]
+  },
+  "Fragmentos De Gelo": {
+    "portuguese": [
+      "Destruir Caminho De Gelo",
+      "Explosão De Gelo",
+      "Caminho De Gelo"
+    ],
+    "english": [
+      "Destroy Ice Path",
+      "Ice Blast",
+      "Ice Path"
+    ],
+    "spanish": [
+      "Destruir Senda Helada",
+      "Explosión De Hielo",
+      "Senda Helada"
+    ]
+  },
+  "Espiral De Gelo": {
+    "portuguese": [
+      "Destruir Caminho De Gelo",
+      "Explosão De Gelo",
+      "Caminho De Gelo"
+    ],
+    "english": [
+      "Destroy Ice Path",
+      "Ice Blast",
+      "Ice Path"
+    ],
+    "spanish": [
+      "Destruir Senda Helada",
+      "Explosión De Hielo",
+      "Senda Helada"
+    ]
+  },
+  "Vórtex De Gelo": {
+    "portuguese": [
+      "Vórtice Elétrico",
+      "Destruir Caminho De Gelo",
+      "Explosão De Gelo"
+    ],
+    "english": [
+      "Electric Vortex",
+      "Destroy Ice Path",
+      "Ice Blast"
+    ],
+    "spanish": [
+      "Vórtice Eléctrico",
+      "Destruir Senda Helada",
+      "Explosión De Hielo"
+    ]
+  },
+  "Parede De Gelo": {
+    "portuguese": [
+      "Parede De Réplicas",
+      "Destruir Caminho De Gelo",
+      "Explosão De Gelo"
+    ],
+    "english": [
+      "Wall Of Replica",
+      "Destroy Ice Path",
+      "Ice Blast"
+    ],
+    "spanish": [
+      "Muro De Las Réplicas",
+      "Destruir Senda Helada",
+      "Explosión De Hielo"
+    ]
+  },
+  "Incendiar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Iluminar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Orbe Ilusório": {
+    "portuguese": [
+      "Esfera Arcana"
+    ],
+    "english": [
+      "Arcane Orb"
+    ],
+    "spanish": [
+      "Orbe Arcano"
+    ]
+  },
+  "Arremesso De Facas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Empalar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Ímpeto": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Mordida Incapacitante": {
+    "portuguese": [
+      "Mordida Lupina"
+    ],
+    "english": [
+      "Wolf Bite"
+    ],
+    "spanish": [
+      "Invocar Lobos"
+    ]
+  },
+  "Lâmina Infernal": {
+    "portuguese": [
+      "Dança Da Lâmina",
+      "Fúria Da Lâmina",
+      "Lâmina De Abate"
+    ],
+    "english": [
+      "Blade Dance",
+      "Blade Fury",
+      "Culling Blade"
+    ],
+    "spanish": [
+      "Danza De La Hoja",
+      "Furia De La Hoja",
+      "Hoja Selectiva"
+    ]
+  },
+  "Infestar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Banho De Tinta": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fera Interior": {
+    "portuguese": [
+      "Fogo Interior"
+    ],
+    "english": [
+      "Inner Fire"
+    ],
+    "spanish": [
+      "Fuego Interior"
+    ]
+  },
+  "Fogo Interior": {
+    "portuguese": [
+      "Fera Interior",
+      "Ativar Resquício Flamejante",
+      "Soprar Fogo"
+    ],
+    "english": [
+      "Inner Beast",
+      "Activate Fire Remnant",
+      "Breathe Fire"
+    ],
+    "spanish": [
+      "Bestia Interior",
+      "Activar Remanente De Fuego",
+      "Aliento De Fuego"
+    ]
+  },
+  "Fome Insaciável": {
+    "portuguese": [
+      "Fome De Batalha"
+    ],
+    "english": [
+      "Battle Hunger"
+    ],
+    "spanish": [
+      "Sed De Batalla"
+    ]
+  },
+  "Carapaça Iônica": {
+    "portuguese": [
+      "Carapaça De Kraken"
+    ],
+    "english": [
+      "Kraken Shell"
+    ],
+    "spanish": [
+      "Caparazón De Kraken"
+    ]
+  },
+  "Mochila A Jato": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Jinada": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Maestria Do Jingu": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Justaposição": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Katana Dos Kazurai": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Barreira Cinética": {
+    "portuguese": [
+      "Campo Cinético"
+    ],
+    "english": [
+      "Kinetic Field"
+    ],
+    "spanish": [
+      "Campo Cinético"
+    ]
+  },
+  "Campo Cinético": {
+    "portuguese": [
+      "Barreira Cinética",
+      "Campo Congelante",
+      "Campo Magnético"
+    ],
+    "english": [
+      "Kinetic Fence",
+      "Freezing Field",
+      "Magnetic Field"
+    ],
+    "spanish": [
+      "Muro Cinético",
+      "Campo Congelante",
+      "Campo Magnético"
+    ]
+  },
+  "Carapaça De Kraken": {
+    "portuguese": [
+      "Carapaça Iônica"
+    ],
+    "english": [
+      "Ion Shell"
+    ],
+    "spanish": [
+      "Caparazón Iónico"
+    ]
+  },
+  "Lâmina Laguna": {
+    "portuguese": [
+      "Dança Da Lâmina",
+      "Fúria Da Lâmina",
+      "Lâmina De Abate"
+    ],
+    "english": [
+      "Blade Dance",
+      "Blade Fury",
+      "Culling Blade"
+    ],
+    "spanish": [
+      "Danza De La Hoja",
+      "Furia De La Hoja",
+      "Hoja Selectiva"
+    ]
+  },
+  "Laser": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Últimas Palavras": {
+    "portuguese": [
+      "Palavra Sombria"
+    ],
+    "english": [
+      "Shadow Word"
+    ],
+    "spanish": [
+      "Palabra De Las Sombras"
+    ]
+  },
+  "Salto": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Erva Daninha": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Quebra De Vida": {
+    "portuguese": [
+      "Dreno De Vida",
+      "Quebra De Mana"
+    ],
+    "english": [
+      "Life Drain",
+      "Mana Break"
+    ],
+    "spanish": [
+      "Succión Vital",
+      "Ruptura De Maná"
+    ]
+  },
+  "Dreno De Vida": {
+    "portuguese": [
+      "Quebra De Vida",
+      "Drenagem De Mana"
+    ],
+    "english": [
+      "Life Break",
+      "Mana Drain"
+    ],
+    "spanish": [
+      "Quebrantavidas",
+      "Drenaje De Maná"
+    ]
+  },
+  "Impacto De Luz Solar": {
+    "portuguese": [
+      "Luz Cegante",
+      "Ataque Adaptável",
+      "Golpe Sorrateiro"
+    ],
+    "english": [
+      "Blinding Light",
+      "Adaptative Strike (agility)",
+      "Blink Strike"
+    ],
+    "spanish": [
+      "Luz Cegadora",
+      "Golpe Adaptativo",
+      "Asalto Traslativo"
+    ]
+  },
+  "Raio": {
+    "portuguese": [
+      "Raio Caótico",
+      "Choque Enfraquecedor",
+      "Bola De Relâmpago"
+    ],
+    "english": [
+      "Chaos Bolt",
+      "Fade Bolt",
+      "Ball Lightning"
+    ],
+    "spanish": [
+      "Rayo Del Caos",
+      "Rayo Atenuante",
+      "Rayo Esférico"
+    ]
+  },
+  "Mãos Eletrizantes": {
+    "portuguese": [
+      "Bola De Relâmpago",
+      "Raio",
+      "Tempestade De Raios"
+    ],
+    "english": [
+      "Ball Lightning",
+      "Lightning Bolt",
+      "Lightning Storm"
+    ],
+    "spanish": [
+      "Rayo Esférico",
+      "Relámpago",
+      "Tormenta Eléctrica"
+    ]
+  },
+  "Tempestade De Raios": {
+    "portuguese": [
+      "Bola De Relâmpago",
+      "Raio",
+      "Mãos Eletrizantes"
+    ],
+    "english": [
+      "Ball Lightning",
+      "Lightning Bolt",
+      "Lightning Hands"
+    ],
+    "spanish": [
+      "Rayo Esférico",
+      "Relámpago",
+      "Manos Relámpago"
+    ]
+  },
+  "Rajada Bélica": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fogo Líquido": {
+    "portuguese": [
+      "Gelo Líquido",
+      "Ativar Resquício Flamejante",
+      "Soprar Fogo"
+    ],
+    "english": [
+      "Liquid Frost",
+      "Activate Fire Remnant",
+      "Breathe Fire"
+    ],
+    "spanish": [
+      "Escarcha Líquida",
+      "Activar Remanente De Fuego",
+      "Aliento De Fuego"
+    ]
+  },
+  "Gelo Líquido": {
+    "portuguese": [
+      "Fogo Líquido",
+      "Congelamento Em Cadeia",
+      "Flechas De Gelo"
+    ],
+    "english": [
+      "Liquid Fire",
+      "Chain Frost",
+      "Frost Arrows"
+    ],
+    "spanish": [
+      "Fuego Líquido",
+      "Congelación En Cadena",
+      "Flechas Gélidas"
+    ]
+  },
+  "Coleguinhas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Armadura Viva": {
+    "portuguese": [
+      "Armadura Reativa"
+    ],
+    "english": [
+      "Reactive Armor"
+    ],
+    "spanish": [
+      "Armadura Reactiva"
+    ]
+  },
+  "Raio Lunar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Questão De Sorte": {
+    "portuguese": [
+      "Disparo De Bolota",
+      "Disparo Contusivo",
+      "Rebatiro"
+    ],
+    "english": [
+      "Acorn Shot",
+      "Concussive Shot",
+      "Dead Shot"
+    ],
+    "spanish": [
+      "Bellotazo",
+      "Disparo Conmocionador",
+      "Disparo Mortal"
+    ]
+  },
+  "Luminosidade": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Órbita Lunar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Macrópiro": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Míssil Mágico": {
+    "portuguese": [
+      "Magia Do Chakra",
+      "Míssil Teleguiado"
+    ],
+    "english": [
+      "Chakra Magic",
+      "Homing Missile"
+    ],
+    "spanish": [
+      "Magia De Los Chakra",
+      "Misil Buscador"
+    ]
+  },
+  "Campo Magnético": {
+    "portuguese": [
+      "Campo Congelante",
+      "Campo Cinético",
+      "Campo De Plasma"
+    ],
+    "english": [
+      "Freezing Field",
+      "Kinetic Field",
+      "Plasma Field"
+    ],
+    "spanish": [
+      "Campo Congelante",
+      "Campo Cinético",
+      "Campo De Plasma"
+    ]
+  },
+  "Magnetizar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Amaldiçoar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Malefício": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Quebra De Mana": {
+    "portuguese": [
+      "Quebra De Vida",
+      "Drenagem De Mana",
+      "Vácuo De Mana"
+    ],
+    "english": [
+      "Life Break",
+      "Mana Drain",
+      "Mana Void"
+    ],
+    "spanish": [
+      "Quebrantavidas",
+      "Drenaje De Maná",
+      "Vacío De Maná"
+    ]
+  },
+  "Drenagem De Mana": {
+    "portuguese": [
+      "Dreno De Vida",
+      "Quebra De Mana",
+      "Vácuo De Mana"
+    ],
+    "english": [
+      "Life Drain",
+      "Mana Break",
+      "Mana Void"
+    ],
+    "spanish": [
+      "Succión Vital",
+      "Ruptura De Maná",
+      "Vacío De Maná"
+    ]
+  },
+  "Vácuo De Mana": {
+    "portuguese": [
+      "Vazio",
+      "Quebra De Mana",
+      "Drenagem De Mana"
+    ],
+    "english": [
+      "Void",
+      "Mana Break",
+      "Mana Drain"
+    ],
+    "spanish": [
+      "Vacío",
+      "Ruptura De Maná",
+      "Drenaje De Maná"
+    ]
+  },
+  "Marcha Das Máquinas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Pontaria": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Serpentes Sentinelas": {
+    "portuguese": [
+      "Sentinela Da Morte",
+      "Sentinela De Cura",
+      "Sentinela Antimagia"
+    ],
+    "english": [
+      "Death Ward",
+      "Healing Ward",
+      "Nether Ward"
+    ],
+    "spanish": [
+      "Guardián De La Muerte",
+      "Guardián Sanador",
+      "Guardián Abisal"
+    ]
+  },
+  "Gancho De Carne": {
+    "portuguese": [
+      "Escudo De Carne"
+    ],
+    "english": [
+      "Meat Shield"
+    ],
+    "spanish": [
+      "Escudo Cárnico"
+    ]
+  },
+  "Escudo De Carne": {
+    "portuguese": [
+      "Gancho De Carne",
+      "Escudo Afótico",
+      "Escudo Ígneo"
+    ],
+    "english": [
+      "Meat Hook",
+      "Aphotic Shield",
+      "Fire Shield"
+    ],
+    "spanish": [
+      "Gancho De Carne",
+      "Escudo Afótico",
+      "Escudo De Fuego"
+    ]
+  },
+  "Mega Meepo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Mesclar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Metamorfose": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Pulso Da Meia-noite": {
+    "portuguese": [
+      "Pulso Mortal",
+      "Pulso De Nova",
+      "Pulso Ressonante"
+    ],
+    "english": [
+      "Death Pulse",
+      "Pulse Nova",
+      "Resonant Pulse"
+    ],
+    "spanish": [
+      "Pulso Mortal",
+      "Ráfaga De Pulsaciones",
+      "Pulso Resonante"
+    ]
+  },
+  "Clarão Mental": {
+    "portuguese": [
+      "Relâmpagos Místicos",
+      "Foguete Sinalizador",
+      "Clarão Errático"
+    ],
+    "english": [
+      "Mystic Flare",
+      "Rocket Flare",
+      "Warp Flare"
+    ],
+    "spanish": [
+      "Destello Místico",
+      "Cohete Bengala",
+      "Bengala Errática"
+    ]
+  },
+  "Imagem Espelhada": {
+    "portuguese": [
+      "Conjurar Imagem"
+    ],
+    "english": [
+      "Conjure Image"
+    ],
+    "spanish": [
+      "Conjurar Imagen"
+    ]
+  },
+  "Espiral Da Neblina": {
+    "portuguese": [
+      "Espiral Dos Sonhos"
+    ],
+    "english": [
+      "Dream Coil"
+    ],
+    "spanish": [
+      "Espiral De Sueños"
+    ]
+  },
+  "Momento De Coragem": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Glaives Lunares": {
+    "portuguese": [
+      "Glaives Da Sabedoria"
+    ],
+    "english": [
+      "Glaives Of Wisdom"
+    ],
+    "spanish": [
+      "Gujas De Sabiduría"
+    ]
+  },
+  "Sombra Lunar": {
+    "portuguese": [
+      "Sombra Aliada",
+      "Dança Das Sombras",
+      "Veneno Sombrio"
+    ],
+    "english": [
+      "Friendly Shadow",
+      "Shadow Dance",
+      "Shadow Poison"
+    ],
+    "spanish": [
+      "Sombra Aliada",
+      "Baile De Sombras",
+      "Veneno Sombrío"
+    ]
+  },
+  "Troca De Atributo (+ Agilidade)": {
+    "portuguese": [
+      "Troca De Atributo (+ Força)",
+      "Ataque Adaptável",
+      "Morfose"
+    ],
+    "english": [
+      "Morph (strength Gain)",
+      "Adaptative Strike (agility)",
+      "Morph"
+    ],
+    "spanish": [
+      "Cambio De Atributo (ganancia De Fuerza)",
+      "Golpe Adaptativo",
+      "Trans­formación"
+    ]
+  },
+  "Troca De Atributo (+ Força)": {
+    "portuguese": [
+      "Troca De Atributo (+ Agilidade)",
+      "Força Divina",
+      "Morfose"
+    ],
+    "english": [
+      "Morph (agility Gain)",
+      "God's Strength",
+      "Morph"
+    ],
+    "spanish": [
+      "Cambio De Atributo (ganancia De Agilidad)",
+      "Fuerza Divina",
+      "Trans­formación"
+    ]
+  },
+  "Morfose": {
+    "portuguese": [
+      "Troca De Atributo (+ Agilidade)",
+      "Troca De Atributo (+ Força)"
+    ],
+    "english": [
+      "Morph (agility Gain)",
+      "Morph (strength Gain)"
+    ],
+    "spanish": [
+      "Cambio De Atributo (ganancia De Agilidad)",
+      "Cambio De Atributo (ganancia De Fuerza)"
+    ]
+  },
+  "Golpe Mortal": {
+    "portuguese": [
+      "Ataque Adaptável",
+      "Golpe Sorrateiro",
+      "Pancada Ilimitada"
+    ],
+    "english": [
+      "Adaptative Strike (agility)",
+      "Blink Strike",
+      "Boundless Strike"
+    ],
+    "spanish": [
+      "Golpe Adaptativo",
+      "Asalto Traslativo",
+      "Golpe Infinito"
+    ]
+  },
+  "Beijocas De Mortimer": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Multilançamento": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Disparo Múltiplo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Relâmpagos Místicos": {
+    "portuguese": [
+      "Serpente Mística",
+      "Clarão Mental",
+      "Foguete Sinalizador"
+    ],
+    "english": [
+      "Mystic Snake",
+      "Mind Flare",
+      "Rocket Flare"
+    ],
+    "spanish": [
+      "Serpiente Mística",
+      "Destello Mental",
+      "Cohete Bengala"
+    ]
+  },
+  "Serpente Mística": {
+    "portuguese": [
+      "Relâmpagos Místicos"
+    ],
+    "english": [
+      "Mystic Flare"
+    ],
+    "spanish": [
+      "Destello Místico"
+    ]
+  },
+  "Estado Natural": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Atendentes Da Natureza": {
+    "portuguese": [
+      "Chamado Da Natureza",
+      "Garras Da Natureza",
+      "Fúria Da Natureza"
+    ],
+    "english": [
+      "Nature's Call",
+      "Nature's Grasp",
+      "Wrath Of Nature"
+    ],
+    "spanish": [
+      "Llamada De La Naturaleza",
+      "Agarre De La Naturaleza",
+      "Ira De La Naturaleza"
+    ]
+  },
+  "Chamado Da Natureza": {
+    "portuguese": [
+      "Atendentes Da Natureza",
+      "Garras Da Natureza",
+      "Grito Do Furioso"
+    ],
+    "english": [
+      "Nature's Attendants",
+      "Nature's Grasp",
+      "Berserker's Call"
+    ],
+    "spanish": [
+      "Ayudantes De La Naturaleza",
+      "Agarre De La Naturaleza",
+      "Llamada Del Berserker"
+    ]
+  },
+  "Garras Da Natureza": {
+    "portuguese": [
+      "Domínio Da Górgona",
+      "Atendentes Da Natureza",
+      "Chamado Da Natureza"
+    ],
+    "english": [
+      "Gorgon's Grasp",
+      "Nature's Attendants",
+      "Nature's Call"
+    ],
+    "spanish": [
+      "Agarre De La Gorgona",
+      "Ayudantes De La Naturaleza",
+      "Llamada De La Naturaleza"
+    ]
+  },
+  "Explosão Das Profundezas": {
+    "portuguese": [
+      "Golpe Das Profundezas",
+      "Troca Das Profundezas",
+      "Sentinela Antimagia"
+    ],
+    "english": [
+      "Nether Strike",
+      "Nether Swap",
+      "Nether Ward"
+    ],
+    "spanish": [
+      "Ataque Abisal",
+      "Intercambio Abisal",
+      "Guardián Abisal"
+    ]
+  },
+  "Golpe Das Profundezas": {
+    "portuguese": [
+      "Explosão Das Profundezas",
+      "Troca Das Profundezas",
+      "Sentinela Antimagia"
+    ],
+    "english": [
+      "Nether Blast",
+      "Nether Swap",
+      "Nether Ward"
+    ],
+    "spanish": [
+      "Explosión Abisal",
+      "Intercambio Abisal",
+      "Guardián Abisal"
+    ]
+  },
+  "Troca Das Profundezas": {
+    "portuguese": [
+      "Explosão Das Profundezas",
+      "Golpe Das Profundezas",
+      "Sentinela Antimagia"
+    ],
+    "english": [
+      "Nether Blast",
+      "Nether Strike",
+      "Nether Ward"
+    ],
+    "spanish": [
+      "Explosión Abisal",
+      "Ataque Abisal",
+      "Guardián Abisal"
+    ]
+  },
+  "Sentinela Antimagia": {
+    "portuguese": [
+      "Explosão Das Profundezas",
+      "Golpe Das Profundezas",
+      "Troca Das Profundezas"
+    ],
+    "english": [
+      "Nether Blast",
+      "Nether Strike",
+      "Nether Swap"
+    ],
+    "spanish": [
+      "Explosión Abisal",
+      "Ataque Abisal",
+      "Intercambio Abisal"
+    ]
+  },
+  "Toxina Letal": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Pesadelo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Niilismo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Nimbus": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Soco Normal": {
+    "portuguese": [
+      "Soco Morsal!"
+    ],
+    "english": [
+      "Walrus Punch!"
+    ],
+    "spanish": [
+      "¡puñetazo De Morsa!"
+    ]
+  },
+  "Queda Livre": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Projeção De Nothl": {
+    "portuguese": [
+      "Projeção Psiônica"
+    ],
+    "english": [
+      "Psionic Projection"
+    ],
+    "spanish": [
+      "Trampa Psiónica"
+    ]
+  },
+  "Praga Nociva": {
+    "portuguese": [
+      "Sentinela De Praga"
+    ],
+    "english": [
+      "Plague Ward"
+    ],
+    "spanish": [
+      "Guardián De La Plaga"
+    ]
+  },
+  "Onitalho": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Investida": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Abrir Feridas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Sobrecarga": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Sobrecarregamento": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Supercrescimento": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Sobrefortalecer": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Desigualdade Esmagadora": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Casco Paralisante": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Penitência": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fantasma": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Investida Fantasma": {
+    "portuguese": [
+      "Avanço Falcoado",
+      "Abraço Fantasma"
+    ],
+    "english": [
+      "Falcon Rush",
+      "Phantom's Embrace"
+    ],
+    "spanish": [
+      "Embate De Halcón",
+      "Abrazo Fantasma"
+    ]
+  },
+  "Abraço Fantasma": {
+    "portuguese": [
+      "Abraço Gelado",
+      "Investida Fantasma",
+      "Sangue Do Furioso"
+    ],
+    "english": [
+      "Cold Embrace",
+      "Phantom Rush",
+      "Berserker's Blood"
+    ],
+    "spanish": [
+      "Abrazo Helado",
+      "Carrera Fantasma",
+      "Sangre Del Berserker"
+    ]
+  },
+  "Troca De Fase": {
+    "portuguese": [
+      "Troca De Essência"
+    ],
+    "english": [
+      "Essence Shift"
+    ],
+    "spanish": [
+      "Robo De Esencia"
+    ]
+  },
+  "Além Do Véu": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Fosso Da Malícia": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Placa De Campo Minado": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Sentinela De Praga": {
+    "portuguese": [
+      "Praga Nociva",
+      "Sentinela Da Morte",
+      "Sentinela De Cura"
+    ],
+    "english": [
+      "Noxious Plague",
+      "Death Ward",
+      "Healing Ward"
+    ],
+    "spanish": [
+      "Plaga Nociva",
+      "Guardián De La Muerte",
+      "Guardián Sanador"
+    ]
+  },
+  "Campo De Plasma": {
+    "portuguese": [
+      "Campo Congelante",
+      "Campo Cinético",
+      "Campo Magnético"
+    ],
+    "english": [
+      "Freezing Field",
+      "Kinetic Field",
+      "Magnetic Field"
+    ],
+    "spanish": [
+      "Campo Congelante",
+      "Campo Cinético",
+      "Campo Magnético"
+    ]
+  },
+  "Ataque Venenoso": {
+    "portuguese": [
+      "Ataque Germinante",
+      "Forçar O Ataque",
+      "Picada Venenosa"
+    ],
+    "english": [
+      "Geminate Attack",
+      "Press The Attack",
+      "Poison Sting"
+    ],
+    "spanish": [
+      "Ataque Geminado",
+      "Intensificar El Ataque",
+      "Picadura Venenosa"
+    ]
+  },
+  "Picada Venenosa": {
+    "portuguese": [
+      "Ataque Venenoso",
+      "Toque Venenoso",
+      "Veneno Sombrio"
+    ],
+    "english": [
+      "Poison Attack",
+      "Poison Touch",
+      "Shadow Poison"
+    ],
+    "spanish": [
+      "Ataque Venenoso",
+      "Toque Venenoso",
+      "Veneno Sombrío"
+    ]
+  },
+  "Toque Venenoso": {
+    "portuguese": [
+      "Toque Arrepiante",
+      "Ataque Venenoso",
+      "Picada Venenosa"
+    ],
+    "english": [
+      "Chilling Touch",
+      "Poison Attack",
+      "Poison Sting"
+    ],
+    "spanish": [
+      "Toque Escalofriante",
+      "Ataque Venenoso",
+      "Picadura Venenosa"
+    ]
+  },
+  "Puf": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Bote": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Disparo Poderoso": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Forçar O Ataque": {
+    "portuguese": [
+      "Ataque Germinante",
+      "Ataque Venenoso"
+    ],
+    "english": [
+      "Geminate Attack",
+      "Poison Attack"
+    ],
+    "spanish": [
+      "Ataque Geminado",
+      "Ataque Venenoso"
+    ]
+  },
+  "Companhia Primordial": {
+    "portuguese": [
+      "Rugido Primitivo",
+      "Divisão Primordial"
+    ],
+    "english": [
+      "Primal Roar",
+      "Primal Split"
+    ],
+    "spanish": [
+      "Rugido Primordial",
+      "Escisión Primordial"
+    ]
+  },
+  "Rugido Primitivo": {
+    "portuguese": [
+      "Rugido Selvagem",
+      "Companhia Primordial",
+      "Divisão Primordial"
+    ],
+    "english": [
+      "Savage Roar",
+      "Primal Companion",
+      "Primal Split"
+    ],
+    "spanish": [
+      "Rugido Salvaje",
+      "Escisión Primordial",
+      "Escisión Primordial"
+    ]
+  },
+  "Divisão Primordial": {
+    "portuguese": [
+      "Companhia Primordial",
+      "Rugido Primitivo",
+      "Dividir A Terra"
+    ],
+    "english": [
+      "Primal Companion",
+      "Primal Roar",
+      "Split Earth"
+    ],
+    "spanish": [
+      "Escisión Primordial",
+      "Rugido Primordial",
+      "Dividir La Tierra"
+    ]
+  },
+  "Minas De Proximidade": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Lâminas Psíquicas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Projeção Psiônica": {
+    "portuguese": [
+      "Projeção De Nothl",
+      "Armadilha Psiônica"
+    ],
+    "english": [
+      "Nothl Projection",
+      "Psionic Trap"
+    ],
+    "spanish": [
+      "Proyección De Nothl",
+      "Trampa Psiónica"
+    ]
+  },
+  "Armadilha Psiônica": {
+    "portuguese": [
+      "Projeção Psiônica"
+    ],
+    "english": [
+      "Psionic Projection"
+    ],
+    "spanish": [
+      "Trampa Psiónica"
+    ]
+  },
+  "Pulso De Nova": {
+    "portuguese": [
+      "Explosão Cristalina",
+      "Pulso Mortal",
+      "Pulso Da Meia-noite"
+    ],
+    "english": [
+      "Crystal Nova",
+      "Death Pulse",
+      "Midnight Pulse"
+    ],
+    "spanish": [
+      "Explosión Cristalina",
+      "Pulso Mortal",
+      "Pulso De Medianoche"
+    ]
+  },
+  "Pulverizar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Purificação": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Chamas Purificantes": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Quas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Rajada De Espinhos": {
+    "portuguese": [
+      "Spray Ácido"
+    ],
+    "english": [
+      "Acid Spray"
+    ],
+    "spanish": [
+      "Ácido Pulverizado"
+    ]
+  },
+  "Fúria": {
+    "portuguese": [
+      "Ira Do Furioso",
+      "Fúria Química"
+    ],
+    "english": [
+      "Berserker's Rage",
+      "Chemical Rage"
+    ],
+    "spanish": [
+      "Furia Del Berserker",
+      "Furia Química"
+    ]
+  },
+  "Chuva Do Destino": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Revirar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Garra De Rapina": {
+    "portuguese": [
+      "Dança Do Raptor"
+    ],
+    "english": [
+      "Raptor Dance"
+    ],
+    "spanish": [
+      "Danza Del Ave Rapaz"
+    ]
+  },
+  "Dança Do Raptor": {
+    "portuguese": [
+      "Garra De Rapina",
+      "Dança Da Lâmina",
+      "Dança Das Sombras"
+    ],
+    "english": [
+      "Raptor Claw",
+      "Blade Dance",
+      "Shadow Dance"
+    ],
+    "spanish": [
+      "Garra Garfio",
+      "Danza De La Hoja",
+      "Baile De Sombras"
+    ]
+  },
+  "Devastar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Armadura Reativa": {
+    "portuguese": [
+      "Armadura Viva",
+      "Taser Reativo"
+    ],
+    "english": [
+      "Living Armor",
+      "Reactive Tazer"
+    ],
+    "spanish": [
+      "Armadura Viviente",
+      "Táser Reactivo"
+    ]
+  },
+  "Taser Reativo": {
+    "portuguese": [
+      "Armadura Reativa"
+    ],
+    "english": [
+      "Reactive Armor"
+    ],
+    "spanish": [
+      "Armadura Reactiva"
+    ]
+  },
+  "Fenda Da Realidade": {
+    "portuguese": [
+      "Fenda Minguante"
+    ],
+    "english": [
+      "Waning Rift"
+    ],
+    "spanish": [
+      "Escisión Fluctuante"
+    ]
+  },
+  "Foice Da Morte": {
+    "portuguese": [
+      "Sangue Do Furioso",
+      "Grito Do Furioso",
+      "Ira Do Furioso"
+    ],
+    "english": [
+      "Berserker's Blood",
+      "Berserker's Call",
+      "Berserker's Rage"
+    ],
+    "spanish": [
+      "Sangre Del Berserker",
+      "Llamada Del Berserker",
+      "Furia Del Berserker"
+    ]
+  },
+  "Rearmar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Rebote": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Revocar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Reflexo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Reencarnação": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Realocar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Repelir": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Réquiem Das Almas": {
+    "portuguese": [
+      "Banquete De Almas"
+    ],
+    "english": [
+      "Feast Of Souls"
+    ],
+    "spanish": [
+      "Festín De Almas"
+    ]
+  },
+  "Pulso Ressonante": {
+    "portuguese": [
+      "Pulso Mortal",
+      "Pulso Da Meia-noite",
+      "Pulso De Nova"
+    ],
+    "english": [
+      "Death Pulse",
+      "Midnight Pulse",
+      "Pulse Nova"
+    ],
+    "spanish": [
+      "Pulso Mortal",
+      "Pulso De Medianoche",
+      "Ráfaga De Pulsaciones"
+    ]
+  },
+  "Retaliação": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Inversão De Polaridade": {
+    "portuguese": [
+      "Reverter Andar Temporal"
+    ],
+    "english": [
+      "Reverse Time Walk"
+    ],
+    "spanish": [
+      "Salto Temporal Inverso"
+    ]
+  },
+  "Reverter Andar Temporal": {
+    "portuguese": [
+      "Andar Temporal",
+      "Inversão De Polaridade",
+      "Andar Fantasma"
+    ],
+    "english": [
+      "Time Walk",
+      "Reverse Polarity",
+      "Ghost Walk"
+    ],
+    "spanish": [
+      "Salto Temporal",
+      "Polaridad Inversa",
+      "Movimiento Fantasmal"
+    ]
+  },
+  "Arremesso Rochoso": {
+    "portuguese": [
+      "Arremessar Árvore"
+    ],
+    "english": [
+      "Tree Throw"
+    ],
+    "spanish": [
+      "Lanzar Árbol"
+    ]
+  },
+  "Artilharia De Foguetes": {
+    "portuguese": [
+      "Rajada Ardente",
+      "Foguete Sinalizador"
+    ],
+    "english": [
+      "Burning Barrage",
+      "Rocket Flare"
+    ],
+    "spanish": [
+      "Aluvión Llameante",
+      "Cohete Bengala"
+    ]
+  },
+  "Foguete Sinalizador": {
+    "portuguese": [
+      "Artilharia De Foguetes",
+      "Clarão Mental",
+      "Relâmpagos Místicos"
+    ],
+    "english": [
+      "Rocket Barrage",
+      "Mind Flare",
+      "Mystic Flare"
+    ],
+    "spanish": [
+      "Andanada De Cohetes",
+      "Destello Mental",
+      "Destello Místico"
+    ]
+  },
+  "Enrolar": {
+    "portuguese": [
+      "Engolir"
+    ],
+    "english": [
+      "Gobble Up"
+    ],
+    "spanish": [
+      "Galleta Fogosa"
+    ]
+  },
+  "Pedregulho Rolante": {
+    "portuguese": [
+      "Golpe Geológico",
+      "Rolamento"
+    ],
+    "english": [
+      "Boulder Smash",
+      "Rolling Thunder"
+    ],
+    "spanish": [
+      "Golpe De Roca",
+      "Trueno Rodante"
+    ]
+  },
+  "Rolamento": {
+    "portuguese": [
+      "Pedregulho Rolante",
+      "Estrondo Do Trovão",
+      "Golpe Do Trovão"
+    ],
+    "english": [
+      "Rolling Boulder",
+      "Thunder Clap",
+      "Thunder Strike"
+    ],
+    "spanish": [
+      "Roca Rodante",
+      "Palmada Atronadora",
+      "Impacto Atronador"
+    ]
+  },
+  "Podridão": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Ruptura": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Flecha Sagrada": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Tempestade De Areia": {
+    "portuguese": [
+      "Olho Da Tempestade",
+      "Tempestade De Raios",
+      "Tempestade Eletrostática"
+    ],
+    "english": [
+      "Eye Of The Storm",
+      "Lightning Storm",
+      "Static Storm"
+    ],
+    "spanish": [
+      "Ojo De La Tormenta",
+      "Tormenta Eléctrica",
+      "Tormenta Estática"
+    ]
+  },
+  "Eclipse Da Sanidade": {
+    "portuguese": [
+      "Eclipse",
+      "Sangue Do Furioso",
+      "Grito Do Furioso"
+    ],
+    "english": [
+      "Eclipse",
+      "Berserker's Blood",
+      "Berserker's Call"
+    ],
+    "spanish": [
+      "Eclipse",
+      "Sangre Del Berserker",
+      "Llamada Del Berserker"
+    ]
+  },
+  "Rugido Selvagem": {
+    "portuguese": [
+      "Rugido Primitivo"
+    ],
+    "english": [
+      "Primal Roar"
+    ],
+    "spanish": [
+      "Rugido Primordial"
+    ]
+  },
+  "Velharia Potente": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Terra Chamuscada": {
+    "portuguese": [
+      "Espinho De Terra",
+      "Divisor De Solos",
+      "Dividir A Terra"
+    ],
+    "english": [
+      "Earth Spike",
+      "Earth Splitter",
+      "Split Earth"
+    ],
+    "spanish": [
+      "Púa Terrenal",
+      "Divisor De La Tierra",
+      "Dividir La Tierra"
+    ]
+  },
+  "Grito De Dor": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Correria": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Correntes De Fogo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Sangue Frio": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Algemas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Amarras": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Dança Das Sombras": {
+    "portuguese": [
+      "Dança Da Lâmina",
+      "Dança Do Raptor",
+      "Dança Da Árvore"
+    ],
+    "english": [
+      "Blade Dance",
+      "Raptor Dance",
+      "Tree Dance"
+    ],
+    "spanish": [
+      "Danza De La Hoja",
+      "Danza Del Ave Rapaz",
+      "Danza Arbórea"
+    ]
+  },
+  "Veneno Sombrio": {
+    "portuguese": [
+      "Ataque Venenoso",
+      "Picada Venenosa",
+      "Toque Venenoso"
+    ],
+    "english": [
+      "Poison Attack",
+      "Poison Sting",
+      "Poison Touch"
+    ],
+    "spanish": [
+      "Ataque Venenoso",
+      "Picadura Venenosa",
+      "Toque Venenoso"
+    ]
+  },
+  "Reino Das Sombras": {
+    "portuguese": [
+      "Sombra Aliada",
+      "Sombra Lunar",
+      "Dança Das Sombras"
+    ],
+    "english": [
+      "Friendly Shadow",
+      "Moonlight Shadow",
+      "Shadow Dance"
+    ],
+    "spanish": [
+      "Sombra Aliada",
+      "Sombra A La Luz De La Luna",
+      "Baile De Sombras"
+    ]
+  },
+  "Andar Nas Sombras": {
+    "portuguese": [
+      "Projeção Astral",
+      "Sombra Aliada",
+      "Sombra Lunar"
+    ],
+    "english": [
+      "Astral Step",
+      "Friendly Shadow",
+      "Moonlight Shadow"
+    ],
+    "spanish": [
+      "Paso Astral",
+      "Sombra Aliada",
+      "Sombra A La Luz De La Luna"
+    ]
+  },
+  "Golpe Sombrio": {
+    "portuguese": [
+      "Sombra Aliada",
+      "Sombra Lunar",
+      "Dança Das Sombras"
+    ],
+    "english": [
+      "Friendly Shadow",
+      "Moonlight Shadow",
+      "Shadow Dance"
+    ],
+    "spanish": [
+      "Sombra Aliada",
+      "Sombra A La Luz De La Luna",
+      "Baile De Sombras"
+    ]
+  },
+  "Andar Das Sombras": {
+    "portuguese": [
+      "Andar Fantasma",
+      "Reverter Andar Temporal",
+      "Andar Do Esqueleto"
+    ],
+    "english": [
+      "Ghost Walk",
+      "Reverse Time Walk",
+      "Skeleton Walk"
+    ],
+    "spanish": [
+      "Movimiento Fantasmal",
+      "Salto Temporal Inverso",
+      "Movimiento Esquelético"
+    ]
+  },
+  "Onda Sombria": {
+    "portuguese": [
+      "Onda Sônica",
+      "Onda De Terror",
+      "Onda Gigante"
+    ],
+    "english": [
+      "Sonic Wave",
+      "Terror Wave",
+      "Tidal Wave"
+    ],
+    "spanish": [
+      "Onda Sónica",
+      "Ola De Terror",
+      "Marejada"
+    ]
+  },
+  "Palavra Sombria": {
+    "portuguese": [
+      "Últimas Palavras",
+      "Sombra Aliada",
+      "Sombra Lunar"
+    ],
+    "english": [
+      "Last Word",
+      "Friendly Shadow",
+      "Moonlight Shadow"
+    ],
+    "spanish": [
+      "Última Palabra",
+      "Sombra Aliada",
+      "Sombra A La Luz De La Luna"
+    ]
+  },
+  "Ruína Das Sombras": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Cova Rasa": {
+    "portuguese": [
+      "Calafrio Do Túmulo",
+      "Silêncio Do Túmulo"
+    ],
+    "english": [
+      "Grave Chill",
+      "Silent As The Grave"
+    ],
+    "spanish": [
+      "Frío Sepulcral",
+      "Capa Del Guardián De La Tumba"
+    ]
+  },
+  "Transfiguração": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Tiro De Elite": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Escudo Estrondoso": {
+    "portuguese": [
+      "Escudo Afótico",
+      "Escudo Ígneo",
+      "Escudo Congelado"
+    ],
+    "english": [
+      "Aphotic Shield",
+      "Fire Shield",
+      "Frost Shield"
+    ],
+    "spanish": [
+      "Escudo Afótico",
+      "Escudo De Fuego",
+      "Escudo De Hielo"
+    ]
+  },
+  "Onda De Choque": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Estilhaços": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Shukuchi": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Lançamento De Shuriken": {
+    "portuguese": [
+      "Lançamento Chifrudo",
+      "Desgarrar",
+      "Lançar"
+    ],
+    "english": [
+      "Horn Toss",
+      "Talon Toss",
+      "Toss"
+    ],
+    "spanish": [
+      "Ensartar",
+      "Lanzamiento De Garra",
+      "Lanzamiento"
+    ]
+  },
+  "Silenciar": {
+    "portuguese": [
+      "Silêncio Global"
+    ],
+    "english": [
+      "Global Silence"
+    ],
+    "spanish": [
+      "Silencio Global"
+    ]
+  },
+  "Silêncio Do Túmulo": {
+    "portuguese": [
+      "Calafrio Do Túmulo",
+      "Cova Rasa"
+    ],
+    "english": [
+      "Grave Chill",
+      "Shallow Grave"
+    ],
+    "spanish": [
+      "Frío Sepulcral",
+      "Tumba Vacía"
+    ]
+  },
+  "Olhar Penetrante": {
+    "portuguese": [
+      "Olhar Petrificante"
+    ],
+    "english": [
+      "Stone Gaze"
+    ],
+    "spanish": [
+      "Mirada Pétrea"
+    ]
+  },
+  "Andar Do Esqueleto": {
+    "portuguese": [
+      "Andar Fantasma",
+      "Reverter Andar Temporal",
+      "Andar Das Sombras"
+    ],
+    "english": [
+      "Ghost Walk",
+      "Reverse Time Walk",
+      "Shadow Walk"
+    ],
+    "spanish": [
+      "Movimiento Fantasmal",
+      "Salto Temporal Inverso",
+      "Movimiento Sombrío"
+    ]
+  },
+  "Punhos Velozes": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Esmagamento Do Slithereen": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Cortina De Fumaça": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Bola De Neve": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Vínculo Solar": {
+    "portuguese": [
+      "Guardiã Solar"
+    ],
+    "english": [
+      "Solar Guardian"
+    ],
+    "spanish": [
+      "Guardiana Solar"
+    ]
+  },
+  "Guardiã Solar": {
+    "portuguese": [
+      "Vínculo Solar",
+      "Anjo Da Guarda",
+      "Arrancada Do Guardião"
+    ],
+    "english": [
+      "Solar Bind",
+      "Guardian Angel",
+      "Guardian Sprint"
+    ],
+    "spanish": [
+      "Vínculo Solar",
+      "Ángel Guardián",
+      "Carrera Del Guardián"
+    ]
+  },
+  "Canção Da Sereia": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Onda Sônica": {
+    "portuguese": [
+      "Onda Sombria",
+      "Onda De Terror",
+      "Onda Gigante"
+    ],
+    "english": [
+      "Shadow Wave",
+      "Terror Wave",
+      "Tidal Wave"
+    ],
+    "spanish": [
+      "Onda Sombría",
+      "Ola De Terror",
+      "Marejada"
+    ]
+  },
+  "Suposição De Almas": {
+    "portuguese": [
+      "Alma Ardente",
+      "Rompimento Da Alma"
+    ],
+    "english": [
+      "Fiery Soul",
+      "Soul Rip"
+    ],
+    "spanish": [
+      "Alma Ígnea",
+      "Desgarre De Alma"
+    ]
+  },
+  "Rompimento Da Alma": {
+    "portuguese": [
+      "Alma Ardente",
+      "Suposição De Almas"
+    ],
+    "english": [
+      "Fiery Soul",
+      "Soul Assumption"
+    ],
+    "spanish": [
+      "Alma Ígnea",
+      "Toma De Almas"
+    ]
+  },
+  "Vínculo Espiritual": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Gerar Aranhinhas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Lança De Marte": {
+    "portuguese": [
+      "Lança Flamejante"
+    ],
+    "english": [
+      "Burning Spear"
+    ],
+    "spanish": [
+      "Lanza Flamígera"
+    ]
+  },
+  "Adaga Espectral": {
+    "portuguese": [
+      "Manto E Adaga",
+      "Adaga Sufocante"
+    ],
+    "english": [
+      "Cloak And Dagger",
+      "Stifling Dagger"
+    ],
+    "spanish": [
+      "Puñalada Desde Las Sombras",
+      "Daga Sofocante"
+    ]
+  },
+  "Roubo De Habilidade": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Carapaça De Espinhos": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Tecer Teia": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Teia Pegajosa": {
+    "portuguese": [
+      "Sangue Do Furioso",
+      "Grito Do Furioso",
+      "Ira Do Furioso"
+    ],
+    "english": [
+      "Berserker's Blood",
+      "Berserker's Call",
+      "Berserker's Rage"
+    ],
+    "spanish": [
+      "Sangre Del Berserker",
+      "Llamada Del Berserker",
+      "Furia Del Berserker"
+    ]
+  },
+  "Forma Espiritual": {
+    "portuguese": [
+      "Forma De Dragão Ancestral",
+      "Forma Real",
+      "Espírito Astral"
+    ],
+    "english": [
+      "Elder Dragon Form",
+      "True Form",
+      "Astral Spirit"
+    ],
+    "spanish": [
+      "Forma De Dragón Ancestral",
+      "Forma Verdadera",
+      "Espíritu Astral"
+    ]
+  },
+  "Lança Espiritual": {
+    "portuguese": [
+      "Espírito Astral",
+      "Forjar Espírito",
+      "Forma Espiritual"
+    ],
+    "english": [
+      "Astral Spirit",
+      "Forge Spirit",
+      "Spirit Form"
+    ],
+    "spanish": [
+      "Espíritu Astral",
+      "Forjar Espíritu",
+      "Forma Espiritual"
+    ]
+  },
+  "Conexão De Espírito": {
+    "portuguese": [
+      "Elo Estático",
+      "Espírito Astral",
+      "Forjar Espírito"
+    ],
+    "english": [
+      "Static Link",
+      "Astral Spirit",
+      "Forge Spirit"
+    ],
+    "spanish": [
+      "Vínculo Estático",
+      "Espíritu Astral",
+      "Forjar Espíritu"
+    ]
+  },
+  "Sifão Espiritual": {
+    "portuguese": [
+      "Espírito Astral",
+      "Forjar Espírito",
+      "Forma Espiritual"
+    ],
+    "english": [
+      "Astral Spirit",
+      "Forge Spirit",
+      "Spirit Form"
+    ],
+    "spanish": [
+      "Espíritu Astral",
+      "Forjar Espíritu",
+      "Forma Espiritual"
+    ]
+  },
+  "Aproximar Espíritos": {
+    "portuguese": [
+      "Espíritos De Fogo",
+      "Espíritos",
+      "Afastar Espíritos"
+    ],
+    "english": [
+      "Fire Spirits",
+      "Spirits",
+      "Spirits Out"
+    ],
+    "spanish": [
+      "Espíritus Ígneos",
+      "Espíritus",
+      "Alejar Espíritus"
+    ]
+  },
+  "Afastar Espíritos": {
+    "portuguese": [
+      "Espíritos De Fogo",
+      "Espíritos",
+      "Aproximar Espíritos"
+    ],
+    "english": [
+      "Fire Spirits",
+      "Spirits",
+      "Spirits In"
+    ],
+    "spanish": [
+      "Espíritus Ígneos",
+      "Espíritus",
+      "Acercar Espíritus"
+    ]
+  },
+  "Espíritos": {
+    "portuguese": [
+      "Espíritos De Fogo",
+      "Aproximar Espíritos",
+      "Afastar Espíritos"
+    ],
+    "english": [
+      "Fire Spirits",
+      "Spirits In",
+      "Spirits Out"
+    ],
+    "spanish": [
+      "Espíritus Ígneos",
+      "Acercar Espíritus",
+      "Alejar Espíritus"
+    ]
+  },
+  "Explosão Estilhaçante": {
+    "portuguese": [
+      "Lançamento!",
+      "Explosão Ensurdecedora",
+      "Explosão Congelante"
+    ],
+    "english": [
+      "Blast Off!",
+      "Deafening Blast",
+      "Frost Blast"
+    ],
+    "spanish": [
+      "¡despegue!",
+      "Explosión Ensordecedora",
+      "Explosión Gélida"
+    ]
+  },
+  "Dividir A Terra": {
+    "portuguese": [
+      "Divisão Primordial",
+      "Disparo Dividido",
+      "Espinho De Terra"
+    ],
+    "english": [
+      "Primal Split",
+      "Split Shot",
+      "Earth Spike"
+    ],
+    "spanish": [
+      "Escisión Primordial",
+      "Disparo Dividido",
+      "Púa Terrenal"
+    ]
+  },
+  "Disparo Dividido": {
+    "portuguese": [
+      "Divisão Primordial",
+      "Dividir A Terra",
+      "Disparo De Bolota"
+    ],
+    "english": [
+      "Primal Split",
+      "Split Earth",
+      "Acorn Shot"
+    ],
+    "spanish": [
+      "Escisión Primordial",
+      "Dividir La Tierra",
+      "Bellotazo"
+    ]
+  },
+  "Holofote": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Póim": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Brotar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Debandada": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Quebra-estrelas": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Chuva Estelar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Elo Estático": {
+    "portuguese": [
+      "Conexão De Espírito",
+      "Resquício Estático",
+      "Tempestade Eletrostática"
+    ],
+    "english": [
+      "Spirit Link",
+      "Static Remnant",
+      "Static Storm"
+    ],
+    "spanish": [
+      "Vínculo Espiritual",
+      "Remanente Estático",
+      "Tormenta Estática"
+    ]
+  },
+  "Resquício Estático": {
+    "portuguese": [
+      "Elo Estático",
+      "Tempestade Eletrostática",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Static Link",
+      "Static Storm",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Vínculo Estático",
+      "Tormenta Estática",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Tempestade Eletrostática": {
+    "portuguese": [
+      "Elo Estático",
+      "Resquício Estático",
+      "Olho Da Tempestade"
+    ],
+    "english": [
+      "Static Link",
+      "Static Remnant",
+      "Eye Of The Storm"
+    ],
+    "spanish": [
+      "Vínculo Estático",
+      "Remanente Estático",
+      "Ojo De La Tormenta"
+    ]
+  },
+  "Bomba Pegajosa": {
+    "portuguese": [
+      "Napalm Pegajoso",
+      "Bomba De Piche"
+    ],
+    "english": [
+      "Sticky Napalm",
+      "Tar Bomb"
+    ],
+    "spanish": [
+      "Napalm Pegajoso",
+      "Bomba De Alquitrán"
+    ]
+  },
+  "Napalm Pegajoso": {
+    "portuguese": [
+      "Bomba Pegajosa"
+    ],
+    "english": [
+      "Sticky Bomb"
+    ],
+    "spanish": [
+      "Bomba Lapa"
+    ]
+  },
+  "Adaga Sufocante": {
+    "portuguese": [
+      "Manto E Adaga",
+      "Adaga Espectral"
+    ],
+    "english": [
+      "Cloak And Dagger",
+      "Spectral Dagger"
+    ],
+    "spanish": [
+      "Puñalada Desde Las Sombras",
+      "Daga Espectral"
+    ]
+  },
+  "Ferroada": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Olhar Petrificante": {
+    "portuguese": [
+      "Olhar Penetrante"
+    ],
+    "english": [
+      "Sinister Gaze"
+    ],
+    "spanish": [
+      "Mirada Siniestra"
+    ]
+  },
+  "Punho Da Tempestade": {
+    "portuguese": [
+      "Martelo Celestial",
+      "Martelo Da Pureza",
+      "Olho Da Tempestade"
+    ],
+    "english": [
+      "Celestial Hammer",
+      "Hammer Of Purity",
+      "Eye Of The Storm"
+    ],
+    "spanish": [
+      "Martillo Celestial",
+      "Martillo De Pureza",
+      "Ojo De La Tormenta"
+    ]
+  },
+  "Tormenta Elétrica": {
+    "portuguese": [
+      "Surto",
+      "Olho Da Tempestade",
+      "Tempestade De Raios"
+    ],
+    "english": [
+      "Surge",
+      "Eye Of The Storm",
+      "Lightning Storm"
+    ],
+    "spanish": [
+      "Subidón",
+      "Ojo De La Tormenta",
+      "Tormenta Eléctrica"
+    ]
+  },
+  "Bombardear": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Pincelada Do Destino": {
+    "portuguese": [
+      "Decreto Do Destino"
+    ],
+    "english": [
+      "Fate's Edict"
+    ],
+    "spanish": [
+      "Edicto Del Destino"
+    ]
+  },
+  "Conjurar Familiares": {
+    "portuguese": [
+      "Invocar Espírito Urso",
+      "Invocar Lobos"
+    ],
+    "english": [
+      "Summon Spirit Bear",
+      "Summon Wolves"
+    ],
+    "spanish": [
+      "Invocar Espíritu Oso",
+      "Invocar Lobos"
+    ]
+  },
+  "Invocar Espírito Urso": {
+    "portuguese": [
+      "Conjurar Familiares",
+      "Invocar Lobos",
+      "Espírito Astral"
+    ],
+    "english": [
+      "Summon Familiars",
+      "Summon Wolves",
+      "Astral Spirit"
+    ],
+    "spanish": [
+      "Invocar Familiares",
+      "Invocar Lobos",
+      "Espíritu Astral"
+    ]
+  },
+  "Invocar Lobos": {
+    "portuguese": [
+      "Conjurar Familiares",
+      "Invocar Espírito Urso"
+    ],
+    "english": [
+      "Summon Familiars",
+      "Summon Spirit Bear"
+    ],
+    "spanish": [
+      "Invocar Familiares",
+      "Invocar Espíritu Oso"
+    ]
+  },
+  "Raio Solar": {
+    "portuguese": [
+      "Raio Solar",
+      "Ataque Adaptável",
+      "Golpe Sorrateiro"
+    ],
+    "english": [
+      "Sun Ray",
+      "Adaptative Strike (agility)",
+      "Blink Strike"
+    ],
+    "spanish": [
+      "Rayo Solar",
+      "Golpe Adaptativo",
+      "Asalto Traslativo"
+    ]
+  },
+  "Sulcar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Supernova": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Surto": {
+    "portuguese": [
+      "Tormenta Elétrica"
+    ],
+    "english": [
+      "Storm Surge"
+    ],
+    "spanish": [
+      "Oleada Tormentosa"
+    ]
+  },
+  "Investida Sagaz": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Retalho Rápido": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Marcar Posição": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Melhorar Mira": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Desgarrar": {
+    "portuguese": [
+      "Lançamento Chifrudo",
+      "Lançamento De Shuriken",
+      "Lançar"
+    ],
+    "english": [
+      "Horn Toss",
+      "Shuriken Toss",
+      "Toss"
+    ],
+    "spanish": [
+      "Ensartar",
+      "Lanzamiento De Shuriken",
+      "Lanzamiento"
+    ]
+  },
+  "Domar As Feras": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Bomba De Piche": {
+    "portuguese": [
+      "Bomba Pegajosa"
+    ],
+    "english": [
+      "Sticky Bomb"
+    ],
+    "spanish": [
+      "Bomba Lapa"
+    ]
+  },
+  "Telecinese": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Teletransporte": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Duplicata Tempestuosa": {
+    "portuguese": [
+      "Arma De Dois Gumes"
+    ],
+    "english": [
+      "Double Edge"
+    ],
+    "spanish": [
+      "Doble Filo"
+    ]
+  },
+  "Onda De Terror": {
+    "portuguese": [
+      "Onda Aterrorizante",
+      "Onda Sombria",
+      "Onda Sônica"
+    ],
+    "english": [
+      "Wave Of Terror",
+      "Shadow Wave",
+      "Sonic Wave"
+    ],
+    "spanish": [
+      "Oleada De Terror",
+      "Onda Sombría",
+      "Onda Sónica"
+    ]
+  },
+  "Aterrorizar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Conexão": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "O Chamado": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "O Enxame": {
+    "portuguese": [
+      "Enxame Da Cripta"
+    ],
+    "english": [
+      "Crypt Swarm"
+    ],
+    "spanish": [
+      "Enjambre De La Cripta"
+    ]
+  },
+  "Sede": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Estrondo Do Trovão": {
+    "portuguese": [
+      "Rolamento",
+      "Golpe Do Trovão"
+    ],
+    "english": [
+      "Rolling Thunder",
+      "Thunder Strike"
+    ],
+    "spanish": [
+      "Trueno Rodante",
+      "Impacto Atronador"
+    ]
+  },
+  "Golpe Do Trovão": {
+    "portuguese": [
+      "Rolamento",
+      "Estrondo Do Trovão",
+      "Ataque Adaptável"
+    ],
+    "english": [
+      "Rolling Thunder",
+      "Thunder Clap",
+      "Adaptative Strike (agility)"
+    ],
+    "spanish": [
+      "Trueno Rodante",
+      "Palmada Atronadora",
+      "Golpe Adaptativo"
+    ]
+  },
+  "Ira Do Deus Do Trovão": {
+    "portuguese": [
+      "Ira Da Serpe",
+      "Fúria Da Natureza",
+      "Sangue Do Furioso"
+    ],
+    "english": [
+      "Wyrm's Wrath",
+      "Wrath Of Nature",
+      "Berserker's Blood"
+    ],
+    "spanish": [
+      "Ira De Wyrm",
+      "Ira De La Naturaleza",
+      "Sangre Del Berserker"
+    ]
+  },
+  "Onda Gigante": {
+    "portuguese": [
+      "Onda Sombria",
+      "Onda Sônica",
+      "Onda De Terror"
+    ],
+    "english": [
+      "Shadow Wave",
+      "Sonic Wave",
+      "Terror Wave"
+    ],
+    "spanish": [
+      "Onda Sombría",
+      "Onda Sónica",
+      "Ola De Terror"
+    ]
+  },
+  "Emissária Da Maré": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Corrente Arbórea": {
+    "portuguese": [
+      "Congelamento Em Cadeia"
+    ],
+    "english": [
+      "Chain Frost"
+    ],
+    "spanish": [
+      "Congelación En Cadena"
+    ]
+  },
+  "Dilatação Temporal": {
+    "portuguese": [
+      "Tempo Emprestado",
+      "Reverter Andar Temporal",
+      "Lapso Temporal"
+    ],
+    "english": [
+      "Borrowed Time",
+      "Reverse Time Walk",
+      "Time Lapse"
+    ],
+    "spanish": [
+      "Tiempo Prestado",
+      "Salto Temporal Inverso",
+      "Lapso Temporal"
+    ]
+  },
+  "Lapso Temporal": {
+    "portuguese": [
+      "Tempo Emprestado",
+      "Reverter Andar Temporal",
+      "Dilatação Temporal"
+    ],
+    "english": [
+      "Borrowed Time",
+      "Reverse Time Walk",
+      "Time Dilatation"
+    ],
+    "spanish": [
+      "Tiempo Prestado",
+      "Salto Temporal Inverso",
+      "Dilatación Del Tiempo"
+    ]
+  },
+  "Tranca Temporal": {
+    "portuguese": [
+      "Tempo Emprestado",
+      "Reverter Andar Temporal",
+      "Dilatação Temporal"
+    ],
+    "english": [
+      "Borrowed Time",
+      "Reverse Time Walk",
+      "Time Dilatation"
+    ],
+    "spanish": [
+      "Tiempo Prestado",
+      "Salto Temporal Inverso",
+      "Dilatación Del Tiempo"
+    ]
+  },
+  "Andar Temporal": {
+    "portuguese": [
+      "Reverter Andar Temporal",
+      "Andar Fantasma",
+      "Andar Das Sombras"
+    ],
+    "english": [
+      "Reverse Time Walk",
+      "Ghost Walk",
+      "Shadow Walk"
+    ],
+    "spanish": [
+      "Salto Temporal Inverso",
+      "Movimiento Fantasmal",
+      "Movimiento Sombrío"
+    ]
+  },
+  "Zona Temporal": {
+    "portuguese": [
+      "Tempo Emprestado",
+      "Reverter Andar Temporal",
+      "Dilatação Temporal"
+    ],
+    "english": [
+      "Borrowed Time",
+      "Reverse Time Walk",
+      "Time Dilatation"
+    ],
+    "spanish": [
+      "Tiempo Prestado",
+      "Salto Temporal Inverso",
+      "Dilatación Del Tiempo"
+    ]
+  },
+  "Lápide": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Tornado": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Torrente": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Lançar": {
+    "portuguese": [
+      "Lançamento Chifrudo",
+      "Lançamento De Shuriken",
+      "Desgarrar"
+    ],
+    "english": [
+      "Horn Toss",
+      "Shuriken Toss",
+      "Talon Toss"
+    ],
+    "spanish": [
+      "Ensartar",
+      "Lanzamiento De Shuriken",
+      "Lanzamiento De Garra"
+    ]
+  },
+  "Rastreio": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Pisotear": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Dança Da Árvore": {
+    "portuguese": [
+      "Dança Da Lâmina",
+      "Dança Do Raptor",
+      "Dança Das Sombras"
+    ],
+    "english": [
+      "Blade Dance",
+      "Raptor Dance",
+      "Shadow Dance"
+    ],
+    "spanish": [
+      "Danza De La Hoja",
+      "Danza Del Ave Rapaz",
+      "Baile De Sombras"
+    ]
+  },
+  "Pegar Árvore": {
+    "portuguese": [
+      "Dança Da Árvore",
+      "Arremessar Árvore",
+      "Voleio De Árvores"
+    ],
+    "english": [
+      "Tree Dance",
+      "Tree Throw",
+      "Tree Volley"
+    ],
+    "spanish": [
+      "Danza Arbórea",
+      "Lanzar Árbol",
+      "Agarrar Árbol"
+    ]
+  },
+  "Arremessar Árvore": {
+    "portuguese": [
+      "Arremesso Rochoso",
+      "Dança Da Árvore",
+      "Pegar Árvore"
+    ],
+    "english": [
+      "Rock Throw",
+      "Tree Dance",
+      "Tree Grab"
+    ],
+    "spanish": [
+      "Lanzamiento De Roca",
+      "Danza Arbórea",
+      "Agarrar Árbol"
+    ]
+  },
+  "Voleio De Árvores": {
+    "portuguese": [
+      "Dança Da Árvore",
+      "Pegar Árvore",
+      "Arremessar Árvore"
+    ],
+    "english": [
+      "Tree Dance",
+      "Tree Grab",
+      "Tree Throw"
+    ],
+    "spanish": [
+      "Danza Arbórea",
+      "Agarrar Árbol",
+      "Lanzar Árbol"
+    ]
+  },
+  "Truques Do Ofício": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Forma Real": {
+    "portuguese": [
+      "Forma De Dragão Ancestral",
+      "Forma Espiritual"
+    ],
+    "english": [
+      "Elder Dragon Form",
+      "Spirit Form"
+    ],
+    "spanish": [
+      "Forma De Dragón Ancestral",
+      "Forma Espiritual"
+    ]
+  },
+  "Dilúvio": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Libertar": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Rajada De Fogo Bruto": {
+    "portuguese": [
+      "Rajada De Fogo"
+    ],
+    "english": [
+      "Fireblast"
+    ],
+    "spanish": [
+      "Explosión De Fuego"
+    ]
+  },
+  "Mistura Instável": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Intocável": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Insurreição": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Alvoroço": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Vácuo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Vendeta": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Aura Da Vingança": {
+    "portuguese": [
+      "Aura Arcana",
+      "Atrophy Aura",
+      "Aura De Parada Cardíaca"
+    ],
+    "english": [
+      "Arcane Aura",
+      "Atrophy Aura",
+      "Heartstopper Aura"
+    ],
+    "spanish": [
+      "Aura Arcana",
+      "Aura Atrofiante",
+      "Aura Detienecorazones"
+    ]
+  },
+  "Bola De Veneno": {
+    "portuguese": [
+      "Força Da Ventania"
+    ],
+    "english": [
+      "Gale Force"
+    ],
+    "spanish": [
+      "Fuerza Del Vendaval"
+    ]
+  },
+  "Picada Da Víbora": {
+    "portuguese": [
+      "Ataque Adaptável",
+      "Golpe Sorrateiro",
+      "Pancada Ilimitada"
+    ],
+    "english": [
+      "Adaptative Strike (agility)",
+      "Blink Strike",
+      "Boundless Strike"
+    ],
+    "spanish": [
+      "Golpe Adaptativo",
+      "Asalto Traslativo",
+      "Golpe Infinito"
+    ]
+  },
+  "Gosma Nasal Viscosa": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Vazio": {
+    "portuguese": [
+      "Vácuo De Mana"
+    ],
+    "english": [
+      "Mana Void"
+    ],
+    "spanish": [
+      "Vacío De Maná"
+    ]
+  },
+  "Vudu Restaurador": {
+    "portuguese": [
+      "Vudu Transfigurante"
+    ],
+    "english": [
+      "Voodoo Switcheroo"
+    ],
+    "spanish": [
+      "Cambiazo Vudú"
+    ]
+  },
+  "Vudu Transfigurante": {
+    "portuguese": [
+      "Vudu Restaurador"
+    ],
+    "english": [
+      "Voodoo Restoration"
+    ],
+    "spanish": [
+      "Restauración Vudú"
+    ]
+  },
+  "Parede De Réplicas": {
+    "portuguese": [
+      "Parede De Gelo"
+    ],
+    "english": [
+      "Ice Wall"
+    ],
+    "spanish": [
+      "Muro De Hielo"
+    ]
+  },
+  "Chute Morsal": {
+    "portuguese": [
+      "Soco Morsal!"
+    ],
+    "english": [
+      "Walrus Punch!"
+    ],
+    "spanish": [
+      "¡puñetazo De Morsa!"
+    ]
+  },
+  "Soco Morsal!": {
+    "portuguese": [
+      "Soco Normal",
+      "Chute Morsal"
+    ],
+    "english": [
+      "Normal Punch",
+      "Walrus Kick"
+    ],
+    "spanish": [
+      "Subidón",
+      "Fragmentos De Hielo"
+    ]
+  },
+  "Fenda Minguante": {
+    "portuguese": [
+      "Fenda Da Realidade"
+    ],
+    "english": [
+      "Reality Rift"
+    ],
+    "spanish": [
+      "Fisura En La Realidad"
+    ]
+  },
+  "Grito De Guerra": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Clarão Errático": {
+    "portuguese": [
+      "Clarão Mental",
+      "Relâmpagos Místicos",
+      "Foguete Sinalizador"
+    ],
+    "english": [
+      "Mind Flare",
+      "Mystic Flare",
+      "Rocket Flare"
+    ],
+    "spanish": [
+      "Destello Mental",
+      "Destello Místico",
+      "Cohete Bengala"
+    ]
+  },
+  "Caminho Do Guerreiro": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Onda Aterrorizante": {
+    "portuguese": [
+      "Onda De Terror",
+      "Onda Sombria",
+      "Onda Sônica"
+    ],
+    "english": [
+      "Terror Wave",
+      "Shadow Wave",
+      "Sonic Wave"
+    ],
+    "spanish": [
+      "Ola De Terror",
+      "Onda Sombría",
+      "Onda Sónica"
+    ]
+  },
+  "Forma De Onda": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Wex": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Roda A Roda": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Machados Giratórios (corpo A Corpo)": {
+    "portuguese": [
+      "Machados Giratórios (longo Alcance)",
+      "Vórtice Mortal",
+      "Machados Selvagens"
+    ],
+    "english": [
+      "Whirling Axes (ranged)",
+      "Whirling Death",
+      "Wild Axes"
+    ],
+    "spanish": [
+      "Hachas Giratorias (a Distancia)",
+      "Muerte Radial",
+      "Hachas Salvajes"
+    ]
+  },
+  "Machados Giratórios (longo Alcance)": {
+    "portuguese": [
+      "Machados Giratórios (corpo A Corpo)",
+      "Vórtice Mortal",
+      "Machados Selvagens"
+    ],
+    "english": [
+      "Whirling Axes (melee)",
+      "Whirling Death",
+      "Wild Axes"
+    ],
+    "spanish": [
+      "Hachas Giratorias (cuerpo A Cuerpo)",
+      "Muerte Radial",
+      "Hachas Salvajes"
+    ]
+  },
+  "Vórtice Mortal": {
+    "portuguese": [
+      "Machados Giratórios (corpo A Corpo)",
+      "Machados Giratórios (longo Alcance)",
+      "Pacto De Morte"
+    ],
+    "english": [
+      "Whirling Axes (melee)",
+      "Whirling Axes (ranged)",
+      "Death Pact"
+    ],
+    "spanish": [
+      "Hachas Giratorias (cuerpo A Cuerpo)",
+      "Hachas Giratorias (a Distancia)",
+      "Pacto Mortal"
+    ]
+  },
+  "Machados Selvagens": {
+    "portuguese": [
+      "Javali (chamado Da Selva)",
+      "Falcão (chamado Da Selva)",
+      "Machados Giratórios (corpo A Corpo)"
+    ],
+    "english": [
+      "Call Of The Wild Boar",
+      "Call Of The Wild Hawk",
+      "Whirling Axes (melee)"
+    ],
+    "spanish": [
+      "Llamada Del Jabalí Salvaje",
+      "Llamada Del Halcón Salvaje",
+      "Hachas Giratorias (cuerpo A Cuerpo)"
+    ]
+  },
+  "Fogo-fátuo": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Correr Nos Ventos": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Maldição Do Inverno": {
+    "portuguese": [
+      "Maldição Arcana",
+      "Maldição De Averno",
+      "Maldição Da Floresta Nativa"
+    ],
+    "english": [
+      "Arcane Curse",
+      "Curse Of Avernus",
+      "Curse Of The Oldgrowth"
+    ],
+    "spanish": [
+      "Maldición Arcana",
+      "Maldición Del Averno",
+      "Maldición Del Bosque Primigenio"
+    ]
+  },
+  "Mordida Lupina": {
+    "portuguese": [
+      "Mordida Incapacitante"
+    ],
+    "english": [
+      "Incapacitating Bite"
+    ],
+    "spanish": [
+      "Mordedura Incapacitante"
+    ]
+  },
+  "Carroça": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  },
+  "Explosão Maldita": {
+    "portuguese": [
+      "Lançamento!",
+      "Explosão Ensurdecedora",
+      "Explosão Congelante"
+    ],
+    "english": [
+      "Blast Off!",
+      "Deafening Blast",
+      "Frost Blast"
+    ],
+    "spanish": [
+      "¡despegue!",
+      "Explosión Ensordecedora",
+      "Explosión Gélida"
+    ]
+  },
+  "Fúria Da Natureza": {
+    "portuguese": [
+      "Ira Do Deus Do Trovão",
+      "Ira Da Serpe",
+      "Atendentes Da Natureza"
+    ],
+    "english": [
+      "Thundergod's Wrath",
+      "Wyrm's Wrath",
+      "Nature's Attendants"
+    ],
+    "spanish": [
+      "Ira Del Dios Del Trueno",
+      "Ira De Wyrm",
+      "Ayudantes De La Naturaleza"
+    ]
+  },
+  "Comando De Wukong": {
+    "portuguese": [
+      "Sangue Do Furioso",
+      "Grito Do Furioso",
+      "Ira Do Furioso"
+    ],
+    "english": [
+      "Berserker's Blood",
+      "Berserker's Call",
+      "Berserker's Rage"
+    ],
+    "spanish": [
+      "Sangre Del Berserker",
+      "Llamada Del Berserker",
+      "Furia Del Berserker"
+    ]
+  },
+  "Ira Da Serpe": {
+    "portuguese": [
+      "Ira Do Deus Do Trovão",
+      "Fúria Da Natureza",
+      "Sangue Do Furioso"
+    ],
+    "english": [
+      "Thundergod's Wrath",
+      "Wrath Of Nature",
+      "Berserker's Blood"
+    ],
+    "spanish": [
+      "Ira Del Dios Del Trueno",
+      "Ira De La Naturaleza",
+      "Sangre Del Berserker"
+    ]
+  },
+  "X Marca O Local": {
+    "portuguese": [
+      "Spray Ácido",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
+    ],
+    "english": [
+      "Acid Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
+    ],
+    "spanish": [
+      "Ácido Pulverizado",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
+    ]
+  }
+}

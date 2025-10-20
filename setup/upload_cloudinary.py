@@ -235,16 +235,51 @@ def generate_chatgpt_prompt(data: List[dict], folder_name: str) -> str:
     if not data:
         return ""
     
-    # Extrair nomes dos arquivos (sem extensão)
-    item_names = []
-    for item in data:
-        filename = item.get('filename', '')
-        # Remover extensão
-        name = Path(filename).stem
-        item_names.append(name)
+    # Verificar se há itens multilíngues
+    has_multilingual = any(
+        item.get('display_name_en') != item.get('display_name') or 
+        item.get('display_name_es') != item.get('display_name')
+        for item in data
+    )
     
-    # Gerar o texto
-    prompt = f"""* Crie uma lista de similaridade para todos esses itens:
+    if has_multilingual:
+        # Prompt para itens multilíngues
+        multilingual_items = []
+        for item in data:
+            multilingual_items.append({
+                "portuguese": item.get('display_name', ''),
+                "english": item.get('display_name_en', ''),
+                "spanish": item.get('display_name_es', '')
+            })
+        
+        prompt = f"""* Crie uma lista de similaridade para todos esses itens multilíngues:
+
+Para cada item, me retorne um JSON com similaridades para os 3 idiomas usando esta estrutura:
+{{
+  "{{nome_em_portugues}}": {{
+    "portuguese": ["similar1_pt", "similar2_pt", "similar3_pt"],
+    "english": ["similar1_en", "similar2_en", "similar3_en"],
+    "spanish": ["similar1_es", "similar2_es", "similar3_es"]
+  }}
+}}
+
+Faça isso para cada item desta lista:
+{json.dumps(multilingual_items, indent=2, ensure_ascii=False)}
+
+IMPORTANTE: 
+- Use o nome em português como chave principal
+- Para cada idioma, encontre 3 itens similares do mesmo idioma
+- Mantenha a consistência entre os idiomas (ex: se "Fireball" é similar a "Lightning Bolt" em inglês, "Bola de Fogo" deve ser similar a "Raio" em português)"""
+    else:
+        # Prompt para itens simples (sem multilíngue)
+        item_names = []
+        for item in data:
+            filename = item.get('filename', '')
+            # Remover extensão
+            name = Path(filename).stem
+            item_names.append(name)
+        
+        prompt = f"""* Crie uma lista de similaridade para todos esses itens:
 
 me retorne um json nessa estrutura 
 {{ {{item}}:[similar1, similar2, similar3] }} 
