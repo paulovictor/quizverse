@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4",
+  "fields": {
+    "title": "M4A4",
+    "description": "Mostre que você entende tudo sobre as skins da M4A4 no Counter-Strike! Reconheça os visuais e prove seu conhecimento.",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.981Z",
+    "updated_at": "2025-10-20T17:05:28.981Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-ar",
+  "fields": {
+    "title": "M4A4",
+    "description": "¡Demuestra que eres un verdadero experto en las skins de la M4A4 en Counter-Strike! Reconoce los diseños y pon a prueba tus conocimientos.",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.986Z",
+    "updated_at": "2025-10-20T17:05:28.986Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-au",
+  "fields": {
+    "title": "M4A4",
+    "description": "Show that you're an expert on M4A4 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.980Z",
+    "updated_at": "2025-10-20T17:05:28.980Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-ca",
+  "fields": {
+    "title": "M4A4",
+    "description": "Show that you're an expert on M4A4 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.976Z",
+    "updated_at": "2025-10-20T17:05:28.976Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-co",
+  "fields": {
+    "title": "M4A4",
+    "description": "¡Demuestra que eres un verdadero experto en las skins de la M4A4 en Counter-Strike! Reconoce los diseños y pon a prueba tus conocimientos.",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.987Z",
+    "updated_at": "2025-10-20T17:05:28.987Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-es",
+  "fields": {
+    "title": "M4A4",
+    "description": "¡Demuestra que eres un verdadero experto en las skins de la M4A4 en Counter-Strike! Reconoce los diseños y pon a prueba tus conocimientos.",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.984Z",
+    "updated_at": "2025-10-20T17:05:28.984Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-gb",
+  "fields": {
+    "title": "M4A4",
+    "description": "Show that you're an expert on M4A4 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.977Z",
+    "updated_at": "2025-10-20T17:05:28.977Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-in",
+  "fields": {
+    "title": "M4A4",
+    "description": "Show that you're an expert on M4A4 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.978Z",
+    "updated_at": "2025-10-20T17:05:28.978Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-mx",
+  "fields": {
+    "title": "M4A4",
+    "description": "¡Demuestra que eres un verdadero experto en las skins de la M4A4 en Counter-Strike! Reconoce los diseños y pon a prueba tus conocimientos.",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.983Z",
+    "updated_at": "2025-10-20T17:05:28.983Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-nz",
+  "fields": {
+    "title": "M4A4",
+    "description": "Show that you're an expert on M4A4 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.981Z",
+    "updated_at": "2025-10-20T17:05:28.981Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-ph",
+  "fields": {
+    "title": "M4A4",
+    "description": "Show that you're an expert on M4A4 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.979Z",
+    "updated_at": "2025-10-20T17:05:28.979Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-pt",
+  "fields": {
+    "title": "M4A4",
+    "description": "Mostre que você entende tudo sobre as skins da M4A4 no Counter-Strike! Reconheça os visuais e prove seu conhecimento.",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.983Z",
+    "updated_at": "2025-10-20T17:05:28.983Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-m4a4-us",
+  "fields": {
+    "title": "M4A4",
+    "description": "Show that you're an expert on M4A4 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:05:28.974Z",
+    "updated_at": "2025-10-20T17:05:28.974Z"
+  }
+}
+]

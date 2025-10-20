@@ -1,0 +1,236 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas",
+  "fields": {
+    "theme": "cs-luvas",
+    "quiz_group": "luvas",
+    "title": "Acerte as Luvas",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.908Z",
+    "updated_at": "2025-10-20T13:46:59.908Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-ar",
+  "fields": {
+    "theme": "cs-luvas-ar",
+    "quiz_group": "luvas",
+    "title": "Acierta los Guantes",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.912Z",
+    "updated_at": "2025-10-20T13:46:59.912Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-au",
+  "fields": {
+    "theme": "cs-luvas-au",
+    "quiz_group": "luvas",
+    "title": "Guess the Gloves",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.906Z",
+    "updated_at": "2025-10-20T13:46:59.906Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-ca",
+  "fields": {
+    "theme": "cs-luvas-ca",
+    "quiz_group": "luvas",
+    "title": "Guess the Gloves",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.899Z",
+    "updated_at": "2025-10-20T13:46:59.899Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-co",
+  "fields": {
+    "theme": "cs-luvas-co",
+    "quiz_group": "luvas",
+    "title": "Acierta los Guantes",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.913Z",
+    "updated_at": "2025-10-20T13:46:59.913Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-es",
+  "fields": {
+    "theme": "cs-luvas-es",
+    "quiz_group": "luvas",
+    "title": "Acierta los Guantes",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.912Z",
+    "updated_at": "2025-10-20T13:46:59.912Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-gb",
+  "fields": {
+    "theme": "cs-luvas-gb",
+    "quiz_group": "luvas",
+    "title": "Guess the Gloves",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.901Z",
+    "updated_at": "2025-10-20T13:46:59.901Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-in",
+  "fields": {
+    "theme": "cs-luvas-in",
+    "quiz_group": "luvas",
+    "title": "Guess the Gloves",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.904Z",
+    "updated_at": "2025-10-20T13:46:59.904Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-mx",
+  "fields": {
+    "theme": "cs-luvas-mx",
+    "quiz_group": "luvas",
+    "title": "Acierta los Guantes",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.911Z",
+    "updated_at": "2025-10-20T13:46:59.911Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-nz",
+  "fields": {
+    "theme": "cs-luvas-nz",
+    "quiz_group": "luvas",
+    "title": "Guess the Gloves",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.907Z",
+    "updated_at": "2025-10-20T13:46:59.907Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-ph",
+  "fields": {
+    "theme": "cs-luvas-ph",
+    "quiz_group": "luvas",
+    "title": "Guess the Gloves",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.905Z",
+    "updated_at": "2025-10-20T13:46:59.905Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-pt",
+  "fields": {
+    "theme": "cs-luvas-pt",
+    "quiz_group": "luvas",
+    "title": "Acerte as Luvas",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.910Z",
+    "updated_at": "2025-10-20T13:46:59.910Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "luvas-us",
+  "fields": {
+    "theme": "cs-luvas-us",
+    "quiz_group": "luvas",
+    "title": "Guess the Gloves",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:46:59.897Z",
+    "updated_at": "2025-10-20T13:46:59.897Z"
+  }
+}
+]

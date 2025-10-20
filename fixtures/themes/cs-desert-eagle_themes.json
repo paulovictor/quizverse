@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Mostre que você conhece todas as skins lendárias da Desert Eagle no Counter-Strike! Reconheça os visuais e prove seu domínio do jogo.",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.950Z",
+    "updated_at": "2025-10-20T17:17:51.950Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-ar",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "¡Demuestra que conoces todas las skins legendarias de la Desert Eagle en Counter-Strike! Reconoce los diseños y muestra tu experiencia.",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.954Z",
+    "updated_at": "2025-10-20T17:17:51.954Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-au",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Show that you know all the legendary Desert Eagle skins in Counter-Strike! Identify the designs and prove your mastery.",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.948Z",
+    "updated_at": "2025-10-20T17:17:51.948Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-ca",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Show that you know all the legendary Desert Eagle skins in Counter-Strike! Identify the designs and prove your mastery.",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.945Z",
+    "updated_at": "2025-10-20T17:17:51.945Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-co",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "¡Demuestra que conoces todas las skins legendarias de la Desert Eagle en Counter-Strike! Reconoce los diseños y muestra tu experiencia.",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.955Z",
+    "updated_at": "2025-10-20T17:17:51.955Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-es",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "¡Demuestra que conoces todas las skins legendarias de la Desert Eagle en Counter-Strike! Reconoce los diseños y muestra tu experiencia.",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.953Z",
+    "updated_at": "2025-10-20T17:17:51.953Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-gb",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Show that you know all the legendary Desert Eagle skins in Counter-Strike! Identify the designs and prove your mastery.",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.946Z",
+    "updated_at": "2025-10-20T17:17:51.946Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-in",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Show that you know all the legendary Desert Eagle skins in Counter-Strike! Identify the designs and prove your mastery.",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.947Z",
+    "updated_at": "2025-10-20T17:17:51.947Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-mx",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "¡Demuestra que conoces todas las skins legendarias de la Desert Eagle en Counter-Strike! Reconoce los diseños y muestra tu experiencia.",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.952Z",
+    "updated_at": "2025-10-20T17:17:51.952Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-nz",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Show that you know all the legendary Desert Eagle skins in Counter-Strike! Identify the designs and prove your mastery.",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.949Z",
+    "updated_at": "2025-10-20T17:17:51.949Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-ph",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Show that you know all the legendary Desert Eagle skins in Counter-Strike! Identify the designs and prove your mastery.",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.947Z",
+    "updated_at": "2025-10-20T17:17:51.947Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-pt",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Mostre que você conhece todas as skins lendárias da Desert Eagle no Counter-Strike! Reconheça os visuais e prove seu domínio do jogo.",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.952Z",
+    "updated_at": "2025-10-20T17:17:51.952Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-desert-eagle-us",
+  "fields": {
+    "title": "Desert Eagle",
+    "description": "Show that you know all the legendary Desert Eagle skins in Counter-Strike! Identify the designs and prove your mastery.",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:17:51.942Z",
+    "updated_at": "2025-10-20T17:17:51.943Z"
+  }
+}
+]

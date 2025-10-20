@@ -1,0 +1,236 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "usps",
+  "fields": {
+    "theme": "cs-usps",
+    "quiz_group": "usps",
+    "title": "Acerte a USP-S",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.938Z",
+    "updated_at": "2025-10-20T17:29:37.938Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-ar",
+  "fields": {
+    "theme": "cs-usps-ar",
+    "quiz_group": "usps",
+    "title": "Adivina la USP-S",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.941Z",
+    "updated_at": "2025-10-20T17:29:37.941Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-au",
+  "fields": {
+    "theme": "cs-usps-au",
+    "quiz_group": "usps",
+    "title": "Guess the USP-S",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.936Z",
+    "updated_at": "2025-10-20T17:29:37.936Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-ca",
+  "fields": {
+    "theme": "cs-usps-ca",
+    "quiz_group": "usps",
+    "title": "Guess the USP-S",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.932Z",
+    "updated_at": "2025-10-20T17:29:37.932Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-co",
+  "fields": {
+    "theme": "cs-usps-co",
+    "quiz_group": "usps",
+    "title": "Adivina la USP-S",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.942Z",
+    "updated_at": "2025-10-20T17:29:37.942Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-es",
+  "fields": {
+    "theme": "cs-usps-es",
+    "quiz_group": "usps",
+    "title": "Adivina la USP-S",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.940Z",
+    "updated_at": "2025-10-20T17:29:37.940Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-gb",
+  "fields": {
+    "theme": "cs-usps-gb",
+    "quiz_group": "usps",
+    "title": "Guess the USP-S",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.933Z",
+    "updated_at": "2025-10-20T17:29:37.933Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-in",
+  "fields": {
+    "theme": "cs-usps-in",
+    "quiz_group": "usps",
+    "title": "Guess the USP-S",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.934Z",
+    "updated_at": "2025-10-20T17:29:37.934Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-mx",
+  "fields": {
+    "theme": "cs-usps-mx",
+    "quiz_group": "usps",
+    "title": "Adivina la USP-S",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.939Z",
+    "updated_at": "2025-10-20T17:29:37.939Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-nz",
+  "fields": {
+    "theme": "cs-usps-nz",
+    "quiz_group": "usps",
+    "title": "Guess the USP-S",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.937Z",
+    "updated_at": "2025-10-20T17:29:37.937Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-ph",
+  "fields": {
+    "theme": "cs-usps-ph",
+    "quiz_group": "usps",
+    "title": "Guess the USP-S",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.935Z",
+    "updated_at": "2025-10-20T17:29:37.935Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-pt",
+  "fields": {
+    "theme": "cs-usps-pt",
+    "quiz_group": "usps",
+    "title": "Acerte a USP-S",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.938Z",
+    "updated_at": "2025-10-20T17:29:37.938Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "usps-us",
+  "fields": {
+    "theme": "cs-usps-us",
+    "quiz_group": "usps",
+    "title": "Guess the USP-S",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:29:37.931Z",
+    "updated_at": "2025-10-20T17:29:37.931Z"
+  }
+}
+]

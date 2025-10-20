@@ -3,9 +3,9 @@
   "model": "quizzes.quiz",
   "pk": "herois",
   "fields": {
-    "theme": "herois",
+    "theme": "dota-herois",
     "quiz_group": "herois",
-    "title": "Acerte os Heróis",
+    "title": "Acerte o Herói do Dota",
     "description": "Responda questões aleatórias! Teste seu conhecimento.",
     "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
     "difficulty": "easy",
@@ -13,17 +13,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.378Z",
-    "updated_at": "2025-10-19T22:04:58.378Z"
+    "created_at": "2025-10-20T18:07:28.612Z",
+    "updated_at": "2025-10-20T18:07:28.612Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-ar",
   "fields": {
-    "theme": "herois-ar",
+    "theme": "dota-herois-ar",
     "quiz_group": "herois",
-    "title": "Acierta los Héroes",
+    "title": "Adivina el Héroe de Dota",
     "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
     "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
     "difficulty": "easy",
@@ -31,17 +31,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.383Z",
-    "updated_at": "2025-10-19T22:04:58.383Z"
+    "created_at": "2025-10-20T18:07:28.615Z",
+    "updated_at": "2025-10-20T18:07:28.615Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-au",
   "fields": {
-    "theme": "herois-au",
+    "theme": "dota-herois-au",
     "quiz_group": "herois",
-    "title": "Guess the Heroes",
+    "title": "Guess the Dota Hero",
     "description": "Answer random questions! Test your knowledge.",
     "description_template": "Answer random questions! Test your knowledge.",
     "difficulty": "easy",
@@ -49,17 +49,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.374Z",
-    "updated_at": "2025-10-19T22:04:58.374Z"
+    "created_at": "2025-10-20T18:07:28.611Z",
+    "updated_at": "2025-10-20T18:07:28.611Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-ca",
   "fields": {
-    "theme": "herois-ca",
+    "theme": "dota-herois-ca",
     "quiz_group": "herois",
-    "title": "Guess the Heroes",
+    "title": "Guess the Dota Hero",
     "description": "Answer random questions! Test your knowledge.",
     "description_template": "Answer random questions! Test your knowledge.",
     "difficulty": "easy",
@@ -67,17 +67,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.368Z",
-    "updated_at": "2025-10-19T22:04:58.368Z"
+    "created_at": "2025-10-20T18:07:28.607Z",
+    "updated_at": "2025-10-20T18:07:28.607Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-co",
   "fields": {
-    "theme": "herois-co",
+    "theme": "dota-herois-co",
     "quiz_group": "herois",
-    "title": "Acierta los Héroes",
+    "title": "Adivina el Héroe de Dota",
     "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
     "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
     "difficulty": "easy",
@@ -85,17 +85,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.384Z",
-    "updated_at": "2025-10-19T22:04:58.384Z"
+    "created_at": "2025-10-20T18:07:28.616Z",
+    "updated_at": "2025-10-20T18:07:28.616Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-es",
   "fields": {
-    "theme": "herois-es",
+    "theme": "dota-herois-es",
     "quiz_group": "herois",
-    "title": "Acierta los Héroes",
+    "title": "Adivina el Héroe de Dota",
     "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
     "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
     "difficulty": "easy",
@@ -103,17 +103,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.382Z",
-    "updated_at": "2025-10-19T22:04:58.382Z"
+    "created_at": "2025-10-20T18:07:28.615Z",
+    "updated_at": "2025-10-20T18:07:28.615Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-gb",
   "fields": {
-    "theme": "herois-gb",
+    "theme": "dota-herois-gb",
     "quiz_group": "herois",
-    "title": "Guess the Heroes",
+    "title": "Guess the Dota Hero",
     "description": "Answer random questions! Test your knowledge.",
     "description_template": "Answer random questions! Test your knowledge.",
     "difficulty": "easy",
@@ -121,17 +121,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.370Z",
-    "updated_at": "2025-10-19T22:04:58.370Z"
+    "created_at": "2025-10-20T18:07:28.608Z",
+    "updated_at": "2025-10-20T18:07:28.608Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-in",
   "fields": {
-    "theme": "herois-in",
+    "theme": "dota-herois-in",
     "quiz_group": "herois",
-    "title": "Guess the Heroes",
+    "title": "Guess the Dota Hero",
     "description": "Answer random questions! Test your knowledge.",
     "description_template": "Answer random questions! Test your knowledge.",
     "difficulty": "easy",
@@ -139,17 +139,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.371Z",
-    "updated_at": "2025-10-19T22:04:58.371Z"
+    "created_at": "2025-10-20T18:07:28.609Z",
+    "updated_at": "2025-10-20T18:07:28.609Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-mx",
   "fields": {
-    "theme": "herois-mx",
+    "theme": "dota-herois-mx",
     "quiz_group": "herois",
-    "title": "Acierta los Héroes",
+    "title": "Adivina el Héroe de Dota",
     "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
     "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
     "difficulty": "easy",
@@ -157,17 +157,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.380Z",
-    "updated_at": "2025-10-19T22:04:58.380Z"
+    "created_at": "2025-10-20T18:07:28.614Z",
+    "updated_at": "2025-10-20T18:07:28.614Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-nz",
   "fields": {
-    "theme": "herois-nz",
+    "theme": "dota-herois-nz",
     "quiz_group": "herois",
-    "title": "Guess the Heroes",
+    "title": "Guess the Dota Hero",
     "description": "Answer random questions! Test your knowledge.",
     "description_template": "Answer random questions! Test your knowledge.",
     "difficulty": "easy",
@@ -175,17 +175,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.376Z",
-    "updated_at": "2025-10-19T22:04:58.376Z"
+    "created_at": "2025-10-20T18:07:28.612Z",
+    "updated_at": "2025-10-20T18:07:28.612Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-ph",
   "fields": {
-    "theme": "herois-ph",
+    "theme": "dota-herois-ph",
     "quiz_group": "herois",
-    "title": "Guess the Heroes",
+    "title": "Guess the Dota Hero",
     "description": "Answer random questions! Test your knowledge.",
     "description_template": "Answer random questions! Test your knowledge.",
     "difficulty": "easy",
@@ -193,17 +193,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.372Z",
-    "updated_at": "2025-10-19T22:04:58.372Z"
+    "created_at": "2025-10-20T18:07:28.610Z",
+    "updated_at": "2025-10-20T18:07:28.610Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-pt",
   "fields": {
-    "theme": "herois-pt",
+    "theme": "dota-herois-pt",
     "quiz_group": "herois",
-    "title": "Acerte os Heróis",
+    "title": "Acerte o Herói do Dota",
     "description": "Responda questões aleatórias! Teste seu conhecimento.",
     "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
     "difficulty": "easy",
@@ -211,17 +211,17 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.379Z",
-    "updated_at": "2025-10-19T22:04:58.379Z"
+    "created_at": "2025-10-20T18:07:28.613Z",
+    "updated_at": "2025-10-20T18:07:28.613Z"
   }
 },
 {
   "model": "quizzes.quiz",
   "pk": "herois-us",
   "fields": {
-    "theme": "herois-us",
+    "theme": "dota-herois-us",
     "quiz_group": "herois",
-    "title": "Guess the Heroes",
+    "title": "Guess the Dota Hero",
     "description": "Answer random questions! Test your knowledge.",
     "description_template": "Answer random questions! Test your knowledge.",
     "difficulty": "easy",
@@ -229,8 +229,8 @@
     "question_sample_size": 0,
     "active": false,
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.366Z",
-    "updated_at": "2025-10-19T22:04:58.366Z"
+    "created_at": "2025-10-20T18:07:28.606Z",
+    "updated_at": "2025-10-20T18:07:28.606Z"
   }
 }
 ]

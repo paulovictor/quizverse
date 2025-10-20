@@ -1,0 +1,236 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "ak",
+  "fields": {
+    "theme": "cs-ak",
+    "quiz_group": "ak",
+    "title": "Acerte a AK-47",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.774Z",
+    "updated_at": "2025-10-20T13:20:19.774Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-ar",
+  "fields": {
+    "theme": "cs-ak-ar",
+    "quiz_group": "ak",
+    "title": "Acierta la AK-47",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.779Z",
+    "updated_at": "2025-10-20T13:20:19.779Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-au",
+  "fields": {
+    "theme": "cs-ak-au",
+    "quiz_group": "ak",
+    "title": "Guess the AK-47",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.772Z",
+    "updated_at": "2025-10-20T13:20:19.772Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-ca",
+  "fields": {
+    "theme": "cs-ak-ca",
+    "quiz_group": "ak",
+    "title": "Guess the AK-47",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.766Z",
+    "updated_at": "2025-10-20T13:20:19.766Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-co",
+  "fields": {
+    "theme": "cs-ak-co",
+    "quiz_group": "ak",
+    "title": "Acierta la AK-47",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.780Z",
+    "updated_at": "2025-10-20T13:20:19.780Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-es",
+  "fields": {
+    "theme": "cs-ak-es",
+    "quiz_group": "ak",
+    "title": "Acierta la AK-47",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.778Z",
+    "updated_at": "2025-10-20T13:20:19.778Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-gb",
+  "fields": {
+    "theme": "cs-ak-gb",
+    "quiz_group": "ak",
+    "title": "Guess the AK-47",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.768Z",
+    "updated_at": "2025-10-20T13:20:19.768Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-in",
+  "fields": {
+    "theme": "cs-ak-in",
+    "quiz_group": "ak",
+    "title": "Guess the AK-47",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.769Z",
+    "updated_at": "2025-10-20T13:20:19.769Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-mx",
+  "fields": {
+    "theme": "cs-ak-mx",
+    "quiz_group": "ak",
+    "title": "Acierta la AK-47",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.777Z",
+    "updated_at": "2025-10-20T13:20:19.777Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-nz",
+  "fields": {
+    "theme": "cs-ak-nz",
+    "quiz_group": "ak",
+    "title": "Guess the AK-47",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.773Z",
+    "updated_at": "2025-10-20T13:20:19.773Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-ph",
+  "fields": {
+    "theme": "cs-ak-ph",
+    "quiz_group": "ak",
+    "title": "Guess the AK-47",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.771Z",
+    "updated_at": "2025-10-20T13:20:19.771Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-pt",
+  "fields": {
+    "theme": "cs-ak-pt",
+    "quiz_group": "ak",
+    "title": "Acerte a AK-47",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.776Z",
+    "updated_at": "2025-10-20T13:20:19.776Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "ak-us",
+  "fields": {
+    "theme": "cs-ak-us",
+    "quiz_group": "ak",
+    "title": "Guess the AK-47",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T13:20:19.764Z",
+    "updated_at": "2025-10-20T13:20:19.764Z"
+  }
+}
+]

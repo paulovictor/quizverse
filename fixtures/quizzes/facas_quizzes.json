@@ -1,0 +1,236 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "facas",
+  "fields": {
+    "theme": "cs-facas",
+    "quiz_group": "facas",
+    "title": "Acerte a Faca",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.228Z",
+    "updated_at": "2025-10-20T17:55:11.228Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-ar",
+  "fields": {
+    "theme": "cs-facas-ar",
+    "quiz_group": "facas",
+    "title": "Adivina el Cuchillo",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.232Z",
+    "updated_at": "2025-10-20T17:55:11.232Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-au",
+  "fields": {
+    "theme": "cs-facas-au",
+    "quiz_group": "facas",
+    "title": "Guess the Knife",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.227Z",
+    "updated_at": "2025-10-20T17:55:11.227Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-ca",
+  "fields": {
+    "theme": "cs-facas-ca",
+    "quiz_group": "facas",
+    "title": "Guess the Knife",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.224Z",
+    "updated_at": "2025-10-20T17:55:11.224Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-co",
+  "fields": {
+    "theme": "cs-facas-co",
+    "quiz_group": "facas",
+    "title": "Adivina el Cuchillo",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.236Z",
+    "updated_at": "2025-10-20T17:55:11.236Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-es",
+  "fields": {
+    "theme": "cs-facas-es",
+    "quiz_group": "facas",
+    "title": "Adivina el Cuchillo",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.231Z",
+    "updated_at": "2025-10-20T17:55:11.231Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-gb",
+  "fields": {
+    "theme": "cs-facas-gb",
+    "quiz_group": "facas",
+    "title": "Guess the Knife",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.225Z",
+    "updated_at": "2025-10-20T17:55:11.225Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-in",
+  "fields": {
+    "theme": "cs-facas-in",
+    "quiz_group": "facas",
+    "title": "Guess the Knife",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.226Z",
+    "updated_at": "2025-10-20T17:55:11.226Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-mx",
+  "fields": {
+    "theme": "cs-facas-mx",
+    "quiz_group": "facas",
+    "title": "Adivina el Cuchillo",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.229Z",
+    "updated_at": "2025-10-20T17:55:11.229Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-nz",
+  "fields": {
+    "theme": "cs-facas-nz",
+    "quiz_group": "facas",
+    "title": "Guess the Knife",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.228Z",
+    "updated_at": "2025-10-20T17:55:11.228Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-ph",
+  "fields": {
+    "theme": "cs-facas-ph",
+    "quiz_group": "facas",
+    "title": "Guess the Knife",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.226Z",
+    "updated_at": "2025-10-20T17:55:11.226Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-pt",
+  "fields": {
+    "theme": "cs-facas-pt",
+    "quiz_group": "facas",
+    "title": "Acerte a Faca",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.229Z",
+    "updated_at": "2025-10-20T17:55:11.229Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "facas-us",
+  "fields": {
+    "theme": "cs-facas-us",
+    "quiz_group": "facas",
+    "title": "Guess the Knife",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:55:11.223Z",
+    "updated_at": "2025-10-20T17:55:11.223Z"
+  }
+}
+]

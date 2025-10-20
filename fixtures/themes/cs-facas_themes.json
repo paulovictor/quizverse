@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas",
+  "fields": {
+    "title": "Facas",
+    "description": "Mostre que você reconhece todas as facas lendárias do Counter-Strike! Identifique os modelos e skins mais icônicos e prove seu conhecimento.",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.902Z",
+    "updated_at": "2025-10-20T17:54:24.902Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-ar",
+  "fields": {
+    "title": "Cuchillos",
+    "description": "¡Demuestra que reconoces todos los cuchillos legendarios de Counter-Strike! Identifica los modelos y skins más icónicos y pon a prueba tu conocimiento.",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.906Z",
+    "updated_at": "2025-10-20T17:54:24.906Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-au",
+  "fields": {
+    "title": "Knives",
+    "description": "Show that you can recognize all the legendary knives from Counter-Strike! Identify the most iconic models and skins and prove your expertise.",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.900Z",
+    "updated_at": "2025-10-20T17:54:24.900Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-ca",
+  "fields": {
+    "title": "Knives",
+    "description": "Show that you can recognize all the legendary knives from Counter-Strike! Identify the most iconic models and skins and prove your expertise.",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.897Z",
+    "updated_at": "2025-10-20T17:54:24.897Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-co",
+  "fields": {
+    "title": "Cuchillos",
+    "description": "¡Demuestra que reconoces todos los cuchillos legendarios de Counter-Strike! Identifica los modelos y skins más icónicos y pon a prueba tu conocimiento.",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.907Z",
+    "updated_at": "2025-10-20T17:54:24.907Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-es",
+  "fields": {
+    "title": "Cuchillos",
+    "description": "¡Demuestra que reconoces todos los cuchillos legendarios de Counter-Strike! Identifica los modelos y skins más icónicos y pon a prueba tu conocimiento.",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.905Z",
+    "updated_at": "2025-10-20T17:54:24.905Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-gb",
+  "fields": {
+    "title": "Knives",
+    "description": "Show that you can recognize all the legendary knives from Counter-Strike! Identify the most iconic models and skins and prove your expertise.",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.898Z",
+    "updated_at": "2025-10-20T17:54:24.898Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-in",
+  "fields": {
+    "title": "Knives",
+    "description": "Show that you can recognize all the legendary knives from Counter-Strike! Identify the most iconic models and skins and prove your expertise.",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.899Z",
+    "updated_at": "2025-10-20T17:54:24.899Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-mx",
+  "fields": {
+    "title": "Cuchillos",
+    "description": "¡Demuestra que reconoces todos los cuchillos legendarios de Counter-Strike! Identifica los modelos y skins más icónicos y pon a prueba tu conocimiento.",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.904Z",
+    "updated_at": "2025-10-20T17:54:24.904Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-nz",
+  "fields": {
+    "title": "Knives",
+    "description": "Show that you can recognize all the legendary knives from Counter-Strike! Identify the most iconic models and skins and prove your expertise.",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.901Z",
+    "updated_at": "2025-10-20T17:54:24.901Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-ph",
+  "fields": {
+    "title": "Knives",
+    "description": "Show that you can recognize all the legendary knives from Counter-Strike! Identify the most iconic models and skins and prove your expertise.",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.900Z",
+    "updated_at": "2025-10-20T17:54:24.900Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-pt",
+  "fields": {
+    "title": "Facas",
+    "description": "Mostre que você reconhece todas as facas lendárias do Counter-Strike! Identifique os modelos e skins mais icônicos e prove seu conhecimento.",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.903Z",
+    "updated_at": "2025-10-20T17:54:24.903Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-facas-us",
+  "fields": {
+    "title": "Knives",
+    "description": "Show that you can recognize all the legendary knives from Counter-Strike! Identify the most iconic models and skins and prove your expertise.",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:54:24.895Z",
+    "updated_at": "2025-10-20T17:54:24.896Z"
+  }
+}
+]

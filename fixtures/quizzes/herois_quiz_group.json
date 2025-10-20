@@ -3,11 +3,11 @@
   "model": "quizzes.quizgroup",
   "pk": "herois",
   "fields": {
-    "name": "Acerte os Heróis",
-    "description": "Responda perguntas aleatórias e teste seu conhecimento sobre Dota!",
+    "name": "Acerte o Herói do Dota",
+    "description": "Responda perguntas aleatórias e prove que você domina o universo dos heróis de Dota!",
     "difficulty": "easy",
     "order": 1,
-    "created_at": "2025-10-19T22:04:58.357Z"
+    "created_at": "2025-10-20T18:07:28.603Z"
   }
 }
 ]

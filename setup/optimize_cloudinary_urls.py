@@ -32,7 +32,7 @@ def list_cloudinary_files():
     
     return json_files
 
-def optimize_cloudinary_url(url):
+def optimize_cloudinary_url(url, width):
     """
     Otimiza uma URL do Cloudinary adicionando parâmetros de otimização
     """
@@ -40,7 +40,7 @@ def optimize_cloudinary_url(url):
         return url
     
     # Parâmetros de otimização
-    optimization_params = "w_1000,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile"
+    optimization_params = f"w_{width},f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile"
     
     # Verificar se é uma URL do Cloudinary
     if 'cloudinary.com' not in url:
@@ -64,7 +64,7 @@ def optimize_cloudinary_url(url):
     
     return url
 
-def process_json_file(file_path):
+def process_json_file(file_path, width):
     """Processa um arquivo JSON otimizando as URLs"""
     print(f"\n🔄 Processando: {file_path.name}")
     
@@ -84,7 +84,7 @@ def process_json_file(file_path):
                 for key, value in obj.items():
                     if key == 'secure_url' and isinstance(value, str):
                         original_url = value
-                        optimized_url = optimize_cloudinary_url(original_url)
+                        optimized_url = optimize_cloudinary_url(original_url, width)
                         if optimized_url != original_url:
                             obj[key] = optimized_url
                             optimized_count += 1
@@ -117,15 +117,26 @@ def main():
     """Função principal"""
     print("🚀 OTIMIZADOR DE URLs DO CLOUDINARY")
     print("=" * 50)
+    while True:
+        width_input = input("Defina a largura máxima (ex: 500): ").strip()
+        try:
+            width_value = int(width_input)
+            if width_value <= 0:
+                raise ValueError
+            width = str(width_value)
+            break
+        except ValueError:
+            print("❌ Digite um número inteiro positivo.")
+
     print("Parâmetros de otimização:")
-    print("  - w_1000: Largura máxima 1000px")
+    print(f"  - w_{width}: Largura máxima {width}px")
     print("  - f_auto: Formato automático (WebP quando suportado)")
     print("  - q_auto:low: Qualidade baixa para menor tamanho")
     print("  - fl_lossy: Compressão com perda")
     print("  - fl_progressive: Carregamento progressivo")
     print("  - fl_strip_profile: Remove metadados")
     print()
-    
+
     # Listar arquivos disponíveis
     json_files = list_cloudinary_files()
     
@@ -143,7 +154,7 @@ def main():
             # Otimizar todos os arquivos
             total_optimized = 0
             for file_path in json_files:
-                optimized_count = process_json_file(file_path)
+                optimized_count = process_json_file(file_path, width)
                 total_optimized += optimized_count
             
             print(f"\n✨ Processo concluído!")
@@ -155,7 +166,7 @@ def main():
                 file_index = int(choice) - 1
                 if 0 <= file_index < len(json_files):
                     file_path = json_files[file_index]
-                    optimized_count = process_json_file(file_path)
+                    optimized_count = process_json_file(file_path, width)
                     
                     print(f"\n✨ Processo concluído!")
                     print(f"📊 URLs otimizadas: {optimized_count}")

@@ -1,0 +1,1262 @@
+[
+  {
+    "filename": "Abaddon.png",
+    "display_name": "Abaddon",
+    "public_id": "dota/heroes/nhvvbue4ufie9qzftito",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759457/dota/heroes/nhvvbue4ufie9qzftito.png",
+    "asset_id": "4cbc2dc49416ff3747d6a5d82ec647d9",
+    "bytes": 1387597,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Alchemist.png",
+    "display_name": "Alchemist",
+    "public_id": "dota/heroes/lwisiytuze9btynkdshr",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759458/dota/heroes/lwisiytuze9btynkdshr.png",
+    "asset_id": "53ffc0190b4f73670d31b354a5d4339c",
+    "bytes": 1362406,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Ancient Apparition.png",
+    "display_name": "Ancient Apparition",
+    "public_id": "dota/heroes/srzgdptgpumfxua1e03q",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759459/dota/heroes/srzgdptgpumfxua1e03q.png",
+    "asset_id": "5a8640a1839b0a9dc1d2fb2acb29a7e5",
+    "bytes": 2067981,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Anti Mage.png",
+    "display_name": "Anti Mage",
+    "public_id": "dota/heroes/a6vga3locoettcpcwzvh",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759460/dota/heroes/a6vga3locoettcpcwzvh.png",
+    "asset_id": "f1c9f9431b39e7f37358240557a0d22c",
+    "bytes": 1621394,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Arc Warden.png",
+    "display_name": "Arc Warden",
+    "public_id": "dota/heroes/nduaqsk6dsajkqa8v8nz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759461/dota/heroes/nduaqsk6dsajkqa8v8nz.png",
+    "asset_id": "44c9365dcc53ea122cd9efce5e0088d7",
+    "bytes": 1734707,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Axe.png",
+    "display_name": "Axe",
+    "public_id": "dota/heroes/ofwn3s7tmgt0u3wnwfxs",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759462/dota/heroes/ofwn3s7tmgt0u3wnwfxs.png",
+    "asset_id": "2be99695bdeeae4dc737c8f342f895e9",
+    "bytes": 1078761,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Bane.png",
+    "display_name": "Bane",
+    "public_id": "dota/heroes/mrxejrdmujo8owcn3zte",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759463/dota/heroes/mrxejrdmujo8owcn3zte.png",
+    "asset_id": "66306ca24d9ec425526666577db48896",
+    "bytes": 676877,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "filename": "Batrider.png",
+    "display_name": "Batrider",
+    "public_id": "dota/heroes/rh7x8awszfpcrzx1h2k3",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759463/dota/heroes/rh7x8awszfpcrzx1h2k3.png",
+    "asset_id": "49057e76cf92af5261120d7164bfe468",
+    "bytes": 527852,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Beastmaster.png",
+    "display_name": "Beastmaster",
+    "public_id": "dota/heroes/tfp8tctv7o6eiz2njyrj",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759464/dota/heroes/tfp8tctv7o6eiz2njyrj.png",
+    "asset_id": "72c5c42aacdfbe59f3684ed9a9693b8a",
+    "bytes": 1735316,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Bloodseeker.png",
+    "display_name": "Bloodseeker",
+    "public_id": "dota/heroes/krqjmtrju1w7i2o03mkd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759465/dota/heroes/krqjmtrju1w7i2o03mkd.png",
+    "asset_id": "cbf3eb756a0fab12876e59b3cb264bc3",
+    "bytes": 1327021,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Bounty Hunter.png",
+    "display_name": "Bounty Hunter",
+    "public_id": "dota/heroes/guunkeda7pgpgerm36he",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759466/dota/heroes/guunkeda7pgpgerm36he.png",
+    "asset_id": "dfd3ed0661b70818aeca8421113a7d8e",
+    "bytes": 963889,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Brewmaster.png",
+    "display_name": "Brewmaster",
+    "public_id": "dota/heroes/ijgecxona5y7v6rokmgr",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759466/dota/heroes/ijgecxona5y7v6rokmgr.png",
+    "asset_id": "b292df44191f736079b2efadcb683222",
+    "bytes": 1447688,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Bristleback.png",
+    "display_name": "Bristleback",
+    "public_id": "dota/heroes/gnwexspxkii3u0h6ncvn",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759467/dota/heroes/gnwexspxkii3u0h6ncvn.png",
+    "asset_id": "1e1cd4973459ce7ffb28c7662e7dcc39",
+    "bytes": 1439240,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Broodmother.png",
+    "display_name": "Broodmother",
+    "public_id": "dota/heroes/wgaecyrkjr1rmpdnxqjc",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759468/dota/heroes/wgaecyrkjr1rmpdnxqjc.png",
+    "asset_id": "49691dc5eff614b961532ddb7de3b790",
+    "bytes": 1810683,
+    "width": 2880,
+    "height": 1440
+  },
+  {
+    "filename": "Centaur Warrunner.png",
+    "display_name": "Centaur Warrunner",
+    "public_id": "dota/heroes/kg82qvqrzmpe2cbxibgy",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759469/dota/heroes/kg82qvqrzmpe2cbxibgy.png",
+    "asset_id": "8a2e21f3fbf7613eea4a9eb6833f62bc",
+    "bytes": 1474303,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Chaos Knight.png",
+    "display_name": "Chaos Knight",
+    "public_id": "dota/heroes/lihytjebpalqk9iwrmes",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759470/dota/heroes/lihytjebpalqk9iwrmes.png",
+    "asset_id": "bafd924d23a7f080799503b2fe347ec2",
+    "bytes": 1384178,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Chen.png",
+    "display_name": "Chen",
+    "public_id": "dota/heroes/yfw2uunic0rwpresgwin",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759470/dota/heroes/yfw2uunic0rwpresgwin.png",
+    "asset_id": "e5961af61c7a753a1c85e75b2b252f29",
+    "bytes": 1136837,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Clinkz.png",
+    "display_name": "Clinkz",
+    "public_id": "dota/heroes/entxpgk2lzmyh7dowxhs",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759471/dota/heroes/entxpgk2lzmyh7dowxhs.png",
+    "asset_id": "efd3ebfabdf900c1d41d61aa2741303d",
+    "bytes": 988415,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Clockwerk.png",
+    "display_name": "Clockwerk",
+    "public_id": "dota/heroes/vxhfvcsji2p3xpu7prm4",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759472/dota/heroes/vxhfvcsji2p3xpu7prm4.png",
+    "asset_id": "79502c9d94197c843adc8dd1e8f91b33",
+    "bytes": 1350296,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Crystal Maiden.png",
+    "display_name": "Crystal Maiden",
+    "public_id": "dota/heroes/euvlbqu31gbiqyweosdh",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759473/dota/heroes/euvlbqu31gbiqyweosdh.png",
+    "asset_id": "db35ea68b67bbe105f6ada459ecd4b2f",
+    "bytes": 1410432,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Dark Seer.png",
+    "display_name": "Dark Seer",
+    "public_id": "dota/heroes/szwakwsgzsl5pbsxsozj",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759473/dota/heroes/szwakwsgzsl5pbsxsozj.png",
+    "asset_id": "ac4a7fc5669c0618b5c477b2497f756a",
+    "bytes": 1532011,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Dark Willow.png",
+    "display_name": "Dark Willow",
+    "public_id": "dota/heroes/onu5jba9dhacszt5d9kq",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759474/dota/heroes/onu5jba9dhacszt5d9kq.png",
+    "asset_id": "d88d3c68dab96a3a4e21d45565b75f4f",
+    "bytes": 1001964,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Dawnbreaker.png",
+    "display_name": "Dawnbreaker",
+    "public_id": "dota/heroes/iszhq1xwkmjgjdovwdza",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759475/dota/heroes/iszhq1xwkmjgjdovwdza.png",
+    "asset_id": "afe66ccbf6a2e7728e4009101b73484c",
+    "bytes": 1213264,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Dazzle.png",
+    "display_name": "Dazzle",
+    "public_id": "dota/heroes/lnrbozfthltemtah2vop",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759475/dota/heroes/lnrbozfthltemtah2vop.png",
+    "asset_id": "432eded1daa28a7d974a49b40ccdde9e",
+    "bytes": 1157467,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Death Prophet.png",
+    "display_name": "Death Prophet",
+    "public_id": "dota/heroes/iujwxe6tg9ojlrdoq8zd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759476/dota/heroes/iujwxe6tg9ojlrdoq8zd.png",
+    "asset_id": "8fbcec1e40977132d580fc853febb3d3",
+    "bytes": 1092509,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Disruptor.png",
+    "display_name": "Disruptor",
+    "public_id": "dota/heroes/i0bv9vmi4tlojwoipkel",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759477/dota/heroes/i0bv9vmi4tlojwoipkel.png",
+    "asset_id": "13096a8a8a5f97e615402c8cbd16549b",
+    "bytes": 1404082,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Doom.png",
+    "display_name": "Doom",
+    "public_id": "dota/heroes/n7nuxf6mq8smz5dqu5tg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759477/dota/heroes/n7nuxf6mq8smz5dqu5tg.png",
+    "asset_id": "33aced93b1b2d3e89e31012d4edbc45b",
+    "bytes": 1252702,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Dragon Knight.png",
+    "display_name": "Dragon Knight",
+    "public_id": "dota/heroes/vupkc5bq7tfash3waydz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759478/dota/heroes/vupkc5bq7tfash3waydz.png",
+    "asset_id": "64f58cef60c08d65a87fe6d436cc321c",
+    "bytes": 1143505,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Drow Ranger.png",
+    "display_name": "Drow Ranger",
+    "public_id": "dota/heroes/nqasmoaqw6yduwxzepna",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759479/dota/heroes/nqasmoaqw6yduwxzepna.png",
+    "asset_id": "150225f90cdbf28f05c27e41de8ce91c",
+    "bytes": 1094233,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Earth Spirit.png",
+    "display_name": "Earth Spirit",
+    "public_id": "dota/heroes/fnq122zretrwjmxt9t00",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759479/dota/heroes/fnq122zretrwjmxt9t00.png",
+    "asset_id": "0f72b5cd25aa825e9800f3815c7a5169",
+    "bytes": 1491840,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Earthshaker.png",
+    "display_name": "Earthshaker",
+    "public_id": "dota/heroes/t7ays6nbbcyf6vvw0mrm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759480/dota/heroes/t7ays6nbbcyf6vvw0mrm.png",
+    "asset_id": "c09415191866e5d2d291468414d5f74c",
+    "bytes": 1836280,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Elder Titan.png",
+    "display_name": "Elder Titan",
+    "public_id": "dota/heroes/klyela9fxuzmjvoas6at",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759481/dota/heroes/klyela9fxuzmjvoas6at.png",
+    "asset_id": "008598a37f591e40fef684cccd16f74c",
+    "bytes": 1550477,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Ember Spirit.png",
+    "display_name": "Ember Spirit",
+    "public_id": "dota/heroes/p8pifgwgc9w0o72mtb9u",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759481/dota/heroes/p8pifgwgc9w0o72mtb9u.png",
+    "asset_id": "4d24ee26c7d4b0a7ed0c17ac4b4cb04c",
+    "bytes": 1467094,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Enchantress.png",
+    "display_name": "Enchantress",
+    "public_id": "dota/heroes/c8pvk4fa86upuez9itdc",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759482/dota/heroes/c8pvk4fa86upuez9itdc.png",
+    "asset_id": "c48e00f4eea96321294c65c6194c0d2d",
+    "bytes": 959946,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Enigma.png",
+    "display_name": "Enigma",
+    "public_id": "dota/heroes/zywz18anfrqdzl5jqy7a",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759483/dota/heroes/zywz18anfrqdzl5jqy7a.png",
+    "asset_id": "2989db6940ee684706aa470d16566038",
+    "bytes": 1179441,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Faceless Void.png",
+    "display_name": "Faceless Void",
+    "public_id": "dota/heroes/odcbp8ja1704sezcecvz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759483/dota/heroes/odcbp8ja1704sezcecvz.png",
+    "asset_id": "c0aa17f752993c4144fa96013ac838d0",
+    "bytes": 1384511,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Grimstroke.png",
+    "display_name": "Grimstroke",
+    "public_id": "dota/heroes/tvsg1xgjauovfxxke1yd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759484/dota/heroes/tvsg1xgjauovfxxke1yd.png",
+    "asset_id": "fbb6d6ac783affd3e6f44dbc2cf6312f",
+    "bytes": 1199598,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Gyrocopter.png",
+    "display_name": "Gyrocopter",
+    "public_id": "dota/heroes/fykxyirwcp6gbje05zc0",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759485/dota/heroes/fykxyirwcp6gbje05zc0.png",
+    "asset_id": "1e473f78b95d4ff78e0cc098492cd688",
+    "bytes": 1430934,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Hoodwink.png",
+    "display_name": "Hoodwink",
+    "public_id": "dota/heroes/uay9ebxdsjeidcp2frn8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759486/dota/heroes/uay9ebxdsjeidcp2frn8.png",
+    "asset_id": "346ac9380d5a2e72eeeb054bdca8bcd3",
+    "bytes": 1548921,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Huskar.png",
+    "display_name": "Huskar",
+    "public_id": "dota/heroes/t0vru7ygv8ryxie3m0lb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759486/dota/heroes/t0vru7ygv8ryxie3m0lb.png",
+    "asset_id": "f4bf10aaacd8ee2319f5b49f78413d1a",
+    "bytes": 1259040,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Invoker.png",
+    "display_name": "Invoker",
+    "public_id": "dota/heroes/cdcrk4sv7qckdfvyvnis",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759487/dota/heroes/cdcrk4sv7qckdfvyvnis.png",
+    "asset_id": "38fa67e84f7ad5d384ca856d6dca9b12",
+    "bytes": 1785823,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Io.png",
+    "display_name": "Io",
+    "public_id": "dota/heroes/f8ztwekjxicrwuhxjdws",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759488/dota/heroes/f8ztwekjxicrwuhxjdws.png",
+    "asset_id": "96ba98ba2dceec42db104f4acadba6ff",
+    "bytes": 725103,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Jakiro.png",
+    "display_name": "Jakiro",
+    "public_id": "dota/heroes/gilx2hzlun98olomphj1",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759488/dota/heroes/gilx2hzlun98olomphj1.png",
+    "asset_id": "0fc53f452d1f5ef1d50646c19053bb97",
+    "bytes": 1675110,
+    "width": 2880,
+    "height": 1440
+  },
+  {
+    "filename": "Juggernaut.png",
+    "display_name": "Juggernaut",
+    "public_id": "dota/heroes/mu2orqyu3ea2t8rvird8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759489/dota/heroes/mu2orqyu3ea2t8rvird8.png",
+    "asset_id": "9243ed08c5cd43411f3c039aee90b511",
+    "bytes": 1180425,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Keeper Of The Light.png",
+    "display_name": "Keeper Of The Light",
+    "public_id": "dota/heroes/dr72kag16k2kcbmyxcne",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759490/dota/heroes/dr72kag16k2kcbmyxcne.png",
+    "asset_id": "231936a371f293130a773e99d96674b5",
+    "bytes": 1404110,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Kez.png",
+    "display_name": "Kez",
+    "public_id": "dota/heroes/vvf8i6hc9r6s15yl08z8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759491/dota/heroes/vvf8i6hc9r6s15yl08z8.png",
+    "asset_id": "acd1c8646dcc3297ca0e3d0fccda0327",
+    "bytes": 552157,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Kunkka.png",
+    "display_name": "Kunkka",
+    "public_id": "dota/heroes/a0wpduwztqch9cgouzeg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759491/dota/heroes/a0wpduwztqch9cgouzeg.png",
+    "asset_id": "db228d63ec6bb0f3e29e77f45ebe5579",
+    "bytes": 1422297,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Legion Commander.png",
+    "display_name": "Legion Commander",
+    "public_id": "dota/heroes/gxfsqs3zof1zsee4bejp",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759492/dota/heroes/gxfsqs3zof1zsee4bejp.png",
+    "asset_id": "d3ea701741f93fda3e1db01aaf1920d0",
+    "bytes": 1143828,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Leshrac.png",
+    "display_name": "Leshrac",
+    "public_id": "dota/heroes/lz4yptu71xrx6lyr0l7n",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759493/dota/heroes/lz4yptu71xrx6lyr0l7n.png",
+    "asset_id": "b29745b30fe706baee2c26ab89efe605",
+    "bytes": 1591414,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Lich.png",
+    "display_name": "Lich",
+    "public_id": "dota/heroes/jusyofi5yyy5o9z64svt",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759494/dota/heroes/jusyofi5yyy5o9z64svt.png",
+    "asset_id": "9887accdd2f1faa0a6fb0654247a6f47",
+    "bytes": 1813631,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Lifestealer.png",
+    "display_name": "Lifestealer",
+    "public_id": "dota/heroes/gr9dzrcxtnjw39f8xh25",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759494/dota/heroes/gr9dzrcxtnjw39f8xh25.png",
+    "asset_id": "a903847c4f268df3cf5d5055c12a38b3",
+    "bytes": 1078935,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Lina.png",
+    "display_name": "Lina",
+    "public_id": "dota/heroes/bqt1k9kh1s9lzaafpswi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759496/dota/heroes/bqt1k9kh1s9lzaafpswi.png",
+    "asset_id": "5c3cf8d17437cdbd26a8d17207e83c35",
+    "bytes": 1051011,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Lion.png",
+    "display_name": "Lion",
+    "public_id": "dota/heroes/ms4s4qgozzv6rmnfmlng",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759496/dota/heroes/ms4s4qgozzv6rmnfmlng.png",
+    "asset_id": "fae152d23fb213dd97dd09d42f66c3d3",
+    "bytes": 1442596,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Lone Druid.png",
+    "display_name": "Lone Druid",
+    "public_id": "dota/heroes/zlymukprcvk7c5ygyzvy",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759497/dota/heroes/zlymukprcvk7c5ygyzvy.png",
+    "asset_id": "aac4d603592f15813d9474059fac8be9",
+    "bytes": 1639746,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Luna.png",
+    "display_name": "Luna",
+    "public_id": "dota/heroes/ak6ws2lnjcwqare5ljmw",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759498/dota/heroes/ak6ws2lnjcwqare5ljmw.png",
+    "asset_id": "ccd3c35ea348a425ee52605c0e568f5d",
+    "bytes": 1373853,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Lycan.png",
+    "display_name": "Lycan",
+    "public_id": "dota/heroes/jivbik04phopqjmk5ej0",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759498/dota/heroes/jivbik04phopqjmk5ej0.png",
+    "asset_id": "edbe31d71eb927beebcc12aee5ef86b6",
+    "bytes": 1568045,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Magnus.png",
+    "display_name": "Magnus",
+    "public_id": "dota/heroes/nsagoui3n37tfovqayfb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759499/dota/heroes/nsagoui3n37tfovqayfb.png",
+    "asset_id": "1928449a53825a43742fa4cca33449a4",
+    "bytes": 1291814,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Marci.png",
+    "display_name": "Marci",
+    "public_id": "dota/heroes/lwbcn3qdx30ne7usu1vn",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759500/dota/heroes/lwbcn3qdx30ne7usu1vn.png",
+    "asset_id": "808327e0a5d7bbfe47ba5a06850dc3d3",
+    "bytes": 716793,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Mars.png",
+    "display_name": "Mars",
+    "public_id": "dota/heroes/f4ejud93xhbvdsgddfle",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759501/dota/heroes/f4ejud93xhbvdsgddfle.png",
+    "asset_id": "a68eb8581f1712dc83140a4ef4eb67f4",
+    "bytes": 1437873,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Medusa.png",
+    "display_name": "Medusa",
+    "public_id": "dota/heroes/sr5amm966kpddptit9xl",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759501/dota/heroes/sr5amm966kpddptit9xl.png",
+    "asset_id": "1ab2079e37309c7044185c38e31c7700",
+    "bytes": 1121541,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Meepo.png",
+    "display_name": "Meepo",
+    "public_id": "dota/heroes/oo63z6eqc0oniflarxrg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759502/dota/heroes/oo63z6eqc0oniflarxrg.png",
+    "asset_id": "aab44eb56b9622a09191319df03396c5",
+    "bytes": 923778,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Mirana.png",
+    "display_name": "Mirana",
+    "public_id": "dota/heroes/fwcoy6eflncaujhvevcq",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759503/dota/heroes/fwcoy6eflncaujhvevcq.png",
+    "asset_id": "189d3574c118ce463d902184bdf52697",
+    "bytes": 1412940,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Monkey King.png",
+    "display_name": "Monkey King",
+    "public_id": "dota/heroes/w4n4s72jtcff1h1d0dzm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759503/dota/heroes/w4n4s72jtcff1h1d0dzm.png",
+    "asset_id": "3d77257578da0e09fa8bc9722db241cf",
+    "bytes": 832572,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Morphling.png",
+    "display_name": "Morphling",
+    "public_id": "dota/heroes/flklt5rcon8abnnsztkr",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759504/dota/heroes/flklt5rcon8abnnsztkr.png",
+    "asset_id": "31df8a3290204bc2f2a9b02b921aa36a",
+    "bytes": 1866148,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Muerta.png",
+    "display_name": "Muerta",
+    "public_id": "dota/heroes/sib94ihyxmq1cl1yduf0",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759505/dota/heroes/sib94ihyxmq1cl1yduf0.png",
+    "asset_id": "0ea843a4b7f4069cf892f86cb8cb0675",
+    "bytes": 971497,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Naga Siren.png",
+    "display_name": "Naga Siren",
+    "public_id": "dota/heroes/wn5aeig55gqc8mrb5sgv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759505/dota/heroes/wn5aeig55gqc8mrb5sgv.png",
+    "asset_id": "99b4a037e61f52dd7aa88a013d1a29a6",
+    "bytes": 830421,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Nature's Prophet.png",
+    "display_name": "Nature's Prophet",
+    "public_id": "dota/heroes/gseto3skyjgt5wwsnsaq",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759506/dota/heroes/gseto3skyjgt5wwsnsaq.png",
+    "asset_id": "3070b7af7659861e5fc8add2badec9b2",
+    "bytes": 1266796,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Necrophos.png",
+    "display_name": "Necrophos",
+    "public_id": "dota/heroes/kgyh2r6uxrkodcupha9h",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759507/dota/heroes/kgyh2r6uxrkodcupha9h.png",
+    "asset_id": "9ec1a9d98d617f1eb0b3d636e2898a53",
+    "bytes": 1627825,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Night Stalker.png",
+    "display_name": "Night Stalker",
+    "public_id": "dota/heroes/ce2nkgxqosodhf7hqcc0",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759507/dota/heroes/ce2nkgxqosodhf7hqcc0.png",
+    "asset_id": "d4c297119bb8095c99f17d0f1168b82d",
+    "bytes": 1299426,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Nyx Assassin.png",
+    "display_name": "Nyx Assassin",
+    "public_id": "dota/heroes/i56lvd980rkreamhhimz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759508/dota/heroes/i56lvd980rkreamhhimz.png",
+    "asset_id": "32d010dd1a2cc79469bf35746d932454",
+    "bytes": 1063001,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Ogre Magi.png",
+    "display_name": "Ogre Magi",
+    "public_id": "dota/heroes/tgnrqzy7381lsvxhfb1o",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759509/dota/heroes/tgnrqzy7381lsvxhfb1o.png",
+    "asset_id": "9d6b53ad90c53807e6331ffc60e564c6",
+    "bytes": 1819431,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Omniknight.png",
+    "display_name": "Omniknight",
+    "public_id": "dota/heroes/dpnhn4aarxyywncwbyjf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759509/dota/heroes/dpnhn4aarxyywncwbyjf.png",
+    "asset_id": "dd7d1c79b7297626b84273c1c54f26ec",
+    "bytes": 1228386,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Oracle.png",
+    "display_name": "Oracle",
+    "public_id": "dota/heroes/qdsfhp2quvatqca1gare",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759510/dota/heroes/qdsfhp2quvatqca1gare.png",
+    "asset_id": "7c30ded621603330a3448b70e9e83413",
+    "bytes": 1534713,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Outworld Destroyer.png",
+    "display_name": "Outworld Destroyer",
+    "public_id": "dota/heroes/oau2bzakkbrqjs4kg1tb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759511/dota/heroes/oau2bzakkbrqjs4kg1tb.png",
+    "asset_id": "0cfbd84ac58a34856167356c5127c0b2",
+    "bytes": 1372802,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Pangolier.png",
+    "display_name": "Pangolier",
+    "public_id": "dota/heroes/jyuklwsrmcdujyefh7za",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759512/dota/heroes/jyuklwsrmcdujyefh7za.png",
+    "asset_id": "20d589577b9801e9482c0ac17c4d89a0",
+    "bytes": 1171099,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Phantom Assassin.png",
+    "display_name": "Phantom Assassin",
+    "public_id": "dota/heroes/kyox1wlstd1xb0azomy7",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759512/dota/heroes/kyox1wlstd1xb0azomy7.png",
+    "asset_id": "ca64743f7c57fb7535c7c9cdec14ddd5",
+    "bytes": 1118025,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Phantom Lancer.png",
+    "display_name": "Phantom Lancer",
+    "public_id": "dota/heroes/okbicrwj9enn8mgp8z3n",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759513/dota/heroes/okbicrwj9enn8mgp8z3n.png",
+    "asset_id": "0130b2a2a7160d6ed4af9b478300d77a",
+    "bytes": 957231,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Phoenix.png",
+    "display_name": "Phoenix",
+    "public_id": "dota/heroes/jc2abgrtujso7a0uz32k",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759514/dota/heroes/jc2abgrtujso7a0uz32k.png",
+    "asset_id": "4761b2e44d9313f743218de581763b3a",
+    "bytes": 1432592,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Primal Beast.png",
+    "display_name": "Primal Beast",
+    "public_id": "dota/heroes/tph1qvydmccm749unohm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759514/dota/heroes/tph1qvydmccm749unohm.png",
+    "asset_id": "cfd24ccdc6854299994cddd7c289df86",
+    "bytes": 620007,
+    "width": 1150,
+    "height": 730
+  },
+  {
+    "filename": "Puck.png",
+    "display_name": "Puck",
+    "public_id": "dota/heroes/fxuy7wkx8qudmgdew3qu",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759516/dota/heroes/fxuy7wkx8qudmgdew3qu.png",
+    "asset_id": "115ceac0ae681e09c2f567be0a65d404",
+    "bytes": 961046,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Pudge.png",
+    "display_name": "Pudge",
+    "public_id": "dota/heroes/aloe3g9dcva3xkgjkort",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759516/dota/heroes/aloe3g9dcva3xkgjkort.png",
+    "asset_id": "39c624f38a7238bb1d31d060558e1344",
+    "bytes": 1023706,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Pugna.png",
+    "display_name": "Pugna",
+    "public_id": "dota/heroes/ewtqtd61cl87mag8hjam",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759517/dota/heroes/ewtqtd61cl87mag8hjam.png",
+    "asset_id": "7afa81446b0fbad9a633bbe367f52429",
+    "bytes": 1661121,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Queen Of Pain.png",
+    "display_name": "Queen Of Pain",
+    "public_id": "dota/heroes/c9phk1i340yijhbskkys",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759518/dota/heroes/c9phk1i340yijhbskkys.png",
+    "asset_id": "55d07d3e58166af3704327e2f5f9e4fb",
+    "bytes": 1114839,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Razor.png",
+    "display_name": "Razor",
+    "public_id": "dota/heroes/dxdwgtrqhhs6dmoyx4j8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759518/dota/heroes/dxdwgtrqhhs6dmoyx4j8.png",
+    "asset_id": "22c3408796ad0b8e9ae7aa200e146c23",
+    "bytes": 1294808,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Riki.png",
+    "display_name": "Riki",
+    "public_id": "dota/heroes/jryi2ex2y0xnrjn7wwfz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759519/dota/heroes/jryi2ex2y0xnrjn7wwfz.png",
+    "asset_id": "d5750cef023d09f43848baa442613eac",
+    "bytes": 1215339,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Ringmaster.png",
+    "display_name": "Ringmaster",
+    "public_id": "dota/heroes/nlklt3g0e0uulkw73u7s",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759520/dota/heroes/nlklt3g0e0uulkw73u7s.png",
+    "asset_id": "6091fc3e626b0894e19966e379eeee04",
+    "bytes": 800761,
+    "width": 1576,
+    "height": 1536
+  },
+  {
+    "filename": "Rubick.png",
+    "display_name": "Rubick",
+    "public_id": "dota/heroes/hhae874ripfqhdfe829n",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759520/dota/heroes/hhae874ripfqhdfe829n.png",
+    "asset_id": "99b5798ccb84ad8f72e6d52691498e8f",
+    "bytes": 1181011,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Sand King.png",
+    "display_name": "Sand King",
+    "public_id": "dota/heroes/vrjfhiyjx9chhigkwfle",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759521/dota/heroes/vrjfhiyjx9chhigkwfle.png",
+    "asset_id": "260c71d066a3ad42a6f4c6dc5956730a",
+    "bytes": 1146321,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Shadow Demon.png",
+    "display_name": "Shadow Demon",
+    "public_id": "dota/heroes/beikf6etrsuxft4xp6v2",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759522/dota/heroes/beikf6etrsuxft4xp6v2.png",
+    "asset_id": "cd0b7237596f747cfc40be6e763b83dc",
+    "bytes": 1348261,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Shadow Fiend.png",
+    "display_name": "Shadow Fiend",
+    "public_id": "dota/heroes/swjgollstwfujqc3o7qb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759522/dota/heroes/swjgollstwfujqc3o7qb.png",
+    "asset_id": "d8b7ddeebb41b1ed384b6aa4accb4807",
+    "bytes": 1364865,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Shadow Shaman.png",
+    "display_name": "Shadow Shaman",
+    "public_id": "dota/heroes/rcgjsbqnrnewe6caupoo",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759523/dota/heroes/rcgjsbqnrnewe6caupoo.png",
+    "asset_id": "8a4a466fa06fa08e249d75748d9b3c72",
+    "bytes": 1361228,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Silencer.png",
+    "display_name": "Silencer",
+    "public_id": "dota/heroes/i4kgdvl6pijumtfjtpnl",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759524/dota/heroes/i4kgdvl6pijumtfjtpnl.png",
+    "asset_id": "3c9ea7fe38b76d9cf8c15fd387a56c6f",
+    "bytes": 1049350,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Skywrath Mage.png",
+    "display_name": "Skywrath Mage",
+    "public_id": "dota/heroes/km4ag2clakq4vdpgs1li",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759525/dota/heroes/km4ag2clakq4vdpgs1li.png",
+    "asset_id": "e910433b25546e35b6f240cbd840acad",
+    "bytes": 1027361,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Slardar.png",
+    "display_name": "Slardar",
+    "public_id": "dota/heroes/hkxhfxgr1rybb5calkjo",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759525/dota/heroes/hkxhfxgr1rybb5calkjo.png",
+    "asset_id": "e73e20fec302878df31024fcb69f4839",
+    "bytes": 1306885,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Slark.png",
+    "display_name": "Slark",
+    "public_id": "dota/heroes/aesjcywyts6ztgyn6pvd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759526/dota/heroes/aesjcywyts6ztgyn6pvd.png",
+    "asset_id": "7d585db47aa004e12e28ab6bcfc1bec8",
+    "bytes": 1396108,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Snapfire.png",
+    "display_name": "Snapfire",
+    "public_id": "dota/heroes/x3fabfibcvbmkxfbwyts",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759527/dota/heroes/x3fabfibcvbmkxfbwyts.png",
+    "asset_id": "2ecae3e51800abb093976129d9dd7352",
+    "bytes": 1675417,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Sniper.png",
+    "display_name": "Sniper",
+    "public_id": "dota/heroes/oblhhjgmxlm2rdzlm2tw",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759527/dota/heroes/oblhhjgmxlm2rdzlm2tw.png",
+    "asset_id": "681f2c16ee8bf4c951ec07f9ea84fc14",
+    "bytes": 1451982,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Spectre.png",
+    "display_name": "Spectre",
+    "public_id": "dota/heroes/ofcvxdyo1rxatindmpmf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759528/dota/heroes/ofcvxdyo1rxatindmpmf.png",
+    "asset_id": "214e0492f83f1cf60d2a84ef64ac7822",
+    "bytes": 1745416,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Spirit Breaker.png",
+    "display_name": "Spirit Breaker",
+    "public_id": "dota/heroes/ir7uwo9qmqdcftpe2zao",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759529/dota/heroes/ir7uwo9qmqdcftpe2zao.png",
+    "asset_id": "5c5dae9d9869737c7f9c74e885e95e55",
+    "bytes": 1870820,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Storm Spirit.png",
+    "display_name": "Storm Spirit",
+    "public_id": "dota/heroes/gycsxmwkmwx4jnrzzcyp",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759529/dota/heroes/gycsxmwkmwx4jnrzzcyp.png",
+    "asset_id": "587c7c93709afc97546124054cd31d36",
+    "bytes": 958020,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Sven.png",
+    "display_name": "Sven",
+    "public_id": "dota/heroes/hhhgeyobtcfn4lhmgjxi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759530/dota/heroes/hhhgeyobtcfn4lhmgjxi.png",
+    "asset_id": "dec6930d2ffc174222b6b6bd83e84ee6",
+    "bytes": 1054340,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Techies.png",
+    "display_name": "Techies",
+    "public_id": "dota/heroes/x3jbon29v9rcew3xlwzz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759531/dota/heroes/x3jbon29v9rcew3xlwzz.png",
+    "asset_id": "e33c6ab5ee5b6ab2da2dd13cb5ac544a",
+    "bytes": 1623762,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Templar Assassin.png",
+    "display_name": "Templar Assassin",
+    "public_id": "dota/heroes/h2gstq4n2braxu4ahvsh",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759532/dota/heroes/h2gstq4n2braxu4ahvsh.png",
+    "asset_id": "50749e7ca22d8737173f14d4922cec5c",
+    "bytes": 1066113,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Terrorblade.png",
+    "display_name": "Terrorblade",
+    "public_id": "dota/heroes/yeainp6j1jjvybtikbrn",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759533/dota/heroes/yeainp6j1jjvybtikbrn.png",
+    "asset_id": "78c151b3e1c5fb70968cadc538b35872",
+    "bytes": 1330306,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Tidehunter.png",
+    "display_name": "Tidehunter",
+    "public_id": "dota/heroes/nnovwjaogfomskfytjfi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759533/dota/heroes/nnovwjaogfomskfytjfi.png",
+    "asset_id": "21659a5e81cda8186b091c8d4c56b14b",
+    "bytes": 1551425,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Timbersaw.png",
+    "display_name": "Timbersaw",
+    "public_id": "dota/heroes/je53pcmyfc81aqjqsu0c",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759534/dota/heroes/je53pcmyfc81aqjqsu0c.png",
+    "asset_id": "53a7ef2b2127d38455018070e6f127d1",
+    "bytes": 1200985,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Tinker.png",
+    "display_name": "Tinker",
+    "public_id": "dota/heroes/n2iedlrg58khusyfnfmy",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759535/dota/heroes/n2iedlrg58khusyfnfmy.png",
+    "asset_id": "883aff0fd5f2867e37bda3a945946e7a",
+    "bytes": 1026896,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Tiny.png",
+    "display_name": "Tiny",
+    "public_id": "dota/heroes/hhub8gd70gqevlx9yj8u",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759535/dota/heroes/hhub8gd70gqevlx9yj8u.png",
+    "asset_id": "3c20ae6f5e002992fe68f16609ef1c91",
+    "bytes": 1609685,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Treant Protector.png",
+    "display_name": "Treant Protector",
+    "public_id": "dota/heroes/y5pkaylhqb9v00dnexou",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759536/dota/heroes/y5pkaylhqb9v00dnexou.png",
+    "asset_id": "62faab40e08798848345bf8e4dc613b3",
+    "bytes": 1591223,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Troll Warlord.png",
+    "display_name": "Troll Warlord",
+    "public_id": "dota/heroes/jeql3x3mx4havmoh8ob2",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759537/dota/heroes/jeql3x3mx4havmoh8ob2.png",
+    "asset_id": "75d5f63ffa80a355d3a02130d9a63604",
+    "bytes": 929678,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Tusk.png",
+    "display_name": "Tusk",
+    "public_id": "dota/heroes/ii9rxo5uy67xd5h6v32r",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759537/dota/heroes/ii9rxo5uy67xd5h6v32r.png",
+    "asset_id": "db6773518a02b2f17b20e0dadc9cc9f4",
+    "bytes": 1373336,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Underlord.png",
+    "display_name": "Underlord",
+    "public_id": "dota/heroes/ehyuzivdcl3ogjrchnno",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759538/dota/heroes/ehyuzivdcl3ogjrchnno.png",
+    "asset_id": "c067c4b9efdfa5ae661a0a36c2036859",
+    "bytes": 1721769,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Undying.png",
+    "display_name": "Undying",
+    "public_id": "dota/heroes/lx7zx4hmnnewpjsquukl",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759539/dota/heroes/lx7zx4hmnnewpjsquukl.png",
+    "asset_id": "f724bdc6e5e7693eb284c6af8f9d3d27",
+    "bytes": 976103,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Ursa.png",
+    "display_name": "Ursa",
+    "public_id": "dota/heroes/hjuqwsb2umztqd48pahg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759539/dota/heroes/hjuqwsb2umztqd48pahg.png",
+    "asset_id": "316425c5023a1dfc4cc135bc1c75fe6d",
+    "bytes": 1302432,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Vengeful Spirit.png",
+    "display_name": "Vengeful Spirit",
+    "public_id": "dota/heroes/knbgw2gqmnpi5qsqh3md",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759540/dota/heroes/knbgw2gqmnpi5qsqh3md.png",
+    "asset_id": "0d5c762d763942be62219b91cf50ed53",
+    "bytes": 1394079,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Venomancer.png",
+    "display_name": "Venomancer",
+    "public_id": "dota/heroes/baqebsep668nu7zseegs",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759541/dota/heroes/baqebsep668nu7zseegs.png",
+    "asset_id": "322e4ab66fadeb6d90bc44c38ed70143",
+    "bytes": 1020602,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Viper.png",
+    "display_name": "Viper",
+    "public_id": "dota/heroes/y3q5zg38aj5pi1oupgjg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759541/dota/heroes/y3q5zg38aj5pi1oupgjg.png",
+    "asset_id": "114913f6c2743bf654fe352a8af23d40",
+    "bytes": 972280,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Visage.png",
+    "display_name": "Visage",
+    "public_id": "dota/heroes/nkbo5rygik6w3mcvdipz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759542/dota/heroes/nkbo5rygik6w3mcvdipz.png",
+    "asset_id": "3515590cd2606fa4c3a729f4f1025de0",
+    "bytes": 971834,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Void Spirit.png",
+    "display_name": "Void Spirit",
+    "public_id": "dota/heroes/chgwrjoxlrnuefrbcyjk",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759543/dota/heroes/chgwrjoxlrnuefrbcyjk.png",
+    "asset_id": "d46c359544f3de8d7a98827fe365a523",
+    "bytes": 1207065,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Warlock.png",
+    "display_name": "Warlock",
+    "public_id": "dota/heroes/y0t1j8xpk5trmn4svdhb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759544/dota/heroes/y0t1j8xpk5trmn4svdhb.png",
+    "asset_id": "e75899e2cd5970ab5c59c6aae04c551a",
+    "bytes": 1939460,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Weaver.png",
+    "display_name": "Weaver",
+    "public_id": "dota/heroes/fcwsrmp7gd6txzajptxl",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759544/dota/heroes/fcwsrmp7gd6txzajptxl.png",
+    "asset_id": "ea85910f0c7fa1311d4fb4195a218667",
+    "bytes": 984134,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Windranger.png",
+    "display_name": "Windranger",
+    "public_id": "dota/heroes/vrbmufludcardrohqraa",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759545/dota/heroes/vrbmufludcardrohqraa.png",
+    "asset_id": "907bf32c385bca7d17822a81561bcb87",
+    "bytes": 939814,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Winter Wyvern.png",
+    "display_name": "Winter Wyvern",
+    "public_id": "dota/heroes/tsvq13pls72cpcs0qhqb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759546/dota/heroes/tsvq13pls72cpcs0qhqb.png",
+    "asset_id": "37453ddabd06cb1b593156ce93c74a17",
+    "bytes": 1075319,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "filename": "Witch Doctor.png",
+    "display_name": "Witch Doctor",
+    "public_id": "dota/heroes/auie2tflu914oxgzb2nr",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759547/dota/heroes/auie2tflu914oxgzb2nr.png",
+    "asset_id": "5f3e18d5254554cf345f987e02ec1aab",
+    "bytes": 916059,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Wraith King.png",
+    "display_name": "Wraith King",
+    "public_id": "dota/heroes/lgtgl6d0ihrsrkjd9jlr",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759547/dota/heroes/lgtgl6d0ihrsrkjd9jlr.png",
+    "asset_id": "43931cff1cca5f2421dc73609580590b",
+    "bytes": 1643008,
+    "width": 1440,
+    "height": 1440
+  },
+  {
+    "filename": "Zeus.png",
+    "display_name": "Zeus",
+    "public_id": "dota/heroes/ej0zevtrcs2rccwqio7e",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_300,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760759548/dota/heroes/ej0zevtrcs2rccwqio7e.png",
+    "asset_id": "c32fa0c937a0b3807e72878cb0305f4f",
+    "bytes": 1302268,
+    "width": 1440,
+    "height": 1440
+  }
+]

@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak",
+  "fields": {
+    "title": "AK-47",
+    "description": "Teste seu conhecimento sobre as skins lendárias da AK-47 no Counter-Strike!",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.372Z",
+    "updated_at": "2025-10-20T13:19:00.372Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-ar",
+  "fields": {
+    "title": "AK-47",
+    "description": "¡Pon a prueba tu conocimiento sobre las skins legendarias del AK-47 en Counter-Strike!",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.377Z",
+    "updated_at": "2025-10-20T13:19:00.377Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-au",
+  "fields": {
+    "title": "AK-47",
+    "description": "Test your knowledge of the legendary AK-47 skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.370Z",
+    "updated_at": "2025-10-20T13:19:00.370Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-ca",
+  "fields": {
+    "title": "AK-47",
+    "description": "Test your knowledge of the legendary AK-47 skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.364Z",
+    "updated_at": "2025-10-20T13:19:00.364Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-co",
+  "fields": {
+    "title": "AK-47",
+    "description": "¡Pon a prueba tu conocimiento sobre las skins legendarias del AK-47 en Counter-Strike!",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.378Z",
+    "updated_at": "2025-10-20T13:19:00.378Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-es",
+  "fields": {
+    "title": "AK-47",
+    "description": "¡Pon a prueba tu conocimiento sobre las skins legendarias del AK-47 en Counter-Strike!",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.376Z",
+    "updated_at": "2025-10-20T13:19:00.376Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-gb",
+  "fields": {
+    "title": "AK-47",
+    "description": "Test your knowledge of the legendary AK-47 skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.366Z",
+    "updated_at": "2025-10-20T13:19:00.366Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-in",
+  "fields": {
+    "title": "AK-47",
+    "description": "Test your knowledge of the legendary AK-47 skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.367Z",
+    "updated_at": "2025-10-20T13:19:00.367Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-mx",
+  "fields": {
+    "title": "AK-47",
+    "description": "¡Pon a prueba tu conocimiento sobre las skins legendarias del AK-47 en Counter-Strike!",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.375Z",
+    "updated_at": "2025-10-20T13:19:00.375Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-nz",
+  "fields": {
+    "title": "AK-47",
+    "description": "Test your knowledge of the legendary AK-47 skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.371Z",
+    "updated_at": "2025-10-20T13:19:00.371Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-ph",
+  "fields": {
+    "title": "AK-47",
+    "description": "Test your knowledge of the legendary AK-47 skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.369Z",
+    "updated_at": "2025-10-20T13:19:00.369Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-pt",
+  "fields": {
+    "title": "AK-47",
+    "description": "Teste seu conhecimento sobre as skins lendárias da AK-47 no Counter-Strike!",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.374Z",
+    "updated_at": "2025-10-20T13:19:00.374Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-ak-us",
+  "fields": {
+    "title": "AK-47",
+    "description": "Test your knowledge of the legendary AK-47 skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:19:00.361Z",
+    "updated_at": "2025-10-20T13:19:00.362Z"
+  }
+}
+]

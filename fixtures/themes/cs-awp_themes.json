@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp",
+  "fields": {
+    "title": "AWP",
+    "description": "Teste seu conhecimento sobre as skins lendárias da AWP no Counter-Strike!",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.060Z",
+    "updated_at": "2025-10-20T12:54:13.060Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-ar",
+  "fields": {
+    "title": "AWP",
+    "description": "¡Pon a prueba tu conocimiento sobre las skins legendarias del AWP en Counter-Strike!",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.064Z",
+    "updated_at": "2025-10-20T12:54:13.064Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-au",
+  "fields": {
+    "title": "AWP",
+    "description": "Test your knowledge of the legendary AWP skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.057Z",
+    "updated_at": "2025-10-20T12:54:13.057Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-ca",
+  "fields": {
+    "title": "AWP",
+    "description": "Test your knowledge of the legendary AWP skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.051Z",
+    "updated_at": "2025-10-20T12:54:13.051Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-co",
+  "fields": {
+    "title": "AWP",
+    "description": "¡Pon a prueba tu conocimiento sobre las skins legendarias del AWP en Counter-Strike!",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.065Z",
+    "updated_at": "2025-10-20T12:54:13.065Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-es",
+  "fields": {
+    "title": "AWP",
+    "description": "¡Pon a prueba tu conocimiento sobre las skins legendarias del AWP en Counter-Strike!",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.063Z",
+    "updated_at": "2025-10-20T12:54:13.063Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-gb",
+  "fields": {
+    "title": "AWP",
+    "description": "Test your knowledge of the legendary AWP skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.052Z",
+    "updated_at": "2025-10-20T12:54:13.052Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-in",
+  "fields": {
+    "title": "AWP",
+    "description": "Test your knowledge of the legendary AWP skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.054Z",
+    "updated_at": "2025-10-20T12:54:13.054Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-mx",
+  "fields": {
+    "title": "AWP",
+    "description": "¡Pon a prueba tu conocimiento sobre las skins legendarias del AWP en Counter-Strike!",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.062Z",
+    "updated_at": "2025-10-20T12:54:13.062Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-nz",
+  "fields": {
+    "title": "AWP",
+    "description": "Test your knowledge of the legendary AWP skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.058Z",
+    "updated_at": "2025-10-20T12:54:13.058Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-ph",
+  "fields": {
+    "title": "AWP",
+    "description": "Test your knowledge of the legendary AWP skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.055Z",
+    "updated_at": "2025-10-20T12:54:13.055Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-pt",
+  "fields": {
+    "title": "AWP",
+    "description": "Teste seu conhecimento sobre as skins lendárias da AWP no Counter-Strike!",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.061Z",
+    "updated_at": "2025-10-20T12:54:13.061Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-awp-us",
+  "fields": {
+    "title": "AWP",
+    "description": "Test your knowledge of the legendary AWP skins in Counter-Strike!",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T12:54:13.047Z",
+    "updated_at": "2025-10-20T12:54:13.048Z"
+  }
+}
+]

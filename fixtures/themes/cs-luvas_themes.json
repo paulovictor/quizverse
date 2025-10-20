@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas",
+  "fields": {
+    "title": "Luvas",
+    "description": "Teste seu conhecimento sobre as luvas mais raras e estilosas do Counter-Strike!",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.930Z",
+    "updated_at": "2025-10-20T13:43:50.930Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-ar",
+  "fields": {
+    "title": "Guantes",
+    "description": "¡Pon a prueba tu conocimiento sobre los guantes más raros y con más estilo de Counter-Strike!",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.934Z",
+    "updated_at": "2025-10-20T13:43:50.934Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-au",
+  "fields": {
+    "title": "Gloves",
+    "description": "Test your knowledge of the rarest and most stylish gloves in Counter-Strike!",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.928Z",
+    "updated_at": "2025-10-20T13:43:50.928Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-ca",
+  "fields": {
+    "title": "Gloves",
+    "description": "Test your knowledge of the rarest and most stylish gloves in Counter-Strike!",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.923Z",
+    "updated_at": "2025-10-20T13:43:50.923Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-co",
+  "fields": {
+    "title": "Guantes",
+    "description": "¡Pon a prueba tu conocimiento sobre los guantes más raros y con más estilo de Counter-Strike!",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.935Z",
+    "updated_at": "2025-10-20T13:43:50.935Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-es",
+  "fields": {
+    "title": "Guantes",
+    "description": "¡Pon a prueba tu conocimiento sobre los guantes más raros y con más estilo de Counter-Strike!",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.933Z",
+    "updated_at": "2025-10-20T13:43:50.933Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-gb",
+  "fields": {
+    "title": "Gloves",
+    "description": "Test your knowledge of the rarest and most stylish gloves in Counter-Strike!",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.925Z",
+    "updated_at": "2025-10-20T13:43:50.925Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-in",
+  "fields": {
+    "title": "Gloves",
+    "description": "Test your knowledge of the rarest and most stylish gloves in Counter-Strike!",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.926Z",
+    "updated_at": "2025-10-20T13:43:50.926Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-mx",
+  "fields": {
+    "title": "Guantes",
+    "description": "¡Pon a prueba tu conocimiento sobre los guantes más raros y con más estilo de Counter-Strike!",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.932Z",
+    "updated_at": "2025-10-20T13:43:50.932Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-nz",
+  "fields": {
+    "title": "Gloves",
+    "description": "Test your knowledge of the rarest and most stylish gloves in Counter-Strike!",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.929Z",
+    "updated_at": "2025-10-20T13:43:50.929Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-ph",
+  "fields": {
+    "title": "Gloves",
+    "description": "Test your knowledge of the rarest and most stylish gloves in Counter-Strike!",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.927Z",
+    "updated_at": "2025-10-20T13:43:50.927Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-pt",
+  "fields": {
+    "title": "Luvas",
+    "description": "Teste seu conhecimento sobre as luvas mais raras e estilosas do Counter-Strike!",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.931Z",
+    "updated_at": "2025-10-20T13:43:50.931Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-luvas-us",
+  "fields": {
+    "title": "Gloves",
+    "description": "Test your knowledge of the rarest and most stylish gloves in Counter-Strike!",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T13:43:50.919Z",
+    "updated_at": "2025-10-20T13:43:50.920Z"
+  }
+}
+]

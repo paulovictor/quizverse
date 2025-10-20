@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps",
+  "fields": {
+    "title": "USP-S",
+    "description": "Mostre que você é um verdadeiro especialista nas skins da USP-S no Counter-Strike! Reconheça os visuais icônicos e prove seu conhecimento.",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.650Z",
+    "updated_at": "2025-10-20T17:28:43.650Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-ar",
+  "fields": {
+    "title": "USP-S",
+    "description": "¡Demuestra que eres un verdadero experto en las skins de la USP-S en Counter-Strike! Reconoce los diseños icónicos y pon a prueba tus conocimientos.",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.653Z",
+    "updated_at": "2025-10-20T17:28:43.653Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-au",
+  "fields": {
+    "title": "USP-S",
+    "description": "Show that you’re a true expert on USP-S skins in Counter-Strike! Identify the iconic designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.648Z",
+    "updated_at": "2025-10-20T17:28:43.648Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-ca",
+  "fields": {
+    "title": "USP-S",
+    "description": "Show that you’re a true expert on USP-S skins in Counter-Strike! Identify the iconic designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.645Z",
+    "updated_at": "2025-10-20T17:28:43.645Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-co",
+  "fields": {
+    "title": "USP-S",
+    "description": "¡Demuestra que eres un verdadero experto en las skins de la USP-S en Counter-Strike! Reconoce los diseños icónicos y pon a prueba tus conocimientos.",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.654Z",
+    "updated_at": "2025-10-20T17:28:43.654Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-es",
+  "fields": {
+    "title": "USP-S",
+    "description": "¡Demuestra que eres un verdadero experto en las skins de la USP-S en Counter-Strike! Reconoce los diseños icónicos y pon a prueba tus conocimientos.",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.653Z",
+    "updated_at": "2025-10-20T17:28:43.653Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-gb",
+  "fields": {
+    "title": "USP-S",
+    "description": "Show that you’re a true expert on USP-S skins in Counter-Strike! Identify the iconic designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.646Z",
+    "updated_at": "2025-10-20T17:28:43.646Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-in",
+  "fields": {
+    "title": "USP-S",
+    "description": "Show that you’re a true expert on USP-S skins in Counter-Strike! Identify the iconic designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.647Z",
+    "updated_at": "2025-10-20T17:28:43.647Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-mx",
+  "fields": {
+    "title": "USP-S",
+    "description": "¡Demuestra que eres un verdadero experto en las skins de la USP-S en Counter-Strike! Reconoce los diseños icónicos y pon a prueba tus conocimientos.",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.652Z",
+    "updated_at": "2025-10-20T17:28:43.652Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-nz",
+  "fields": {
+    "title": "USP-S",
+    "description": "Show that you’re a true expert on USP-S skins in Counter-Strike! Identify the iconic designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.649Z",
+    "updated_at": "2025-10-20T17:28:43.649Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-ph",
+  "fields": {
+    "title": "USP-S",
+    "description": "Show that you’re a true expert on USP-S skins in Counter-Strike! Identify the iconic designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.648Z",
+    "updated_at": "2025-10-20T17:28:43.648Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-pt",
+  "fields": {
+    "title": "USP-S",
+    "description": "Mostre que você é um verdadeiro especialista nas skins da USP-S no Counter-Strike! Reconheça os visuais icônicos e prove seu conhecimento.",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.651Z",
+    "updated_at": "2025-10-20T17:28:43.651Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-usps-us",
+  "fields": {
+    "title": "USP-S",
+    "description": "Show that you’re a true expert on USP-S skins in Counter-Strike! Identify the iconic designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T17:28:43.643Z",
+    "updated_at": "2025-10-20T17:28:43.644Z"
+  }
+}
+]

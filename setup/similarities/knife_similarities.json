@@ -1,0 +1,2847 @@
+{
+  "Bayonet Autotronic": [
+    "Bowie Knife Autotronic",
+    "Butterfly Knife Autotronic",
+    "Falchion Knife Autotronic"
+  ],
+  "Bayonet Black Laminate": [
+    "Bowie Knife Black Laminate",
+    "Butterfly Knife Black Laminate",
+    "Falchion Knife Black Laminate"
+  ],
+  "Bayonet Blue Steel": [
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel",
+    "Classic Knife Blue Steel"
+  ],
+  "Bayonet Boreal Forest": [
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest",
+    "Classic Knife Boreal Forest"
+  ],
+  "Bayonet Bright Water": [
+    "Bowie Knife Bright Water",
+    "Butterfly Knife Bright Water",
+    "Falchion Knife Bright Water"
+  ],
+  "Bayonet Case Hardened": [
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened",
+    "Classic Knife Case Hardened"
+  ],
+  "Bayonet Crimson Web": [
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web",
+    "Classic Knife Crimson Web"
+  ],
+  "Bayonet Damascus Steel": [
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel",
+    "Falchion Knife Damascus Steel"
+  ],
+  "Bayonet Dopple (Phase 3)": [
+    "Bayonet Autotronic",
+    "Bayonet Black Laminate",
+    "Bayonet Blue Steel"
+  ],
+  "Bayonet Dopple (Phase 4)": [
+    "Bayonet Autotronic",
+    "Bayonet Black Laminate",
+    "Bayonet Blue Steel"
+  ],
+  "Bayonet Doppler ( Sapphire)": [
+    "Bayonet Autotronic",
+    "Bayonet Black Laminate",
+    "Bayonet Blue Steel"
+  ],
+  "Bayonet Doppler (Black Pearl)": [
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)",
+    "Falchion Knife Doppler (Black Pearl)"
+  ],
+  "Bayonet Doppler (Phase 1)": [
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)",
+    "Falchion Knife Doppler (Phase 1)"
+  ],
+  "Bayonet Doppler (Phase 2)": [
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)",
+    "Falchion Knife Doppler (Phase 2)"
+  ],
+  "Bayonet Doppler (Phase 4)": [
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)",
+    "Falchion Knife Doppler (Phase 4)"
+  ],
+  "Bayonet Doppler (Rubi)": [
+    "Bayonet Autotronic",
+    "Bayonet Black Laminate",
+    "Bayonet Blue Steel"
+  ],
+  "Bayonet Fade": [
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade",
+    "Classic Knife Fade"
+  ],
+  "Bayonet Forest DDPAT": [
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT",
+    "Classic Knife Forest DDPAT"
+  ],
+  "Bayonet Freehand": [
+    "Bowie Knife Freehand",
+    "Butterfly Knife Freehand",
+    "Falchion Knife Freehand"
+  ],
+  "Bayonet Gama Doppler (Emerald)": [
+    "Bayonet Autotronic",
+    "Bayonet Black Laminate",
+    "Bayonet Blue Steel"
+  ],
+  "Bayonet Gamma Doppler (Phase 1)": [
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)",
+    "Falchion Knife Gamma Doppler (Phase 1)"
+  ],
+  "Bayonet Gamma Doppler (Phase 2)": [
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)",
+    "Falchion Knife Gamma Doppler (Phase 2)"
+  ],
+  "Bayonet Gamma Doppler (Phase 3)": [
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)",
+    "Falchion Knife Gamma Doppler (Phase 3)"
+  ],
+  "Bayonet Lore": [
+    "Bowie Knife Lore",
+    "Butterfly Knife Lore",
+    "Falchion Knife Lore"
+  ],
+  "Bayonet Marble Fade": [
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade",
+    "Falchion Knife Marble Fade"
+  ],
+  "Bayonet Night": [
+    "Bowie Knife Night",
+    "Butterfly Knife Night",
+    "Falchion Knife Night"
+  ],
+  "Bayonet Rust Coat": [
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat",
+    "Falchion Knife Rust Coat"
+  ],
+  "Bayonet Safari Mesh": [
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh",
+    "Classic Knife Safari Mesh"
+  ],
+  "Bayonet Scorched": [
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched",
+    "Classic Knife Scorched"
+  ],
+  "Bayonet Slaughter": [
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter",
+    "Classic Knife Slaughter"
+  ],
+  "Bayonet Stained": [
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained",
+    "Classic Knife Stained"
+  ],
+  "Bayonet Tiger Tooth": [
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth",
+    "Falchion Knife Tiger Tooth"
+  ],
+  "Bayonet Ultraviolet": [
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet",
+    "Falchion Knife Ultraviolet"
+  ],
+  "Bayonet Urban Masked": [
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked",
+    "Classic Knife Urban Masked"
+  ],
+  "Bayonet Vanilla": [
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla",
+    "Classic Knife Vanilla"
+  ],
+  "Bowie Knife Autotronic": [
+    "Bayonet Autotronic",
+    "Butterfly Knife Autotronic",
+    "Falchion Knife Autotronic"
+  ],
+  "Bowie Knife Black Laminate": [
+    "Bayonet Black Laminate",
+    "Butterfly Knife Black Laminate",
+    "Falchion Knife Black Laminate"
+  ],
+  "Bowie Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Butterfly Knife Blue Steel",
+    "Classic Knife Blue Steel"
+  ],
+  "Bowie Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Butterfly Knife Boreal Forest",
+    "Classic Knife Boreal Forest"
+  ],
+  "Bowie Knife Bright Water": [
+    "Bayonet Bright Water",
+    "Butterfly Knife Bright Water",
+    "Falchion Knife Bright Water"
+  ],
+  "Bowie Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Butterfly Knife Case Hardened",
+    "Classic Knife Case Hardened"
+  ],
+  "Bowie Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Butterfly Knife Crimson Web",
+    "Classic Knife Crimson Web"
+  ],
+  "Bowie Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Butterfly Knife Damascus Steel",
+    "Falchion Knife Damascus Steel"
+  ],
+  "Bowie Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)",
+    "Falchion Knife Doppler (Black Pearl)"
+  ],
+  "Bowie Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)",
+    "Falchion Knife Doppler (Phase 1)"
+  ],
+  "Bowie Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)",
+    "Falchion Knife Doppler (Phase 2)"
+  ],
+  "Bowie Knife Doppler (Phase 3)": [
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)",
+    "Gut Knife Doppler (Phase 3)"
+  ],
+  "Bowie Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)",
+    "Falchion Knife Doppler (Phase 4)"
+  ],
+  "Bowie Knife Doppler (Ruby)": [
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)",
+    "Flip Knife Doppler (Ruby)"
+  ],
+  "Bowie Knife Doppler (Sapphire)": [
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)",
+    "Flip Knife Doppler (Sapphire)"
+  ],
+  "Bowie Knife Fade": [
+    "Bayonet Fade",
+    "Butterfly Knife Fade",
+    "Classic Knife Fade"
+  ],
+  "Bowie Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Butterfly Knife Forest DDPAT",
+    "Classic Knife Forest DDPAT"
+  ],
+  "Bowie Knife Freehand": [
+    "Bayonet Freehand",
+    "Butterfly Knife Freehand",
+    "Falchion Knife Freehand"
+  ],
+  "Bowie Knife Gamma Doppler (Emerald)": [
+    "Butterfly Knife Gamma Doppler (Emerald)",
+    "Falchion Knife Gamma Doppler (Emerald)",
+    "Flip Knife Gamma Doppler (Emerald)"
+  ],
+  "Bowie Knife Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)",
+    "Falchion Knife Gamma Doppler (Phase 1)"
+  ],
+  "Bowie Knife Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)",
+    "Falchion Knife Gamma Doppler (Phase 2)"
+  ],
+  "Bowie Knife Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)",
+    "Falchion Knife Gamma Doppler (Phase 3)"
+  ],
+  "Bowie Knife Gamma Doppler (Phase 4)": [
+    "Falchion Knife Gamma Doppler (Phase 4)",
+    "Flip Knife Gamma Doppler (Phase 4)",
+    "Gut Knife Gamma Doppler (Phase 4)"
+  ],
+  "Bowie Knife Lore": [
+    "Bayonet Lore",
+    "Butterfly Knife Lore",
+    "Falchion Knife Lore"
+  ],
+  "Bowie Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Butterfly Knife Marble Fade",
+    "Falchion Knife Marble Fade"
+  ],
+  "Bowie Knife Night": [
+    "Bayonet Night",
+    "Butterfly Knife Night",
+    "Falchion Knife Night"
+  ],
+  "Bowie Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Butterfly Knife Rust Coat",
+    "Falchion Knife Rust Coat"
+  ],
+  "Bowie Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Butterfly Knife Safari Mesh",
+    "Classic Knife Safari Mesh"
+  ],
+  "Bowie Knife Scorched": [
+    "Bayonet Scorched",
+    "Butterfly Knife Scorched",
+    "Classic Knife Scorched"
+  ],
+  "Bowie Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Butterfly Knife Slaughter",
+    "Classic Knife Slaughter"
+  ],
+  "Bowie Knife Stained": [
+    "Bayonet Stained",
+    "Butterfly Knife Stained",
+    "Classic Knife Stained"
+  ],
+  "Bowie Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Butterfly Knife Tiger Tooth",
+    "Falchion Knife Tiger Tooth"
+  ],
+  "Bowie Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Butterfly Knife Ultraviolet",
+    "Falchion Knife Ultraviolet"
+  ],
+  "Bowie Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Butterfly Knife Urban Masked",
+    "Classic Knife Urban Masked"
+  ],
+  "Bowie Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Butterfly Knife Vanilla",
+    "Classic Knife Vanilla"
+  ],
+  "Butterfly Knife Autotronic": [
+    "Bayonet Autotronic",
+    "Bowie Knife Autotronic",
+    "Falchion Knife Autotronic"
+  ],
+  "Butterfly Knife Black Laminate": [
+    "Bayonet Black Laminate",
+    "Bowie Knife Black Laminate",
+    "Falchion Knife Black Laminate"
+  ],
+  "Butterfly Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Classic Knife Blue Steel"
+  ],
+  "Butterfly Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Classic Knife Boreal Forest"
+  ],
+  "Butterfly Knife Bright Water": [
+    "Bayonet Bright Water",
+    "Bowie Knife Bright Water",
+    "Falchion Knife Bright Water"
+  ],
+  "Butterfly Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Classic Knife Case Hardened"
+  ],
+  "Butterfly Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Classic Knife Crimson Web"
+  ],
+  "Butterfly Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Falchion Knife Damascus Steel"
+  ],
+  "Butterfly Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Falchion Knife Doppler (Black Pearl)"
+  ],
+  "Butterfly Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Falchion Knife Doppler (Phase 1)"
+  ],
+  "Butterfly Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Falchion Knife Doppler (Phase 2)"
+  ],
+  "Butterfly Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Falchion Knife Doppler (Phase 4)"
+  ],
+  "Butterfly Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)",
+    "Flip Knife Doppler (Ruby)"
+  ],
+  "Butterfly Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)",
+    "Flip Knife Doppler (Sapphire)"
+  ],
+  "Butterfly Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Classic Knife Fade"
+  ],
+  "Butterfly Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Classic Knife Forest DDPAT"
+  ],
+  "Butterfly Knife Freehand": [
+    "Bayonet Freehand",
+    "Bowie Knife Freehand",
+    "Falchion Knife Freehand"
+  ],
+  "Butterfly Knife Gamma Doppler (Emerald)": [
+    "Bowie Knife Gamma Doppler (Emerald)",
+    "Falchion Knife Gamma Doppler (Emerald)",
+    "Flip Knife Gamma Doppler (Emerald)"
+  ],
+  "Butterfly Knife Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Falchion Knife Gamma Doppler (Phase 1)"
+  ],
+  "Butterfly Knife Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Falchion Knife Gamma Doppler (Phase 2)"
+  ],
+  "Butterfly Knife Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Falchion Knife Gamma Doppler (Phase 3)"
+  ],
+  "Butterfly Knife Lore": [
+    "Bayonet Lore",
+    "Bowie Knife Lore",
+    "Falchion Knife Lore"
+  ],
+  "Butterfly Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Falchion Knife Marble Fade"
+  ],
+  "Butterfly Knife Night": [
+    "Bayonet Night",
+    "Bowie Knife Night",
+    "Falchion Knife Night"
+  ],
+  "Butterfly Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Falchion Knife Rust Coat"
+  ],
+  "Butterfly Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Classic Knife Safari Mesh"
+  ],
+  "Butterfly Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Classic Knife Scorched"
+  ],
+  "Butterfly Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Classic Knife Slaughter"
+  ],
+  "Butterfly Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Classic Knife Stained"
+  ],
+  "Butterfly Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Falchion Knife Tiger Tooth"
+  ],
+  "Butterfly Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Falchion Knife Ultraviolet"
+  ],
+  "Butterfly Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Classic Knife Urban Masked"
+  ],
+  "Butterfly Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Classic Knife Vanilla"
+  ],
+  "Classic Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Classic Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Classic Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Classic Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Classic Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Classic Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Classic Knife Night Stripe": [
+    "Kukri Knife Night Stripe",
+    "Najava Knife Night Stripe",
+    "Nomad Knife Night Stripe"
+  ],
+  "Classic Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Classic Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Classic Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Classic Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Classic Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Classic Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Falchion Knife Autotronic": [
+    "Bayonet Autotronic",
+    "Bowie Knife Autotronic",
+    "Butterfly Knife Autotronic"
+  ],
+  "Falchion Knife Black Laminate": [
+    "Bayonet Black Laminate",
+    "Bowie Knife Black Laminate",
+    "Butterfly Knife Black Laminate"
+  ],
+  "Falchion Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Falchion Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Falchion Knife Bright Water": [
+    "Bayonet Bright Water",
+    "Bowie Knife Bright Water",
+    "Butterfly Knife Bright Water"
+  ],
+  "Falchion Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Falchion Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Falchion Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Falchion Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Falchion Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Falchion Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Falchion Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)",
+    "Gut Knife Doppler (Phase 3)"
+  ],
+  "Falchion Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Falchion Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Flip Knife Doppler (Ruby)"
+  ],
+  "Falchion Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Flip Knife Doppler (Sapphire)"
+  ],
+  "Falchion Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Falchion Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Falchion Knife Freehand": [
+    "Bayonet Freehand",
+    "Bowie Knife Freehand",
+    "Butterfly Knife Freehand"
+  ],
+  "Falchion Knife Gamma Doppler (Emerald)": [
+    "Bowie Knife Gamma Doppler (Emerald)",
+    "Butterfly Knife Gamma Doppler (Emerald)",
+    "Flip Knife Gamma Doppler (Emerald)"
+  ],
+  "Falchion Knife Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)"
+  ],
+  "Falchion Knife Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)"
+  ],
+  "Falchion Knife Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)"
+  ],
+  "Falchion Knife Gamma Doppler (Phase 4)": [
+    "Bowie Knife Gamma Doppler (Phase 4)",
+    "Flip Knife Gamma Doppler (Phase 4)",
+    "Gut Knife Gamma Doppler (Phase 4)"
+  ],
+  "Falchion Knife Lore": [
+    "Bayonet Lore",
+    "Bowie Knife Lore",
+    "Butterfly Knife Lore"
+  ],
+  "Falchion Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Falchion Knife Night": [
+    "Bayonet Night",
+    "Bowie Knife Night",
+    "Butterfly Knife Night"
+  ],
+  "Falchion Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Falchion Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Falchion Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Falchion Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Falchion Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Falchion Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Falchion Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Falchion Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Falchion Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Flip Knife Autotronic": [
+    "Bayonet Autotronic",
+    "Bowie Knife Autotronic",
+    "Butterfly Knife Autotronic"
+  ],
+  "Flip Knife Black Laminate": [
+    "Bayonet Black Laminate",
+    "Bowie Knife Black Laminate",
+    "Butterfly Knife Black Laminate"
+  ],
+  "Flip Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Flip Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Flip Knife Bright Water": [
+    "Bayonet Bright Water",
+    "Bowie Knife Bright Water",
+    "Butterfly Knife Bright Water"
+  ],
+  "Flip Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Flip Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Flip Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Flip Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Flip Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Flip Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Flip Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Gut Knife Doppler (Phase 3)"
+  ],
+  "Flip Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Flip Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Flip Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Flip Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Flip Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Flip Knife Freehand": [
+    "Bayonet Freehand",
+    "Bowie Knife Freehand",
+    "Butterfly Knife Freehand"
+  ],
+  "Flip Knife Gamma Doppler (Emerald)": [
+    "Bowie Knife Gamma Doppler (Emerald)",
+    "Butterfly Knife Gamma Doppler (Emerald)",
+    "Falchion Knife Gamma Doppler (Emerald)"
+  ],
+  "Flip Knife Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)"
+  ],
+  "Flip Knife Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)"
+  ],
+  "Flip Knife Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)"
+  ],
+  "Flip Knife Gamma Doppler (Phase 4)": [
+    "Bowie Knife Gamma Doppler (Phase 4)",
+    "Falchion Knife Gamma Doppler (Phase 4)",
+    "Gut Knife Gamma Doppler (Phase 4)"
+  ],
+  "Flip Knife Lore": [
+    "Bayonet Lore",
+    "Bowie Knife Lore",
+    "Butterfly Knife Lore"
+  ],
+  "Flip Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Flip Knife Night": [
+    "Bayonet Night",
+    "Bowie Knife Night",
+    "Butterfly Knife Night"
+  ],
+  "Flip Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Flip Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Flip Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Flip Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Flip Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Flip Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Flip Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Flip Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Flip Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Gut Knife Autotronic": [
+    "Bayonet Autotronic",
+    "Bowie Knife Autotronic",
+    "Butterfly Knife Autotronic"
+  ],
+  "Gut Knife Black Laminate": [
+    "Bayonet Black Laminate",
+    "Bowie Knife Black Laminate",
+    "Butterfly Knife Black Laminate"
+  ],
+  "Gut Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Gut Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Gut Knife Bright Water": [
+    "Bayonet Bright Water",
+    "Bowie Knife Bright Water",
+    "Butterfly Knife Bright Water"
+  ],
+  "Gut Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Gut Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Gut Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Gut Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Gut Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Gut Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Gut Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Gut Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Gut Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Gut Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Gut Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Gut Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Gut Knife Freehand": [
+    "Bayonet Freehand",
+    "Bowie Knife Freehand",
+    "Butterfly Knife Freehand"
+  ],
+  "Gut Knife Gamma Doppler (Emerald)": [
+    "Bowie Knife Gamma Doppler (Emerald)",
+    "Butterfly Knife Gamma Doppler (Emerald)",
+    "Falchion Knife Gamma Doppler (Emerald)"
+  ],
+  "Gut Knife Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)"
+  ],
+  "Gut Knife Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)"
+  ],
+  "Gut Knife Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)"
+  ],
+  "Gut Knife Gamma Doppler (Phase 4)": [
+    "Bowie Knife Gamma Doppler (Phase 4)",
+    "Falchion Knife Gamma Doppler (Phase 4)",
+    "Flip Knife Gamma Doppler (Phase 4)"
+  ],
+  "Gut Knife Lore": [
+    "Bayonet Lore",
+    "Bowie Knife Lore",
+    "Butterfly Knife Lore"
+  ],
+  "Gut Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Gut Knife Night": [
+    "Bayonet Night",
+    "Bowie Knife Night",
+    "Butterfly Knife Night"
+  ],
+  "Gut Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Gut Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Gut Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Gut Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Gut Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Gut Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Gut Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Gut Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Gut Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Huntsman Knife Autotronic": [
+    "Bayonet Autotronic",
+    "Bowie Knife Autotronic",
+    "Butterfly Knife Autotronic"
+  ],
+  "Huntsman Knife Black Laminate": [
+    "Bayonet Black Laminate",
+    "Bowie Knife Black Laminate",
+    "Butterfly Knife Black Laminate"
+  ],
+  "Huntsman Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Huntsman Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Huntsman Knife Bright Water": [
+    "Bayonet Bright Water",
+    "Bowie Knife Bright Water",
+    "Butterfly Knife Bright Water"
+  ],
+  "Huntsman Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Huntsman Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Huntsman Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Huntsman Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Huntsman Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Huntsman Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Huntsman Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Huntsman Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Huntsman Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Huntsman Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Huntsman Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Huntsman Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Huntsman Knife Freehand": [
+    "Bayonet Freehand",
+    "Bowie Knife Freehand",
+    "Butterfly Knife Freehand"
+  ],
+  "Huntsman Knife Gamma Doppler (Emerald)": [
+    "Bowie Knife Gamma Doppler (Emerald)",
+    "Butterfly Knife Gamma Doppler (Emerald)",
+    "Falchion Knife Gamma Doppler (Emerald)"
+  ],
+  "Huntsman Knife Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)"
+  ],
+  "Huntsman Knife Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)"
+  ],
+  "Huntsman Knife Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)"
+  ],
+  "Huntsman Knife Gamma Doppler (Phase 4)": [
+    "Bowie Knife Gamma Doppler (Phase 4)",
+    "Falchion Knife Gamma Doppler (Phase 4)",
+    "Flip Knife Gamma Doppler (Phase 4)"
+  ],
+  "Huntsman Knife Lore": [
+    "Bayonet Lore",
+    "Bowie Knife Lore",
+    "Butterfly Knife Lore"
+  ],
+  "Huntsman Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Huntsman Knife Night": [
+    "Bayonet Night",
+    "Bowie Knife Night",
+    "Butterfly Knife Night"
+  ],
+  "Huntsman Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Huntsman Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Huntsman Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Huntsman Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Huntsman Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Huntsman Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Huntsman Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Huntsman Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Huntsman Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Karambit Autotronic": [
+    "Bayonet Autotronic",
+    "Bowie Knife Autotronic",
+    "Butterfly Knife Autotronic"
+  ],
+  "Karambit Black Laminate": [
+    "Bayonet Black Laminate",
+    "Bowie Knife Black Laminate",
+    "Butterfly Knife Black Laminate"
+  ],
+  "Karambit Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Karambit Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Karambit Bright Water": [
+    "Bayonet Bright Water",
+    "Bowie Knife Bright Water",
+    "Butterfly Knife Bright Water"
+  ],
+  "Karambit Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Karambit Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Karambit Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Karambit Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Karambit Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Karambit Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Karambit Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Karambit Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Karambit Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Karambit Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Karambit Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Karambit Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Karambit Freehand": [
+    "Bayonet Freehand",
+    "Bowie Knife Freehand",
+    "Butterfly Knife Freehand"
+  ],
+  "Karambit Gamma Doppler (Emerald)": [
+    "Bowie Knife Gamma Doppler (Emerald)",
+    "Butterfly Knife Gamma Doppler (Emerald)",
+    "Falchion Knife Gamma Doppler (Emerald)"
+  ],
+  "Karambit Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)"
+  ],
+  "Karambit Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)"
+  ],
+  "Karambit Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)"
+  ],
+  "Karambit Gamma Doppler (Phase 4)": [
+    "Bowie Knife Gamma Doppler (Phase 4)",
+    "Falchion Knife Gamma Doppler (Phase 4)",
+    "Flip Knife Gamma Doppler (Phase 4)"
+  ],
+  "Karambit Lore": [
+    "Bayonet Lore",
+    "Bowie Knife Lore",
+    "Butterfly Knife Lore"
+  ],
+  "Karambit Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Karambit Night": [
+    "Bayonet Night",
+    "Bowie Knife Night",
+    "Butterfly Knife Night"
+  ],
+  "Karambit Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Karambit Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Karambit Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Karambit Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Karambit Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Karambit Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Karambit Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Karambit Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Karambit Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Kukri Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Kukri Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Kukri Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Kukri Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Kukri Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Kukri Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Kukri Knife Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Najava Knife Night Stripe",
+    "Nomad Knife Night Stripe"
+  ],
+  "Kukri Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Kukri Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Kukri Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Kukri Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Kukri Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Kukri Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "M9 Bayonet Autotronic": [
+    "Bayonet Autotronic",
+    "Bowie Knife Autotronic",
+    "Butterfly Knife Autotronic"
+  ],
+  "M9 Bayonet Black Laminate": [
+    "Bayonet Black Laminate",
+    "Bowie Knife Black Laminate",
+    "Butterfly Knife Black Laminate"
+  ],
+  "M9 Bayonet Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "M9 Bayonet Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "M9 Bayonet Bright Water": [
+    "Bayonet Bright Water",
+    "Bowie Knife Bright Water",
+    "Butterfly Knife Bright Water"
+  ],
+  "M9 Bayonet Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "M9 Bayonet Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "M9 Bayonet Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "M9 Bayonet Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "M9 Bayonet Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "M9 Bayonet Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "M9 Bayonet Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "M9 Bayonet Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "M9 Bayonet Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "M9 Bayonet Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "M9 Bayonet Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "M9 Bayonet Freehand": [
+    "Bayonet Freehand",
+    "Bowie Knife Freehand",
+    "Butterfly Knife Freehand"
+  ],
+  "M9 Bayonet Gamma Doppler (Emerald)": [
+    "Bowie Knife Gamma Doppler (Emerald)",
+    "Butterfly Knife Gamma Doppler (Emerald)",
+    "Falchion Knife Gamma Doppler (Emerald)"
+  ],
+  "M9 Bayonet Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)"
+  ],
+  "M9 Bayonet Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)"
+  ],
+  "M9 Bayonet Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)"
+  ],
+  "M9 Bayonet Gamma Doppler (Phase 4)": [
+    "Bowie Knife Gamma Doppler (Phase 4)",
+    "Falchion Knife Gamma Doppler (Phase 4)",
+    "Flip Knife Gamma Doppler (Phase 4)"
+  ],
+  "M9 Bayonet Lore": [
+    "Bayonet Lore",
+    "Bowie Knife Lore",
+    "Butterfly Knife Lore"
+  ],
+  "M9 Bayonet Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "M9 Bayonet Night": [
+    "Bayonet Night",
+    "Bowie Knife Night",
+    "Butterfly Knife Night"
+  ],
+  "M9 Bayonet Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "M9 Bayonet Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "M9 Bayonet Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "M9 Bayonet Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "M9 Bayonet Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "M9 Bayonet Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "M9 Bayonet Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "M9 Bayonet Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "M9 Bayonet Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Najava Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Najava Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Najava Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Najava Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Najava Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Najava Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Najava Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Najava Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Najava Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Najava Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Najava Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Najava Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Najava Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Najava Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Najava Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Najava Knife Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Kukri Knife Night Stripe",
+    "Nomad Knife Night Stripe"
+  ],
+  "Najava Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Najava Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Najava Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Najava Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Najava Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Najava Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Najava Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Najava Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Najava Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Nomad Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Nomad Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Nomad Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Nomad Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Nomad Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Nomad Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Nomad Knife Doppler (Fase 3)": [
+    "Nomad Knife Blue Steel",
+    "Nomad Knife Boreal Forest",
+    "Nomad Knife Case Hardened"
+  ],
+  "Nomad Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Nomad Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Nomad Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Nomad Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Nomad Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Nomad Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Nomad Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Nomad Knife Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Kukri Knife Night Stripe",
+    "Najava Knife Night Stripe"
+  ],
+  "Nomad Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Nomad Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Nomad Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Nomad Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Nomad Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Nomad Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Nomad Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Nomad Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Nomad Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Paracord Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Paracord Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Paracord Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Paracord Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Paracord Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Paracord Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Paracord Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Paracord Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Paracord Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Paracord Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Paracord Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Paracord Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Paracord Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Paracord Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Paracord Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Paracord Knife Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Kukri Knife Night Stripe",
+    "Najava Knife Night Stripe"
+  ],
+  "Paracord Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Paracord Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Paracord Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Paracord Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Paracord Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Paracord Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Paracord Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Paracord Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Paracord Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Shadow Daggers Autotronic": [
+    "Bayonet Autotronic",
+    "Bowie Knife Autotronic",
+    "Butterfly Knife Autotronic"
+  ],
+  "Shadow Daggers Black Laminate": [
+    "Bayonet Black Laminate",
+    "Bowie Knife Black Laminate",
+    "Butterfly Knife Black Laminate"
+  ],
+  "Shadow Daggers Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Shadow Daggers Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Shadow Daggers Bright Water": [
+    "Bayonet Bright Water",
+    "Bowie Knife Bright Water",
+    "Butterfly Knife Bright Water"
+  ],
+  "Shadow Daggers Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Shadow Daggers Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Shadow Daggers Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Shadow Daggers Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Shadow Daggers Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Shadow Daggers Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Shadow Daggers Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Shadow Daggers Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Shadow Daggers Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Shadow Daggers Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Shadow Daggers Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Shadow Daggers Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Shadow Daggers Freehand": [
+    "Bayonet Freehand",
+    "Bowie Knife Freehand",
+    "Butterfly Knife Freehand"
+  ],
+  "Shadow Daggers Gamma Doppler (Emerald)": [
+    "Bowie Knife Gamma Doppler (Emerald)",
+    "Butterfly Knife Gamma Doppler (Emerald)",
+    "Falchion Knife Gamma Doppler (Emerald)"
+  ],
+  "Shadow Daggers Gamma Doppler (Phase 1)": [
+    "Bayonet Gamma Doppler (Phase 1)",
+    "Bowie Knife Gamma Doppler (Phase 1)",
+    "Butterfly Knife Gamma Doppler (Phase 1)"
+  ],
+  "Shadow Daggers Gamma Doppler (Phase 2)": [
+    "Bayonet Gamma Doppler (Phase 2)",
+    "Bowie Knife Gamma Doppler (Phase 2)",
+    "Butterfly Knife Gamma Doppler (Phase 2)"
+  ],
+  "Shadow Daggers Gamma Doppler (Phase 3)": [
+    "Bayonet Gamma Doppler (Phase 3)",
+    "Bowie Knife Gamma Doppler (Phase 3)",
+    "Butterfly Knife Gamma Doppler (Phase 3)"
+  ],
+  "Shadow Daggers Gamma Doppler (Phase 4)": [
+    "Bowie Knife Gamma Doppler (Phase 4)",
+    "Falchion Knife Gamma Doppler (Phase 4)",
+    "Flip Knife Gamma Doppler (Phase 4)"
+  ],
+  "Shadow Daggers Lore": [
+    "Bayonet Lore",
+    "Bowie Knife Lore",
+    "Butterfly Knife Lore"
+  ],
+  "Shadow Daggers Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Shadow Daggers Night": [
+    "Bayonet Night",
+    "Bowie Knife Night",
+    "Butterfly Knife Night"
+  ],
+  "Shadow Daggers Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Shadow Daggers Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Shadow Daggers Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Shadow Daggers Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Shadow Daggers Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Shadow Daggers Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Shadow Daggers Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Shadow Daggers Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Skeleton Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Skeleton Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Skeleton Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Skeleton Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Skeleton Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Skeleton Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Skeleton Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Skeleton Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Skeleton Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Skeleton Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Skeleton Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Skeleton Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Skeleton Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Skeleton Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Skeleton Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Skeleton Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Kukri Knife Night Stripe",
+    "Najava Knife Night Stripe"
+  ],
+  "Skeleton Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Skeleton Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Skeleton Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Skeleton Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Skeleton Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Skeleton Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Skeleton Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Skeleton Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Skeleton Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Stiletto Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Stiletto Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Stiletto Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Stiletto Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Stiletto Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Stiletto Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Stiletto Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Stiletto Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Stiletto Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Stiletto Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Stiletto Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Stiletto Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Stiletto Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Stiletto Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Stiletto Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Stiletto Knife Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Kukri Knife Night Stripe",
+    "Najava Knife Night Stripe"
+  ],
+  "Stiletto Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Stiletto Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Stiletto Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Stiletto Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Stiletto Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Stiletto Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Stiletto Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Stiletto Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Stiletto Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Survival Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Survival Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Survival Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Survival Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Survival Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Survival Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Survival Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Survival Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Survival Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Survival Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Survival Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Survival Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Survival Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Survival Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Survival Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Survival Knife Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Kukri Knife Night Stripe",
+    "Najava Knife Night Stripe"
+  ],
+  "Survival Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Survival Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Survival Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Survival Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Survival Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Survival Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Survival Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Talon Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Talon Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Talon Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Talon Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Talon Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Talon Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Talon Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Talon Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Talon Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Talon Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Talon Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Talon Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Talon Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Talon Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Talon Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Talon Knife Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Kukri Knife Night Stripe",
+    "Najava Knife Night Stripe"
+  ],
+  "Talon Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Talon Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Talon Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Talon Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Talon Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Talon Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Talon Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Talon Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Talon Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ],
+  "Ursus Knife Blue Steel": [
+    "Bayonet Blue Steel",
+    "Bowie Knife Blue Steel",
+    "Butterfly Knife Blue Steel"
+  ],
+  "Ursus Knife Boreal Forest": [
+    "Bayonet Boreal Forest",
+    "Bowie Knife Boreal Forest",
+    "Butterfly Knife Boreal Forest"
+  ],
+  "Ursus Knife Case Hardened": [
+    "Bayonet Case Hardened",
+    "Bowie Knife Case Hardened",
+    "Butterfly Knife Case Hardened"
+  ],
+  "Ursus Knife Crimson Web": [
+    "Bayonet Crimson Web",
+    "Bowie Knife Crimson Web",
+    "Butterfly Knife Crimson Web"
+  ],
+  "Ursus Knife Damascus Steel": [
+    "Bayonet Damascus Steel",
+    "Bowie Knife Damascus Steel",
+    "Butterfly Knife Damascus Steel"
+  ],
+  "Ursus Knife Doppler (Black Pearl)": [
+    "Bayonet Doppler (Black Pearl)",
+    "Bowie Knife Doppler (Black Pearl)",
+    "Butterfly Knife Doppler (Black Pearl)"
+  ],
+  "Ursus Knife Doppler (Phase 1)": [
+    "Bayonet Doppler (Phase 1)",
+    "Bowie Knife Doppler (Phase 1)",
+    "Butterfly Knife Doppler (Phase 1)"
+  ],
+  "Ursus Knife Doppler (Phase 2)": [
+    "Bayonet Doppler (Phase 2)",
+    "Bowie Knife Doppler (Phase 2)",
+    "Butterfly Knife Doppler (Phase 2)"
+  ],
+  "Ursus Knife Doppler (Phase 3)": [
+    "Bowie Knife Doppler (Phase 3)",
+    "Falchion Knife Doppler (Phase 3)",
+    "Flip Knife Doppler (Phase 3)"
+  ],
+  "Ursus Knife Doppler (Phase 4)": [
+    "Bayonet Doppler (Phase 4)",
+    "Bowie Knife Doppler (Phase 4)",
+    "Butterfly Knife Doppler (Phase 4)"
+  ],
+  "Ursus Knife Doppler (Ruby)": [
+    "Bowie Knife Doppler (Ruby)",
+    "Butterfly Knife Doppler (Ruby)",
+    "Falchion Knife Doppler (Ruby)"
+  ],
+  "Ursus Knife Doppler (Sapphire)": [
+    "Bowie Knife Doppler (Sapphire)",
+    "Butterfly Knife Doppler (Sapphire)",
+    "Falchion Knife Doppler (Sapphire)"
+  ],
+  "Ursus Knife Fade": [
+    "Bayonet Fade",
+    "Bowie Knife Fade",
+    "Butterfly Knife Fade"
+  ],
+  "Ursus Knife Forest DDPAT": [
+    "Bayonet Forest DDPAT",
+    "Bowie Knife Forest DDPAT",
+    "Butterfly Knife Forest DDPAT"
+  ],
+  "Ursus Knife Marble Fade": [
+    "Bayonet Marble Fade",
+    "Bowie Knife Marble Fade",
+    "Butterfly Knife Marble Fade"
+  ],
+  "Ursus Knife Night Stripe": [
+    "Classic Knife Night Stripe",
+    "Kukri Knife Night Stripe",
+    "Najava Knife Night Stripe"
+  ],
+  "Ursus Knife Rust Coat": [
+    "Bayonet Rust Coat",
+    "Bowie Knife Rust Coat",
+    "Butterfly Knife Rust Coat"
+  ],
+  "Ursus Knife Safari Mesh": [
+    "Bayonet Safari Mesh",
+    "Bowie Knife Safari Mesh",
+    "Butterfly Knife Safari Mesh"
+  ],
+  "Ursus Knife Scorched": [
+    "Bayonet Scorched",
+    "Bowie Knife Scorched",
+    "Butterfly Knife Scorched"
+  ],
+  "Ursus Knife Slaughter": [
+    "Bayonet Slaughter",
+    "Bowie Knife Slaughter",
+    "Butterfly Knife Slaughter"
+  ],
+  "Ursus Knife Stained": [
+    "Bayonet Stained",
+    "Bowie Knife Stained",
+    "Butterfly Knife Stained"
+  ],
+  "Ursus Knife Tiger Tooth": [
+    "Bayonet Tiger Tooth",
+    "Bowie Knife Tiger Tooth",
+    "Butterfly Knife Tiger Tooth"
+  ],
+  "Ursus Knife Ultraviolet": [
+    "Bayonet Ultraviolet",
+    "Bowie Knife Ultraviolet",
+    "Butterfly Knife Ultraviolet"
+  ],
+  "Ursus Knife Urban Masked": [
+    "Bayonet Urban Masked",
+    "Bowie Knife Urban Masked",
+    "Butterfly Knife Urban Masked"
+  ],
+  "Ursus Knife Vanilla": [
+    "Bayonet Vanilla",
+    "Bowie Knife Vanilla",
+    "Butterfly Knife Vanilla"
+  ]
+}

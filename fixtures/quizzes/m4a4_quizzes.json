@@ -1,0 +1,236 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4",
+  "fields": {
+    "theme": "cs-m4a4",
+    "quiz_group": "m4a4",
+    "title": "Acerte a M4A4",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.233Z",
+    "updated_at": "2025-10-20T17:06:19.233Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-ar",
+  "fields": {
+    "theme": "cs-m4a4-ar",
+    "quiz_group": "m4a4",
+    "title": "Adivina la M4A4",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.236Z",
+    "updated_at": "2025-10-20T17:06:19.236Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-au",
+  "fields": {
+    "theme": "cs-m4a4-au",
+    "quiz_group": "m4a4",
+    "title": "Guess the M4A4",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.231Z",
+    "updated_at": "2025-10-20T17:06:19.231Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-ca",
+  "fields": {
+    "theme": "cs-m4a4-ca",
+    "quiz_group": "m4a4",
+    "title": "Guess the M4A4",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.227Z",
+    "updated_at": "2025-10-20T17:06:19.227Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-co",
+  "fields": {
+    "theme": "cs-m4a4-co",
+    "quiz_group": "m4a4",
+    "title": "Adivina la M4A4",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.237Z",
+    "updated_at": "2025-10-20T17:06:19.237Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-es",
+  "fields": {
+    "theme": "cs-m4a4-es",
+    "quiz_group": "m4a4",
+    "title": "Adivina la M4A4",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.235Z",
+    "updated_at": "2025-10-20T17:06:19.235Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-gb",
+  "fields": {
+    "theme": "cs-m4a4-gb",
+    "quiz_group": "m4a4",
+    "title": "Guess the M4A4",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.228Z",
+    "updated_at": "2025-10-20T17:06:19.228Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-in",
+  "fields": {
+    "theme": "cs-m4a4-in",
+    "quiz_group": "m4a4",
+    "title": "Guess the M4A4",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.229Z",
+    "updated_at": "2025-10-20T17:06:19.229Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-mx",
+  "fields": {
+    "theme": "cs-m4a4-mx",
+    "quiz_group": "m4a4",
+    "title": "Adivina la M4A4",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.234Z",
+    "updated_at": "2025-10-20T17:06:19.234Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-nz",
+  "fields": {
+    "theme": "cs-m4a4-nz",
+    "quiz_group": "m4a4",
+    "title": "Guess the M4A4",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.232Z",
+    "updated_at": "2025-10-20T17:06:19.232Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-ph",
+  "fields": {
+    "theme": "cs-m4a4-ph",
+    "quiz_group": "m4a4",
+    "title": "Guess the M4A4",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.230Z",
+    "updated_at": "2025-10-20T17:06:19.230Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-pt",
+  "fields": {
+    "theme": "cs-m4a4-pt",
+    "quiz_group": "m4a4",
+    "title": "Acerte a M4A4",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.233Z",
+    "updated_at": "2025-10-20T17:06:19.233Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "m4a4-us",
+  "fields": {
+    "theme": "cs-m4a4-us",
+    "quiz_group": "m4a4",
+    "title": "Guess the M4A4",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T17:06:19.226Z",
+    "updated_at": "2025-10-20T17:06:19.226Z"
+  }
+}
+]

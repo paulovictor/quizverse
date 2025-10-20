@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois",
+  "fields": {
+    "title": "Heróis do Dota",
+    "description": "Mostre que você conhece todos os heróis lendários do Dota!",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.757Z",
+    "updated_at": "2025-10-20T18:06:32.757Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-ar",
+  "fields": {
+    "title": "Héroes de Dota",
+    "description": "¡Demuestra que conoces a todos los héroes legendarios de Dota!",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.760Z",
+    "updated_at": "2025-10-20T18:06:32.760Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-au",
+  "fields": {
+    "title": "Dota Heroes",
+    "description": "Show that you know all the legendary heroes from Dota!",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.755Z",
+    "updated_at": "2025-10-20T18:06:32.755Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-ca",
+  "fields": {
+    "title": "Dota Heroes",
+    "description": "Show that you know all the legendary heroes from Dota!",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.752Z",
+    "updated_at": "2025-10-20T18:06:32.752Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-co",
+  "fields": {
+    "title": "Héroes de Dota",
+    "description": "¡Demuestra que conoces a todos los héroes legendarios de Dota!",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.761Z",
+    "updated_at": "2025-10-20T18:06:32.761Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-es",
+  "fields": {
+    "title": "Héroes de Dota",
+    "description": "¡Demuestra que conoces a todos los héroes legendarios de Dota!",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.759Z",
+    "updated_at": "2025-10-20T18:06:32.759Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-gb",
+  "fields": {
+    "title": "Dota Heroes",
+    "description": "Show that you know all the legendary heroes from Dota!",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.753Z",
+    "updated_at": "2025-10-20T18:06:32.753Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-in",
+  "fields": {
+    "title": "Dota Heroes",
+    "description": "Show that you know all the legendary heroes from Dota!",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.754Z",
+    "updated_at": "2025-10-20T18:06:32.754Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-mx",
+  "fields": {
+    "title": "Héroes de Dota",
+    "description": "¡Demuestra que conoces a todos los héroes legendarios de Dota!",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.759Z",
+    "updated_at": "2025-10-20T18:06:32.759Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-nz",
+  "fields": {
+    "title": "Dota Heroes",
+    "description": "Show that you know all the legendary heroes from Dota!",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.756Z",
+    "updated_at": "2025-10-20T18:06:32.756Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-ph",
+  "fields": {
+    "title": "Dota Heroes",
+    "description": "Show that you know all the legendary heroes from Dota!",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.754Z",
+    "updated_at": "2025-10-20T18:06:32.754Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-pt",
+  "fields": {
+    "title": "Heróis do Dota",
+    "description": "Mostre que você conhece todos os heróis lendários do Dota!",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.758Z",
+    "updated_at": "2025-10-20T18:06:32.758Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-herois-us",
+  "fields": {
+    "title": "Dota Heroes",
+    "description": "Show that you know all the legendary heroes from Dota!",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:06:32.751Z",
+    "updated_at": "2025-10-20T18:06:32.751Z"
+  }
+}
+]
