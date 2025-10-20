@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Mostre que você conhece todas as skins da Glock-18 no Counter-Strike! Reconheça os visuais e prove seu conhecimento.",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.459Z",
+    "updated_at": "2025-10-20T18:22:06.459Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-ar",
+  "fields": {
+    "title": "Glock-18",
+    "description": "¡Demuestra que conoces todas las skins de la Glock-18 en Counter-Strike! Reconoce los diseños y prueba tu conocimiento.",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.462Z",
+    "updated_at": "2025-10-20T18:22:06.462Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-au",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Show that you know all the Glock-18 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.457Z",
+    "updated_at": "2025-10-20T18:22:06.457Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-ca",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Show that you know all the Glock-18 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.455Z",
+    "updated_at": "2025-10-20T18:22:06.455Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-co",
+  "fields": {
+    "title": "Glock-18",
+    "description": "¡Demuestra que conoces todas las skins de la Glock-18 en Counter-Strike! Reconoce los diseños y prueba tu conocimiento.",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.462Z",
+    "updated_at": "2025-10-20T18:22:06.462Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-es",
+  "fields": {
+    "title": "Glock-18",
+    "description": "¡Demuestra que conoces todas las skins de la Glock-18 en Counter-Strike! Reconoce los diseños y prueba tu conocimiento.",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.461Z",
+    "updated_at": "2025-10-20T18:22:06.461Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-gb",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Show that you know all the Glock-18 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.455Z",
+    "updated_at": "2025-10-20T18:22:06.455Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-in",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Show that you know all the Glock-18 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.456Z",
+    "updated_at": "2025-10-20T18:22:06.456Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-mx",
+  "fields": {
+    "title": "Glock-18",
+    "description": "¡Demuestra que conoces todas las skins de la Glock-18 en Counter-Strike! Reconoce los diseños y prueba tu conocimiento.",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.460Z",
+    "updated_at": "2025-10-20T18:22:06.460Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-nz",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Show that you know all the Glock-18 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.458Z",
+    "updated_at": "2025-10-20T18:22:06.458Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-ph",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Show that you know all the Glock-18 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.457Z",
+    "updated_at": "2025-10-20T18:22:06.457Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-pt",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Mostre que você conhece todas as skins da Glock-18 no Counter-Strike! Reconheça os visuais e prove seu conhecimento.",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.460Z",
+    "updated_at": "2025-10-20T18:22:06.460Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "cs-glock-us",
+  "fields": {
+    "title": "Glock-18",
+    "description": "Show that you know all the Glock-18 skins in Counter-Strike! Identify the designs and prove your knowledge.",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "cs-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T18:22:06.448Z",
+    "updated_at": "2025-10-20T18:22:06.449Z"
+  }
+}
+]

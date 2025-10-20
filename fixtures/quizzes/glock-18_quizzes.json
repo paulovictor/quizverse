@@ -1,0 +1,236 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18",
+  "fields": {
+    "theme": "cs-glock",
+    "quiz_group": "glock-18",
+    "title": "Acerte a Glock-18",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.623Z",
+    "updated_at": "2025-10-20T18:23:24.623Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-ar",
+  "fields": {
+    "theme": "cs-glock-ar",
+    "quiz_group": "glock-18",
+    "title": "Adivina la Glock-18",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.626Z",
+    "updated_at": "2025-10-20T18:23:24.626Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-au",
+  "fields": {
+    "theme": "cs-glock-au",
+    "quiz_group": "glock-18",
+    "title": "Guess the Glock-18",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.622Z",
+    "updated_at": "2025-10-20T18:23:24.622Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-ca",
+  "fields": {
+    "theme": "cs-glock-ca",
+    "quiz_group": "glock-18",
+    "title": "Guess the Glock-18",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.618Z",
+    "updated_at": "2025-10-20T18:23:24.618Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-co",
+  "fields": {
+    "theme": "cs-glock-co",
+    "quiz_group": "glock-18",
+    "title": "Adivina la Glock-18",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.627Z",
+    "updated_at": "2025-10-20T18:23:24.627Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-es",
+  "fields": {
+    "theme": "cs-glock-es",
+    "quiz_group": "glock-18",
+    "title": "Adivina la Glock-18",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.626Z",
+    "updated_at": "2025-10-20T18:23:24.626Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-gb",
+  "fields": {
+    "theme": "cs-glock-gb",
+    "quiz_group": "glock-18",
+    "title": "Guess the Glock-18",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.619Z",
+    "updated_at": "2025-10-20T18:23:24.619Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-in",
+  "fields": {
+    "theme": "cs-glock-in",
+    "quiz_group": "glock-18",
+    "title": "Guess the Glock-18",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.620Z",
+    "updated_at": "2025-10-20T18:23:24.620Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-mx",
+  "fields": {
+    "theme": "cs-glock-mx",
+    "quiz_group": "glock-18",
+    "title": "Adivina la Glock-18",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.625Z",
+    "updated_at": "2025-10-20T18:23:24.625Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-nz",
+  "fields": {
+    "theme": "cs-glock-nz",
+    "quiz_group": "glock-18",
+    "title": "Guess the Glock-18",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.622Z",
+    "updated_at": "2025-10-20T18:23:24.622Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-ph",
+  "fields": {
+    "theme": "cs-glock-ph",
+    "quiz_group": "glock-18",
+    "title": "Guess the Glock-18",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.621Z",
+    "updated_at": "2025-10-20T18:23:24.621Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-pt",
+  "fields": {
+    "theme": "cs-glock-pt",
+    "quiz_group": "glock-18",
+    "title": "Acerte a Glock-18",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.624Z",
+    "updated_at": "2025-10-20T18:23:24.624Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "glock-18-us",
+  "fields": {
+    "theme": "cs-glock-us",
+    "quiz_group": "glock-18",
+    "title": "Guess the Glock-18",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T18:23:24.617Z",
+    "updated_at": "2025-10-20T18:23:24.617Z"
+  }
+}
+]
