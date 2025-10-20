@@ -1,13 +1,19 @@
 {
   "Spray Ácido": {
     "portuguese": [
-      "Rajada De Espinhos"
+      "Rajada De Espinhos",
+      "Disparo De Bolota",
+      "Ativar Resquício Flamejante"
     ],
     "english": [
-      "Quill Spray"
+      "Quill Spray",
+      "Acorn Shot",
+      "Activate Fire Remnant"
     ],
     "spanish": [
-      "Lluvia De Espinas"
+      "Lluvia De Espinas",
+      "Bellotazo",
+      "Activar Remanente De Fuego"
     ]
   },
   "Disparo De Bolota": {
@@ -114,13 +120,19 @@
   },
   "Colisão Da Âncora": {
     "portuguese": [
-      "Golpe Geológico"
+      "Golpe Geológico",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Boulder Smash"
+      "Boulder Smash",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Golpe De Roca"
+      "Golpe De Roca",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Selo Ancestral": {
@@ -245,15 +257,18 @@
   "Arena Sangrenta": {
     "portuguese": [
       "Sangue Do Furioso",
-      "Ritual De Sangue"
+      "Ritual De Sangue",
+      "Spray Ácido"
     ],
     "english": [
       "Berserker's Blood",
-      "Blood Rite"
+      "Blood Rite",
+      "Spray Ácido"
     ],
     "spanish": [
       "Sangre Del Berserker",
-      "Rito De Sangre"
+      "Rito De Sangre",
+      "Spray Ácido"
     ]
   },
   "Assassinar": {
@@ -276,15 +291,18 @@
   "Prisão Astral": {
     "portuguese": [
       "Espírito Astral",
-      "Projeção Astral"
+      "Projeção Astral",
+      "Spray Ácido"
     ],
     "english": [
       "Astral Spirit",
-      "Astral Step"
+      "Astral Step",
+      "Spray Ácido"
     ],
     "spanish": [
       "Espíritu Astral",
-      "Paso Astral"
+      "Paso Astral",
+      "Spray Ácido"
     ]
   },
   "Espírito Astral": {
@@ -374,13 +392,19 @@
   },
   "Pancada Das Profundezas": {
     "portuguese": [
-      "Grande Pancada"
+      "Grande Pancada",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Greater Bash"
+      "Greater Bash",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Gran Golpetazo"
+      "Gran Golpetazo",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Investida De Bateria": {
@@ -403,26 +427,35 @@
   "Fome De Batalha": {
     "portuguese": [
       "Transe De Batalha",
-      "Fome Insaciável"
+      "Fome Insaciável",
+      "Spray Ácido"
     ],
     "english": [
       "Battle Trance",
-      "Insatiable Hunger"
+      "Insatiable Hunger",
+      "Spray Ácido"
     ],
     "spanish": [
       "Trance De Batalla",
-      "Hambre Insaciable"
+      "Hambre Insaciable",
+      "Spray Ácido"
     ]
   },
   "Transe De Batalha": {
     "portuguese": [
-      "Fome De Batalha"
+      "Fome De Batalha",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Battle Hunger"
+      "Battle Hunger",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Sed De Batalla"
+      "Sed De Batalla",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Balbúrdia": {
@@ -580,13 +613,19 @@
   },
   "Luz Cegante": {
     "portuguese": [
-      "Impacto De Luz Solar"
+      "Impacto De Luz Solar",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Light Strike Array"
+      "Light Strike Array",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Impacto De Luz Solar"
+      "Impacto De Luz Solar",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Golpe Sorrateiro": {
@@ -608,27 +647,36 @@
   },
   "Translocar": {
     "portuguese": [
-      "Golpe Sorrateiro"
+      "Golpe Sorrateiro",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Blink Strike"
+      "Blink Strike",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Asalto Traslativo"
+      "Asalto Traslativo",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Ritual De Sangue": {
     "portuguese": [
       "Arena Sangrenta",
-      "Sangue Do Furioso"
+      "Sangue Do Furioso",
+      "Spray Ácido"
     ],
     "english": [
       "Arena Of Blood",
-      "Berserker's Blood"
+      "Berserker's Blood",
+      "Spray Ácido"
     ],
     "spanish": [
       "Arena De Sangre",
-      "Sangre Del Berserker"
+      "Sangre Del Berserker",
+      "Spray Ácido"
     ]
   },
   "Sede De Sangue": {
@@ -684,13 +732,19 @@
   },
   "Exército Ósseo": {
     "portuguese": [
-      "Troca De Guarda"
+      "Troca De Guarda",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Changing Of The Guard"
+      "Changing Of The Guard",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Cambio De Guardia"
+      "Cambio De Guardia",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Tempo Emprestado": {
@@ -713,15 +767,18 @@
   "Golpe Geológico": {
     "portuguese": [
       "Colisão Da Âncora",
-      "Pedregulho Rolante"
+      "Pedregulho Rolante",
+      "Spray Ácido"
     ],
     "english": [
       "Anchor Smash",
-      "Rolling Boulder"
+      "Rolling Boulder",
+      "Spray Ácido"
     ],
     "spanish": [
       "Golpe De Ancla",
-      "Roca Rodante"
+      "Roca Rodante",
+      "Spray Ácido"
     ]
   },
   "Pancada Ilimitada": {
@@ -846,15 +903,18 @@
   "Exército Ardente": {
     "portuguese": [
       "Rajada Ardente",
-      "Lança Flamejante"
+      "Lança Flamejante",
+      "Spray Ácido"
     ],
     "english": [
       "Burning Barrage",
-      "Burning Spear"
+      "Burning Spear",
+      "Spray Ácido"
     ],
     "spanish": [
       "Aluvión Llameante",
-      "Lanza Flamígera"
+      "Lanza Flamígera",
+      "Spray Ácido"
     ]
   },
   "Rajada Ardente": {
@@ -996,15 +1056,18 @@
   "Martelo Celestial": {
     "portuguese": [
       "Martelo Da Pureza",
-      "Punho Da Tempestade"
+      "Punho Da Tempestade",
+      "Spray Ácido"
     ],
     "english": [
       "Hammer Of Purity",
-      "Storm Hammer"
+      "Storm Hammer",
+      "Spray Ácido"
     ],
     "spanish": [
       "Martillo De Pureza",
-      "Martillo De La Tormenta"
+      "Martillo De La Tormenta",
+      "Spray Ácido"
     ]
   },
   "Congelamento Em Cadeia": {
@@ -1026,13 +1089,19 @@
   },
   "Magia Do Chakra": {
     "portuguese": [
-      "Míssil Mágico"
+      "Míssil Mágico",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Magic Missile"
+      "Magic Missile",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Misil Mágico"
+      "Misil Mágico",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Chakram": {
@@ -1054,13 +1123,19 @@
   },
   "Troca De Guarda": {
     "portuguese": [
-      "Exército Ósseo"
+      "Exército Ósseo",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Bone Guard"
+      "Bone Guard",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Guardia De Esqueletos"
+      "Guardia De Esqueletos",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Raio Caótico": {
@@ -1083,15 +1158,18 @@
   "Meteoro Do Caos": {
     "portuguese": [
       "Raio Caótico",
-      "Golpe Caótico"
+      "Golpe Caótico",
+      "Spray Ácido"
     ],
     "english": [
       "Chaos Bolt",
-      "Chaos Strike"
+      "Chaos Strike",
+      "Spray Ácido"
     ],
     "spanish": [
       "Rayo Del Caos",
-      "Golpe Caótico"
+      "Golpe Caótico",
+      "Spray Ácido"
     ]
   },
   "Golpe Caótico": {
@@ -1148,26 +1226,35 @@
   "Fúria Química": {
     "portuguese": [
       "Ira Do Furioso",
-      "Fúria"
+      "Fúria",
+      "Spray Ácido"
     ],
     "english": [
       "Berserker's Rage",
-      "Rage"
+      "Rage",
+      "Spray Ácido"
     ],
     "spanish": [
       "Furia Del Berserker",
-      "Furia"
+      "Furia",
+      "Spray Ácido"
     ]
   },
   "Toque Arrepiante": {
     "portuguese": [
-      "Toque Venenoso"
+      "Toque Venenoso",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Poison Touch"
+      "Poison Touch",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Toque Venenoso"
+      "Toque Venenoso",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Cronosfera": {
@@ -1241,40 +1328,52 @@
   "Pé Frio": {
     "portuguese": [
       "Abraço Gelado",
-      "Onda De Frio"
+      "Onda De Frio",
+      "Spray Ácido"
     ],
     "english": [
       "Cold Embrace",
-      "Cold Snap"
+      "Cold Snap",
+      "Spray Ácido"
     ],
     "spanish": [
       "Abrazo Helado",
-      "Ola De Frío"
+      "Ola De Frío",
+      "Spray Ácido"
     ]
   },
   "Onda De Frio": {
     "portuguese": [
       "Abraço Gelado",
-      "Pé Frio"
+      "Pé Frio",
+      "Spray Ácido"
     ],
     "english": [
       "Cold Embrace",
-      "Cold Feet"
+      "Cold Feet",
+      "Spray Ácido"
     ],
     "spanish": [
       "Abrazo Helado",
-      "Pies Fríos"
+      "Pies Fríos",
+      "Spray Ácido"
     ]
   },
   "Granada De Concussão": {
     "portuguese": [
-      "Disparo Contusivo"
+      "Disparo Contusivo",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Concussive Shot"
+      "Concussive Shot",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Disparo Conmocionador"
+      "Disparo Conmocionador",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Disparo Contusivo": {
@@ -1296,55 +1395,70 @@
   },
   "Conjurar Imagem": {
     "portuguese": [
-      "Imagem Espelhada"
+      "Imagem Espelhada",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Mirror Image"
+      "Mirror Image",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Espejismo"
+      "Espejismo",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Neblina Corrosiva": {
     "portuguese": [
       "Escama Corrosiva",
-      "Armamento Corrosivo"
+      "Armamento Corrosivo",
+      "Spray Ácido"
     ],
     "english": [
       "Corrosive Skin",
-      "Corrosive Weaponry"
+      "Corrosive Weaponry",
+      "Spray Ácido"
     ],
     "spanish": [
       "Piel Corrosiva",
-      "Armamento Corrosivo"
+      "Armamento Corrosivo",
+      "Spray Ácido"
     ]
   },
   "Escama Corrosiva": {
     "portuguese": [
       "Neblina Corrosiva",
-      "Armamento Corrosivo"
+      "Armamento Corrosivo",
+      "Spray Ácido"
     ],
     "english": [
       "Corrosive Haze",
-      "Corrosive Weaponry"
+      "Corrosive Weaponry",
+      "Spray Ácido"
     ],
     "spanish": [
       "Neblina Corrosiva",
-      "Armamento Corrosivo"
+      "Armamento Corrosivo",
+      "Spray Ácido"
     ]
   },
   "Armamento Corrosivo": {
     "portuguese": [
       "Neblina Corrosiva",
-      "Escama Corrosiva"
+      "Escama Corrosiva",
+      "Spray Ácido"
     ],
     "english": [
       "Corrosive Haze",
-      "Corrosive Skin"
+      "Corrosive Skin",
+      "Spray Ácido"
     ],
     "spanish": [
       "Neblina Corrosiva",
-      "Piel Corrosiva"
+      "Piel Corrosiva",
+      "Spray Ácido"
     ]
   },
   "Contraespiral": {
@@ -1366,24 +1480,36 @@
   },
   "Contrafeitiço Aliado": {
     "portuguese": [
-      "Contrafeitiço"
+      "Contrafeitiço",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Counterspell"
+      "Counterspell",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Contrahechizo"
+      "Contrahechizo",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Contrafeitiço": {
     "portuguese": [
-      "Contrafeitiço Aliado"
+      "Contrafeitiço Aliado",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Counterspell Ally"
+      "Counterspell Ally",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Contrahechizo Aliado"
+      "Contrahechizo Aliado",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Coup De Grace": {
@@ -1422,38 +1548,53 @@
   },
   "Enxame Da Cripta": {
     "portuguese": [
-      "O Enxame"
+      "O Enxame",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "The Swarm"
+      "The Swarm",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "El Enjambre"
+      "El Enjambre",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Clone Cristalino": {
     "portuguese": [
-      "Explosão Cristalina"
+      "Explosão Cristalina",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Crystal Nova"
+      "Crystal Nova",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Explosión Cristalina"
+      "Explosión Cristalina",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Explosão Cristalina": {
     "portuguese": [
       "Clone Cristalino",
-      "Pulso De Nova"
+      "Pulso De Nova",
+      "Spray Ácido"
     ],
     "english": [
       "Crystal Clone",
-      "Pulse Nova"
+      "Pulse Nova",
+      "Spray Ácido"
     ],
     "spanish": [
       "Clon De Cristal",
-      "Ráfaga De Pulsaciones"
+      "Ráfaga De Pulsaciones",
+      "Spray Ácido"
     ]
   },
   "Lâmina De Abate": {
@@ -1527,15 +1668,18 @@
   "Ascensão Sombria": {
     "portuguese": [
       "Pacto Sombrio",
-      "Retrato Sombrio"
+      "Retrato Sombrio",
+      "Spray Ácido"
     ],
     "english": [
       "Dark Pact",
-      "Dark Portrait"
+      "Dark Portrait",
+      "Spray Ácido"
     ],
     "spanish": [
       "Pacto Oscuro",
-      "Ola De Tinta"
+      "Ola De Tinta",
+      "Spray Ácido"
     ]
   },
   "Pacto Sombrio": {
@@ -1558,26 +1702,35 @@
   "Retrato Sombrio": {
     "portuguese": [
       "Ascensão Sombria",
-      "Pacto Sombrio"
+      "Pacto Sombrio",
+      "Spray Ácido"
     ],
     "english": [
       "Dark Ascension",
-      "Dark Pact"
+      "Dark Pact",
+      "Spray Ácido"
     ],
     "spanish": [
       "Ascensión Oscura",
-      "Pacto Oscuro"
+      "Pacto Oscuro",
+      "Spray Ácido"
     ]
   },
   "Ancoradouro": {
     "portuguese": [
-      "Rebatiro"
+      "Rebatiro",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Dead Shot"
+      "Dead Shot",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Disparo Mortal"
+      "Disparo Mortal",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Rebatiro": {
@@ -1770,54 +1923,69 @@
   "Limpeza Demoníaca": {
     "portuguese": [
       "Invocação Demoníaca",
-      "Expurgo Demoníaco"
+      "Expurgo Demoníaco",
+      "Spray Ácido"
     ],
     "english": [
       "Demonic Conversion",
-      "Demonic Purge"
+      "Demonic Purge",
+      "Spray Ácido"
     ],
     "spanish": [
       "Invocación Demoníaca",
-      "Purga Demoníaca"
+      "Purga Demoníaca",
+      "Spray Ácido"
     ]
   },
   "Invocação Demoníaca": {
     "portuguese": [
       "Limpeza Demoníaca",
-      "Expurgo Demoníaco"
+      "Expurgo Demoníaco",
+      "Spray Ácido"
     ],
     "english": [
       "Demonic Cleanse",
-      "Demonic Purge"
+      "Demonic Purge",
+      "Spray Ácido"
     ],
     "spanish": [
       "Limpieza Demoníaca",
-      "Purga Demoníaca"
+      "Purga Demoníaca",
+      "Spray Ácido"
     ]
   },
   "Expurgo Demoníaco": {
     "portuguese": [
       "Limpeza Demoníaca",
-      "Invocação Demoníaca"
+      "Invocação Demoníaca",
+      "Spray Ácido"
     ],
     "english": [
       "Demonic Cleanse",
-      "Demonic Conversion"
+      "Demonic Conversion",
+      "Spray Ácido"
     ],
     "spanish": [
       "Limpieza Demoníaca",
-      "Invocación Demoníaca"
+      "Invocación Demoníaca",
+      "Spray Ácido"
     ]
   },
   "Manto Das Profundezas": {
     "portuguese": [
-      "Mortalha Fantasmagórica"
+      "Mortalha Fantasmagórica",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Ghost Shroud"
+      "Ghost Shroud",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Velo Fantasmal"
+      "Velo Fantasmal",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Desolar": {
@@ -1873,13 +2041,19 @@
   },
   "Decreto Diabólico": {
     "portuguese": [
-      "Decreto Do Destino"
+      "Decreto Do Destino",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Fate's Edict"
+      "Fate's Edict",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Edicto Del Destino"
+      "Edicto Del Destino",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Escavar": {
@@ -2071,52 +2245,70 @@
   },
   "Arma De Dois Gumes": {
     "portuguese": [
-      "Duplicata Tempestuosa"
+      "Duplicata Tempestuosa",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Tempest Double"
+      "Tempest Double",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Duplicado De La Tempestad"
+      "Duplicado De La Tempestad",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Dragão Escravo": {
     "portuguese": [
       "Cauda De Dragão",
-      "Forma De Dragão Ancestral"
+      "Forma De Dragão Ancestral",
+      "Spray Ácido"
     ],
     "english": [
       "Dragon Tail",
-      "Elder Dragon Form"
+      "Elder Dragon Form",
+      "Spray Ácido"
     ],
     "spanish": [
       "Cola De Dragón",
-      "Forma De Dragón Ancestral"
+      "Forma De Dragón Ancestral",
+      "Spray Ácido"
     ]
   },
   "Cauda De Dragão": {
     "portuguese": [
       "Dragão Escravo",
-      "Forma De Dragão Ancestral"
+      "Forma De Dragão Ancestral",
+      "Spray Ácido"
     ],
     "english": [
       "Dragon Slave",
-      "Elder Dragon Form"
+      "Elder Dragon Form",
+      "Spray Ácido"
     ],
     "spanish": [
       "Esclavo Dracónico",
-      "Forma De Dragón Ancestral"
+      "Forma De Dragón Ancestral",
+      "Spray Ácido"
     ]
   },
   "Espiral Dos Sonhos": {
     "portuguese": [
-      "Espiral Da Neblina"
+      "Espiral Da Neblina",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Mist Coil"
+      "Mist Coil",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Espiral De Niebla"
+      "Espiral De Niebla",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Beber, Correr E Espancar": {
@@ -2275,29 +2467,35 @@
   "Batida Ecoante": {
     "portuguese": [
       "Corte Ecoante",
-      "Pisão Ecoante"
+      "Pisão Ecoante",
+      "Spray Ácido"
     ],
     "english": [
       "Echo Slash",
-      "Echo Stomp"
+      "Echo Stomp",
+      "Spray Ácido"
     ],
     "spanish": [
       "Corte Resonante",
-      "Pisotón Resonante"
+      "Pisotón Resonante",
+      "Spray Ácido"
     ]
   },
   "Corte Ecoante": {
     "portuguese": [
       "Batida Ecoante",
-      "Pisão Ecoante"
+      "Pisão Ecoante",
+      "Spray Ácido"
     ],
     "english": [
       "Echo Slam",
-      "Echo Stomp"
+      "Echo Stomp",
+      "Spray Ácido"
     ],
     "spanish": [
       "Golpe Resonante",
-      "Pisotón Resonante"
+      "Pisotón Resonante",
+      "Spray Ácido"
     ]
   },
   "Pisão Ecoante": {
@@ -2319,13 +2517,19 @@
   },
   "Eclipse": {
     "portuguese": [
-      "Eclipse Da Sanidade"
+      "Eclipse Da Sanidade",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Sanity's Eclipse"
+      "Sanity's Eclipse",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Eclipse De La Cordura"
+      "Eclipse De La Cordura",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Forma De Dragão Ancestral": {
@@ -2347,13 +2551,19 @@
   },
   "Vórtice Elétrico": {
     "portuguese": [
-      "Vórtex De Gelo"
+      "Vórtex De Gelo",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Ice Vortex"
+      "Ice Vortex",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Vórtice De Hielo"
+      "Vórtice De Hielo",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Pulso Eletromagnético": {
@@ -2410,29 +2620,35 @@
   "Encantar Totem": {
     "portuguese": [
       "Encantar",
-      "Encantar Resquício"
+      "Encantar Resquício",
+      "Spray Ácido"
     ],
     "english": [
       "Enchant",
-      "Enchant Remnant"
+      "Enchant Remnant",
+      "Spray Ácido"
     ],
     "spanish": [
       "Encantar",
-      "Atracción Geomagnética"
+      "Atracción Geomagnética",
+      "Spray Ácido"
     ]
   },
   "Encantar": {
     "portuguese": [
       "Encantar Resquício",
-      "Encantar Totem"
+      "Encantar Totem",
+      "Spray Ácido"
     ],
     "english": [
       "Enchant Remnant",
-      "Enchant Totem"
+      "Enchant Totem",
+      "Spray Ácido"
     ],
     "spanish": [
       "Atracción Geomagnética",
-      "Encantar Tótem"
+      "Encantar Tótem",
+      "Spray Ácido"
     ]
   },
   "Debilitar": {
@@ -2540,29 +2756,35 @@
   "Fluxo De Essência": {
     "portuguese": [
       "Troca De Essência",
-      "Fluxo"
+      "Fluxo",
+      "Spray Ácido"
     ],
     "english": [
       "Essence Shift",
-      "Flux"
+      "Flux",
+      "Spray Ácido"
     ],
     "spanish": [
       "Robo De Esencia",
-      "Flujo"
+      "Flujo",
+      "Spray Ácido"
     ]
   },
   "Troca De Essência": {
     "portuguese": [
       "Fluxo De Essência",
-      "Troca De Fase"
+      "Troca De Fase",
+      "Spray Ácido"
     ],
     "english": [
       "Essence Flux",
-      "Phase Shift"
+      "Phase Shift",
+      "Spray Ácido"
     ],
     "spanish": [
       "Flujo De Esencia",
-      "Cambio De Fase"
+      "Cambio De Fase",
+      "Spray Ácido"
     ]
   },
   "Choque De Éter": {
@@ -2653,26 +2875,35 @@
   "Choque Enfraquecedor": {
     "portuguese": [
       "Raio Caótico",
-      "Raio"
+      "Raio",
+      "Spray Ácido"
     ],
     "english": [
       "Chaos Bolt",
-      "Lightning Bolt"
+      "Lightning Bolt",
+      "Spray Ácido"
     ],
     "spanish": [
       "Rayo Del Caos",
-      "Relámpago"
+      "Relámpago",
+      "Spray Ácido"
     ]
   },
   "Avanço Falcoado": {
     "portuguese": [
-      "Investida Fantasma"
+      "Investida Fantasma",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Phantom Rush"
+      "Phantom Rush",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Carrera Fantasma"
+      "Carrera Fantasma",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Falsa Promessa": {
@@ -2745,13 +2976,19 @@
   },
   "Banquete De Almas": {
     "portuguese": [
-      "Réquiem Das Almas"
+      "Réquiem Das Almas",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Requiem Of Souls"
+      "Requiem Of Souls",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Réquiem De Las Almas"
+      "Réquiem De Las Almas",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Impulso Feroz": {
@@ -2825,15 +3062,18 @@
   "Alma Ardente": {
     "portuguese": [
       "Suposição De Almas",
-      "Rompimento Da Alma"
+      "Rompimento Da Alma",
+      "Spray Ácido"
     ],
     "english": [
       "Soul Assumption",
-      "Soul Rip"
+      "Soul Rip",
+      "Spray Ácido"
     ],
     "spanish": [
       "Toma De Almas",
-      "Desgarre De Alma"
+      "Desgarre De Alma",
+      "Spray Ácido"
     ]
   },
   "Dedo Da Morte": {
@@ -2923,13 +3163,19 @@
   },
   "Rajada De Fogo": {
     "portuguese": [
-      "Rajada De Fogo Bruto"
+      "Rajada De Fogo Bruto",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Unrefined Fireblast"
+      "Unrefined Fireblast",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Explosión De Fuego Bruta"
+      "Explosión De Fuego Bruta",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Rastro De Chamas": {
@@ -3020,15 +3266,18 @@
   "Capa Ardente": {
     "portuguese": [
       "Manto E Adaga",
-      "Manto Do Coveiro"
+      "Manto Do Coveiro",
+      "Spray Ácido"
     ],
     "english": [
       "Cloak And Dagger",
-      "Gravekeeper's Cloak"
+      "Gravekeeper's Cloak",
+      "Spray Ácido"
     ],
     "spanish": [
       "Puñalada Desde Las Sombras",
-      "Capa Del Guardián De La Tumba"
+      "Capa Del Guardián De La Tumba",
+      "Spray Ácido"
     ]
   },
   "Explosão De Chamas": {
@@ -3101,13 +3350,19 @@
   },
   "Fluxo": {
     "portuguese": [
-      "Fluxo De Essência"
+      "Fluxo De Essência",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Essence Flux"
+      "Essence Flux",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Flujo De Esencia"
+      "Flujo De Esencia",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Disparos Concentrados": {
@@ -3299,63 +3554,87 @@
   },
   "Garras Furiosas": {
     "portuguese": [
-      "Fúria Da Lâmina"
+      "Fúria Da Lâmina",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Blade Fury"
+      "Blade Fury",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Furia De La Hoja"
+      "Furia De La Hoja",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Força Da Ventania": {
     "portuguese": [
-      "Bola De Veneno"
+      "Bola De Veneno",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Venomous Gale"
+      "Venomous Gale",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Vendaval Venenoso"
+      "Vendaval Venenoso",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Ataque Germinante": {
     "portuguese": [
       "Ataque Venenoso",
-      "Forçar O Ataque"
+      "Forçar O Ataque",
+      "Spray Ácido"
     ],
     "english": [
       "Poison Attack",
-      "Press The Attack"
+      "Press The Attack",
+      "Spray Ácido"
     ],
     "spanish": [
       "Ataque Venenoso",
-      "Intensificar El Ataque"
+      "Intensificar El Ataque",
+      "Spray Ácido"
     ]
   },
   "Punho Geomagnético": {
     "portuguese": [
-      "Aperto Do Demônio"
+      "Aperto Do Demônio",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Fiend's Grip"
+      "Fiend's Grip",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Garra Del Diablo"
+      "Garra Del Diablo",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Mortalha Fantasmagórica": {
     "portuguese": [
       "Manto Das Profundezas",
-      "Andar Fantasma"
+      "Andar Fantasma",
+      "Spray Ácido"
     ],
     "english": [
       "Depth Shroud",
-      "Ghost Walk"
+      "Ghost Walk",
+      "Spray Ácido"
     ],
     "spanish": [
       "Manto De Las Profundidades",
-      "Movimiento Fantasmal"
+      "Movimiento Fantasmal",
+      "Spray Ácido"
     ]
   },
   "Andar Fantasma": {
@@ -3428,13 +3707,19 @@
   },
   "Glaives Da Sabedoria": {
     "portuguese": [
-      "Glaives Lunares"
+      "Glaives Lunares",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Moon Glaives"
+      "Moon Glaives",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Gujas Lunares"
+      "Gujas Lunares",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Relance": {
@@ -3456,24 +3741,36 @@
   },
   "Silêncio Global": {
     "portuguese": [
-      "Silenciar"
+      "Silenciar",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Silence"
+      "Silence",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Silencio"
+      "Silencio",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Engolir": {
     "portuguese": [
-      "Enrolar"
+      "Enrolar",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Roll Up"
+      "Roll Up",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Enrollar"
+      "Enrollar",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Repreensão Divina": {
@@ -3530,15 +3827,18 @@
   "Calafrio Do Túmulo": {
     "portuguese": [
       "Cova Rasa",
-      "Silêncio Do Túmulo"
+      "Silêncio Do Túmulo",
+      "Spray Ácido"
     ],
     "english": [
       "Shallow Grave",
-      "Silent As The Grave"
+      "Silent As The Grave",
+      "Spray Ácido"
     ],
     "spanish": [
       "Tumba Vacía",
-      "Capa Del Guardián De La Tumba"
+      "Capa Del Guardián De La Tumba",
+      "Spray Ácido"
     ]
   },
   "Manto Do Coveiro": {
@@ -3560,13 +3860,19 @@
   },
   "Grande Pancada": {
     "portuguese": [
-      "Pancada Das Profundezas"
+      "Pancada Das Profundezas",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Bash Of The Deep"
+      "Bash Of The Deep",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Golpetazo De Las Profundidades"
+      "Golpetazo De Las Profundidades",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Crescer": {
@@ -3589,29 +3895,35 @@
   "Anjo Da Guarda": {
     "portuguese": [
       "Arrancada Do Guardião",
-      "Guardiã Solar"
+      "Guardiã Solar",
+      "Spray Ácido"
     ],
     "english": [
       "Guardian Sprint",
-      "Solar Guardian"
+      "Solar Guardian",
+      "Spray Ácido"
     ],
     "spanish": [
       "Carrera Del Guardián",
-      "Guardiana Solar"
+      "Guardiana Solar",
+      "Spray Ácido"
     ]
   },
   "Arrancada Do Guardião": {
     "portuguese": [
       "Anjo Da Guarda",
-      "Guardiã Solar"
+      "Guardiã Solar",
+      "Spray Ácido"
     ],
     "english": [
       "Guardian Angel",
-      "Solar Guardian"
+      "Solar Guardian",
+      "Spray Ácido"
     ],
     "spanish": [
       "Ángel Guardián",
-      "Guardiana Solar"
+      "Guardiana Solar",
+      "Spray Ácido"
     ]
   },
   "Pistoleira": {
@@ -3685,29 +3997,35 @@
   "Martelo Da Pureza": {
     "portuguese": [
       "Martelo Celestial",
-      "Punho Da Tempestade"
+      "Punho Da Tempestade",
+      "Spray Ácido"
     ],
     "english": [
       "Celestial Hammer",
-      "Storm Hammer"
+      "Storm Hammer",
+      "Spray Ácido"
     ],
     "spanish": [
       "Martillo Celestial",
-      "Martillo De La Tormenta"
+      "Martillo De La Tormenta",
+      "Spray Ácido"
     ]
   },
   "Mão De Deus": {
     "portuguese": [
       "Repreensão Divina",
-      "Força Divina"
+      "Força Divina",
+      "Spray Ácido"
     ],
     "english": [
       "God's Rebuke",
-      "God's Strength"
+      "God's Strength",
+      "Spray Ácido"
     ],
     "spanish": [
       "Reprimenda Divina",
-      "Fuerza Divina"
+      "Fuerza Divina",
+      "Spray Ácido"
     ]
   },
   "Assombrar": {
@@ -3831,24 +4149,36 @@
   },
   "Míssil Teleguiado": {
     "portuguese": [
-      "Míssil Mágico"
+      "Míssil Mágico",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Magic Missile"
+      "Magic Missile",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Misil Mágico"
+      "Misil Mágico",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Pisão": {
     "portuguese": [
-      "Pisão Ecoante"
+      "Pisão Ecoante",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Echo Stomp"
+      "Echo Stomp",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Pisotón Resonante"
+      "Pisotón Resonante",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Gancho": {
@@ -3904,13 +4234,19 @@
   },
   "Predador Noturno": {
     "portuguese": [
-      "Bumerangue Da Caçadora"
+      "Bumerangue Da Caçadora",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Hunter's Boomerang"
+      "Hunter's Boomerang",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Bumerán De La Cazadora"
+      "Bumerán De La Cazadora",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Bumerangue Da Caçadora": {
@@ -4085,13 +4421,19 @@
   },
   "Orbe Ilusório": {
     "portuguese": [
-      "Esfera Arcana"
+      "Esfera Arcana",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Arcane Orb"
+      "Arcane Orb",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Orbe Arcano"
+      "Orbe Arcano",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Arremesso De Facas": {
@@ -4147,13 +4489,19 @@
   },
   "Mordida Incapacitante": {
     "portuguese": [
-      "Mordida Lupina"
+      "Mordida Lupina",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Wolf Bite"
+      "Wolf Bite",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Invocar Lobos"
+      "Invocar Lobos",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Lâmina Infernal": {
@@ -4209,13 +4557,19 @@
   },
   "Fera Interior": {
     "portuguese": [
-      "Fogo Interior"
+      "Fogo Interior",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Inner Fire"
+      "Inner Fire",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Fuego Interior"
+      "Fuego Interior",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Fogo Interior": {
@@ -4237,24 +4591,36 @@
   },
   "Fome Insaciável": {
     "portuguese": [
-      "Fome De Batalha"
+      "Fome De Batalha",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Battle Hunger"
+      "Battle Hunger",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Sed De Batalla"
+      "Sed De Batalla",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Carapaça Iônica": {
     "portuguese": [
-      "Carapaça De Kraken"
+      "Carapaça De Kraken",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Kraken Shell"
+      "Kraken Shell",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Caparazón De Kraken"
+      "Caparazón De Kraken",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Mochila A Jato": {
@@ -4344,13 +4710,19 @@
   },
   "Barreira Cinética": {
     "portuguese": [
-      "Campo Cinético"
+      "Campo Cinético",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Kinetic Field"
+      "Kinetic Field",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Campo Cinético"
+      "Campo Cinético",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Campo Cinético": {
@@ -4372,13 +4744,19 @@
   },
   "Carapaça De Kraken": {
     "portuguese": [
-      "Carapaça Iônica"
+      "Carapaça Iônica",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Ion Shell"
+      "Ion Shell",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Caparazón Iónico"
+      "Caparazón Iónico",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Lâmina Laguna": {
@@ -4417,13 +4795,19 @@
   },
   "Últimas Palavras": {
     "portuguese": [
-      "Palavra Sombria"
+      "Palavra Sombria",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Shadow Word"
+      "Shadow Word",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Palabra De Las Sombras"
+      "Palabra De Las Sombras",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Salto": {
@@ -4463,29 +4847,35 @@
   "Quebra De Vida": {
     "portuguese": [
       "Dreno De Vida",
-      "Quebra De Mana"
+      "Quebra De Mana",
+      "Spray Ácido"
     ],
     "english": [
       "Life Drain",
-      "Mana Break"
+      "Mana Break",
+      "Spray Ácido"
     ],
     "spanish": [
       "Succión Vital",
-      "Ruptura De Maná"
+      "Ruptura De Maná",
+      "Spray Ácido"
     ]
   },
   "Dreno De Vida": {
     "portuguese": [
       "Quebra De Vida",
-      "Drenagem De Mana"
+      "Drenagem De Mana",
+      "Spray Ácido"
     ],
     "english": [
       "Life Break",
-      "Mana Drain"
+      "Mana Drain",
+      "Spray Ácido"
     ],
     "spanish": [
       "Quebrantavidas",
-      "Drenaje De Maná"
+      "Drenaje De Maná",
+      "Spray Ácido"
     ]
   },
   "Impacto De Luz Solar": {
@@ -4626,13 +5016,19 @@
   },
   "Armadura Viva": {
     "portuguese": [
-      "Armadura Reativa"
+      "Armadura Reativa",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Reactive Armor"
+      "Reactive Armor",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Armadura Reactiva"
+      "Armadura Reactiva",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Raio Lunar": {
@@ -4723,15 +5119,18 @@
   "Míssil Mágico": {
     "portuguese": [
       "Magia Do Chakra",
-      "Míssil Teleguiado"
+      "Míssil Teleguiado",
+      "Spray Ácido"
     ],
     "english": [
       "Chakra Magic",
-      "Homing Missile"
+      "Homing Missile",
+      "Spray Ácido"
     ],
     "spanish": [
       "Magia De Los Chakra",
-      "Misil Buscador"
+      "Misil Buscador",
+      "Spray Ácido"
     ]
   },
   "Campo Magnético": {
@@ -4906,13 +5305,19 @@
   },
   "Gancho De Carne": {
     "portuguese": [
-      "Escudo De Carne"
+      "Escudo De Carne",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Meat Shield"
+      "Meat Shield",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Escudo Cárnico"
+      "Escudo Cárnico",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Escudo De Carne": {
@@ -5019,24 +5424,36 @@
   },
   "Imagem Espelhada": {
     "portuguese": [
-      "Conjurar Imagem"
+      "Conjurar Imagem",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Conjure Image"
+      "Conjure Image",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Conjurar Imagen"
+      "Conjurar Imagen",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Espiral Da Neblina": {
     "portuguese": [
-      "Espiral Dos Sonhos"
+      "Espiral Dos Sonhos",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Dream Coil"
+      "Dream Coil",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Espiral De Sueños"
+      "Espiral De Sueños",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Momento De Coragem": {
@@ -5058,13 +5475,19 @@
   },
   "Glaives Lunares": {
     "portuguese": [
-      "Glaives Da Sabedoria"
+      "Glaives Da Sabedoria",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Glaives Of Wisdom"
+      "Glaives Of Wisdom",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Gujas De Sabiduría"
+      "Gujas De Sabiduría",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Sombra Lunar": {
@@ -5121,15 +5544,18 @@
   "Morfose": {
     "portuguese": [
       "Troca De Atributo (+ Agilidade)",
-      "Troca De Atributo (+ Força)"
+      "Troca De Atributo (+ Força)",
+      "Spray Ácido"
     ],
     "english": [
       "Morph (agility Gain)",
-      "Morph (strength Gain)"
+      "Morph (strength Gain)",
+      "Spray Ácido"
     ],
     "spanish": [
       "Cambio De Atributo (ganancia De Agilidad)",
-      "Cambio De Atributo (ganancia De Fuerza)"
+      "Cambio De Atributo (ganancia De Fuerza)",
+      "Spray Ácido"
     ]
   },
   "Golpe Mortal": {
@@ -5219,13 +5645,19 @@
   },
   "Serpente Mística": {
     "portuguese": [
-      "Relâmpagos Místicos"
+      "Relâmpagos Místicos",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Mystic Flare"
+      "Mystic Flare",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Destello Místico"
+      "Destello Místico",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Estado Natural": {
@@ -5434,13 +5866,19 @@
   },
   "Soco Normal": {
     "portuguese": [
-      "Soco Morsal!"
+      "Soco Morsal!",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Walrus Punch!"
+      "Walrus Punch!",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "¡puñetazo De Morsa!"
+      "¡puñetazo De Morsa!",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Queda Livre": {
@@ -5462,24 +5900,36 @@
   },
   "Projeção De Nothl": {
     "portuguese": [
-      "Projeção Psiônica"
+      "Projeção Psiônica",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Psionic Projection"
+      "Psionic Projection",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Trampa Psiónica"
+      "Trampa Psiónica",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Praga Nociva": {
     "portuguese": [
-      "Sentinela De Praga"
+      "Sentinela De Praga",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Plague Ward"
+      "Plague Ward",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Guardián De La Plaga"
+      "Guardián De La Plaga",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Onitalho": {
@@ -5672,15 +6122,18 @@
   "Investida Fantasma": {
     "portuguese": [
       "Avanço Falcoado",
-      "Abraço Fantasma"
+      "Abraço Fantasma",
+      "Spray Ácido"
     ],
     "english": [
       "Falcon Rush",
-      "Phantom's Embrace"
+      "Phantom's Embrace",
+      "Spray Ácido"
     ],
     "spanish": [
       "Embate De Halcón",
-      "Abrazo Fantasma"
+      "Abrazo Fantasma",
+      "Spray Ácido"
     ]
   },
   "Abraço Fantasma": {
@@ -5702,13 +6155,19 @@
   },
   "Troca De Fase": {
     "portuguese": [
-      "Troca De Essência"
+      "Troca De Essência",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Essence Shift"
+      "Essence Shift",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Robo De Esencia"
+      "Robo De Esencia",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Além Do Véu": {
@@ -5901,29 +6360,35 @@
   "Forçar O Ataque": {
     "portuguese": [
       "Ataque Germinante",
-      "Ataque Venenoso"
+      "Ataque Venenoso",
+      "Spray Ácido"
     ],
     "english": [
       "Geminate Attack",
-      "Poison Attack"
+      "Poison Attack",
+      "Spray Ácido"
     ],
     "spanish": [
       "Ataque Geminado",
-      "Ataque Venenoso"
+      "Ataque Venenoso",
+      "Spray Ácido"
     ]
   },
   "Companhia Primordial": {
     "portuguese": [
       "Rugido Primitivo",
-      "Divisão Primordial"
+      "Divisão Primordial",
+      "Spray Ácido"
     ],
     "english": [
       "Primal Roar",
-      "Primal Split"
+      "Primal Split",
+      "Spray Ácido"
     ],
     "spanish": [
       "Rugido Primordial",
-      "Escisión Primordial"
+      "Escisión Primordial",
+      "Spray Ácido"
     ]
   },
   "Rugido Primitivo": {
@@ -5997,26 +6462,35 @@
   "Projeção Psiônica": {
     "portuguese": [
       "Projeção De Nothl",
-      "Armadilha Psiônica"
+      "Armadilha Psiônica",
+      "Spray Ácido"
     ],
     "english": [
       "Nothl Projection",
-      "Psionic Trap"
+      "Psionic Trap",
+      "Spray Ácido"
     ],
     "spanish": [
       "Proyección De Nothl",
-      "Trampa Psiónica"
+      "Trampa Psiónica",
+      "Spray Ácido"
     ]
   },
   "Armadilha Psiônica": {
     "portuguese": [
-      "Projeção Psiônica"
+      "Projeção Psiônica",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Psionic Projection"
+      "Psionic Projection",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Trampa Psiónica"
+      "Trampa Psiónica",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Pulso De Nova": {
@@ -6106,27 +6580,36 @@
   },
   "Rajada De Espinhos": {
     "portuguese": [
-      "Spray Ácido"
+      "Spray Ácido",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Acid Spray"
+      "Acid Spray",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Ácido Pulverizado"
+      "Ácido Pulverizado",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Fúria": {
     "portuguese": [
       "Ira Do Furioso",
-      "Fúria Química"
+      "Fúria Química",
+      "Spray Ácido"
     ],
     "english": [
       "Berserker's Rage",
-      "Chemical Rage"
+      "Chemical Rage",
+      "Spray Ácido"
     ],
     "spanish": [
       "Furia Del Berserker",
-      "Furia Química"
+      "Furia Química",
+      "Spray Ácido"
     ]
   },
   "Chuva Do Destino": {
@@ -6165,13 +6648,19 @@
   },
   "Garra De Rapina": {
     "portuguese": [
-      "Dança Do Raptor"
+      "Dança Do Raptor",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Raptor Dance"
+      "Raptor Dance",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Danza Del Ave Rapaz"
+      "Danza Del Ave Rapaz",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Dança Do Raptor": {
@@ -6211,37 +6700,52 @@
   "Armadura Reativa": {
     "portuguese": [
       "Armadura Viva",
-      "Taser Reativo"
+      "Taser Reativo",
+      "Spray Ácido"
     ],
     "english": [
       "Living Armor",
-      "Reactive Tazer"
+      "Reactive Tazer",
+      "Spray Ácido"
     ],
     "spanish": [
       "Armadura Viviente",
-      "Táser Reactivo"
+      "Táser Reactivo",
+      "Spray Ácido"
     ]
   },
   "Taser Reativo": {
     "portuguese": [
-      "Armadura Reativa"
+      "Armadura Reativa",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Reactive Armor"
+      "Reactive Armor",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Armadura Reactiva"
+      "Armadura Reactiva",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Fenda Da Realidade": {
     "portuguese": [
-      "Fenda Minguante"
+      "Fenda Minguante",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Waning Rift"
+      "Waning Rift",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Escisión Fluctuante"
+      "Escisión Fluctuante",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Foice Da Morte": {
@@ -6382,13 +6886,19 @@
   },
   "Réquiem Das Almas": {
     "portuguese": [
-      "Banquete De Almas"
+      "Banquete De Almas",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Feast Of Souls"
+      "Feast Of Souls",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Festín De Almas"
+      "Festín De Almas",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Pulso Ressonante": {
@@ -6427,13 +6937,19 @@
   },
   "Inversão De Polaridade": {
     "portuguese": [
-      "Reverter Andar Temporal"
+      "Reverter Andar Temporal",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Reverse Time Walk"
+      "Reverse Time Walk",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Salto Temporal Inverso"
+      "Salto Temporal Inverso",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Reverter Andar Temporal": {
@@ -6455,27 +6971,36 @@
   },
   "Arremesso Rochoso": {
     "portuguese": [
-      "Arremessar Árvore"
+      "Arremessar Árvore",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Tree Throw"
+      "Tree Throw",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Lanzar Árbol"
+      "Lanzar Árbol",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Artilharia De Foguetes": {
     "portuguese": [
       "Rajada Ardente",
-      "Foguete Sinalizador"
+      "Foguete Sinalizador",
+      "Spray Ácido"
     ],
     "english": [
       "Burning Barrage",
-      "Rocket Flare"
+      "Rocket Flare",
+      "Spray Ácido"
     ],
     "spanish": [
       "Aluvión Llameante",
-      "Cohete Bengala"
+      "Cohete Bengala",
+      "Spray Ácido"
     ]
   },
   "Foguete Sinalizador": {
@@ -6497,27 +7022,36 @@
   },
   "Enrolar": {
     "portuguese": [
-      "Engolir"
+      "Engolir",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Gobble Up"
+      "Gobble Up",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Galleta Fogosa"
+      "Galleta Fogosa",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Pedregulho Rolante": {
     "portuguese": [
       "Golpe Geológico",
-      "Rolamento"
+      "Rolamento",
+      "Spray Ácido"
     ],
     "english": [
       "Boulder Smash",
-      "Rolling Thunder"
+      "Rolling Thunder",
+      "Spray Ácido"
     ],
     "spanish": [
       "Golpe De Roca",
-      "Trueno Rodante"
+      "Trueno Rodante",
+      "Spray Ácido"
     ]
   },
   "Rolamento": {
@@ -6624,13 +7158,19 @@
   },
   "Rugido Selvagem": {
     "portuguese": [
-      "Rugido Primitivo"
+      "Rugido Primitivo",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Primal Roar"
+      "Primal Roar",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Rugido Primordial"
+      "Rugido Primordial",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Velharia Potente": {
@@ -6925,15 +7465,18 @@
   "Cova Rasa": {
     "portuguese": [
       "Calafrio Do Túmulo",
-      "Silêncio Do Túmulo"
+      "Silêncio Do Túmulo",
+      "Spray Ácido"
     ],
     "english": [
       "Grave Chill",
-      "Silent As The Grave"
+      "Silent As The Grave",
+      "Spray Ácido"
     ],
     "spanish": [
       "Frío Sepulcral",
-      "Capa Del Guardián De La Tumba"
+      "Capa Del Guardián De La Tumba",
+      "Spray Ácido"
     ]
   },
   "Transfiguração": {
@@ -7057,38 +7600,53 @@
   },
   "Silenciar": {
     "portuguese": [
-      "Silêncio Global"
+      "Silêncio Global",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Global Silence"
+      "Global Silence",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Silencio Global"
+      "Silencio Global",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Silêncio Do Túmulo": {
     "portuguese": [
       "Calafrio Do Túmulo",
-      "Cova Rasa"
+      "Cova Rasa",
+      "Spray Ácido"
     ],
     "english": [
       "Grave Chill",
-      "Shallow Grave"
+      "Shallow Grave",
+      "Spray Ácido"
     ],
     "spanish": [
       "Frío Sepulcral",
-      "Tumba Vacía"
+      "Tumba Vacía",
+      "Spray Ácido"
     ]
   },
   "Olhar Penetrante": {
     "portuguese": [
-      "Olhar Petrificante"
+      "Olhar Petrificante",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Stone Gaze"
+      "Stone Gaze",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Mirada Pétrea"
+      "Mirada Pétrea",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Andar Do Esqueleto": {
@@ -7178,13 +7736,19 @@
   },
   "Vínculo Solar": {
     "portuguese": [
-      "Guardiã Solar"
+      "Guardiã Solar",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Solar Guardian"
+      "Solar Guardian",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Guardiana Solar"
+      "Guardiana Solar",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Guardiã Solar": {
@@ -7241,29 +7805,35 @@
   "Suposição De Almas": {
     "portuguese": [
       "Alma Ardente",
-      "Rompimento Da Alma"
+      "Rompimento Da Alma",
+      "Spray Ácido"
     ],
     "english": [
       "Fiery Soul",
-      "Soul Rip"
+      "Soul Rip",
+      "Spray Ácido"
     ],
     "spanish": [
       "Alma Ígnea",
-      "Desgarre De Alma"
+      "Desgarre De Alma",
+      "Spray Ácido"
     ]
   },
   "Rompimento Da Alma": {
     "portuguese": [
       "Alma Ardente",
-      "Suposição De Almas"
+      "Suposição De Almas",
+      "Spray Ácido"
     ],
     "english": [
       "Fiery Soul",
-      "Soul Assumption"
+      "Soul Assumption",
+      "Spray Ácido"
     ],
     "spanish": [
       "Alma Ígnea",
-      "Toma De Almas"
+      "Toma De Almas",
+      "Spray Ácido"
     ]
   },
   "Vínculo Espiritual": {
@@ -7302,27 +7872,36 @@
   },
   "Lança De Marte": {
     "portuguese": [
-      "Lança Flamejante"
+      "Lança Flamejante",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Burning Spear"
+      "Burning Spear",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Lanza Flamígera"
+      "Lanza Flamígera",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Adaga Espectral": {
     "portuguese": [
       "Manto E Adaga",
-      "Adaga Sufocante"
+      "Adaga Sufocante",
+      "Spray Ácido"
     ],
     "english": [
       "Cloak And Dagger",
-      "Stifling Dagger"
+      "Stifling Dagger",
+      "Spray Ácido"
     ],
     "spanish": [
       "Puñalada Desde Las Sombras",
-      "Daga Sofocante"
+      "Daga Sofocante",
+      "Spray Ácido"
     ]
   },
   "Roubo De Habilidade": {
@@ -7677,7 +8256,7 @@
       "Static Storm"
     ],
     "spanish": [
-      "Vínculo Espiritual",
+      "Vínculo De Almas",
       "Remanente Estático",
       "Tormenta Estática"
     ]
@@ -7719,40 +8298,52 @@
   "Bomba Pegajosa": {
     "portuguese": [
       "Napalm Pegajoso",
-      "Bomba De Piche"
+      "Bomba De Piche",
+      "Spray Ácido"
     ],
     "english": [
       "Sticky Napalm",
-      "Tar Bomb"
+      "Tar Bomb",
+      "Spray Ácido"
     ],
     "spanish": [
       "Napalm Pegajoso",
-      "Bomba De Alquitrán"
+      "Bomba De Alquitrán",
+      "Spray Ácido"
     ]
   },
   "Napalm Pegajoso": {
     "portuguese": [
-      "Bomba Pegajosa"
+      "Bomba Pegajosa",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Sticky Bomb"
+      "Sticky Bomb",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Bomba Lapa"
+      "Bomba Lapa",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Adaga Sufocante": {
     "portuguese": [
       "Manto E Adaga",
-      "Adaga Espectral"
+      "Adaga Espectral",
+      "Spray Ácido"
     ],
     "english": [
       "Cloak And Dagger",
-      "Spectral Dagger"
+      "Spectral Dagger",
+      "Spray Ácido"
     ],
     "spanish": [
       "Puñalada Desde Las Sombras",
-      "Daga Espectral"
+      "Daga Espectral",
+      "Spray Ácido"
     ]
   },
   "Ferroada": {
@@ -7774,13 +8365,19 @@
   },
   "Olhar Petrificante": {
     "portuguese": [
-      "Olhar Penetrante"
+      "Olhar Penetrante",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Sinister Gaze"
+      "Sinister Gaze",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Mirada Siniestra"
+      "Mirada Siniestra",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Punho Da Tempestade": {
@@ -7836,27 +8433,36 @@
   },
   "Pincelada Do Destino": {
     "portuguese": [
-      "Decreto Do Destino"
+      "Decreto Do Destino",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Fate's Edict"
+      "Fate's Edict",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Edicto Del Destino"
+      "Edicto Del Destino",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Conjurar Familiares": {
     "portuguese": [
       "Invocar Espírito Urso",
-      "Invocar Lobos"
+      "Invocar Lobos",
+      "Spray Ácido"
     ],
     "english": [
       "Summon Spirit Bear",
-      "Summon Wolves"
+      "Summon Wolves",
+      "Spray Ácido"
     ],
     "spanish": [
       "Invocar Espíritu Oso",
-      "Invocar Lobos"
+      "Invocar Lobos",
+      "Spray Ácido"
     ]
   },
   "Invocar Espírito Urso": {
@@ -7879,15 +8485,18 @@
   "Invocar Lobos": {
     "portuguese": [
       "Conjurar Familiares",
-      "Invocar Espírito Urso"
+      "Invocar Espírito Urso",
+      "Spray Ácido"
     ],
     "english": [
       "Summon Familiars",
-      "Summon Spirit Bear"
+      "Summon Spirit Bear",
+      "Spray Ácido"
     ],
     "spanish": [
       "Invocar Familiares",
-      "Invocar Espíritu Oso"
+      "Invocar Espíritu Oso",
+      "Spray Ácido"
     ]
   },
   "Raio Solar": {
@@ -7943,13 +8552,19 @@
   },
   "Surto": {
     "portuguese": [
-      "Tormenta Elétrica"
+      "Tormenta Elétrica",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Storm Surge"
+      "Storm Surge",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Oleada Tormentosa"
+      "Oleada Tormentosa",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Investida Sagaz": {
@@ -8056,13 +8671,19 @@
   },
   "Bomba De Piche": {
     "portuguese": [
-      "Bomba Pegajosa"
+      "Bomba Pegajosa",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Sticky Bomb"
+      "Sticky Bomb",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Bomba Lapa"
+      "Bomba Lapa",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Telecinese": {
@@ -8101,13 +8722,19 @@
   },
   "Duplicata Tempestuosa": {
     "portuguese": [
-      "Arma De Dois Gumes"
+      "Arma De Dois Gumes",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Double Edge"
+      "Double Edge",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Doble Filo"
+      "Doble Filo",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Onda De Terror": {
@@ -8180,13 +8807,19 @@
   },
   "O Enxame": {
     "portuguese": [
-      "Enxame Da Cripta"
+      "Enxame Da Cripta",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Crypt Swarm"
+      "Crypt Swarm",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Enjambre De La Cripta"
+      "Enjambre De La Cripta",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Sede": {
@@ -8209,15 +8842,18 @@
   "Estrondo Do Trovão": {
     "portuguese": [
       "Rolamento",
-      "Golpe Do Trovão"
+      "Golpe Do Trovão",
+      "Spray Ácido"
     ],
     "english": [
       "Rolling Thunder",
-      "Thunder Strike"
+      "Thunder Strike",
+      "Spray Ácido"
     ],
     "spanish": [
       "Trueno Rodante",
-      "Impacto Atronador"
+      "Impacto Atronador",
+      "Spray Ácido"
     ]
   },
   "Golpe Do Trovão": {
@@ -8290,13 +8926,19 @@
   },
   "Corrente Arbórea": {
     "portuguese": [
-      "Congelamento Em Cadeia"
+      "Congelamento Em Cadeia",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Chain Frost"
+      "Chain Frost",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Congelación En Cadena"
+      "Congelación En Cadena",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Dilatação Temporal": {
@@ -8574,15 +9216,18 @@
   "Forma Real": {
     "portuguese": [
       "Forma De Dragão Ancestral",
-      "Forma Espiritual"
+      "Forma Espiritual",
+      "Spray Ácido"
     ],
     "english": [
       "Elder Dragon Form",
-      "Spirit Form"
+      "Spirit Form",
+      "Spray Ácido"
     ],
     "spanish": [
       "Forma De Dragón Ancestral",
-      "Forma Espiritual"
+      "Forma Espiritual",
+      "Spray Ácido"
     ]
   },
   "Dilúvio": {
@@ -8621,13 +9266,19 @@
   },
   "Rajada De Fogo Bruto": {
     "portuguese": [
-      "Rajada De Fogo"
+      "Rajada De Fogo",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Fireblast"
+      "Fireblast",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Explosión De Fuego"
+      "Explosión De Fuego",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Mistura Instável": {
@@ -8751,13 +9402,19 @@
   },
   "Bola De Veneno": {
     "portuguese": [
-      "Força Da Ventania"
+      "Força Da Ventania",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Gale Force"
+      "Gale Force",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Fuerza Del Vendaval"
+      "Fuerza Del Vendaval",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Picada Da Víbora": {
@@ -8796,82 +9453,121 @@
   },
   "Vazio": {
     "portuguese": [
-      "Vácuo De Mana"
+      "Vácuo De Mana",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Mana Void"
+      "Mana Void",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Vacío De Maná"
+      "Vacío De Maná",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Vudu Restaurador": {
     "portuguese": [
-      "Vudu Transfigurante"
+      "Vudu Transfigurante",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Voodoo Switcheroo"
+      "Voodoo Switcheroo",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Cambiazo Vudú"
+      "Cambiazo Vudú",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Vudu Transfigurante": {
     "portuguese": [
-      "Vudu Restaurador"
+      "Vudu Restaurador",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Voodoo Restoration"
+      "Voodoo Restoration",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Restauración Vudú"
+      "Restauración Vudú",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Parede De Réplicas": {
     "portuguese": [
-      "Parede De Gelo"
+      "Parede De Gelo",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Ice Wall"
+      "Ice Wall",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Muro De Hielo"
+      "Muro De Hielo",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Chute Morsal": {
     "portuguese": [
-      "Soco Morsal!"
+      "Soco Morsal!",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Walrus Punch!"
+      "Walrus Punch!",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "¡puñetazo De Morsa!"
+      "¡puñetazo De Morsa!",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Soco Morsal!": {
     "portuguese": [
       "Soco Normal",
-      "Chute Morsal"
+      "Chute Morsal",
+      "Spray Ácido"
     ],
     "english": [
       "Normal Punch",
-      "Walrus Kick"
+      "Walrus Kick",
+      "Spray Ácido"
     ],
     "spanish": [
       "Subidón",
-      "Fragmentos De Hielo"
+      "Fragmentos De Hielo",
+      "Spray Ácido"
     ]
   },
   "Fenda Minguante": {
     "portuguese": [
-      "Fenda Da Realidade"
+      "Fenda Da Realidade",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Reality Rift"
+      "Reality Rift",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Fisura En La Realidad"
+      "Fisura En La Realidad",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Grito De Guerra": {
@@ -9114,13 +9810,19 @@
   },
   "Mordida Lupina": {
     "portuguese": [
-      "Mordida Incapacitante"
+      "Mordida Incapacitante",
+      "Spray Ácido",
+      "Disparo De Bolota"
     ],
     "english": [
-      "Incapacitating Bite"
+      "Incapacitating Bite",
+      "Spray Ácido",
+      "Acorn Shot"
     ],
     "spanish": [
-      "Mordedura Incapacitante"
+      "Mordedura Incapacitante",
+      "Spray Ácido",
+      "Bellotazo"
     ]
   },
   "Carroça": {

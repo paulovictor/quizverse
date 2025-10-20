@@ -129,19 +129,72 @@ def load_cloudinary_urls(filename):
         return data
 
 
-def get_similar_items(target_item, all_items, count=3, name_field='display_name', similarity_data=None):
+def detect_similarity_structure(similarity_data):
+    """
+    Detecta se o arquivo de similaridades é multilíngue ou simples
+    Retorna: 'multilingual' ou 'simple'
+    """
+    if not similarity_data:
+        return 'simple'
+    
+    # Pegar o primeiro item para verificar a estrutura
+    first_item = next(iter(similarity_data.values()))
+    
+    if isinstance(first_item, dict) and 'portuguese' in first_item:
+        return 'multilingual'
+    elif isinstance(first_item, list):
+        return 'simple'
+    else:
+        return 'simple'  # fallback
+
+
+def get_similarity_language(lang_code):
+    """
+    Mapeia códigos de idioma para os nomes usados nas similaridades multilíngues
+    """
+    lang_mapping = {
+        'pt': 'portuguese',
+        'en': 'english', 
+        'es': 'spanish'
+    }
+    return lang_mapping.get(lang_code, 'portuguese')  # fallback para português
+
+
+def get_similar_items(target_item, all_items, count=3, name_field='display_name', similarity_data=None, language='portuguese'):
     """
     Retorna itens similares ao alvo para usar como alternativas incorretas.
     Se similarity_data for fornecido, usa as similaridades do arquivo.
+    Suporta duas estruturas:
+    1. Estrutura simples: {item: [similar1, similar2, similar3]}
+    2. Estrutura multilíngue: {item: {portuguese: [...], english: [...], spanish: [...]}}
     Caso contrário, usa regras próprias.
+    
+    Args:
+        language: Idioma para usar nas similaridades ('portuguese', 'english', 'spanish')
     """
     target_name = target_item.get(name_field, '').lower()
     
     # Se temos dados de similaridade, usar eles
     if similarity_data:
+        # Detectar o tipo de estrutura
+        structure_type = detect_similarity_structure(similarity_data)
+        
         # Procurar o item nas similaridades
-        for item_name, similar_names in similarity_data.items():
+        for item_name, similar_data in similarity_data.items():
             if item_name.lower() == target_name:
+                similar_names = []
+                
+                # Extrair similaridades baseado na estrutura detectada
+                if structure_type == 'multilingual':
+                    # Estrutura multilíngue - usar o idioma especificado
+                    similar_names = similar_data.get(language, [])
+                    # Fallback para português se o idioma não existir
+                    if not similar_names and language != 'portuguese':
+                        similar_names = similar_data.get('portuguese', [])
+                else:
+                    # Estrutura simples
+                    similar_names = similar_data if isinstance(similar_data, list) else []
+                
                 # Encontrar os itens similares na lista de todos os itens
                 similar_items = []
                 for similar_name in similar_names:
@@ -406,6 +459,16 @@ def create_questions(config, quizzes, cloudinary_data, similarity_data=None):
             errors.append(f"⚠️  Tradução não encontrada para {country_code} ({lang_code})")
             continue
 
+        # Determinar campo de nome baseado no idioma
+        if lang_code == 'en':
+            name_field = 'display_name_en'
+        elif lang_code == 'es':
+            name_field = 'display_name_es'
+        else:
+            name_field = config['name_field']  # Fallback para português
+        
+        print(f"🌐 {country_code} ({lang_code}): usando campo '{name_field}'")
+
         # Limpar questões antigas
         quiz.questions.all().delete()
 
@@ -413,8 +476,8 @@ def create_questions(config, quizzes, cloudinary_data, similarity_data=None):
         question_count = 0
 
         for idx, item in enumerate(selected_items, 1):
-            # Obter nome do item
-            item_name = item.get(config['name_field'], f"Item {idx}")
+            # Obter nome do item no idioma correto
+            item_name = item.get(name_field, item.get(config['name_field'], f"Item {idx}"))
 
             # Determinar imagem
             image_path = item.get('secure_url', '')
@@ -428,12 +491,13 @@ def create_questions(config, quizzes, cloudinary_data, similarity_data=None):
             )
 
             # Gerar alternativas similares
-            similar_items = get_similar_items(item, items_list, count=3, name_field=config['name_field'], similarity_data=similarity_data)
+            similarity_language = get_similarity_language(lang_code)
+            similar_items = get_similar_items(item, items_list, count=3, name_field=name_field, similarity_data=similarity_data, language=similarity_language)
 
             # Criar respostas
             answers_data = [{'text': item_name, 'is_correct': True}]
             for similar in similar_items:
-                similar_name = similar.get(config['name_field'], f"Item {idx}")
+                similar_name = similar.get(name_field, similar.get(config['name_field'], f"Item {idx}"))
                 answers_data.append({'text': similar_name, 'is_correct': False})
 
             random.shuffle(answers_data)
@@ -588,7 +652,12 @@ def main():
             print("❌ Erro: Não foi possível carregar as similaridades")
             sys.exit(1)
         else:
+            # Detectar e informar o tipo de estrutura
+            structure_type = detect_similarity_structure(similarity_data)
             print(f"✅ Similaridades carregadas: {len(similarity_data)} itens")
+            print(f"📋 Estrutura detectada: {structure_type}")
+            if structure_type == 'multilingual':
+                print("   🌐 Usando similaridades multilíngues (português, inglês, espanhol)")
     else:
         print("📂 Usando regras próprias para similaridades")
 

@@ -3,7 +3,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois",
   "fields": {
-    "title": "Heróis do Dota",
+    "title": "Heróis",
     "description": "Mostre que você conhece todos os heróis lendários do Dota!",
     "icon": "",
     "country": "pt-BR",
@@ -22,7 +22,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-ar",
   "fields": {
-    "title": "Héroes de Dota",
+    "title": "Héroes",
     "description": "¡Demuestra que conoces a todos los héroes legendarios de Dota!",
     "icon": "",
     "country": "es-AR",
@@ -41,7 +41,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-au",
   "fields": {
-    "title": "Dota Heroes",
+    "title": "Heroes",
     "description": "Show that you know all the legendary heroes from Dota!",
     "icon": "",
     "country": "en-AU",
@@ -60,7 +60,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-ca",
   "fields": {
-    "title": "Dota Heroes",
+    "title": "Heroes",
     "description": "Show that you know all the legendary heroes from Dota!",
     "icon": "",
     "country": "en-CA",
@@ -79,7 +79,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-co",
   "fields": {
-    "title": "Héroes de Dota",
+    "title": "Héroes",
     "description": "¡Demuestra que conoces a todos los héroes legendarios de Dota!",
     "icon": "",
     "country": "es-CO",
@@ -98,7 +98,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-es",
   "fields": {
-    "title": "Héroes de Dota",
+    "title": "Héroes",
     "description": "¡Demuestra que conoces a todos los héroes legendarios de Dota!",
     "icon": "",
     "country": "es-ES",
@@ -117,7 +117,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-gb",
   "fields": {
-    "title": "Dota Heroes",
+    "title": "Heroes",
     "description": "Show that you know all the legendary heroes from Dota!",
     "icon": "",
     "country": "en-GB",
@@ -136,7 +136,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-in",
   "fields": {
-    "title": "Dota Heroes",
+    "title": "Heroes",
     "description": "Show that you know all the legendary heroes from Dota!",
     "icon": "",
     "country": "en-IN",
@@ -174,7 +174,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-nz",
   "fields": {
-    "title": "Dota Heroes",
+    "title": "Heroes",
     "description": "Show that you know all the legendary heroes from Dota!",
     "icon": "",
     "country": "en-NZ",
@@ -193,7 +193,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-ph",
   "fields": {
-    "title": "Dota Heroes",
+    "title": "Heroes",
     "description": "Show that you know all the legendary heroes from Dota!",
     "icon": "",
     "country": "en-PH",
@@ -212,7 +212,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-pt",
   "fields": {
-    "title": "Heróis do Dota",
+    "title": "Heróis",
     "description": "Mostre que você conhece todos os heróis lendários do Dota!",
     "icon": "",
     "country": "pt-PT",
@@ -231,7 +231,7 @@
   "model": "quizzes.theme",
   "pk": "dota-herois-us",
   "fields": {
-    "title": "Dota Heroes",
+    "title": "Heroes",
     "description": "Show that you know all the legendary heroes from Dota!",
     "icon": "",
     "country": "en-US",

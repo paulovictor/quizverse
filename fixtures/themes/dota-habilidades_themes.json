@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades",
+  "fields": {
+    "title": "Habilidades",
+    "description": "Mostre que você domina cada detalhe das habilidades de Dota! Reconheça feitiços, ultimates e poderes lendários dos heróis mais icônicos.",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.200Z",
+    "updated_at": "2025-10-20T19:56:23.200Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-ar",
+  "fields": {
+    "title": "Habilidades",
+    "description": "¡Demuestra que dominas todos los detalles de las habilidades de Dota! Reconoce hechizos, ultimates y poderes legendarios de los héroes más icónicos.",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.203Z",
+    "updated_at": "2025-10-20T19:56:23.203Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-au",
+  "fields": {
+    "title": "Abilities",
+    "description": "Show that you’ve mastered every detail of Dota’s abilities! Identify spells, ultimates, and legendary powers from the game’s most iconic heroes.",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.198Z",
+    "updated_at": "2025-10-20T19:56:23.198Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-ca",
+  "fields": {
+    "title": "Abilities",
+    "description": "Show that you’ve mastered every detail of Dota’s abilities! Identify spells, ultimates, and legendary powers from the game’s most iconic heroes.",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.195Z",
+    "updated_at": "2025-10-20T19:56:23.195Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-co",
+  "fields": {
+    "title": "Habilidades",
+    "description": "¡Demuestra que dominas todos los detalles de las habilidades de Dota! Reconoce hechizos, ultimates y poderes legendarios de los héroes más icónicos.",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.204Z",
+    "updated_at": "2025-10-20T19:56:23.204Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-es",
+  "fields": {
+    "title": "Habilidades",
+    "description": "¡Demuestra que dominas todos los detalles de las habilidades de Dota! Reconoce hechizos, ultimates y poderes legendarios de los héroes más icónicos.",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.202Z",
+    "updated_at": "2025-10-20T19:56:23.202Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-gb",
+  "fields": {
+    "title": "Abilities",
+    "description": "Show that you’ve mastered every detail of Dota’s abilities! Identify spells, ultimates, and legendary powers from the game’s most iconic heroes.",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.196Z",
+    "updated_at": "2025-10-20T19:56:23.196Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-in",
+  "fields": {
+    "title": "Abilities",
+    "description": "Show that you’ve mastered every detail of Dota’s abilities! Identify spells, ultimates, and legendary powers from the game’s most iconic heroes.",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.197Z",
+    "updated_at": "2025-10-20T19:56:23.197Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-mx",
+  "fields": {
+    "title": "Habilidades",
+    "description": "¡Demuestra que dominas todos los detalles de las habilidades de Dota! Reconoce hechizos, ultimates y poderes legendarios de los héroes más icónicos.",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.201Z",
+    "updated_at": "2025-10-20T19:56:23.201Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-nz",
+  "fields": {
+    "title": "Abilities",
+    "description": "Show that you’ve mastered every detail of Dota’s abilities! Identify spells, ultimates, and legendary powers from the game’s most iconic heroes.",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.199Z",
+    "updated_at": "2025-10-20T19:56:23.199Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-ph",
+  "fields": {
+    "title": "Abilities",
+    "description": "Show that you’ve mastered every detail of Dota’s abilities! Identify spells, ultimates, and legendary powers from the game’s most iconic heroes.",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.197Z",
+    "updated_at": "2025-10-20T19:56:23.197Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-pt",
+  "fields": {
+    "title": "Habilidades",
+    "description": "Mostre que você domina cada detalhe das habilidades de Dota! Reconheça feitiços, ultimates e poderes lendários dos heróis mais icônicos.",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.201Z",
+    "updated_at": "2025-10-20T19:56:23.201Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "dota-habilidades-us",
+  "fields": {
+    "title": "Abilities",
+    "description": "Show that you’ve mastered every detail of Dota’s abilities! Identify spells, ultimates, and legendary powers from the game’s most iconic heroes.",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "dota-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T19:56:23.194Z",
+    "updated_at": "2025-10-20T19:56:23.194Z"
+  }
+}
+]
