@@ -120,6 +120,49 @@ def collect_images(folder: Path) -> List[Path]:
     return sorted(files)
 
 
+def parse_multilingual_filename(filename: str) -> dict:
+    """
+    Analisa o nome do arquivo para extrair nomes em diferentes idiomas.
+    
+    Se o arquivo contém ponto e vírgula, assume formato: ENGLISH;PORTUGUESE;SPANISH
+    Caso contrário, usa o nome original como português.
+    
+    Retorna dict com display_name, display_name_en, display_name_es
+    """
+    # Remove a extensão
+    name_without_ext = Path(filename).stem
+    
+    # Verifica se contém ponto e vírgula
+    if ';' in name_without_ext:
+        parts = name_without_ext.split(';')
+        if len(parts) >= 3:
+            # Formato: ENGLISH;PORTUGUESE;SPANISH
+            english = parts[0].strip()
+            portuguese = parts[1].strip()
+            spanish = parts[2].strip()
+        elif len(parts) == 2:
+            # Formato: ENGLISH;PORTUGUESE (sem espanhol)
+            english = parts[0].strip()
+            portuguese = parts[1].strip()
+            spanish = portuguese  # Usa português como fallback
+        else:
+            # Formato inesperado, usa o nome original
+            english = name_without_ext
+            portuguese = name_without_ext
+            spanish = name_without_ext
+    else:
+        # Sem ponto e vírgula, usa o nome original como português
+        english = name_without_ext
+        portuguese = name_without_ext
+        spanish = name_without_ext
+    
+    return {
+        "display_name": portuguese,  # Nome principal em português
+        "display_name_en": english,
+        "display_name_es": spanish
+    }
+
+
 def upload_files(files: Iterable[Path], cloud_folder: str) -> List[dict]:
     """Realiza o upload e retorna a lista com metadados das imagens enviadas."""
 
@@ -127,6 +170,12 @@ def upload_files(files: Iterable[Path], cloud_folder: str) -> List[dict]:
 
     for index, file_path in enumerate(files, start=1):
         print(f"[{index}] Enviando: {file_path.name}")
+
+        # Analisar nome do arquivo para idiomas
+        multilingual_info = parse_multilingual_filename(file_path.name)
+        
+        # Usar o nome em português para o upload
+        upload_display_name = multilingual_info["display_name"]
 
         try:
             result = cloudinary.uploader.upload(
@@ -136,26 +185,30 @@ def upload_files(files: Iterable[Path], cloud_folder: str) -> List[dict]:
                 use_filename=False,          # garante URL com ID aleatório
                 unique_filename=True,
                 overwrite=False,
-                display_name=file_path.stem,  # mantém o display name legível
+                display_name=upload_display_name,  # Nome em português para upload
             )
         except Exception as error:  # pragma: no cover - feedback em runtime
             print(f"   ❌ Erro ao enviar {file_path.name}: {error}")
             continue
 
-        uploaded.append(
-            {
-                "filename": file_path.name,
-                "display_name": result.get("display_name"),
-                "public_id": result.get("public_id"),
-                "secure_url": result.get("secure_url"),
-                "asset_id": result.get("asset_id"),
-                "bytes": result.get("bytes"),
-                "width": result.get("width"),
-                "height": result.get("height"),
-            }
-        )
+        # Criar objeto com informações multilíngues
+        item_data = {
+            "filename": file_path.name,
+            "display_name": multilingual_info["display_name"],  # Português
+            "display_name_en": multilingual_info["display_name_en"],  # Inglês
+            "display_name_es": multilingual_info["display_name_es"],  # Espanhol
+            "public_id": result.get("public_id"),
+            "secure_url": result.get("secure_url"),
+            "asset_id": result.get("asset_id"),
+            "bytes": result.get("bytes"),
+            "width": result.get("width"),
+            "height": result.get("height"),
+        }
+
+        uploaded.append(item_data)
 
         print(f"   ✅ Upload concluído. URL: {result.get('secure_url')}")
+        print(f"   🌐 Nomes: PT='{multilingual_info['display_name']}', EN='{multilingual_info['display_name_en']}', ES='{multilingual_info['display_name_es']}'")
 
     return uploaded
 
