@@ -1,0 +1,249 @@
+[
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Teste seu conhecimento no incrível mundo dos Pokémon!",
+    "icon": "",
+    "country": "pt-BR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "jogos",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.580Z",
+    "updated_at": "2025-10-20T10:17:42.580Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-ar",
+  "fields": {
+    "title": "Pokémon",
+    "description": "¡Pon a prueba tu conocimiento en el increíble mundo de los Pokémon!",
+    "icon": "",
+    "country": "es-AR",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-ar",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.584Z",
+    "updated_at": "2025-10-20T10:17:42.584Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-au",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Test your knowledge of the amazing world of Pokémon!",
+    "icon": "",
+    "country": "en-AU",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-au",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.578Z",
+    "updated_at": "2025-10-20T10:17:42.578Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-ca",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Test your knowledge of the amazing world of Pokémon!",
+    "icon": "",
+    "country": "en-CA",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-ca",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.571Z",
+    "updated_at": "2025-10-20T10:17:42.571Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-co",
+  "fields": {
+    "title": "Pokémon",
+    "description": "¡Pon a prueba tu conocimiento en el increíble mundo de los Pokémon!",
+    "icon": "",
+    "country": "es-CO",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-co",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.585Z",
+    "updated_at": "2025-10-20T10:17:42.585Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-es",
+  "fields": {
+    "title": "Pokémon",
+    "description": "¡Pon a prueba tu conocimiento en el increíble mundo de los Pokémon!",
+    "icon": "",
+    "country": "es-ES",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-es",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.584Z",
+    "updated_at": "2025-10-20T10:17:42.584Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-gb",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Test your knowledge of the amazing world of Pokémon!",
+    "icon": "",
+    "country": "en-GB",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-gb",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.572Z",
+    "updated_at": "2025-10-20T10:17:42.572Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-in",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Test your knowledge of the amazing world of Pokémon!",
+    "icon": "",
+    "country": "en-IN",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-in",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.575Z",
+    "updated_at": "2025-10-20T10:17:42.575Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-mx",
+  "fields": {
+    "title": "Pokémon",
+    "description": "¡Pon a prueba tu conocimiento en el increíble mundo de los Pokémon!",
+    "icon": "",
+    "country": "es-MX",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "juegos-mx",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.583Z",
+    "updated_at": "2025-10-20T10:17:42.583Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-nz",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Test your knowledge of the amazing world of Pokémon!",
+    "icon": "",
+    "country": "en-NZ",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-nz",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.579Z",
+    "updated_at": "2025-10-20T10:17:42.579Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-ph",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Test your knowledge of the amazing world of Pokémon!",
+    "icon": "",
+    "country": "en-PH",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-ph",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.576Z",
+    "updated_at": "2025-10-20T10:17:42.576Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-pt",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Teste seu conhecimento no incrível mundo dos Pokémon!",
+    "icon": "",
+    "country": "pt-PT",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "jogos-pt",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.581Z",
+    "updated_at": "2025-10-20T10:17:42.581Z"
+  }
+},
+{
+  "model": "quizzes.theme",
+  "pk": "pokemon-us",
+  "fields": {
+    "title": "Pokémon",
+    "description": "Test your knowledge of the amazing world of Pokémon!",
+    "icon": "",
+    "country": "en-US",
+    "primary_color": "#ffcb05",
+    "secondary_color": "#3d7dca",
+    "parent": "games-us",
+    "order": 1,
+    "active": false,
+    "card_background_image": null,
+    "card_background_color": null,
+    "created_at": "2025-10-20T10:17:42.566Z",
+    "updated_at": "2025-10-20T10:17:42.567Z"
+  }
+}
+]

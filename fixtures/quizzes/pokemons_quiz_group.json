@@ -1,0 +1,13 @@
+[
+{
+  "model": "quizzes.quizgroup",
+  "pk": "pokemons",
+  "fields": {
+    "name": "Acerte os Pokémon",
+    "description": "Responda perguntas aleatórias e prove que é um verdadeiro mestre Pokémon!",
+    "difficulty": "easy",
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.064Z"
+  }
+}
+]

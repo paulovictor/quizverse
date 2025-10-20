@@ -1,0 +1,1512 @@
+[
+  {
+    "filename": "Abra.png",
+    "display_name": "Abra",
+    "public_id": "pokemon/lbpa7q6yr1fovs5d0kpo",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955069/pokemon/lbpa7q6yr1fovs5d0kpo.png",
+    "asset_id": "1e94b96e3b43b9da3d16332100d6ca85",
+    "bytes": 116699,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Aerodactyl.png",
+    "display_name": "Aerodactyl",
+    "public_id": "pokemon/y6mpxr90s3shqzupdcqi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955070/pokemon/y6mpxr90s3shqzupdcqi.png",
+    "asset_id": "b3cee39cb0a8457238bee110fea5ccdb",
+    "bytes": 81716,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Alakazam.png",
+    "display_name": "Alakazam",
+    "public_id": "pokemon/yjxcab2vtnjkjn3ks0al",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955070/pokemon/yjxcab2vtnjkjn3ks0al.png",
+    "asset_id": "67c6a82f65863c5bef5510a7f61e87e1",
+    "bytes": 162890,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Arbok.png",
+    "display_name": "Arbok",
+    "public_id": "pokemon/mmhbgj03qujnn3pmuiyi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955071/pokemon/mmhbgj03qujnn3pmuiyi.png",
+    "asset_id": "cab812c56951bd311067c125af3218ff",
+    "bytes": 181492,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Arcanine.png",
+    "display_name": "Arcanine",
+    "public_id": "pokemon/klbsdnei8jtxvemsagjh",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955072/pokemon/klbsdnei8jtxvemsagjh.png",
+    "asset_id": "647c8b63ef6ec046c148f6708b021b78",
+    "bytes": 197883,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Articuno.png",
+    "display_name": "Articuno",
+    "public_id": "pokemon/zhwhckg6cqexvriqvsd1",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955073/pokemon/zhwhckg6cqexvriqvsd1.png",
+    "asset_id": "62fa92b68d71b20aef7e26ccdee3d0de",
+    "bytes": 160360,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Beedrill.png",
+    "display_name": "Beedrill",
+    "public_id": "pokemon/kooaj7bnhpa0bhcvtvtg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955073/pokemon/kooaj7bnhpa0bhcvtvtg.png",
+    "asset_id": "e60296a087d51f661dab19e99948e8e8",
+    "bytes": 146566,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Bellsprout.png",
+    "display_name": "Bellsprout",
+    "public_id": "pokemon/ti4yxhdba4gx8mkpsklg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955074/pokemon/ti4yxhdba4gx8mkpsklg.png",
+    "asset_id": "8e1ef34b4efe20e038e29a6c19a638f7",
+    "bytes": 99010,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Blastoise.png",
+    "display_name": "Blastoise",
+    "public_id": "pokemon/exaxqvw42gyaltgznfhb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955074/pokemon/exaxqvw42gyaltgznfhb.png",
+    "asset_id": "be61179a4ed4cdde07a5176a4b705297",
+    "bytes": 197853,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Bulbasaur.png",
+    "display_name": "Bulbasaur",
+    "public_id": "pokemon/tkxotu07h09f87wapzms",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955075/pokemon/tkxotu07h09f87wapzms.png",
+    "asset_id": "84e49bfdd5cd9b5b8a06e1ab32a09def",
+    "bytes": 203385,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Butterfree.png",
+    "display_name": "Butterfree",
+    "public_id": "pokemon/apm2q1kp2tkjl1gq1v28",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955076/pokemon/apm2q1kp2tkjl1gq1v28.png",
+    "asset_id": "550d3e39d720f730dcc1966a7f1666ad",
+    "bytes": 183600,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Caterpie.png",
+    "display_name": "Caterpie",
+    "public_id": "pokemon/e1bgvtnkgpoli6wakztm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955076/pokemon/e1bgvtnkgpoli6wakztm.png",
+    "asset_id": "902457367895ce11b039a1a6b347f82e",
+    "bytes": 174430,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Chansey.png",
+    "display_name": "Chansey",
+    "public_id": "pokemon/clvtnpqu8yuuseyyftxe",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955077/pokemon/clvtnpqu8yuuseyyftxe.png",
+    "asset_id": "b62c7c30c120a1c29bdf3a22ea2e5fc4",
+    "bytes": 153542,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Charizard.png",
+    "display_name": "Charizard",
+    "public_id": "pokemon/bgmw1dwclwa8phkqsfs8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955077/pokemon/bgmw1dwclwa8phkqsfs8.png",
+    "asset_id": "ed25ae9d9fa6321e0b01a1f3fb18d646",
+    "bytes": 144568,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Charmander.png",
+    "display_name": "Charmander",
+    "public_id": "pokemon/abziliwjtrock1jfhgvy",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955078/pokemon/abziliwjtrock1jfhgvy.png",
+    "asset_id": "1caa046d80b7a95f94d5d1b81e1d0e3b",
+    "bytes": 137817,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Charmeleon.png",
+    "display_name": "Charmeleon",
+    "public_id": "pokemon/gyp3cbznzmwwxm4ds9bv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955079/pokemon/gyp3cbznzmwwxm4ds9bv.png",
+    "asset_id": "a5c2978840ee0b21ce434e61793d0803",
+    "bytes": 130334,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Clefable.png",
+    "display_name": "Clefable",
+    "public_id": "pokemon/bsdbn9yctweb4ychxigp",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955079/pokemon/bsdbn9yctweb4ychxigp.png",
+    "asset_id": "4c037278503b657d37da9a11cae7df46",
+    "bytes": 157629,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Clefairy.png",
+    "display_name": "Clefairy",
+    "public_id": "pokemon/bzs6auwwe5yggfxijwhd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955080/pokemon/bzs6auwwe5yggfxijwhd.png",
+    "asset_id": "47068a212d5d19e7ea37c955597121ff",
+    "bytes": 175738,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Cloyster.png",
+    "display_name": "Cloyster",
+    "public_id": "pokemon/hvyob1cfvnqpvycuqcwe",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955081/pokemon/hvyob1cfvnqpvycuqcwe.png",
+    "asset_id": "a9aef48d246b4908e03da2096ffac34a",
+    "bytes": 174248,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Cubone.png",
+    "display_name": "Cubone",
+    "public_id": "pokemon/mpb683vcryp02lugqbj4",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955081/pokemon/mpb683vcryp02lugqbj4.png",
+    "asset_id": "89bbbbb207ec25d83612a69684aba26d",
+    "bytes": 156699,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Dewgong.png",
+    "display_name": "Dewgong",
+    "public_id": "pokemon/j1ersvhybslbulhrduot",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955082/pokemon/j1ersvhybslbulhrduot.png",
+    "asset_id": "7abb0db0a3c478e272513836afc7354d",
+    "bytes": 149652,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Diglett.png",
+    "display_name": "Diglett",
+    "public_id": "pokemon/fuylp99ujqlwqrpjirtm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955083/pokemon/fuylp99ujqlwqrpjirtm.png",
+    "asset_id": "bcb72a1bf88801c03cb3dc13b137c00e",
+    "bytes": 163664,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Ditto.png",
+    "display_name": "Ditto",
+    "public_id": "pokemon/bcah9k42gcmxhfabu3rv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955083/pokemon/bcah9k42gcmxhfabu3rv.png",
+    "asset_id": "5e51ea024a94d32777eba0799b11d213",
+    "bytes": 129274,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Dodrio.png",
+    "display_name": "Dodrio",
+    "public_id": "pokemon/hx64l4q56vq9cfv2lunq",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955084/pokemon/hx64l4q56vq9cfv2lunq.png",
+    "asset_id": "b3821139cd2062808bd6341b4a7cd0ff",
+    "bytes": 119581,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Doduo.png",
+    "display_name": "Doduo",
+    "public_id": "pokemon/zt2pikd3v4wobgtt6e3d",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955085/pokemon/zt2pikd3v4wobgtt6e3d.png",
+    "asset_id": "b1c7bedce79526afaa00323229b2d7ed",
+    "bytes": 79909,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Dragonair.png",
+    "display_name": "Dragonair",
+    "public_id": "pokemon/efmd2wpkilwiuijilav6",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955085/pokemon/efmd2wpkilwiuijilav6.png",
+    "asset_id": "01f92c5417510deea9e03d21d9caa368",
+    "bytes": 103226,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Dragonite.png",
+    "display_name": "Dragonite",
+    "public_id": "pokemon/idbf7zrrlfpnlash2oqt",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955086/pokemon/idbf7zrrlfpnlash2oqt.png",
+    "asset_id": "4e8c0bbed35963fd4706bd55326c8d1b",
+    "bytes": 132064,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Dratini.png",
+    "display_name": "Dratini",
+    "public_id": "pokemon/erjrxgvw0fs2qksr72op",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955086/pokemon/erjrxgvw0fs2qksr72op.png",
+    "asset_id": "2de5ba4ea764b0571c91f2f90da15245",
+    "bytes": 102258,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Drowzee.png",
+    "display_name": "Drowzee",
+    "public_id": "pokemon/tzzgrhsa3viipwtmdj9u",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955087/pokemon/tzzgrhsa3viipwtmdj9u.png",
+    "asset_id": "f8c4b2a73e77b0406f08d021dfd83174",
+    "bytes": 135367,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Dugtrio.png",
+    "display_name": "Dugtrio",
+    "public_id": "pokemon/iekykct7zhngm2nom2eq",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955088/pokemon/iekykct7zhngm2nom2eq.png",
+    "asset_id": "1c88629453510a4385759bb2fc7f81c5",
+    "bytes": 154558,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Eevee.png",
+    "display_name": "Eevee",
+    "public_id": "pokemon/otnh0jkjpjocvo0nx0cn",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955088/pokemon/otnh0jkjpjocvo0nx0cn.png",
+    "asset_id": "69a02c72c6bf517cea51e6aba3a151ba",
+    "bytes": 142266,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Ekans.png",
+    "display_name": "Ekans",
+    "public_id": "pokemon/pvbduzm9skvifeyoxaai",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955089/pokemon/pvbduzm9skvifeyoxaai.png",
+    "asset_id": "50b52560f56f263563b820db5f6ad2ab",
+    "bytes": 191869,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Electabuzz.png",
+    "display_name": "Electabuzz",
+    "public_id": "pokemon/ndoihsbwhsriz0iazbtf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955089/pokemon/ndoihsbwhsriz0iazbtf.png",
+    "asset_id": "9749f5d4564bcd00eca0206c4176d9f1",
+    "bytes": 134434,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Electrode.png",
+    "display_name": "Electrode",
+    "public_id": "pokemon/volwsfdt0t6jgpxvarrw",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955090/pokemon/volwsfdt0t6jgpxvarrw.png",
+    "asset_id": "1f4b7c59d57ea46d4dfc317d9410e57c",
+    "bytes": 190651,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Exeggcute.png",
+    "display_name": "Exeggcute",
+    "public_id": "pokemon/syfx8ixnnucvmf5nwepp",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955090/pokemon/syfx8ixnnucvmf5nwepp.png",
+    "asset_id": "c013fb208a8684b0284b65f1fb28d169",
+    "bytes": 155189,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Exeggutor.png",
+    "display_name": "Exeggutor",
+    "public_id": "pokemon/pgvtnnnbyrovpyc4hluo",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955091/pokemon/pgvtnnnbyrovpyc4hluo.png",
+    "asset_id": "1fd0eaa19d0262e95f2cf6081b5f7d10",
+    "bytes": 170023,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Farfetchd.png",
+    "display_name": "Farfetchd",
+    "public_id": "pokemon/hxrwk3flbn5d0wnso43s",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955092/pokemon/hxrwk3flbn5d0wnso43s.png",
+    "asset_id": "cbbbf63f9b0d9ac6e9d3937b7c80d7dd",
+    "bytes": 141176,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Fearow.png",
+    "display_name": "Fearow",
+    "public_id": "pokemon/olwziygvlnokaqxwye7f",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955092/pokemon/olwziygvlnokaqxwye7f.png",
+    "asset_id": "0f7ffac0cdd9f23695bc6dd916386bd3",
+    "bytes": 149452,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Flareon.png",
+    "display_name": "Flareon",
+    "public_id": "pokemon/ebamfzhm7ey1jhiesgrl",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955093/pokemon/ebamfzhm7ey1jhiesgrl.png",
+    "asset_id": "aaee2a578402fbfbc5fb423df04a67e8",
+    "bytes": 149971,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Gastly.png",
+    "display_name": "Gastly",
+    "public_id": "pokemon/rojudwsacj0mv2dhlbsq",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955093/pokemon/rojudwsacj0mv2dhlbsq.png",
+    "asset_id": "1198ee93db1c75e68f0b0aba19f32103",
+    "bytes": 176993,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Gengar.png",
+    "display_name": "Gengar",
+    "public_id": "pokemon/gxnrjlp9ph9cwim9vn5a",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955094/pokemon/gxnrjlp9ph9cwim9vn5a.png",
+    "asset_id": "d417bd97c7532669ee33739035920e7d",
+    "bytes": 144713,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Geodude.png",
+    "display_name": "Geodude",
+    "public_id": "pokemon/wlkmcp8lypsshfqh2h0f",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955094/pokemon/wlkmcp8lypsshfqh2h0f.png",
+    "asset_id": "39713673d285967bdb3e8158fd490b51",
+    "bytes": 76553,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Gloom.png",
+    "display_name": "Gloom",
+    "public_id": "pokemon/j5tv9j9hgioxfj4tw67y",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955095/pokemon/j5tv9j9hgioxfj4tw67y.png",
+    "asset_id": "65697cc24692572439620f31acdc06b3",
+    "bytes": 155247,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Golbat.png",
+    "display_name": "Golbat",
+    "public_id": "pokemon/rmqpacuhltksuzd51zlg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955096/pokemon/rmqpacuhltksuzd51zlg.png",
+    "asset_id": "b1b5705506b01a7398571ab0706f2b4e",
+    "bytes": 117478,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Goldeen.png",
+    "display_name": "Goldeen",
+    "public_id": "pokemon/rqtrrirayqj7plw36lb1",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955096/pokemon/rqtrrirayqj7plw36lb1.png",
+    "asset_id": "26a2cd03b0817972e411e5f47750eb9a",
+    "bytes": 104649,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Golduck.png",
+    "display_name": "Golduck",
+    "public_id": "pokemon/yhk0u9iwhvvkf5z1mxpi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955097/pokemon/yhk0u9iwhvvkf5z1mxpi.png",
+    "asset_id": "ba265b8684c992d2ea1061d4ad1a2221",
+    "bytes": 128809,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Golem.png",
+    "display_name": "Golem",
+    "public_id": "pokemon/w39orsrudghpiqutyjzy",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955097/pokemon/w39orsrudghpiqutyjzy.png",
+    "asset_id": "70592c51e3d4dc256ab4a309e9c6652f",
+    "bytes": 179897,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Graveler.png",
+    "display_name": "Graveler",
+    "public_id": "pokemon/wkfwlaxndnsth8daysz4",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955098/pokemon/wkfwlaxndnsth8daysz4.png",
+    "asset_id": "de2672a6e5493615619434237a406f3d",
+    "bytes": 101284,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Grimer.png",
+    "display_name": "Grimer",
+    "public_id": "pokemon/x1lyzz94rwnsdvbrbqec",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955098/pokemon/x1lyzz94rwnsdvbrbqec.png",
+    "asset_id": "6f52eb4d3aa739ef3181df55b1e1b356",
+    "bytes": 122585,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Growlithe.png",
+    "display_name": "Growlithe",
+    "public_id": "pokemon/nipxrrn01yxy1yfevc2b",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955099/pokemon/nipxrrn01yxy1yfevc2b.png",
+    "asset_id": "0d9e0a1b6d49f93fc3f1e413d081b077",
+    "bytes": 151687,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Gyarados.png",
+    "display_name": "Gyarados",
+    "public_id": "pokemon/opa0z7gns2s0npjiyo5v",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955100/pokemon/opa0z7gns2s0npjiyo5v.png",
+    "asset_id": "2372d360bcf65f2d7b761fdba5363a05",
+    "bytes": 146784,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Haunter.png",
+    "display_name": "Haunter",
+    "public_id": "pokemon/hflvamvwudnpavnddttk",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955100/pokemon/hflvamvwudnpavnddttk.png",
+    "asset_id": "55fe0ddd7f8ba3a206674fef43c7337d",
+    "bytes": 105214,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Hitmonchan.png",
+    "display_name": "Hitmonchan",
+    "public_id": "pokemon/bphb0ykwiuomi1uofsbl",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955101/pokemon/bphb0ykwiuomi1uofsbl.png",
+    "asset_id": "99d3f97697f87a30d349898bfe182af3",
+    "bytes": 109569,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Hitmonlee.png",
+    "display_name": "Hitmonlee",
+    "public_id": "pokemon/wccarp7xzf4i0p9oxqdf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955101/pokemon/wccarp7xzf4i0p9oxqdf.png",
+    "asset_id": "6a936691520e83091c38b712cc5f62f4",
+    "bytes": 96141,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Horsea.png",
+    "display_name": "Horsea",
+    "public_id": "pokemon/asei7jlyec3rqrftydvk",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955102/pokemon/asei7jlyec3rqrftydvk.png",
+    "asset_id": "2c7116beca9478b461d17edf6d165e60",
+    "bytes": 140766,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Hypno.png",
+    "display_name": "Hypno",
+    "public_id": "pokemon/ttiwf7ybldpunsnbgrnn",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955102/pokemon/ttiwf7ybldpunsnbgrnn.png",
+    "asset_id": "2bc95fde2f05a780107a27fbd71a6331",
+    "bytes": 152976,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Ivysaur.png",
+    "display_name": "Ivysaur",
+    "public_id": "pokemon/q0ej2kk5ezdptwkb4xij",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955103/pokemon/q0ej2kk5ezdptwkb4xij.png",
+    "asset_id": "cf86a39a07b02d1ee15761e573a0dacd",
+    "bytes": 202759,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Jigglypuff.png",
+    "display_name": "Jigglypuff",
+    "public_id": "pokemon/abqo2qf10mqya2z5yz8r",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955103/pokemon/abqo2qf10mqya2z5yz8r.png",
+    "asset_id": "f860e8b9da6d9615b069fd377f80a7e5",
+    "bytes": 147602,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Jolteon.png",
+    "display_name": "Jolteon",
+    "public_id": "pokemon/fkuxvilwzkgwfgcbhpem",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955104/pokemon/fkuxvilwzkgwfgcbhpem.png",
+    "asset_id": "b0857af84b309cda92397072d0187f6e",
+    "bytes": 141908,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Jynx.png",
+    "display_name": "Jynx",
+    "public_id": "pokemon/uvdyvltz4tmrerxmsmp9",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955105/pokemon/uvdyvltz4tmrerxmsmp9.png",
+    "asset_id": "ad194c377e2f31f19777903c4570da92",
+    "bytes": 156134,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Kabuto.png",
+    "display_name": "Kabuto",
+    "public_id": "pokemon/eczuxsw9pvqrmfhiqnhm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955105/pokemon/eczuxsw9pvqrmfhiqnhm.png",
+    "asset_id": "357014d20bc4d5cf15285d88bf38c8f7",
+    "bytes": 155463,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Kabutops.png",
+    "display_name": "Kabutops",
+    "public_id": "pokemon/bvkt6lmu1yxrn7knnar9",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955106/pokemon/bvkt6lmu1yxrn7knnar9.png",
+    "asset_id": "4ac7f46c55bfbf4f334b982db795bd86",
+    "bytes": 136055,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Kadabra.png",
+    "display_name": "Kadabra",
+    "public_id": "pokemon/lqybrfspygf2fmc1oivn",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955106/pokemon/lqybrfspygf2fmc1oivn.png",
+    "asset_id": "06fe8c14ca7b5f4e82e0a6b5331eba46",
+    "bytes": 166555,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Kakuna.png",
+    "display_name": "Kakuna",
+    "public_id": "pokemon/tjkhhzinjmjd69a6ijf5",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955107/pokemon/tjkhhzinjmjd69a6ijf5.png",
+    "asset_id": "a54ade4f8054b342cd426da3bce536c4",
+    "bytes": 126542,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Kangaskhan.png",
+    "display_name": "Kangaskhan",
+    "public_id": "pokemon/bsz7vmwju2jrzatnhaj0",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955107/pokemon/bsz7vmwju2jrzatnhaj0.png",
+    "asset_id": "c0b96c1264a25c81f7408451731107af",
+    "bytes": 183110,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Kingler.png",
+    "display_name": "Kingler",
+    "public_id": "pokemon/rajg1jpbtcqlxifsgelm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955108/pokemon/rajg1jpbtcqlxifsgelm.png",
+    "asset_id": "6051f58cde271ac50b9750ee7f3fa8af",
+    "bytes": 113561,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Koffing.png",
+    "display_name": "Koffing",
+    "public_id": "pokemon/knztiawdm5budoeql4g8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955108/pokemon/knztiawdm5budoeql4g8.png",
+    "asset_id": "e129365239bba0348526f0195d1c3de7",
+    "bytes": 153356,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Krabby.png",
+    "display_name": "Krabby",
+    "public_id": "pokemon/yqnwffeh9zenwleap4th",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955109/pokemon/yqnwffeh9zenwleap4th.png",
+    "asset_id": "4574e8b4807ab048e13114e42c77a209",
+    "bytes": 118530,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Lapras.png",
+    "display_name": "Lapras",
+    "public_id": "pokemon/b1rwekfyyezhqj8vglhi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955109/pokemon/b1rwekfyyezhqj8vglhi.png",
+    "asset_id": "68ee5ae2c6006d78d74421348f05ff28",
+    "bytes": 135952,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Lickitung.png",
+    "display_name": "Lickitung",
+    "public_id": "pokemon/b7u7sonjadrd8klemykd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955110/pokemon/b7u7sonjadrd8klemykd.png",
+    "asset_id": "1a6bc517271fdafc2041f095493552cd",
+    "bytes": 187105,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Machamp.png",
+    "display_name": "Machamp",
+    "public_id": "pokemon/mjmdcrmodnn68cmao0vd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955111/pokemon/mjmdcrmodnn68cmao0vd.png",
+    "asset_id": "68438982bb2d42b97282a32473e658c1",
+    "bytes": 151393,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Machoke.png",
+    "display_name": "Machoke",
+    "public_id": "pokemon/ojdslc36g4gvjehinume",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955111/pokemon/ojdslc36g4gvjehinume.png",
+    "asset_id": "f86e275389f14c1d39e3756a8264bc85",
+    "bytes": 169060,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Machop.png",
+    "display_name": "Machop",
+    "public_id": "pokemon/uhgdufbjphhsyjsjdihh",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955113/pokemon/uhgdufbjphhsyjsjdihh.png",
+    "asset_id": "09236a18e6444c51ff37003e2d2f869f",
+    "bytes": 132188,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Magikarp.png",
+    "display_name": "Magikarp",
+    "public_id": "pokemon/n5ivkb52xugbn89t5bi4",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955114/pokemon/n5ivkb52xugbn89t5bi4.png",
+    "asset_id": "9c14d3c5c5d9be7f86dacc771eed2295",
+    "bytes": 136990,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Magmar.png",
+    "display_name": "Magmar",
+    "public_id": "pokemon/wjaj4qc0gl1d913auxhf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955115/pokemon/wjaj4qc0gl1d913auxhf.png",
+    "asset_id": "c3d48a9bf7efb1846b41944313fc1e8f",
+    "bytes": 159154,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Magnemite.png",
+    "display_name": "Magnemite",
+    "public_id": "pokemon/j6klbtjamo2kszewyomo",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955115/pokemon/j6klbtjamo2kszewyomo.png",
+    "asset_id": "956773c67df54e1680f25fdb66ca02d7",
+    "bytes": 96595,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Magneton.png",
+    "display_name": "Magneton",
+    "public_id": "pokemon/cghy41nob7o2mpjwvuiz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955116/pokemon/cghy41nob7o2mpjwvuiz.png",
+    "asset_id": "da24b5c482ca47a8554447e395108c59",
+    "bytes": 166284,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Mankey.png",
+    "display_name": "Mankey",
+    "public_id": "pokemon/hdfafkwaytdddxz88spt",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955117/pokemon/hdfafkwaytdddxz88spt.png",
+    "asset_id": "61e69a4d133b708e461e9993a17148ae",
+    "bytes": 101437,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Marowak.png",
+    "display_name": "Marowak",
+    "public_id": "pokemon/ixcphe1krr9goipbheiu",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955117/pokemon/ixcphe1krr9goipbheiu.png",
+    "asset_id": "24f47d52b11b17a5db1e6f0b72886e5e",
+    "bytes": 133817,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Meowth.png",
+    "display_name": "Meowth",
+    "public_id": "pokemon/kddhaq98twf08tnplkvc",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955118/pokemon/kddhaq98twf08tnplkvc.png",
+    "asset_id": "cc4703e781490410553c339a307d4757",
+    "bytes": 115809,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Metapod.png",
+    "display_name": "Metapod",
+    "public_id": "pokemon/mn1sm8zgw538ji1sozyi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955118/pokemon/mn1sm8zgw538ji1sozyi.png",
+    "asset_id": "f90b914c985647e4970a4052965d938e",
+    "bytes": 118885,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Mew.png",
+    "display_name": "Mew",
+    "public_id": "pokemon/jga6sihkztxo7omkjk6q",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955119/pokemon/jga6sihkztxo7omkjk6q.png",
+    "asset_id": "4a3c0422d99831e9ea3d8c8eb1fc0b2e",
+    "bytes": 133175,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Mewtwo.png",
+    "display_name": "Mewtwo",
+    "public_id": "pokemon/yrvw9dfssm92r9nyfcia",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955120/pokemon/yrvw9dfssm92r9nyfcia.png",
+    "asset_id": "04f277aed1dc4d33d7069df693374e68",
+    "bytes": 119320,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Moltres.png",
+    "display_name": "Moltres",
+    "public_id": "pokemon/sfnfwknfewqzilmw4mai",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955120/pokemon/sfnfwknfewqzilmw4mai.png",
+    "asset_id": "073a5c8d16063203fcfb4dd67634cb5a",
+    "bytes": 94816,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Mr-mime.png",
+    "display_name": "Mr-mime",
+    "public_id": "pokemon/rfyshsnbm9szw2ik1dzi",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955121/pokemon/rfyshsnbm9szw2ik1dzi.png",
+    "asset_id": "dfb7c7b618ab507007a93da1d53776d0",
+    "bytes": 160464,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Muk.png",
+    "display_name": "Muk",
+    "public_id": "pokemon/srggc2uroibn6zamcesh",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955122/pokemon/srggc2uroibn6zamcesh.png",
+    "asset_id": "f608c634b083505553e9b7cc92fd601b",
+    "bytes": 87396,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Nidoking.png",
+    "display_name": "Nidoking",
+    "public_id": "pokemon/bx2lw5cu3ym7onb8vtls",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955122/pokemon/bx2lw5cu3ym7onb8vtls.png",
+    "asset_id": "0a69ac67e222f5f546caf0697ee1164c",
+    "bytes": 150283,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Nidoqueen.png",
+    "display_name": "Nidoqueen",
+    "public_id": "pokemon/fwnk9rfp94hu66prlryg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955123/pokemon/fwnk9rfp94hu66prlryg.png",
+    "asset_id": "f21587eb846393f9cfbd8275e3b3940d",
+    "bytes": 186330,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Nidoran-f.png",
+    "display_name": "Nidoran-f",
+    "public_id": "pokemon/cxv8jvf2bxydvw2qgdzw",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955123/pokemon/cxv8jvf2bxydvw2qgdzw.png",
+    "asset_id": "0f4f3e5ff61d4abf8977721ec8f3f6b0",
+    "bytes": 178682,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Nidoran-m.png",
+    "display_name": "Nidoran-m",
+    "public_id": "pokemon/neqdsbxiolgankkttopw",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955124/pokemon/neqdsbxiolgankkttopw.png",
+    "asset_id": "38d8dedddecf753812bdacfb91354c97",
+    "bytes": 167589,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Nidorina.png",
+    "display_name": "Nidorina",
+    "public_id": "pokemon/siwpyva2qfz6uxeyayx8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955125/pokemon/siwpyva2qfz6uxeyayx8.png",
+    "asset_id": "eb71fcd41708a5531f7fdf867d3c6af9",
+    "bytes": 143213,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Nidorino.png",
+    "display_name": "Nidorino",
+    "public_id": "pokemon/zlbg3qidr5endxwlhm0o",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955125/pokemon/zlbg3qidr5endxwlhm0o.png",
+    "asset_id": "d6ba0f8b5fb6c9cd64bf05df953d7e0c",
+    "bytes": 156769,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Ninetales.png",
+    "display_name": "Ninetales",
+    "public_id": "pokemon/yxpp2yaew30fgavmnu1k",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955126/pokemon/yxpp2yaew30fgavmnu1k.png",
+    "asset_id": "e95b2955d2d2655f24c58e9e09db4249",
+    "bytes": 184128,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Oddish.png",
+    "display_name": "Oddish",
+    "public_id": "pokemon/evc7kjzho9q1rw8n0qun",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955127/pokemon/evc7kjzho9q1rw8n0qun.png",
+    "asset_id": "a1b28bc348b63ad63deb0251b6aaa023",
+    "bytes": 134223,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Omanyte.png",
+    "display_name": "Omanyte",
+    "public_id": "pokemon/j2aae3xeq834oocvtptd",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955127/pokemon/j2aae3xeq834oocvtptd.png",
+    "asset_id": "0b2b086e439e4b5a8b93103776a72c5a",
+    "bytes": 173927,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Omastar.png",
+    "display_name": "Omastar",
+    "public_id": "pokemon/rakm2idkbknq3v6cfdrk",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955128/pokemon/rakm2idkbknq3v6cfdrk.png",
+    "asset_id": "57e25aafcd4cd2280a8ea988970aa2c2",
+    "bytes": 160396,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Onix.png",
+    "display_name": "Onix",
+    "public_id": "pokemon/q9wifrvq0zzx7uhnxppt",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955128/pokemon/q9wifrvq0zzx7uhnxppt.png",
+    "asset_id": "8ea42fc78da977f4bbec21939adc755e",
+    "bytes": 159278,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Paras.png",
+    "display_name": "Paras",
+    "public_id": "pokemon/s2oeikrdlazr7je1wqqx",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955129/pokemon/s2oeikrdlazr7je1wqqx.png",
+    "asset_id": "983d36230caaed12d4ad1c87c2a8e34b",
+    "bytes": 149527,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Parasect.png",
+    "display_name": "Parasect",
+    "public_id": "pokemon/ovzic6v4o6pbawqra00p",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955130/pokemon/ovzic6v4o6pbawqra00p.png",
+    "asset_id": "5df51843aef9e47104bf801982adc0de",
+    "bytes": 152882,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Persian.png",
+    "display_name": "Persian",
+    "public_id": "pokemon/u9nn1g8uyeir6eivgh69",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955130/pokemon/u9nn1g8uyeir6eivgh69.png",
+    "asset_id": "b7a7f59f862b714bb3650fdcb0fb8de0",
+    "bytes": 118816,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Pidgeot.png",
+    "display_name": "Pidgeot",
+    "public_id": "pokemon/bsbrq6ya3oqqbrhcm7wf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955131/pokemon/bsbrq6ya3oqqbrhcm7wf.png",
+    "asset_id": "822ea2af9b179960a1c51a3366043321",
+    "bytes": 147161,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Pidgeotto.png",
+    "display_name": "Pidgeotto",
+    "public_id": "pokemon/mvo9ixnjsc1cfdebs6a1",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955132/pokemon/mvo9ixnjsc1cfdebs6a1.png",
+    "asset_id": "b169c8f610100f92852eaa53f96e65a3",
+    "bytes": 158875,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Pidgey.png",
+    "display_name": "Pidgey",
+    "public_id": "pokemon/bsqaee0cjudduh5g7siz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955132/pokemon/bsqaee0cjudduh5g7siz.png",
+    "asset_id": "ffec8f8330675b3979a475f80a00f869",
+    "bytes": 145917,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Pikachu.png",
+    "display_name": "Pikachu",
+    "public_id": "pokemon/czwu6nt9f8jycql4o2ze",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955133/pokemon/czwu6nt9f8jycql4o2ze.png",
+    "asset_id": "1aa3dc2dddf6a06186d9e2ae5b112a95",
+    "bytes": 118057,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Pinsir.png",
+    "display_name": "Pinsir",
+    "public_id": "pokemon/qalwtyze89ojdd1xxp3i",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955134/pokemon/qalwtyze89ojdd1xxp3i.png",
+    "asset_id": "9a9e3fa7ecf3f07b44d173fbce06a1f4",
+    "bytes": 142435,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Poliwag.png",
+    "display_name": "Poliwag",
+    "public_id": "pokemon/gpmgchazdlxaeecehmlj",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955134/pokemon/gpmgchazdlxaeecehmlj.png",
+    "asset_id": "c4e9f6323f0c22e5a2266999c6f6c31e",
+    "bytes": 133801,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Poliwhirl.png",
+    "display_name": "Poliwhirl",
+    "public_id": "pokemon/nblvmw2fnjn75q4ipo8x",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955135/pokemon/nblvmw2fnjn75q4ipo8x.png",
+    "asset_id": "bf23dba2d589d186404d34b7fd3f0a1d",
+    "bytes": 150225,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Poliwrath.png",
+    "display_name": "Poliwrath",
+    "public_id": "pokemon/jn7yhdg44q1cg7n00l0j",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955136/pokemon/jn7yhdg44q1cg7n00l0j.png",
+    "asset_id": "f663654d928db164ae0fee1d349edc8c",
+    "bytes": 115518,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Ponyta.png",
+    "display_name": "Ponyta",
+    "public_id": "pokemon/j12jwgcsow77kj5r9q0e",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955136/pokemon/j12jwgcsow77kj5r9q0e.png",
+    "asset_id": "2cce691e4af63066077f2ce70b1fdcbe",
+    "bytes": 125214,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Porygon.png",
+    "display_name": "Porygon",
+    "public_id": "pokemon/yce6kxmaegyfzstyxpn7",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955137/pokemon/yce6kxmaegyfzstyxpn7.png",
+    "asset_id": "e85bd2178c113b2cf035d39d3cc3cbbc",
+    "bytes": 153642,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Primeape.png",
+    "display_name": "Primeape",
+    "public_id": "pokemon/iqqfz9roe3l8qnzl7ecz",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955137/pokemon/iqqfz9roe3l8qnzl7ecz.png",
+    "asset_id": "46435685603e52eab5de58429a6b0358",
+    "bytes": 161289,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Psyduck.png",
+    "display_name": "Psyduck",
+    "public_id": "pokemon/ofqztelctjmhrwxum9gm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955138/pokemon/ofqztelctjmhrwxum9gm.png",
+    "asset_id": "e9649b5635c0caf116a5835fbad165d8",
+    "bytes": 117239,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Raichu.png",
+    "display_name": "Raichu",
+    "public_id": "pokemon/ppeome7qj0qeo8br5dku",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955139/pokemon/ppeome7qj0qeo8br5dku.png",
+    "asset_id": "39cdf14dfb80ebcd9cf952cd7bc827b8",
+    "bytes": 94288,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Rapidash.png",
+    "display_name": "Rapidash",
+    "public_id": "pokemon/l1fjf2av93g6jljztcgj",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955139/pokemon/l1fjf2av93g6jljztcgj.png",
+    "asset_id": "de76294c037178593018494f914924a1",
+    "bytes": 172853,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Raticate.png",
+    "display_name": "Raticate",
+    "public_id": "pokemon/y2pmybr7hmbb8q1t4mna",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955140/pokemon/y2pmybr7hmbb8q1t4mna.png",
+    "asset_id": "873a835554ba5dc3c2b0178e81d7a88c",
+    "bytes": 154497,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Rattata.png",
+    "display_name": "Rattata",
+    "public_id": "pokemon/kopcc0x6ak4lcincoanm",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955140/pokemon/kopcc0x6ak4lcincoanm.png",
+    "asset_id": "d34767c4a857b00febfe49d7bc79064d",
+    "bytes": 125067,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Rhydon.png",
+    "display_name": "Rhydon",
+    "public_id": "pokemon/ywbvna8q6igmfqlae1ey",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955141/pokemon/ywbvna8q6igmfqlae1ey.png",
+    "asset_id": "e43af27680ecc0e3a035b6c8cd623150",
+    "bytes": 137603,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Rhyhorn.png",
+    "display_name": "Rhyhorn",
+    "public_id": "pokemon/k8kfesvxhelucgu5epbc",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955142/pokemon/k8kfesvxhelucgu5epbc.png",
+    "asset_id": "6da22699a8835f0fc987a11e1ef5cd09",
+    "bytes": 184215,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Sandshrew.png",
+    "display_name": "Sandshrew",
+    "public_id": "pokemon/n7o9qepahmrtxdyxhc8j",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955142/pokemon/n7o9qepahmrtxdyxhc8j.png",
+    "asset_id": "ce306ff9744766f70fa9e5f9852a0eab",
+    "bytes": 173758,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Sandslash.png",
+    "display_name": "Sandslash",
+    "public_id": "pokemon/lsdbrih4ub8ynmlyza6x",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955143/pokemon/lsdbrih4ub8ynmlyza6x.png",
+    "asset_id": "67ab2db4036b41f72dc29343dea9685c",
+    "bytes": 148038,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Scyther.png",
+    "display_name": "Scyther",
+    "public_id": "pokemon/m4mabaiesq9u0fvgezsv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955143/pokemon/m4mabaiesq9u0fvgezsv.png",
+    "asset_id": "71df40fb5152a2bfa5b6cc0d1a0cd750",
+    "bytes": 131534,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Seadra.png",
+    "display_name": "Seadra",
+    "public_id": "pokemon/wofgc1reqpwlx7d7ejvv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955144/pokemon/wofgc1reqpwlx7d7ejvv.png",
+    "asset_id": "c67086aa0edf6e204b56c79840146b9c",
+    "bytes": 127820,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Seaking.png",
+    "display_name": "Seaking",
+    "public_id": "pokemon/nxcykgrxpbvwivd5tayg",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955144/pokemon/nxcykgrxpbvwivd5tayg.png",
+    "asset_id": "8422228d307d7090909c26d75a96592d",
+    "bytes": 174542,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Seel.png",
+    "display_name": "Seel",
+    "public_id": "pokemon/kuqz515tmoydmreeuwro",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955145/pokemon/kuqz515tmoydmreeuwro.png",
+    "asset_id": "d1aebe8ff951e882e68d4bdf41e96d27",
+    "bytes": 130146,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Shellder.png",
+    "display_name": "Shellder",
+    "public_id": "pokemon/a6yyfotwap64cumrervp",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955146/pokemon/a6yyfotwap64cumrervp.png",
+    "asset_id": "83798239e978e40d903dade7fc8265da",
+    "bytes": 175387,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Slowbro.png",
+    "display_name": "Slowbro",
+    "public_id": "pokemon/hb7zupfx9jqvoeu4hz1x",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955146/pokemon/hb7zupfx9jqvoeu4hz1x.png",
+    "asset_id": "c2203426c0da2e2f0a7b7bb794df5bf8",
+    "bytes": 185275,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Slowpoke.png",
+    "display_name": "Slowpoke",
+    "public_id": "pokemon/a7wqo9ehdxwslxiwq33z",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955147/pokemon/a7wqo9ehdxwslxiwq33z.png",
+    "asset_id": "49a5a63083349680f8f6c370abd3c52a",
+    "bytes": 126460,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Snorlax.png",
+    "display_name": "Snorlax",
+    "public_id": "pokemon/gu0j0i3vjychwl9msbbf",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955147/pokemon/gu0j0i3vjychwl9msbbf.png",
+    "asset_id": "ddee53f20d96a396cf88f973279884fc",
+    "bytes": 139225,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Spearow.png",
+    "display_name": "Spearow",
+    "public_id": "pokemon/q09ngyifttyxyygvsvxa",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955148/pokemon/q09ngyifttyxyygvsvxa.png",
+    "asset_id": "8137bed348d32741879b560f9951a79a",
+    "bytes": 144705,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Squirtle.png",
+    "display_name": "Squirtle",
+    "public_id": "pokemon/nsvjwdq0xxw3meubjqjp",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955149/pokemon/nsvjwdq0xxw3meubjqjp.png",
+    "asset_id": "05f2b2eeedb5945594f0033842f7c30b",
+    "bytes": 155045,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Starmie.png",
+    "display_name": "Starmie",
+    "public_id": "pokemon/yvmqpcjb8tzkfzmhgu12",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955149/pokemon/yvmqpcjb8tzkfzmhgu12.png",
+    "asset_id": "8677f4da67c057c83afaee1ab9892973",
+    "bytes": 198724,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Staryu.png",
+    "display_name": "Staryu",
+    "public_id": "pokemon/gbrpzenjfphk0dx2s1la",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955150/pokemon/gbrpzenjfphk0dx2s1la.png",
+    "asset_id": "58adc0ca45a4b6908fac67f8a500055a",
+    "bytes": 157316,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Tangela.png",
+    "display_name": "Tangela",
+    "public_id": "pokemon/h3erpjuebxubcyjuy5th",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955151/pokemon/h3erpjuebxubcyjuy5th.png",
+    "asset_id": "8f1f08f02bdf6a9f71746c4d80c4521b",
+    "bytes": 221832,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Tauros.png",
+    "display_name": "Tauros",
+    "public_id": "pokemon/jq1a3bsa9tslfscxtb0y",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955151/pokemon/jq1a3bsa9tslfscxtb0y.png",
+    "asset_id": "5b9abd6d3d8aac5becd06e585362526e",
+    "bytes": 129530,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Tentacool.png",
+    "display_name": "Tentacool",
+    "public_id": "pokemon/viyrfhoc2tdcpz9fge6z",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955152/pokemon/viyrfhoc2tdcpz9fge6z.png",
+    "asset_id": "78822641195f154dccf9557acced0cd1",
+    "bytes": 115945,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Tentacruel.png",
+    "display_name": "Tentacruel",
+    "public_id": "pokemon/waoaffsuxjzmhxysxa8h",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955152/pokemon/waoaffsuxjzmhxysxa8h.png",
+    "asset_id": "ba821bf370aed5b8c29af62a985a7acf",
+    "bytes": 156862,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Vaporeon.png",
+    "display_name": "Vaporeon",
+    "public_id": "pokemon/v1sse5fptnnkb60ogoyy",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955153/pokemon/v1sse5fptnnkb60ogoyy.png",
+    "asset_id": "d6c361962de4499a1f0dce081656117e",
+    "bytes": 157955,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Venomoth.png",
+    "display_name": "Venomoth",
+    "public_id": "pokemon/kcfyyw4e7td943qcoxmb",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955153/pokemon/kcfyyw4e7td943qcoxmb.png",
+    "asset_id": "d99747b04f55f44bd26caf4ffdd9ae6a",
+    "bytes": 117073,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Venonat.png",
+    "display_name": "Venonat",
+    "public_id": "pokemon/b1jhendp102ooatorvhy",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955154/pokemon/b1jhendp102ooatorvhy.png",
+    "asset_id": "bbac6ff32bfdd6e0b57635e5751e1b64",
+    "bytes": 142257,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Venusaur.png",
+    "display_name": "Venusaur",
+    "public_id": "pokemon/jkmgsqyyuwxgcholqzr0",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955154/pokemon/jkmgsqyyuwxgcholqzr0.png",
+    "asset_id": "4e8ea52959e9e2d52e390a0c5c6e6b09",
+    "bytes": 186011,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Victreebel.png",
+    "display_name": "Victreebel",
+    "public_id": "pokemon/wlndnusptilkascsdx21",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955155/pokemon/wlndnusptilkascsdx21.png",
+    "asset_id": "4cbcdd336a1471f6151d47533f3a2777",
+    "bytes": 140003,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Vileplume.png",
+    "display_name": "Vileplume",
+    "public_id": "pokemon/dpzi7hrhkeqyl4eqw8pe",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955156/pokemon/dpzi7hrhkeqyl4eqw8pe.png",
+    "asset_id": "83173915e038ae689c4f549680bd8e2d",
+    "bytes": 155232,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Voltorb.png",
+    "display_name": "Voltorb",
+    "public_id": "pokemon/pfbwmyhiyasvobnizml8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955156/pokemon/pfbwmyhiyasvobnizml8.png",
+    "asset_id": "b84c0a78b398e2bf98c9a7e8ef78f40b",
+    "bytes": 181951,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Vulpix.png",
+    "display_name": "Vulpix",
+    "public_id": "pokemon/n8oeae3zptuy7rjhmbnh",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955157/pokemon/n8oeae3zptuy7rjhmbnh.png",
+    "asset_id": "5d2ed0d7f1dc3bac80d97322d1227aa5",
+    "bytes": 157357,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Wartortle.png",
+    "display_name": "Wartortle",
+    "public_id": "pokemon/teohc59wycltjy78m3xp",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955157/pokemon/teohc59wycltjy78m3xp.png",
+    "asset_id": "1622835b9f2e21d6f296b44c439de220",
+    "bytes": 179754,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Weedle.png",
+    "display_name": "Weedle",
+    "public_id": "pokemon/d0trs2semmfus30apyhv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955158/pokemon/d0trs2semmfus30apyhv.png",
+    "asset_id": "ee7e35506da232d8a71b3bd96b066e25",
+    "bytes": 108372,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Weepinbell.png",
+    "display_name": "Weepinbell",
+    "public_id": "pokemon/hfdyuqnhlcrwtm0rcrw8",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955159/pokemon/hfdyuqnhlcrwtm0rcrw8.png",
+    "asset_id": "f76a04c9bac1fb0ef1e7b370bc09fd23",
+    "bytes": 118882,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Weezing.png",
+    "display_name": "Weezing",
+    "public_id": "pokemon/la2pgaieibavd97avtig",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955159/pokemon/la2pgaieibavd97avtig.png",
+    "asset_id": "9e583515c75d031746c87a8095a03017",
+    "bytes": 148228,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Wigglytuff.png",
+    "display_name": "Wigglytuff",
+    "public_id": "pokemon/cuuago9qq8y5kuv0v81k",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955160/pokemon/cuuago9qq8y5kuv0v81k.png",
+    "asset_id": "72e6bba085c95c44a154b712a7ad9ea5",
+    "bytes": 133899,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Zapdos.png",
+    "display_name": "Zapdos",
+    "public_id": "pokemon/fgytcwqe5c0jn6xonwpv",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955161/pokemon/fgytcwqe5c0jn6xonwpv.png",
+    "asset_id": "8e8fb923ccd4ef3c3d3caf56adf533a8",
+    "bytes": 110704,
+    "width": 475,
+    "height": 475
+  },
+  {
+    "filename": "Zubat.png",
+    "display_name": "Zubat",
+    "public_id": "pokemon/gphjqw2yyytukplfqzwu",
+    "secure_url": "https://res.cloudinary.com/dwm53cbu2/image/upload/w_200,f_auto,q_auto:low,fl_lossy,fl_progressive,fl_strip_profile/v1760955161/pokemon/gphjqw2yyytukplfqzwu.png",
+    "asset_id": "3fa6c6d16cf5ede47f3b0b903acb4bf4",
+    "bytes": 107570,
+    "width": 475,
+    "height": 475
+  }
+]

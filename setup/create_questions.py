@@ -17,6 +17,7 @@ import sys
 import json
 import random
 import django
+from io import StringIO
 from pathlib import Path
 from django.core.management import call_command
 
@@ -448,23 +449,9 @@ def create_questions(config, quizzes, cloudinary_data, similarity_data=None):
 
         if question_count > 0:
             created_count += 1
-            status = "✅"
         else:
             updated_count += 1
-            status = "🔄"
 
-        print(f"{status} {country_code:7s} | {quiz.slug:30s} | {question_count} questões")
-
-    print()
-    print(f"📊 Quizzes processados: {created_count} | Atualizados: {updated_count}")
-
-    if errors:
-        print()
-        print("⚠️  AVISOS:")
-        for error in errors:
-            print(f"   {error}")
-
-    print()
     return created_count + updated_count
 
 
@@ -515,16 +502,6 @@ def export_question_fixtures(config, quizzes):
         
         # Exportar questões
         if question_pks:
-            questions_data = call_command('dumpdata', 'quizzes.Question',
-                                        indent=2, 
-                                        natural_foreign=True,
-                                        natural_primary=True,
-                                        pks=','.join(question_pks),
-                                        verbosity=0)
-            # call_command retorna None, precisamos usar StringIO
-            from io import StringIO
-            import json
-            
             # Capturar output do dumpdata
             output = StringIO()
             call_command('dumpdata', 'quizzes.Question',
@@ -553,9 +530,6 @@ def export_question_fixtures(config, quizzes):
         # Salvar como JSON válido
         with open(fixture_path, 'w', encoding='utf-8') as f:
             json.dump(all_objects, f, indent=2, ensure_ascii=False)
-        
-        print(f"✅ Fixture exportada: {fixture_path}")
-        print(f"📊 {len(questions_to_export)} questões e {len(answers_to_export)} respostas exportadas")
         
     except Exception as e:
         print(f"❌ Erro ao exportar fixture: {e}")

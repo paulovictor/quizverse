@@ -1,0 +1,236 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons",
+  "fields": {
+    "theme": "pokemon",
+    "quiz_group": "pokemons",
+    "title": "Acerte os Pokémon",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-BR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.082Z",
+    "updated_at": "2025-10-20T10:19:14.082Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-ar",
+  "fields": {
+    "theme": "pokemon-ar",
+    "quiz_group": "pokemons",
+    "title": "Acierta los Pokémon",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-AR",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.087Z",
+    "updated_at": "2025-10-20T10:19:14.087Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-au",
+  "fields": {
+    "theme": "pokemon-au",
+    "quiz_group": "pokemons",
+    "title": "Guess the Pokémon",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-AU",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.080Z",
+    "updated_at": "2025-10-20T10:19:14.080Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-ca",
+  "fields": {
+    "theme": "pokemon-ca",
+    "quiz_group": "pokemons",
+    "title": "Guess the Pokémon",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-CA",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.074Z",
+    "updated_at": "2025-10-20T10:19:14.074Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-co",
+  "fields": {
+    "theme": "pokemon-co",
+    "quiz_group": "pokemons",
+    "title": "Acierta los Pokémon",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-CO",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.088Z",
+    "updated_at": "2025-10-20T10:19:14.088Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-es",
+  "fields": {
+    "theme": "pokemon-es",
+    "quiz_group": "pokemons",
+    "title": "Acierta los Pokémon",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-ES",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.086Z",
+    "updated_at": "2025-10-20T10:19:14.086Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-gb",
+  "fields": {
+    "theme": "pokemon-gb",
+    "quiz_group": "pokemons",
+    "title": "Guess the Pokémon",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-GB",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.076Z",
+    "updated_at": "2025-10-20T10:19:14.076Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-in",
+  "fields": {
+    "theme": "pokemon-in",
+    "quiz_group": "pokemons",
+    "title": "Guess the Pokémon",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-IN",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.077Z",
+    "updated_at": "2025-10-20T10:19:14.077Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-mx",
+  "fields": {
+    "theme": "pokemon-mx",
+    "quiz_group": "pokemons",
+    "title": "Acierta los Pokémon",
+    "description": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "description_template": "¡Responde preguntas aleatorias! Pon a prueba tu conocimiento.",
+    "difficulty": "easy",
+    "country": "es-MX",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.085Z",
+    "updated_at": "2025-10-20T10:19:14.085Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-nz",
+  "fields": {
+    "theme": "pokemon-nz",
+    "quiz_group": "pokemons",
+    "title": "Guess the Pokémon",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-NZ",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.081Z",
+    "updated_at": "2025-10-20T10:19:14.081Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-ph",
+  "fields": {
+    "theme": "pokemon-ph",
+    "quiz_group": "pokemons",
+    "title": "Guess the Pokémon",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-PH",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.078Z",
+    "updated_at": "2025-10-20T10:19:14.078Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-pt",
+  "fields": {
+    "theme": "pokemon-pt",
+    "quiz_group": "pokemons",
+    "title": "Acerte os Pokémon",
+    "description": "Responda questões aleatórias! Teste seu conhecimento.",
+    "description_template": "Responda questões aleatórias! Teste seu conhecimento.",
+    "difficulty": "easy",
+    "country": "pt-PT",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.084Z",
+    "updated_at": "2025-10-20T10:19:14.084Z"
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": "pokemons-us",
+  "fields": {
+    "theme": "pokemon-us",
+    "quiz_group": "pokemons",
+    "title": "Guess the Pokémon",
+    "description": "Answer random questions! Test your knowledge.",
+    "description_template": "Answer random questions! Test your knowledge.",
+    "difficulty": "easy",
+    "country": "en-US",
+    "question_sample_size": 0,
+    "active": false,
+    "order": 1,
+    "created_at": "2025-10-20T10:19:14.071Z",
+    "updated_at": "2025-10-20T10:19:14.071Z"
+  }
+}
+]
